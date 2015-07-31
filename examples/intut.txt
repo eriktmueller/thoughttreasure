@@ -1,0 +1,9 @@
+Jacques Chirac is an enemy of François Mitterrand.
+He hates François Mitterrand.
+He uses tu with François Mitterrand.
+Lionel Jospin is an enemy of Jacques Chirac.
+He uses tu with Jacques Chirac.
+Jacques Chirac succeeded at being elected President of France.
+He is happy.
+Lionel Jospin is resentful toward Jacques Chirac.
+François Mitterrand is happy for Jacques Chirac.

@@ -1,0 +1,93 @@
+.\" -*- nroff -*-
+.TH TTKB 1
+.SH NAME
+ttkb \- query ThoughtTreasure knowledge base
+.SH SYNOPSIS
+ttkb
+.I key
+[-keytype] [-searchtype ...] [-html]
+.SH DESCRIPTION
+.B ttkb
+queries the ThoughtTreasure commonsense knowledge base and lexicon.
+.SH OPTIONS
+.TP
+.I -html
+Dump in HTML format.
+.PP
+keytype can be:
+.TP
+.I -grep
+Search for arbitrary string.
+.TP
+.I -le
+Query lexical entry unique identifier.
+.TP
+.I -obj
+Query object name.
+.TP
+.I -word
+Query word or phrase (default).
+.PP
+searchtype can be:
+.TP
+.I -anc
+Show ancestor concepts.
+.TP
+.I -assert
+Show assertions.
+.TP
+.I -child
+Show child concepts.
+.TP
+.I -desc
+Show descendant concepts.
+.TP
+.I -frame
+Show argument structure frames.
+.TP
+.I -parent
+Show parent concepts.
+.SH ENVIRONMENT VARIABLES
+.IP TTROOT
+must be set to the root directory of the ThoughtTreasure distribution.
+.SH EXAMPLES
+.TP
+ttkb 'carry-on bag'
+Show meanings.
+.TP
+ttkb put -frame
+Show argument structure frames.
+.TP
+ttkb food -desc
+Show hierarchy.
+.TP
+ttkb tennis-ball -obj -assert
+Show all assertions regarding an object.
+.TP
+ttkb tennis-ball -obj -anc -assert
+Show all assertions regarding an object and its ancestors.
+.TP
+ttkb ttkb green-Az -le
+Show lexical entry.
+.SH FILES
+.PD 0
+.TP
+.I $TTROOT/ttkb/infl.txt
+The inflections file.
+.TP
+.I $TTROOT/ttkb/le.txt
+The lexical entry file.
+.TP
+.I $TTROOT/ttkb/obj.txt
+The objects file.
+.PP
+The format of the above files is documented in
+.I $TTROOT/htm/ttkb.htm
+.SH SEE ALSO
+.B ttkb
+can be run from the web using the web page
+.I $TTROOT/python/query.htm
+and CGI script
+.I $TTROOT/python/query.cgi
+.SH AUTHOR
+Erik T. Mueller

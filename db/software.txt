@@ -1,0 +1,502 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=computer-program/media-object/computer# program›program*.πz/code.Tz/
+program›program.z/software.z/computer# software*.z/software# package*.z/
+application.z/procedural#A representation*.z/procedural.Az/programme.πMy/
+logiciel.My/reprÈsentation* procÈdurale*A.Fy/procÈdural.Az/progiciel.My/
+application.πFy/
+;_______________________________________________________________________________
+==version.z//release.z/generic.Óz/version.Fy/
+;_______________________________________________________________________________
+==database# software*.z//database.z/
+;_______________________________________________________________________________
+==development# software*.z//
+===IDE.z//
+;_______________________________________________________________________________
+==financial# software*.z//accounting# software*.z/
+===tax# software*.z//
+====tax# preparation# software*.z//income# tax# software*.z/
+====sales#P tax# software*.z//
+;_______________________________________________________________________________
+==spreadsheet.z//tableur.My/
+==*Lotus# 123*.Æ…z//123.Æ…z/|create§Lotus|
+==*Microsoft#Æ Excel*.Æ…z//Excel.Æ…z/|create§Microsoft|
+;_______________________________________________________________________________
+==office# suite*.z//office# software# suite*,office# software*.z/
+==*Microsoft#Æ Office*.Æ…z//|create§Microsoft|
+==*Corel#Æ Office#Æ Professional*.Æ…z//
+===*Corel#Æ Office#Æ Professional#A Suite# 6\.1*.Æ…z//
+===*Corel#Æ Office#Æ Professional#A 7*.Æ…z//
+==*Corel#Æ WordPerfect#Æ Suite*.Æ…z//
+===*Corel#Æ WordPerfect#Æ Suite# 6\.1*.Æ…z//
+===*Corel#Æ WordPerfect#Æ Suite# 7*.Æ…z//
+===*Corel#Æ WordPerfect#Æ Suite# 8*.Æ…z//
+===*Corel#Æ WordPerfect#Æ Suite# 8# Professional*.Æ…z//
+;_______________________________________________________________________________
+==word# processor*.z//word# processing*.Œz/traitement* de#R texte#.My/
+==*Microsoft#Æ Word*.Æ…z//Word.Æ…z/Microsoft#Æ Word*.Æ…y/|create§Microsoft|
+==*WordPerfect.Æ…z//WordPerfect.Æ…y/|product-of§Corel|
+===*Corel#Æ WordPerfect#Æ 3\.5*.Æ…z//
+===*Corel#Æ WordPerfect#Æ 5\.2*.Æ…z//
+===*Corel#Æ WordPerfect#Æ 6\.0*.Æ…z//
+===*Corel#Æ WordPerfect#Æ 6\.1*.Æ…z//
+===*Corel#Æ WordPerfect#Æ 7*.Æ…z//
+===*Corel#Æ WordPerfect#Æ 8*.Æ…z//
+;_______________________________________________________________________________
+==text# editor*.z//
+==*Emacs.…z//
+===*GNU# Emacs*.…z//
+==*vi.…z//
+;_______________________________________________________________________________
+==presentation# software*.z//
+==*Microsoft#Æ PowerPoint*.Æ…z//PowerPoint.Æ…z/|create§Microsoft|
+;_______________________________________________________________________________
+==design# software*.z//
+===desktop# publishing# software*.z//
+===photo# editing# software*.z//
+===graphics# software*.z//
+===multimedia# software*.z//
+;_______________________________________________________________________________
+==calendar# program*.z//calendar# software*.z/
+==scheduling# program*.z//scheduling# software*.z/
+;_______________________________________________________________________________
+==PIM.z//personal#A information# manager*.z/
+personal#A information# management*.Œz/
+==*Microsoft#Æ Outlook*.Æ…z//Outlook.Æ…z/|create§Microsoft|
+===*Microsoft#Æ Outlook# 97*.Æ…z//Outlook# 97*.Æ…z/
+===*Microsoft#Æ Outlook# 98*.Æ…z//Outlook# 98*.Æ…z/
+;_______________________________________________________________________________
+==software# sequencer*.z//sequencer.z/
+==*Performer.Æ…z//|product-of§MOTU|
+===*Digital#A Performer*.Æ…z//
+==*Vision.Æ…z//|product-of§Opcode|
+===*Studio#A Vision*.Æ…z//
+;_______________________________________________________________________________
+==utility# software*.z//utilities.PÔz/
+===antivirus# software*.z//
+;_______________________________________________________________________________
+==video#A game*.z//jeu* vidÈo*ﬂA.My/|entertaining|
+;_______________________________________________________________________________
+==window# system*.z//windowing# system*.oz/
+==*X-window-system//X.z/X# Window# system*.z/X# Windows#P.Tz/
+===*X11R4.z//
+===*X11R5.z//
+==*Motif.z//
+===*Motif# 1\.1*.z//
+===*Motif# 1\.2*.z//
+;_______________________________________________________________________________
+==operating# system*.z//OS.z/systËme* d#R'exploitation#F.πMy/
+;_______________________________________________________________________________
+===network# operating# system*.z//
+;_______________________________________________________________________________
+==*CP#\/M*.Æz//
+===*CP#\/M# 86*.Æz//
+==*CHORUS.z//
+==*Coherent.z//
+===*Coherent# 4\.0\.1r72*.z//
+==*EMCOS.Æz//
+==*GEOS.z//
+==*GNU# Hurd*.z//
+==*ICL.z//
+==*Multics.z//
+==*MVS.z//
+==*NetWare.Æz//
+==*OnSite.z//
+==*Plan9.Æz//
+==*SINIX#-Z*.z//
+==*ODT.z//|product-of=SCO|
+===*ODT# 1\.1*.z//
+===*ODT# 2\.0*.z//
+===*ODT# 3\.0*.z//
+==*OSF#\/1*.z//|product-of=DEC|
+==*QNX.z//
+==*VM.Æz//|product-of=IBM|
+==*VMS.Æz//|product-of=DEC|
+===*Open#A VMS# AXP# 1\.5*.Æz//
+===*Open#A VMS# 6\.1*.Æz//
+;_______________________________________________________________________________
+===DOS.Æz//
+===*Free#-DOS*.Æz//
+===*Super#-DOS*.Æz//
+===*MS#-DOS*.Æz//|product-of=Microsoft|
+====*MS#-DOS# 3\.3*.Æz//
+====*MS#-DOS# 4\.x*.Æz//
+====*MS#-DOS# 5\.0*.Æz//
+====*MS#-DOS# 6*.Æz//
+;_______________________________________________________________________________
+==*OS#\/2*.Æz//OS2.z/
+===*OS#\/2# Version# 1*.Æz//OS#\/2# 1\.x*.Æz/
+====*OS#\/2# 1\.29*.Æz//OS#\/2# v1\.29*.Æz/
+====*OS#\/2# 1\.3*.Æz//OS#\/2# v1\.3*.Æz/
+===*OS#\/2# Warp*.Æz//Warp.Æz/OS2# Warp*.Æz/|product-of=IBM|
+====*OS#\/2# Warp# 3\.0*.Æz//
+====*OS#\/2#-PPC*.Æz//
+====*OS#\/2#-x86*.Æz//
+;_______________________________________________________________________________
+==*OS#\/9*.Æz//
+;_______________________________________________________________________________
+==*MS#-Windows*.Æz//Windows.Æz/
+===*Windows# 3\.x*.Æz/window-system/
+====*Windows# 3\.0*.Æz//
+====*Windows# 3\.1*.Æz//
+=====*Windows# 3\.11*.Æz//
+===*Windows# 95#\/98*.Æz//Windows95#\/98*.Æz/
+====*Windows# 95*.Æz//Windows95.Æz/
+====*Windows# 98*.Æz//Windows98.Æz/
+===*Windows# NT*Æ.Æz//
+====*Windows# NT#Æ 3\.51*.z//
+;_______________________________________________________________________________
+==*Mac# OS*.Æz//MacOS.Æz/Macintosh# OS*.Æz/
+;_______________________________________________________________________________
+===*Mac# OS# System# 3\.0*.z//Mac# OS# 3\.0*.z/System# 3\.0*.z/
+===*Mac# OS# System# 3\.2*.z//Mac# OS# 3\.2*.z/System# 3\.2*.z/
+===*Mac# OS# System# 4\.0*.z//Mac# OS# 4\.0*.z/System# 4\.0*.z/
+===*Mac# OS# System# 4\.2*.z//Mac# OS# 4\.2*.z/System# 4\.2*.z/
+===*Mac# OS# System# 5\.1*.z//Mac# OS# 5\.1*.z/System# 5\.1*.z/
+;_______________________________________________________________________________
+===*Mac# OS# System# 6*.z//System# 6*.z/
+====*Mac# OS# System# 6\.0\.x*.z//Mac# OS# 6\.0\.x*.z/System# 6\.0\.x*.z/
+=====*Mac# OS# System# 6\.0\.2*.z//Mac# OS# 6\.0\.2*.z/System# 6\.0\.2*.z/
+=====*Mac# OS# System# 6\.0\.3*.z//Mac# OS# 6\.0\.3*.z/System# 6\.0\.3*.z/
+=====*Mac# OS# System# 6\.0\.7*.z//Mac# OS# 6\.0\.7*.z/System# 6\.0\.7*.z/
+=====*Mac# OS# System# 6\.0\.8*.z//Mac# OS# 6\.0\.8*.z/System# 6\.0\.8*.z/
+=====*Mac# OS# System# 6\.0\.8L*.z//Mac# OS# 6\.0\.8L*.z/System# 6\.0\.8L*.z/
+====*Mac# OS# System# 6\.4*.z//Mac# OS# 6\.4*.z/System# 6\.4*.z/
+;_______________________________________________________________________________
+===*Mac# OS# System# 7*.z//System# 7*.z/
+====*Mac# OS# System# 7\.0*.z//Mac# OS# 7\.0*.z/System# 7\.0*.z/
+=====*Mac# OS# System# 7\.0\.1*.z//Mac# OS# 7\.0\.1*.z/System# 7\.0\.1*.z/
+====*Mac# OS# System# 7\.1*.z//Mac# OS# 7\.1*.z/System# 7\.1*.z/
+=====*Mac# OS# System# 7\.1\.2*.z//Mac# OS# 7\.1\.2*.z/System# 7\.1\.2*.z/
+=====*Mac# OS# System# 7\.1\.3*.z//Mac# OS# 7\.1\.3*.z/System# 7\.1\.3*.z/
+;_______________________________________________________________________________
+====*Mac# OS# System# 7\.5*.z//Mac# OS# 7\.5*.z/System# 7\.5*.z/
+Mac# OS# System# 7\.5\.x*.z/Mac# OS# 7\.5\.x*.z/System# 7\.5\.x*.z/
+=====*Mac# OS# System# 7\.5\.1*.z//Mac# OS# 7\.5\.1*.z/System# 7\.5\.1*.z/
+Mac# OS# System# 7\.5# Update# 1\.0*.z/Mac# OS# 7\.5# Update# 1\.0*.z/
+System# 7\.5# Update# 1\.0*.z/
+=====*Mac# OS# System# 7\.5\.2*.z//Mac# OS# 7\.5\.2*.z/System# 7\.5\.2*.z/
+Mac# OS# System# 7\.5# Update# 2\.0*.z/Mac# OS# 7\.5# Update# 2\.0*.z/
+System# 7\.5# Update# 2\.0*.z/
+;_______________________________________________________________________________
+====*Mac# OS# System# 7\.6*.z//Mac# OS# 7\.6*.z/System# 7\.6*.z/
+====*Mac# OS# System# 7\.9*.z//Mac# OS# 7\.9*.z/System# 7\.9*.z/
+;_______________________________________________________________________________
+===*Mac# OS# System# 8*.z//System# 8*.z/Copland.πÆz/
+===*Mac# OS# System# 9*.z//System# 9*.z/Gershwin.Æz/
+;_______________________________________________________________________________
+==*Apple# Newton# OS*.Æz//Newton# OS*.Æz/
+;_______________________________________________________________________________
+===Unix.Æz//
+;_______________________________________________________________________________
+===*Unix# Version# 6*.z//Version# 6*.Tz/
+===*Unix# Version# 7*.z//Version# 7*.Tz/
+====*Unisoft# V7# UNIX*.z//
+;_______________________________________________________________________________
+===*Unix# System# III*.z//
+;_______________________________________________________________________________
+===*Unix# System# V*.z//
+;_______________________________________________________________________________
+====*Unix# SVR3*.Æz//Unix# System# V# Release# 3*.z/SVR3.z/
+=====*SCO# Unix# 3\.0*.z/SCO-Unix/
+=====*SCO# Unix# 3\.2\.2*.z/SCO-Unix/|product-of=SCO|
+=====*SCO# Unix# 3\.2\.4*.z/SCO-Unix/|product-of=SCO|
+=====*ISC# Unix# 3\.0*.z/ISC-Unix/
+=====*ISC# Unix# 4\.0*.z/ISC-Unix/
+=====*ISC# Unix# 4\.1*.z/ISC-Unix/
+;_______________________________________________________________________________
+====*Unix# SVR4*.Æz//Unix# System# V# Release# 4*.z/SVR4.z/
+;_______________________________________________________________________________
+=====*Unix# SVR4\.0*.Æz//Unix# System# V# Release# 4\.0*.z/SVR4\.0.z/
+;_______________________________________________________________________________
+======*Esix# 4\.0\.3A*.z/Esix/
+======*Esix# 4\.0\.4*.z/Esix/
+======*Esix# 4\.0\.4\.1*.z/Esix/
+;_______________________________________________________________________________
+======*Microport.z//
+=======*Microport# 2\.2*.z//
+=======*Microport# 3\.1*.z//
+=======*Microport# 4\.1*.z//
+=======*Microport# 4\.2*.z//
+;_______________________________________________________________________________
+======*Dell# Unix*.z//
+=======*Dell# Unix# 2\.1*.z//
+=======*Dell# Unix# 2\.2*.z//
+=======*Dell# Unix# 2\.2\.1*.z//
+;_______________________________________________________________________________
+======*UHC.z//
+=======*UHC# 2\.0*.z//
+=======*UHC# 3\.6*.z//
+;_______________________________________________________________________________
+======*Consensys# 1\.2*.z/Consensys-Unix/
+;_______________________________________________________________________________
+======*OS-MST//MST.z/
+=======*MST# 4\.0\.3*.z//
+;_______________________________________________________________________________
+======*ISC# Unix# 4\.0\.3*.z/ISC-Unix/
+;_______________________________________________________________________________
+======*NCR# MP#-RAS*.z//
+;_______________________________________________________________________________
+=====*Unix# SVR4\.2*.Æz//Unix# System# V# Release# 4\.2*.z/SVR4\.2.z/
+======*Consensys# 4\.2*.z/Consensys-Unix/Consensys# V4\.2*.z/
+======*Unix# SVR4\.2\.2*.Æz//Unix# System# V# Release# 4\.2\.2*.z/SVR4\.2\.2.z/
+======*NCR# SVR4*.z//
+;_______________________________________________________________________________
+; todo: All "SunOS" can be "Sun OS".
+=====*Solaris.Æz//Solaris# 2\.x*.Æz/SunOS#Æ 5\.x*.z/|product-of§SunSoft|
+======*Solaris#Æ 2\.0*.z//SunOS#Æ 5\.0*.z/
+======*Solaris#Æ 2\.1*.z//SunOS#Æ 5\.1*.z/
+======*Solaris#Æ 2\.2*.z//SunOS#Æ 5\.2*.z/
+======*Solaris#Æ 2\.3*.z//SunOS#Æ 5\.3*.z/
+======*Solaris#Æ 2\.4*.z//SunOS#Æ 5\.4*.z/
+======*Solaris#Æ 2\.5*.z//SunOS#Æ 5\.5*.z/
+======*Solaris#Æ 2\.6*.z//SunOS#Æ 5\.6*.z/
+======*Solaris#Æ 7*.z//
+======*Solaris#Æ x86*.Æz//Solaris#Æ 2#\/x86*.z/
+=======*Solaris#Æ x86# 2\.1*.Æz//SunOS#Æ 5\.1# x86*.z/
+=======*Solaris#Æ x86# 2\.4*.Æz//SunOS#Æ 5\.4# x86*.z/
+=======*Solaris#Æ x86# 2\.5*.Æz//SunOS#Æ 5\.5# x86*.z/
+=======*Solaris#Æ x86# 2\.6*.Æz//SunOS#Æ 5\.6# x86*.z/
+=======*Solaris#Æ x86# 7*.Æz//
+======*Solaris#Æ SPARC*Æ.Æz//
+;_______________________________________________________________________________
+===*BSD.z//Berkeley# Unix*.z/BSD# Unix*.z/Berkeley# software# distribution*.z/
+;_______________________________________________________________________________
+====*2\.7# BSD*.z//2\.7BSD*.z/BSD# 2\.7*.z/
+====*4\.2# BSD*.z//4\.2BSD*.z/BSD# 4\.2*.z/
+====*4\.3# BSD*.z//4\.3BSD*.z/BSD# 4\.3*.z/
+====*4\.4# BSD*.z//4\.4BSD*.z/BSD# 4\.4*.z/
+=====*4\.4# BSD# Lite*.z//4\.4BSD# Lite*.z/BSD# 4\.4# Lite*.z/
+=====*ArchBSD.z//
+====*BSDI.z//
+=====*386#\/486# BSDI# 1\.1*.z//
+====*FreeBSD.z//
+=====*FreeBSD# 1\.1\.5\.1*.z//
+=====*FreeBSD# 2\.0*.z//
+======*386#\/486# FreeBSD# 2\.0*.z//
+=====*FreeBSD# 2\.0R*.z//
+=====*FreeBSD# 2\.0\.5*.z//
+====*MacBSD.z//
+====*NetBSD.z//
+=====*NetBSD# 1\.0*.z//
+====*386BSD.z//BSD#\/386*.z/
+=====*386BSD# 1\.1*.z//BSD#\/386# 1\.1*.z/
+====*BSD#\/OS*.z//
+=====*BSD#\/OS# 2\.0*.z//
+;_______________________________________________________________________________
+====*SunOS.Æz//
+=====*SunOS#Æ 3*.z//
+======*SunOS#Æ 3\.0*.z//
+======*SunOS#Æ 3\.2*.z//
+=====*SunOS#Æ 4*.z//SunOS#Æ 4\.x*.z/
+======*SunOS#Æ 4\.0*.z//
+======*SunOS#Æ 4\.0\.2*.z//
+======*SunOS#Æ 4\.0\.3Beta*.z//
+======*SunOS#Æ 4\.0\.3*.z//
+======*SunOS#Æ 4\.0\.3c*.z//
+======*SunOS#Æ 4\.1*.z//SunOS#Æ 4\.1\.x*.z/Solaris#Æ 1*.z/
+=======*SunOS#Æ 4\.1\.1*.z//
+=======*SunOS#Æ 4\.1\.1U1*.z//
+=======*SunOS#Æ 4\.1\.3*.z//
+========*SunOS#Æ 4\.1\.3# U1*.z//Solaris#Æ 1\.1\.1*.z/
+=========*SunOS#Æ 4\.1\.3# U1# rev# B*.z//Solaris#Æ 1\.1\.1B*.z/
+========*SunOS#Æ 4\.1\.3C*.z//
+=======*SunOS#Æ 4\.1\.4*.z//Solaris#Æ 1\.1\.2*.z/
+;_______________________________________________________________________________
+===*A#\/UX*.z//
+===*Amoeba.z//
+;_______________________________________________________________________________
+===*AIX.Æz//|product-of§IBM|
+====*AIX# 2*.z//
+====*AIX# 3*.z//
+=====*AIX# 3\.1*.z//
+======*AIX# 3\.1\.2*.z//
+======*AIX# 3\.1\.5*.z//
+=====*AIX# 3\.2*.z//AIX# 3\.2\.x*.z/
+======*AIX# 3\.2\.1*.z//
+======*AIX# 3\.2\.2*.z//
+======*AIX# 3\.2\.3*.z//
+======*AIX# 3\.2\.4*.z//
+======*AIX# 3\.2\.5*.z//
+=======*AIX# 3\.2\.5\.1*.z//
+=======*AIX# 3\.2\.5\.4*.z//
+====*AIX# 4*.z//AIX# 4\.x*.z/
+=====*AIX# 4\.1*.z//AIX# 4\.1\.x*.z/
+======*AIX# 4\.1\.1*.z//
+======*AIX# 4\.1\.2*.z//
+======*AIX# 4\.1\.3*.z//
+;_______________________________________________________________________________
+===*Consensys# Unix*.z//
+===*Esix.z//
+====*Esix# 3\.2D*.z//
+===*GNU.z//
+===*HP#\/UX*.Æz//HP#-UX*.Æz/|product-of§Hewlett-Packard|
+====*HP#\/UX# 8\.0*.Æz//HP#-UX# 8\.0*.Æz/
+====*HP#\/UX# 9\.01*.Æz//HP#-UX# 9\.01*.Æz/
+====*DN# SR# 10\.3\.5*.z//
+===*Interactive# Unix*.z//Interactive.z/
+====*Interactive# Unix# V#\/386*.z//
+===*IRIX.z//|product-of§SGI|
+====*IRIX# 5\.2*.z//IRIX# SVR# 5\.2*.z/
+====*IRIX# 5\.3*.z//IRIX# SVR# 5\.3*.z/
+===*ISC# Unix*.z//
+===*Linux.Æz//GNU#-Linux*.z/
+====*Linux#Æ 1\.2\.10# i586*.z//
+====*Linux#Æ 1\.2\.13# i486*.z//
+====*Linux#Æ 1\.2\.8# i586*.z//
+====*Red#A Hat# Linux*.z//
+=====*Red#A Hat# Linux# 5\.0*.z//
+=====*Red#A Hat# Linux# 5\.1*.z//
+=====*Red#A Hat# Linux# 5\.2*.z//
+=====*Red#A Hat# Linux# 6\.0*.z//
+===*LynxOS.z//
+====*LynxOS# AT*.z//
+=====*LynxOS# AT# 2\.2\.1*.z//
+=====*LynxOS# AT# 2\.3*.z//
+===*Mach.Æz//
+====*Mach# 2*.Æz//
+=====*NeXT# OS*.z//
+====*Mach# 3*.Æz//
+====*Mach# 386*.z//
+====*Machten.z//MachTen.z/Mach# Ten*.z/Mach# 10*.Æz/MT.Tz/; for the Mac
+=====*Machten# 2\.2*.z//
+=====*Machten# 4\.0*.z//
+===*Minix.Æz//
+====*Minix# 386*.z//
+===*SCO# Unix*.z//
+===*Ultrix.Æz//|product-of=DEC|
+====*Ultrix# 4\.3*.Æz//
+=====*Ultrix# 4\.3A*.Æz//
+====*Ultrix# 4\.4*.Æz//
+===*UnixWare.Æz//|product-of=Novell|
+====*UnixWare# 1\.1*.Æz//
+====*UnixWare# 2\.0*.Æz//
+====*UnixWare# 2\.1*.Æz//
+===*Venix.Æz//
+===*Xenix.Æz//|product-of=Microsoft|
+====*Xenix286.Æz//
+===*Xinu.z//; by Douglas Comer
+;_______________________________________________________________________________
+===*ATT-Unix-2-1//AT&T# Unix# 2\.1*.z/|product-of=ATT|
+===*ATT-System-V//AT&T# System# V# 3\.2*.z/|product-of=ATT|
+===*ATT-Unix-4-0//AT&T# Unix# 4\.0*.z/|product-of=ATT|
+;_______________________________________________________________________________
+==AI-program//AI# program›program*.z/
+artificial#A intelligence# program›program*.z/
+programme* d#R'intelligence#F artificielle#AF.πMy/programme* d#R'IA#F.@My/
+;_______________________________________________________________________________
+==*Soar.Æ…z/symbolic-AI-model/Soar.Æ…y/
+==*Daydreamer.Æ…z/symbolic-AI-model,story-generation-system/Daydreamer.Æ…y/
+|@1984:1988|create§Erik|
+==*TT/human,aiprog-cskb,aiprog-stund,aiprog-mt,ontology,e-language,
+multilevel-semantic-net,symbolic-AI-model,chatterbot/
+ThoughtTreasure.πÆ…z/TT.Æ…z/Thought# Treasure*.Æ…z/ThoughtTrÈsor.πÆ…My/
+Thought#Aj TrÈsor*.Æ…My/TT.Æ…My/Thomas Tiberius.M∫/
+|male|nationality-of=country-USA|@19940401:na|create§Erik|
+@19950529:na|uncompressed-size-of=4738120byte|
+@19940401:19951023|
+email-address-of=STRING:email-address:"Thomas_Tiberius@email.francenet.fr"|
+@19951023:19970823|
+email-address-of=STRING:email-address:"tt@signiform.com"|
+@19970823:1999|
+email-address-of=STRING:email-address:"tt@signiform.com"|
+;_______________________________________________________________________________
+===story# generation# system*.z//story# generator*.z/
+story#-level# simulation# system*.z/
+===*TALE#-SPIN*.…z//
+===*Oz.…z//
+===*2DWORLD.…z//Planiverse.kz/
+;_______________________________________________________________________________
+===discovery# system*.z//
+===*AM.…z//AM.π…y/
+===*Bacon.…z//Bacon.π…y/
+;_______________________________________________________________________________
+===expert# system*.z//systËme* expert*A.πMy/
+===*Dendral.…z//Dendral.π…y/
+===*Meta#-Dendral*.…z//Meta#A-Dendral*.π…y/
+===*Macsyma.…z//Macsyma.π…y/
+===*Mycin.…z//Mycin.π…y/
+===*Prospector.…z//Prospector.π…y/
+;_______________________________________________________________________________
+===knowledge# base*.z//
+====aiprog-cskb//common#A-sense# knowledge# base*.z/
+====*Cyc.Æ…z/symbolic-AI-model,aiprog-newsund,ontology,multilevel-semantic-net/
+Cyc.Æ…y/
+|href="http://www.cyc.com/","http://www.mcs.net/~jorn/html/ai/cycfaq.html"|
+@1984:na|create§Doug-Lenat|
+;_______________________________________________________________________________
+===NLP# program*.z//natural#A language# processing# program*.z/
+;_______________________________________________________________________________
+====chatterbot.z//
+====parser.z//analyseur.My/
+=====syntactic#A parser*.z//
+;_______________________________________________________________________________
+====aiprog-newsund//news# story# understanding# program*.z/
+;_______________________________________________________________________________
+====aiprog-stund//story# understanding# program*.z/
+====*BORIS.Æz//|create§Michael-Dyer|
+====*PAM.Æz//
+====*SAM.Æz//
+;_______________________________________________________________________________
+====aiprog-mt//machine# translation# program*.z/MT# program*.z/MT.Œz/
+====*ALPS.Æz//
+====*AMT.Æz//; Carnegie Group
+====*CANDIDE.Æz//; IBM
+====*CAT2.Æz//; Prolog
+====*DP#\/Translator*.Æz//; Intergraph
+====*Globalink.Æz//; Globalink
+====*Language# Assistant*.z//; MicroTac->Globalink
+====*Lexitrans.Æz//; Lexitrans
+====*LINGSTAT.Æz//; Dragon Systems
+====*LMT.Æz//; IBM
+====*Logos.Æz//; Logos
+====*Metal.Æz//; Sietec Systemtechnik
+====*PANGLOSS.Æz//; CRL/ISI/CMU Lisp
+====*PIMA.Æz//; Wallace Sinaiko
+====*PC# Translator*.Æz//; Linguistic Products
+====*Power# Translator*.Æz//
+====*SPANAM.Æz//
+====*Systran.Æz//; Peter Loma, La Jolla, Systran Software
+====*TITUS.Æz//; French Textile Institute
+====*TOVNA.Æz//
+====*WINGER.Æz//
+=====*Winger# 92*.Æz//; INFO:Partner
+====*XLT.Æz//
+;_______________________________________________________________________________
+==comms-program//communications#P program›program*.z/
+comms#P program›program*.z/
+==*finger-program//finger.…z/finger.…y/
+==*ftp.…z//FTP.…z/ftp.…y/FTP.…y/
+==*PGP.…z//Pretty#B Good#A Privacy*.…z/PGP.…y/
+==*ping.…z//ping.VÈy/ping.…y/|r2=computer|
+==*telnet.…z//telnet* to+.VÈy/telnet.…y/|r2=computer|
+==*rcp.…z//rcp.…y/
+==*rlogin.…z//rlogin.…y/
+==*UUCP.…z//UUCP.…y/
+==*whois.…z//whois.…y/
+;_______________________________________________________________________________
+==web# browser*.z//browser.z/
+==*Gopher.…z//Gopher.…My/
+==*HotJava.…z//HotJava.…y/
+==*Mosaic.…z//Mosaic.…y/
+==*MacWeb.…z//MacWeb.…y/
+==*Netscape#Æ Navigator*.…z//Navigator.…z/Mozilla.…z/
+==*Netscape#Æ Communicator*.…z//Communicator.…z/
+==*Microsoft#Æ Internet# Explorer*.…z//Microsoft#Æ Explorer*.…z/
+Internet# Explorer*.…z/Explorer.…z/
+==*WAIS.…z//WAIS.…y/
+;_______________________________________________________________________________
+==electronic#A dictionary*.z/dictionary/dictionnaire* Èlectronique*A.My/
+;_______________________________________________________________________________
+==*LADL# electronic#A dictionary*.z//
+dictionnaire* Èlectronique*A du#R LADL#.My/
+===*DELAS.…My//dictionnaire* Èlectronique*A des#RP mots#P simples#AP.My/
+===*DELAF.…My//dictionnaire* Èlectronique*A des#RP formes#FP.My/
+===*DELAC.…My//dictionnaire* Èlectronique*A des#RP mots#P composÈs#AP.My/
+;_______________________________________________________________________________
+==*WordNet.Æz/thesaurus,multilevel-semantic-net/
+|href="http://www.cogsci.princeton.edu/"|
+;_______________________________________________________________________________

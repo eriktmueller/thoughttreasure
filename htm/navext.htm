@@ -1,0 +1,1402 @@
+<html>
+<head><title>Navigating and Extending ThoughtTreasure</title></head>
+<body bgcolor="#ffffff">
+<h1>Navigating and Extending ThoughtTreasure</h1>
+by Erik T. Mueller, part of
+<a href="http://www.amazon.com/gp/product/1478171650/">Natural Language Processing with ThoughtTreasure</a>
+<hr>
+How do you navigate ThoughtTreasure to find out what information it
+contains relevant to your application? How do you extend its knowledge
+base for your application? Let's see how to navigate and extend
+ThoughtTreasure for one sample application, movie review information
+extraction and question answering. This application will extract
+information from movie reviews such as the name of the movie, writer,
+director, and stars, and the reviewer's rating of the movie. Once this
+information is extracted, it will be stored in ThoughtTreasure's
+database for later retrieval either in natural language (English or
+French) or using the ThoughtTreasure representation language.
+<h3>Adding concepts</h3>
+<p>
+We begin by forming a corpus of 50 movie reviews from the Usenet newsgroup
+<tt>rec.arts.movies.reviews</tt>, which contains postings of formal
+reviews. We use a news reader to access articles and then append them
+into a file. Using the Unix news reader <tt>rn</tt>, we go to the
+newsgroup by typing <tt>grec.arts.movies.reviews</tt> and then issue the
+command <tt>1-$scorpus</tt> in order to append all available articles of
+the newsgroup into the file <tt>corpus</tt>.
+<p>
+Then we go through the corpus and collect an informal list of the important
+concepts in the application:
+<pre>
+date of review
+reviewer
+reference to web page with more reviews by reviewer
+name of movie
+star of movie
+writer of movie
+distributor of movie
+production studio of movie
+director of movie
+producer of movie
+cinematographer of movie
+composer of movie's music
+language(s) of movie
+whether movie has subtitles
+movie that movie is a remake of
+book that movie is based on
+Motion Picture Association of America (MPAA) rating of movie
+  (G, PG, PG-13, R, NC-17, NR)
+running time of movie
+date movie opens
+reviewer's rating of movie
+genre of movie: action movie, slasher movie, comedy,
+  murder mystery, thriller, B movie, sports movie,
+  horror movie, noirish
+description of movie
+description of performances of actors in movie
+description of actors in movie
+</pre>
+<p>
+Now we see whether these concepts are already in the ThoughtTreasure
+<em>ontology</em> or model of what concepts exist in the world and how
+they are related. We need to figure out where these concepts fall in
+the ontology and enter them if they are not already present.
+<p>
+First of all, to get an idea of whether ThoughtTreasure contains a given
+concept, the easiest thing to do is use a search command such as Unix
+<tt>grep</tt>, <tt>egrep</tt>, or <tt>fgrep</tt>. We search both the
+database and the C source files:
+<pre>
+$ fgrep -i MPAA ../db/*.txt ../src/*.[ch]
+$ grep -i 'motion.*picture' ../db/*.txt ../src/*.[ch]
+$
+</pre>
+From this we learn that neither "MPAA" nor "Motion Picture" are in
+ThoughtTreasure. (The <tt>-i</tt> option requests a case-insensitive
+match.)
+<p>
+Second, it is useful to understand how the ThoughtTreasure ontology
+is organized. The top-level ontology is as follows:
+<pre>
+=concept//
+==object//
+===abstract-object//
+===being//
+===matter//
+====particle//
+====chemical//
+====physical-object//
+==situation//
+===state//
+====relation//
+====attribute//
+====enum//
+===action//
+</pre>
+Hierarchy is expressed in database file format via indentation level, with
+equal signs being used for indentation. Thus concepts are broken down into
+(1) entities or things or objects, and (2) situations. Situations are broken
+down into (1) states of affairs or static situations, and (2) dynamic
+situations or actions or activities or processes or events.
+States are broken down into (1) relations or relationships or connections
+between concepts, such as <tt>weight-of</tt>, (2) attributes or properties
+or characteristics of concepts, such as <tt>heavy</tt>, and (3) enumerated
+attributes or collections of mutually exclusive (or simply related)
+attributes such as <tt>male</tt> and <tt>female</tt>.
+<p>
+A film is an <tt>abstract-object</tt>, in particular a <tt>media-object</tt>,
+so the concept should be in the database file <tt>mediaobj.txt</tt>, but it's
+not there! So we enter the concept for film into the under the existing
+<tt>media-object</tt>:
+<pre>
+=media-object/information/
+==advertisement//
+==art//
+==computer-program//
+==dance//
+==datafeed//
+<b>==film//</b>
+==genetic-code//
+==opera//
+==play//
+==text//
+===book//
+===magazine//
+...
+</pre>
+Newly entered items for the movie review application are shown here in
+<b>boldface</b>, and surrounded by the <tt>MRBEGIN</tt> and <tt>MREND</tt>
+keywords in the ThoughtTreasure distribution.
+We can enter the concepts in alphabetical order but we don't have to.
+Some of the items shown here are simplified for clarity; see the actual
+database files in the distribution for more details.
+<p>
+Although indentation is usually used to indicate parent-child relationships
+in the hierarchy, we may also specify additional parents using the notation:
+<pre>
+=media-object/information/
+</pre>
+which is equivalent to:
+<pre>
+=information//
+==media-object//
+</pre>
+<p>
+Next we expand the <tt>film</tt> ontology by adding various subclasses:
+<pre>
+==datafeed//
+<b>==film//
+==-film-length-contrast//
+====feature-film//
+====short-film//
+==-film-budget-contrast//
+====blockbuster//
+====B-movie//
+==-film-genre//
+====action-film//
+====adventure-film//
+====animated-film//
+====cinema-verite//
+====comedy-film//
+====documentary-film//
+====drama-film//
+====fantasy-film//
+====horror-film//
+====musical-film//
+====mystery-film//
+=====murder-mystery-film//
+====science-fiction-film//
+====slasher-film//
+====sports-film//
+====thriller-film//</b>
+==genetic-code//
+</pre>
+The film genres noted in the corpus are expanded with additional genres
+collected from newspapers, magazines, the web, and the local video store.
+<p>
+The children of <tt>film-length-contrast</tt>, <tt>film-budget-contrast</tt>,
+and <tt>film-genre</tt> provide alternative schemes for classifying films.
+A given film might be classified as a <tt>feature-film</tt>, <tt>B-movie</tt>,
+and <tt>slasher-film</tt>. The top concept of each scheme is flagged as being
+a <em>contrast concept</em> by replacing the last equal sign with a dash.
+<p>
+We choose concept names that are descriptive and not already taken in
+the system. For example, <tt>musical</tt> might apply to a film or play,
+so we create concepts <tt>musical-film</tt> and <tt>musical-play</tt>.
+<p>
+To find out whether a concept name is taken, we can use <tt>grep</tt> again:
+<pre>
+$ fgrep =musical. ../db/*.txt ../src/*.[ch]
+../db/attr.txt:==musical.Az//musicien.Ay/
+$ grep 'musical.*film' ../db/*.txt ../src/*.[ch]
+$ 
+</pre>
+Thus we see that the name <tt>musical</tt> is already used (for an attribute),
+but the name <tt>musical-film</tt> is not yet used. If a name is accidentally
+reused, a warning message will be printed by ThoughtTreasure when the
+database file is loaded:
+<pre>
+19980831T144756 &lt;musical>: name &lt;musical> reused
+</pre>
+<p>
+Existing objects can also be located with the <tt>obj</tt> command of the
+<a href="quickref.htm">ThoughtTreasure shell</a> (and similarly with the
+<a href="../java/doc/index.html">Java-based client API</a> or the
+<a href="ttsp.htm">ThoughtTreasure server protocol</a>):
+<pre>
+* obj
+Welcome to the Obj query tool.
+Enter object name: musical
+musical
+ancestors: musical personality-trait 2:../db/attr.txt
+  2:attribute 3:state 4:situation film-genre 2:film 3:media-object
+  4:../db/mediaobj.txt 4:information 
+descendants: musical 
+musicien.Ay/
+musical.Az¸/
+assertions involving:
+Enter object name: musical-film
+Obj not found
+Enter object name:
+</pre>
+<p>
+Next we add relations on films to the ontology. There is already a concept
+<tt>media-object-relation</tt> in the database file <tt>relation.txt</tt>,
+which specifies relations on media objects, so we insert the new relations
+under that concept:
+<pre>
+=media-object-relation/relation/
+==author-of//
+==composer-of//
+==newscaster-of//
+==viewer-of//
+<b>==actor-of//
+==cinematographer-of//
+==director-of//
+==language-of//
+==MPAA-rating-of//
+==producer-of//
+==writer-of//</b>
+...
+</pre>
+<p>
+Now we enter a sample film into the ontology, to illustrate how the above
+relations are used:
+<pre>
+<b>====documentary-film//
+====drama-film//
+=====RDP/feature-film/|[director-of RDP MALE:"Eric Rohmer"]|
+[actor-of RDP FEMALE:"Clara Bellar"]|
+[actor-of RDP MALE:"Antoine Basler"]|
+[actor-of RDP MALE:"Mathias Megard"]|
+[actor-of RDP FEMALE:"Aurore Rauscher"]| 
+|@1992|[media-object-release na RDP]|</b>
+...
+</pre>
+We assert information about the film <tt>RDP</tt> into the database:
+that Eric Rohmer is the director of the film, that Clara Bellar and others
+are actors of the film, and that the film was released by some unknown
+studio in 1992. (The concept <tt>na</tt> indicates information which is not
+available or unknown. <tt>media-object-release</tt> is an action which
+was already present in the ontology.)
+<p>
+After defining new concepts, ThoughtTreasure can be started in order to
+find any entry errors. For example, if we enter:
+<pre>
+<b>====drama-film/
+=====RDP/feature-film/</b>
+</pre>
+instead of
+<pre>
+<b>====drama-film//
+=====RDP/feature-film/</b>
+</pre>
+(omitting a slash), the message is printed:
+<pre>
+19980831T172256: reading ../db/mediaobj.txt
+19980831T172257 &lt;drama-film>: = present in &lt;=====RDP> thought to be isa
+</pre>
+<p>
+We can now query the ThoughtTreasure database to find out who directed
+<em>Rendezvous in Paris</em> using the <tt>db</tt> command of the
+<a href="quickref.htm">ThoughtTreasure shell</a>:
+<pre>
+* db
+Welcome to the Db query tool.
+Enter timestamp (?=wildcard): ?
+Next element: director-of
+Next element: RDP
+Next element: ?
+Next element: 
+query pattern: @na|[director-of RDP ?]
+results:
+@-inf:inf|[director-of RDP Eric-Rohmer]
+Enter timestamp (?=wildcard): pop
+* 
+</pre>
+<p>
+To represent the studio which produced the movie, we specify the studio as
+the actor (first argument) of the <tt>media-object-release</tt> action:
+<pre>
+<b>====animated-film//
+=====Hunchback-of-Notre-Dame/feature-film/
+|@1996|media-object-release¤Disney|</b>
+</pre>
+The notations:
+<pre>
+media-object-release¤Disney
+media-object-release=Disney
+</pre>
+are shorthand for:
+<pre>
+[media-object-release Disney Hunchback-of-Notre-Dame]
+[media-object-release Hunchback-of-Notre-Dame Disney]
+</pre>
+respectively, inside the definition of the concept
+<tt>Hunchback-of-Notre-Dame</tt>.
+Additional studios may be entered in the database file
+<tt>company.txt</tt> under <tt>entertainment-industry</tt>.
+<p>
+To enable use of the relation <tt>MPAA-rating-of</tt>, we first define
+its possible values. A short list of values is usually represented
+in ThoughtTreasure either as an enum or as an abstract object. In this
+case, there is already a <tt>rating</tt> concept in the database file
+<tt>absobj.txt</tt>,
+so we add the MPAA ratings there:
+<pre>
+=rating/abstract-object/
+==Q-rating//
+==popularity-rating//
+==television-audience-rating//
+===Nielsen-rating//
+===Audimat-rating//
+<b>==MPAA-rating//
+===MPAA-G//
+===MPAA-NC-17//
+===MPAA-PG//
+===MPAA-PG-13//
+===MPAA-R//
+===MPAA-NR//</b>
+</pre>
+We may then specify:
+<pre>
+<b>=====Hunchback-of-Notre-Dame/feature-film/
+|@1996|MPAA-rating-of=MPAA-G|</b>
+</pre>
+<p>
+Now we turn to representing judgments of the reviewer. We attempt to use
+existing concepts wherever this is acceptable for the application. The
+ThoughtTreasure attribute ontology contains a variety of attributes such as:
+<pre>
+====attribute//
+=====personality-trait//
+======arrogant//
+======courageous//
+======easygoing//
+======litigious//
+======preppy//
+======sane//
+=====object-trait//
+======condition//
+======sick//
+=======earache//
+======fashionable//
+======good//
+======interesting//
+======profound//
+======tall//
+</pre>
+If a reviewer Jim Denby thinks somewhat highly of <em>Rendezvous in
+Paris</em>, yet feels it is shallow, according to a review dated August
+31, 1996, this is represented as:
+<pre>
+@19960831:na|[believe Jim-Denby [good RDP 0.5u]]
+@19960831:na|[believe Jim-Denby [profound RDP -0.9u]]
+</pre>
+That is, all the various star rating systems will be converted into
+a value from -1.0 to 1.0 of the <tt>good</tt> attribute, where -1.0
+means extremely bad and 1.0 means extremely good.
+(If we wanted to, we could retain the rating peculiar to the reviewer
+such as ``3 on the Renshaw scale of 0 to 10 beast intentions,'' in a
+fashion similar to that used to store the MPAA rating.) Other ThoughtTreasure
+attributes are used to describe the film in more detail, and new
+attributes are added when they are not already present.
+<h3>Adding lexical entries</h3>
+<p>
+Now let's incorporate lexical information into the items added to the ontology.
+For example, we enter two English lexical entries for film and one French
+lexical entry:
+<pre>
+<b>==film.z//movie.Àz/film.My/</b>
+</pre>
+The characters after the periods are <em>features</em>. Their meanings are:
+<pre>
+z = English
+À = American English
+M = masculine gender
+y = French
+</pre>
+(See the <a href="quickref.htm">complete list of feature characters</a>.)
+<p>
+If a part of speech feature is not specified after the period, the lexical
+entry is assumed to be a noun. Other parts of speech are specified by
+adding a part-of-speech feature character:
+<pre>
+A = adjective
+B = adverb
+D = determiner
+H = pronoun
+K = conjunction
+N = noun
+R = preposition
+V = verb
+U = interjection
+x = sentential lexical entry
+0 = expletive
+9 = element
+« = prefix
+» = suffix
+</pre>
+<p>
+For example:
+<pre>
+<b>==film.z//movie.Àz/filmic.Az/film.My/</b>
+</pre>
+Thus words of various parts of speech can be specified for a single
+concept. In this case we have defined a noun <em>film</em> and a
+corresponding adjective <em>filmic</em>.
+<p>
+We then enter lexical entries for the other subclasses of <tt>film</tt>:
+<pre>
+<b>==-film-length-contrast//
+====feature# film*.z//feature#A-length# film*.z/full#A-length# film*.z/
+feature.Tz/long*A métrage*.My/
+====medium#A-length# film*.z//moyen*A métrage*.My/
+====short#A film*.z//short.Tz/court*A métrage*.My/
+...
+==-film-genre//
+====animated#A film*.z//animated#A movie*.Àz/
+=====Hunchback* of#R Notre#Dj Dame#Nj.kz/feature-film/
+====drama-film//drama.z/
+=====RDP/feature-film/Rendezvous# in#R Paris#.Éz/
+Rendez#VP-Vous#HP de#R Paris#S.MPïy/</b>
+...
+
+T = informal
+k = noun preceded by definite article
+É = noun preceded by empty article
+j = foreign word
+P = plural
+ï = preferred inflection
+</pre>
+<p>
+Note that we specify the parts of speech of all the words which make
+up a phrase:
+<pre>
+====medium#A-length# film*.z//
+</pre>
+The phrase <em>medium-length film</em> is thus defined to be a noun
+built from an adjective and two nouns. (The part of speech of a word
+in a phrase defaults to the part of speech of the phrase, which
+itself defaults to noun.)
+<p>
+Then we define lexical entries for the relations added above.
+Rating relations are specified in the corpus using expressions
+such as:
+<pre>
+It is rated PG.
+The film is rated NC-17.
+It's "PG".
+It is not rated, but would get a G today.
+It would get a PG-13 rating.
+</pre>
+The verbs <em>be rated</em>, <em>be</em>, and <em>get</em> are thus
+used to specify movie ratings in English. These are captured in
+ThoughtTreasure as follows:
+<pre>
+<b>==MPAA-rating-of//be* rated#A.Véz/be,get.Véz/|r2=MPAA-rating|</b>
+
+V = verb
+é = verb takes a direct object
+z = English
+</pre>
+<p>
+The <em>selectional restriction</em> <tt>r2=MPAA-rating</tt> prevents the
+concept <em>MPAA-rating-of</em> from being returned by the parser whenever
+<em>be</em> or <em>get</em> is used in a sentence. With the selectional
+restriction, this meaning is only returned when the direct object is an
+MPAA rating, as defined in the rating ontology:
+<pre>
+<b>==MPAA# rating*.z//Motion# Picture# Association# of#R America# rating*.z/
+===MPAA-G//G.¹Éz/G# rating*.z/
+===MPAA-NC-17//NC#-17*.¹Éz/NC#-17# rating*.z/
+===MPAA-PG//PG.¹Éz/PG# rating*.z/
+===MPAA-PG-13//PG#-13*.¹Éz/PG#-13# rating*.z/
+===MPAA-R//R.¹Éz/R# rating*.z/</b>
+
+R = preposition
+¹ = frequent
+É = noun preceded by empty article
+</pre>
+<p>
+A noun may also be defined for the relation:
+<pre>
+==MPAA-rating-of//rating,MPAA# rating*.z/
+</pre>
+which enables ThoughtTreasure to parse the sentences (not found in the corpus):
+<pre>
+The MPAA rating of the film is PG.
+PG is the MPAA rating of the film.
+The film's MPAA rating is PG.
+The rating of the film is PG.
+PG is the rating of the film.
+The film's rating is PG.
+</pre>
+<p>
+The <tt>actor-of</tt> relation is specified in the corpus using expressions
+such as:
+<pre>
+KANSAS CITY stars Jennifer Jason Leigh [as Blondie]
+Michael J. Fox plays (character) [in (film)]
+Robin Williams is (character) [in (film)]
+Eric Roberts stars as a fencing instructor [in (film)]
+</pre>
+We see that <tt>actor-of</tt> is a relation with three arguments-a <em>ternary
+relation</em>. The first argument is the film, the second argument is the
+actor, and the third argument is the character played in the film:
+<pre>
+ 0        1                2                    3
+[actor-of film-Kansas-City Jennifer-Jason-Leigh character-Blondie]
+</pre>
+The lexical entries for this relation will thus be:
+<pre>
+<b>==actor-of//actor,star.z/
+star* as_.Véz/; FILM stars HUMAN as CHARACTER
+play* in_.Vúëz/; HUMAN plays CHARACTER in FILM
+be* in_.Vúëz/; HUMAN is CHARACTER in FILM
+star* in_ as_.Vúz/; HUMAN stars as CHARACTER in FILM</b>
+</pre>
+By default, the subject of the sentence goes into slot 1 and the direct
+object goes into slot 2 of the result concept. This behavior is overridden 
+using the features:
+<pre>
+ú = subject placed in slot 2
+é = direct object placed in slot 2
+ë = direct object placed in slot 3
+</pre>
+Indirect objects indicated by prepositions such as <em>as</em> and
+<em>in</em> are placed in available slots starting with slot 1.
+<p>
+Similarly, we define:
+<pre>
+<b>==director-of//director.z/
+direct.Vúèz/; HUMAN directs FILM</b>
+
+è = direct object placed in slot 1
+</pre>
+<p>
+We continue by identifying descriptive words and expressions used in the
+corpus of 50 Usenet movie reviews:
+<pre>
+description of movie
+  good:  amazing, exciting, well crafted, imaginative,
+         hilarious, extremely funny, a surefire success,
+         takes risks, will do well, has things going for it,
+         laugh one's head off
+  mixed: mixed bag
+  bad:   awful, derivative, sloppy, unoriginal, cliched,
+         cliche-ridden, stupid, shallow, predictable,
+         formula-ridden, crap, cheesy, ridiculous, unbearable,
+         a strike-out, a letdown, will not do well
+  language: mild language, mildly offensive language,
+            offensive language
+  other: outlandish, bittersweet, political, dubbed, topless,
+         nudity, violence
+
+description of performances of actors in movie
+  good:  solid, fun, flawless, intense, imploding
+  bad:   atrocious
+
+description of actors in movie
+  good:  perfectly cast, the star of the show, steals the screen
+  bad:   miscast
+</pre>
+<p>
+We then enter these into the ontology and lexicon when they are not already
+present. For example, we extend the entry for the <tt>good</tt> attribute
+as follows:
+<pre>
+=object-trait/attribute/
+==good.Az//
+[.8¯Inf]/fantastic.Az/fabulous.TAz/awesome.aAz/<b>amazing.TAz/</b>
+[.5¯.8]/good.Az/<b>have* things#NP going#V for#R it#H.Vz/</b>
+[.1¯.5]/acceptable.Az/OK.TAz/
+[-.1¯.1]/inoffensive.Az/<b>mixed#A bag*.z/</b>
+[-Inf¯-.1]/bad.Az/barfy.aAz/<b>atrocious,awful.Az/</b>
+</pre>
+The parser and generator will make use of this information, enabling
+the correspondences:
+<pre>
+[good A 1.0]          A is amazing.
+[good A 0.55]         A has things going for it.
+[good A 0.2]          A is acceptable.
+[good A 0.0]          A is a mixed bag.
+[good A -0.55]        A is awful.
+</pre>
+<p>
+No changes are needed for the <em>extremely funny</em> noted in the corpus,
+since the existing adverb <em>extremely</em> can be used to modify the
+existing adjective <em>funny</em>:
+<pre>
+[humorous A 1.0]          A is extremely funny/humorous.
+[humorous A 0.55]         A is funny/humorous.
+[humorous A 0.2]          A is slightly funny/humorous.
+[humorous A -0.55]        A is not funny/humorous.
+</pre>
+<p>
+We similarly extend other attributes:
+<pre>
+=personality-trait/attribute/
+==courageous.Az//<b>take* risks#NP.Vz/</b>
+<b>==unexpected#A star*.z//steal* the#D screen#N.Vz/steal* the#D show#N.Vz/
+star* of#R the#D show#.z/
+==well#B cast#.Az//perfectly#B cast#.Az/
+[-Inf¯-.1]/miscast.Az/</b>
+=object-trait/attribute/
+<b>==bearable.Az//
+[-Inf¯-.1]/unbearable.Az/</b>
+==excellent.Az//<b>flawless.Az/</b>
+[-Inf¯-.1]/mediocre.Az/<b>cheesy.Az/</b>
+<b>==exciting.Az//thrilling.Az/</b>
+==humorous.Az//funny,<b>hilarious</b>.Az/
+==normal.Az//
+[-Inf¯-.1]/strange.Az/<b>outlandish.Az/</b>
+==novel.Az//original.Az/
+[-Inf¯-.1]/unoriginal.Az/<b>derivative,cliched,cliche#N-ridden#.Az/</b>
+<b>==nude.Az//nudity.z/
+===topless.Az//</b>
+<b>==predictable.Az//formula#N-ridden#.Az/</b>
+==violent.Az//<b>violence.z/</b>
+<b>==well#B crafted#.Az//</b>
+
+<b>====bittersweet.Az/positive-emotion,negative-emotion/</b>
+====disappointment.mz/prospect-based-emotion/<b>letdown.Tz/</b>
+
+==-goal-status//
+====failed-goal//<b>not do* well#B.Vz/strike#V out#R ½.Tz/</b>
+====succeeded-goal//<b>do* well#B.Vz/</b>
+</pre>
+<em>success</em> is already in the lexicon under the concept
+<em>succeeded-goal</em>, though how <em>a surefire success</em> will
+be parsed is unclear.
+<p>
+Some reorganization of the existing ontology is often necessary in order
+to add new items in a clean and consistent fashion. No matter how much
+is added to the ontology, there is always more to add. Human knowledge
+is infinitely divisible and distributed among humans, subcultures, and
+cultures: We have the concept of a phone which can be broken down into
+desk phone and wall phone. Desk phone can further be broken down into
+Western Electric 500 set and France Telecom S63. Western Electric 500
+set can be broken down into 500CD and 500DM. 500CD can be broken down
+by whether it has a 7A or 7D dial or the number of windings in hybrid
+coil A/2. An expert in the art of coil winding will break down hybrid
+coil A/2 according to type of winding. A physicist will break down the
+phone's color, weight, and date of manufacture into particles and fields.
+A social psychologist will describe the use of the phone in terms of
+interpersonal relations. We can go on and on: phones relate to human
+communication, language, speech acts, history, evolution, interior
+decorating. There seems to be no limit.
+<p>
+Thus when entering information into ThoughtTreasure, it is easy to
+become overwhelmed with possibilities. At this point, we step back and
+ask: What does the application <em>do</em>? What type of information
+must the application represent in order to do this? And we add
+only the necessary information. (Then again, entering items into
+ThoughtTreasure can be an amusing pastime.)
+<p>
+At this point we can start ThoughtTreasure with the updated database
+files and ask it questions in English:
+<pre>
+> Who directed Rendezvous in Paris?
+Eric Rohmer directed Rendezvous in Paris.
+> Who starred in the film?
+Clara Bellar starred in Rendezvous in Paris. Antoine
+Basler starred in Rendezvous in Paris. Mathias Megard
+starred in Rendezvous in Paris. Aurore Rauscher starred
+in Rendezvous in Paris.
+> Is the Hunchback of Notre Dame rated PG?
+No, the Hunchback of Notre Dame is not rated PG.
+> The animated movie got a G rating?
+Yes, the Hunchback of Notre Dame was in fact rated g.
+</pre>
+We will soon see how the above questions are parsed and how the answers
+are generated. But first, let's extend the existing set of text agents
+with a new agent for parsing star-based movie ratings such as ``4 stars''.
+<h3>Adding text agents</h3>
+<p>
+We start by searching for all instances of ``*'' (asterisk) in the corpus
+of 50 Usenet movie reviews and sorting the results in order to obtain a
+subcorpus of star-based ratings. Under Unix, we issue the following
+pipeline:
+<pre>
+fgrep \* reviews | sort | uniq
+</pre>
+After editing out some spurious and duplicate results by hand, we obtain:
+<pre>
+(1983) **1/2 - C:Charles Bronson, Andrew Stevens, Wilford Brimley.
+(1991) ** - C:Eric Roberts, F. Murray Abraham, Mia Sara.
+(1993) *** - C:Tommy Lee Jones, Hiep Thi Le, Joan Chen, Haing S. Ngor,
+(1995) *** (out of four)
+(1995) *1/2 (out of four)
+(1996) ** (out of four)
+(1996) **** - C:Robert De Niro, Wesley Snipes, Ellen Barkin, John
+(1996) *1/2 - C:Tom Arnold, David Paymer, Rod Steiger, Rhea Perlman.
+*1/2 (out of ****)
+Alternative Scale: ** out of ****
+Alternative Scale: **** out of ****
+Alternative Scale: *1/2 out of ****
+give it my strongest recommendation and my top rating of ****.
+I award it ***.
+I recommend the movie to you and give it ***.
+I give the original just barely one *.
+RATING (0 TO ****):  *
+RATING (0 TO ****):  ** 1/2
+RATING (0 TO ****):  ***
+RATING (0 TO ****):  ****
+RATING (0 TO ****):  1/2
+RATING:  ***
+the wonderful soundtrack make this film worth ** out of ****.
+TIN CUP (1996) ** 1/2  Directed by Ron Shelton. Written by John Norville 
+</pre>
+<p>
+Now we code a text agent in C to recognize star ratings. Some text agents
+are invoked only at the beginning of each line for efficiency. In this
+case, a star rating can occur anywhere in the line, so the new text agent
+must be invoked on every character. The text agent will sense the potential
+presence of a star rating when it sees one of the strings:
+<pre>
+*
+1/2
+Alternative Scale:
+RATING (0 TO ****):
+</pre>
+Then it will calculate the numerator by counting each star as 1.0 and a
+final ``1/2'' as 0.5. It then parses an optional specification of the
+denominator (which defaults to 4.0). If the calculated numerator is less
+than or equal to the denominator, the text agent returns a communicon
+parse node containing the concept:
+<pre>
+[good na <rating>]
+
+where <rating> ranges from -1.0 to 1.0.
+</pre>
+<p>
+The code for the new text agent is:
+<pre>
+Bool TA_StarRating(char *in, Discourse *dc,
+                   /* RESULTS */ Channel *ch, char **nextp)
+{
+  Float	numer, denom;
+  char	*orig_in;
+  Obj	*con;
+  numer = 0.0;
+  denom = 4.0;	/* Assume 4.0 as default. */
+
+  orig_in = in;
+  /* Sense presence of rating. */
+  if (StringHeadEqualAdvance("RATING (0 TO ****):", in, &in)) {
+    denom = 4.0;
+    in = StringSkipWhitespace(in);
+  } else if (StringHeadEqualAdvance("RATING:", in, &in)) {
+    in = StringSkipWhitespace(in);
+  } else if (StringHeadEqualAdvance("Alternative Scale:", in, &in)) {
+    in = StringSkipWhitespace(in);
+  } else if (StringHeadEqualAdvance("1/2", in, &in)) {
+    numer = 0.5;
+    goto post;
+  } else if (*in != '*') {
+    /* Rating not present. */
+    return(0);
+  }
+
+  /* Parse rating numerator. */
+  if (*in == '0') {
+    numer = 0.0;
+    in++;
+  } else if (*in == '*' || *in == '1') {
+    while (*in == '*' || *in == '1') {
+      if (*in == '*') {
+        numer += 1.0;
+      } else {
+        in++;
+        if (!StringHeadEqualAdvance("/2", in, &in)) return(0);
+        numer += 0.5;
+        break;
+      }
+      in++;
+      if (*in == ' ' && *(in+1) == '1') {
+      /* "* 1/2" */
+        in++;
+      }
+    }
+  } else {
+    return(0);
+  }
+
+post:
+  /* Parse optional rating denominator. */
+  in = StringSkipWhitespace(in);
+  if (StringHeadEqualAdvance("(out of four)", in, &in)) {
+    denom = 4.0;
+  } else if (StringHeadEqualAdvance("(out of ****)", in, &in)) {
+    denom = 4.0;
+  } else if (StringHeadEqualAdvance("out of ****", in, &in)) {
+    denom = 4.0;
+  }
+  /* todo: Parse other denominators. */
+
+  if (numer > denom) return(0);
+  con = L(N("good"), ObjNA, D(Weight01toNeg1Pos1(numer/denom)), E);
+  ChannelAddPNode(ch, PNTYPE_COMMUNICON, 1.0,
+                  ObjListCreate(con, NULL),
+                  NULL, orig_in, in);
+  *nextp = in;
+  return(1);
+}
+</pre>
+<p>
+The text agent is incorporated into the program by calling it from
+the function <tt>TA_ScanAnywhere</tt>:
+<pre>
+void TA_ScanAnywhere(Channel *ch, Discourse *dc)
+{
+  char	*p, *rest;
+  ...
+  for (p = (char *)ch->buf; *p; ) {
+    if (TA_StarRating(p, dc, ch, &rest)) p = rest;
+    else p++;
+  }
+}
+</pre>
+<p>
+We then use the <tt>parse</tt> shell command on the subcorpus of star-based
+ratings in order to test the new text agent. By looking for communicon parse
+nodes in the output <tt>log</tt> file, we can verify that all star ratings were
+correctly parsed:
+<pre>
+[COMMUNICON [good na NUMBER:u:0.25] 7-12:<**1/2 >]
+[COMMUNICON [good na NUMBER:u:0] 74-76:<** >]
+[COMMUNICON [good na NUMBER:u:0.5] 131-134:<*** >]
+[COMMUNICON [good na NUMBER:u:0.5] 202-218:<*** (out of four)>]
+[COMMUNICON [good na NUMBER:u:-0.25] 227-244:<*1/2 (out of four)>]
+[COMMUNICON [good na NUMBER:u:0] 253-268:<** (out of four)>]
+[COMMUNICON [good na NUMBER:u:1] 277-281:<**** >]
+[COMMUNICON [good na NUMBER:u:-0.25] 343-347:<*1/2 >]
+[COMMUNICON [good na NUMBER:u:-0.25] 405-422:<*1/2 (out of ****)>]
+[COMMUNICON [good na NUMBER:u:0] 424-456:<Alternative Scale: ** out of *>]
+[COMMUNICON [good na NUMBER:u:1] 458-492:<Alternative Scale: **** out of>]
+[COMMUNICON [good na NUMBER:u:-0.25] 494-528:<Alternative Scale: *1/2 out of>]
+[COMMUNICON [good na NUMBER:u:1] 587-590:<****>]
+[COMMUNICON [good na NUMBER:u:0.5] 604-606:<***>]
+[COMMUNICON [good na NUMBER:u:0.5] 650-652:<***>]
+[COMMUNICON [good na NUMBER:u:-0.5] 691-691:<*>]
+[COMMUNICON [good na NUMBER:u:-0.5] 694-716:<RATING (0 TO ****):  *\n>]
+[COMMUNICON [good na NUMBER:u:0.25] 717-744:<RATING (0 TO ****):  ** 1/2\n>]
+[COMMUNICON [good na NUMBER:u:0.5] 745-769:<RATING (0 TO ****):  ***\n>]
+[COMMUNICON [good na NUMBER:u:1] 770-795:<RATING (0 TO ****):  ****\n>]
+[COMMUNICON [good na NUMBER:u:-0.75] 796-820:<RATING (0 TO ****):  1/2\n>]
+[COMMUNICON [good na NUMBER:u:0.5] 821-833:<RATING:  ***\n>]
+[COMMUNICON [good na NUMBER:u:0] 880-893:<** out of ****>]
+[COMMUNICON [good na NUMBER:u:0.25] 911-918:<** 1/2  >]
+</pre>
+<h3>Parsing and generation</h3>
+<p>
+Next let's see how ThoughtTreasure parses questions and generate answers.
+The question <em>Who directed Rendezvous in Paris?</em> is typed into the
+file <tt>in.txt</tt> and the following commands are typed into the
+<a href="quickref.htm">ThoughtTreasure shell</a>:
+<pre>
+dbg -flags synsem -level detail
+parse -dcin in.txt -outsyn 1 -outsem 1 -outana 1 -outund 1
+      -dcout out.txt
+</pre>
+The first command turns on detailed debugging of syntactic and semantic
+parsing. The second command initiates parsing of the file <tt>in.txt</tt>
+with output of the syntactic, semantic, anaphoric, and understanding-level
+parses to the file <tt>out.txt</tt>.
+<p>
+You can also invoke question answering with the <tt>chatterbot</tt> method
+of the <a href="../java/doc/index.html">Java-based client API</a> or the
+<a href="ttsp.htm">ThoughtTreasure server protocol</a>, or the
+<tt>chateng</tt> and <tt>chatfr</tt> ThoughtTreasure shell commands.
+<p>
+The debugging output is always placed into the <tt>log</tt> file.
+This file starts as follows:
+<pre>
+19980901T160211: created Context 1
+Deictic stack level 0 &lt;computer-file> 19980901T160211
+speakers: Jim
+listeners: TT
+</pre>
+A speaker of Jim and a listener of ThoughtTreasure are pushed onto the
+deictic stack-this is hardcoded for now.
+<p>
+The text agents are then run. The lexical entry text agent and the
+end of sentence text agent add the following parse nodes:
+<pre>
+[H &lt;Who.Hz:who> 0-3:&lt;Who >]
+[N &lt;Who.SNz> 0-3:&lt;Who >]
+[V &lt;directed.iVz:direct> 4-12:&lt;directed >]
+[V &lt;directed.dVz:direct> 4-12:&lt;directed >]
+[A &lt;directed.Az> 4-12:&lt;directed >]
+[N &lt;Rendezvous in Paris.Nz>&lt;?\n> 13-33:&lt;Rendezvous in Paris?\n>]
+[0 &lt;in.0z> 24-26:&lt;in >]
+[N &lt;in.·Nz¸> 24-26:&lt;in >]
+[R &lt;in.·Rz¸> 24-26:&lt;in >]
+[A &lt;in.·Az¸> 24-26:&lt;in >]
+[N &lt;Paris.SNz¸>&lt;?\n> 27-33:&lt;Paris?\n>]
+</pre>
+Several different inflections of each word are added:
+<ul>
+<li>
+pronoun and singular noun instances of <em>Who</em> found
+in the input text from characters 0 to 3 (including trailing
+white space),
+<li>
+preterit verb, past participle verb, and adjective instances of
+<em>directed</em>,
+<li>
+the phrasal singular noun <em>Rendezvous in Paris</em>,
+<li>
+expletive (as in phrasal verbs), noun (as in <em>inch</em>),
+preposition, and adjective (as in <em>fashionable</em>) instances
+of <em>in</em>, and
+<li>
+the singular noun <em>Paris</em>.
+</ul>
+<p>
+The locations of items found by the text agents above are then shown:
+<pre>
+________________________________________________________________________________
+LEXITEM words:
+[[Who ]][[directed ]]Rendezvous in Paris?
+ 
+________________________________________________________________________________
+LEXITEM phrases:
+Who directed [[Rendezvous in Paris?
+]]
+________________________________________________________________________________
+END_OF_SENT:
+Who directed Rendezvous in Paris[[?
+]]
+</pre>
+
+<p>
+Next, syntactic parsing begins:
+<pre>
+19980901T160211: **** PROCESS SENTENCE BEGIN ****
+19980901T160211: **** PROCESS SENTENCE IN CONTEXT #1 ****
+19980901T160211: **** SYNTACTIC PARSE BEGIN ****
+Who directed Rendezvous in Paris?\n
+SYN X &lt;- [N &lt;Rendezvous in Paris.Nz>]
+SYN E &lt;- [A &lt;directed.Az>]
+SYN W &lt;- [V &lt;directed.dVz:direct>]
+SYN W &lt;- [V &lt;directed.iVz:direct>]
+SYN X &lt;- [N &lt;Who.SNz>]
+SYN X &lt;- [H &lt;Who.Hz:who>]
+</pre>
+Singleton base rules
+<tt>N -> X</tt>, <tt>H -> X</tt>, <tt>A -> E</tt>, and <tt>V -> W</tt> are
+applied to the lexical entries: noun phrases are built from nouns and
+pronouns, adjective phrases are built from adjectives, and
+verb phrases are built from verbs.
+<p>
+A nonsingleton base rule <tt>H W -> W</tt> is applied, creating
+a verb phrase out of the pronoun <em>Who</em> and the verb phrase
+containing the verb <em>created</em>:
+<pre>
+SYN W &lt;- [H &lt;Who.Hz:who>] + [W [V &lt;directed.iVz:direct>]]
+</pre>
+It so happens that this parse node will not end up in any final
+sentence parse, but the syntactic parser nonetheless carries out
+all possible base rule applications subject to a set of 
+filters (constraints).
+<p>
+Another verb phrase and a sentence node are then added:
+<pre>
+SYN W &lt;- [H &lt;Who.Hz:who>] + [W [V &lt;directed.dVz:direct>]]
+SYN Z &lt;- [X [H &lt;Who.Hz:who>]] + [W [V &lt;directed.iVz:direct>]]
+</pre>
+Although a sentence node has been added, it is not semantically
+parsed since it does not span the entire input sentence.
+<p>
+A number of other base rules are applied, adding yet more nodes
+to the parse node forest:
+<pre>
+SYN Z &lt;- [X [H &lt;Who.Hz:who>]] + [W [V &lt;directed.dVz:direct>]]
+SYN X &lt;- [X [H &lt;Who.Hz:who>]] + [E [A &lt;directed.Az>]]
+SYN Z &lt;- [X [H &lt;Who.Hz:who>]] + [E [A &lt;directed.Az>]]
+SYN Z &lt;- [X [N &lt;Who.SNz>]] + [W [V &lt;directed.iVz:direct>]]
+SYN Z &lt;- [X [N &lt;Who.SNz>]] + [W [V &lt;directed.dVz:direct>]]
+SYN X &lt;- [X [N &lt;Who.SNz>]] + [E [A &lt;directed.Az>]]
+SYN Z &lt;- [X [N &lt;Who.SNz>]] + [E [A &lt;directed.Az>]]
+SYN Z &lt;- [W [V &lt;directed.iVz:direct>]]
+SYN W &lt;- [W [V &lt;directed.iVz:direct>]] +
+         [X [N &lt;Rendezvous in Paris.Nz>]]
+SYN Z &lt;- [W [V &lt;directed.dVz:direct>]]
+SYN W &lt;- [W [V &lt;directed.dVz:direct>]] +
+         [X [N &lt;Rendezvous in Paris.Nz>]]
+SYN X &lt;- [E [A &lt;directed.Az>]] + [X [N &lt;Rendezvous in Paris.Nz>]]
+SYN X &lt;- [X [X [N &lt;Who.SNz>]][E [A &lt;directed.Az>]]] +
+         [X [N &lt;Rendezvous in Paris.Nz>]]
+SYN W &lt;- [H &lt;Who.Hz:who>] +
+         [W [W [V &lt;directed.dVz:direct>]]
+            [X [N &lt;Rendezvous in Paris.Nz>]]]
+SYN W &lt;- [H &lt;Who.Hz:who>] +
+         [W [W [V &lt;directed.iVz:direct>]]
+            [X [N &lt;Rendezvous in Paris.Nz>]]]
+SYN X &lt;- [X [N &lt;Who.SNz>]] +
+         [X [E [A &lt;directed.Az>]]
+            [X [N &lt;Rendezvous in Paris.Nz>]]]
+SYN Z &lt;- [W [W [V &lt;directed.dVz:direct>]]
+            [X [N &lt;Rendezvous in Paris.Nz>]]]
+</pre>
+<p>
+Finally a sentence node is added that spans the input sentence, and the
+semantic parser is invoked:
+<pre>
+SYN Z &lt;- [X [H &lt;Who.Hz:who>]] +
+         [W [W [V &lt;directed.dVz:direct>]]
+            [X [N &lt;Rendezvous in Paris.Nz>]]]
+19980901T160212: **** SEMANTIC PARSE TOP SENTENCE ****
+19980901T160212: **** SEMANTIC PARSE BEGIN ****
+[Z
+ [X [H &lt;Who.Hz:who>]]
+ [W
+  [W [V &lt;directed.dVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+SC [Z [X [H &lt;Who.Hz:who>]]
+      [W [W [V &lt;directed.dVz:direct>]]
+         [X [N &lt;Rendezvous in Paris.Nz>]]]]
+>SC [X [H &lt;Who.Hz:who>]]
+>>SC [H &lt;Who.Hz:who>]
+>>SR human-interrogative-pronoun [H &lt;Who.Hz:who>]
+>SR human-interrogative-pronoun [H &lt;Who.Hz:who>]
+</pre>
+<tt>SC</tt> indicates a recursive call to the semantic parser and <tt>SR</tt>
+indicates a return. Greater than signs (``>'') indicate recursion level.
+The semantic parser is invoked on the entire tree, a sentence, which then
+invokes itself on the noun phrase (``X''). To parse the noun phrase, it
+invokes itself on the pronoun (``H''). The pronoun lexical entry is linked
+to one meaning in the database, <tt>human-interrogative-pronoun</tt>,
+which it returns along with a pointer to the parse node from which it
+derives.
+<p>
+The semantic parser is next invoked on the verb phrase (``W''), with a
+<em>case frame</em> containing the subject obtained above:
+<pre>
+>SC [W [W [V &lt;directed.dVz:direct>]][X [N &lt;Rendezvous in Paris.Nz>]]]
+>{subj: human-interrogative-pronoun [X [H &lt;Who.Hz:who>]]}
+</pre>
+<p>
+In order to parse a verb phrase, verb arguments must first be parsed. This
+parse contains one direct object argument: <em>Rendezvous in Paris</em>.
+The semantic parser is invoked on this argument:
+<pre>
+>>SC [X [N &lt;Rendezvous in Paris.Nz>]]
+>>>SC [N &lt;Rendezvous in Paris.Nz>]
+>>>SR 0.900:RDP [N &lt;Rendezvous in Paris.Nz>]
+>>SR 0.900:RDP [N &lt;Rendezvous in Paris.Nz>]
+</pre>
+The one meaning linked to <em>Rendezvous in Paris</em> is returned.
+<p>
+The embedded verb phrase is then called with a case frame containing
+one subject and one object:
+<pre>
+>>SC [W [V &lt;directed.dVz:direct>]]
+>>{obj: RDP [X [N &lt;Rendezvous in Paris.Nz>]]}
+>>{subj: human-interrogative-pronoun [X [H &lt;Who.Hz:who>]]}
+>>>SC [V &lt;directed.dVz:direct>]
+>>>{obj: RDP [X [N &lt;Rendezvous in Paris.Nz>]]}
+>>>{subj: human-interrogative-pronoun [X [H &lt;Who.Hz:who>]]}
+</pre>
+A new concept is constructed and semantic parsing returns with
+one concept as the result:
+<pre>
+>>>SR 0.810:[director-of RDP human-interrogative-pronoun]
+            [V &lt;directed.dVz:direct>]
+>>SR 0.810:[director-of RDP human-interrogative-pronoun]
+           [V &lt;directed.dVz:direct>]
+>SR 0.810:[director-of RDP human-interrogative-pronoun]
+          [V &lt;directed.dVz:direct>]
+SR 0.810:[director-of RDP human-interrogative-pronoun]
+         [V &lt;directed.dVz:direct>]
+19980901T160212: **** SEMANTIC PARSE END ****
+</pre>
+<p>
+The syntactic parser then continues its process of applying base rules.
+Another sentence is found and semantic parsing is again invoked:
+<pre>
+SYN Z &lt;- [X [N &lt;Who.SNz>]] +
+         [W [W [V &lt;directed.dVz:direct>]]
+            [X [N &lt;Rendezvous in Paris.Nz>]]]
+19980901T160212: **** SEMANTIC PARSE TOP SENTENCE ****
+19980901T160212: **** SEMANTIC PARSE BEGIN ****
+[Z
+ [X [N &lt;Who.SNz>]]
+ [W
+  [W [V &lt;directed.dVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+SC [Z [X [N &lt;Who.SNz>]][W [W [V &lt;directed.dVz:direct>]][X [N &lt;Rendezvous in Paris.Nz>]]]]
+>SC [X [N &lt;Who.SNz>]]
+>>SC [N &lt;Who.SNz>]
+>>SR 0.630:rock-group-the-Who [N &lt;Who.SNz>]
+>SR 0.630:rock-group-the-Who [N &lt;Who.SNz>]
+</pre>
+This parse involves the noun <em>Who</em>, whose only known meaning
+is the rock group the Who. But since this meaning of the word is
+marked in the lexicon as preferring a definite article
+(a filter feature of ``k''), it is assigned a score of 0.630.
+<p>
+Parsing then continues:
+<pre>
+>SC [W [W [V &lt;directed.dVz:direct>]][X [N &lt;Rendezvous in Paris.Nz>]]]
+>{subj: rock-group-the-Who [X [N &lt;Who.SNz>]]}
+>>SC [X [N &lt;Rendezvous in Paris.Nz>]]
+>>>SC [N &lt;Rendezvous in Paris.Nz>]
+>>>SR 0.900:RDP [N &lt;Rendezvous in Paris.Nz>]
+>>SR 0.900:RDP [N &lt;Rendezvous in Paris.Nz>]
+>>SC [W [V &lt;directed.dVz:direct>]]
+>>{obj: RDP [X [N &lt;Rendezvous in Paris.Nz>]]}
+>>{subj: rock-group-the-Who [X [N &lt;Who.SNz>]]}
+>>>SC [V &lt;directed.dVz:direct>]
+>>>{obj: RDP [X [N &lt;Rendezvous in Paris.Nz>]]}
+>>>{subj: rock-group-the-Who [X [N &lt;Who.SNz>]]}
+>>>SR 0.510:[director-of RDP rock-group-the-Who] [V &lt;directed.dVz:direct>]
+>>SR 0.510:[director-of RDP rock-group-the-Who] [V &lt;directed.dVz:direct>]
+>SR 0.510:[director-of RDP rock-group-the-Who] [V &lt;directed.dVz:direct>]
+SR 0.510:[past-participle [director-of RDP rock-group-the-Who]]
+                          [V &lt;directed.dVz:direct>]
+19980901T160212: **** SEMANTIC PARSE END ****
+</pre>
+The resulting concept may be paraphrased as <em>Did the Who direct
+Rendezvous in Paris?</em>.
+<p>
+Further syntactic parses are considered, which lead to further semantic
+parses:
+<pre>
+...
+[Z
+ [X [H &lt;Who.Hz:who>]]
+ [W
+  [W [V &lt;directed.iVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+...
+SR 0.810:[preterit-indicative [director-of RDP human-interrogative-pronoun]]
+         [V &lt;directed.iVz:direct>]
+...
+[Z
+ [X [N &lt;Who.SNz>]]
+ [W
+  [W [V &lt;directed.iVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+...
+SR 0.510:[preterit-indicative [director-of RDP rock-group-the-Who]]
+         [V &lt;directed.iVz:direct>]
+</pre>
+<p>
+Finally, all possible syntactic parses have been considered and the
+following semantic parses are returned:
+<pre>
+19980901T160212: **** SYNTACTIC PARSE END ****
+19980901T160212: **** RESULTS OF SEMANTIC PARSE ****
+0.810:[preterit-indicative
+ [director-of *RDP *human-interrogative-pronoun]]
+0.810:[past-participle
+ [director-of *RDP *human-interrogative-pronoun]]
+0.510:[preterit-indicative
+ [director-of *RDP *rock-group-the-Who]]
+0.510:[past-participle
+ [director-of *RDP *rock-group-the-Who]]
+19980901T160212: 4 semantic parse(s) [session total 4] of &lt;Who direct>
+</pre>
+<p>
+Next, each semantic parse is considered by the anaphoric parser and
+understanding agency. In this example, there is no anaphora to be resolved,
+so the anaphoric processor just returns back its input:
+<pre>
+19980901T160212: **** ANAPHORIC PARSE BEGIN ****
+AC [preterit-indicative [director-of *RDP *human-interrogative-pronoun]]
+>AC preterit-indicative
+>AR preterit-indicative
+>AC [director-of *RDP *human-interrogative-pronoun]
+>>AC director-of
+>>AR director-of
+>>AC RDP
+>>AR RDP
+>>AC human-interrogative-pronoun
+>>AR human-interrogative-pronoun
+>AR [director-of RDP human-interrogative-pronoun]
+AR [preterit-indicative [director-of RDP human-interrogative-pronoun]]
+Accepted [preterit-indicative [director-of *RDP *human-interrogative-pronoun]]
+  with anaphors:
+anaphor &lt;RDP> &lt;RDP> 1 [X [N &lt;Rendezvous in Paris.Nz>]]
+anaphor &lt;human-interrogative-pronoun> &lt;human-interrogative-pronoun>
+  1 [X [H &lt;Who.Hz:who>]]
+19980901T160212: **** ANAPHORIC PARSE END ****
+</pre>
+<p>
+The understanding agency is then run on the output of the anaphoric parser:
+<pre>
+19980901T160212: **** UNDERSTANDING AGENCY BEGIN ****
+19980901T160212: sprouted Context 12
+UNROLLED QUESTION CONCEPT [director-of *RDP *human-interrogative-pronoun]
+UnderstandUtterance3 returns 1.000000
+19980901T160212: **** UNDERSTANDING AGENCY END ****
+</pre>
+It sprouts a new context for an interpretation of the input question.
+The question makes complete sense (1.000000) because a
+question answering agent finds an answer to the question in the database,
+which we will see below.
+<p>
+The above is repeated for each semantic parse. To see the results, we
+skip to the point in the trace where the sprouted contexts are printed out:
+<pre>
+...
+19980901T160212: freed Context 1
+19980901T160212: **** UNPRUNED UNDERSTANDING CONTEXTS ****
+________________________________________________________________________________
+Context 14 sense 0.104985 MODE_STOPPED @19980901T160211:19980901T160211#14
+  tensestep 0
+last concept [preterit-indicative [director-of RDP rock-group-the-Who]]
+last pn:
+[Z
+ [X [N &lt;Who.SNz>]]
+ [W
+  [W [V &lt;directed.iVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+Answer &lt;UA_QuestionYesNo2> &lt;Yes-No-question> sense 0.1
+Q: [director-of RDP rock-group-the-Who]
+A: [sentence-adverb-of-negation
+    [not @na:na#14|[director-of RDP rock-group-the-Who]]]
+</pre>
+The Yes-No question answering agent interprets the input as <em>Did
+(the rock group) the Who direct Rendezvous in Paris?</em>, and generates
+the answer <em>No, the Who did not direct Rendezvous in Paris</em>. This
+interpretation does not make very much sense (0.104985).
+<p>
+The next interpretation is assigned a sense of 0 because the top-level
+tense is a past participle:
+<pre>
+________________________________________________________________________________
+Context 13 sense 0 MODE_STOPPED @19980901T160211:19980901T160211#13 tensestep 0
+last concept [past-participle [director-of RDP rock-group-the-Who]]
+last pn:
+[Z
+ [X [N &lt;Who.SNz>]]
+ [W
+  [W [V &lt;directed.dVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+</pre>
+<p>
+A context is then displayed in which the pronoun question
+answering agent found an answer to an interpretation of the
+question:
+<pre>
+Context 12 sense 1.0009 MODE_STOPPED @19980901T160211:19980901T160211#12
+  tensestep 0
+last concept [preterit-indicative [director-of RDP human-interrogative-pronoun]]last pn:
+[Z
+ [X [H &lt;Who.Hz:who>]]
+ [W
+  [W [V &lt;directed.iVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+Answer &lt;UA_QuestionPronoun> &lt;question-word-question> sense 1
+Q: [director-of RDP human-interrogative-pronoun]
+A: @19920101T000000:19920101T000001|[director-of RDP Eric-Rohmer]
+</pre>
+This interpretation is of high sense (1.0009).
+<p>
+The last interpretation is assigned a sense of 0:
+<pre>
+________________________________________________________________________________
+Context 11 sense 0 MODE_STOPPED @19980901T160211:19980901T160211#11 tensestep 0
+last concept [past-participle [director-of RDP human-interrogative-pronoun]]
+last pn:
+[Z
+ [X [H &lt;Who.Hz:who>]]
+ [W
+  [W [V &lt;directed.dVz:direct>]]
+  [X [N &lt;Rendezvous in Paris.Nz>]]]]
+</pre>
+<p>
+Then contexts are pruned. Currently only the context with the highest sense
+rating is retained:
+<pre>
+19980901T160212: freed Context 14
+19980901T160212: freed Context 13
+19980901T160212: freed Context 11
+19980901T160212: **** PRUNED UNDERSTANDING CONTEXTS ****
+________________________________________________________________________________
+Context 12 sense 1.0009 MODE_STOPPED @19980901T160211:19980901T160211#12
+  tensestep 0
+</pre>
+<p>
+The answer is then generated and processing completes:
+<pre>
+19980901T160212: QUESTION &lt;UA_QuestionPronoun> &lt;question-word-question>
+@na:na#12|[director-of *RDP *human-interrogative-pronoun]
+19980901T160212: INPUT TEXT &lt;Who directed Rendezvous in Paris?>
+19980901T160212: ANSWER sense 1
+@19920101T000000:19920101T000001|[director-of RDP Eric-Rohmer]
+ASPECT focus @19920101T000000:19920101T000001 obj
+  @19920101T000000:19920101T000001
+  [director-of RDP Eric-Rohmer] nonsituational: &lt;aspect-unknown>
+ASPECT &lt;aspect-unknown> tensestep -4 literary 0 =>
+  TENSE &lt;preterit-indicative>
+19980901T160212: **** PROCESS SENTENCE END ****
+Deictic stack empty
+Time spent on command = 1 seconds
+</pre>
+<p>
+The requested output is placed into the <tt>out.txt</tt> file:
+<pre>
+> Who directed Rendezvous in Paris?
+SEMANTIC PARSE CONCEPTS:
+0.810:[past-participle
+ [director-of RDP human-interrogative-pronoun]]
+0.810:[preterit-indicative
+ [director-of RDP human-interrogative-pronoun]]
+0.510:[past-participle
+ [director-of RDP rock-group-the-Who]]
+0.510:[preterit-indicative
+ [director-of RDP rock-group-the-Who]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of RDP human-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of RDP human-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of RDP rock-group-the-Who]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of RDP rock-group-the-Who]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <directed.iVz:direct>]]
+  [X [N <Rendezvous in Paris.Nz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12|[preterit-indicative
+ [director-of RDP human-interrogative-pronoun]]
+Eric Rohmer directed Rendezvous in Paris.
+</pre>
+<h3>Running the movie review application</h3>
+<p>
+All the modifications to ThoughtTreasure are now in place enabling
+it to parse, information extract, and answer questions about simple movie
+reviews. For example, we invoke the parser on the following review:
+<pre>
+Article 5464 of rec.arts.movies.reviews:
+From: jim@trollope.com (Jim Garnier)
+Newsgroups: rec.arts.movies.reviews
+Subject: Review of film "Emma"
+Date: 01 Sep 1996 15:01:02 GMT
+
+Douglas McGrath directed "Emma". The film is passionate.
+It's rated PG.
+
+Emma stars Gwyneth Paltrow as Emma Woodhouse. She's lovely.
+
+I give it a **** (out of four).
+</pre>
+<p>
+ThoughtTreasure extracts the following from the review:
+<pre>
+[email-address-of Jim STRING:email-address:"jim@trollope.com"]
+[part-of STRING:Usenet-newsgroup:"rec.arts.movies.reviews" Usenet]
+=*Emma.z/film/
+[director-of Emma Douglas-McGrath]
+[strong-feeling Emma]
+[MPAA-rating-of Emma MPAA-PG]
+[actor-of Emma Gwyneth-Paltrow Emma-Woodhouse-]
+[beautiful Gwyneth-Paltrow]
+[COMMUNICON [good na NUMBER:u:1] 323-340:<**** (out of four)>]
+</pre>
+<p>
+We may then ask ThoughtTreasure questions which can be answered
+based on the extracted information:
+<pre>
+> Who directed Emma?
+Douglas McGrath directs Emma.
+> Emma is rated what?
+Emma is rated PG.
+> Who stars in the film?
+Gwyneth Paltrow stars in Emma.
+</pre>
+<hr>
+</body>
+</html>

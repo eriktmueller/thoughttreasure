@@ -1,0 +1,1155 @@
+> Mrs. Jeanne Püchl was a grocer.
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [occupation-of
+  [such-that
+   human
+   [NAME-of human NAME:"Mrs. Jeanne Püchl"]]
+  grocer]]
+[preterit-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Mrs. Jeanne Püchl"]]
+  [such-that
+   [indefinite-article human]
+   [occupation-of human grocer]]]]
+[preterit-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Mrs. Jeanne Püchl"]]
+  [such-that
+   [indefinite-article human]
+   [occupation-of human grocer]]]]
+0.900:[preterit-indicative
+ [occupation-of
+  [such-that
+   human
+   [NAME-of human NAME:"Mrs. Jeanne Püchl"]]
+  grocer]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [occupation-of Mrs-Jeanne-P-chl grocer]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa Mrs-Jeanne-P-chl human2372]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa Mrs-Jeanne-P-chl human2373]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Mrs. Jeanne Püchl]]
+ [W
+  [W [V <was.iG1SVz¸:be>]]
+  [X
+   [D <a.S·Dz¸>]
+   [X [N <grocer.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12|[preterit-indicative
+ [occupation-of Mrs-Jeanne-P-chl grocer]]
+> Is Jeanne Püchl a cat?
+SEMANTIC PARSE CONCEPTS:
+0.900:[standard-copula
+ [such-that
+  human
+  [NAME-of human NAME:"Jeanne Püchl"]]
+ [indefinite-article cat]]
+[isa
+ [such-that
+  human
+  [NAME-of human NAME:"Jeanne Püchl"]]
+ [indefinite-article cat]]
+[isa
+ na
+ [such-that
+  [indefinite-article cat]
+  [NAME-of
+   [indefinite-article cat]
+   NAME:"Jeanne Püchl"]]]
+0.900:[standard-copula
+ na
+ [such-that
+  [indefinite-article cat]
+  [NAME-of
+   [indefinite-article cat]
+   NAME:"Jeanne Püchl"]]]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula Mrs-Jeanne-P-chl cat]
+ANAPHORIC PARSE CONCEPT:
+[isa Mrs-Jeanne-P-chl cat]
+ANAPHORIC PARSE CONCEPT:
+[isa na Jeanne-P-chl]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula na Jeanne-P-chl2374]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Is.p3SVz¸:be>]]
+   [X [NAME Jeanne Püchl]]]
+  [X
+   [D <a.S·Dz¸>]
+   [X [N <cat.Nz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#122|[isa Mrs-Jeanne-P-chl cat]
+No, but a cat and her are a type of a mammal.
+> She is a person?
+SEMANTIC PARSE CONCEPTS:
+0.900:[present-indicative
+ [isa
+  subject-pronoun
+  [indefinite-article grammatical-person]]]
+0.900:[present-indicative
+ [isa
+  subject-pronoun
+  [indefinite-article human]]]
+0.810:[present-indicative
+ [standard-copula
+  subject-pronoun
+  [indefinite-article grammatical-person]]]
+0.810:[present-indicative
+ [standard-copula
+  subject-pronoun
+  [indefinite-article human]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa Mrs-Jeanne-P-chl grammatical-person]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa Mrs-Jeanne-P-chl human]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa Mrs-Jeanne-P-chl human2375]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa human human2375]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula Mrs-Jeanne-P-chl grammatical-person]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula Mrs-Jeanne-P-chl human]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula Mrs-Jeanne-P-chl human2376]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula human human2376]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <a.S·Dz¸>]
+   [X [N <person.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1222|[present-indicative
+ [isa Mrs-Jeanne-P-chl human]]
+Yes, Mrs. Jeanne Püchl is in fact human.
+> What is her occupation?
+SEMANTIC PARSE CONCEPTS:
+0.900:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner occupation]]]
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner occupation-of]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner occupation-of]]]
+0.810:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner occupation]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   human
+   [of human Mrs-Jeanne-P-chl]
+   [occupation-of human occupation]]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa object-interrogative-pronoun human2377]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   occupation
+   [occupation-of Mrs-Jeanne-P-chl occupation]]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [occupation-of Mrs-Jeanne-P-chl object-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   human
+   [of human Mrs-Jeanne-P-chl]
+   [occupation-of human occupation]]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula object-interrogative-pronoun human2378]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <her.3SF·Dz¸:his>]
+   [X [N <occupation.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12224|[present-indicative
+ [occupation-of Mrs-Jeanne-P-chl object-interrogative-pronoun]]
+She is a grocer.
+> Jeanne Püchl does what for a living?
+SEMANTIC PARSE CONCEPTS:
+0.900:[present-indicative
+ [occupation-of
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  determining-interrogative-pronoun]]
+0.900:[present-indicative
+ [occupation-of
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  object-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [occupation-of Mrs-Jeanne-P-chl determining-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [occupation-of Mrs-Jeanne-P-chl object-interrogative-pronoun]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jeanne Püchl]]
+ [W
+  [W
+   [W [V <does.p3S·Vz¸:do>]]
+   [X [H <what.·Hz¸>]]]
+  [0 <for a living.0z>]]]
+UNDERSTANDING CONCEPT:
+@na:na#122242|[present-indicative
+ [occupation-of Mrs-Jeanne-P-chl object-interrogative-pronoun]]
+She is a grocer.
+> What is her nationality?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner nationality-of]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner nationality-of]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   country
+   [nationality-of Mrs-Jeanne-P-chl country]]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa object-interrogative-pronoun Austria]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [nationality-of Mrs-Jeanne-P-chl object-interrogative-pronoun]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <her.3SF·Dz¸:his>]
+   [X [N <nationality.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1222423|[present-indicative
+ [nationality-of Mrs-Jeanne-P-chl object-interrogative-pronoun]]
+Austria is her nationality.
+> Why?
+SEMANTIC PARSE CONCEPTS:
+interjection-why
+[explanation-request Jim TT]
+ANAPHORIC PARSE CONCEPT:
+interjection-why
+ANAPHORIC PARSE CONCEPT:
+[explanation-request Jim TT]
+UNDERSTANDING TREE:
+[Z [U <Why.·Uz¸:why>]]
+UNDERSTANDING CONCEPT:
+@na:na#12224232|[explanation-request Jim TT]
+Austria is the nationality of Mrs. Jeanne Püchl, because Austria is the
+nationality of Püchl.
+> Jeanne Püchl was where?
+SEMANTIC PARSE CONCEPTS:
+[preterit-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+[preterit-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [near
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [location-of
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [inside
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [standard-copula
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [near
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [inside Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jeanne Püchl]]
+ [W
+  [W [V <was.iG1SVz¸:be>]]
+  [X [H <where.·Hz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#122242323|[preterit-indicative
+ [location-of Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+She was in the corner grocery.
+> She was in what city?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [urban subject-pronoun]]
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element urban interrogative-identification-determiner]]]
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element city interrogative-identification-determiner]]]
+0.750:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element City interrogative-identification-determiner]]]
+0.675:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element New-York-City interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [urban Mrs-Jeanne-P-chl]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element urban interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element city interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element City interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element New-York-City interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <city.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1222423233|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element city interrogative-identification-determiner]]]
+She was in Vienna.
+> She was in what country?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [rural subject-pronoun]]
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element rural interrogative-identification-determiner]]]
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element country interrogative-identification-determiner]]]
+0.810:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element country-music interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [rural Mrs-Jeanne-P-chl]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element rural interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element country interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element country-music interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <country.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-660669555|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element country interrogative-identification-determiner]]]
+She was in Austria.
+> She was on what continent?
+SEMANTIC PARSE CONCEPTS:
+0.675:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element Europe interrogative-identification-determiner]]]
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element continent interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element Europe interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element continent interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <on.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <continent.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1983239044|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element continent interrogative-identification-determiner]]]
+She was in Europe.
+> She was on what planet?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element planet interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element planet interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <on.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <planet.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1642446039|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element planet interrogative-identification-determiner]]]
+She was on the earth.
+> She was in what solar system?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element solar-system interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element solar-system interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <solar system.SNz>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#755408795|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element solar-system interrogative-identification-determiner]]]
+She was in our solar system.
+> She was in what galaxy?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element galaxy interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element galaxy interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <galaxy.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1035846641|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element galaxy interrogative-identification-determiner]]]
+She was in the Milky Way.
+> She was in what universe?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element universe interrogative-identification-determiner]]]
+0.900:[preterit-indicative
+ [location-of
+  subject-pronoun
+  [question-element our-universe interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element universe interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element our-universe interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <universe.SNzÈ¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1768531817|[preterit-indicative
+ [location-of
+  Mrs-Jeanne-P-chl
+  [question-element universe interrogative-identification-determiner]]]
+She was in the universe.
+> She was near salami?
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [near subject-pronoun salami]]
+0.729:[preterit-indicative
+ [near subject-pronoun saucisson-sec]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near Mrs-Jeanne-P-chl salami]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near Mrs-Jeanne-P-chl saucisson-sec]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <near.Rz>]
+   [X [N <salami.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-505448985|[preterit-indicative
+ [near Mrs-Jeanne-P-chl salami]]
+Yes, she is in fact near a salami.
+> She was near what salamis?
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [near
+  subject-pronoun
+  [question-element salami interrogative-identification-determiner]]]
+0.729:[preterit-indicative
+ [near
+  subject-pronoun
+  [question-element saucisson-sec interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element salami interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element saucisson-sec interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <near.Rz>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <salamis.PNz:salami>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-759522553|[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element salami interrogative-identification-determiner]]]
+She is near the Danish salami.
+> She was near what meats?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [near
+  subject-pronoun
+  [question-element meat interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element meat interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <near.Rz>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <meats.PNz¸:meat>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#994709063|[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element meat interrogative-identification-determiner]]]
+She is near the pale lightly salted cooked ham, the cubes of bacon, the duck
+pâté, the hot dog, the Danish salami, the dried sausage, the garlic sausage,
+and the smoked salmon.
+> She was near what vegetables?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [near
+  subject-pronoun
+  [question-element vegetable interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element vegetable interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <near.Rz>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <vegetables.PNz¸:vegetable>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1357156039|[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element vegetable interrogative-identification-determiner]]]
+She is near the cery, the chives, the garlic, the onion, the tomato, the
+greenhouse lettuce, and the carrot.
+> She was near what electronic devices?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [near
+  subject-pronoun
+  [question-element electronic-device interrogative-identification-determiner]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element electronic-device interrogative-identification-determiner]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [Y
+   [R <near.Rz>]
+   [X
+    [D <what.·Dz¸>]
+    [X [N <electronic devices.PNz:electronic device>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#686658503|[preterit-indicative
+ [near
+  Mrs-Jeanne-P-chl
+  [question-element electronic-device interrogative-identification-determiner]]]
+She is near the cash register.
+> Jeanne Püchl owns what?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [owner-of
+  determining-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]]]
+[present-indicative
+ [owner-of
+  object-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [owner-of determining-interrogative-pronoun Mrs-Jeanne-P-chl]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [owner-of object-interrogative-pronoun Mrs-Jeanne-P-chl]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jeanne Püchl]]
+ [W
+  [W [V <owns.p3SVz¸:own>]]
+  [X [H <what.·Hz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1723349560|[present-indicative
+ [owner-of object-interrogative-pronoun Mrs-Jeanne-P-chl]]
+She owns the corner grocery.
+> Jeanne Püchl owns a store?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [owner-of
+  [indefinite-article store]
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]]]
+0.900:[present-indicative
+ [owner-of
+  [indefinite-article retail-industry]
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [owner-of store Mrs-Jeanne-P-chl]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [owner-of retail-industry Mrs-Jeanne-P-chl]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jeanne Püchl]]
+ [W
+  [W [V <owns.p3SVz¸:own>]]
+  [X
+   [D <a.S·Dz¸>]
+   [X [N <store.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-53626415|[present-indicative
+ [owner-of store Mrs-Jeanne-P-chl]]
+Yes, she in fact owns the corner grocery.
+> At seven am she stepped out into the street.
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ @070000tod:070000tod|[ptrans-walk
+  subject-pronoun
+  na
+  [definite-article street]]]
+0.900:[past-participle
+ @070000tod:070000tod|[ptrans-walk
+  subject-pronoun
+  na
+  [definite-article street]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ @19960115070000#-53626415:19960115070000#-53626415|[ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ @19960115070000#-53626415:19960115070000#-53626415|[ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]
+UNDERSTANDING TREE:
+[Z
+ [TSRANGE @070000tod:070000tod]
+ [Z
+  [X [H <she.3SFHz¸:he>]]
+  [W
+   [W
+    [W [V <stepped.iVz¸:step>]]
+    [0 <out.0z>]]
+   [Y
+    [R <into.Rz¸>]
+    [X
+     [D <the.Dz¸>]
+     [X [N <street.SNz¸>]]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-536264148|[preterit-indicative
+ @19960115070000#-53626415:19960115070000#-53626415|[ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]
+> The sky was overcast.
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [overcast-sky sky]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [overcast-sky sky]]
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <The.Dz¸:the>]
+  [X [N <sky.SNz¸>]]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [E [A <overcast.Az>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1067674182|[preterit-indicative
+ [overcast-sky sky]]
+> She stepped out into the street at what time?
+SEMANTIC PARSE CONCEPTS:
+0.162:[preterit-indicative
+ [time-of-day-interrogative-adverb
+  [ptrans-walk
+   subject-pronoun
+   na
+   [definite-article street]]]]
+0.180:[time-of-day-interrogative-adverb
+ [preterit-indicative
+  [ptrans-walk
+   subject-pronoun
+   na
+   [definite-article street]]]]
+0.180:[time-of-day-interrogative-adverb
+ [past-participle
+  [ptrans-walk
+   subject-pronoun
+   na
+   [definite-article street]]]]
+0.162:[past-participle
+ [time-of-day-interrogative-adverb
+  [ptrans-walk
+   subject-pronoun
+   na
+   [definite-article street]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [time-of-day-interrogative-adverb
+  [ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]]
+ANAPHORIC PARSE CONCEPT:
+[time-of-day-interrogative-adverb
+ [preterit-indicative
+  [ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]]
+ANAPHORIC PARSE CONCEPT:
+[time-of-day-interrogative-adverb
+ [past-participle
+  [ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [time-of-day-interrogative-adverb
+  [ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W
+   [W
+    [W [V <stepped.iVz¸:step>]]
+    [0 <out.0z>]]
+   [Y
+    [R <into.Rz¸>]
+    [X
+     [D <the.Dz¸>]
+     [X [N <street.SNz¸>]]]]]
+  [B <at what time.Bz>]]]
+UNDERSTANDING CONCEPT:
+@na:na#-2086807227|[preterit-indicative
+ [time-of-day-interrogative-adverb
+  [ptrans-walk Mrs-Jeanne-P-chl na Mrs-Jeanne-P-chl-STREET]]]
+She walked to the street from the corner grocery at seven am.
+> Where was her left foot?
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [standard-copula
+  location-interrogative-pronoun
+  [possessive-determiner left]]]
+[preterit-indicative
+ [isa
+  location-interrogative-pronoun
+  [possessive-determiner left-foot]]]
+[preterit-indicative
+ [isa
+  location-interrogative-pronoun
+  [such-that
+   foot
+   [equiv
+    foot
+    [possessive-determiner left]]]]]
+0.900:[preterit-indicative
+ [location-of
+  location-interrogative-pronoun
+  [possessive-determiner left-foot]]]
+0.900:[preterit-indicative
+ [standard-copula
+  location-interrogative-pronoun
+  [possessive-determiner left-foot]]]
+0.900:[preterit-indicative
+ [location-of
+  location-interrogative-pronoun
+  [such-that
+   foot
+   [equiv
+    foot
+    [possessive-determiner left]]]]]
+0.900:[preterit-indicative
+ [standard-copula
+  location-interrogative-pronoun
+  [such-that
+   foot
+   [equiv
+    foot
+    [possessive-determiner left]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula
+  location-interrogative-pronoun
+  [such-that
+   left
+   [of left Mrs-Jeanne-P-chl]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa
+  location-interrogative-pronoun
+  [such-that
+   left-foot
+   [of left-foot Mrs-Jeanne-P-chl]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa location-interrogative-pronoun Mrs-Jeanne-P-chl-left-foot]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa
+  location-interrogative-pronoun
+  [such-that
+   foot
+   [equiv
+    foot
+    [possessive-determiner left]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  location-interrogative-pronoun
+  [such-that
+   left-foot
+   [of left-foot Mrs-Jeanne-P-chl]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of location-interrogative-pronoun Mrs-Jeanne-P-chl-left-foot]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula
+  location-interrogative-pronoun
+  [such-that
+   left-foot
+   [of left-foot Mrs-Jeanne-P-chl]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula location-interrogative-pronoun Mrs-Jeanne-P-chl-left-foot]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of
+  location-interrogative-pronoun
+  [such-that
+   foot
+   [equiv
+    foot
+    [possessive-determiner left]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula
+  location-interrogative-pronoun
+  [such-that
+   foot
+   [equiv
+    foot
+    [possessive-determiner left]]]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Where.·Hz¸:where>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [X
+   [D <her.3SF·Dz¸:his>]
+   [X [N <left foot.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#606764216|[preterit-indicative
+ [location-of location-interrogative-pronoun Mrs-Jeanne-P-chl-left-foot]]
+Her left foot was in the corner grocery. Her left foot was on the street.
+> How was the weather?
+SEMANTIC PARSE CONCEPTS:
+[preterit-indicative
+ [isa manner-interrogative-pronoun weather]]
+0.900:[preterit-indicative
+ [standard-copula manner-interrogative-pronoun weather]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa manner-interrogative-pronoun weather]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula manner-interrogative-pronoun weather]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <How.·Hz¸:how>]]
+ [W
+  [W [V <was.iG3SVz¸:be>]]
+  [X
+   [D <the.Dz¸>]
+   [X [N <weather.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1772674866|[preterit-indicative
+ [standard-copula manner-interrogative-pronoun weather]]
+It was overcast.
+> Jeanne Püchl was where?
+SEMANTIC PARSE CONCEPTS:
+[preterit-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+[preterit-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [near
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [location-of
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [inside
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [standard-copula
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+0.900:[preterit-indicative
+ [near
+  [such-that
+   human
+   [NAME-of human NAME:"Jeanne Püchl"]]
+  location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [isa Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [near Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [location-of Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [inside Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [standard-copula Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jeanne Püchl]]
+ [W
+  [W [V <was.iG1SVz¸:be>]]
+  [X [H <where.·Hz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#546879479|[preterit-indicative
+ [location-of Mrs-Jeanne-P-chl location-interrogative-pronoun]]
+She was in the corner grocery. She was on the street.

@@ -1,0 +1,508 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=animal#A cell*.z/physical-object/cell.z/cellule.¹Fy/
+|part-of¤centriole,cell-nucleus,chromosome,cytoplasm,endoplasmic-reticulum,
+Golgi-apparatus,lysosome,mitochondrion,nuclear-membrane,nucleolus,
+plasma-membrane,ribosome|
+;_______________________________________________________________________________
+==diploid#A cell*.z//diploid,2n# cell*.z/2n.tz/diploid.Az/diploïdie.Fy/
+diploïde.Ay/
+===somatic#A cell*.z//soma# cell*.z/somatic#A line# cell*.z/
+vegetative#A line# cell*.z/cellule* somatique*A.Fy/
+===zygote.z/animal-embryo/fertilized#A egg*,fertilized#A egg# cell*.z/
+zygote.My/Óuf* fécondé*A.¹My/Óuf.My/cellule* originelle*A.Fy/
+;_______________________________________________________________________________
+==haploid# cell*.z//haploid,1n# cell*,n# cell*.z/1n,n.tz/haploid.Az/haploïde.Ay/
+===reproductive#A cell*.z//gamete,sex# cell*,germ# cell*.z/
+cellule* reproductrice*A.¹Fy/gamète.My/
+====spermatozoon.z//sperm.z/spermatozoïde.¹My/sperme.My/|male|
+====ovum.z//egg.z/egg# cell*.z/ovule.¹My/|female|
+;_______________________________________________________________________________
+==parent# cell*.z//
+===parent# diploid# cell*.z/diploid-cell/
+==daughter# cell*.z//cellule* fille*.Fy/
+===daughter# diploid# cell*.z/diploid-cell/
+====daughter-diploid-cell1//
+====daughter-diploid-cell2//
+===daughter# haploid# cell*.z/haploid-cell/
+====daughter-haploid-cell1//
+====daughter-haploid-cell2//
+====daughter-haploid-cell3//
+====daughter-haploid-cell4//
+;_______________________________________________________________________________
+=part* of#R animal#A cell*.z/physical-object/
+==centriole.z//
+==cell# nucleus*.z//nucleus.z/
+==chromosome.z//chromosome.My/chromosomique.Ay/|part-of¤DNA|
+===sex# chromosome*.z//
+====X# chromosome*.z//chromosome* X#.My/
+====Y# chromosome*.z//chromosome* Y#.My/
+===autosome.z//
+==cytoplasm.z//
+==endoplasmic#A reticulum*.z//
+==Golgi# apparatus*.z//
+==lysosome.z//
+==mitochondrion.z//
+==nuclear#A membrane*.z//
+==nucleolus.z//
+==plasma# membrane*.z//
+==ribosome.z//ribosomal.Ay/
+;_______________________________________________________________________________
+=living#A thing*.z/physical-object/
+;_______________________________________________________________________________
+==living-thing-Mercurian//Mercurian.z/|residence-of=planet-Mercury|
+==living-thing-Venusian//Venusian.z/Vénusien.§y/|residence-of=planet-Venus|
+==living-thing-earthling//earthling.¹z/terrian.z/Terrien.§y/|residence-of=Earth|
+==living-thing-Martian//Martian.z/Martien.§y/|residence-of=Mars|
+==living-thing-Jupiterian//Jupiterian.z/|residence-of=Jupiter|
+==living-thing-Saturnian//Saturnian.z/|residence-of=Saturn|
+==living-thing-Neptunian//Neptunian.z/|residence-of=Neptune|
+==living-thing-Uranusian//Uranusian.z/|residence-of=Uranus|
+==living-thing-Plutonian//Plutonian.z/|residence-of=Pluto|
+;_______________________________________________________________________________
+==extraterrestrial.z/being,animate-object/extraterrestrial#A being*.z/alien.z/
+extraterrestre.§y/
+;_______________________________________________________________________________
+==plant.z//plante.Fy/|fixed-object|
+;_______________________________________________________________________________
+===grass.mz//herbe.Fy/
+;_______________________________________________________________________________
+===fungus.z//
+;_______________________________________________________________________________
+====champignon.My//mushroom.z/
+|part-of¤plant-cap,plant-ring,plant-volva,plant-hypha|
+part-of¤mycelium,mushroom-stem|
+; cf champignon-comestible in FoodAndDrugs
+;_______________________________________________________________________________
+=====champignon* mortel*A.My//deadly#A poisonous#A mushroom*.z/
+=====amanite* vireuse*A.Fy//destroying# angel*.z/
+;_______________________________________________________________________________
+=====poisonous#A mushroom*.z//champignon* vénéneux*A.My/
+=====fausse*A oronge*.Fy//fly# agaric*.z/
+;_______________________________________________________________________________
+===shrub.z//bush.z/
+====small#A shrub*.z//arbuste.My/
+=====blackcurrant# bush*.z//cassis.My/cassissier.qoMy/
+=====rosebush.z//rose.z/Rosa.tz/rosier.My/|part-of¤rose|
+===hedge.z//
+===tree.z//arbre.My/
+====palm# tree*.z//palm.z/palmier.My/
+====pine# tree*.z//pine.z/pin.My/
+====fir.z//fir# tree*.z/sapin.My/
+=====Christmas# tree*.z//sapin* de#R Noël#.My/
+;_______________________________________________________________________________
+==animal.z/being,animate-object/animal.Az/animal.§y/animal.Ay/|free-object|
+;_______________________________________________________________________________
+===animal-female//female#A animal*.z/|female|
+===animal-male//male#A animal*.z/|male|
+===animal-child//child#A animal*.z/|child|
+===animal-adult//adult#A animal*.z/|adult|
+;_______________________________________________________________________________
+===animal-embryo//embryo.z/embryon.My/|embryonic|
+===animal-fetus//fetus.z/fÓtus.My/|fetal|
+;_______________________________________________________________________________
+===chordate.z//Chordata.tz/cordé.AMy/
+;_______________________________________________________________________________
+====vertebrate.NAz//vertébré.NAMy/
+;_______________________________________________________________________________
+=====mammal.z//mammifère.NAMy/
+;_______________________________________________________________________________
+======artiodactylous#A mammal*.z//
+;_______________________________________________________________________________
+=======ruminant.z//ruminant.Az/ruminant.My/ruminant.Ay/
+;_______________________________________________________________________________
+========African#A ruminant*.z//
+=========giraffe.z//girafe.Fy/
+;_______________________________________________________________________________
+========bovid#A ruminant*.z//bovid.z/bovid.Az/
+;_______________________________________________________________________________
+=========antelope.z//antilope.Fy/
+;_______________________________________________________________________________
+=========ox.z//bÓuf.My/
+;_______________________________________________________________________________
+==========cattle.Pïz//bétail.My/bovins.MPïy/
+===========cattle-calf/animal-child/calf.z/veau.My/
+===========bull.z/animal-male/taureau.My/
+============steer.z//bÓuf.My/
+===========cow.z/animal-female/vache.Fy/
+;_______________________________________________________________________________
+==========buffalo.z//buffle.My/
+===========South#A African#A buffalo*.z//
+===========Asian#A buffalo*.z//
+===========bison.z//bison.My/
+;_______________________________________________________________________________
+==========gaur.z//
+==========animal-yak//yak.z/yack.My/
+;_______________________________________________________________________________
+=========goat.z//chèvre.Fy/
+=========animal-sheep//sheep.z/mouton.My/
+;_______________________________________________________________________________
+========Cervidae.z//
+;_______________________________________________________________________________
+=========deer.z//
+==========female#A deer*.z/animal-female/biche.Fy/
+==========fallow# deer*.z//daim.My/
+==========red#A deer*.z//cerf.My/
+==========roe# deer*.z//chevreuil.My/
+==========white#A-tailed#A deer*.z//
+==========mule# deer*.z//
+;_______________________________________________________________________________
+=========elk//
+==========Asian-elk//elk.z/élan.My/
+==========European-elk//elk.z/élan.My/
+==========wapiti.z//wapiti.My/
+;_______________________________________________________________________________
+=========moose.z//élan.My/
+=========reindeer.z//renne.My/
+;_______________________________________________________________________________
+========domesticated#A ruminant*.z//
+=========camel.z//chameau.My/
+;_______________________________________________________________________________
+========South#A American#A ruminant*.z//
+=========llama.z//lama.My/
+==========ruminant-alpaca//alpaca.z/alpaga.My/
+==========guanaco.z//
+==========llama-vicuna//vicuña.z/
+;_______________________________________________________________________________
+========hornless#A ruminant*.z//
+=========chevrotain.z//
+;_______________________________________________________________________________
+======Proboscidea.z//proboscidiens.y/
+=======elephant.z//éléphant.My/|gray|height-of=2¯4m|tail-length-of=1¯1.5m|
+gestation-period-of=600¯750day|
+;maximum-lifespan-of=70yrs|
+========Indian#A elephant*.z//Asian#A elephant*.z/Elephas# maximus*.tz/
+éléphant* d#R'Asie#F.My/
+========African#A elephant*.z//éléphant* d#R'Afrique#F.My/
+Loxodonta# africana*.tz/|weight-of=11000000g|
+;_______________________________________________________________________________
+======wild#A mammal*.z//mammifère* sauvage*A.My/
+=======hare.z//lièvre.¹My/
+=======rabbit.z//bunny.z/bunny# rabbit#.Tz/lapin.¹My/
+=======*Trix# Rabbit*.®kMz//Trix.TÉz/|fanciful|
+=======*Bugs# Bunny*.®ÉMz//Bugs.TÉz/what#H'sÝbe#V up#B\, Doc#N.ÀxQz/
+Bugs# Bunny#.®ÉMy/|fanciful|@1940|create¤Tex-Avery|
+;_______________________________________________________________________________
+======aquatic#A mammal*.z//mammifère* marin*A.My/
+=======whale.z//baleine.Fy/
+=======*Moby-Dick-character//Moby# Dick*.Éz/Moby# Dick#.Éy/|fanciful|
+;_______________________________________________________________________________
+======Equidae.tz//équidé.My/
+=======horse.z//cheval.My/|travel-max-speed-of=4.0mps|
+=======zebra.z//zèbre.y/|white|stripes|part-of¤animal-tail|
+height-of=1.2m|eat=grass|
+=======ass.z//âne.y/
+========Equus# asinus*.tz//common#A wild#A ass*.z/
+=======onager.z//onagre.y/
+;_______________________________________________________________________________
+======ape.z//singe.My/monkey.z/
+======*J-Fred-Muggs//J\. Fred Muggs.Mº/
+;_______________________________________________________________________________
+======homo.ßMy//hominidés.MPy/
+=======Homo# habilis#.ßMy//
+=======Homo# erectus#.ßMy//
+=======Homo# sapiens#.ßMy//
+========Homo# sapiens# neanderthalensis#.ßMy//
+;_______________________________________________________________________________
+======Felidae.tz//félidé.My/
+=======cat.z//chat.¹§y/minet.T§y/kitty,kitty#-cat*,pussycat.Tz/puss,pussy.qTz/
+coon# cat*.îz/Chessycat.Tqz/grimalkin.qhz/feline.tz/tom,mouser.qz/
+kit,kitling,gib,gib#-cat*.gîqz/
+========male#A cat*.z/male/matou.My/minou.TMy/|male|
+========female#A cat*.z/female/|female|
+========kitten.z//chaton.My/petit#A chat*.My/
+========abyssin.My//Abyssinian#A cat*.z/Abyssinian.z/
+========Angora# cat*.z//
+========Archangel# cat*.z//
+========birman.y//Burmese#A cat*.z/Burmese.z/
+========blue#A cat*.z//
+========calico#A cat*.z//
+========chartreux.y//
+========tomcat.z//alley# cat*.hz/chat*§ de#R gouttière#.hy/
+========chat-europeen//chat*§ européen*A.Ny/
+=========cat-tabby//tabby.z/marbré.My/tabby.y/; Minu
+========chat*-tigre*.My//margay.My/tiger# cat*.z/
+========Cheshire# cat*.qz//
+========Chinchilla# cat*.z//
+========domestic#A shorthair#A cat*.z//
+========Egyptian#A cat*.z//
+========Havana# brown#A cat*.z//
+========Himalayan#A cat*.z//
+========house# cat*.z//
+========jaguarondi.y//
+========Maltese#A cat*.z//
+========manx.y//man.y/Manx# cat*.z/Manx.z/
+========mistigri.Ty//
+========oncoide//oncoïde.y/
+========chat persan//persan.My/Persian#A cat*.z/Persian.z/
+========Rex# cat*.z//
+========Russian#A blue#A cat*.z//
+========serval.My//serval.z/
+========siamois.NA§y//Siamese#A cat*.z/Siamese.z/
+========silver#A cat*.z//
+========tortoise#-shell# cat*.z//
+========Turkish#A cat*.z//
+;_______________________________________________________________________________
+======Canis.z//canine.Az/canidé.My/
+=======wolf.z//loup.My/
+========gray#A wolf*.z//
+=======dog.z//chien.My/chiot,mâtin,molosse,roquet.y/
+========mongrel.z//chien* bâtard*A.My/bâtard.My/corniaud.My/
+========guard# dog*.z//watchdog.z/chien* de#R garde# et#K d#R'utilité#F.My/
+=========boxer.My//boxer,boxer# dog*.z/
+=========bouledogue.My//bouledogue* français*A.My/bulldog.z/
+=========chien* de#R berger#.My//shepherd.¹z/sheepdog.z/
+==========German#A sheepdog*.z//alsatian.gz/berger* allemand*A.My/
+German#A shepherd*.¹z/
+==========collie.z//berger* de#R Écosse#F.My/colley.My/
+chien* de#R berger# écossais*A.My/
+==========*Lassie.Fz//Lassie.Fy/|fanciful|
+==========bobtail.My//bobtail.z/
+==========briard.My//
+=========dogue* allemand*A.My//mastiff.z/
+=========saint#A-bernard#.ßMy//St#A Bernard*.z/
+========chien* de#R chasse#F.My//hunting# dog*.z/
+=========barzoi//barzoï.My/
+=========labrador.My//labrador.z/lab.Tz/
+=========husky.My//siberian#A husky*.My/siberian#A husky*.z/
+=========terrier.My//terrier.z/
+==========chihuahua.My//Chihuahua.z/
+==========fox#-terrier*.My//fox.My/fox# terrier*.z/
+==========yorkshire#-terrier*.My//yorkshire,york.My/Yorkshire# terrier*.z/
+==========west#Aj highland# white#Aj terrier*.My//
+West#A Highland# white#A terrier*.z/
+=========chien* courant*A.My//hound.z/
+==========basset.My//basset# hound*.My/basset,basset# hound*.z/
+===========beagle.My//beagle.z/
+===========teckel.My//dachshund.z/
+===========*Patapouf.Mº//|fanciful|male|@1989:naÐ|born=Paris|owner-of=Martine|
+==========chien* de#R meute#F.My//
+===========bloodhound.My//saint#A-hubert*.My/bloodhound.z/
+=========dog-pointer//pointer.z/chien* d#R'arrêt#.My/
+==========spaniel.z//épagneul.§y/
+===========spaniel-breton//épagneul* breton*A.My§/
+===========cocker.My//cocker# spaniel*.z/
+===========setter.My//setter.z/
+============setter* anglais*A.My//
+============setter* irlandais*A.My//Irish#A setter*.z/
+=========greyhound.z//lévrier.My/
+==========levrette.Fy//Italian#A greyhound*.z/
+==========levrier-afghan//lévrier* afghan*A.My/
+==========irish#Aj wolfhound*.My//Irish#A wolfhound*.z/
+========luxury# dog*.z//chien* de#R luxe# et#K d#R'agrément#.My/
+=========caniche.My//poodle.z/
+=========chien* nu*A de#R Chine#F.My//
+=========dalmatien.§y//Dalmatian.z/|white=70pc|black=30pc|polka-dot|
+=========*Cesar//César.Mº/|fanciful|male|@1987|born=Paris|
+@1987:na|owner-of=Lucie|residence-of=maison-de-Lucie|
+=========pekinese.z//peke.Tz/pékinois.My/
+=========shar*j pei*j.My//
+;_______________________________________________________________________________
+=====bird.z//oiseau.My/|fly|
+======Psittaciformes.tz//psittacidé.y/
+=======parrot.z//perroquet.My/
+=======*Amigo.Mº//|fanciful|male|@1993|born=Mirepoix|owner-of=Lucie|
+======palmiped.z//palmipède.NAMy/
+=======waterfowl.z//Anatidae,Anseriformes.tz/
+========duck.z//canard.My/cane.Fy/
+========*Daffy Duck.Mº//|fanciful|create¤Tex-Avery|
+========goose.z//oie.Fy/
+========swan.z//
+;_______________________________________________________________________________
+=====reptile.z//reptile.My/
+=====amphibian.z//amphibiens.My/
+======frog.z//grenouille.Fy/
+=======green#A frog*.z//grenouille* verte*A.Fy/
+=====fish.ßz//poisson.My/|ptrans-swim|
+====cephalochordate.NAz//céphalocordés.y/
+====urochord.@z//urocordé.@y/
+;_______________________________________________________________________________
+===pogonophore.y//
+===echinoderm.z//Echinodermata.tz/échinoderme.y/
+====holothurie.y//
+====echinide.y//
+=====sea#A urchin*.z//oursin.My/
+====Asteroidea.tz//stelléroïde.y/
+=====starfish.ßz//étoile* de#R mer#.Fy/
+;_______________________________________________________________________________
+===arthropode.y//
+;_______________________________________________________________________________
+====arachnide.y//
+;_______________________________________________________________________________
+====merostome//mérostome.y/
+;_______________________________________________________________________________
+====insect.z//bug.Tz/insecte.y/|intelligent=-0.55u|
+=====dragonfly.z//libellule.Fy/
+=====ant.z//fourmi.Fy/
+;_______________________________________________________________________________
+====myriapode.y//
+;_______________________________________________________________________________
+====shellfish.z//crustacés.My/
+=====branchiopode.y//
+======daphnie.Fy//puce* d#R'eau#.Fy/
+=====talitre.My//
+======talitrus* saltator*A.My//puce* de#R mer#.Fy/
+=====cirripede//cirripède.y/
+======balane.Fy//
+=====decapode//décapode.y/
+======crabe.My//crab.z/
+======crevette.Fy//shrimp.z/
+=======crevette* grise*A.Fy//crangon* crangon*.ty/
+=======crevette* rose*A.Fy//bouquet.My/leander* serratus*A.ty/
+======ecrevisse//écrevisse.Fy/
+=====homarus.y//
+======homard.My//lobster.z/
+======lobster.z//homard* américain*A.My/
+=====nephrops.y//
+======langoustine.Fy//
+=====palinurus.y//
+======langouste.Fy//
+===annelide//annélide.y/
+====hirudinee//hirudinée.y/
+====oligochete//oligochète.y/
+====polychete//polychète.y/
+===mollusque.y//isomyaires.y/
+====cephalopode//céphalopode.y/
+=====calmar.y//
+=====octopus.y//
+======pieuvre.Fy//
+====lamellibranche.y//lamellibranch,pelecypod.NAz/
+=====coque.y//
+=====oyster.z/coquillage/huître.Fy/
+======gryphee//gryphée.Fy/
+=======crinkle#-shelled#A oyster*.z//
+huître* creuse*A.Fy/huître* portugaise*A.Fy/portugaise.Fy/
+========small#A crinkle#-shelled#A oyster*.z//huître* de#R parc#M.Fy/
+========medium#A crinkle#-shelled#A oyster*.z//fine* de#R claire#.Fy/
+========claire.Fy//medium#A crinkle#-shelled#A oyster*.z/
+========large#A crinkle#-shelled#A oyster*.z//spéciale* de#R claire#.Fy/
+spéciale.TFy/
+======flat#A oyster*.z//huître* plate*.Fy/
+=======flat#A French#A oyster*.z//belon.Fy/
+=======marennes.Fy//flat#A French#A oyster* from#R Marennes#.z/|green|
+=======pied* de#R cheval#.My//horse#'s hoof*.z/
+=====mussel.z/coquillage/moule.Fy/
+=====pecten.y//
+======coquille* Saint#A-Jacques#M.Fy/coquillage/scallop.z/
+=====venus/coquillage/vénus.Fy/
+======clam.My//vénus* mercenaria*A.y/clam.z/
+======palourde.Fy//clovisse.Fîy/tapes* decussatus*A.ty/clam.z/
+======praire.Fy//vénus* verrucosa*A.y/clam.z/
+====scaphopode.y//
+====gastropode.y//
+=====bigorneau.y//
+=====escargot.My//snail.z/
+=====limace.Fy//
+====amphineure.y//
+===lophophorien.y//
+====endoprocte.y//
+====brachiopode.y//
+====ectoprote.y//
+===nemathelminthe//némathelminthe.y/
+===rotifere//rotifère.y/
+===nemertien//némertien.y/
+===plathelminthe.y//
+====cestode.y//
+====trematode//trématode.y/
+=====douve.Fy//
+====turbellarie//turbellarié.y/
+===ctenaire//cténaire.y/
+===cnidaire.y//
+===spongiaire.y//
+;_______________________________________________________________________________
+===microorganism.z//micro*A-organisme*.My/
+====bacteria.Pïz//bug.Tz/germ,microbe.z/bactérie.Fy/microbe.My/
+====virus.z//bug.Tz/virus.My/
+====protozoan.z//protozoaire.y/
+=====ciliate.NAz//Ciliophora.tz/cilié.y/
+======paramecium.z//paramécie.y/
+=====radiolaire.y//
+=====rhizopode.y//
+======amoeba.z//amibe.y/
+=====zooflagelle//zooflagellé.y/
+;_______________________________________________________________________________
+==group* of#R plants#NP.z//
+===bouquet.z//bunch,bunch* of#R flowers#NP.z/bouquet.My/|part-of¤flower|
+;_______________________________________________________________________________
+==part* of#R plant*.z//
+;_______________________________________________________________________________
+===achene.tz//akène.tMy/
+===bract.tz//bractée.Fy/
+===bulbil.tz//caïeu.tMy/
+===bud.z//bourgeon.My/
+===calyx.tz//calice.tMy/
+===cerneau.tMy//green#A walnut*.tz/
+===cupule.tz//cupule.tFy/
+===drupelet.tz//drupéole.tFy/
+===epicalyx.tz//calicule.tMy/
+===endocarp.tz//endocarpe.tMy/
+====plant-core//core.z/cÓur.My/
+===exocarp.tz//skin.z/épicarpe.tMy/peau.Fy/
+===fleshy#A leave*.z//écaille.Fy/
+;_______________________________________________________________________________
+===flower.z//fleur.Fy/
+====rose.z//rose.Fy/
+=====red#A rose*.z//rose* rouge*A.@Fy/|red|
+=====pink#A rose*.z//rose* rose*A.@Fy/|pink|
+=====white#A rose*.z//rose* blanche*A.@Fy/|white|
+=====yellow#A rose*.z//rose* jaune*A.@Fy/|yellow|
+;_______________________________________________________________________________
+===funiculus.tz//funicule.tMy/
+===husk.z//brou.My/
+===leaf.z//
+====stray#A leaf*.z//|free-object|
+===loculus.tz//loge.tFy/
+===mesocarp.tz//flesh.z/mésocarpe.tMy/pulpe.Fy/
+===midrib.tz//nervure* principale*A.tFy/
+===mycelium.tz//mycélium.My/
+===pedicel.tz//stalk.z/pédoncule.tMy/queue.Fy/
+===pericarp.tz//rind.z/péricarpe.tMy/écorce.Fy/
+===plant-ball//ball.z/
+===plant-bulb//bulb.z/bulbe.My/|part-of¤bud,scale-leaf,fleshy-leave,
+underground-stem,stem,root,bulbil|
+===plant-cap//cap.z/chapeau.My/
+===plant-capsule//capsule.tz/capsule.tFy/
+===plant-follicle//follicle.tz/follicule.tMy/
+===plant-hull//hull.z/cosse.Fy/
+===plant-hypha//hypha.tz/hyphe.tMy/
+===plant-juice-sac//juice# sac*.tz/loge.tFy/
+===plant-receptacle//receptacle.tz/réceptacle.tMy/
+===plant-large-seed//pit.Àz/stone.gz/noyau.My/
+|part-of¤plant-seed-coat,plant-seed-almond|
+===plant-membrane//membrane.tz/membrane.tFy/
+===plant-partition//partition.tz/zeste.tMy/
+===plant-pod//pod.z/gousse.Fy/
+===plant-pore//pore.z/pore.My/
+===plant-ring//ring.z/anneau.My/
+===plant-segment//segment.z/quartier.My/
+===plant-small-seed//seed.Àz/pip.gz/seed.tz/pépin.My/graine.tFy/
+====plant-seed-almond//almond.tz/amande.tFy/
+===plant-seed-coat//seed# coat*.tz/tégument* de#R la#D graine#F.tMy/
+===plant-septum//septum.tz/membrane* médiane*A.tFy/
+===plant-shell//shell.z/coque.Fy/
+===plant-spores//spores.tPïz/spores.tFPïy/
+===plant-stigma//stigma.tz/stigmate.tMy/
+===plant-style//style.tz/style.tMy/
+===plant-suture//suture.tz/suture.tFy/
+===plant-valve//valve.tz/valve.tFy/
+===plant-volva//volva.tz/volve.tFy/
+===plant-wall//wall.z/cloison.Fy/
+===plant-zest//zest.z/zeste.My/
+===root.z//racine.Fy/
+===scale# leaf*.z//tunique.Fy/
+===sepal.tz//sépale.tMy/
+===stamen.tz//étamine.tFy/
+===stem.z//plateua.My/
+===mushroom-stem//stem.z/pied.My/
+===underground# stem*.z//tige.Fy/
+;_______________________________________________________________________________
+==part* of#R animal*.z//|free-object|
+===animal-membrane//membrane.z/membrane.Fy/
+===animal-tail//tail.z/queue.Fy/
+===wing.z//aile.Fy/
+===feather.z//plume.Fy/
+====stray#A feather*.z//
+;_______________________________________________________________________________

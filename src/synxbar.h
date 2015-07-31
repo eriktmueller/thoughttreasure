@@ -1,0 +1,24 @@
+/* synxbar.c */
+Bool XBarCanBeRank1Or2Projection(PNode *pn);
+Bool XBarCanBeRank2Projection(PNode *pn, PNode *pn_parent);
+Bool XBarValidY_MAX(PNode *y);
+Bool XBarValidX_MAX(PNode *x);
+Bool XBarValidE_MAX(PNode *e);
+Bool XBarValidW_MAX(PNode *w, int lang);
+Bool XBarIsRank0Projection(PNode *pn);
+Bool XBarIsRank1Projection(PNode *pn, PNode *pn_parent);
+Bool XBarIsRank2Projection(PNode *pn, PNode *pn_parent);
+Bool XBarIsBarrier(PNode *pn, PNode *pn_parent);
+PNode *XBarParent(PNode *pn, PNode *root);
+PNode *XBarImproperAncestorNP(PNode *pn, PNode *root);
+Bool XBarDominates(PNode *pn1, PNode *pn2);
+Bool XBarBarrierBetween1(PNode *pn1, PNode *pn2, PNode *root, int barrier_seen);
+Bool XBarBarrierBetween(PNode *pn1, PNode *pn2, PNode *root);
+Bool XBarCCommands(PNode *pn1, PNode *pn2, PNode *root, PNode **pn1_parent);
+Bool XBarGoverns(PNode *pn1, PNode *pn2, PNode *root);
+Bool XBarSatisfiesCaseFilter(PNode *pn1, PNode *pn1_parent, Obj *cas, int lang);
+Bool XBarCountArguments(PNode *pn, int max_nps, int max_pps, int max_total, int *nps, int *pps);
+Bool XBarSatisfiesArgRestrictions(PNode *pn, int max_nps, int max_pps, int max_total);
+Obj *XBarConstitToMax(int constit);
+Bool XBarIs_NP_S_Or_PP_NP_S(PNode *pn);
+Bool XBarIs_NP_S(PNode *pn);

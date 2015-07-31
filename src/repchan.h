@@ -1,0 +1,22 @@
+/* repchan.c */
+void ChannelInit(Channel *ch);
+void ChannelOpen(Channel *ch, FILE *stream, char *fn, int linelen, char *mode, int output_reps, int lang, int dialect, int style, int paraphrase_input, int echo_input, int batch_ok, char *s);
+void ChannelBufferClear(Channel *ch);
+void ChannelClose(Channel *ch);
+Dur ChannelIdleTime(Channel *ch);
+void ChannelUnget(Channel *ch);
+void ChannelResetActivityTime(Channel *ch);
+void ChannelNoteActivity(Channel *ch);
+void ChannelAddToBuffer(Channel *ch, char *s, size_t len);
+void ChannelTruncate(Channel *ch, size_t len);
+void ChannelBufferDeleteLast(Channel *ch);
+int ChannelReadRealtime(Channel *ch);
+int ChannelReadPrompt(Channel *ch);
+int ChannelReadLine(Channel *ch);
+int ChannelReadBatch(Channel *ch);
+PNode *ChannelAddPNode(Channel *ch, int type, Float score, void *any, char *punc, char *begin, char *rest);
+char *ChannelGetSubstring(Channel *ch, size_t lowerb, size_t upperb);
+void ChannelPrintPNodes(FILE *stream, Channel *ch);
+void ChannelPrintPNodesOfType(FILE *stream, Channel *ch, int type);
+void ChannelPrintHighlight(FILE *stream, Channel *ch, int pntype, int phrase);
+void ChannelPrintHighlights(FILE *stream, Channel *ch);

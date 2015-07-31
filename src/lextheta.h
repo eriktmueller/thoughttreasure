@@ -1,0 +1,24 @@
+/* lextheta.c */
+ThetaRole *ThetaRoleCreate(int isoptional, Obj *cas, LexEntry *le, int subcat, ThetaRole *rest);
+int ThetaRoleGetCaseIndex(ThetaRole *theta_roles, Obj *cas, int *subcat, Bool *isoptional);
+Obj *ThetaRoleRestrictionPronoun(Obj *pred, int i);
+Obj *ThetaRoleGetCaseValue(Obj *obj, ThetaRole *theta_roles, Obj *cas, int *i_r, int *subcat_r);
+void ThetaRoleGetCase(ThetaRole *theta_roles, Obj *cas, int n, LexEntry **le, int *slotnum_r, int *subcat_r, Bool *isoptional);
+Obj *ThetaRoleGetCaseValueIth(Obj *obj, ThetaRole *theta_roles, Obj *cas, int n, LexEntry **le, int *subcat_r, Bool *isoptional, int *done);
+int ThetaRoleGetValueIndex(ThetaRole *theta_roles);
+int ThetaRoleGetIOBJIndex(ThetaRole *theta_roles, LexEntry *le, Bool *isoptional);
+void ThetaRoleGet(ThetaRole *theta_roles, LexEntry **le, Obj **cas, int *subcat, Bool *isoptional);
+int ThetaRoleGetAnySubcat(ThetaRole *theta_roles);
+ThetaRole *ThetaRoleReverseDestructive(ThetaRole *theta_roles);
+ThetaRole *ThetaRoleAddExplPreWord(char *word, int pos, HashTable *ht, ThetaRole *rest, int position);
+void ThetaRoleTextPrint1(Text *text, int html, int lang, int position, Obj *cas_restrict, ThetaRole *theta_roles, Obj *con, Discourse *dc);
+void ThetaRoleTextPrint(Text *text, int html, LexEntry *le, ThetaRole *theta_roles, Obj *con, Discourse *dc);
+void ThetaRoleShortPrint(ThetaRole *theta_roles, int maxlen, int position, Obj *cas_restrict, char *out);
+char *TRPOSToString(int position);
+void ThetaRolePrint1(FILE *stream, ThetaRole *tr, int slotnum, Obj *con);
+void ThetaRolePrint(FILE *stream, ThetaRole *theta_roles, Obj *con);
+int ThetaRoleIOBJStart(char *features);
+Obj *ThetaRoleSubjCase(int pos);
+Bool ThetaRoleGetSubcat(int c, char *s, int *isoptional, int *subcat);
+void ThetaRoleCheckSubcat(char *features);
+ThetaRole *ThetaRoleBuild(char *features, LexEntry **les, int lelen, int *delims, int *subcats, Obj *con, ThetaRole *theta_roles_expl);

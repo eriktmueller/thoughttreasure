@@ -1,0 +1,4 @@
+# caller must use fully qualified pathnames
+cd /u/local.annex/brill/tagger/Bin_and_Data
+./tagger.brown $1 $2
+#./tagger-nbest.brown $1 $2

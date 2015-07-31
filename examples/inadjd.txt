@@ -1,0 +1,14 @@
+; Examples from Justeson and Katz CL 21(1)
+The poem is short.
+The arm is short.
+The woman is short.
+The run is short.
+The red is light.
+The cruiser is light.
+The run is light.
+The woman is old.
+The telephone is old.
+The wine is old.
+The run is hard.
+The concept is hard.
+The toast is hard.

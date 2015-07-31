@@ -1,0 +1,23 @@
+/* repcloth.c */
+int ClothingLayerNumber(char *layer);
+Bool ClothingIsOver(Ts *ts, Obj *clothing1, Obj *clothing2);
+Obj *ClothingFindOver(Ts *ts, Obj *human, Obj *clothing);
+ObjList *ClothingFindItems(Ts *ts, Obj *human, Obj *class, Obj *notequal);
+void ColorGetHLS(Obj *color, Float *hue, Float *luminance, Float *saturation);
+Float ColorHarmony(Obj *color1, Obj *color2);
+Bool ColorCombo(char *color1, char *color2, Obj *item1, Obj *item2);
+Float ClothingColorMatchness1(Obj *color1, Obj *color2);
+Float ClothingColorMatchness(Ts *ts, Obj *item1, Obj *item2);
+Float ClothingMaterialMatchness(Ts *ts, Obj *item1, Obj *item2);
+Float ClothingMatchness(Ts *ts, Obj *item1, Obj *item2);
+Float ClothingCleanness(Ts *ts1, Obj *obj);
+Float ClothingForgottenness(Ts *ts1, Obj *obj);
+Obj *ClothingFindBest(Ts *ts, Obj *human, Obj *class, Obj *notequal, Obj *match1, Obj *match2);
+Obj *ClothingFindPairedItem(Ts *ts, Obj *human, Obj *obj);
+ObjList *ClothingAddItem(Obj *item, ObjList *objs);
+ObjList *ClothingMaleBusiness(Ts *ts, Obj *human);
+ObjList *ClothingMaleCasual(Ts *ts, Obj *human);
+ObjList *ClothingMaleSportclothes(Ts *ts, Obj *human);
+ObjList *ClothingMaleSportswear(Ts *ts, Obj *human);
+ObjList *ClothingFemaleChildCasual(Ts *ts, Obj *human);
+ObjList *ClothingSelectOutfit(Ts *ts, Obj *human, Obj *script);

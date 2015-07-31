@@ -1,0 +1,16 @@
+#define MICRO
+* chateng
+Lin walks to her playroom.
+Bertie walks to his bedroom.
+He is in what room?
+Lin is in what room?
+She walks to her bedroom.
+She is in what room?
+She is near her bed?
+She is near a wall?
+She is near a TV set?
+She was sleeping.
+She is asleep?
+She is awake?
+She was awake when?
+She was in the playroom when?

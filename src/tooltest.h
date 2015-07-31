@@ -1,0 +1,20 @@
+/* tooltest.c */
+void GenTestRelation(void);
+void GenTestTemporal1(Obj *obj1, Obj *obj2, Ts *now);
+void GenTestTemporal(void);
+ObjList *TenseAllCompound(void);
+void GenTestCompTense(void);
+void GenTestCompTense2(Obj *gentense, PNode *pn, int lang);
+void GenTestCompTense1(FILE *stream);
+void GenTestTemporalDb(void);
+void GenTestTemporalDb1(Obj *ptn, int pivot);
+void GridFindPathTest(Grid *gs);
+void TestGenTsRange(void);
+void TestGenTsRange2(Obj *obj);
+void TestGenTsRange1(void);
+void TestGen(Obj *con);
+void TestGenSpeechActs1(Obj *head);
+void TestGenSpeechActs(void);
+void TestTrip(void);
+void TestGenAttr1(Obj *attr);
+void TestGenAttr(void);

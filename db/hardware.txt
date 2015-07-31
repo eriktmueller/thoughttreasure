@@ -1,0 +1,44 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=non-computer-hardware/physical-object/hardware.z/|humanmade|
+;_______________________________________________________________________________
+==tool.z//outil.¹My/
+===physical-object-drill//drill.z/perceuse.Fy/
+===physical-object-screw//screw.z/vis.Fy/
+===physical-object-hammer//hammer.z/marteau.My/
+===physical-object-saw//saw.z/scie.Fy/
+===physical-object-screwdriver//screwdriver.¹z/tournevis.¹ßMy/
+====power# screwdriver*.z/electronic-appliance/tournevis* électrique*A.¹My/
+====ratchet# screwdriver*.z//tournevis* à#R cliquet#.¹My/
+====Phillips#® screwdriver*.z//Phillips#®-head# screwdriver*.z/
+tournevis* cruciforme*A.¹My/
+;_______________________________________________________________________________
+==plumbing.mz//plomberie.mFy/|fixed-object|
+===bath.z//bathtub,tub.TÀz/baignoire.Fy/
+|part-of¤hot-faucet,cold-faucet,water-spout,tub,soap-dish|
+===bidet.z//bidet.My/
+===knob.z//
+===faucet.Àz/knob/tap.gz/robinet.My/
+====hot# faucet*.Àz//hot# tap*.gz/robinet* d#R'eau#NF chaude#AF.My/
+====cold# faucet*.Àz//cold# tap*.gz/robinet* d#R'eau#NF froide#AF.My/
+===faucet# overflow*.qz//overflow.¹z/trop#B-plein*A.My/
+===hose.z//garden# hose*.z/
+===shower# switch*.z/on-or-off-switch/
+===shower.z//douche.Fy/|walkable|
+====separate#A shower*.z//|part-of¤folding-shower-door,shower-stall,shower-head,
+hot-faucet,cold-faucet,soap-dish|
+====bath# shower*.z//baignoire*-douche*.@Fy/
+|part-of¤bath,shower-curtain,shower-head,shower-switch|
+===water# spout*.z//spout.z/bec.My/
+====shower# head*.z//pomme* de#R douche#.Fy/
+=====portable#A shower# head*.z//douchette.Fy/
+===sink.z//lavabo.My/
+===spray# hose*.z//flexible.My/
+===toilet.z//john.Tz/toilettes.FPïy/cabinets,waters.MPïy/chiottes.TFPïy/
+w\.c\..MPy/
+===toilet# tank*.z//réservoir* de#R chasse#F d#R'eau#F.My/
+===tub//
+;_______________________________________________________________________________

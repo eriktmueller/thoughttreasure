@@ -1,0 +1,466 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=chemical#A state*.z/enum/phase.z/
+==liquid.z//liquid.Az/liquide.My/liquide.Ay/
+==solid.z//solid.Az/solide.My/solide.Ay/
+==gas.z//vapor.z/gaz.My/
+==plasma.z//
+;_______________________________________________________________________________
+=fixity/enum/
+==fixed#A object*.z//
+==free#A object*.z//
+;_______________________________________________________________________________
+=concept# regionality*.z/enum/
+==ca//known#A in#R Canada#N.Az/
+==us//known#A in#R the#D US#N.Az/
+==fr//known#A in#R France#N.Az/
+==uk//known#A in#R the#D UK#N.Az/
+;_______________________________________________________________________________
+=phase-of-life/enum/|r1=animal|unit-of=year|
+==alive.Az//living.Az/vivant.Ay/
+===child//child,childish,kidlike,kiddish.Az/childhood.Îz/enfance.¹ÎFy/
+jeunesse.ÎFy/premier*A âge*.ÎMy/âge* tendre*A.ÎMy/bel*A âge*,jeune*A âge*.ÎMy/
+|min-value-of=NUMBER:year:0|max-value-of=NUMBER:year:18|
+====infant//infant,baby.Az/en#R bas#A âge#NM.Ay/
+|min-value-of=NUMBER:year:0|max-value-of=NUMBER:year:4|
+====teenager//teenage.Az/adolescence.ÎFy/puberté.ÎFy/âge* ingrat*A.ÎhMy/
+|min-value-of=NUMBER:year:13|max-value-of=NUMBER:year:20|
+===adult//adult.Az/adulthood.Îmz/maturity.Îmz/adult# life*.Îmz/
+adulte.Ay/âge* adulte*A.¹ÎMy/âge* mûr*A.ÎMy/
+|min-value-of=NUMBER:year:18|max-value-of=NUMBER:year:9999|
+====adult-animal//full#-grown#,fully#B grown#.Az/|r1=animal|
+====young-adult//|min-value-of=NUMBER:year:18|max-value-of=NUMBER:year:25|
+====thirty-something//|min-value-of=NUMBER:year:30|max-value-of=NUMBER:year:40|
+====middle-aged-adult//middle#N-aged#.Az/ageing,aging.Az/middle# age*.Îz/
+|min-value-of=NUMBER:year:40|max-value-of=NUMBER:year:60|
+====old-adult//old,older,elderly.Az/old# age*.¹Îz/
+be* getting#V on#R.Vz/troisième*A âge*.ÎMy/vieillesse.¹ÎFy/
+|min-value-of=NUMBER:year:70|max-value-of=NUMBER:year:90|
+=====very-old-adult//aged.Az/ancient.ñhAz/quatrième*A âge*.ÎMy/
+|min-value-of=NUMBER:year:90|max-value-of=NUMBER:year:9999|
+==not#B alive#.Az//
+===not#B yet#B conceived#.Az//
+|min-value-of=NUMBER:year:-9999|max-value-of=NUMBER:year:-0.75|
+===nonborn.Az//
+|min-value-of=NUMBER:year:-0.75|max-value-of=NUMBER:year:0|
+====embryonic.Az//embryonnaire.Ay/
+====fetal.ÀAz//foetal.gAz/
+===dead.Az//mort.Ay/
+;_______________________________________________________________________________
+=sex.z/enum/gender.z/sexe.¹My/
+; todo: dude, mec, cem, etc.
+==male-like//
+===male.ANz//masculin.¹Ay/mâle.Ay/mâle.hMy/mâle.TMy/
+du#R sexe#NM masculin#AM.qAy/
+===female* changed#V to#R male*.z//female#A changed#V to#R male#A.Az/
+==female-like//
+===female.ANz//féminin.¹Ay/femelle.Ay/femelle.ahFy/du#R sexe#NM féminin#AM.qAy/
+===male* changed#V to#R female*.z//male#A changed#V to#R female#A.Az/
+==hermaphroditic.Az//hermaphrodite.z/hermaphrodite.Ay/hermaphrodite.My/
+;_______________________________________________________________________________
+=marital#A status*.z/enum/situation* de#R famille#.Fy/
+|r1=human|
+;_______________________________________________________________________________
+==marital-status-not-married//
+===marital-status-divorced//divorced.Az/divorcé.Ay/
+===marital-status-engaged//engaged.Az/fiancé.Ay/
+===marital-status-single//single,unmarried.Az/célibataire.Ay/
+===marital-status-widowed//widowed.Az/veuf.Ay/
+;_______________________________________________________________________________
+==marital-status-married//married.Az/marié.Ay/
+==marital-status-separated//separated.Az/séparé.Ay/
+;_______________________________________________________________________________
+=sexual#A preference*.z/enum/sexual#A orientation*.z/
+==heterosexual.NAz//heterosexuality.Îz/straight.TNAz/hétérosexuel.§NAy/
+hétérosexualité.ÎFy/
+==homosexual.NAz//homosexuality.Îz/homosexuel.§NAy/homosexualité.ÎFy/
+===male#A homosexual*.z//gay.NAz/homo,queer.ahÀz/pédé.aMy/
+===lesbian.NAz//lesbianism.Îz/lesbien.Ay/lesbienne.Fy/
+homosexualité* féminine*A.ÎFy/lesbianisme.ÎMy/
+==bisexual.NAz/heterosexual,homosexual/bisexuality.@Îz/bisexuel.§NAy/
+bisexualité.@ÎFy/
+;_______________________________________________________________________________
+=social#A class*.z/enum/class.z/class# system*.Îz/classe.Fy/
+==working# class*.kNAz//lower#A class*.z/classes* populaires*A.kFPïy/
+classes* ouvrières*A.kFPïy/
+==middle#A class*.kNAz//classes* moyennes*A.kFPïy/
+===upper#A middle#A class*.kNAz//classes* moyennes*A supérieures*A.kFPïy/
+===lower#A middle#A class*.kNAz//badly#B off#A.gAz/broke,hard#A up#R.qAz/
+skint.qgAz/classes* moyennes*A inférieures*A.kFPïy/
+==upper#A class*.z//aristocratie.kFy/
+;_______________________________________________________________________________
+=blood# type*.z/enum/groupe* sanguin*A.My/|href="http://www.obi.org/type.html"|
+href="http://www.fi.edu/biosci/blood/types.html"|
+href="http://www.redcross.org/oh/northernohio-blood/bloodtype.html"|
+==RH-positive//RH\+.Az/
+==RH-negative//RH\0.Az/
+==O-RH//type# O*,type#-O*.Az/
+===O-RH-positive/RH-positive/O\+.Az/O# positive*,O#-positive*.Az/
+===O-RH-negative/RH-negative/O# negative*,O#-negative*.Az/
+==A-RH//type# A*,type#-A*.Az/
+===A-RH-positive/RH-positive/A\+.Az/A# positive*,A#-positive*.Az/
+===A-RH-negative/RH-negative/A# negative*,A#-negative*.Az/
+==B-RH//type# B*,type#-B*.Az/
+===B-RH-positive/RH-positive/B\+.Az/B# positive*,B#-positive*.Az/
+===B-RH-negative/RH-negative/B# negative*,B#-negative*.Az/
+==AB-RH//type# AB*,type#-AB*.Az/
+===AB-RH-positive/RH-positive/AB\+.Az/AB# positive*,AB#-positive*.Az/
+===AB-RH-negative/RH-negative/AB# negative*,AB#-negative*.Az/
+;_______________________________________________________________________________
+=body# position*.Nz/enum/|r1=animal|r2=physical-object|
+==standing//standing.¹Az/debout.¹ßAy/
+==sitting//sitting.¹Az/sitting# down#R.Az/seated.Az/assis.¹Ay/
+==lying//lying.¹Az/lying# down#.¹Az/allongé.¹Ay/étendu,couché.Ay/
+;_______________________________________________________________________________
+=knob# position*.Nz/enum/
+==knob# position# 0*.z//set# on#R 0#,set# to#R 0#.Az/réglé* sur#R 0#.Ay/
+==knob# position# 1*.z//set# on#R 1#,set# to#R 1#.Az/réglé* sur#R 1#.Ay/
+==knob# position# 2*.z//set# on#R 2#,set# to#R 2#.Az/réglé* sur#R 2#.Ay/
+==knob# position# 3*.z//set# on#R 3#,set# to#R 3#.Az/réglé* sur#R 3#.Ay/
+==knob# position# 4*.z//set# on#R 4#,set# to#R 4#.Az/réglé* sur#R 4#.Ay/
+==knob# position# 5*.z//set# on#R 5#,set# to#R 5#.Az/réglé* sur#R 5#.Ay/
+==knob# position# 6*.z//set# on#R 6#,set# to#R 6#.Az/réglé* sur#R 6#.Ay/
+==knob# position# 7*.z//set# on#R 7#,set# to#R 7#.Az/réglé* sur#R 7#.Ay/
+==knob# position# 8*.z//set# on#R 8#,set# to#R 8#.Az/réglé* sur#R 8#.Ay/
+==knob# position# 9*.z//set# on#R 9#,set# to#R 9#.Az/réglé* sur#R 9#.Ay/
+;_______________________________________________________________________________
+=step#-switch# position*.Nz/enum,knob-position/
+==ssp00//set# on#R 0#,set# to#R 0#.Az/réglé* sur#R 0#.Ay/
+==ssp01//set# on#R 1#,set# to#R 1#.Az/réglé* sur#R 1#.Ay/
+==ssp02//set# on#R 2#,set# to#R 2#.Az/réglé* sur#R 2#.Ay/
+==ssp03//set# on#R 3#,set# to#R 3#.Az/réglé* sur#R 3#.Ay/
+==ssp04//set# on#R 4#,set# to#R 4#.Az/réglé* sur#R 4#.Ay/
+==ssp05//set# on#R 5#,set# to#R 5#.Az/réglé* sur#R 5#.Ay/
+==ssp06//set# on#R 6#,set# to#R 6#.Az/réglé* sur#R 6#.Ay/
+==ssp07//set# on#R 7#,set# to#R 7#.Az/réglé* sur#R 7#.Ay/
+==ssp08//set# on#R 8#,set# to#R 8#.Az/réglé* sur#R 8#.Ay/
+==ssp09//set# on#R 9#,set# to#R 9#.Az/réglé* sur#R 9#.Ay/
+==ssp10//
+==ssp11//
+==ssp12//
+==ssp13//
+==ssp14//
+==ssp15//
+==ssp16//
+==ssp17//
+==ssp18//
+==ssp19//
+==ssp20//
+==ssp21//
+==ssp22//
+==ssp23//
+==ssp24//
+==ssp25//
+==ssp26//
+==ssp27//
+==ssp28//
+==ssp29//
+==ssp30//
+==ssp31//
+==ssp32//
+==ssp33//
+==ssp34//
+==ssp35//
+==ssp36//
+==ssp37//
+==ssp38//
+==ssp39//
+==ssp40//
+==ssp41//
+==ssp42//
+==ssp43//
+==ssp44//
+==ssp45//
+==ssp46//
+==ssp47//
+==ssp48//
+==ssp49//
+==ssp50//
+==ssp51//
+==ssp52//
+==ssp53//
+==ssp54//
+==ssp55//
+==ssp56//
+==ssp57//
+==ssp58//
+==ssp59//
+==ssp60//
+==ssp61//
+==ssp62//
+==ssp63//
+==ssp64//
+==ssp65//
+==ssp66//
+==ssp67//
+==ssp68//
+==ssp69//
+==ssp70//
+==ssp71//
+==ssp72//
+==ssp73//
+==ssp74//
+==ssp75//
+==ssp76//
+==ssp77//
+==ssp78//
+==ssp79//
+==ssp80//
+==ssp81//
+==ssp82//
+==ssp83//
+==ssp84//
+==ssp85//
+==ssp86//
+==ssp87//
+==ssp88//
+==ssp89//
+==ssp90//
+==ssp91//
+==ssp92//
+==ssp93//
+==ssp94//
+==ssp95//
+==ssp96//
+==ssp97//
+==ssp98//
+==ssp99//
+;_______________________________________________________________________________
+=on#A or#K off#A state*.Nz/enum,knob-position/
+==on//
+===shower-on//on#A position*.kz/on.Az/position* ouvert#AM.kFy/
+en#R marche#NF.¹Ay/allumé.Ay/ouvert.Ay/|r1=shower|
+===switch-on//on#A position*.kz/on.Az/position* ouvert#AM.kFy/
+en#R marche#NF.¹Ay/allumé.Ay/ouvert.Ay/|r1=switch|
+===TV-set-on//on#A position*.kz/on.¹Az/turned# on#.Az/position* ouvert#AM.kFy/
+en#R marche#NF.¹Ay/allumé.Ay/ouvert.Ay/|r1=TV-set|
+===motor-vehicle-on//on#A position*.kz/on.¹Az/running.Az/
+position* ouvert#AM.kFy/en#R marche#NF.¹Ay/allumé.Ay/ouvert.Ay/
+|r1=motor-vehicle|
+==off//
+===shower-off//off#A position*.kz/off.Az/position* fermé#AM.kFy/
+fermé,éteint.Ay/|r1=shower|
+===switch-off//off#A position*.kz/off.Az/position* fermé#AM.kFy/
+fermé,éteint.Ay/|r1=switch|
+===TV-set-off//off#A position*.kz/off.Az/position* fermé#AM.kFy/
+fermé,éteint.Ay/|r1=TV-set|
+===motor-vehicle-off//off#A position*.kz/off.Az/position* fermé#AM.kFy/
+fermé,éteint.Ay/|r1=motor-vehicle|
+;_______________________________________________________________________________
+=hook# state*.z/enum/|r1=phone-handset|
+==off#R-hook#N.Az//décroché.Ay/
+==on#R-hook#N.Az//raccroché.Ay/
+;_______________________________________________________________________________
+=phonestate/enum/phone# state*.z/état* d#R'un#D téléphone#.My/|r1=phone|
+==phonestate-idle//idle.Az/au#RM repos#NM.Ay/
+==phonestate-busy//busy.ÀAz/in#R use#N.Az/engaged.gAz/occupé.Ay/
+===phonestate-permanent-signal//in#R a#D permanent#A signal#N condition#N.Az/
+|[if [phonestate-permanent-signal ?x] [emit-sound ?x permanent-signal]]|
+===phonestate-ROH//in#R a#D receiver#N-off#R-hook#N condition#N.tAz/
+in#R a#D ROH#N condition#N.tTAz/
+|[if [phonestate-permanent-signal ?x] [emit-sound ?x ROH-tone]]|
+===phonestate-dialtone//give* a#D dial#V tone#N,give* a#D dialtone#N.Vz/
+|[if [phonestate-dialtone ?x] [emit-sound ?x dialtone]]|
+===phonestate-intercept//give* an#D intercept#N recording#N.Vz/
+===phonestate-reorder-tone//give* a#D reorder#N tone#N.Vz/
+|[if [phonestate-reorder-tone ?x] [emit-sound ?x reorder-tone]]|
+===phonestate-busy-signal//give* a#D busy#A signal#N.ÀVz/
+the#D line#N is#V busy#A.¹Àxz/give* an#D engaged#A tone#N.gVz/
+the#D line#N is#V engaged#A.¹gxz/sonner* occupé#A.Vy/
+la#D ligne#NF est#V occupée#AF.¹xy/
+|[if [phonestate-busy-signal ?x] [emit-sound ?x busy-signal]]|
+===phonestate-audible-ring//give* a#D ring#N tone#N.Vz/
+itÝhe#H is#V ringing#V.¹xz/the#D number#N is#V ringing#V.xz/ça#H sonne#V.¹xy/
+|[if [phonestate-audible-ring ?x ?y] [emit-sound ?x audible-ring]]|
+===phonestate-voice-connection//connected# to+.Az/raccordé* à+,connecté* à+.Ay/
+|r2=phone|
+===phonestate-ringing//ring.Vz/sonner.Vy/
+|[if [phonestate-ringing ?x ?y] [emit-sound ?x ringing]]|
+;_______________________________________________________________________________
+=open# to#R page#N.Az/enum/
+;_______________________________________________________________________________
+=open#A or#K closed#A state*.Nz/enum/
+==open.Az//ouvert.Ay/
+==closed.Az//fermé.Ay/
+;_______________________________________________________________________________
+=walkability/enum/
+==walkable//
+==unwalkable//
+;_______________________________________________________________________________
+=drivability/enum/
+==drivable//
+==undrivable//
+;_______________________________________________________________________________
+=rollability/enum/
+==rollable//
+==unrollable//
+;_______________________________________________________________________________
+=flyability/enum/
+==flyable//
+==unflyable//
+;_______________________________________________________________________________
+=clothing-area/enum/
+==clothing-top//
+==clothing-middle//
+==clothing-bottom//
+==clothing-hand//
+==clothing-forearm//
+==clothing-wrist//
+==clothing-thigh//
+==clothing-calf//
+==clothing-knee//
+==clothing-ankle//worn#A over#R the#D ankle#N.Az/
+==clothing-foot//worn#A over#R the#D foot#N.Az/
+;_______________________________________________________________________________
+=clothing-layer/enum/
+==underlayerpre//
+==underlayer//
+==underlayerpost//
+==shirtlayer//
+==tielayer//
+==vestlayer//
+==jacketlayer//
+==coatlayer//
+==overlayer//
+==overlayerpost//
+;_______________________________________________________________________________
+=polarization.z/enum/polarisation.Fy/
+==vertical#A polarization*.z//polarisation* verticale*A.Fy/
+==horizontal#A polarization*.z//polarisation* horizontale*A.Fy/
+==right#A-circular#A polarization*.z//polarisation* circulaire*A droite*A.Fy/
+==left#A-circular#A polarization*.z//polarisation* circulaire*A gauche*A.Fy/
+;_______________________________________________________________________________
+=disaccentuation.z/enum/désaccentuation.y/
+==Panda1.y//
+==J17.y//
+==50microsec//50µs.y/
+;_______________________________________________________________________________
+=audio# signal# standard*.z/enum/
+==mono.Az//monophonic.oAz/
+==stereo.Az//
+==multichannel.Az//
+===quadraphonic.oAz//quad,quadrasonic.oAz/four#A-channel#N.Az/
+===16#A-track#N.Az//
+===24#A-track#N.Az//
+===48#A-track#N.z//
+===128#A-track#N.z//
+===256#A-track#N.z//
+==satellite# audio# signal# standard*.z//
+===DATS.z//Digital#A Audio# Transmission# Service#.z/
+===SEDATS.z//Spectrum# Efficient#A Digital#A Audio# Transmission# Service#.z/
+===SCPC.z//Single#A Channel# Per#R Carrier#.z/
+===DSR.y//
+;_______________________________________________________________________________
+=language# standard*.z/enum/
+==dubbed.Az//doublé.¹Ay/postsynchronisé.Ay/doublage.ÎMy/dubbing.Îz/
+===dubbed# in#R French#N.Az//version* française*A.Fy/V\.F\..Fy/
+en#R version#NF française#AF,en#R V\.F\.#NF.Ay/
+===dubbed# in#R English#N.Az//doublé* en#R anglais#NM.Ay/
+==version* originale*A.Fy//V\.O\..Fy/
+en#R version#NF originale#AF,en#R V\.O\.#NF.Ay/
+===subtitled.Az//subtitle.z/subtitling.Îz/sous#R-titré*.Ay/sous#R-titre*.My/
+sous#R-titrage*.ÎMy/
+; replaced by subtitle-language-of:
+;====subtitled# in#R French#N.Az//version* originale*A sous#R-titrée*A.Fy/
+;V\.O\.#NF sous#R-titrée*A.Fy/
+;en#R version#NF originale#AF sous#R-titrée#AF.Ay/
+;en#R V\.O\.#AF sous#R-titrée#AF.Ay/
+;====subtitled# in#R English#N.Az//sous#R-titré* en#R anglais#NM.Ay/
+===unsubtitled.Az//without#R subtitles#NP.Az/version* originale*A non#B sous#R-titrée*A.Fy/
+en#R version#NF originale#AF non#B sous#R-titrée#AF.Ay/
+;_______________________________________________________________________________
+=video# signal# standard*.z/enum/norme* de#R diffusion#.Fy/
+==NTSC.z//National#A Television# System# Committee*.z/
+==PAL.z//Phase# Alternative#A Line*.z/
+==PAL-Plus//PAL+.z/
+==SECAM.z//secam.¹My/Système* séquentiel*A à#R mémoire#F.My/
+==BMAC.z//B# MAC*.z/B#-MAC*.z/
+==MPEG#®-2*®.z//
+==16#\/9*.z//
+==D2MAC.z//D2# MAC#.z/D2# Mac*.y/
+==HDTV.z//high#A-definition# television*.z/télévision* haute#A définition#.Fy/
+TVHD.Fy/
+;_______________________________________________________________________________
+=black-and-white-or-color/enum/
+==in#R color*.Az//
+===colorized.Az//tinted.Az/
+==BW//B#\/W#.Az/black#N and#K white#N.Az/
+;_______________________________________________________________________________
+=teletext# standard*.z/enum/norme* de#R télétexte#M.Fy/
+==closed#A-captioned#.Az//sous#R-titrage* codé*A.My/
+==Ceefax.®z//
+==WST.z//World# System# Teletext*.z/
+==X#®-PRESS*®.®z//X#®-PRESS#® X#®-CHANGE*®.z/; - should be *
+==Skylink.®z//
+;_______________________________________________________________________________
+=film# transfer# history*.z/enum/
+==film* converted#V to#R video#.z//
+==film* converted#V to#R NTSC#.z//
+==film* converted#V to#R PAL#.z//
+==film* converted#V to#R SECAM#.z//
+;_______________________________________________________________________________
+=video# transfer# history*.z/enum/
+==PAL# converted#V to#R NTSC#.z//
+==SECAM# converted#V to#R NTSC#.z//
+==NTSC# converted#V to#R PAL#.z//
+==PAL# converted#V to#R PAL#.z//
+==NTSC# converted#V to#R SECAM#.z//
+==PAL# converted#V to#R SECAM#.z//
+;_______________________________________________________________________________
+=encryption# standard*.z/enum/norme* de#R cryptage#M.Fy/
+==nonencrypted.Az//not#B scrambled#,nonscrambled.Az/
+in#R the#D clear#N.Az/en#R clair#NM.Ay/
+==encrypted.Az//scrambled.Az/crypté.Ay/
+===CI.y//
+===Digicipher.®z//
+===Digicipher#®-2*®.z//
+===Eurocrypt.y//
+===Irdeto.y//
+===MVR#® 128#.y//
+===Nagravision.y//
+===SIS.y//
+===Tudi#® 14#.y//
+===Videocipher#® One*®.z//
+===Videocipher#® Two*®.z//VC#®-II*®,VCII,VC2.z/
+===Videocrypt//Vidéocrypt.y/
+;_______________________________________________________________________________
+=program-origination-type/enum/programÝprogramme# origination# type*.z/
+==live.Az//en#R direct#.Ay/direct.qAy/
+==delayed.Az//
+===delayed# with#R updates#NP.Az//
+==taped.Az//
+;_______________________________________________________________________________
+=original or rerun/enum/
+==original# run*.z//
+==rerun.z//repeat.z/rediffusion.Fy/
+;_______________________________________________________________________________
+=product# level*.z/enum/
+==consumer#A product*.z//
+==semi#B-professional#A product*.z//
+==professional#A product*.z//
+;_______________________________________________________________________________
+=relation-type/enum/|r1=relation|
+==many-to-one//; [rel a0 b] [rel a1 b] [rel a2 b]
+==one-to-many//; [rel a b0] [rel a b1] [rel a b2]
+==one-to-one//; [rel a0 b0]
+==many-to-many//; assumed as default
+;_______________________________________________________________________________
+=other-relation-type/enum/|r1=relation|
+==symmetric//
+;_______________________________________________________________________________
+=form-method/enum/form# method*.z/
+==cgi-GET//CGI# GET*.z/
+==cgi-POST//CGI# POST*.z/
+==cgi-HEAD//CGI# HEAD*.z/
+;_______________________________________________________________________________
+=earthquake-magnitude-type/enum/earthquake# magnitude# type*.z/
+==emt-MGN//MGN.z/
+; empirically calibrated ML based on readings from high-gain components
+==emt-MLG//MLG.z/
+; ML based on synthetic Wood-Anderson response from low-gain components
+==emt-ML//ML.z/
+; ML based on synthetic Wood-Anderson response from TerraScope station
+;_______________________________________________________________________________

@@ -1,0 +1,1674 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=modal#A relation*.z/relation,modal/|r1=human|r2=list|
+==obligation-of//have.¹VéÏz/must.VéÏz/be* obliged#A.qVéÏz/devoir.¹VéÏy/
+; todo: Need a feature for infinitive without to (for must, can), or can
+; this be done mechanically in case of a modal?
+==ability-of//be* able#A.¹VéÏz/can.VéÏz/pouvoir.¹VéÏy/
+==prefer//prefer.¹VéÏz/prefer.Vé±z/preference.z/préférer.VéÏy/préférence.Fy/
+;_______________________________________________________________________________
+=of/relation/; For deferred genitives; r1=obj, r2=of_obj.
+;_______________________________________________________________________________
+=ipr/relation/interpersonal#A relation*.z/interpersonal#A theme*.z/IPR,IPT.tz/
+|r1=human|r2=human|
+;_______________________________________________________________________________
+==relative-of//relative.z/famille.Fy/
+;_______________________________________________________________________________
+; Primitive relationships.
+===mother-of//mother.¹z/mom,mommy.ÀTz/mum,mummy.gTz/
+natural#A mother*,biological#A mother*.z/natural#A mom*,biological#A mom*.ÀTz/
+natural#A mommy*,biological#A mommy*.ÀTz/natural#A mum*,biological#A mum*.gTz/
+natural#A mummy*,biological#A mummy*.gTz/birthmother.Tz/
+mère.¹Fy/maman.TFy/
+|many-to-one|
+===father-of//father.¹z/dad,daddy.Tz/papa,pa,pop.Tz/natural#A father*.z/
+biological#A father*.z/natural#A dad*,biological#A dad*.Tz/birthfather.Tz/
+natural#A daddy*,biological#A daddy*.Tz/pap,pappy,pops,daddums.Tqz/
+sire,genitor,paternal#A ancestor*,patriarch,paterfamilias.tqz/
+pater,governor.Tqz/abba.jqz/old#A man*.ahkz/
+père.¹My/papa.TMy/géniteur.oMy/pater.TMy/
+auteur* des#RP jours#P,pater* familias*A.tMy/paternel,vieux.akMy/
+dab,daron,patouse,patouze,patron.aMy/père* de#R famille#F.qMy/|many-to-one|
+;_______________________________________________________________________________
+; Derived relationships.
+===natural-parent-of//parent.¹z/natural#A parent*,birth# parent*.z/
+biological#A parent*.z/parents.MPïy/
+===grandparent-of//grandparent.z/grands*A-parents*.MPïy/
+;_______________________________________________________________________________
+===child-of//child.¹z/enfant.¹§y/
+====son-of//son.z/fils.My/
+====daughter-of//daughter.z/fille.Fy/
+;_______________________________________________________________________________
+===stepchild-of//stepchild.z/
+====stepson-of//stepson.z/beau*A-fils*.My/
+====stepdaughter-of//stepdaughter.z/belle*A-fille*.Fy/
+;_______________________________________________________________________________
+===mother-in-law-of//mother*-in#R-law#,mother#-in#R-law*.z/belle*A-mère*.Fy/
+===father-in-law-of//father*-in#R-law#,father#-in#R-law*.z/beau*A-père*.My/
+;_______________________________________________________________________________
+===grandfather-of//grandfather.Mz/grandpa,granddad,granddaddy.TMz/
+grand#AM-père*.My/
+|[ifthen [and [male ?z] [natural-parent-of ?x ?y] [natural-parent-of ?y ?z]]
+         [grandfather-of ?x ?z]]|
+===paternal-grandfather-of//paternal#A grandfather*.Mz/
+grand#AM-père* paternel*A.My/
+===maternal-grandfather-of//maternal#A grandfather*.Mz/
+grand#AM-père* maternel*A.My/
+===great-grandfather-of//great#A grandfather*.Mz/great#A grandpa*.TMz/
+great#A granddad*.TMz/arrière#AM-grand#AM-père*.My/
+===great-great-grandfather-of//great#A-great#A grandfather*.Mz/
+great#A-great#A grandpa*,great#A-great#A granddad*.TMz/
+arrière#AM-arrière#AM-grand#AM-père*.My/
+;_______________________________________________________________________________
+===grandmother-of//grandmother.Fz/grandma.TFz/grandmamma.oTFz/grand#AM-mère*.Fy/
+grand#AM-maman*.TFy/mamie,mammy,mémé.TFy/mémère.aFy/
+===paternal-grandmother-of//paternal#A grandmother*.Fz/
+grand#AM-mère* paternelle*A.Fy/
+===maternal-grandmother-of//maternal#A grandmother*.Fz/
+grand#AM-mère* maternelle*A.Fy/
+===great-grandmother-of//great#A grandmother*.Fz/great#A grandma*.TFz/
+arrière#AM-grand#AM-mère*.Fy/
+===great-great-grandmother-of//great#A-great#A grandmother*.Fz/
+great#A-great#A grandma*.TFz/arrière#AM-arrière#AM-grand#AM-mère*.Fy/
+;_______________________________________________________________________________
+===grandchild-of//grandchild.¹z/petit*-enfant*.¹§y/
+===great-grandchild-of//great#A grandchild*.¹z/arrière#AM-petit*-enfant*.¹§y/
+===great-great-grandchild-of//great#A-great#A grandchild*.¹z/
+arrière#AM-arrière#AM-petit*-enfant*.¹§y/
+===grandson-of//grandson.¹Mz/petit*A-filsÝfils*.¹My/
+===great-grandson-of//great#A grandson*.¹Mz/arrière#AM-petit*A-filsÝfils*.¹My/
+===great-great-grandson-of//great#A-great#A grandson*.¹Mz/
+arrière#AM-arrière#AM-petit*A-filsÝfils*.¹My/
+===granddaughter-of//granddaughter.¹Fz/petite*A-fille*.¹Fy/
+===great-granddaughter-of//great#A granddaughter*.¹Fz/
+arrière#AM-petite*A-fille*.¹Fy/
+===great-great-granddaughter-of//great#A-great#A granddaughter*.¹Fz/
+arrière#AM-arrière#AM-petite*A-fille*.¹Fy/
+;_______________________________________________________________________________
+===aunt-of//aunt.¹z/tante.¹Fy/
+===great-aunt-of//great#A aunt*.¹z/grand#AM-tante*.¹Fy/
+===uncle-of//uncle.¹z/oncle.¹My/tonton.TMy/
+===great-uncle-of//great#A uncle*.¹z/grand#AM-oncle*.¹My/
+===niece-of//niece.z/nièce.Fy/
+===nephew-of//nephew.z/neveu.My/
+===cousin-of//cousin.z/cousin.§y/
+===first-cousin-of//first#A cousin*.z/cousin* germain*A.§y/
+===second-cousin-of//second#A cousin*.z/cousin* issue*A de#R germains#MP.§y/
+;_______________________________________________________________________________
+===sibling-of//sibling.z/|symmetric|
+; sibling-of does not behave the same as the other relations:
+; "She's my sister." but ?"She's my sibling." "They are siblings."
+===sister-of//sister.¹Fz/sÓur.¹Fy/
+===sister-in-law-of//sister*-in#R-law#,sister#-in#R-law*.z/belle*A-sÓur*.Fy/
+===brother-of//brother.¹Mz/frère.¹My/|inverse-of=sister-of|
+===brother-in-law-of//brother*-in#R-law#,brother#-in#R-law*.z/beau*A-frère*.My/
+===stepbrother-of//stepbrother.z/demi*A-frère*.¹My/
+===stepsister-of//stepsister.z/demi*A-sÓur*.¹Fy/
+;_______________________________________________________________________________
+==legal-guardian-of//legal#A guardian*.¹z/tuteur.¹§y/
+==legal-mother-of//legal#A mother*.¹z/legal#A mom*,legal#A mommy*.ÀTz/
+legal#A mum*,legal#A mummy*.gTz/
+==legal-father-of//legal#A father*.¹z/legal#A dad*,legal#A daddy*.Tz/
+==adoptive-parent-of//adoptive#V parent*.¹z/parents* adoptifs*A.MPïy/
+==foster-parent-of//foster#V parent*.¹z/parents* adoptifs*A.MPïy/
+==foster-mother-of//foster#V mother*.¹z/foster#A mom*,foster#A mommy*.ÀTz/
+foster#A mum*,foster#A mummy*.gTz/
+==foster-father-of//foster#V fater*.¹z/foster#A dad*,foster#A daddy*.Tz/
+==stepfather-of//stepfather.z/beau*A-père*.My/
+==stepmother-of//stepmother.z/belle*A-mère*.Fy/
+==half-brother-of//half#A brother*.z/demi#A-frère*.My/
+==half-sister-of//half#A sister*.z/demi#A-sÓur*.Fy/
+;_______________________________________________________________________________
+==apartment-mate-of//apartment# mate*.¹z/roommate.z/
+compagnon* d#R'appartement#.¹My/
+compagne* d#R'appartement#M.¹Fy/|symmetric|
+==neighbor-of//neighbor.z/voisin.§y/
+==roommate-of//roommate.¹z/camarade* de#R chambre#F.¹§y/|symmetric|
+;_______________________________________________________________________________
+==tutoyer-vouvoyer//
+===tutoyer//use* tu#Hj with+.¹Vz/tutoyer.Véz/tutoyer.Véy/
+===vouvoyer//use* vous#HPj with+.¹Vz/vouvoyer.Véy/
+;_______________________________________________________________________________
+==formal-relationship-of//formal#A relationship*.z/
+===advisor-of//advisor,adviser.z/conseiller.§y/
+===ally-of//ally.¹z/allié.¹My/
+===boss-of//boss.¹z/patron.¹§y/boss.TMy/singe.ahMy/
+===business-associate-of//business# associate*.z/associé.§y/
+===colleague-of//colleague.¹z/collègue.¹§y/confrère.My/camarade.§y/
+===landlord-of//landlord.z/propriétaire.My/
+===landlady-of//landlady.Fz/propriétaire.Fy/
+===teacher-of//teacher.¹z/professor.qz/professeur.¹My/prof.TMy/instituteur.q§y/
+enseignant.q§y/
+===constituent-of//constituent.z/électeur.§y/
+;_______________________________________________________________________________
+; Only one pos-ipr/neg-ipr should be active between two actors at a time.
+; Additional relationships go above. See UA_Friend.
+;_______________________________________________________________________________
+==signed-ipr//
+===pos-ipr//positive#A interpersonal#A relation*.z/
+====acquaintance-of//acquaintance.¹z/connaissance.¹Fy/relation.Fy/
+|next-state-of=friend-of,lover-of|
+====friend-of//friend.¹z/pal,buddy.Tz/mate.gTz/chum.oTz/ami.¹§y/
+camarade.§y/compagne.Fy/compagnon.tMy/copain.¹T§y/pote.a§y/poteau.Toy/
+|next-state-of=ex-friend-of,lover-of|
+;_______________________________________________________________________________
+====significant-other-of//significant#A other*.Hz/SO.Tz/
+=====lover-of//lover.¹z/date.¹Vz/go* out#R with+.¹Vz/see.TVéz/
+go* steady#B with+.oVz/have* a#D thing#N with+.qTVz/
+have* a#D thing#N going#V on#R with+.qTVz/
+have* a#D kind#N of#R thing#N with+.qTVz/amoureux.§y/amant.My/
+amant,soupirant.o§y/fiancé.§y/sortir* avec+.Vy/|symmetric|
+next-state-of=ex-lover-of,friend-of,spouse-of|
+======male-lover-of//boyfriend.¹z/man,beau.Tz/petit* ami*.¹My/fiancé.My/
+copain,petit* copain*.TMy/mec.TMy/cem.aMy/chéri.qTMy/|r2=male|
+======female-lover-of//girlfriend.¹z/petite* amie*.¹Fy/fiancée.Fy/
+copine,petite* copine*.TFy/meuf.aFy/chérie.qTFy/|r2=female|
+=====engaged-to//engaged* to+.Az/fiancé* à+.Ay/|symmetric|
+=====spouse-of/contract/spouse.¹z/married* to+.Vz/époux.¹§y/marié* à+.Ay/
+|symmetric|one-to-one|next-state-of=ex-spouse-of|
+======husband-of//husband.¹z/mari.¹My/|r2=male|
+======wife-of//wife.¹z/épouse.¹Fy/femme.Fy/|r2=female|
+;_______________________________________________________________________________
+===neg-ipr//negative#A interpersonal#A relation*.z/
+====enemy-of//enemy.¹z/foe.tz/ennemi.¹§y/
+;_______________________________________________________________________________
+==ex-friend-of//former#A friend*.¹z/
+==ex-lover-of//ex.Tz/ex.T§y/
+==divorced-from//divorced* from+.Az/divorcé* de+,divorcé* avec+.Aty/|symmetric|
+==separated-from//separated* from+.Az/|symmetric|
+==ex-spouse-of//
+; divorcé d'avec, elle a divorcé
+===ex-husband-of//ex#A-husband*.¹z/ex.Tz/ex#Aß-mari*.My/ex.T§y/|r2=male|
+===ex-wife-of//ex#A-wife*.¹z/ex.Tz/ex#Aß-femme*.Fy/ex.T§y/|r2=female|
+;_______________________________________________________________________________
+=human#A relation*.z/relation/|r1=human|
+;_______________________________________________________________________________
+==birthplace-of//birthplace.¹z/location* of#R birth#.qz/
+lieu* de#R naissance#F.¹My/maison* natale*A.qFy/clocher.qMy/|inverse-of=born|
+==deathplace-of//location* of#R death#.¹Nz/lieu* de#R mort#F.¹My/
+|inverse-of=died|
+==birthday-of//birthday.¹z/date* of#R birth#.z/b#-day*.Tz/
+date* de#R naissance#.¹Fy/
+==age-of//age.z/âge.My/
+;_______________________________________________________________________________
+==nationality-of//nationality.¹z/citizenship.z/nationalité.¹Fy/citoyenneté.Fy/
+|many-to-one|r2=country|
+;_______________________________________________________________________________
+==occupation-of//occupation.¹z/profession,work.z/job.Tz/
+earn* a#D living#N as+.Vz/do* ø for#R a#D living#N.Véz/do.TVéz/
+profession.¹Fy/métier.My/occupation.Fy/boulot.TMy/faire.¹Véy/
+faire* ø dans#R la#D vie#NF.Véy/|barrier-isa|
+;_______________________________________________________________________________
+==employer-of//employer.z/work* for+.Vz/
+employeur.§y/travailler* pour+.Vy/|r2=company|inverse-of=employee-of|
+;_______________________________________________________________________________
+==residence-of//residence.¹z/address.z/live* in+.¹Vz/reside* in+.Vz/
+life.Îz/résidence.¹Fy/adresse.Fy/habiter.¹Véy/vivre.Véy/vie.ÎFy/|many-to-one|
+r2=[or building apartment polity]|
+===residence-of-city//résider* à+.Vy/|r2=city|
+;_______________________________________________________________________________
+==diploma-of//hold* in_ from+.¹Véz/have* in_ from_.Véz/
+titulaire* de+ en_ de_.¹Ay/
+|r2=diploma|r4=educational-institution|
+===diploma-of-Bachelors-degree//educated* at+.¹Aõz/go* to+.¹Võz/
+go* to#R school#N at+.Võz/diplômé* de+.Aõy/|r2=Bachelors-degree|
+;_______________________________________________________________________________
+==dietary-preference-of//dietary#A preference*,diet# preference*.z/
+food# preference*.z/
+==ideal-sleep-of//ideal#A sleep# time*.¹z/
+besoins* de#R sommeil#MS journaliers*A.¹MPïy/|r2=unit-of-time|
+==circadian-rhythm-of//circadian#A rhythm*.¹z/rythme* circadien*A.¹My/
+;_______________________________________________________________________________
+==NAME-of//; communication between Sem_Parse and Sem_Anaphora
+; todo: name-of is also used for media objects
+==name-of//name.z/called.Aéz/nom.My/appelé.¹Aéy/baptisé.Aéy/|many-to-one|
+; todo: "s'appeler"
+===parse-name-of//parse# name*.z/
+===full-name-of//full#A name*.z/nom* et#K prénom*.My/
+===first-name-of//first#A name*.¹z/given#V name*.Àz/forename.tz/name.z/
+personal#A name*.z/christian#A name*.gz/Christian#A name*.gz/be.Véz/prénom.¹My/
+nom.My/être.Véy/
+|r2=given-name|
+===second-name-of//middle#A name*.¹z/second#A name*.z/second#A given#V name*.z/
+second#A personal#V name*.z/second#A christian#V name*.gz/
+deuxième*A prénom*.¹My/
+;_______________________________________________________________________________
+; the distinctions below are not currently made
+====second-given-name-of//
+; Examples: In US, "Lee" in "Mary Lee Hartz".
+;           In France, "France" in "Marie-France Olive".
+====middle-name-of//
+; example: In US, "Albert" in "Peter Albert Newmeyer".
+=====middle-surname-of//middle#A surname*.z/
+; example: "Fitzgerald" in "John Fitzgerald Kennedy"
+;_______________________________________________________________________________
+===third-name-of//second#A middle#A name*.¹z/troisième*A prénom*.¹My/
+===used-name-of//used#A name*.z/go* by#R the#D name#N of+.¹Vz/
+prénom* usuel*A.¹y/|r2=given-name|
+===nickname-of//nickname.¹z/surnom.¹My/|r2=given-name|
+===surname-of//surname.¹gz/last#A name*.¹z/family# name*.z/
+nom* de#R famille#F.¹My/|r2=surname|
+====first-surname-of//first#A surname*.¹gz/first#A family# name*.¹z/
+first#A last#A name*.z/premier*A nom* de#R famille#F.¹My/
+====second-surname-of//second#A surname*.¹gz/second#A family# name*.¹z/
+second#A last#A name*.z/deuxième*A nom* de#R famille#F.¹My/
+====maiden-surname-of//maiden# name*.z/
+;_______________________________________________________________________________
+==initial-of//initial.z/initiale.¹Fy/
+===first-initial-of//first#A initial*.z/
+===middle-initial-of//middle#A initial*.z/
+===first-last-initial-of//first#A last#A initial*.z/
+===second-last-initial-of//second#A last#A initial*.z/
+;_______________________________________________________________________________
+==title-of//title.¹z/titre.¹My/
+===pre-title-of//|r2=pre-title|
+===post-title-of//|r2=post-title|
+;_______________________________________________________________________________
+==affiliation-of//affiliation.¹z/affiliation.¹Fy/|r2=organization|
+; r2=company,school,government-branch
+===affiliation-of-company//be* at+.¹Vz/être* à+.¹Vy/|r2=company|
+===affiliation-of-educational-institution//be* at+.¹Vz/être* à+.¹Vy/
+|r2=educational-institution|
+===affiliation-of-government-institution//be* at+.¹Vz/être* à+.¹Vy/
+|r2=government-institution|
+===affiliation-of-international-organization//be* at+.¹Vz/être* à+.¹Vy/
+|r2=international-organization|
+; todo: Needs work. Perhaps separate out into more relations?
+; labor-union, political-party
+; What does affiliation-of really mean anyway? It is a condensation of other
+; relations such as enrolled in, works at, registered as, member of...
+;_______________________________________________________________________________
+==political-affiliation-of//political#A affiliation*.¹z/
+affiliation* politique*A.¹@Fy/|r2=political-system|many-to-one|
+==religion-of//religion.¹z/religion.¹Fy/|many-to-one|
+;_______________________________________________________________________________
+==signature//; todo
+==yearly-income-of//income.¹z/revenu.¹My/
+===yearly-net-income-of//net#A income*.¹z/revenu* net*A.¹My/
+===yearly-gross-income-of//gross#A income*.¹z/revenu* brut*A.¹My/
+==financial-worth-of//net#A worth*.¹z/
+==influence-of//influence.¹z/influence.¹Fy/
+;_______________________________________________________________________________
+==financial#A relation*.z//
+===owe//owe.Véëz/devoir.Véëy/|r1=human|r2=human|r3=financial-instrument|
+;_______________________________________________________________________________
+==addiction-of//addiction.¹z/habit.z/addicted* to+.Az/hooked# on+.Az/
+===addiction-of-drug//addiction.¹z/habit,dependence.z/addicted# to+.Az/
+dependent# on+.Az/hooked# on+.Az/dépendance.Fy/|r2=drug|
+===addiction-of-alcohol//have* a#D drinking#N problem#N.VÀz/
+have* a#D drink#N problem#N.VÀz/|r2=alcoholic-beverage|
+;_______________________________________________________________________________
+==skill-of//
+===skill-of-play//play.Véz/jouer* de+.Vy/|r2=musical-instrument|
+===native-language-of//native#A language*.z/speak.Véz/
+langue* maternelle*A.Fy/parler.Véy/|r2=langue|
+===fluent-language-of//speak* ø fluently#B.Véz/parler* couramment#B.Véy/
+|r2=langue|
+===second-language-of//second#A language*.z/speak.Véz/parler.Véy/|r2=langue|
+;_______________________________________________________________________________
+==specialist-of//specialist.¹z/expert,authority.z/aficionado,specializer.qz/
+savant,scholar,connoisseur,technical#A expert*,pundit,critic,amateur.qz/
+dilettante.qz/spécialiste.¹§y/expert.My/autorité.Fy/|inverse-of=specialty-of|
+;_______________________________________________________________________________
+==attitude.z//attitude.Fy/
+;_______________________________________________________________________________
+===positive#A attitude*.z//attitude* positive*A.Fy/
+;_______________________________________________________________________________
+; Levin class 31.2 Admire Verbs
+;_______________________________________________________________________________
+====admire.Véz/attribution-emotion/respect.¹Véz/
+appreciate,honor,prize,revere,value.Véz/esteem,favor,regard.qVéz/
+accord* respect#N to+,have* a#D high#A opinion#N of+.Vz/
+hold* a#D high#A opinion#N of+,look* up#R to+,think* much#B of+.Vz/
+think* well#B of+.Vz/be* an#D admirer#N of+,think* highly#B of+.Vz/
+hold* ø in#R esteem#N.qVéz/
+hold* ø in#R high#A esteem#N,hold* ø in#R high#A regard#N.qVéz/
+hold* ø in#R consideration#N,hold* ø in#R reverence#N.qVéz/
+ain* respect#N for+.îz/admiration,respect,reverence,adulation.Îz/
+respecter.¹Véy/honorer,révérer,estimer,considérer,apprécier,distinguer.Véy/
+attacher* de#R l#DF'importance#NF à+,avoir* une#D haute#A idée#NF de+.Vy/
+faire* état#NM de+,attacher* du#R prix#ßNM à+,faire* grand#A cas#NM de+.Vy/
+vénérer* jusque#R au#RM sol#NM que#K ø foule#.Véy/
+|[if [admire ?x ?y ?z] [believe ?x [good ?y ?z]]]|antonym-of=reproach|
+;_______________________________________________________________________________
+====adore.¹Véz/attraction-emotion/exalt,worship,venerate.Véz/idolize.ÀVéz/
+idolise.gVéz/hero#-worship*,deify.qVéz/apotheosize,defer* to+.qVéz/
+put* ø on#R a#D pedestal#N.Véz/worship* the#D ground#N ø walks# on#R.Véz/
+stand* in#R awe#N of+.Vz/idol.z/hero.Mz/
+heroine.Fz/adorer.¹Véy/idolâtrer,vénérer.qVéy/mettre* ø aux#RFP nues#NPF.Véy/
+mettre* ø sur#R un#D piédestal#NM.Véy/porter* ø au#RM pinacle#NM.qVéy/
+porter* ø aux#RFP nues#NFP,élever* ø aux#RFP nues#NPF.qVéy/
+rendre* un#D culte#NM à+,avoir* un#D culte#NM pour+,vouer* un#D culte#NM à+.Vy/
+déférer* à+,se conformer* à+.qVy/fou* de+.Ay/idole.Fy/héros.My/héroïne.Fy/
+|[if [adore ?x ?y] [believe ?x [good ?y 1.0u]]]|
+;_______________________________________________________________________________
+====admirer-of//admirer.¹z/fan.¹Tz/
+follower,groupie,worshiper,idolizer.z/amateur,fancier,idolater,votary.qz/
+rooter,booster.qTz/admirateur.¹§y/accro,fana,fan.T§y/groupie.§y/
+|inverse-of=adore|
+;_______________________________________________________________________________
+====cherish.Véz/attribution-emotion/chérir.Véy/
+====enjoy.Véz//aimer.Véy/prendre* plaisir#NF à+.Vy/
+====put-up-with//put* up#R with+.Vz/supporter,subir.Véy/
+====action-relish//relish.Véz/savourer.Véy/
+====savor.Véz//savourer.Véy/
+====support.Véz//soutenir.Véy/
+====tolerate.Véz//stand.Véz/support.tVéz/supporter.Véy/
+====treasure.Véz//tenir* beaucoup#B à+.Vy/
+====trust-rely-on//trust.Véz/rely* on+.Vz/faire* confiance#NF à+.Vy/
+avoir* confiance#NF en+.Vy/
+====trust-believe//trust.Véz/se fier* à+.Vy/
+;_______________________________________________________________________________
+====hobby-of//hobby.¹z/interest,recreation,pastime.Îz/diversion.Îqz/
+enthusiasm* of_ for_,love* of_ for_,passion* of_ for_.qz/madness.qTz/
+interested# in+.Az/be* into+.TVz/passe#V-temps#,passe#V-temps# favori*A.¹My/
+hobby.My/violon* d#R'Ingres#.My/passion.qFy/centres* d#R'intérêt#S.tMPïy/
+s'intéresser* à+.Vy/amour* de_ pour_.qMy/
+|r2=[not location-interrogative-pronoun]|
+;_______________________________________________________________________________
+====like-nonhuman/attraction-emotion/like.¹VÔéz/please.Vúèz/
+fond# of+,partial# to+.Az/keen# on+.gAz/have* a#D weakness# for+.qVz/
+have* a#D taste# for+.qVz/not can* resist#.qVéz/liking.z/dig.oTVÔz/
+cup* of#R tea#.Tz/appeal* to+.¹Vúz/go* down#R well#B with_.Vúz/
+predilection* of_ for_.z/liking* of_ for_.z/prédilection* de_ pour_.Fy/
+aimer.Véy/plaire* à+.¹Vúy/brancher* à+.TVúy/|r2=nonhuman|
+antonym-of=hate-nonhuman|
+[if [like-nonhuman ?x ?y ?z] [believe ?x [good ?y ?z]]]|
+=====love-nonhuman//love.¹VÔéz/mad# about+.Az/crazy# about+.ÀAz/
+wild# about+.Az/love* of_ for_.z/amour* de_ pour_.¹My/
+;_______________________________________________________________________________
+====like-human/attraction-emotion/like.¹VÔéz/fond# of+,attached# to+.Az/
+see* something#H in+.Vz/have* a#D soft#A spot#N for+.Vz/
+aimer* bien#B.¹Véy/|r2=human|antonym-of=hate-human|
+[if [like-human ?x ?y ?z] [believe ?x [good ?y ?z]]]|
+=====nonromantic-love-human//love.¹VÔéz/love* ø dearly#B.VÔéz/close# to+.Az/
+care* about+.VÔz/think* the#D world#N of+.VÔz/mean* the#D world#N to+.VÔúz/
+devoted# to+.qAz/dote* on+.qVÔz/affectionate# towards_.Az/
+loving# towards_,tender# towards_,devoted# to_.qAz/
+love,affection,devotion,tender#A loving#A care*,tender#A love# and#K care*.Îz/
+loved#A one*.z/love* of_ for_.¹z/amour* de_ pour_.¹My/
+;_______________________________________________________________________________
+====love-human/attraction-emotion/love.¹VÔéz/in#R love#N with_.¹Az/
+stuck# on+.TAz/mad# about+,crazy# about+,madly#B in#R love#N with_.Az/
+wild# about+.Az/besotted# with_.qAz/love* of_ for_.¹z/
+love* at#R first#A sight#N,passion,romance,true#A love*.Îz/aimer.Véy/
+aimer* ø à#R la#D folie#NF.Véy/en pincer* pour_.TVy/toqué* de+.Ay/
+amour* de_ pour_.¹My/
+|r2=human|
+[if [love-human ?x ?y] [believe ?x [love-evaluation ?y]]]|
+=====infatuation//infatuated#A with_.¹Az/have* a#D crush#N on_.Vz/
+infatuation* of_ for_.z/avoir* une#DF toquade#NF pour+.Vy/
+avoir* le#DM cÓur#NM qui#H bat#V pour+.Vy/
+;_______________________________________________________________________________
+====consider-important//care* about_.VÔz/se soucier* de+.Vy/s'intéresser* à+.Vy/
+|antonym-of=not-consider-important|
+;_______________________________________________________________________________
+===negative#A attitude*.z//attitude* négative*A.Fy/
+;_______________________________________________________________________________
+====despise.Véz//disdain.Vz/contemn.tVz/mépriser,dédaigner.Véy/
+;_______________________________________________________________________________
+====hate-nonhuman//hate.¹Véz/dislike,abhor,detest,deplore.Vz/
+haïr,détester.¹Véy/|r2=nonhuman|
+;_______________________________________________________________________________
+====hate-human//hate.¹Véz/haïr,détester.¹Véy/|r2=human|
+;_______________________________________________________________________________
+====avoid.Véz//éviter.Véy/
+====boycott.Véz//boycotter.Véy/
+====distrust.Véz//se méfier* de+.Vy/
+====dread.Véz//redouter,appréhender.Véy/
+====execrate.Véz//exécrer.Véy/
+====lament.Véz//pleurer.Véy/se lamenter* sur+.Vy/
+====loathe.Véz//détester,avoir* en#R horreur#NF.Véy/
+====mourn.Véz//pleurer.Véy/
+====not-consider-important//not care* about_.VÔz/
+not give* a#D damn#N about_.TVz/not give* a#D shit#N about_.aVz/
+not could* give#V a#D shit#N about_.aVz/whatever.UTz/s'en ficher* de_.Vy/
+se ficher* de+.Vy/s'en foutre* de_.TVy/se foutre* de+.TVy/peu#B importe#V.UTy/
+; cf strong-feeling
+=====ignore.Véz//ne tenir* aucun#HM compte#NM de+.Vy/ne pas relever*.Véy/
+;_______________________________________________________________________________
+==believe.Véz/Searle-ill-s-a-representative/think.¹Véz/buy.TVéz/croire.Véy/
+I#H think#V.xz/I#H want#V to#R say#V.xz/|r1=human|r2=concept|
+;_______________________________________________________________________________
+==believe-wrongly//imagine.Vé_÷z/fancy.gVé_÷z/s'imaginer*,se figurer*.Vé_÷y/
+;_______________________________________________________________________________
+==suppose.Vé_÷z//imagine.Vé_÷z/supposer,imaginer.Vé_÷y/
+;_______________________________________________________________________________
+==know.Vé_÷z/Searle-ill-s-a-representative/
+have* a#D clue#N,have* got#V a#D clue#N.TVé_÷z/knowledge.z/
+savoir.Vé_÷y/connaissance.Fy/|r1=human|r2=concept|
+;_______________________________________________________________________________
+===know-about-information//know* about+.Vz/être* au#R courant#NM de+.Vy/
+;_______________________________________________________________________________
+==not-know//not know*.Vé_z/dunno.TVz/dunno.TUz/not could* tell#V you#HP.TVz/
+ne pas savoir*.Vé_y/ignorer.Véy/
+===not-know-at-all//have* no#D idea#N.Vz/no#D idea#N.TUz/
+not have* the#D slightest#A idea#N.Vz/not have* the#D slightest#A.Vz/
+not have* a#D clue#N,not have* got#V a#D clue#N,have* no#D clue#N.TVz/
+got* a#D clue#N.TVz/clueless* about_.TAz/you#H got#V me#H,got#V me#H.TUz/
+not get* it#H.TVz/not know* fuck#V all#H about_.agVz/
+ne rien en savoir*.Vy/ne point savoir*.tVy/ne point savoir*.tVéy/
+ne rien en savoir* foutre#V.aVy/aucune#AF idée#NF.TUy/
+===not-know-anymore//ne plus savoir*.Vy/not know* anymore#B.Vz/
+;_______________________________________________________________________________
+==share-belief//share.Véz/partager.Véy/
+; todo: Some possible representations:
+; [share human1 human2 [good schnaps 1.0]]
+; [share human1 human2 [like-nonhuman [group human1 human2] schnaps 1.0]]
+; [share human1 [like-nonhuman human2 schnaps 1.0]]
+; There are a few syntactic cases here:
+;   We share a liking for schnaps. (the We distributes into the liking
+;   nominalization)
+;   He shares my liking for schaps.
+;_______________________________________________________________________________
+==plan.z//projet.My/
+==goal.z/attribute/subgoal,concern,current#A concern*,intention.z/
+objectif.¹My/
+; todo: Fill in French below.
+;_______________________________________________________________________________
+==-goal# status*.z//goal* in#R working#V memory#.z/|r1=human|r2=list|
+====active-goal/modal-relation/want.¹VéÏz/would* like#.VéÏz/need.VéÏz/
+be* desirous#A of+±.Vz/desire,wish.z/intention.z/intentionally.Bz/
+on#R purpose#N.Bz/désirer,vouloir.¹VéOy/désirer,vouloir.¹VéÏy/
+avoir* besoin#NM de+Ï.Vy/désir,vouloir,souhait.My/intentionnellement,exprès.By/
+====active-goal-weaker//not would* mind#V.Vé±z/
+====active-goal-stronger//be* dying#V.VéÏz/be* eager#A.VéÏz/
+brûler* à+Ï.Vy/
+====not-active-goal//reluctantly.¹Bz/grudgingly.Bz/with#R reluctance#N.Bz/
+with#R great#A reluctance#N.qBz/de#R mauvaise#AF grâce#NF,à#R contrecÓur#M.By/
+====failed-goal//fail* at_±.¹Vz/be* unable#A.VéÏz/not can*.VéÏz/
+not do* well#B.Vz/failure.z/strike#V out#R ½.Tz/
+échec.My/ne pas arriver* à+Ï.¹Vy/ne pas réussir* à+Ï.Vy/
+====succeeded-goal//succeed* at_±.¹Vz/succeed* in+±.Vz/do* well#B.Vz/
+success.z/successful.Az/réussir* à_Ï.¹Vy/parvenir* à_Ï.Vy/succès.My/réussite.Fy/
+;_______________________________________________________________________________
+==-goal# level*.z//
+====need.z//besoin.Ny/; todo: lower needs have priority over higher
+=====need0//lowest#A-level# need*.¹z/
+=====need1//low#A-level# need*.¹z/
+=====need2//mid#A-level# need*.¹z/
+=====need3//high#A-level# need*.¹z/
+=====need4//very#B-high#A-level# need*.¹z/
+====daydreaming# goal*.z//
+====metagoal.z//
+;_______________________________________________________________________________
+==-goal# classification*.z//
+====a#-goal*.z//achievement# goal*.z/
+====c#-goal*.z//conservation# goal*.z/
+====p#-goal*.z//preservation# goal*.z/
+====s#-goal*.z//satisfaction# goal*.z/
+====problem.z//problème.My/
+====obstacle.z//show# stopper*.Tz/obstacle.My/
+;_______________________________________________________________________________
+==-goal-objective//goal# objective*.z/|activated-emotion-of=motivation|
+success-emotion-of=happiness|failure-emotion-of=sadness|
+;_______________________________________________________________________________
+====p-health/need0,p-goal/preserve* ø health#N.Véz/
+====s-exercise/need0,s-goal/get* some#D exercise#N.Vz/
+====s-air/need0,s-goal/get* air#N.Vz/|activated-emotion-of=suffocation|
+====a-safety/need0,a-goal/achieve* safety#N.Vz/
+;_______________________________________________________________________________
+====a-shelter/need1,a-goal/achieve* shelter#N.Vz/
+====s-water/need1,s-goal/get* water#N.Vz/|activated-emotion-of=thirst|
+====s-hunger/need1,s-goal/get* food#N.Vz/|activated-emotion-of=hunger|
+success-emotion-of=satiation|
+====s-sleep/need1,s-goal/get* sleep#N.¹Vz/get* some#D sleep#N.Vz/
+;|activated-emotion-of=rest-level neg|
+;_______________________________________________________________________________
+====s-sex/need2,s-goal/have* sex#N.¹Vz/|activated-emotion-of=horny|
+success-emotion-of=orgasm|
+====s-money/need2,s-goal/get* money#N.¹Vz/
+====s-employment/need2,s-goal/get* a#D job#N.¹Vz/
+====s-education/need2,s-goal/get* an#D education#N.¹Vz/
+;_______________________________________________________________________________
+====a-self-esteem/need3,a-goal/achieve* self#N-esteem#N.Vz/
+|success-emotion-of=pride|
+====a-social-esteem/need3,a-goal/achieve* social#N-esteem#N.Vz/
+|success-emotion-of=pride|failure-emotion-of=embarrassment|
+=====a-recognition//
+=====a-showoff//
+====s-companionship/need3,s-goal/have* companionship#N.¹Vz/
+|success-emotion-of=contentment|
+====a-friends/need3,a-goal/have* friendship#N.¹Vz/
+====s-love-giving/need3,s-goal/give* love#N.¹Vz/|success-emotion-of=contentment|
+====s-love-receiving/need3,s-goal/receive* love#N.¹Vz/
+|success-emotion-of=contentment|
+====a-lovers/need3,a-goal/have* a#D lover#N.¹Vz/|success-emotion-of=contentment|
+;_______________________________________________________________________________
+====a-procreation/need4,a-goal/procreation.z/
+====p-appearance/need4,p-goal/preserve* ø appearance#N.Véz/
+; todo: stepping into can of paint, etc.
+====s-possessions/need4,s-goal/obtain* possessions#N.¹Vz/
+acquire* possessions#N.¹Vz/acquisition.z/
+====s-profit/s-goal/profit.¹Vz/make* money#N.Vz/
+====s-entertainment/need4,s-goal/be* entertained#A.¹Vz/
+|success-emotion-of=amusement|
+====s-explore/need4,s-goal/explore.¹Vz/
+====s-travel/need4,s-goal/travel.¹Vz/
+====s-self-actualization/need4,s-goal/be* self#N-actualized#A.¹Vz/
+=====s-create//satisfy* creative#A urge#N.Vz/
+;_______________________________________________________________________________
+====rationalization.z/daydreaming-goal/rationalize.Vz/rationaliser.Vy/
+essayer* d#R'expliquer#.Vy/essayer* de#R motiver#.Vy/
+====roving.z/daydreaming-goal/
+====revenge.z/daydreaming-goal/revanche,vengeance.Fy/
+====reversal.z/daydreaming-goal/
+====recovery.z/daydreaming-goal/
+====rehearsal.z/daydreaming-goal/répétition.Fy/
+====repercussions.Pïz/daydreaming-goal/
+;_______________________________________________________________________________
+====c-time/metagoal,c-goal/conserve* ø time#N.Véz/save* ø time#N.Véz/
+; Walk France to India -> failure.
+====c-money/metagoal,c-goal/conserve* ø money#N.Véz/
+; Take the Concorde -> failure.
+;_______________________________________________________________________________
+; [wearing-of ?human ?clothing]
+==wearing-of//wear,have* on#R.¹éVz/affect.qéVz/sport.TéVz/turn* up#R in+.qVz/
+dressed* in_.¹Az/clothed* in_,clad* in_,attired* in_,decked# out#R in_.Az/
+decked* in_,garbed* in_,appareled* in_,uniformed* in_,costumed* in_.qAz/
+in#R costume#N,disguised* in_,cloaked* in_,mantled* in_,breeched* in_.qAz/
+trousered* in_,pantalooned* in_,coifed* in_,capped* in_,bonneted* in_.qAz/
+hatted* in_,hooded* in_.qAz/
+shod* in_,shoed* in_,booted* in_,tired* in_,arrayed* in_,garmented* in_.qAz/
+habited* in_,habilimented* in_,bedecked* in_,tricked#A out#R in_.qAz/
+rigged#A out#R in_,vested* in_,vestmented* in_,robed* in_.qAz/
+gowned* in_,raimented* in_,invested* in_,endued* in_,liveried* in_.qAz/
+dight* in_.oAz/togged* in_.TqAz/chaussé*j in_.jAqz/
+porter.éVy/avoir.qéVy/|r2=clothing|
+===wearing-of-rags//loqueteux.Ay/|r2=rags|
+===wearing-of-best-clothes//dressed#A up#R in_,well#B-dressed# in_.¹Az/
+dressed#A to#R the#D nines#NP in_,chic* in_,stylish* in_.Az/
+dressed#A to#R kill#V in_.aAz/
+in#R full#A dress#mNS,in#R full#A feather#mNS.qAz/
+in#R white#A tie#NS and#K tails#NP.qAz/
+in#R tails#NP,modish* in_,well#B turned#V-out#R in_.qAz/spruced#A up#R in_.¹TAz/
+gussied#A up#R in_,prettied#A up#R in_.TAz/dolled#A up#R in_.qTAz/
+dressed#A to#R advantage#mNS in_,in#R Sunday# best#,in#R fine#A feather#mNS.qAz/
+in#R high#A feather#mNS,spruced* in_.qAz/
+in#R his*D best#A bib#NS and#K tucker#NS.TqAz/
+spiffed#A up#R in_,slicked#A up#R in_.aAz/
+endimanché#Aj in_,en#Rj grande#ASFj tenue#NSFj.jqAz/
+en#Rj grande#ASFj toilette#NSFj,soigné#Aj in_.jqAz/
+fancied#A up#R in_,dressed#A fit#A to#R kill#V.aqAz/|r2=best-clothes|
+===wearing-of-casual-clothes//casual.¹Az/informal.Az/|r2=casual-clothes|
+===wearing-of-dishabille//in#R dishabille#mNS,in#R negligee#mNS.qAz/
+en#R déshabillé#N.jqAz/|r2=dishabille|
+;_______________________________________________________________________________
+=processor# relation*.z/relation/|r1=CPU|
+==clock-frequency-of//clock# frequency*.z/frequency,speed.z/|r2=frequency|
+==bits-of//bus# width*.z/|r2=number|
+;_______________________________________________________________________________
+=memory# relation*.z/relation/
+|r1=[or computer computer-memory]|
+==cycle-time-of//cycle# time*.z/|r2=absolute-unit-of-time|
+;_______________________________________________________________________________
+=computer# relation*.z/relation/|r1=computer|
+==arch-of//architecture.¹z/arch.tz/|r2=computer-architecture|
+==processor-of//processor.¹z/CPU.z/|r2=CPU|
+==FPU-of//FPU.z/floating#A point# coprocessor*.z/|r2=FPU|
+==motherboard-of//motherboard.¹z/CPU# board*.z/|r2=motherboard|
+==computer-chassis-of//chassis# type*.¹z/chassis.z/case.z/|r2=computer-chassis|
+==computer-bus-of//bus.z/buss.z/|r2=computer-bus|
+==slots-of//number* of#R slots#P.z/|r2=number|; of computer-bus-of
+==processors-of//number* of#R processors#P.z/|r2=number|
+==RAM-of//RAM.¹z/memory,main# memory*.z/working# memory*.z/
+random# access# memory*.z/core,core# memory*.oz/physical# memory*.z/|r2=byte|
+==max-RAM-of//maximum# RAM*.¹z/maximum# memory*,maximum# main# memory*.z/
+|r2=byte|
+==virtual-memory-of//virtual#A memory*.z/|r2=byte|
+==VRAM-of//VRAM.¹z/video# memory*.z/video# RAM*.z/frame# buffer*.z/
+frame# buffer# size*.z/|r2=byte|
+==computer-monitor-of//monitor.z/computer# monitor*.z/|r2=computer-monitor|
+==computer-keyboard-of//keyboard.¹z/computer# keyboard*.z/|r2=computer-keyboard|
+==OS-of//operating# system*.¹z/OS.z/
+==first-OS-of//first#A supported#A OS# release*.z/
+==last-OS-of//last#A supported#A OS# release*.z/
+;_______________________________________________________________________________
+=processing-speed-of/relation/processing# speed*.¹z/processor# speed*.z/speed.z/
+; todo: Connect to "fast".
+==MIPS-of//MIPS.¹z/millions#P of#R instructions#P per#R second#.z/
+==MFLOPS-of//MFLOPS.¹z/
+millions#P of#R floating#-point# operations#P per#R second#.z/
+==SPECmark89-of//SPECmark89.z/
+==SPECint92-of//SPECint92.z/
+==SPECfp92-of//SPECfp92.z/
+==SPECintRate92-of//SPECintRate92.z/
+==SPECfpRate92-of//SPECfpRate92.z/
+;_______________________________________________________________________________
+=mass#A-storage# relation*.z/relation/|r1=mass-storage-device|
+==storage-size-of//storage# size*.z/|r2=byte|
+==seek-time-of//
+;_______________________________________________________________________________
+=financial#A-instrument# relation*.z/relation/|r1=financial-instrument|
+==tickexch-of//ticker# exchange*.z/
+==ticker-of//ticker.z/
+===exchange-ticker-of//exchange# ticker*.z/
+===tt-ticker-of//TT# ticker*.z/
+===RIC-of//RIC.z/Reuters# Instrument# Code*.z/
+==cusip-of//cusip,CUSIP.z/
+==sedol-of//sedol.z/
+==sicovam-of//sicovam# code*.z/code* sicovam#.My/
+==issue-date-of//issue# date*.z/;émis
+|r1=timestamp|
+==issuer-of//issuer.z/|r2=organization|
+==currency-of//currency.z/|r1=currency|
+==underlying-of//underlying# instrument*.z/
+==coupon-of//coupon.z/|r1=u|
+==first-coupon-date-of//first#A coupon# date*.z/|r1=timestamp|
+==maturity-of//maturity.z/|r1=timestamp|
+==expiration-date-of//expiration# date*.z/échéance.@Fy/|r1=timestamp|
+==strike-price-of//strike# price*.z/prix* d#R'exercice#.My/
+|r1=u|
+==market-of//trade* on+.Vz/coté* à+.Ay/admis*dV à#R la#D cote#NF de+.qAy/
+|r1=financial-market|
+;_______________________________________________________________________________
+=country# relation*.z/relation/|r1=country|r2=human|
+==head-of-state-of//head* of#R state#.z/chef* d#R'état#.My/|many-to-one|
+==head-of-government-of//head* of#R government#.z/chef* de#R gouvernement#.My/
+|many-to-one|
+==President-of//president.¹z/President.z/président.§y/|many-to-one|
+==Vice-President-of//vice#A president*.z/veep.az/vice*A-président*.§y/
+|many-to-one|
+==prime-minister-of//prime#A minister*.¹z/Prime#A Minister*.z/PM.gz/
+premier*A ministre*.My/|many-to-one|
+==emperor-of//emperor.z/empereur.My/|many-to-one|
+==king-of//king.z/roi.My/|many-to-one|
+==queen-of//queen.z/reine.Fy/|many-to-one|
+==citizen-of//citizen.¹z/national.z/citoyen.¹§y/resortissant.§y/
+|inverse-of=nationality-of|
+;_______________________________________________________________________________
+==minister-of//minister.¹z/ministre.¹My/
+===minister-of-agriculture-of//Agriculture# minister*.¹z/
+ministre* de#R l#D'Agriculture#F.¹My/
+===minister-of-culture-of//minister* of#R Culture#.¹z/
+ministre* de#R la#D Culture#F.¹My/
+===minister-of-defense-of//Defense# minister*.¹z/
+ministre* de#R la#D Défense#F.¹My/
+ministre* de#R la#D Défense#F nationale#AF.My/
+===minister-of-economy-of//Finance# minister*.¹z/
+ministre* de#R l#D'économie#F.¹My/
+ministre* de#R l#D'économie#F et#K des#RP finances#FP.¹My/
+tête* du#R ministère#M de#R l#D'économie#.ÎqFy/
+===minister-of-education-of//minister* for#R Education#.¹z/
+ministre* de#R l#D'Éducation#F nationale#AF.¹My/
+===minister-of-environment-of//minister* of#R the#D Environment#.¹z/
+ministre* de#R l#D'Environnement#.¹My/
+===minister-of-foreign-affairs-of//minister* of#R foreign#A affairs#P.¹z/
+ministre* des#RP Affaires#FP étrangères#AFP.¹My/
+===minister-of-interior-of//Interior# minister*.¹z/
+ministre* de#R l#D'Intérieur#.¹My/
+===minister-of-justice-of//minister* of#R Justice#.¹z/
+ministre* de#R la#D Justice#F.¹My/
+===minister-of-research-of//minister* of#R Research#.¹z/
+ministre* de#R la#D Recherche#F.¹My/
+===minister-of-health-of//minister* of#R Health#.¹z/
+ministre* de#R la#D Santé#F.¹My/
+===minister-of-trade-of//minister* of#R Trade#.¹z/ministre* du#R Commerce#.¹My/
+===minister-of-transportation-of//minister* of#R Transportation#.¹Àz/
+Transport# minister*.¹gz/ministre* des#RP Transports#P.¹My/
+===minister-of-employment-of//minister* of#R Employment#.¹z/
+ministre* du#R Travail#.¹My/
+;_______________________________________________________________________________
+=organization# relation*.z/relation/|r1=organization|
+==merger-of//
+==spinoff-of//; todo: Change the name of this.
+;_______________________________________________________________________________
+=company# relation*.z/relation/|r1=company|
+==headcount-of//headcount.z/|many-to-one|
+==headquarters-of//headquarters.¹z/national#A headquarters*.z/head#A office*.z/
+main#A office*.z/be* based#A in+.Vz/siège* principal*A,siège* central*A.My/
+bureau* principal*A,bureau* central*A.My/quartier* général*A.qMy/|many-to-one|
+==affiliate-of//; [affiliate-of ?TV-station ?TV-network]
+==trademark-of//trademark.z/registered#A trademark*.z/marque.Fy/
+marque* déposée*A.Fy/
+; This can be inferred from ® and product-of.
+; Perhaps store major trademarks such as Coke and Levi's explicitly.
+==product-of//product.z/produit.My/|r1=company|@19950802|
+comment="refers to more specific products"|
+==manufacturer-of//manufacturer.z/make.z/fabricant.My/|r2=company|
+@19950802|comment="refers to general product areas"|
+==legal-location-of/spatial/|many-to-one|
+===official-residence-of//official#A headquarters*.z/siège* social*A.My/
+===incorporated-in//location* of#R incorporation#.z/
+state* of#R incorporation#.z/
+==founder-of//founder.z/|r2=human|
+;_______________________________________________________________________________
+==sold-at//|r2=store|
+==stored-in//|r2=room|
+==used-at//
+==used-for//|r2=action|
+;_______________________________________________________________________________
+==job-position-of//position.¹z/job.z/job# position*.z/post.z/poste.¹My/
+;_______________________________________________________________________________
+==employee-of//employee.¹z/jobholder.z/salarié.¹§y/|r2=human|
+;_______________________________________________________________________________
+===top-executive-of//top#A executive*.z/upper#A management*.Îz/
+cadre* dirigeant*A.My/haute*A direction*.ÎFy/
+====board-member-of//director.z/member* of#R the#D board# of#R directors#P.z/
+membre* du#R conseil#M d#R'administration#F.My/
+====chair-of//chairman.Mz/chair.qz/chairman* of#R the#D board#.z/
+chair* of#R the#D board#.qz/head,run,head* up#R.Vúèz/président.§y/
+présidence.ÎFy/|many-to-one|
+====ceo-of//chief#A executive#A officer*.z/chief#A executive*.z/CEO.z/
+head,run,head* up#R.Vúèz/directeur* général*A.§y/DG.§y/tête.ÎFy/|many-to-one|
+====mandataire-social-of//mandataire* social*A.§y/
+====pdg-of/chair-of,ceo-of/président*-directeur* général*A.§y/PDG.¹§y/
+P#-DG#,Pdg.§y/patron.§y/chef* d#R'entreprise#F.My/directeur.§y/boss.TMy/
+singe.aMy/|many-to-one|
+====president-of//president.z/head,run,head* up#R.Vúèz/président.§y/Pdt.@§y/
+|many-to-one|
+====coo-of//chief#A operating#A officer*.z/COO.z/|many-to-one|
+====cfo-of//chief#A financial#A officer*.z/CFO.z/|many-to-one|
+====cio-of//chief#A information# officer*.z/CIO.z/|many-to-one|
+====cqo-of//chief#A quality# officer*.z/|many-to-one|
+====comptroller-of//comptroller.z/controller.z/financial#A controller*.z/
+contrôleur* financier*A.§y/
+====treasurer-of//treasurer.z/
+====secretary-officer-of//secretary.¹z/company# secretary*.z/
+general#A secretary*.z/secrétaire* général*A.¹§y/
+====general-counsel-of//counsel.z/general#A counsel*.z/juriste.§y/
+====vice-chair-of//vice#A chairman*.z/vice#A chair*.qz/vice*A-président*.§y/
+====dg-adjoint-of//general#A manager*.@z/directeur* général*A adjoint*A.§y/
+====executive-committee-president-of//
+president* of#R the#D executive#A committee#.z/
+president* of#R the#D management# committee#.z/
+president* of#R the#D operating#A committee#.z/
+président* du#R comité# exécutif#A.@¹§y/président* du#R comité# directeur#A.@§y/
+|many-to-one|
+====executive-committee-member-of//member* of#R the#D executive#A committee#.z/
+member* of#R the#D management# committee#.z/
+member* of#R the#D operating#A committee#.z/
+membre* du#R comité# exécutif#A.@¹My/membre* du#R comité# directeur#A.@My/
+====steering-committee-member-of//member* of#R the#D steering#A committee#.z/
+membre* du#R comité# d#R'organisation#F.¹My/
+====audit-committee-member-of//member* of#R the#D audit# committee#.z/
+====finance-committee-member-of//member* of#R the#D finance# committee#.z/
+====chairman-emeritus-of//chairman* emeritus#A.z/
+====partner-of//partner.z/
+====senior-partner-of//senior#A partner*.z/
+====managing-partner-of//managing#A partner*.z/
+====general-manager-of//general#A manager*.z/directeur* général*A.§y/DG.§y/
+====executive-director-of//executive#A director*.z/directeur.§y/
+====deputy-director-of//deputy# director*.z/
+====director-manager-of//director.z/directeur.§y/
+;_______________________________________________________________________________
+===executive-of//executive.z/cadre* supérieur*A.My/
+====official-of//official.z/officiel.§y/
+====executive-vice-president-of//executive#A vice#A president*.z/veep.az/
+====senior-vice-president-of//senior#A vice#A president*.z/veep.az/
+====managing-director-of//managing#A director*.z/MD.z/directeur* général*A.§y/
+DG.§y/
+====principal-of//principal.z/
+====vice-president-of//vice#A president*.z/veep.az/vice*A-président*.§y/
+====junior-partner-of//junior#A partner*.z/
+====associate-of//associate.z/
+====sub-director-of//vice#A president*.z/sous#R-directeur*.§y/
+;_______________________________________________________________________________
+===middle-manager-of//middle#A manager*.z/cadre* moyen*A.My/cadre.My/
+====department-head-of//director.¹z/head,department# head*,group# head*.z/
+group# leader*.z/boss.Tz/responsable.§y/
+====manager-of//manager.z/responsable.§y/
+====assistant-director-of//assistant#A director*.z/
+====sales-manager-of//sales#P manager*.z/directeur* commercial*A.§y/
+====sales-executive-of//sales#P executive*.z/directeur* commercial*A.§y/
+====sales-associate-of//sales#P associate*.z/directeur* commercial*A.§y/
+;_______________________________________________________________________________
+===professional-of//professional.z/cadre.My/
+====senior-account-executive-of//senior#A account# executive*.z/
+====account-executive-of//account# executive*.z/broker.z/
+====account-director-of//account# director*.z/
+====assistant-account-executive-of//assistant#A account# executive*.z/
+====editor-in-chief-of//editor*-in#R-chief#.z/editor* in#R chief#.z/
+rédacteur* en#R chef#M.§y/rédaction* en#R chef#M.ÎFy/|many-to-one|
+=====editor-in-chief-of-TV-show//chef* d#R'édition#F.My/|r2=TV-show|
+====employee-editor-of//editor.z/rédacteur.§y/
+====assistant-editor-of//assistant#A editor*.z/
+====financial-analyst-of//financial#A analyst*.z/
+====researcher-of//researcher.z/
+====senior-technical-writer-of//senior#A technical#A writer*.z/
+====trader-of//trader.z/
+;_______________________________________________________________________________
+===administrator-of//administrator.z/administrateur.§y/
+===assistant-administrator-of//assistant#A administrator*.z/
+===dean-of//dean.z/doyen.§y/
+===assistant-professor-of//assistant#A professor*.z/
+===associate-professor-of//associate#A professor*.z/
+===full-professor-of//full#A professor*.z/professor.z/
+===district-attorney-of//district# attorney*.z/
+===assistant-district-attorney-of//assistant#A district# attorney*.z/
+;_______________________________________________________________________________
+===lower-employee-of//employé.§y/
+====clerk-of//clerk.z/employé* de#R bureau#M.§y/
+====secretary-of//secretary.¹z/secrétaire.¹§y/
+;_______________________________________________________________________________
+===worker-of//worker.z/ouvrier.§y/
+;_______________________________________________________________________________
+=polity# relation*.z/relation/|r1=polity|
+==official-language-of//official#A language*.¹z/langue* officielle*A.¹Fy/
+==other-language-of//other#A language*.¹z/autre*A langue*.¹Fy/
+==coordinates-of//
+==longitude-of//longitude.z/longitude.Fy/
+==latitude-of//latitude.z/latitude.Fy/
+==phone-prefix-of//dialing# prefix*.¹z/phone# prefix*.z/telephone# prefix*.z/
+prefix.z/country# code*.z/area# code*.z/indicatif.¹My/|many-to-one|
+r2=phone-prefix|
+==population-of//population.z/population.Fy/|many-to-one|
+==capital-of//capital.z/capitale.Fy/|many-to-one|r2=polity|
+==weather# relation*.z//
+===temperature-of//air# temperature*.z/temperature.z/
+température* de#R l#DM'air#M.¹Fy/température.Fy/|r2=unit-of-temperature|
+===barometric-pressure-of//barometric# pressure*.z/barometer.qz/
+pression* barométrique*A.Fy/baromètre.qMy/|r2=unit-of-pressure|
+===humidity-of//humidity.z/humidité.Fy/
+===wind-direction-of//wind# direction*.z/direction* du#R vent#M.Fy/
+|r2=compass-direction|
+===wind-speed-of//wind# speed*.z/force* du#R vent#M.Fy/|r2=unit-of-velocity|
+====gust.z//rafale.Fy/
+;_______________________________________________________________________________
+=transport# relation*.z/relation/
+==travel-crew-of//
+==travel-passengers-of//
+==travel-cargo-capacity-of//; weight
+==travel-max-speed-of//
+==travel-max-distance-of//
+;_______________________________________________________________________________
+=grid# relation*.z/relation/|r1=grid|
+==row-distance-of//
+==col-distance-of//
+==level-of//level,floor,storey.z/étage.My/
+==orientation-of//
+==has-ceiling//
+;_______________________________________________________________________________
+=media#P object# relation*.z/relation/|r1=media-object|
+;_______________________________________________________________________________
+; textual media
+==edition-of//edition.¹z/
+==author-of//author.¹z/be* by+.Vz/write.Vúèz/auteur.¹My/écrire.Vúèy/
+===unique-author-of//author.¹z/auteur.¹My/|many-to-one|
+===first-author-of//first#A author*.¹z/|many-to-one|
+===second-author-of//second#A author*.¹z/|many-to-one|
+===third-author-of//third#A author*.¹z/|many-to-one|
+==author-editor-of//editor.¹z/edited# by+.Az/éditeur.¹My/
+===unique-editor-of//editor.¹z/edited# by+.Az/éditeur.¹My/|many-to-one|
+===first-editor-of//first#A editor*.¹z/|many-to-one|
+===second-editor-of//second#A editor*.¹z/|many-to-one|
+===third-editor-of//third#A editor*.¹z/|many-to-one|
+==translator-of//translator.¹z/traducteur.¹§y/
+===unique-translator-of//translator.¹z/traducteur.¹§y/|many-to-one|
+===first-translator-of//first#A translator*.¹z/|many-to-one|
+===second-translator-of//second#A translator*.¹z/|many-to-one|
+===third-translator-of//third#A translator*.¹z/|many-to-one|
+;_______________________________________________________________________________
+; review
+==rating-of//rating.z/|r2=number|; on scale from -1.0 to 1.0; cf good
+;_______________________________________________________________________________
+; music and opera
+==composer-of//composer.z/
+==librettist-of//librettist.z/
+;_______________________________________________________________________________
+; broadcasting
+==anchor-of//anchor,anchorperson.z/anchor.Vèúz/anchorman.qMz/anchorwoman.qFz/
+présentateur.§y/présenter.Vèúy/
+==correspondent-of//correspondent.¹z/reporter.z/
+journaliste.¹§y/correspondant,reporter,grand*A reporter*.§y/reporteur.My/
+==contributor-of//contributor.z/collaborateur.§y/
+==creator-of//creator.z/
+==executive-producer-of//executive#A producer*.z/
+==guest-of//guest.z/
+==host-of//host.z/animateur.§y/animer.Vèúy/
+==listener-of//listener.z/radio# listener*.z/listening# audience*.mz/
+auditeur.§y/|r2=human|
+==narrator-of//narrator.z/
+==newscaster-of//newscaster.z/
+==sidekick-of//sidekick.z/
+==viewer-of//viewer.z/television# viewer*.z/viewing# audience*.mz/
+téléspectateur.§y/public.My/|r2=human|
+==studio-of//studio.z/
+; [feed-of ?broadcast-media-object ?communications-channel]
+==feed-of//feed.z/
+==video-channel-of//
+==radio-station-of//
+;_______________________________________________________________________________
+; MRBEGIN
+; film (and broadcasting)
+==actor-of//actor,star.z/cast.Îz/
+;star* as_.Véz/; FILM stars HUMAN as CHARACTER
+play* in_.Vúëz/; HUMAN plays CHARACTER in FILM
+;be* in_.Vúëz/; HUMAN is CHARACTER in FILM
+;star* in_ as_.Vúz/; HUMAN stars as CHARACTER in FILM
+|r1=media-object|r2=human|
+==cinematographer-of//cinematographer.z/
+|r1=media-object|r2=human|
+==director-of//director.z/
+direct.Vúèz/; HUMAN directs FILM
+|r1=media-object|r2=human|
+==language-of//language.z/
+==subtitle-language-of//subtitle# language*.z/
+==MPAA-rating-of//rating,MPAA# rating*.z/be* rated#A.¹Véz/be,get.Véz/
+|r1=media-object|r2=MPAA-rating|
+==producer-of//producer.z/
+produce.Vúèz/; HUMAN writes FILM
+|r1=media-object|r2=human|
+==writer-of//writer,screenwriter.z/
+write.Vúèz/; HUMAN writes FILM
+|r1=media-object|r2=human|
+; MREND
+;_______________________________________________________________________________
+=live#A performance# relation*.z/relation/|r1=live-performance|
+==performance-of//performance.z/
+==musical-conductor-of//conductor.z/
+==choreographer-of//choreographer.z/
+==dancer-of//dancer.z/
+==dance-group-of//dance# group*.z/
+==musical-group-of//musical#A group*.z/
+==musician-of//musician.z/
+===violinist-of//violinist.z/
+==singer-of//singer.z/
+==theatrical-group-of//theatrical#A group*.z/
+==theater-audience-of//audience.z/public.My/
+;_______________________________________________________________________________
+=action# relation*.z/relation/
+;_______________________________________________________________________________
+; - use role01-of=, role02-of=, ... for human/physical object roles of action
+; - use role02-script-of=, ... to link to scripts from viewpoint of a role
+; - use used-for¤ for physical objects involved in action (props)
+;   if not already mentioned as a role
+; - use event01-of=, ... for events
+; Don't decompose actions "too much". Keep them basically flat.
+; For example, use ptrans-walk instead of near-reachable.
+;_______________________________________________________________________________
+==entry-condition-of//entry# condition*.z/precondition.z/
+==result-of//result.z/
+==goal-of//goal.z/
+==emotion-of//emotion.z/
+==performed-in/spatial/|r1=action|r2=physical-object|
+==institution-of//institution.z/
+==duration-of//take.¹Véz/last,be.Véz/duration.z/prendre.¹Véy/durer.Véz/
+durée.Fy/|r1=action|r2=absolute-duration|
+; duration-of should not be temporal-relation (otherwise, parsing
+; and generation problems result)
+==period-of//period.z/
+==frequency-of//frequency.z/fréquence.Fy/
+==cost-of/quote-of/cost.z/coût.My/|r1=action|
+==related-concept-of//related#A concept*.z/
+==time-range-of//time# range*.z/|r2=time-range|
+;_______________________________________________________________________________
+; specific to transportation actions:
+==origination-of//origination.z/
+==destination-of//destination.z/
+==checkin-duration-of//checkin# duration*.z/
+==flight-number-of//flight# number*.z/
+;_______________________________________________________________________________
+==role# relation*.z//
+===role01-of//ROLE1.tz/ROLE1.ty/|value-of=1u|
+===role02-of//ROLE2.tz/ROLE2.ty/|value-of=2u|
+===role03-of//ROLE3.tz/ROLE3.ty/|value-of=3u|
+===role04-of//ROLE4.tz/ROLE4.ty/|value-of=4u|
+===role05-of//ROLE5.tz/ROLE5.ty/|value-of=5u|
+===role06-of//ROLE6.tz/ROLE6.ty/|value-of=6u|
+===role07-of//ROLE7.tz/ROLE7.ty/|value-of=7u|
+===role08-of//ROLE8.tz/ROLE8.ty/|value-of=8u|
+===role09-of//ROLE9.tz/ROLE9.ty/|value-of=9u|
+===role10-of//ROLE10.tz/ROLE10.ty/|value-of=10u|
+===role11-of//ROLE11.tz/ROLE11.ty/|value-of=11u|
+===role12-of//ROLE12.tz/ROLE12.ty/|value-of=12u|
+===role13-of//ROLE13.tz/ROLE13.ty/|value-of=13u|
+===role14-of//ROLE14.tz/ROLE14.ty/|value-of=14u|
+===role15-of//ROLE15.tz/ROLE15.ty/|value-of=15u|
+===role16-of//ROLE16.tz/ROLE16.ty/|value-of=16u|
+===role17-of//ROLE17.tz/ROLE17.ty/|value-of=17u|
+===role18-of//ROLE18.tz/ROLE18.ty/|value-of=18u|
+===role19-of//ROLE19.tz/ROLE19.ty/|value-of=19u|
+;_______________________________________________________________________________
+==role# script# relation*.z//
+===role01-script-of//ROLE1SCRIPT.tz/ROLE1SCRIPT.ty/|value-of=1u|
+===role02-script-of//ROLE2SCRIPT.tz/ROLE2SCRIPT.ty/|value-of=2u|
+===role03-script-of//ROLE3SCRIPT.tz/ROLE3SCRIPT.ty/|value-of=3u|
+===role04-script-of//ROLE4SCRIPT.tz/ROLE4SCRIPT.ty/|value-of=4u|
+===role05-script-of//ROLE5SCRIPT.tz/ROLE5SCRIPT.ty/|value-of=5u|
+===role06-script-of//ROLE6SCRIPT.tz/ROLE6SCRIPT.ty/|value-of=6u|
+===role07-script-of//ROLE7SCRIPT.tz/ROLE7SCRIPT.ty/|value-of=7u|
+===role08-script-of//ROLE8SCRIPT.tz/ROLE8SCRIPT.ty/|value-of=8u|
+===role09-script-of//ROLE9SCRIPT.tz/ROLE9SCRIPT.ty/|value-of=9u|
+;_______________________________________________________________________________
+==event# assertion# relation*.z//|r1=action|r2=list|
+===event01-of//EVENT1.tz/EVENT1.ty/|value-of=1u|
+===event02-of//EVENT2.tz/EVENT2.ty/|value-of=2u|
+===event03-of//EVENT3.tz/EVENT3.ty/|value-of=3u|
+===event04-of//EVENT4.tz/EVENT4.ty/|value-of=4u|
+===event05-of//EVENT5.tz/EVENT5.ty/|value-of=5u|
+===event06-of//EVENT6.tz/EVENT6.ty/|value-of=6u|
+===event07-of//EVENT7.tz/EVENT7.ty/|value-of=7u|
+===event08-of//EVENT8.tz/EVENT8.ty/|value-of=8u|
+===event09-of//EVENT9.tz/EVENT9.ty/|value-of=9u|
+===event10-of//EVENT10.tz/EVENT10.ty/|value-of=10u|
+===event11-of//EVENT11.tz/EVENT11.ty/|value-of=11u|
+===event12-of//EVENT12.tz/EVENT12.ty/|value-of=12u|
+===event13-of//EVENT13.tz/EVENT13.ty/|value-of=13u|
+===event14-of//EVENT14.tz/EVENT14.ty/|value-of=14u|
+===event15-of//EVENT15.tz/EVENT15.ty/|value-of=15u|
+===event16-of//EVENT16.tz/EVENT16.ty/|value-of=16u|
+===event17-of//EVENT17.tz/EVENT17.ty/|value-of=17u|
+===event18-of//EVENT18.tz/EVENT18.ty/|value-of=18u|
+===event19-of//EVENT19.tz/EVENT19.ty/|value-of=19u|
+===event20-of//EVENT20.tz/EVENT20.ty/|value-of=20u|
+===event21-of//EVENT21.tz/EVENT21.ty/|value-of=21u|
+===event22-of//EVENT22.tz/EVENT22.ty/|value-of=22u|
+===event23-of//EVENT23.tz/EVENT23.ty/|value-of=23u|
+===event24-of//EVENT24.tz/EVENT24.ty/|value-of=24u|
+===event25-of//EVENT25.tz/EVENT25.ty/|value-of=25u|
+===event26-of//EVENT26.tz/EVENT26.ty/|value-of=26u|
+===event27-of//EVENT27.tz/EVENT27.ty/|value-of=27u|
+===event28-of//EVENT28.tz/EVENT28.ty/|value-of=28u|
+===event29-of//EVENT29.tz/EVENT29.ty/|value-of=29u|
+===event30-of//EVENT30.tz/EVENT30.ty/|value-of=30u|
+===event31-of//EVENT31.tz/EVENT31.ty/|value-of=31u|
+===event32-of//EVENT32.tz/EVENT32.ty/|value-of=32u|
+===event33-of//EVENT33.tz/EVENT33.ty/|value-of=33u|
+===event34-of//EVENT34.tz/EVENT34.ty/|value-of=34u|
+===event35-of//EVENT35.tz/EVENT35.ty/|value-of=35u|
+;_______________________________________________________________________________
+=lexical#A relation*.z/relation,related-word/
+; In ThoughtTreasure these are relations between concepts, not lexical entries.
+==anagram-of//anagram.z/anagramme.Fy/
+==antonym-of//antonym.z/ANT.tz/antonym.My/antonymy.z/contraire.My/CONTR.tMy/
+antonymie.Fy/|symmetric|
+; Antonyms are also represented in ThoughtTreasure by contrasts
+; (OBJTYPECSYMBOL) and enums. See Lyons (1977, pp. 274, 275, 271).
+==contrast-of//contrast.z/contraste.My/|symmetric|
+==opposition-of//opposition.z/opposition.Fy/|symmetric|
+==homophone-of//homophone.z/homophony.Îz/homophone.My/homophonie.ÎFy/
+==homograph-of//homograph.z/homography.Îz/homographe.My/homographie.ÎFy/
+==homonym-of//homonym.z/homonymic.Az/homonymy.Îz/homonyme.My/homonymique.Ay/
+homonymie.ÎFy/
+==neutral-form-of//neutral#A form*.z/NEUTRAL.tAz/NEUTRE.ßtAy/
+==stronger-form-of//stronger#A form*.z/STRONGER.tAz/PLUS#B FORT#.ßtAy/
+==synonym-of//synonym.z/SYN.tz/synonymy.Îz/synonyme.My/SYN.tMy/synonymie.ÎFy/
+|symmetric|
+; Synonyms are represented in ThoughtTreasure by Obj->ole and LexEntry->leo.
+; See Lyons (1977).
+==weaker-form-of//weaker#A form*.z/WEAKER.tAz/MOINS#B FORT#.ßtAy/
+;_______________________________________________________________________________
+=attribute# relation*.z/relation/
+;_______________________________________________________________________________
+==attr-rel//attribute#-relation# inference*.z/
+===attr-rel-value//|r1=attribute|r2=relation|r3=number|r4=concept|
+===attr-rel-range//|r1=attribute|r2=relation|r3=number|r4=number|r5=number|
+r6=number|
+===attr-rel-proportional//|r1=attribute|r2=relation|
+====attr-rel-inv-proportional//|r1=attribute|r2=relation|
+;_______________________________________________________________________________
+=restriction.z/relation/
+;_______________________________________________________________________________
+==selectional#A restriction*.z/theta-theory/theta#-grid*.Îz/
+selection#-restriction*.z/strict#A subcategorization# restriction*.z/
+subcategorization# restriction*.z/
+essential#A meaning# relation*.oz/; Porzig 1934
+contrainte* de#R sélection#.¹Fy/thêta*Aß-grille*.ÎFy/
+|[text-ref selectional-restriction Lyons-Semantics "wesenhafte" "261"]|
+===r1//R1.tz/R1.ty/|value-of=1u|
+===r2//R2.tz/R2.ty/|value-of=2u|
+===r3//R3.tz/R3.ty/|value-of=3u|
+===r4//R4.tz/R4.ty/|value-of=4u|
+===r5//R5.tz/R5.ty/|value-of=5u|
+===r6//R6.tz/R6.ty/|value-of=6u|
+===r7//R7.tz/R7.ty/|value-of=7u|
+===r8//R8.tz/R8.ty/|value-of=8u|
+===r9//R9.tz/R9.ty/|value-of=9u|
+===r10//R10.tz/R10.ty/|value-of=10u|
+;_______________________________________________________________________________
+==theta#-role*.z/theta-theory/
+thematic#A relation*.z/thematic#A role*.z/; Chomskian terms (also Jackendoff)
+CD# slot*,CD# slot# name*,CD# slotname*.z/; Schankian terms
+rôle* thématique*A.¹My/thêta*Aß-rôle*.My/
+|@1965|create¤Jeffrey-Gruber|
+; The slots of a semantic representation. Theta-roles are represented
+; economically in ThoughtTreasure by their position in an assertion.
+; For example, in [ptrans Jim home work]
+; Actor = index 1 = Jim
+; Source = index 2 = home
+; Destination = index 3 = work
+; ThoughtTreasure uses the Schank term "Actor" instead of the Chomsky term
+; "Agent" because the Minsky term "Agent" is already used to mean a compact
+; ThoughtTreasure module.
+; For efficiency reasons these relations are not actually used in the code.
+; Instead, hardcoded indices are used. See the below crib sheet for typical
+; indices.
+;                                                       trans apt  goal
+===thr-predicate-of//Predicate.¹z/Prédicat.¹My/;          0    0    0
+===thr-actor-of//Actor.¹z/Agent.z/Acteur.¹My/Agent.My/;   1    1    1
+===thr-source-of//Source.¹z/Source.¹Fy/;                  2
+===thr-destination-of//Destination.¹z/Destinataire.¹My/;  3    2
+===thr-location-of//Location.¹z/;                              3
+===thr-goal-of//Goal.¹z/But.¹My/;                              4    2
+===thr-tsr-of//Time.¹z/Heure.¹Fy/;                             5
+===thr-theme-of//Theme.¹z/Thème.¹My/;
+;_______________________________________________________________________________
+=physical#A object# relation*.z/relation/|r1=physical-object|
+;_______________________________________________________________________________
+==weight-of//weight.¹z/poids.My/|r2=unit-of-weight|many-to-one|
+;_______________________________________________________________________________
+==spatial#A object# relation*.z/spatial/|many-to-one|
+===topological-genus-of//topological#A genus*.z/genus.z/|r2=number|
+===height-of//height.¹z/tallness.z/hauteur.Fy/|r2=unit-of-distance|
+====height-of-human//taille.¹Fy/|r1=human|
+===length-of//length.¹z/longueur.¹Fy/|r2=unit-of-distance|
+===diagonal-length-of//diagonal#A length*.z/|r2=unit-of-distance|
+===tail-length-of//tail# length*.¹z/length* of#R tail#.z/
+longueur* de#R la#D queue#F.Fy/|r2=unit-of-distance|
+===width-of//width.¹z/largeur.¹Fy/|r2=unit-of-distance|
+===circumference-of//circumference.¹z/girth.z/circonférence.¹Fy/
+|r2=unit-of-distance|
+===diameter-of//diameter.¹z/diamètre.¹My/|r2=unit-of-distance|
+===radius-of//radius.¹z/rayon.¹My/|r2=unit-of-distance|
+===depth-of//depth.¹z/profondeur.¹Fy/|r2=unit-of-distance|
+===surface-area-of//surface# area*,area.z/|r2=unit-of-area|
+===volume-of//volume.z/volume.My/|r2=unit-of-volume|
+;_______________________________________________________________________________
+=object# relation*.z/relation/
+==member-of//member.z/membre.My/adhérent.§y/
+==arithmetic-genus-of//arithmetic#A genus*.z/genus.z/|r2=number|many-to-one|
+==meaning-of/metaphysical-concept/mean.Véz/signify.tVéz/meaning.z/
+vouloir* dire#.¹Véy/signifier.Véy/signification.Fy/sens.My/
+==equiv//equal# to+,equivalent# to+.Az/equality,equivalence.Îz/
+égal* à+,équivalent* à+.Ay/équivaloir* à+.Vy/égalité,équivalence.ÎFy/|symmetric|
+==similar//similar# to+.Az/similarly.Bz/by#R the#D same#A token#N.Bz/
+similarity.Îz/resemble.¹Véz/similaire*A à+.Ay/ressemblance,similarité.ÎFy/
+ressembler* à+.¹Vy/de#R même#A,de#R la#D même#A façon#NF.Bz/
+de#R façon#NF similaire#AF.Bz/
+|symmetric|
+==different//different.Az/difference.Îz/différent.Ay/différence.ÎFy/
+have* nothing#N to#R do#V with+.TVz/ne rien avoir* à#R voir#V avec+.TVy/
+===different-autre-chose//autre*A chose*.ÎFy/
+another#D storyÝstory*,different#A kettle* of#R fish#.Îz/|symmetric|
+===different-no-comparison//ça#H n#B'a#V rien#B à#R voir#V.xy/
+there#H's#V a#D world#N of#R difference#N.xz/
+there#H's#V no#D comparison#N.xz/no#D comparison#N.xz/
+==opposite-of//opposite.z/contraire.My/|symmetric|
+==superior-of//superior.z/supérieur.§y/
+;_______________________________________________________________________________
+==holding//hold.éVz/tenir.éVy/|r1=animate-object|
+==inside/spatial/be* inside+.Vz/être* dans+.Vy/|r1=physical-object|r2=container|
+==architect-of//architect.z/|r1=physical-object|
+;_______________________________________________________________________________
+; [part-of ?part ?whole] todo: this relation name is backwards
+; TEST: A ____(2) has a ____(1) (as a part). cf WordNet
+;       A ____(1) is a part of ____(2).
+==part-of/spatial/composed# of+.¹Aúz/consist* of+.¹Vúz/have.ÔVúèz/
+part#-whole# relationship*,part#-whole# relation*.Îz/
+HASA,hasa,HASA# relation*.tz/meronymy,holonymy.Îz/
+composé* de+.¹Aúy/consister* en+.¹Vúy/avoir.ÔVúèy/
+faire* partie#NF de+.Vz/avoir.Vúèy/|r1=[not list]|
+; See Lyons (1977).
+==cpart-of/spatial/composed# of+.¹Aúz/consist* of+.¹Vúz/have.ÔVúèz/
+part#-whole# relationship*,part#-whole# relation*.Îz/
+HASA,hasa,HASA# relation*.tz/meronymy,holonymy.Îz/
+composé* de+.¹Aúy/consister* en+.¹Vúy/avoir.ÔVúèy/
+faire* partie#NF de+.Vz/avoir.Vúèy/
+;_______________________________________________________________________________
+==ipart-of/spatial/part.z/partie.¹Fy/pièce.Fy/|inverse-of=part-of|
+==icpart-of/spatial/part.z/partie.¹Fy/pièce.Fy/|inverse-of=icpart-of|
+;_______________________________________________________________________________
+==top-of//top.z/dessus.My/
+==bottom-of//bottom.z/underside.z/derrière.My/dessous.My/
+==front-of//front.z/avant.My/devant.My/
+==back-of//back.z/behind.z/derrière.My/
+==inside-of//inside.z/dedans.My/intérieur.My/
+==outside-of//outside.z/dehors.My/
+;_______________________________________________________________________________
+==preparation-of//
+===baking-of//
+===barbecuing-of//
+===boiling-of//
+===brewing-of//
+===broiling-of//
+===distillation-of//
+===frying-of//
+===grilling-of//
+===roasting-of//
+===toasting-of//
+;_______________________________________________________________________________
+==fruit-of//
+==key-of//
+;_______________________________________________________________________________
+==owner-of//owner.¹z/belong* to+.¹Vz/own.¹Vúèz/have.Vúèz/propriétaire.¹§y/
+appartenir* à+.¹Vy/avoir.Vúèy/être* propriétaire#N de+.¹Vúy/
+|role01-of=physical-property|
+;_______________________________________________________________________________
+===owner-of-human//être* à+.¹Vy/|r2=human|
+; e.g. "Je suis à Paris" is not owner-of
+===owner-of-save//save.¹Véz/garder.¹Véy/
+====owner-of-save-food//set* aside#R.¹Véz/tenir* ø en#R réserve#NF.¹Véy/
+avoir* ø en#R réserve#NF,garder* ø en#R réserve#NF.Véy/
+mettre* ø en#R réserve#NF,mettre* ø de#R côté#NM.Véy/|r2=food|
+;_______________________________________________________________________________
+==low-on//low# on_.Az/almost#B out# of+.Az/
+===low-on-food//|r2=food|
+===low-on-gas//|r2=gasoline|
+;_______________________________________________________________________________
+==stocked-up-on//stocked# up#R on_.Az/stocked# up#R with_.Az/
+===stocked-up-on-food//|r2=food|
+;_______________________________________________________________________________
+==shareholder-of//shareholder,share# owner*.z/actionnaire.§y/|r1=stock|
+==connected-to/spatial/connected# to+.Az/
+branché* à+,raccordé* à+,connecté* à+.Ay/|symmetric|
+==retailer-of//sell.Vúèz/available#A at+.Az/vendre.Vúèy/disponible*A dans+.Az/
+|r2=company|
+==seat-of//
+==performance-ts-of//; replace this with a state and store the ts in the tsr
+==fr-size-of//|r2=clothing-size|
+==us-size-of//|r2=clothing-size|
+==made-in//|r2=polity|
+==brand-name-of//brand.¹z/brand# name*.z/make.z/marque.¹Fy/
+marque* commerciale*A.Fy/
+==model-number-of//model.¹z/model# number*,number,series,type,mark.z/modèle.¹My/numéro.My/
+==trim-line-of//trim# line*.z/
+==mileage-of//mileage.z/
+==production-number-of//production# number*.z/
+;_______________________________________________________________________________
+==quote-of//quote.z/price# quote*.qz/cotation,cote.Fy/
+; r2 can be a financial-quote or, in a shorter notation, anything.
+===bp//bid# price*.z/bid* for+.Az/prix* d#R'achat#,taux* d#R'achat#.My/
+===bsz//bid# size*.z/
+===ap//ask# price*,offer# price*.z/offered* at+.Az/cost.Véz/
+prix* de#R vente#F,taux* de#R vente#F.My/coûter.Véy/
+===asz//bid# size*.z/
+===tp//price,trade# price*,last#A price*.z/prix.My/cours.My/dernier*A cours*.My/
+====option-tp//premium.z/prime.Fy/premium.My/prémium.My/
+|r1=option|
+===netchg//net#A change*.z/
+===pcchg//percent# change*.z/
+===texch//trade# exchange*.z/|r2=financial-market|
+===tsz//trade# size*.z/
+===tvol//trade# volume*.z/
+===op//opening# price*,open# price*.¹z/open.z/open* at+.Vy/
+cours* d#R'ouverture#F.My/
+===hp//high# price*,high.z/
+===lp//low# price*,low.z/
+===hp52//52#-week# high*.z/
+===lp52//52#-week# low*.z/
+===cp//closing# price*,close# price*.¹z/close.z/close* at+.Vy/
+cours* de#R clôture#F.My/
+===mp//mid# price*.¹z/
+;_______________________________________________________________________________
+===dividend-of//dividend.z/dividende.My/|r1=u|
+===pe-of//price#-earnings#P ratio*.z/
+===eps-of//earnings#P per#R share*.z/
+===eps-growth-of//earnings#P per#R share# growth*.z/
+===beta-of//beta.z/
+===cap-of//market# capitalization*.z/
+;_______________________________________________________________________________
+==value-of//market# value*.¹z/value.z/marked#V-to#R-market# value*.z/
+be* worth#A.Véz/valeur* de#R marché#M.Fy/valoir.Véy/
+;_______________________________________________________________________________
+==quantum-number-of//quantum# number*.z/nombre* quantique*A.My/
+|r1=particle|r2=number|many-to-one|
+===electric-charge-of//electric# charge*.¹z/charge.z/charge* électrique*A.¹Fy/
+charge.Fy/
+===spin-of//spin.z/spin.My/
+===isospin-of//isospin.z/spin* isotopique*A,isospin.My/I.tz/
+===weak-isospin-of//weak#A isospin*.z/
+===baryon-number-of//baryon# number*.z/A.tz/
+===lepton-number-of//lepton# number*.z/
+===charm-of//charm.z/C.tz/charme.My/|comment="the number of charm quarks"|
+===bottomness-of//B.tz/|comment="the number of bottom quarks"|
+===strangeness-of//strangeness.z/S.tz/étrangeté.Fy/S.ty/
+|comment="negative the number of strange quarks"|
+===color-quantum-number-of//color# quantum# number*.z/color.z/couleur.Fy/|
+;_______________________________________________________________________________
+==antiparticle-of//antiparticle.z/antiparticule.Fy/
+|one-to-one|symmetric|r1=particle|r2=particle|
+; Same: mass, lifespan, spin-of.
+; Opposite sign: electric-charge-of, baryon number, lepton number.
+;_______________________________________________________________________________
+==carrier-of//carrier.z/carry.Vúèz/porteur.My/|r1=force|r2=particle|
+;_______________________________________________________________________________
+==atomic-number-of//atomic# number*.¹z/numéro* atomique*A.¹My/
+|r1=atom|many-to-one|
+==atomic-weight-of//atomic# weight*.¹z/masse* atomique*A.¹Fy/
+|r1=atom|many-to-one|
+;_______________________________________________________________________________
+==lifespan-of//lifespan.z/longévité.Fy/
+==maximum-lifespan-of//maximum#A lifespan*.z/longévité* maximale*A.Fy/
+==life-expectancy-of//life# expectancy*.z/longévité.Fy/
+;_______________________________________________________________________________
+==luminance-of//|many-to-one|
+==saturation-of//|many-to-one|
+==time-on//
+==time-off//
+==amplitude-modulation-of//
+==waveform-of//
+==power-of//
+==number-of-seats//
+==altitude-of/spatial/altitude.¹z/height.z/altitude.¹Fy/hauteur.Fy/|many-to-one|
+==uncompressed-size-of//file# size*.z/storage# size*.z/
+taille* de#R fichier#M.Fy/
+; In bytes.
+==gestation-period-of//gestation# period*.z/durée* de#R la#D gestation#.@Fy/
+==incubation-period-of//incubation# period*.z/durée* de#R l#D'incubation#.@Fy/
+;_______________________________________________________________________________
+==location-of/spatial/be* at+,be* in+,be* on+.Vz/
+be* located#A at+,be* located#A in+.qVz/
+be* situated#A at+,be* situated#A in+.qVz/
+be* sited#A at+,be* sited#A in+.qVz/
+location.¹z/position.z/whereabouts.mPïz/site,venue,place,point,spot.qz/
+être* à+,se trouver* à+.¹Vy/être* dans+.qVy/
+===location-of-location-interrogative-pronoun1//be.Véz/être,se trouver*.¹Véy/
+|r1=location-interrogative-pronoun|
+===location-of-location-interrogative-pronoun2//be.Véz/être,se trouver*.¹Véy/
+|r2=location-interrogative-pronoun|
+===location-of-apartment//be* in+.Vz/être* à+.Vy/|r2=apartment|
+===location-of-borough//be* in+.Vz/être* à+.Vy/|r2=borough|
+===location-of-island//be* on+.Vz/être* sur+.@Vy/|r2=island|
+===location-of-building//être* à+.Vy/|r2=building|
+===location-of-inside-building//be* in+.Vz/être* dans+.Vy/|r2=building|
+===location-of-universe//be* in+.Vz/être* dans+.@Vy/|r2=universe|
+===location-of-galaxy//be* in+.Vz/être* dans+.@Vy/|r2=galaxy|
+===location-of-solar-system//be* in+.Vz/être* dans+.@Vy/|r2=solar-system|
+===location-of-planet//be* on+.Vz/être* sur+.@Vy/|r2=planet|
+===location-of-continent//be* in+.Vz/être* à+.@Vy/|r2=continent|
+===location-of-country//be* in+.Vz/être* en+.Vy/|r2=country|
+===location-of-country-subdivision//be* in+.Vz/être* en+.Vy/
+|r2=country-subdivision|
+===location-of-country-subsubdivision//be* in+.Vz/être* à+.Vy/
+|r2=country-subsubdivision|
+===location-of-city//be* in+.Vz/être* à+.Vy/|r2=city|
+===location-of-city-subdivision//be* in+.Vz/être* dans+.Vy/
+|r2=city-subdivision|
+===location-of-city-subsubdivision//be* in+.Vz/être* dans+.Vy/
+|r2=city-subsubdivision|
+===location-of-roadway//be* on+.Vz/être* sur+.@Vy/|r2=roadway|
+===location-of-room//be* in+.Vz/être* dans+.Vy/|r2=room|
+===exact-location-of//exact#A location*,precise#A location*.z/
+;_______________________________________________________________________________
+==near/spatial/be* near+.Vz/be* near#R to+.qVz/
+stand* near+,lie* near+,sit* near+.qVz/
+be* located#A near+,be* situated#A near+,be* sited#A near+.qVz/
+être* près#B de+.Vy/; really should be phrasal preposition "près de" here
+===near-graspable//
+===near-visible//
+===near-audible//
+===near-reachable//
+;_______________________________________________________________________________
+==at-grid/spatial/; [at-grid ?obj ?grid ?gridregion]
+;_______________________________________________________________________________
+==GS//
+==V1//
+==city-name-of//
+==postal-code-of//postcode.¹gz/post# code*.gz/postal#A code*.z/
+code* postal*A.¹My/CP.tMy/|r2=zip|
+===USPS-zip-code-of//zip# code*.¹Àz/ZIP# code*.¹Àz/
+zip.TÀz/
+===USPS-zip-4-code-of//
+==USPS-state-of//; pp. 52-54 of Publication 28 August 1995
+==ISO-3166-country-of//
+==polity-of//;be* in+.Vz/être* à+.Vy/
+==street-number-of//street# number*.z/|r2=sn|
+==street-of//
+==apartment-number-of//
+==room-number-of//
+==levels-of//
+==text-of//raw#A text*.z/text.z/|r1=message-ID|r2=string|
+@19950911T091507|comment="stored outside TT"|
+;_______________________________________________________________________________
+==reference-of//reference.z/
+===href//hypertext# reference*.z/href.tz/|r2=URL|
+===usenet-ref//Usenet# article# reference*.z/reference* to#R Usenet# article#.z/
+|r2=Usenet-newsgroup|r3=message-ID|
+===text-ref//text# reference*.z/
+|r2=media-object-text|r3=search-string|r4=page-number|
+;_______________________________________________________________________________
+==comment//comment.z/commentaire.¹My/annotation.Fy/|r2=string|
+==example//example.z/exemplar.z/exemple.My/|r2=string|
+==description-of//description.z/
+;_______________________________________________________________________________
+==isbn-of//ISBN.z/ISBN# number*.Tz/International#A Standard#A Book# Number*.z/
+ISBN.My/
+==issn-of//ISSN.z/ISSN# number*.Tz/International#A Standard#A Serial# Number*.z/
+ISSN.My/
+;_______________________________________________________________________________
+==contact-address-of//contact# address*.z/
+===username-of//username.¹z/login.z/nom* de#R l#D'utilisateur#.¹My/BAL.Fy/
+|r2=username|many-to-one|
+===mailing-address-of//address.¹z/mailing# address*.z/
+snail# mail# address*,physical#A address*.z/adresse.¹Fy/adresse* postale*A.Fy/
+|r2=string|many-to-one|
+====pob-of//PO# box*.¹z/Post# Office# Box*.tz/POB.z/boîte* postale*A.¹Fy/BP.Fy/
+|r2=pob|
+===homepage-of/href/home#A page*.¹z/homepage.z/|many-to-one|
+===email-address-of//email# address*.¹z/e#-mail# address*.z/E#-mail# address*.z/
+email,e#-mail*,E#-mail*.z/Internet# address*.z/address.Tz/adresse* email#M.¹Fy/
+adresse* e#M-mail#M.Fy/adresse* E#M-mail#M.Fy/adresse* électronique*A.Fy/
+adresse* électronique*A personnelle*A.Fy/adresse.TFy/mél.My/|r2=email-address|
+many-to-one|
+===minitel-email-address-of//minitel# mailbox# number*.z/
+numéro* de#R boîte#F à#R lettres#FP électronique#AF.My/
+numéro* de#R boîte#F à#R lettres#FP.My/numéro* de#R BAL#F.TMy/
+|many-to-one|
+===phone-number-of//phone# number*.¹z/telephone# number*.z/number.z/
+numéro* de#R téléphone#.¹My/numéro.My/|r2=phone-number|many-to-one|
+; todo: r1 is sometimes phone, sometimes human. This needs to be made
+; into two different relations.
+====home-phone-number-of//home# phone# number*.z/home# telephone# number*.z/
+numéro* de#R téléphone# à#R domicile#.My/
+====work-phone-number-of//work# phone# number*.z/work# telephone# number*.z/
+day# phone# number*.z/day# telephone# number*.z/
+numéro* de#R téléphone# au#R bureau#.My/
+===minitel-number-of//Minitel#® number*.z/numéro* Minitel#®.@My/
+|r2=minitel|many-to-one|
+;_______________________________________________________________________________
+==addict-of//addict.¹z/junkie.z/accro.T§y/|inverse-of=addiction-of|
+===addict-of-drug//addict,drug# addict*,user,drug# user*,junkie.z/
+toxicomane.§y/|r1=drug|
+===addict-of-alcohol//alcoholic,drunkard.z/lush.ÀTz/drinker,drunk.qz/
+alcoolique.§y/|r1=alcoholic-beverage|
+;_______________________________________________________________________________
+==specialty-of//specialty.¹Àz/speciality.g¹z/line,pursuit,pet# subject*.z/
+field,forte,métier.z/speciality,area,main#A interest*,long#A suit*.qz/
+specialism,specialization,strong#A point*.qz/thing,thang.az/bag.oaz/
+specialize* in+.¹Vz/be* strong#A in+.aVz/go* in#R for+.Vz/be* into+.aVz/
+knowledgeable# about+.¹Az/specialized# in+.Az/authoritative# in+.Az/
+restricted# to+,limited# to+,confined# to+.qAz/spécialité.¹Fy/
+;_______________________________________________________________________________
+==know-about-skill//know* about+.Vz/know* something#H about+.Vz/
+s'y connaître* en+.Vy/
+;_______________________________________________________________________________
+===enthusiast-of//enthusiast.¹z/lover.z/buff.Tz/fanatic,zealot.hz/
+bug,nut,freak.¹Tz/addict,hound,fiend.Tz/demon.qTz/
+amateur,collector,devotee,dilettante,faddist.qz/
+hobbyist,pursuer,infatuate,energumen.qz/eager#A beaver*.oaz/
+passionné.¹§y/mordu.§y/fanatique.h§y/accro,fana.T§y/fervent.q§y/
+brancher* à+.TVy/|inverse-of=hobby-of|
+;_______________________________________________________________________________
+====fan-of//fan.z/fan.§y/
+=====sports-fan-of//sports#P fan*.z/
+======baseball-fan-of//baseball# fan*.z/fan* de#R baseball#NM.§y/
+======football-fan-of//football# fan*.Àz/American#A football# fan*.gz/
+fan* de#R football#NM américain#AM.§y/
+;_______________________________________________________________________________
+===liker-of//lover.z/|inverse-of=like-nonhuman|
+;_______________________________________________________________________________
+=textual#A relation*.z/relation/
+==headline-of//headline.¹z/titre.¹My/
+==subtitle-of//subtitle.¹z/sous#R-titre*.¹My/
+==introductory-paragraph-of//introductory#A paragraph*.¹z/chapeau.¹My/
+==paragraph-of//paragraph.¹z/paragraphe.¹My/
+; cf part-of-text
+;_______________________________________________________________________________
+=relation# relation*.z/relation/
+==next-state-of//next#A state*.z/prochain*A état*.@My/
+==inverse-of//inverse.z/inverse.My/
+;_______________________________________________________________________________
+=linguistic# relation*.z/relation/relation* linguistique*A.Fy/
+;_______________________________________________________________________________
+==preposition-of//preposition.z/
+;_______________________________________________________________________________
+; todo: Fill in English/French for all items. These are sometimes generated.
+==affix-relation-of//
+===lhs-class-of//
+===lhs-pos-of//
+===rhs-class-of//
+===rhs-pos-of//
+===rhs-feat-of//
+===rhs-assertion-of//
+===lhs-obj//
+===affix-obj//
+===affix-weight//
+===rhs-obj//
+===rhs-class-synonym//
+;_______________________________________________________________________________
+==case-of//case.¹z/cas.¹My/|r2=case|
+;_______________________________________________________________________________
+==translation-of//translation.¹z/traduction.¹Fy/
+===fr-translation-of//French#A translation*.¹z/traduction* en#R français#M.¹Fy/
+===eng-translation-of//English#A translation*.¹z/traduction* en#R anglais#M.¹Fy/
+;_______________________________________________________________________________
+==diminutive-of//diminutive.¹z/nickname.qz/diminutif.¹My/surnom.qMy/
+sobriquet.qMy/
+==variant-of//variant.z/variant#A spelling*.z/
+==response-of//response.z/réponse.Fy/
+==stimulus-of//stimulus.z/stimulus.My/|inverse-of=response-of|
+==canonical-of//canonical#A representation*.z/
+;_______________________________________________________________________________
+==tense-aspect-relation//tense#-aspect# relation*.z/
+|r1=grammatical-aspect|r2=tense|
+===eng-tense-of//tense* in#R English#.z/temps* en#R anglais#.My/
+====eng-tense-neg-7-of//; pluperfect
+====eng-tense-neg-6-of//; conditional perfect
+====eng-tense-neg-5-of//; past past recent
+====eng-tense-neg-4-of//; past
+====eng-tense-literary-neg-4-of//; past
+====eng-tense-neg-3-of//; past future near
+====eng-tense-neg-2-of//; conditional
+====eng-tense-neg-1-of//; past recent
+====eng-tense-0-of//; present
+====eng-tense-literary-0-of//; present
+====eng-tense-pos-1-of//; future near
+====eng-tense-pos-2-of//; future perfect
+====eng-tense-pos-3-of//; future
+===fr-tense-of//tense* in#R French#.z/temps* en#R français#.My/
+====fr-tense-literary-neg-7-of//
+====fr-tense-neg-7-of//
+====fr-tense-neg-6-of//
+====fr-tense-neg-5-of//
+====fr-tense-neg-4-of//
+====fr-tense-literary-neg-4-of//
+====fr-tense-neg-3-of//
+====fr-tense-neg-2-of//
+====fr-tense-neg-1-of//
+====fr-tense-0-of//
+====fr-tense-pos-1-of//
+====fr-tense-pos-2-of//
+====fr-tense-pos-3-of//
+;_______________________________________________________________________________
+==tense# relation*.z//relation* du#R temps#M.Fy/|r1=tense|r2=tense|
+===subjunctive-of//subjunctive.¹z/subjonctif.¹My/
+====US-eng-subjunctive-of//American#A English#A subjunctive*.¹z/
+subjonctif* anglais*A américain*A.@¹My/
+====UK-eng-subjunctive-of//British#A English#A subjunctive*.¹z/
+subjonctif* anglais*A britannique*A.@¹My/
+====fr-subjunctive-of//French#A subjunctive*.¹z/subjonctif* français*A.@¹My/
+====fr-literary-subjunctive-of//literary#A French#A subjunctive*.¹z/
+subjonctif* français*A littéraire*A.@¹My/
+===progressive-of//progressive.¹z/progressif.¹My/|r2=progressive-tense|
+====eng-progressive-of//English#A progressive*.¹z/progressif* anglais*A.¹My/
+====fr-progressive-of//French#A progressive*.¹z/progressif* français*A.¹My/
+===eng-aux-tense-of//auxiliary#A verb# tense* in#R English#.z/
+temps* du#R verbe# auxiliare#A en#R anglais#.My/|r2=tense|
+===eng-aux-verb-of//auxiliary#A verb* in#R English#.z/
+verbe* auxiliare*A en#R anglais#.My/|r2=auxiliary-verb|
+===eng-main-tense-of//main#A verb# tense* in#R English#.z/
+temps* du#R verbe# principal#A en#R anglais#.My/|r2=tense|
+===eng-infl-adverb-of//inflection# adverb* in#R English#.z/
+adverbe* de#R la#DF inflexion#F principal#A en#R anglais#.My/|r2=tense|
+===eng-infl-tense-of//inflection# tense* in#R English#.z/
+temps* de#R la#DF inflexion#F en#R anglais#.My/|r2=tense|
+===eng-infl-mood-of//inflection# mood* in#R English#.z/
+mode* de#R la#DF inflexion#F en#R anglais#.My/|r2=grammatical-mood|
+===fr-aux-tense-of//auxiliary#A verb# tense* in#R French#.z/
+temps* du#R verbe# auxiliare#A en#R français#.My/|r2=tense|
+===fr-aux-verb-of//auxiliary#A verb* in#R French#.z/
+verbe* auxiliare*A en#R français#.My/|r2=auxiliary-verb|
+===fr-main-tense-of//main#A verb# tense* in#R French#.z/
+temps* du#R verbe# principal#A en#R français#.My/|r2=tense|
+===fr-infl-tense-of//inflection# tense* in#R French#.z/
+temps* de#R la#DF inflexion#F en#R français#.My/|r2=grammatical-mood|
+===fr-infl-mood-of//inflection# mood* in#R French#.z/
+mode* de#R la#DF inflexion#F en#R français#.My/|r2=grammatical-mood|
+;_______________________________________________________________________________
+=arithmetic# relation*.z/relation/|r1=number|r2=number|
+; todo: Need to code general comparatives/superlatives and get rid of this:
+; "greater" is the comparative of the attribute "large".
+; Ran into trouble with "que" being a preposition.
+==eq//equal# to+.Az/equal.Véz/be.TVéz/equality.Îz/égal* à+.Ay/égaler.Véy/
+égalité.ÎFy/
+;=.tKz/=.tKy/
+==le//less# than#K or#K equal# to+.Az/¼,le.tKz/¼.tKy/
+==ge//greater# than#K or#K equal# to+.Az/¾,ge.tKz/¾.tKy/
+==inequality.Îz//inégalité.ÎFy/
+===ne//not#B equal# to+.Az/¤,ne.tKz/différent* de+.¹Ay/inégal* à+.Ay/¤.tKy/
+===lt//less.Az/<,lt.tKz/plus#B petit*.Ay/<.tKy/
+===gt//greater.Az/>,gt.tKz/plus#B grand*.Ay/>.tKy/
+;_______________________________________________________________________________
+=set# relation*.z/relation/
+;|r1=[not F72 list]|r2=[not F72 list]|
+; These restrictions were an attempt to prevent garbage from "be".
+; "What is an X?" is handled with copula.
+; But "Is she a cat?"
+; F72 means pronoun.
+;_______________________________________________________________________________
+; [isa cow1 cow]
+==isa//be.¹Véz/ISA,isa,ISA# relation*.tz/type#-token# distinction*.Îz/
+être.¹Véy/distinction* type#M-occurrence#.@ÎFy/
+===set-of//set# membership*.Îz/appartenance* ensembliste*A.ÎFy/
+;_______________________________________________________________________________
+==instance-of//instance.z/occurrence.Fy/|inverse-of=isa|
+==set-member-of//member,element.z/élément.My/|inverse-of=set-of|
+;_______________________________________________________________________________
+; TEST: ____(1) and other kinds of ____(2)
+;       ____(1) and other ____(2)
+;       ____(1) is a kind of ____(2)
+; cow and other kinds of animals
+; [ako cow animal]
+; See Lyons (1977, pp. 293, 316).
+==ako//hypernym.z/hypernymy.¹Îz/parent,superconcept.z/
+subordination,superordination.Îz/AKO,ako,AKO# relation*.tz/
+hyperonyme.My/hyperonymie.@ÎFy/
+|[text-ref ako Lyons-Semantics "hyponymy" "291"]|
+; cf Library of Congress
+; cf Quillian
+; cf WordNet
+===superset-of//superset.z/
+;_______________________________________________________________________________
+; [kind-of animal cow]
+==kind-of//kind.¹z/type,sort,hyponym,child,subconcept.z/flavor.Tz/
+hyponymy.Îz/sorte.@¹Fy/hyponyme.Fy/hyponymie.ÎFy/|inverse-of=ako|
+===subset-of//subset.z/inclusion.Îz/class#-inclusion*.Îz/sous#R-ensemble*.My/
+|inverse-of=superset-of|
+;_______________________________________________________________________________
+=cognitive# relation*.z/relation/relation* cognitive*A.Fy/
+==activated-emotion-of//emotion* accompanying#V activation#N of#R goal#N.z/
+|r1=goal|r2=emotion|
+==failure-emotion-of//success# emotion*.z/|r1=goal|r2=emotion|
+==success-emotion-of//success# emotion*.z/|r1=goal|r2=emotion|
+;_______________________________________________________________________________
+=value# type# relation*.z/relation/
+==canonical-factor-of//canonical#A factor*.z/facteur* canonique*A.My/
+|many-to-one|
+==unit-of//unit.z/unité.Fy/|many-to-one|
+==min-value-of//minimum#A value*.z/valeur* minimale*A.Fy/|many-to-one|
+==max-value-of//maximum#A value*.z/valeur* maximale*A.Fy/|many-to-one|
+==unit1-of//unit.z/unité.Fy/|many-to-one|
+==min-value1-of//minimum#A value*.z/valeur* minimale*A.Fy/|many-to-one|
+==max-value1-of//maximum#A value*.z/valeur* maximale*A.Fy/|many-to-one|
+==unit2-of//unit.z/unité.Fy/|many-to-one|
+==min-value2-of//minimum#A value*.z/valeur* minimale*A.Fy/|many-to-one|
+==max-value2-of//maximum#A value*.z/valeur* maximale*A.Fy/|many-to-one|
+==gen-max-of//minimum#A value*.z/valeur* minimale*A.Fy/|many-to-one|
+==gen-min-of//maximum#A value*.z/valeur* maximale*A.Fy/|many-to-one|
+;_______________________________________________________________________________
+=relation-on-the-fly/relation/
+;_______________________________________________________________________________

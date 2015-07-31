@@ -1,0 +1,224 @@
+> The poem is short.
+SEMANTICS:
+0.90000:[present-indicative
+ [such-that
+  [definite-article poem]
+  [spatially-long poem NUMBER:u:"-0.55"]]]
+1.00000:[present-indicative
+ [isa
+  [definite-article poem]
+  short-integer]]
+0.90000:[present-indicative
+ [standard-copula
+  [definite-article poem]
+  short-integer]]
+0.90000:[present-indicative
+ [isa
+  [definite-article poem]
+  clothing-shorts]]
+0.81000:[present-indicative
+ [standard-copula
+  [definite-article poem]
+  clothing-shorts]]
+> The arm is short.
+SEMANTICS:
+0.90000:[present-indicative
+ [such-that
+  [definite-article clothing-arm]
+  [spatially-long clothing-arm NUMBER:u:"-0.55"]]]
+1.00000:[present-indicative
+ [isa
+  [definite-article clothing-arm]
+  short-integer]]
+1.00000:[present-indicative
+ [isa
+  [definite-article arm]
+  short-integer]]
+0.90000:[present-indicative
+ [such-that
+  [definite-article arm]
+  [spatially-long arm NUMBER:u:"-0.55"]]]
+0.90000:[present-indicative
+ [standard-copula
+  [definite-article clothing-arm]
+  short-integer]]
+0.90000:[present-indicative
+ [isa
+  [definite-article clothing-arm]
+  clothing-shorts]]
+0.90000:[present-indicative
+ [standard-copula
+  [definite-article arm]
+  short-integer]]
+> The woman is short.
+SEMANTICS:
+0.90000:[present-indicative
+ [such-that
+  [definite-article woman]
+  [tall woman NUMBER:u:"-0.55"]]]
+1.00000:[present-indicative
+ [isa
+  [definite-article woman]
+  short-integer]]
+0.90000:[present-indicative
+ [standard-copula
+  [definite-article woman]
+  short-integer]]
+0.90000:[present-indicative
+ [isa
+  [definite-article woman]
+  clothing-shorts]]
+0.81000:[present-indicative
+ [standard-copula
+  [definite-article woman]
+  clothing-shorts]]
+> The run is short.
+SEMANTICS:
+0.72900:[present-indicative
+ [such-that
+  [definite-article
+   [run]]
+  [spatially-long
+   [run]
+   NUMBER:u:"-0.55"]]]
+0.81000:[present-indicative
+ [standard-copula
+  [definite-article
+   [run]]
+  short-integer]]
+0.72900:[present-indicative
+ [standard-copula
+  [definite-article
+   [run]]
+  clothing-shorts]]
+> The red is light.
+SEMANTICS:
+1.00000:[present-indicative
+ [such-that
+  [definite-article red]
+  [high-luminance red]]]
+1.00000:[present-indicative
+ [isa
+  [definite-article red]
+  light]]
+0.90000:[present-indicative
+ [standard-copula
+  [definite-article red]
+  light]]
+0.67500:[present-indicative
+ [standard-copula
+  [such-that
+   [definite-article human]
+   [political-affiliation-of human communist]]
+  light]]
+0.56250:[present-indicative
+ [such-that
+  human
+  [heavy human NUMBER:u:"-0.55"]
+  [political-affiliation-of human communist]]]
+0.56250:[present-indicative
+ [such-that
+  human
+  [high-luminance human]
+  [political-affiliation-of human communist]]]
+> The cruiser is light.
+SEMANTICS:
+0.81000:[present-indicative
+ [such-that
+  [definite-article warship-cruiser]
+  [heavy warship-cruiser NUMBER:u:"-0.55"]]]
+0.90000:[present-indicative
+ [isa
+  [definite-article warship-cruiser]
+  light]]
+0.90000:[present-indicative
+ [isa
+  [definite-article cabin-cruiser]
+  light]]
+0.81000:[present-indicative
+ [such-that
+  [definite-article warship-cruiser]
+  [high-luminance warship-cruiser]]]
+0.81000:[present-indicative
+ [such-that
+  [definite-article cabin-cruiser]
+  [heavy cabin-cruiser NUMBER:u:"-0.55"]]]
+0.81000:[present-indicative
+ [such-that
+  [definite-article cabin-cruiser]
+  [high-luminance cabin-cruiser]]]
+0.81000:[present-indicative
+ [standard-copula
+  [definite-article warship-cruiser]
+  light]]
+> The run is light.
+SEMANTICS:
+0.81000:[present-indicative
+ [such-that
+  [definite-article
+   [run]]
+  [heavy
+   [run]
+   NUMBER:u:"-0.55"]]]
+0.81000:[present-indicative
+ [such-that
+  [definite-article
+   [run]]
+  [high-luminance
+   [run]]]]
+0.81000:[present-indicative
+ [standard-copula
+  [definite-article
+   [run]]
+  light]]
+> The woman is old.
+SEMANTICS:
+0.90000:[present-indicative
+ [such-that
+  [definite-article woman]
+  [old-adult woman]]]
+0.90000:[present-indicative
+ [such-that
+  [definite-article woman]
+  [old-in-age woman]]]
+> The telephone is old.
+SEMANTICS:
+0.72900:[present-indicative
+ [such-that
+  [definite-article phone]
+  [newly-manufactured phone NUMBER:u:"-0.55"]]]
+0.50625:[present-indicative
+ [such-that
+  [definite-article stock-T]
+  [newly-manufactured stock-T NUMBER:u:"-0.55"]]]
+> The wine is old.
+SEMANTICS:
+0.90000:[present-indicative
+ [such-that
+  [definite-article wine]
+  [newly-manufactured wine NUMBER:u:"-0.55"]]]
+> The run is hard.
+SEMANTICS:
+0.60750:[present-indicative
+ [such-that
+  [definite-article
+   [run]]
+  [easy
+   [run]
+   NUMBER:u:"-0.55"]]]
+> The concept is hard.
+SEMANTICS:
+0.75000:[present-indicative
+ [such-that
+  [definite-article concept]
+  [easy concept NUMBER:u:"-0.55"]]]
+> The toast is hard.
+SEMANTICS:
+0.81000:[present-indicative
+ [such-that
+  [definite-article toast]
+  [physically-strong toast]]]
+0.81000:[present-indicative
+ [such-that
+  [definite-article toast]
+  [physically-hard toast]]]

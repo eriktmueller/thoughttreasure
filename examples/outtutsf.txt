@@ -1,0 +1,19 @@
+) Jacques Chirac est un ennemi de François Mitterrand.
+) Il déteste François Mitterrand.
+Effectivement, Jacques Chirac est son ennemi.
+) Jacques Chirac tutoie François Mitterrand.
+Mais je croyais que Jacques Chirac était un ennemi de François Mitterrand.
+) Lionel Jospin est un ennemi de Jacques Chirac.
+) Il tutoie Jacques Chirac.
+Effectivement, Lionel Jospin est titulaire d'une promotion Stendhal de l'École
+nationale d'administration et il est titulaire d'une promotion Vauban de l'École
+nationale d'administration.
+) Jacques Chirac réussit à être le président de la France.
+) Il est heureux.
+Effectivement, Jacques Chirac réussit à être le président de la France.
+) Lionel Jospin en veut à Jacques Chirac.
+Effectivement, Jacques Chirac réussit à être le président de la France et
+Lionel Jospin est un ennemi de Jacques Chirac.
+) François Mitterrand est heureux pour Jacques Chirac.
+Oui, Jacques Chirac réussit à être le président de la France.
+Mais je croyais que Jacques Chirac était un ennemi de François Mitterrand.

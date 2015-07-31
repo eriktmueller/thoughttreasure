@@ -1,0 +1,1002 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=broadcast# station*.qz/media-object/station.¹z/station.¹Fy/
+;_______________________________________________________________________________
+==radio# station*.z//radio.Îz/station* de#R radio#.¹Fy/radiodiffusion.Î¹Fy/
+radiophonie,radio.ÎFy/T\.S\.F\..ÎoFy/radiophonique.Ay/
+==*Europe#F 1#.®Éy//Europe# 1*.®Éz/|fr|
+==*France#F-Inter#M.®Éy//France#-Inter*.®Éz/|fr|owner-of=Radio-France|
+==*Radio#-France#.®Éy//Radio#-France*.®Éz/|fr|
+==*RFI.®ÉFy//Radio* France* Internationale*A.®ÉFy/RFI.¹®Éz/
+Radio# France# International#A ½.®Éz/
+==*RTL.®ÉFy//RTL.¹®Éz/|fr|
+;_______________________________________________________________________________
+==TV# channel*.z/organization/TV# station*.z/video# channel*.z/channel.¹z/
+television,TV.Îz/chaîne.¹Fy/station* de#R télévision#.Fy/
+chaîne* hertzienne*A.Fy/télévision.ÎFy/
+;_______________________________________________________________________________
+===TV# network*.z//network# television*.z/chaîne* nationale*A.Fy/network.Myj/
+réseau* de#R télévision#F.My/réseau* national*A de#R télévision#F.¹My/
+;_______________________________________________________________________________
+===*NBC.®Éz/US-company/chaîne* NBC#.¹®kFy/chaîne* américaine*A NBC#.¹®kFy/
+NBC.®ÉFy/|us|owner-of=GE|headquarters-of=GE-building|
+phone-number-of=STRING:pstn:"12126644444"|
+====*NBC#® East#A Coast# feed*.kz//
+====*NBC#® West#A Coast# feed*.kz//
+===*NBC#® Super#® Channel*®.kz//|owner-of=NBC|
+===*NBC# News*.®Éz//NBC# News*.®y/|owner-of=NBC|
+===*ABC.®Éz/US-company/chaîne* ABC#.¹®kFy/chaîne* américaine*A ABC#.¹®kFy/
+ABC.®ÉFy/|us|owner-of=Capital-Cities-ABC-Inc|
+====*ABC#® East#A Coast# feed*.kz//
+====*ABC#® West#A Coast# feed*.kz//
+===*ABC# News*.®Éz//ABC# News*.®y/|owner-of=ABC|
+===*CBS.®Éz/US-company/chaîne* CBS#M.¹®kFy/chaîne* américaine*A CBS#M.¹®kFy/
+CBS.®ÉMy/|us|owner-of=CBS-Inc|
+====*CBS#® East#A Coast# feed*.kz//
+====*CBS#® West#A Coast# feed*.kz//
+===*CBS# News*.®Éz//CBS# News*.®Éy/|owner-of=CBS|
+===*Fox.®Éz/US-company/chaîne* Fox#M.¹®kFy/chaîne* américaine*A Fox#M.¹®kFy/
+Fox.®Éy/|us|
+====*Fox#® East#A Coast# feed*.kz//
+====*Fox#® West#A Coast# feed*.kz//
+===*Fox# News*.®Éz//Fox# News*.®Éy/|owner-of=Fox|
+===*WB.®kz/US-company/
+===*UPN.®Éz/US-company/United#A Paramount*.®Éz/
+chaîne* United#C Paramount#C.¹®kFy/United#C Paramount#C.®Éy/
+chaîne* américaine*A United#C Paramount#C.¹®kFy/|us|owner-of=Viacom-Paramount|
+===*PBS.®Éz/US-company/chaîne* PBS#M.¹®kFy/chaîne* américaine*A PBS#M.¹®kFy/
+PBS.®ÉMy/|us|
+====*PBS#® East#A Coast# feed*.kz//
+====*PBS#® West#A Coast# feed*.kz//
+;_______________________________________________________________________________
+===*TF1.®Éy/French-company/TF# 1#M.®Éy/Une.kFy/
+Télévision* française*A 1#.®oFy/TF1.®Éz/
+TF# 1*.®Éz/French#A private#A TV# channel* TF1#.®kz/
+French#A private#A TV# channel* TF# 1#.®kz/
+|fr|feed-of=TF1-sat-feed-1,TF1-Paris-tour-Eiffel|
+phone-number-of=STRING:pstn:"33141410909"|
+official-residence-of=BUILDING::176\/180:rue#NF de#R l#D'Université#NF:75007:Paris::country-FRA|
+headquarters-of=BUILDING::1:quai#NM du#R Point#NM du#R Jour#NF:92100:Boulogne::country-FRA|
+===*France# 2#.®Éy/French-company/Deux.kFy/FR2.o®Éy/Antenne* 2#.oFÉy/
+France# 2*.®Éz/service* public*A.qMy/
+French#A public#A TV# channel* France# 2*.®kz/|fr|owner-of=France-Television|
+feed-of=France-2-sat-feed-1,France-2-Paris-tour-Eiffel|
+headquarters-of=France-2-building|
+minitel-number-of=STRING:minitel:"3615FRANCE2"|
+phone-number-of=STRING:pstn:"33136687123"|@19940606:na|
+ceo-of=MALE:Raphaël Hadas-Lebel|
+editor-in-chief-of=Paul-Amar,MALE:Étienne Leenhardt|
+===*France# 3#.®Éy/French-company/Trois.kFy/FR3.®y/France* Régions#F 3#A.oy/
+service* public*A.qMy/France# 3*.®Éz/
+French#A public#A TV# channel* France# 3*.®kz/
+|fr|feed-of=France-3-Paris-tour-Eiffel|
+====*France-3-Paris-Ile-de-France-Centre/local-TV-station/
+France# 3# Paris#-‹le#F-de#R-France#F-Centre#M.o®Éy/
+|feed-of=France-3-Paris-tour-Eiffel|
+====*France-3-Paris-Ile-de-France/local-TV-station/
+France# 3# Paris#-‹le#F-de#R-France#F.®Éy/
+|feed-of=France-3-Paris-tour-Eiffel|
+===*Canal-Plus/movie-channel,French-company/Canal+.Éy/Canal* Plus#B.®Éy/
+Canal+,Canal# Plus*.®Éz/French#A pay#A TV# channel* Canal# Plus#.®kz/
+|fr|headquarters-of=BUILDING::85:quai#NM André# Citroën#:75015:Paris::country-FRA|
+feed-of=Canal-Plus-sat-feed-1,Canal-Plus-Paris-tour-Eiffel|
+===*Arte.Éy/French-company,German-company/Arte.®Éz/
+French#A-German#A TV# channel* Arte#.®kz/
+|fr|feed-of=Arte-sat-feed-1,Arte-Paris-tour-Eiffel|
+===*Cinq.kFy/French-company/|fr|
+===*M6.Éy/French-company/Métropole* 6#.Fy/M6.®Éz/French#A TV# channel* M6#.®kz/
+|fr|headquarters-of=BUILDING::16:cours#NM Albert# premier#A:75008:Paris::country-FRA|
+feed-of=M6-sat-feed-1,M6-Paris-tour-Eiffel|
+phone-number-of=STRING:pstn:"33145631717"|
+;_______________________________________________________________________________
+===*BBC.®kz/UK-company/Beeb.gñTz/BBC.®kFy/
+;_______________________________________________________________________________
+===*NHK.®z/Japanese-company/NHK.®y/
+;_______________________________________________________________________________
+===cable# channel*.z//cable# television*.z/télévision* par#R câble#M.Fy/
+===*Black#A Entertainment#® Television*®.®z//BET.®z/|us|
+feed-of=BET-Paragon-Manhattan|
+headquarters-of=BUILDING::1232:31 Street Northwest:20007:City of Washington:District of Columbia:country-USA|
+===*USA-Network//USA.®z/USA#® Network*.®z/|us|feed-of=USA-Paragon-Manhattan|
+headquarters-of=FLOOR::18:1230:Avenue of the Americas:10020:New York City:New York:country-USA|
+===*Bravo.®z//|us|feed-of=Bravo-Paragon-Manhattan|
+headquarters-of=BUILDING::150:Crossways Park West:11797:Woodbury:New York:country-USA|
+===*A-and-E//A&E.®z/Arts#P and#K Entertainment*.®z/
+|us|feed-of=A-and-E-Paragon-Manhattan|
+headquarters-of=BUILDING::235:East 45 Street:10017:New York City:New York:country-USA|
+===*The#D® Travel#® Channel*®.®z//|us|feed-of=TTC-Paragon-Manhattan|
+===*CUNY#®-TV*®.®z//City#A® University#® Television*®.®z/|us|
+feed-of=CUNY-TV-Paragon-Manhattan|
+headquarters-of=BUILDING::25:West 43 Street:10036:New York City:New York:country-USA|
+===*The#D® Weather#® Channel*®.®z//|us|feed-of=TWC-Paragon-Manhattan|
+===*C#®-SPAN*®.®z//|us|feed-of=CSPAN-Paragon-Manhattan|
+headquarters-of=BUILDING::400:North Capitol Street Northwest:20001:City of Washington:District of Columbia:country-USA|
+===*The#D® Discovery#® Channel*®.®z//|us|feed-of=TDC-Paragon-Manhattan|
+headquarters-of=BUILDING::7700:Wisconsin Avenue:20814:Bethesda:Maryland:country-USA|
+===*Nickelodeon.®z//|us|feed-of=Nickelodeon-Paragon-Manhattan|
+headquarters-of=BUILDING::1515:Broadway:10036:New York City:New York:country-USA|
+===*Disney#® Channel#®.z//
+|headquarters-of=BUILDING::3800:West Alameda Boulevard:91505:Burbank:California:country-USA|
+===*The#D® Family#® Channel*®.z//
+|headquarters-of=BUILDING::1000:Centerville Turnpike:23463:Virginia Beach:Virginia:country-USA|
+===*Lifetime.®z//
+|headquarters-of=BUILDING::36-12:35 Avenue:11106:Astoria:New York:country-USA|
+===*Canal* J*.®ÉMy//|fr|
+===*Canal* Jimmy*.®ÉMy//|fr|
+===*TV5.®Éy//TV5.®Éz/French#A-language# cable# channel* TV5*.®kz/|fr|
+===*Paris-Premiere//Paris*ß® Première*A.®y/|fr|
+===*Serie-Club//Série#F-Club*M.®y/|fr|
+===*RTL*® TV*®.®y//|fr|
+;_______________________________________________________________________________
+====superstation.z//
+====*WTBS#®-TV*®.®z//TBS.®z/|us|feed-of=TBS-Paragon-Manhattan|
+headquarters-of=BUILDING::1:CNN Center:30348:Atlanta:Georgia:country-USA|
+;_______________________________________________________________________________
+====movie# channel*.z//
+====*American#A Movie# Classics#P.®z//|us|
+headquarters-of=BUILDING::150:Crossways Park West:11797:Woodbury:New York:country-USA|
+====*Showtime.®z//|us|feed-of=Showtime-Paragon-Manhattan|
+headquarters-of=BUILDING::1633:Broadway:10019:New York City:New York:country-USA|
+====*The#D® Movie#® Channel#®.®z//|us|
+headquarters-of=BUILDING::1633:Broadway:10019:New York City:New York:country-USA|
+====*HBO.®z//Home#® Box#® Office*®.®z/|us|feed-of=HBO-Paragon-Manhattan|
+headquarters-of=BUILDING::1100:Avenue of the Americas:10036:New York City:New York:country-USA|
+====*Cinemax.®z//|us|feed-of=Cinemax-Paragon-Manhattan|
+headquarters-of=BUILDING::1100:Avenue of the Americas:10036:New York City:New York:country-USA|
+====*TNT.®z//Turner#® Network#® Television*®.®z/|feed-of=TNT-Paragon-Manhattan|
+headquarters-of=BUILDING::1:CNN Center:30348:Atlanta:Georgia:country-USA|
+====*Cine-Cinefil//Ciné#M-Cinéfil#.®My/|fr|
+====*Cine-Cinemas//Ciné#M-Cinémas#MP.®y/|fr|
+====*Planete//Planète.®y/|fr|
+;_______________________________________________________________________________
+====news# channel*.z//
+====*Sky#® News*®.z//
+====*LCI.®y//chaîne* info#.®kFy/LCI.®Tz/French#A cable# news# channel*.kz/
+|owner-of=TF1|
+====*CNN.®z//Cable# News# Network*.®z/|feed-of=CNN-Paragon-Manhattan|
+headquarters-of=BUILDING::1:CNN Center:30348:Atlanta:Georgia:country-USA|
+=====*CNN*® International*®.®y//CNN#® International*®.®z/|fr|
+====*New#® York#® 1#® News#®.z//
+|headquarters-of=BUILDING::460:West 42 Street:10036:New York City:New York:country-USA|
+====*Euronews.®y//|fr|
+;_______________________________________________________________________________
+====business# channel*.z//
+====*CNBC.®z//Consumer#® News#® Business#® Channel#®.z/|us|
+feed-of=CNBC-Paragon-Manhattan|
+headquarters-of=BUILDING::2200:Fletcher Avenue:07024:Fort Lee:New Jersey:country-USA|
+;_______________________________________________________________________________
+====music# channel*.z//
+====*MTV.®z//MTV.®Fy/
+|headquarters-of=BUILDING::1515:Broadway:10036:New York City:New York:country-USA|
+=====*MTV#® East#A Coast# feed*.z//|feed-of=MTV-Paragon-Manhattan|
+=====*MTV#® West#A Coast# feed*.z//
+=====*MTV*® Europe*®.®y//|fr|
+====*MCM.®y//MCM.®Tz/French#A music# channel*.kz/|fr|
+;_______________________________________________________________________________
+====sports#P channel*.z//
+====*ESPN.®z//|us|feed-of=ESPN-Paragon-Manhattan|
+owner-of=Capital-Cities-ABC-Inc|
+headquarters-of=BUILDING:::ESPN Plaza:06010:Bristol:Connecticut:country-USA|
+====*ESPN2.®z//|us|owner-of=Capital-Cities-ABC-Inc|
+====*Sports#P Channel*.®z//|us|feed-of=SportsChannel-Paragon-Manhattan|
+headquarters-of=BUILDING::150:Crossways Park West:11797:Woodbury:New York:country-USA|
+====*Sports#P Channel# Plus#B.®z//|us|
+feed-of=SportsChannel-Plus-Paragon-Manhattan|
+headquarters-of=BUILDING::150:Crossways Park West:11797:Woodbury:New York:country-USA|
+====*MSG.®z//Madison#® Square#® Garden#® Network*®.®z/|us|
+feed-of=MSG-Paragon-Manhattan|
+headquarters-of=BUILDING::2:Pennsylvania Plaza:10121:New York City:New York:country-USA|
+====*Eurosport.®y//|fr|
+;_______________________________________________________________________________
+===local#A TV# station*.z//local#A TV*.z/chaîne* régionale*A.@Fy/
+télévision* régionale*A.kFy/
+===*WCBS#®-TV*®.®z/US-company/Channel# 2*.z/|us|headquarters-of=524W57|
+owner-of=CBS|feed-of=WCBS-TV-World-Trade-Center,WCBS-TV-Paragon-Manhattan|
+===*WNBC#®-TV*®.®z/US-company/Channel# 4*.z/WEAF#®-TV*®.®oz/|us|
+headquarters-of=GE-building|
+owner-of=NBC|feed-of=WNBC-TV-World-Trade-Center,WNBC-TV-Paragon-Manhattan|
+===*WNYW#®-TV*®.®z/US-company/Channel# 5*.z/WNEW#®-TV*®.®oz/|us|
+headquarters-of=WNYW-building|
+owner-of=Fox|feed-of=WNYW-TV-World-Trade-Center,WNYW-TV-Paragon-Manhattan|
+===*WABC#®-TV*®.®z/US-company/Channel# 7*.z/|us|headquarters-of=7LincolnSquare|
+owner-of=ABC|feed-of=WABC-TV-World-Trade-Center,WABC-TV-Paragon-Manhattan|
+===*WWOR#®-TV*®.®z/superstation,US-company/Channel# 9*.z/WOR#®-TV*®.®oz/|us|
+headquarters-of=BUILDING::9:Broadcast Plaza:07094:Secaucus:New Jersey:country-USA|
+feed-of=WWOR-TV-World-Trade-Center,WWOR-TV-Paragon-Manhattan|
+===*WPIX#®-TV*®.®z/US-company/Channel# 11*.z/|us|
+headquarters-of=BUILDING::11:WPIX Plaza:10017:New York City:New York:country-USA|
+feed-of=WPIX-TV-World-Trade-Center,WPIX-TV-Paragon-Manhattan|
+===*WNET#®-TV*®.®z/US-company/Channel# 13*.z/WNDT#®-TV*®.oz/|us|
+headquarters-of=BUILDING::356:West 58 Street:10019:New York City:New York:country-USA|
+feed-of=WNET-TV-World-Trade-Center,WNET-TV-Paragon-Manhattan|
+===*WLIW#®-TV*®.®z/US-company/Channel# 21*.z/|us|
+headquarters-of=BUILDING::1425:Old Country Road:11803:Plainview:New York:country-USA|
+feed-of=WLIW-TV-World-Trade-Center,WLIW-TV-Paragon-Manhattan|
+===*WNYE#®-TV*®.®z/US-company/Channel# 25*.z/|us|
+headquarters-of=BUILDING::112:Tillary Street:11201:New York City:New York:country-USA|
+; really Brooklyn
+feed-of=WNYE-TV-World-Trade-Center,WNYE-TV-Paragon-Manhattan|
+===*WNYC#®-TV*®.®z/US-company/Channel# 31*.z/|us|
+headquarters-of=BUILDING::1:Centre Street:10007:New York City:New York:country-USA|
+feed-of=WNYC-TV-World-Trade-Center,WNYC-TV-Paragon-Manhattan|
+===*WXTV#®-TV*®.®z/US-company/Channel# 41*.z/|us|
+headquarters-of=BUILDING::24:Meadowland Parkway:07094:Secaucus:New Jersey:country-USA|
+feed-of=WXTV-TV-World-Trade-Center,WXTV-TV-Paragon-Manhattan|
+===*WNJU#®-TV*®.®z/US-company/Channel# 47*.z/|us|
+headquarters-of=BUILDING::1740:Broadway:10019:New York City:New York:country-USA|
+feed-of=WNJU-TV-World-Trade-Center,WNJU-TV-Paragon-Manhattan|
+===*WNJM#®-TV*®.®z/US-company/Channel# 50*.z/|us|
+headquarters-of=BUILDING::1573:Parkside Avenue:08625:Trenton:New Jersey:country-USA|
+===*WTNH#®-TV*®.®z/US-company/|us|
+===*KCBS#®-TV*®.®z/US-company/Channel# 2*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+owner-of=CBS|feed-of=KCBS-TV-LA-land-broadcast|
+===*KNBC#®-TV*®.®z/US-company/Channel# 4*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+owner-of=NBC|feed-of=KNBC-TV-LA-land-broadcast|
+===*KTLA#®-TV*®.®z/US-company/Channel# 5*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KTLA-TV-LA-land-broadcast|
+===*KABC#®-TV*®.®z/US-company/Channel# 7*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+owner-of=ABC|feed-of=KABC-TV-LA-land-broadcast|
+===*KHJ#®-TV*®.®z/US-company/Channel# 9*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KHJ-TV-LA-land-broadcast|
+===*KTTV#®-TV*®.®z/US-company/Channel# 11*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+affiliate-of=Fox|feed-of=KTTV-TV-LA-land-broadcast|
+===*KCOP#®-TV*®.®z/US-company/Channel# 13*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+affiliate-of=PBS|feed-of=KCOP-TV-LA-land-broadcast|
+===*KSCI#®-TV*®.®z/US-company/Channel# 18*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KSCI-TV-LA-land-broadcast|
+===*KWHY#®-TV*®.®z/US-company/Channel# 22*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KWHY-TV-LA-land-broadcast|
+===*KCET#®-TV*®.®z/US-company/Channel# 28*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KCET-TV-LA-land-broadcast|
+===*KMEX#®-TV*®.®z/US-company/Channel# 34*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KMEX-TV-LA-land-broadcast|
+===*KTBN#®-TV*®.®z/US-company/Channel# 40*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KTBN-TV-LA-land-broadcast|
+===*KVEA#®-TV*®.®z/US-company/Channel# 52*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+feed-of=KVEA-TV-LA-land-broadcast|
+===*KLCS#®-TV*®.®z/US-company/Channel# 58*.z/|us|
+headquarters-of=city-Los-Angeles-CA-USA|
+affiliate-of=PBS|feed-of=KLCS-TV-LA-land-broadcast|
+;_______________________________________________________________________________
+=radio# show*.z/sound,broadcast/radio# broadcast*.z/radiodiffusion.Î¹Fy/
+émission* radiophonique*A.¹Fy/émission,diffusion.Fy/
+==journal* de#R 8#A heures#FP d#R'Europe#F 1#.®My//
+journal* de#R 8#A heures#FP.®My/|radio-station-of=Europe-1|
+;_______________________________________________________________________________
+=TV-show/video,broadcast/TV# show*.z/TV# broadcast*,television# show*.z/
+television# broadcast*.z/programme.z/TV# programme*.z/prog\..Tgz/
+cablecast.qz/émission* télévisée*A.¹Fy/émission* à#R la#D télé#.¹TFy/
+émission,diffusion.Fy/show.My/|in-color|
+;_______________________________________________________________________________
+==children#P's show*.z//
+===Captain#® Kangaroo#®.z//|host-of=MALE:Bob Keeshan|
+@1955:1976:mon¯fri:0800:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+===Sesame#® Street*®.z//
+|@19931003:na:mon¯sun:0700:60min|original-run|closed-captioned|
+video-channel-of=WNET-TV|
+@19931003:na:mon¯fri:1000:60min|original-run|closed-captioned|
+video-channel-of=WNET-TV|
+@19931003:na:mon¯sun:0800:60min|original-run|closed-captioned|
+video-channel-of=WLIW-TV|
+@19931003:na:mon¯sun:1500:60min|rerun|closed-captioned|
+video-channel-of=WNET-TV|
+;_______________________________________________________________________________
+==cartoon.z//
+===short#A cartoon*.z//
+====Bugs Bunny cartoon//Bugs# Bunny*.®Mz/Bugs# Bunny#.®My/
+===30#A-minute# cartoon*.z//
+====Teen#A-age#S Mutant#A Ninja#S Turtles*.®Pïz//
+|@19931003:na:sat:1030:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+====The#D Flintstones*®.z//
+|@19931003:na:mon¯fri:0735:30min|rerun|video-channel-of=Nickelodeon|
+@19931003:na:mon¯fri:1400:30min|rerun|video-channel-of=WPIX-TV|
+====The#D Jetsons*.®z//
+|@19931003:na:sun:0800:30min|rerun|video-channel-of=WPIX-TV|
+@19931003:na:sun:0830:30min|rerun|video-channel-of=WPIX-TV|
+@19931003:na:mon¯fri:0705:30min|rerun|video-channel-of=Nickelodeon|
+====Simpsons.®kPïz//Simpson*.®kMPïy/
+|@19931003:na:thu:2000:30min|original-run|
+video-channel-of=Fox-East-Coast-feed,WNYW-TV|
+@19940718:na:lun¯ven:2005:30min|rerun|dubbed-in-French|
+video-channel-of=France-3|
+====Speed# Racer*.®z//
+|@19931003:na:sun:1000:30min|rerun|video-channel-of=WWOR-TV|
+@19931003:na:sun:1800:30min|rerun|video-channel-of=MTV|
+@19931003:na:sun:2330:30min|rerun|video-channel-of=MTV|
+===60#A-minute# cartoon*.z//
+===cartoon# show*.z//
+====Bugs#S Bunny#S's All#D-Stars*.®Pïz//
+|@19931003:na:sun:0700:90min|rerun|video-channel-of=TNT|
+====Ca#H cartoon#V.y//
+|@19940501:na:dim:1930:55min,19940501:na:lun¯mar:0755:15min,
+19940501:na:mer:0755:50min,19940501:na:jeu¯ven:0755:15min|
+host-of=MALE:Philippe Dana|nonencrypted|video-channel-of=Canal-Plus|
+@19940501:na:lun¯ven:1830:15min|
+host-of=FEMALE:Valérie Payet|nonencrypted|video-channel-of=Canal-Plus|
+;_______________________________________________________________________________
+==cooking# show*.z//
+===Julia# Child# Show*.z//|NTSC|host-of=FEMALE:Julia Child|
+@19931003:na:sun:1500:30min|rerun|video-channel-of=WLIW-TV|
+===The#D Frugal#® Gourmet*®.z//|NTSC|
+@19931003:na:sun:1700:30min|rerun|video-channel-of=WNET-TV|
+@19931003:na:sun:1200:30min|video-channel-of=Lifetime|
+@19931003:na:sun:1230:30min|video-channel-of=Lifetime|
+;_______________________________________________________________________________
+==documentary# show*.z//
+===documentary# interview# show*.z//
+;====Charlie Rose show//Charlie#® Rose*®.·z/|host-of=Charlie-Rose|
+;@1992:na:mon¯fri:2300:60min|original-run|video-channel-of=WNET-TV|
+====Bill#® Moyers#®'s Journal#®.z//|host-of=MALE:Bill Moyers|
+@19931003:na:mon:0000:60min|rerun|closed-captioned|video-channel-of=WNET-TV|
+====Savoir#V plus#B.y//|SECAM|;host-of=FEMALE:Martine Allain-Régnault,
+;MALE:François de Closets,HUMAN:Claude Carré|
+@19940502:na:lun:2225:80min|video-channel-of=France-2|
+;_______________________________________________________________________________
+==reality# show*.z//reality#j show*.My/
+===A#® Current#® Affair*®.z//
+|@19931003:na:mon:1900:30min|original-run|video-channel-of=WNYW-TV|
+===A#® Current#® Affair#® Extra*®.z//
+|@19931003:na:mon:0000:60min|original-run|video-channel-of=WNYW-TV|
+===America#®'s Funniest#® Videos*®.z//|NTSC|closed-captioned|
+@19931003:na:sun:1900:30min|original-run|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+===Entertainment#® Tonight#®.z//
+|@19931003:na:sat:2330:30min|original-run|video-channel-of=WCBS-TV|
+===Lifestyles#P of#R the#D Rich#A and#K Famous#A.®z//
+|@19931003:na:mon:0000:60min|original-run|video-channel-of=WCBS-TV|
+;_______________________________________________________________________________
+==discussion# show*.z//
+===Bouillon* de#R culture#F.My//|SECAM|host-of=MALE:Bernard Pivot|
+producer-of=FEMALE:Elisabeth Preschey,MALE:Alexandre Tarta|
+@19940506:na:ven:2240:80min|video-channel-of=France-2|
+;_______________________________________________________________________________
+==talk# show*.z//talk#A-show*.My/
+===Larry# King# Live*.®z//|NTSC|host-of=MALE:Larry King|
+@1986:na:mon¯fri:2100:60min|original-run|video-channel-of=CNN|
+===late#A-night# talk# show*.z//
+====cercle* de#R minuit#.My//|SECAM|host-of=MALE:Michel Field|
+phone-number-of=STRING:pstn:"33144098161"|@19940502:na:mar¯ven:0005:70min|live|
+video-channel-of=France-2|broadcast-live-TV-show-with-audience|
+studio-of=BUILDING:Théâtre#NM de#R le#R Empire#NM:41bis:avenue#NF de#R Wagram#N:75017:Paris::country-FRA|
+====Tonight.®z//The#D Tonight# Show*.®z/Tonight#j Show*j.®kMz/
+|NTSC|@195309|creator-of=MALE:Pat Weaver|@na:195901|live|@195901:na|taped|
+@195309:195609|host-of=MALE:Steve Allen|newscaster-of=MALE:Gene Rayburn|
+@19570701:196002|host-of=MALE:Jack Paar|@196003:19620330|host-of=MALE:Jack Paar|
+@19570701:19620330|sidekick-of=Hugh-Downs|
+@19620330:1992|host-of=MALE:Johnny Carson|sidekick-of=MALE:Ed McMahon|
+@1992:na|host-of=MALE:Jay Leno|
+@195309:195609:mon¯fri:2315:90min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@19570701:1965:mon¯fri:2315:90min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@1965:199310:mon¯fri:2330:60min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@199310:na:mon¯fri:2335:60min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====Late#A Show*.®z//Letterman.®z/|NTSC|host-of=MALE:David Letterman|
+@19931003:na:mon¯fri:2335:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+;====Arsenio-Hall-show//Arsenio#® Hall*®.·z/|NTSC|host-of=Arsenio-Hall|
+;@19931003:na:mon¯fri:2330:60min|original-run|video-channel-of=WPIX-TV|
+===audience#-participation# talk# show*.z/reality-show/
+====Donahue.®z//|NTSC|host-of=MALE:Phil Donahue|
+@1987:na:mon¯fri:1000:60min|original-run|video-channel-of=WTNH-TV|
+@1987:na:mon¯fri:1600:60min|original-run|video-channel-of=WNBC-TV|
+====Geraldo.®z//|NTSC|host-of=MALE:Geraldo Rivera|
+@19931003:na:mon¯fri:1600:60min|original-run|video-channel-of=WCBS-TV|
+====Joan-Rivers-Show//Joan# Rivers#.®z/|NTSC|host-of=FEMALE:Joan Rivers|
+@19931003:na:mon¯fri:1000:60min|original-run|video-channel-of=WCBS-TV|
+====Oprah# Winfrey# Show*.®z//|NTSC|host-of=FEMALE:Oprah Winfrey|
+@198707:na:mon¯fri:1600:60min|original-run|video-channel-of=WABC-TV|
+===light# talk# show*.z//
+====Regis# and#K Kathie# Lee*F.®z//
+|NTSC|@19931003:na:mon¯fri:0900:60min|original-run|video-channel-of=WABC-TV|
+====Frou#-frou*.®My//|SECAM|host-of=FEMALE:Christine Bravo|
+phone-number-of=STRING:pstn:"33142222356"|
+minitel-number-of=STRING:minitel:"3615FRANCE2-FROU"|
+@19940430:na:sam:1855:55min|video-channel-of=France-2|
+@19940520:na:jeu:1500:60min,19940520:na:jeu:2000:60min|
+studio-of=Studio-Bonaparte|tape-TV-show-with-audience|
+;_______________________________________________________________________________
+==game# show*.z//|taped|
+===Family# Feud#.®z//|NTSC|
+@19931003:na:mon¯fri:1600:30min|original-run|video-channel-of=WWOR-TV|
+@19931003:na:mon¯fri:1630:30min|original-run|video-channel-of=WWOR-TV|
+===Concentration.®z//|NTSC|@195809:196901|host-of=Hugh-Downs|
+video-channel-of=NBC|
+@196901:196902|host-of=MALE:Bob Clayton|video-channel-of=NBC|
+@196902:196903|host-of=MALE:Ed McMahon|video-channel-of=NBC|
+@196903:1973|host-of=MALE:Bob Clayton|video-channel-of=NBC|
+@19931003:na:mon¯fri:0900:30min|original-run|video-channel-of=WNBC-TV|
+===Price# Is#V Right*.®kz//Le#D juste#A prix*.®y/
+====English Price//|NTSC|language-of=F122|original-run|
+@19931003:na:mon¯fri:1100:60min|video-channel-of=WCBS-TV|
+====French Price//|SECAM|language-of=F121|original-run|
+host-of=MALE:Philippe Risoli,MALE:Jean-Pierre Descombes|
+@19940430:na:sam:1220:30min|video-channel-of=TF1|
+===Que#K® le#D® meilleur#® gagne#V®.y//|SECAM|host-of=MALE:Nagui|
+phone-number-of=STRING:pstn:"33140124725"|
+minitel-number-of=STRING:minitel:"3615FRANCE2-QLMG"|
+studio-of=BUILDING:Village#NM de#R la#D Communication#NF:44-54:avenue#NF du#R Capitaine#N Glarner#:93400:Saint-Ouen::country-FRA|
+@19940430:na:lun¯ven:1915:35min|video-channel-of=France-2|
+@19940718:na:lun¯ven:1220:35min|video-channel-of=France-2|
+===Pyramide.®Fy//Pyramid.z/|SECAM|
+@19940718:na:lun¯ven:1145:35min|video-channel-of=France-2|
+===Wheel# of#R Fortune*.®z//La#D roue# de#R la#D fortune#.®Fy/
+====French Wheel//|SECAM|language-of=F121|
+host-of=MALE:Alexandre Debanne,FEMALE:Annie Pujol,MALE:Hervé Caffin|
+minitel-number-of=STRING:minitel:"3615TF1-ROUE"|
+@19940502:na:mon¯fri:1155:30min|original-run|video-channel-of=TF1|
+====US Wheel//|NTSC|language-of=F122|
+host-of=MALE:Pat Sajak,FEMALE:Vana White|
+@19931003:na:mon¯fri:1930:30min|original-run|video-channel-of=WABC-TV|
+;_______________________________________________________________________________
+==music# show*.z//
+===Unplugged.®z//
+|@19931003:na:sun:2200:30min|original-run|video-channel-of=MTV|
+===The#D Lawrence#® Welk#® Show*®.z//|NTSC|host-of=MALE:Lawrence Welk|
+@19931003:na:sun:1700:60min|rerun|video-channel-of=WLIW-TV|
+;_______________________________________________________________________________
+==variety# show*.z//
+===morning# variety# show*.z//
+====CBS#® This#® Morning#®.z/talk-show,music-show/
+|@19931003:na:mon¯fri:0700:2hrs|original-run|closed-captioned|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+====Good#A Morning# America#.®z/talk-show,music-show/
+|host-of=MALE:David Hartman|
+@197511:na:mon¯fri:0700:2hrs|original-run|closed-captioned|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====Today.®Éz/talk-show,music-show/The#D Today#® Show*®.z/
+|@19520114:19581023|anchor-of=Dave-Garroway|
+@19581124:196107|anchor-of=Dave-Garroway|@196107:19620922|
+anchor-of=MALE:John Chancellor|@19620922:19711011|anchor-of=Hugh-Downs|
+@19711011:197404|anchor-of=MALE:Frank McGee|
+@19740422:197605|anchor-of=Barbara-Walters|
+@197405:19760830|anchor-of=MALE:Jim Hartz|
+@19760830:19811218|anchor-of=Tom-Brokaw|
+@19761011:1990|anchor-of=FEMALE:Jane Pauley|
+@1990:1991|anchor-of=FEMALE:Deborah Norville|
+@19820104:na|anchor-of=Bryant-Gumbel|
+@19520114:196107|host-of=MALE:Jack Lescoulie|
+@196207:1963|host-of=MALE:Jack Lescoulie|
+@1953:1957|host-of=J-Fred-Muggs|
+@197904:197905|host-of=MALE:Phil Donahue|
+@19800310:na|host-of=MALE:Willard Scott|
+@198411:1987|host-of=Linda-Ellerbee|
+@195810:195811|host-of=MALE:Charles Van Doren|
+@1967:197301|host-of=MALE:Joe Garagiola|@1973:na|host-of=MALE:Gene Shalit|
+@1977:1977|host-of=HUMAN:Floyd Kalber|
+@19520114:1954|host-of=FEMALE:Estelle Parsons|
+@1954:1956|host-of=FEMALE:Lee Ann Meriwether|
+@1956:1958|host-of=FEMALE:Helen O'Connell|
+@1958:1958|host-of=FEMALE:Betsy Palmer|
+@1960:1960|host-of=FEMALE:Florence Henderson|
+@1960:1960|host-of=FEMALE:Beryl Pfizer|
+@1962:1963|host-of=FEMALE:Pat Fontaine|
+@1963:196406|host-of=FEMALE:Maureen O'Sullivan|
+@196407:19740422|host-of=Barbara-Walters|
+@197605:19761011|host-of=FEMALE:Betty Furness|
+@197904:1980|host-of=FEMALE:Alanna Davis|
+@19520114:1953|newscaster-of=MALE:Jim Fleming|
+@1953:19740314|newscaster-of=MALE:Frank Blair|
+@196107:196207|newscaster-of=MALE:Edwin Newman|
+@19740314:198201|newscaster-of=MALE:Lew Wood|
+@198201:198309|host-of=MALE:Chris Wallace|
+@198309:na|newscaster-of=MALE:John Palmer|
+@19520114|creator-of=MALE:Pat Weaver|
+@19520114:1958|producer-of=MALE:Richard Pinkham|
+@19520114:1958|producer-of=MALE:Mort Werner|
+@1958:196107|producer-of=MALE:Bob Bendick|
+@196107:19620922|producer-of=MALE:Shad Northshield|
+@19620922:1969|producer-of=MALE:Al Morgan|
+@197905:198005|producer-of=MALE:Steve Friedman|
+@1982:na|producer-of=MALE:Marty Ryan|
+@1982:na|producer-of=MALE:Scott Goldstein|
+@1980:na|producer-of=MALE:Cliff Kappler|
+@1982:na|director-of=MALE:George Paul|
+@1976:197904|executive-producer-of=MALE:Paul Friedman|
+@197904:198005|executive-producer-of=MALE:Joe Bartelme|
+@198005:na|executive-producer-of=MALE:Steve Friedman|
+@19520114:1958|studio-of=RCA-Exhibition-Hall|
+@1958:1971|studio-of=Studio-3K|@1971:na|studio-of=Studio-3B|
+@19520114:19650913|BW|@19650913:na|in-color|@1965:1970|feed-of=Early-bird|
+@19520114:1958:mon¯fri:0700:2hrs|live|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@1958:1960:mon¯fri:0700:2hrs|taped|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@1961:19931003:mon¯fri:0700:2hrs|live|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@19931003:na:mon¯sun:0700:2hrs|live|
+closed-captioned|video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+===Saturday#A Night# Live#A.z//SNL.z/|NTSC|
+@1976:na:sam:1130:90min|live|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@1976:na:sam:1130:90min|delayed|original-run|
+video-channel-of=NBC-West-Coast-feed,KNBC-TV|
+===Nulle#A part# ailleurs#B.Fy//Nowhere#B Else#B.qz/
+|SECAM|live|nonencrypted|@19940101:na:lun¯dim:1900:90min|
+video-channel-of=Canal-Plus|
+host-of=Antoine-de-Caunes,Philippe-Gildas,Philippe-Vandel,Jerome-Bonaldi|
+===Coucou-c-est-nous//Coucou#U c#H'est#V nousÝeux#HP.Fy/Peek#V-a#D-boo*U.qUz/
+|SECAM|delayed|
+@19931021:19940705:lun¯dim:1850:60min|video-channel-of=TF1|
+host-of=Christophe-Decavanne|
+@19931021:19940705:sam¯jeu:1600:2hrs|tape-TV-show-with-audience|
+studio-of=Studio-102|
+@19931021:19940705:mar¯jeu:1100:2hrs|phone-number-of=STRING:pstn:"33142201111"|
+===Rien-a-cirer//Rien#H à#R cirer#V.Fy/
+|phone-number-of=STRING:pstn:"33144093670"|
+SECAM|live|nonencrypted|
+@19940427:na:lun¯ven:1845:35min|video-channel-of=France-2|
+host-of=MALE:Laurent Ruquier|
+===Taratata.®Uy//|SECAM|host-of=MALE:Nagui|
+minitel-number-of=STRING:minitel:"3615FRANCE2-TARA"|
+@19940501:na:dim:2250:95min|video-channel-of=France-2|
+@19940501:na:dim:2250:95min|guest-of=MALE:Michel Sardou|
+;_______________________________________________________________________________
+==news# show*.z//|topic-of=domain-current-events|live|
+;_______________________________________________________________________________
+===news# report*.z//report.z/communiqué.My/reportage.My/
+;_______________________________________________________________________________
+===news# conference# show*.z//
+====L-heure-de-verite//L#D'heure# de#R vérité#.Fy/
+|SECAM|host-of=MALE:François-Henri de Virieu|
+producer-of=MALE:Jean-Luc Léridon|@19940501:na:dim:1200:55min|
+video-channel-of=France-2|
+====Face#V the#D Nation*.®z//|NTSC|
+@195706:na:dim:1030:30min|video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+====Meet#V the#D Press*.®z//|NTSC|closed-captioned|
+@194701:na:dim:1030:60min|video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====Brinkley.®z//|NTSC|closed-captioned|
+@19931003:na:dim:1130:60min|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+host-of=David-Brinkley|
+;_______________________________________________________________________________
+===news# interview# show*.z//
+====Nightline.®z//|host-of=Ted-Koppel|
+@1987:na:mon¯fri:1130:30min|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====7# sur#R 7#.y//|host-of=Anne-Sinclair|
+@19940101:na:dim:1900:60min|video-channel-of=TF1|
+===journalist# discussion# show*.z//
+====La-revue-de-presse-de-Michele-Cotta//
+La#D revue#F de#R presse#F de#R Michèle# Cotta#.y/|SECAM|
+host-of=FEMALE:Michèle Cotta|phone-number-of=STRING:pstn:"33144215965"|
+minitel-number-of=STRING:minitel:"3615FRANCE2-REVU"|@19940520:na:sam:1125:55min|
+video-channel-of=France-2|broadcast-live-TV-show-with-audience|
+studio-of=Studio-Pierre-Desgraupes|
+;_______________________________________________________________________________
+===news# magazine*.z//magazine.My/
+====magazine* Vendredi#.My//|video-channel-of=France-3|
+====Soir# 3#.My//|video-channel-of=France-3|
+====Envoye-special//Envoyé* spécial*A.My/|SECAM|host-of=MALE:Bernard Benyamin|
+producer-of=MALE:Paul Nahon,MALE:Bernard Benyamin|
+@19940505:na:jeu:2050:95min|closed-captioned|video-channel-of=France-2|
+====Faut-pas-rever//Faut#V pas#B rêver#V.y/|SECAM|host-of=MALE:Georges Pernoud|
+writer-of=MALE:François Jacquel|
+@19940505:na:ven:2150:60min|video-channel-of=France-3|
+====Prime#® Time#® Live*®.z//|NTSC|
+host-of=MALE:Sam Donaldson,FEMALE:Diane Sawyer|
+@1992:na:thu:2200:60min|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====20#-20*.z//20#\/20*.z/
+|@1978:19780612|host-of=MALE:Robert Hughes,MALE:Harold Hayes|
+@19780612:na|host-of=Hugh-Downs|
+@19780612:na|correspondent-of=MALE:Dave Marash|
+@19780612:1985|correspondent-of=MALE:Geraldo Rivera|
+@198109:na|host-of=Barbara-Walters|
+@19780612:na:fri:2200:60min|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+@19780612:na:fri:2200:60min|delayed|
+video-channel-of=ABC-West-Coast-feed,KABC-TV|
+====60# Minutes#P.Éz//magazine* Sixty#Cj minutes#FP.kMy/
+|producer-of=MALE:Don Hewitt|
+@19680924:1970:tue:2200:60min|host-of=MALE:Harry Reasoner,MALE:Mike Wallace|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@1970:1972:tue:2200:60min|host-of=MALE:Morley Safer,MALE:Mike Wallace|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@1972:1984:dim:1900:60min|host-of=MALE:Morley Safer,MALE:Mike Wallace|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@1984:1992:dim:1900:60min|
+host-of=MALE:Morley Safer,MALE:Mike Wallace,FEMALE:Diane Sawyer|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@1992:na:dim:1900:60min|host-of=MALE:Morley Safer,MALE:Mike Wallace|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+;_______________________________________________________________________________
+===local#A news*.z//
+====WCBS#®-TV#® news*.z//|NTSC|@19940101:na:mon¯fri:1700:90min|
+video-channel-of=WCBS-TV|
+====WNBC#®-TV#® news*.z//|NTSC|@19940101:na:mon¯fri:1700:90min|
+video-channel-of=WNBC-TV|
+====WNYW#®-TV#® news*.z//|NTSC|@19940101:na:mon¯fri:1700:60min|
+video-channel-of=WNYW-TV|
+====WABC#®-TV#® news*.z//|NTSC|@19940101:na:mon¯fri:1700:90min|
+video-channel-of=WABC-TV|
+====19-20-editions-regionales//19#®-20#® éditions#FP régionales#AFP.y/
+19#®\/20#® éditions#FP régionales#AFP.y/
+France#® 3#® local#A news*.z/|SECAM|@19940101:na:lun¯dim:1910:20min|
+host-of=FEMALE:Evelyne Thomas|
+video-channel-of=France-3-Paris-Ile-de-France-Centre|
+studio-of=BUILDING::28:cours#NM Albert# premier#A:75008:Paris::country-FRA|
+;_______________________________________________________________________________
+===national#A news*.z//
+====12#®-13*®.y//12#®\/13*®.®y/France#® 3#® news*.z/|SECAM|
+studio-of=BUILDING::28:cours#NM Albert# premier#A:75008:Paris::country-FRA|
+@19940101:19940601:lun¯dim:1245:15min|host-of=Anne-de-Coudenhove|
+video-channel-of=France-3|
+@19940601:na:lun¯dim:1245:15min|host-of=MALE:Marc Autheman|
+video-channel-of=France-3|
+====19#-20#.®My//19#\/20#.®My/France#® 3#® news*.z/|SECAM|
+studio-of=BUILDING::28:cours#NM Albert# premier#A:75008:Paris::country-FRA|
+@1991:1992:lun¯dim:1900:10min,1991:1992:lun¯dim:1930:25min|
+host-of=Paul-Amar|video-channel-of=France-3|
+@1992:19940601:lun¯dim:1900:10min,1992:19940601:lun¯dim:1930:25min|
+host-of=MALE:Marc Autheman,FEMALE:Elise Lucet|video-channel-of=France-3|
+@19940601:na:lun¯dim:1900:10min,19940601:na:lun¯dim:1930:25min|
+host-of=MALE:Eric Cachart,FEMALE:Elise Lucet|video-channel-of=France-3|
+;_______________________________________________________________________________
+===international#A news*.z//journal,journal* télévisé*A.My/
+====MacNeil#®\/Lehrer#® Newshour#®.z/national-news/
+MacNeil#®\/Lehrer#® Report#®.z/
+|NTSC|anchor-of=Robert-MacNeil,Jim-Lehrer|
+@1978:na:mon¯fri:1800:60min|closed-captioned|
+video-channel-of=PBS-East-Coast-feed,WLIW-TV|
+@1978:na:mon¯fri:1900:60min|delayed-with-updates|closed-captioned|
+video-channel-of=PBS-East-Coast-feed,WNET-TV|
+@1978:na:mon¯fri:1830:60min|delayed-with-updates|closed-captioned|
+video-channel-of=PBS-West-Coast-feed,KCET-TV|
+@1978:na:tue¯sat:0200:60min|delayed|closed-captioned|
+video-channel-of=PBS-East-Coast-feed,WNET-TV|
+====CBS#® Evening#®A News*®.z/national-news/CBS#® Television#®A News*®.oz/
+Douglas#® Edwards#® with#®R the#®D News*®.oz/|NTSC|
+@194603:196204|anchor-of=MALE:Douglas Edwards|
+@196204:19810306|anchor-of=MALE:Walter Cronkite|
+@19810306:1993|anchor-of=Dan-Rather|
+@1993:na|anchor-of=Dan-Rather,Connie-Chung|
+@19940515|anchor-of=MALE:John Roberts|
+@194603:19480815:sat:1930:15min|video-channel-of=WCBS-TV|
+@19480815:195112:mon¯fri:1930:15min|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@195112:196204:mon¯fri:1930:15min|
+video-channel-of=CBS-East-Coast-feed,CBS-West-Coast-feed,WCBS-TV|
+@196204:196309:mon¯fri:1830:15min|
+video-channel-of=CBS-East-Coast-feed,CBS-West-Coast-feed,WCBS-TV|
+@196309:na:mon¯fri:1830:30min|
+video-channel-of=CBS-East-Coast-feed,CBS-West-Coast-feed,WCBS-TV|
+@19931003:na:mon¯sun:1830:30min|
+closed-captioned|video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@19931003:na:lun¯dim:1900:30min|
+delayed-with-updates|closed-captioned|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@19931003:na:lun¯dim:1830:30min|
+delayed-with-updates|closed-captioned|
+video-channel-of=CBS-West-Coast-feed,KCBS-TV|
+@19931003:na:lun¯dim:0700:20min|NTSC-converted-to-SECAM|
+subtitle-language-of=F121|
+delayed|nonencrypted|video-channel-of=Canal-Plus|
+====NBC# News# broadcast*.®z/national-news/|NTSC|
+=====Camel# News# Caravan*.®z//|anchor-of=MALE:John Cameron Swayze|
+@194902:19561029:mon¯fri:1945:15min|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+=====Huntley# Brinkley# Report*.®z//
+|anchor-of=MALE:Chet Huntley,MALE:David Brinkley|
+@19561029:1964:mon¯fri:1945:15min|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@1964:19700731T190000-0500:mon¯fri:1830:30min|
+video-channel-of=NBC-East-Coast-feed,NBC-West-Coast-feed,WNBC-TV|
+=====NBC# Nightly#A News*.®z//
+|@19700801:197404|
+anchor-of=MALE:David Brinkley,MALE:John Chancellor,MALE:Frank McGee|
+@197404:198112|anchor-of=MALE:John Chancellor|@198112:na|anchor-of=Tom-Brokaw|
+@19700801:19931003:mon¯sun:1830:30min|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@19931003:na:mon¯sun:1830:30min|closed-captioned|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====ABC# World# News# Tonight*.®z/national-news/|NTSC|anchor-of=Peter-Jennings|
+@19931003:na:lun¯dim:1830:30min|closed-captioned|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====TF1# Journal*.My/national-news/TF# 1# Journal*.My/
+journal* de#R 20#A heures#FP de#R TF1#C.¹kMy/
+journal* de#R 20#A heures#FP de#R TF#C 1#.¹kMy/
+journal* de#R vingt#AFP heures#FP.kMy/journal* de#R 20#A heures#FP.kMy/
+vingt#A heures#FP.kMy/20#A heures#FP.kMy/
+édition* de#R 20#A heures#FP du#R journal#NM télévisé#AM.kFy/TF1# news*.¹z/
+TF# 1# news*.¹z/
+eight#A o#R'clock# news*.kz/eight#A o#R'clock# edition* of#R the#D news#.kz/
+|SECAM|@1987:na:lun¯dim:2000:35min|video-channel-of=TF1|anchor-of=PPDA|
+====France#F 2#M Journal*.®My/national-news/
+journal* de#R 20#A heures#FP d#R'France#F 2#.¹kMy/
+journal* de#R vingt#AFP heures#FP.kMy/
+journal* de#R 20#A heures#FP.kMy/vingt#A heures#FP.kMy/20#A heures#FP.kMy/
+édition* de#R 20#A heures#FP du#R journal#NM télévisé#AM.kFy/
+journal* de#R 20#A heures#FP d#R'Antenne#F 2#.okMy/France#® 2#® news*.¹z/
+eight#A o#R'clock# news*.kz/eight#A o#R'clock# edition* of#R the#D news#.kz/
+|SECAM|
+@1976:na:lun¯dim:2000:35min|video-channel-of=France-2|@1976:1983|anchor-of=PPDA|
+@1992:19940604|anchor-of=Paul-Amar|@199407:199408|anchor-of=Paul-Amar|
+@1992:na|anchor-of=Bruno-Masure|@19940604:na|anchor-of=MALE:Étienne Leenhardt|
+====France#F 2#M Journal* de#R treize#AFP heures#FP.®My/national-news/
+journal* de#R treize#AFP heures#FP.kMy/France#® 2#® midday#A news*.z/|SECAM|
+@19940101:na:lun¯dim:1300:35min|video-channel-of=France-2|
+;_______________________________________________________________________________
+==TV# series*.z//series.¹z/série.¹Fy/série* télévisée*A.Fy/
+===sci#-fi# series*.z//science#-fiction# series*.z/
+====sci-fi-series-V//V.®z/V.·®y/série* V#C®.Fy/|creator-of=MALE:Kenneth Johnson|
+product-release¤Warner-Bros|
+actor-of=FEMALE:Jane Badler,MALE:Mark Singer,FEMALE:Faye Grant|
+actor-of=FEMALE:June Chadwick|
+@19841026:19850712:fri:2000:60min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+=====V#® episode*.z//
+======Liberation# Day*.z//Le#D jour# de#R la#D libération#F.My/
+|writer-of=MALE:Paul Monash|director-of=MALE:Paul Krasny|
+@19841026T200000-0500:19841026T210000-0500|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@19850517T200000-0500:19850517T210000-0500|rerun|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@19870606T133000:19870606T143000|original-run|video-channel-of=France-2|
+====Quantum#® Leap*®.z//
+|@19931003:na:mon:1100:60min|rerun|video-channel-of=USA-Network|
+====The#D Twilight#® Zone*®.z//La#D quatrième#A dimension*.®Fy/
+|creator-of=MALE:Rod Serling|
+@19931003:na:mon:0200:30min|rerun|video-channel-of=WPIX-TV|
+====Thunderbirds.®Pïz//Thunderbirds# les#D sentinelles#F de#R l#DMS'air#MS.Py/
+|creator-of=MALE:Gerry Anderson,FEMALE:Sylvia Anderson|
+@19940430:na:sam:1610:30min|rerun|dubbed-in-French|video-channel-of=France-3|
+====Star#® Trek*®.z//
+=====TOS.az//Star#® Trek*®.z/Star#® Trek*®\: The#D Original#®A Series*®.z/
+|film-converted-to-NTSC|creator-of=MALE:Gene Roddenberry|
+=====TNG.az//Star#® Trek#®: The#D Next#®A Generation*®.z/
+|film-converted-to-NTSC|creator-of=MALE:Gene Roddenberry|
+@198711:199405:sun:2300:60min,198711:199405:sat:1900:60min|
+original-run|closed-captioned|video-channel-of=WPIX-TV|
+=====DSN.az//Star#® Trek#®: Deep#®A Space#® Nine#®A.z/|film-converted-to-NTSC|
+@199311:na:sun:1900:60min,199311:na:mon:0000:60min|original-run|
+closed-captioned|video-channel-of=WPIX-TV|
+===mystery# series*.z//
+====Columbo.®z//Columbo.®My/|film-converted-to-NTSC|actor-of=MALE:Peter Falk|
+@19931003:na:sun:1600:90min|rerun|video-channel-of=WNYW-TV|
+@19940727T204500:19940727T222500|rerun|dubbed-in-French|video-channel-of=TF1|
+====Matlock.®z//
+|@19931003:na:thu:2100:60min|original-run|closed-captioned|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+@19931003:na:mon¯fri:1105:60min|rerun|closed-captioned|
+video-channel-of=WTBS-TV|
+@19931003:na:mon¯fri:1500:60min|rerun|closed-captioned|
+video-channel-of=WWOR-TV|
+@19940430:na:sam:1555:50min|rerun|dubbed-in-French|video-channel-of=France-3|
+====Murder# She#H Wrote#V.®z//|film-converted-to-NTSC|
+actor-of=FEMALE:Angela Lansbury|
+@198610:na:sun:2000:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@19931003:na:mon¯fri:2000:60min|rerun|closed-captioned|
+video-channel-of=USA-Network|
+===adventure# series*.z//
+====A#®-Team*®.®z//|film-converted-to-NTSC|actor-of=Mister-T|
+@19931003:na:sun:1200:60min|rerun|video-channel-of=WWOR-TV|
+====Batman.®z//|actor-of=MALE:Adam West,MALE:Burt Ward,MALE:Alan Napier|
+actor-of=MALE:Neil Hamilton,MALE:Stafford Repp,FEMALE:Madge Blake|
+actor-of=FEMALE:Yvonne Craig,MALE:David Lewis,MALE:Byron Keith|
+executive-producer-of=MALE:William Dozier|narrator-of=MALE:William Dozier|
+producer-of=MALE:Howie Horwitz|
+@19660112:19680314:wed¯thu:2000:30min|original-run|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+@19931003:na:mon¯fri:1630:30min|rerun|video-channel-of=WNYW-TV|
+=====Batman#® episode*.z//
+======Hi# Diddle# Riddle*.z//Smack#B in#R the#D Middle*.z/
+|@19660112:19660113:wed¯thu:2000:30min|
+original-run|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+actor-of=MALE:Frank Gorshin,MALE:Michael Fox|;FEMALE:Jill St\. John,
+actor-of=MALE:Damian O'Flynn,MALE:Ben Astar,MALE:Jack Barry,MALE:Dick Reeves|
+actor-of=MALE:William Dozier|writer-of=MALE:Lorenzo Semple\, Jr\.|
+director-of=MALE:Robert Butler|production-number-of=6028u|
+======Fine#A Feathered#A Finks*.z//The#D Penguin#'s a#D Jinx*.z/
+|@19660119:19660120:wed¯thu:2000:30min|
+original-run|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+actor-of=MALE:Burgess Meredith,FEMALE:Leslie Parrish,MALE:Walter Burke|
+actor-of=MALE:Lewis Charles,MALE:Dan Tobin,MALE:David Lewis,MALE:Alex D'Arcy|
+actor-of=MALE:Johnny Jacobs,MALE:Robert Phillips|
+writer-of=MALE:Lorenzo Semple\, Jr\.|
+director-of=MALE:Robert Butler|production-number-of=8703u|
+======Joker# Is#V Wild*A.kz//Batman#® Is#V Riled*.z/
+|@19660126:19660127:wed¯thu:2000:30min|
+original-run|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+actor-of=MALE:Cesar Romero,FEMALE:Nancy Kovack,MALE:Jonathan Hole|
+actor-of=MALE:Merritt Bohn,MALE:Dick Curtis,MALE:Jerry Dunphy,MALE:Al Wyatt|
+actor-of=MALE:Angelo DeMeo|writer-of=MALE:Robert Dozier|
+director-of=MALE:Don Weis|production-number-of=8709u|
+====Baywatch.®z//
+|@19931003:na:sat:1900:60min|rerun|video-channel-of=WWOR-TV|
+====Charlie#®'s Angels#®.®z//
+|@19931003:na:mon¯fri:1100:60min|rerun|video-channel-of=TNT|
+====Get#® Smart#®.Éz//
+|@19931003:na:mon¯fri:2030:30min|rerun|video-channel-of=Nickelodeon|
+====Magnum-PI//Magnum#®\, P\.I\.#®.z/|film-converted-to-NTSC|
+====Mission#: Impossible#A.Éz//Mission# impossible#A.Fy/
+|@19940501:na:lun¯ven:1900:55min|rerun|dubbed-in-French|film-converted-to-SECAM|
+video-channel-of=M6|
+====Moonlighting.®Éz//
+|@19931003:na:mon¯fri:1500:60min|rerun|video-channel-of=Lifetime|
+====Rockford# Files#P.®Éz//
+|@19931003:na:mon¯fri:1300:60min|rerun|video-channel-of=A-and-E|
+====Superman.®Éz//
+|@19931003:na:mon:0000:30min|rerun|video-channel-of=Nickelodeon|
+@19931003:na:mon:0500:30min|video-channel-of=Nickelodeon|
+====Saint.®kz//Saint.®kMy/|actor-of=MALE:Roger Moore|
+@19940430:na:sam:1750:55min|rerun|dubbed-in-French|video-channel-of=M6|
+@19940718:na:lun¯ven:1325:55min|rerun|dubbed-in-French|video-channel-of=M6|
+====police# series*.z//
+=====Chips.®ÉPïz//
+|@19931003:na:mon¯fri:1000:60min|rerun|closed-captioned|video-channel-of=TNT|
+=====Dragnet.®Éz//
+|@19931003:na:mon¯fri:2100:30min|rerun|video-channel-of=Nickelodeon|
+@19931003:na:sun:2300:30min|rerun|video-channel-of=Nickelodeon|
+@19940101:na:lun¯ven:1900:55min|film-converted-to-SECAM|dubbed-in-French|
+video-channel-of=M6|
+===sitcom.z//situation# comedy*.z/sitcom.My/
+====Beverly#® Hills#P®\, 90210*®.Éz//
+|@19931003:na:wed:2000:60min|original-run|
+video-channel-of=Fox-East-Coast-feed,WNYW-TV|
+====Bewitched.®Éz//
+|@19931003:na:mon¯fri:0835:30min|rerun|video-channel-of=WTBS-TV|
+====Cheers.®Éz//
+|@19931003:na:mon¯fri:2300:30min|rerun|closed-captioned|
+video-channel-of=WPIX-TV|
+====Classe#® mannequin#M®.Fy//|SECAM|
+@19940430:19940718:sam¯dim:2000:30min|video-channel-of=M6|
+@19940718:na:lun¯ven:1730:30min|video-channel-of=M6|
+====Gilligan#®'s Island*®.z//
+|@19931003:na:mon¯fri:0805:30min|rerun|video-channel-of=WTBS-TV|
+====Happy#A Days#P.®Éz//
+|@19931003:na:mon¯fri:0905:30min|rerun|video-channel-of=WTBS-TV|
+====Mad#A About#R You#HP.®Éz//Dingue#AM de#R toi#H.y/
+|@19931003:na:thu:2000:30min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====Seinfeld.®Éz//
+|@19931003:na:thu:2100:30min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====Bob# Newhart# Show*.®kz//|actor-of=MALE:Bob Newhart|
+@19931003:na:sun¯fri:2230:30min|rerun|video-channel-of=Nickelodeon|
+====Dick# Van#R Dyke# Show#.®kz//|actor-of=MALE:Dick Van Dyke|
+@19931003:na:sun:2130:30min|rerun|video-channel-of=Nickelodeon|
+@19931003:na:mon¯fri:2300:30min|rerun|video-channel-of=Nickelodeon|
+====Three#'s Company#.®Éz//
+|@19931003:na:mon¯fri:0935:30min|rerun|video-channel-of=WTBS-TV|
+====I#H Love#V Lucy#.®Éz//|actor-of=FEMALE:Lucille Ball|
+@19931003:na:mon:0430:30min|rerun|video-channel-of=WTBS-TV|
+@19931003:na:mon:1300:30min|video-channel-of=WNYW-TV|
+====The#D Lucy# Show#.®z//|actor-of=FEMALE:Lucille Ball|
+@19931003:na:sun:2100:30min|rerun|video-channel-of=Nickelodeon|
+@19931003:na:mon:0130:30min|video-channel-of=Nickelodeon|
+@19931003:na:mon¯fri:2330:30min|rerun|video-channel-of=Nickelodeon|
+====The#D Partridge# Family#.®z//|actor-of=FEMALE:Shirley Jones|
+@19931003:na:mon¯fri:2000:30min|rerun|video-channel-of=Nickelodeon|
+====Married#A With#R Children#P.®z//|NTSC|
+actor-of=FEMALE:Amanda Bearse,MALE:David Garrison|
+actor-of=FEMALE:Christina Applegate,MALE:David Faustino|
+actor-of=FEMALE:Katey Sagal,MALE:Ed O'Neill,MALE:Gunther Jensen|
+@198707:na:sun:2000:30min|original-run|
+video-channel-of=Fox-East-Coast-feed,WNYW-TV|
+@198707:na:sun:2000:30min|video-channel-of=Fox-West-Coast-feed,KTTV-TV|
+====Murphy# Brown*.®z//
+|@19931003:na:mon:2100:30min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+@19931003:na:mon¯fri:2330:30min|rerun|closed-captioned|
+video-channel-of=WPIX-TV|
+====Northern#® Exposure*®.z//
+|@19931003:na:mon:2200:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+====Roseanne.®z//|actor-of=FEMALE:Roseanne Barr|
+@19931003:na:tue:2100:30min|original-run|video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====The#D Mary# Tyler# Moore# Show*.®z//|actor-of=FEMALE:Mary Tyler Moore|
+@19931003:na:sun¯fri:2200:30min|rerun|video-channel-of=Nickelodeon|
+@19931003:na:mon¯fri:2230:30min|rerun|video-channel-of=Nickelodeon|
+====Who#H's the#D Boss*.®z//Madame#F est#V servie#V.y/|NTSC|
+actor-of=MALE:Tony Danza,FEMALE:Judith Light,FEMALE:Alyssa Milano|
+@19931003:na:mon¯fri:1000:30min|rerun|video-channel-of=WWOR-TV|
+@19931003:na:mon¯fri:1030:30min|video-channel-of=WWOR-TV|
+@19940501:19940718:lun¯ven:2000:25min|rerun|dubbed-in-French|
+NTSC-converted-to-SECAM|
+@19940718:na:lun¯dim:2000:25min|rerun|dubbed-in-French|NTSC-converted-to-SECAM|
+video-channel-of=M6|
+;_______________________________________________________________________________
+===comedy# series*.z//
+====comedic#A puppet# series*.z//
+=====La#D semaine# des#RP Guignols#MP®.Fy//|SECAM|
+@19940501:na:dim:1335:30min|nonencrypted|video-channel-of=Canal-Plus|
+=====Le-bebete-show//Le#D bébête#A show*.My/|SECAM|
+@19940501:na:lun¯ven:1950:5min|video-channel-of=TF1|
+;_______________________________________________________________________________
+===dramatic# series*.z//
+====Lassie series//Lassie.z/Lassie.Fy/|actor-of=Lassie|
+====Little#A House# on#R the#D Prairie*.®z//
+La#D petite#A maison# dans#R la#D prairie#.Fy/
+|@19931003:na:mon¯fri:1005:60min|rerun|video-channel-of=WTBS-TV|
+@19940718:na:mon¯fri:1235:50min|rerun|dubbed-in-French|video-channel-of=M6|
+====Lois-and-Clark//Lois# &#K Clark#.®z/Loïs# et#K Clark#.®y/
+|film-converted-to-NTSC|
+actor-of=FEMALE:Teri Hatcher,MALE:Dean Cain,HUMAN:Lane Smith|
+@19931003:na:sun:2000:60min|original-run|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+@19931003:na:sun:2000:60min|original-run|
+video-channel-of=ABC-West-Coast-feed,KABC-TV|
+@19940517:na:mar:2050:55min|dubbed-in-French|NTSC-converted-to-SECAM|
+video-channel-of=M6|
+@19940517:na:mar:2145:55min|dubbed-in-French|NTSC-converted-to-SECAM|
+video-channel-of=M6|
+====LA-Law//L\.A\.#® Law#®.z/|film-converted-to-NTSC|
+@198610:na:thu:2200:60min|original-run|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+@198610:na:thu:2200:60min|original-run|
+video-channel-of=NBC-West-Coast-feed,KNBC-TV|
+@19931003:na:mon¯fri:2000:60min|rerun|video-channel-of=Lifetime|
+====St-Elsewhere//St\.#® Elsewhere#®.z/
+|@19931003:na:mon:0300:60min|rerun|video-channel-of=WPIX-TV|
+====Thirtysomething.®z//|film-converted-to-NTSC|
+@19931003:na:sun:1400:60min|rerun|video-channel-of=Lifetime|
+====My#D So#B-Called#B Life*.®z//MSCL.Tz/
+;_______________________________________________________________________________
+===dramedy.z//
+====MASH.®z//M\*A\*S\*H.®z/
+|@19931003:na:tue¯fri:0000:30min|rerun|video-channel-of=WNYW-TV|
+@19940516:na:lun:2000:25min,19940516:na:ven:2115:25min|rerun|
+video-channel-of=Canal-Jimmy|
+====Twin# Peaks#.®z//
+|@19931003:na:sun:2200:60min|rerun|closed-captioned|video-channel-of=Bravo|
+@19931003:na:mon:0430:60min|video-channel-of=Bravo|
+====Wonder# Years#P.®z//Les#D années# coup#MS de#R cÓur#MS.®FPy/
+|@19931003:na:mon¯fri:1730:30min|rerun|video-channel-of=WPIX-TV|
+@19940430:na:sam:1150:25min,19940430:na:dim:1135:25min|
+dubbed-in-French|rerun|video-channel-of=M6|
+;_______________________________________________________________________________
+==serial.z//feuilleton.¹My/
+===Le#D miel# et#K les#DP abeilles#FP.My//The#D Honey# and#K the#D Bees#P.z/
+|SECAM|@19940101:na:lun¯ven:1750:30min|original-run|video-channel-of=TF1|
+===Premiers*A baisers*.My//First#A Kisses#P.z/
+|SECAM|@19940705:na:lun¯ven:1820:30min|original-run|video-channel-of=TF1|
+===Helene-et-les-garcons//Hélène# et#K les#DP garçons#MP.y/
+Helen# and#K the#D Guys#P.z/
+|SECAM|@19940705:na:lun¯ven:1850:30min|original-run|video-channel-of=TF1|
+===Miracle* d#R'amour#.kMy//
+===Les-filles-d-a-cote//Les#DP filles#FP d#R'à#R côté#.My/
+The#D Girls#P Next#A-door#.y/
+|SECAM|@19940101:19940705:lun¯ven:1820:30min|original-run|video-channel-of=TF1|
+SECAM|@19940705:na:lun¯ven:1920:30min|original-run|video-channel-of=TF1|
+===soap# opera*.z//soap.z/
+====All#D My#D Children#P.®z//
+|@19931003:na:mon¯fri:1300:60min|original-run|closed-captioned|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====Another#® World*®.z//
+|@19931003:na:mon¯fri:1200:60min|original-run|closed-captioned|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====As#K® the#D® World#® Turns*®.z//
+|@196311:na:mon¯fri:1400:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+====East#A Enders#P.®z//
+====Days#P of#R Our#D Lives#P.®z//
+|@19931003:na:mon¯fri:1300:60min|original-run|closed-captioned|
+video-channel-of=NBC-East-Coast-feed,WNBC-TV|
+====General#® Hospital*®.z//GH.az/
+|@19931003:na:mon¯fri:1500:60min|original-run|closed-captioned|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+====Guilding#® Light*®.z//
+|@19520630:na:mon¯fri:1500:60min|original-run|
+video-channel-of=CBS-East-Coast-feed,WCBS-TV|
+====One-Life-to-Live//One#A Life# to#R Live#V ½.®z/
+|@19931003:na:mon¯fri:1400:60min|original-run|closed-captioned|
+video-channel-of=ABC-East-Coast-feed,WABC-TV|
+;_______________________________________________________________________________

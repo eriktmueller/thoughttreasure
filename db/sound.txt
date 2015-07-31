@@ -1,0 +1,97 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=animal#A sound*.z/sound/
+==barking#V dog*.z//
+==meowing#V cat*.z//
+;_______________________________________________________________________________
+=beep.z/sound/tone.z/top,bip.My/signal* sonore*A,top* sonore*A,bip* sonore*A.My/
+;_______________________________________________________________________________
+=ringing.z/sound/sonnerie.Fy/
+;_______________________________________________________________________________
+=call# progress# tone*.z/sound/audible#A tone# signal*.z/network# tone*.z/
+;_______________________________________________________________________________
+==precise#A tone*.z//
+==nonprecise#A tone*.z//
+;_______________________________________________________________________________
+==audible#A ring*.z//audible#A ringing*.z/ring.z/
+===old#A audible#A ring# tone*.z/nonprecise-tone/old#A audible#A ring*.z/
+old#A audible#A ringing*.z/|frequency-of=420hz|amplitude-modulation-of=40hz|
+time-on=2sec|time-off=4sec|
+===precise#A audible#A ring# tone*.z/precise-tone/precise#A audible#A ring*.z/
+precise#A audible#A ringing*.z/|frequency-of=440hz,480hz|time-on=2sec|time-off=4sec|
+;_______________________________________________________________________________
+==busy# verification# tone*.z//|frequency-of=440hz|
+===Centrex#® busy# verification# tone*.z//|time-on=1.5sec|
+===TSPS#® busy# verification# tone*.z//|time-on=2sec|
+;_______________________________________________________________________________
+==calling# card# service# prompt# tone*.z//calling# card# prompt# tone*.z/
+calling# card# tone*.z/bong.Tz/
+|frequency-of=941hz,1477hz|time-on=.06sec|frequency-of=440hz,350hz|
+time-on=.940sec|; todo
+;_______________________________________________________________________________
+==busy#A signal*.z//line# busy#A tone*,line# busy*.tz/engaged#A tone*.gz/
+busy#A-back#B tone*.otz/tonalité* occupé#AM.Fy/signal* pas#B libre#A.oMy/
+===precise#A line# busy#A tone*.z/precise-tone/precise#A line# busy*.z/
+|frequency-of=480hz,620hz|time-on=.5sec|time-off=.5sec|
+;_______________________________________________________________________________
+==call# waiting# tone*.z//|frequency-of=440hz|time-on=.3sec|
+;_______________________________________________________________________________
+==dialtone.z//dial# tone*.z/tonalité.Fy/bourdonnement.oMy/
+signal* de#R transmission#F.oMy/
+===precise#A dial# tone*.z/precise-tone/|frequency-of=350hz,440hz|
+;_______________________________________________________________________________
+==high#A tone*.z//
+===old#A high#A tone*.z/nonprecise-tone/
+====interrupter# high#A tone*.z//|frequency-of=400hz|
+====tone# alternator# high#A tone*.z//|frequency-of=500hz|
+===precise#A high#A tone*.z/precise-tone/|frequency-of=480hz|
+;_______________________________________________________________________________
+==low#A tone*.z//
+===old#A low#A tone*.z/dialtone,nonprecise-tone/old#A dial# tone*.z/
+|frequency-of=600hz|
+====interrupter# dial# tone*.z//interrupter# low#A tone*.z/
+|amplitude-modulation-of=133hz|
+=====local#A interrupter# reorder# tone*.z/reorder-tone/
+|time-on=.3sec|time-off=.2sec|
+=====toll#A interrupter# reorder# tone*.z/reorder-tone/
+|time-on=.2sec|time-off=.3sec|
+====tone# alternator# dial# tone*.z//tone# alternator# low#A tone*.z/
+|amplitude-modulation-of=120hz|
+=====local#A tone# alternator# reorder# tone*.z/reorder-tone/
+|time-on=.3sec|time-off=.2sec|
+=====toll#A tone# alternator# reorder# tone*.z/reorder-tone/
+|time-on=.2sec|time-off=.3sec|
+===precise#A low#A tone*.z/precise-tone/|frequency-of=480hz,620hz|
+;_______________________________________________________________________________
+==no#B such#D number# tone*.z//no#B such#D number*.z/cry#V baby*.tTz/
+erroneoid.aîz/
+;_______________________________________________________________________________
+==permanent#A signal*.z/high-tone/
+;_______________________________________________________________________________
+==ROH#N tone*.tz//receiver# off#R-hook*.z/ROH.tz/ROH#N tone# cadence*.tz/
+|time-on=.1sec|time-off=.1sec|
+===analog#A ROH*.z//old#A ROH*.z/|frequency-of=1400hz,2060hz,2450hz,2600hz|
+===digital#A ROH*.z//new#A ROH*.z/|frequency-of=1400hz,2260hz,2450hz,2600hz|
+;_______________________________________________________________________________
+==reorder# tone*.z//reorder.z/
+===precise#A reorder# tone*.z/precise-tone/precise#A reorder*.z/
+|frequency-of=480hz,620hz|time-on=.25sec|time-off=.25sec|
+;_______________________________________________________________________________
+==recorder# warning# tone*.z//|frequency-of=1400hz|time-on=.5sec|
+time-off=14.5sec|
+;_______________________________________________________________________________
+==special#A information# tone*.z//SIT.tz/
+===RO-prime-SIT//RO#'# SIT*.z/reorder#' SIT*.z/
+===VC# SIT*.z//vacant#A code# SIT*.z/
+===NC-prime-SIT//NC#' SIT*.z/no#B circuit#' SIT*.z/
+===IC# SIT*.z//intercept# SIT*.z/
+|frequency-of=913.8hz|time-on=.274sec|frequency-of=1370.6hz|time-on=.274sec|
+frequency-of=1776.7hz|time-on=.380sec|; todo
+===RO-prime-prime-SIT//RO#'' SIT*.z/reorder#'' SIT*.z/
+===NC-prime-prime-SIT//NC#'' SIT*.z/no#B circuit#'' SIT*.z/
+===IO# SIT*.z//ineffective#A other#H SIT*.z/
+===future#A SIT*.z//
+;_______________________________________________________________________________

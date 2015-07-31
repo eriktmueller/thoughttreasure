@@ -1,0 +1,150 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=communications#P channel*.z/electronic-device/communications#P line*.z/
+data# line*.z/data# circuit*,line.z/
+;_______________________________________________________________________________
+==network.z//computer# network*.z/digital#A network*.z/
+réseau.My/
+;_______________________________________________________________________________
+===electricity# network*.Àz//electrical#A network*.Àz/mains.gPïz/
+réseau* électrique*A.My/
+====electrical#A power*.z//electric#A power*.z/electrical#A service*.z/
+electric#A service*.z/electricity.z/power.z/wall# current*.z/
+wall# power*.z/courant.My/électricité.Fy/
+;_______________________________________________________________________________
+===cyberspace.Éz//cyberspace.y/
+===global#A village*.z//village* global*A.¹My/village* planétaire*A.My/
+|@1964|create¤Marshall-McLuhan|
+===information# highway*.z//information# superhighway*.z/info#-highway*.z/
+infohighway.z/I#-way*.z/infobahn.z/autoroute* de#R l#D'information#.¹Fy/
+autoroute* numérique*A.Fy/autoroute* électronique*A.Fy/infoduc.My/
+;_______________________________________________________________________________
+===Arpanet.kz//ARPANET.kz/Arpanet.¹ÉMy/ARPANET.ÉMy/|@1969|create¤DOD|
+===BITNET.Éz//BITNET.ÉMy/
+===Milnet.Éz//MILNET.Éz/Milnet.¹ÉMy/MILNET.ÉMy/
+===Intelink.Éz//Intelink.¹ÉMy/
+;_______________________________________________________________________________
+===Usenet.Éz//Usenet.ÉMy/
+|part-of¤STRING:Usenet-newsgroup:"alt.dcom.telecom"
+|part-of¤STRING:Usenet-newsgroup:"alt.dreams"
+|part-of¤STRING:Usenet-newsgroup:"comp.ai"
+|part-of¤STRING:Usenet-newsgroup:"comp.dcom.telecom"
+|part-of¤STRING:Usenet-newsgroup:"comp.risks"
+|part-of¤STRING:Usenet-newsgroup:"news.announce.newusers"
+|part-of¤STRING:Usenet-newsgroup:"news.answers"
+|part-of¤STRING:Usenet-newsgroup:"rec.arts.startrek.current"
+|part-of¤STRING:Usenet-newsgroup:"rec.autos.marketplace"
+|part-of¤STRING:Usenet-newsgroup:"rec.humor.funny"|
+;_______________________________________________________________________________
+===Internet.kz/cyberspace,global-village,information-highway/net.Tkz/
+Internet.¹ÉMy/Internet.kMy/Net,Réseau.kMy/
+====WWW//web.¹kz/Web,World# Wide# Web*,World#-Wide# Web*.kz/
+W3,WWW.z/Wcube.oz/toile.¹kFy/Toile.kFy/web.ky/
+====NSFNET.Éz//NSFNET# Backbone*.z/NSFNET.ÉMy/NSFnet.ÉMy/
+colonne* vertébrale* d#R'Internet#M.kFy/
+====Internet#A connection*.z//
+;_______________________________________________________________________________
+===Intranet.z//
+;_______________________________________________________________________________
+==terrestrial#A line*.z//
+===PSTN.z//DDD# network*.z/public#A switched#A telephone# network*.z/
+public#A switched#A phone# network*.z/réseau* téléphonique*A commuté*A.My/
+RTC.My/
+====ISDN# line*.z//ISDN.z/RNIS,ISDN,Numéris.y/
+=====BRI# line*.z//
+=====PRI# line*.z//
+====telephone# line*.z//phone# line*,line.z/end#A-office# line*.z/
+ligne* de#R téléphone#M.Fy/
+=====loop#-start#V line*.z//
+=====ground#-start#V line*.z//
+====telephone#A trunk*.z//trunk.z/
+=====CAMA# trunk*.z//
+=====DID# trunk*.z//
+=====E-and-M-trunk//E&M# trunk*.z/
+=====interoffice#A trunk*.z//
+=====reverse#-battery# trunk*.z//
+=====toll#-tandem# trunk*.z//
+===TAT.z//transatlantic#A cable*.z/
+===TV# cable*.z//cable.¹z/cable# TV*.z/câble.My/
+====Paragon#® Cable#® Manhattan#®.z//|NTSC|
+=====WCBS-TV-Paragon-Manhattan//|frequency-of=2usca|
+=====WNBC-TV-Paragon-Manhattan//|frequency-of=4usca|
+=====WNYW-TV-Paragon-Manhattan//|frequency-of=5usca|
+=====WABC-TV-Paragon-Manhattan//|frequency-of=7usca|
+=====WWOR-TV-Paragon-Manhattan//|frequency-of=9usca|
+=====WPIX-TV-Paragon-Manhattan//|frequency-of=11usca|
+=====WNET-TV-Paragon-Manhattan//|frequency-of=13usca|
+=====WLIW-TV-Paragon-Manhattan//|frequency-of=29usca|
+=====WNYE-TV-Paragon-Manhattan//|@19920101:na:lun¯dim:0600:18hrsÐ|
+frequency-of=6usca|
+=====WNYC-TV-Paragon-Manhattan//|frequency-of=3usca|
+=====WXTV-TV-Paragon-Manhattan//|frequency-of=12usca|
+=====WNJU-TV-Paragon-Manhattan//|frequency-of=8usca|
+=====TTC-Paragon-Manhattan//|@19920101:na:lun¯dim:0000:6hrsÐ|
+frequency-of=6usca|
+=====CNBC-Paragon-Manhattan//|frequency-of=10usca|
+=====MSG-Paragon-Manhattan//|frequency-of=10usca|
+=====TWC-Paragon-Manhattan//|frequency-of=10usca|
+=====CUNY-TV-Paragon-Manhattan//|frequency-of=14usca|
+=====TNT-Paragon-Manhattan//|frequency-of=15usca|
+=====ESPN-Paragon-Manhattan//|frequency-of=18usca|
+=====SportsChannel-Paragon-Manhattan//|frequency-of=19usca|
+=====BET-Paragon-Manhattan//|frequency-of=19usca|
+=====USA-Paragon-Manhattan//|frequency-of=20usca|
+=====SportsChannel-Plus-Paragon-Manhattan//|frequency-of=20usca|
+=====Showtime-Paragon-Manhattan//|frequency-of=21usca|
+=====HBO-Paragon-Manhattan//|frequency-of=22usca|
+=====TDC-Paragon-Manhattan//|frequency-of=23usca|
+=====CNN-Paragon-Manhattan//|frequency-of=24usca|
+=====CSPAN-Paragon-Manhattan//|frequency-of=25usca|
+=====TBS-Paragon-Manhattan//|frequency-of=26usca|
+=====Nickelodeon-Paragon-Manhattan//|frequency-of=27usca|
+=====Bravo-Paragon-Manhattan//|frequency-of=27usca|
+=====A-and-E-Paragon-Manhattan//|frequency-of=28usca|
+=====MTV-Paragon-Manhattan//|frequency-of=30usca|
+=====Cinemax-Paragon-Manhattan//|frequency-of=32usca|
+==RF# broadcast*.z/electromagnetism/radio# broadcast*.z/
+hertzien.Ay/réseau* hertzien*A.My/
+===TV# land# broadcast*.z//
+====diffusion-de-la-tour-Eiffel//|polity-of=7arr|SECAM|
+=====TF1-Paris-tour-Eiffel//|frequency-of=25frch|nonencrypted|Ceefax|mono|
+=====France-2-Paris-tour-Eiffel//|frequency-of=22frch|nonencrypted|Ceefax|mono|
+=====France-3-Paris-tour-Eiffel//|frequency-of=28frch|nonencrypted|Ceefax|mono|
+=====Canal-Plus-Paris-tour-Eiffel//|frequency-of=6frch|nonencrypted|
+encrypted|stereo|
+=====Arte-Paris-tour-Eiffel//|@19940101:na:lun¯dim:1700:8hrsÐ|
+frequency-of=30frch|nonencrypted|mono|
+=====M6-Paris-tour-Eiffel//|frequency-of=33frch|nonencrypted|mono|
+====Los-Angeles-broadcast//|polity-of=city-Los-Angeles-CA-USA|NTSC|nonencrypted|stereo|
+=====KCBS-TV-LA-land-broadcast//|frequency-of=2usch|
+=====KNBC-TV-LA-land-broadcast//|frequency-of=4usch|
+=====KTLA-TV-LA-land-broadcast//|frequency-of=5usch|
+=====KABC-TV-LA-land-broadcast//|frequency-of=7usch|
+=====KHJ-TV-LA-land-broadcast//|frequency-of=9usch|
+=====KTTV-TV-LA-land-broadcast//|frequency-of=11usch|
+=====KCOP-TV-LA-land-broadcast//|frequency-of=13usch|
+=====KSCI-TV-LA-land-broadcast//|frequency-of=18usch|
+=====KWHY-TV-LA-land-broadcast//|frequency-of=22usch|
+=====KCET-TV-LA-land-broadcast//|frequency-of=28usch|
+=====KMEX-TV-LA-land-broadcast//|frequency-of=34usch|
+=====KTBN-TV-LA-land-broadcast//|frequency-of=40usch|
+=====KVEA-TV-LA-land-broadcast//|frequency-of=52usch|
+=====KLCS-TV-LA-land-broadcast//|frequency-of=58usch|
+====World-Trade-Center-broadcast//|polity-of=Lower-West-Side|NTSC|
+nonencrypted|stereo|
+=====WCBS-TV-World-Trade-Center//|frequency-of=2usch|
+=====WNBC-TV-World-Trade-Center//|frequency-of=4usch|
+=====WNYW-TV-World-Trade-Center//|frequency-of=5usch|
+=====WABC-TV-World-Trade-Center//|frequency-of=7usch|
+=====WWOR-TV-World-Trade-Center//|frequency-of=9usch|
+=====WPIX-TV-World-Trade-Center//|frequency-of=11usch|
+=====WNET-TV-World-Trade-Center//|frequency-of=13usch|
+=====WLIW-TV-World-Trade-Center//|frequency-of=21usch|
+=====WNYE-TV-World-Trade-Center//|frequency-of=25usch|
+=====WNYC-TV-World-Trade-Center//|frequency-of=31usch|
+=====WXTV-TV-World-Trade-Center//|frequency-of=41usch|
+=====WNJU-TV-World-Trade-Center//|frequency-of=47usch|
+;_______________________________________________________________________________

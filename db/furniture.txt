@@ -1,0 +1,169 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=furniture.mz/physical-object/|free-object|humanmade|
+==microphone# mounting# equipment*.z//
+===microphone# boom*.z//perche.Fy/
+;_______________________________________________________________________________
+==small#A-container#-type# furniture*.z/small-container/container.z/pot.My/
+===basket.z//corbeille.Fy/
+====picnic# basket*.z//panier* à#R pique#F-nique#M.My/
+====gift# basket*.z/gift/
+===bottle.z//bouteille.Fy/
+====decanter.z//carafe,carafe* à#R décanter#V.Fy/
+===bucket.z//pail.z/seau.My/
+===container-drum//drum.z/bidon.My/
+===container-can//can.z/bidon.My/
+===flask.z//bidon.My/
+===food-can//can.¹z/tin.¹gz/boîte* de#R conserve#.¹Fy/
+===garbage# can*.Àz//dustbin.gz/poubelle.Fy/
+===storage-pan//pan.Àz/tin.gz/boîte.Fy/
+===jar.z//pot.My/
+===container-tin//tin.z/
+====gift# tin*.z/gift/
+===trash# can*.z//trash# container*,trash# receptacle*,trash.z/poubelle.Fy/
+;_______________________________________________________________________________
+==platform.z//estrade.Fy/tribune.Fy/
+===pulpit.z//chaire.Fy/
+;_______________________________________________________________________________
+==table.z//table.Fy/|humanmade|light-brown|can-lift|topological-genus-of=2u|
+weight-of=52lbs|height-of=29in|width-of=30in|length-of=60in|
+===altar.z//autel.My/
+===counter.z//comptoir.My/
+===dining# table*.z//dining# room# table*.z/table* de#R salle# à#R manger#V.Fy/
+|used-at=dining-room|used-for=eat-meal|
+===examination# table*.z//exam# table*.Tz/
+===hot#A table*.z//
+===kitchen# table*.z//table* de#R cuisine#.@Fy/|used-at=kitchen|
+used-for=eat-meal,prepare-meal|
+===night# table*.z//table* de#R nuit#.Fy/|used-at=bedroom|used-for=read-book|
+===coffee# table*.z//table* basse*A.Fy/petite*A table* basse*A.Fy/
+|used-at=living-room|
+===desk.z//bureau.My/|used-at=office,bedroom|
+===gate#-leg# table*.z//table* à#R abattants#MP.Fy/
+===extension# table*.z//table* à#R rallonges#P.Fy/
+===nest* of#R tables#P.z//tables* gigognes*A.FPïy/
+===restaurant# table*.z//
+===serving# cart*.Àz//serving# trolley*.gz/desserte.Fy/
+;_______________________________________________________________________________
+==bed.z//lit.My/
+==*Martine-bed//|owner-of=Martine|
+==*Jim-bed//|owner-of=Jim|
+==*Martine-Mom-Dad-bed//|owner-of=Martine-Dad,Martine-Mom|
+==*Bertie-bed//|owner-of=Bertie|
+==*Lin-bed//|owner-of=Lin|
+;_______________________________________________________________________________
+==storage# furniture*.z//meuble* de#R rangement#M.Fy/
+===armoire.z//armoire.Fy/
+===buffet.Àz//sideboard.gz/buffet.My/
+===chiffonier.z//chiffonnier.My/
+===cocktail# cabinet*.z//bar.My/
+===corner# cupboard*.z//encoignure.Fy/
+===display# cabinet*.z//vitrine.Fy/
+===drawer.z//tiroir.My/
+====cutlery# drawer*.z//tiroir* à#R couverts#NMP.My/
+====desk# drawer*.z//tiroir* de#R bureau#MM.My/
+===furniture-dresser//dresser.Àz/chest* of#R drawers#P.gz/bureau.îz/commode.Fy/
+===glass#-fronted#A display# cabinet*.z//buffet*-vaisselier*.My/
+===linen# chest*.z//coffre.My/
+===furniture-secretary//secretary.Àz/bureau.gz/secrétaire.My/
+===wardrobe.z//armoire*-penderie*.Fy/
+;_______________________________________________________________________________
+==chair.z//seat.z/chaise.Fy/
+;_______________________________________________________________________________
+===seat.z//siège.My/
+;_______________________________________________________________________________
+====airplane# seat*.z/one-person-chair/airline# seat*.z/
+=====business#-class# airplane# seat*.z//business#-class# airline# seat*.z/
+business#-class# seat*.z/
+=====coach# airplane# seat*.z//coach# airline# seat*.z/coach# seat*.z/
+=====first#-class# airplane# seat*.z//first#-class# airline# seat*.z/
+first#-class# seat*.z/
+;_______________________________________________________________________________
+====theater# seat*.z/one-person-chair/
+=====orchestra# seat*.z//fauteuil* d#R'orchestre#M.My/
+=====balcony# seat*.z//fauteuil* de#R balcon#M.My/
+=====movie# theater# seat*.z//
+;_______________________________________________________________________________
+====bus# seat*.z//
+====stadium-stand//stand.z/stands.Pïz/tribunes.FPïy/|part-of¤seat|
+====train# seat*.z/one-person-chair/
+;_______________________________________________________________________________
+===armchair.z//fauteuil.My/
+;_______________________________________________________________________________
+===one#A-person# chair*.qz//chair.¹z/
+====bergere/armchair/bergère.z/bergère.Fy/
+====cabriolet.z/armchair/cabriolet.My/
+====classroom# chair*.z//
+====dental#A chair*.z//dentist#'s chair*.z/
+=====Belmont# 019# chair*.z//
+=====Weber# Multi#A-lounge*.z//
+=====Dentaleze# chair*.z//
+====director#'s chair*.z/armchair/fauteuil* metteur# en#R scène#F.My/
+====ergonomic#A chair*.z//
+====hairdresser-chair//hairdresser#'s chair*.z/
+====Wassily# chair*.z/armchair/fauteuil* Wassily#.My/
+====rocking# chair*.z//
+=====rocking# chair* with#R arms#P.z/armchair/rocking# chair*.z/berceuse.Fy/
+rocking#j-chair*j.My/
+=====rocking# chair* without#R arms#P.z//rocking# chair*.z/
+chaise* berçante*A.Fy/
+====club# chair*.z/armchair/fauteuil* club#.My/
+=====leather# club# chair*.z//|leather|
+======red# leather# club# chair*.z//|red|
+====ottoman.z/seat/pouf.My/
+====bean# bag# chair*.z/seat/beanbag# chair*.z/beanbag.z/fauteuil*-sac*.My/
+====bar# stool*.z/seat/stool.z/tabouret*-bar#.My/
+====footstool.z/seat/tabouret.My/
+====step# chair*.z//chaise*-escabeau#M.Fy/
+====side# chair*.z//chaise.Fy/
+====folding# chair*.z//chaise* pliante*A.Fy/
+====chaise# longue*.z//chaise* longue*.z/chaise# lounge*.z/chaise* longue*A.Fy/
+====stacking#S chairs*.Pïz//chaises* empilables*A.FPïy/
+;_______________________________________________________________________________
+===multiple#A-person# chair*.z//
+;_______________________________________________________________________________
+====banquette.z/seat/banquette.Fy/
+====bench.z/seat/banc.My/
+=====pew.z//banc,banc* d#R'église#NF.My/
+=====stall.z//stalle.Fy/
+======choir# stall*.z//choirstall.z/stalle.Fy/
+====bleachers.ÀPïz/seat/terraces.gPïz/gradins,gradins* découverts*A.MPïy/
+====chesterfield.z//canapé* capitonné*A.My/
+====meridienne//méridienne.jz/méridienne.Fy/
+====recamier//récamier.jz/récamier.My/
+;_______________________________________________________________________________
+====love# seat*.Àz//two#A-seater# settee*.gz/causeuse.Fy/
+=====leather# love# seat*.z//|leather|
+======red# leather# love# seat*.z//|red|
+;_______________________________________________________________________________
+====sofa.z//couch.z/canapé.My/divan.My/
+=====sofa# bed*.z/bed/sofabed.z/hide#V-a#D-bed# sofa*.z/
+hide#V-a#D-bed# couch*.z/hide#V-a#D-bed*.Tz/sofa# hide#V-a#D-bed*.z/
+canapé*-lit*.My/
+;_______________________________________________________________________________
+==shelf.z//étagère.Fy/
+===store-shelf//shelf.z/rayon.My/
+===bookshelf.z//étagère.Fy/rayon* de#R bibliothèque#F.My/
+===bookcase.z//bibliothèque.Fy/
+===clothing# shelf*.z//étagère.Fy/
+==shower# door*.z//
+===shower# curtain*.z/curtain/
+===folding#A shower# door*.z//porte* coulissante*A.Fy/
+;_______________________________________________________________________________
+==mirror.z//miroir.My/
+==carpet.z//tapis.My/
+==doormat.z//paillasson.My/
+==rug-mat//mat.z/petit*A tapis*.My/
+==rug.z//petit*A tapis*.My/
+==shower# stall*.z//cabine* de#R douche#.Fy/|fixed-object|
+==soap# dish*.z//porte#V-savon*.My/
+==tissue# holder*.z//porte#V-rouleau*.My/|fixed-object|
+==towel# rack*.z//towel# bar*.z/porte#V-serviettes#FP.ßMy/|fixed-object|
+===heated#A towel# rack*.z/heat-production-device/
+==tub# platform*.z//banquette.Fy/|fixed-object|
+==vanity# cabinet*.z/closet/coiffeuse.Fy/
+==toilet# seat*.z//seat.qz/abattant.My/
+;_______________________________________________________________________________

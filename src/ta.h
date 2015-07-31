@@ -1,0 +1,27 @@
+/* ta.c */
+Attribution *AttributionCreate(Obj *speaker, Ts *ts, char *emmn);
+void AttributionPrint(FILE *stream, Attribution *a);
+Bool TA_ValueName1(char *phrase, Obj *class, HashTable *ht, Float *value);
+Bool TA_ValueName(char *phrase, Obj *class, Float *value);
+Bool TA_ValueNameInt(char *phrase, Obj *class, int *value);
+Bool TA_ValueNameTod(char *phrase, Obj *class, Tod *value);
+Bool TA_ValueRangeName1(char *phrase, Obj *class, HashTable *ht, Float *min_value, Float *max_value);
+Bool TA_FilterOut(Obj *obj, char *feat);
+Bool LexEntryFilterOut(LexEntry *le);
+Bool IndexEntryAllFilterOut(IndexEntry *ie);
+ObjList *TA_FindPhrase(HashTable *ht, char *phrase, Obj *class);
+ObjList *TA_FindPhraseTryBoth(HashTable *ht, char *phrase, Obj *class);
+ObjList *TA_FindPhraseBoth(char *phrase, Obj *class);
+ObjList *TA_FindPhraseForwards(char *s, Obj *superclass, int numwords, Discourse *dc, char **nextp);
+Obj *TA_FindPhraseForward(char *s, Obj *superclass, int numwords, Discourse *dc, char **nextp);
+Obj *TA_FindPhraseBackward(char *start, char *base, Obj *superclass, int numwords, Discourse *dc);
+Obj *TA_FindNearbyClassClue(char *start, char *end, char *base, Obj *superclass, Discourse *dc);
+Bool TA_StartLineArticle(char *in, Discourse *dc, Channel *ch, char **nextp);
+void TA_ScanLineBegin(Channel *ch, Discourse *dc);
+void TA_ScanWordBegin(Channel *ch, Discourse *dc);
+void TA_ScanAnywhere(Channel *ch, Discourse *dc);
+void TA_ScanPNodePatterns1(Channel *ch, Discourse *dc);
+void TA_ScanPNodePatterns2(Channel *ch, Discourse *dc);
+void TA_ScanPNodePatterns3(Channel *ch, Discourse *dc);
+void TA_ScanPNodePatterns4(Channel *ch, Discourse *dc);
+void TA_Scan(Channel *ch, Discourse *dc);

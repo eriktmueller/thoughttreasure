@@ -1,0 +1,23 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=photographic#A equipment*.z/physical-object/photo# equipment*.z/
+;_______________________________________________________________________________
+==camera.z//
+===SLR.z//
+===35mm# camera*.z//
+===digital#A camera*.z//
+;_______________________________________________________________________________
+==camera# mounting# equipment*.z//
+===tripod.z//trépied.My/
+===tripod# dolly*.z//tripod.z/trépied* de#R caméra#F.My/
+===studio# pedestal*.z//pedestal.z/camera# pedestal*.z/pied*-support*.My/
+===panoram# dolly*.z//petite*A grue*.Fy/
+===boom# dolly*.z//studio# crane*.z/grue.Fy/
+====motor#-driven#V studio# crane*.z//crab# dolly*.z/
+;_______________________________________________________________________________
+==lens.z//objectif.My/lentille.Fy/
+===zoom# lens*.z//zoom.My/
+;_______________________________________________________________________________

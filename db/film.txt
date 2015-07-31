@@ -1,0 +1,67 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+; MRBEGIN
+;_______________________________________________________________________________
+=part* of#R film#.z/media-object/part* of#R movie#.Àz/
+==film-titles//titles,credits.Pïz/
+===opening#A titles*.Pïz//opening#A credits*.Pïz/
+===closing#A titles*.Pïz//closing#A credits*.Pïz/
+==film-climax//climax.z/point* culminant*A.My/
+==scene.z//scène.Fy/
+==denouement.z//dénouement.z/dénouement.My/
+==film-trailer//trailer,preview.z/coming#S attractions*.ÎPïz/
+bande*-annonce*.Fy/
+;_______________________________________________________________________________
+=film.z/media-object/movie.Àz/motion# picture*.tz/film.My/cinéma.My/
+septième*A art*.ÎkMy/
+;_______________________________________________________________________________
+=-film-length-contrast//
+===feature# film*.z//feature#A-length# film*.z/full#A-length# film*.z/
+feature.Tz/long*A métrage*.My/
+===medium#A-length# film*.z//moyen*A métrage*.My/
+===short#A film*.z//short.Tz/court*A métrage*.My/
+;_______________________________________________________________________________
+=-film-budget-contrast//
+===blockbuster.z//
+===B#-movie*.z//low#A budget*.Tz/
+;_______________________________________________________________________________
+=-film-genre//
+===action# film*.z//action# movie*.Àz/
+===adventure# film*.z//adventure# movie*.Àz/
+===animated#A film*.z//animated#A movie*.Àz/
+===*Hunchback* of#R Notre#Dj Dame#Nj.kz/feature-film/|@1996|
+MPAA-rating-of=MPAA-G|product-release¤Disney|
+===cinema-verite//cinema# vérité*j.z/cinéma*-verité#F ½.My/cinéma* direct*.My/
+===comedy-film//comedy.z/
+====black-comedy-film//
+===documentary# film*.qz//documentary.z/
+===drama-film//drama.z/
+===*film-Titanic//Titanic.Éz/|@1997|director-of=MALE:"James Cameron"|
+===*RDP/feature-film/Rendezvous# in#R Paris#.Éz/
+Rendez#VP-Vous#HP de#R Paris#S.MPïy/|@1992|director-of=MALE:"Eric Rohmer"|
+[actor-of RDP FEMALE:"Clara Bellar" na]|
+[actor-of RDP MALE:"Antoine Basler" na]|
+[actor-of RDP MALE:"Mathias Megard" na]|
+[actor-of RDP FEMALE:"Aurore Rauscher" na]|
+product-release¤na|
+===fantasy# film*.z//fantasy.z/
+===film# noir*.z//noirish.Az/
+===horror# film*.z//horror# movie*.Àz/
+===musical-film//musical#A film*.z/musical.z/
+===mystery-film//mystery.z/
+====murder-mystery-film//murder# mystery*.z/
+===science# fiction# film*.z//science# fiction# movie*.Àz/science# fiction*.z/
+===slasher# film*.z//slasher# movie*.Àz/
+===sports#P film*.z//sports#P movie*.Àz/
+===thriller-film//thriller.z/
+;_______________________________________________________________________________
+; Albert Maysles
+=*Carnaval.My//|director-of=Henri-Verneuil|
+actor-of=Fernandel,FEMALE:Jacqueline Pagnol,FEMALE:Mireille Perrey|
+@19940526T205000:19940526T222500|video-channel-of=France-3|
+@1953|product-release¤na|
+; MREND
+;_______________________________________________________________________________

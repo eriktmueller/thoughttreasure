@@ -1,0 +1,571 @@
+19960204154104: TT shell interpreting line <tt -f ../scripts/test.ttsh>
+19960204154104: !!!! reading ../scripts/test.ttsh
+19960204154104: Entering TT shell
+19960204154104: 41767 objects
+19960204154104: TT shell interpreting line <wf2e -file ../scripts/In_wordform2>
+19960204154104: !!!! reading ../scripts/In_wordform2
+DERIVE <computerette>
+19960204154104: !!!! <computerette>.<zU> similar to <computerette>.<zB>
+>DERIVE <computere>
+19960204154104: !!!! <computere>.<zU> similar to <computere>.<zB>
+>****ASSERTED [fanciful computerette NUMBER:u:0.55]
+/computer/+/ette/ -> /computerette/ <computerette>
+****ASSERTED [big computerette2443 NUMBER:u:-0.55]
+/computer/+/ette/ -> /computerette/ <computerette2443>
+DERIVED <computerette>
+DERIVE <miniserver>
+19960204154104: !!!! <miniserver>.<zU> similar to <miniserver>.<zB>
+>DERIVE <miniserve>
+19960204154104: !!!! <miniserve>.<zU> similar to <miniserve>.<zB>
+>>DERIVE <miniserv>
+19960204154104: !!!! <miniserv>.<zU> similar to <miniserv>.<zB>
+>>DERIVE <serv>
+19960204154104: !!!! <serv>.<zU> similar to <serv>.<zB>
+>>>****ASSERTED [big miniserver NUMBER:u:-0.55]
+/mini/+/server/ -> /miniserver/ <miniserver>
+DERIVED <miniserver>
+DERIVE <miniserverette>
+19960204154104: !!!! <miniserverette>.<zU> similar to <miniserverette>.<zB>
+>DERIVE <miniservere>
+19960204154104: !!!! <miniservere>.<zU> similar to <miniservere>.<zB>
+>>DERIVE <servere>
+19960204154104: !!!! <servere>.<zU> similar to <servere>.<zB>
+>>>****ASSERTED [fanciful miniserverette NUMBER:u:0.55]
+/miniserver/+/ette/ -> /miniserverette/ <miniserverette>
+****ASSERTED [big miniserverette2444 NUMBER:u:-0.55]
+/miniserver/+/ette/ -> /miniserverette/ <miniserverette2444>
+>DERIVE <serverette>
+19960204154105: !!!! <serverette>.<zU> similar to <serverette>.<zB>
+****ASSERTED [fanciful serverette NUMBER:u:0.55]
+>/server/+/ette/ -> /serverette/ <serverette>
+****ASSERTED [big serverette2445 NUMBER:u:-0.55]
+>/server/+/ette/ -> /serverette/ <serverette2445>
+>DERIVED <serverette>
+****ASSERTED [big miniserverette2446 NUMBER:u:-0.55]
+/mini/+/serverette/ -> /miniserverette/ <miniserverette2446>
+****ASSERTED [big miniserverette2447 NUMBER:u:-0.55]
+/mini/+/serverette/ -> /miniserverette/ <miniserverette2447>
+DERIVED <miniserverette>
+DERIVE <superstupid>
+19960204154105: !!!! <superstupid>.<zU> similar to <superstupid>.<zB>
+>DERIVE <superstupe>
+19960204154105: !!!! <superstupe>.<zU> similar to <superstupe>.<zB>
+>>DERIVE <stupe>
+19960204154105: !!!! <stupe>.<zU> similar to <stupe>.<zB>
+>>>>DERIVE <superstup>
+19960204154105: !!!! <superstup>.<zU> similar to <superstup>.<zB>
+>>DERIVE <stup>
+19960204154105: !!!! <stup>.<zU> similar to <stup>.<zB>
+>>>>DERIVE <stupy>
+19960204154105: !!!! <stupy>.<zU> similar to <stupy>.<zB>
+>/super/+/stupid/ -> /superstupid/ <intelligent>
+DERIVED <superstupid>
+DERIVE <megaintelligent>
+19960204154105: !!!! <megaintelligent>.<zU> similar to <megaintelligent>.<zB>
+>DERIVE <megaintellige>
+19960204154105: !!!! <megaintellige>.<zU> similar to <megaintellige>.<zB>
+>>DERIVE <intellige>
+19960204154105: !!!! <intellige>.<zU> similar to <intellige>.<zB>
+>>>DERIVE <tellige>
+19960204154105: !!!! <tellige>.<zU> similar to <tellige>.<zB>
+>>>>>>>DERIVE <megaintellig>
+19960204154105: !!!! <megaintellig>.<zU> similar to <megaintellig>.<zB>
+>>DERIVE <intellig>
+19960204154105: !!!! <intellig>.<zU> similar to <intellig>.<zB>
+>>>DERIVE <tellig>
+19960204154105: !!!! <tellig>.<zU> similar to <tellig>.<zB>
+>>>>>>/mega/+/intelligent/ -> /megaintelligent/ <intelligent>
+DERIVED <megaintelligent>
+DERIVE <supercarefully>
+19960204154105: !!!! <supercarefully>.<zU> similar to <supercarefully>.<zB>
+>DERIVE <supercarefull>
+19960204154105: !!!! <supercarefull>.<zU> similar to <supercarefull>.<zB>
+>>DERIVE <carefull>
+19960204154105: !!!! <carefull>.<zU> similar to <carefull>.<zB>
+>>>>DERIVE <supercareful>
+19960204154105: !!!! <supercareful>.<zU> similar to <supercareful>.<zB>
+>/super/+/careful/ -> /supercareful/ <careful>
+>DERIVED <supercareful>
+/supercareful/+/ly/ -> /supercarefully/ <careful>
+/super/+/carefully/ -> /supercarefully/ <careful>
+DERIVED <supercarefully>
+DERIVE <workstationphobe>
+19960204154105: !!!! <workstationphobe>.<zU> similar to <workstationphobe>.<zB>
+>DERIVE <workstationp>
+19960204154105: !!!! <workstationp>.<zU> similar to <workstationp>.<zB>
+>****ASSERTED [like workstationphobe workstation NUMBER:u:-1]
+/workstation/+/phobe/ -> /workstationphobe/ <workstationphobe>
+DERIVED <workstationphobe>
+DERIVE <Spanishphone>
+19960204154105: !!!! <Spanishphone>.<zU> similar to <Spanishphone>.<zB>
+>DERIVE <Spanishp>
+19960204154105: !!!! <Spanishp>.<zU> similar to <Spanishp>.<zB>
+>****ASSERTED [fluent-language-of Spanishphone espagnol]
+/Spanish/+/phone/ -> /Spanishphone/ <Spanishphone>
+DERIVED <Spanishphone>
+DERIVE <serverfest>
+19960204154105: !!!! <serverfest>.<zU> similar to <serverfest>.<zB>
+>DERIVE <serverf>
+19960204154105: !!!! <serverf>.<zU> similar to <serverf>.<zB>
+>****ASSERTED [association-of serverfest server]
+/server/+/fest/ -> /serverfest/ <serverfest>
+DERIVED <serverfest>
+DERIVE <Rooseveltese>
+19960204154105: !!!! <Rooseveltese>.<zU> similar to <Rooseveltese>.<zB>
+>DERIVE <Roosevelte>
+19960204154105: !!!! <Roosevelte>.<zU> similar to <Roosevelte>.<zB>
+>****ASSERTED [official-language-of Roosevelt Rooseveltese]
+/Roosevelt/+/ese/ -> /Rooseveltese/ <Rooseveltese>
+DERIVED <Rooseveltese>
+DERIVE <Newarkspeak>
+19960204154105: !!!! <Newarkspeak>.<zU> similar to <Newarkspeak>.<zB>
+****ASSERTED [official-language-of Newark Newarkspeak]
+/Newarks/+/speak/ -> /Newarkspeak/ <Newarkspeak>
+****ASSERTED [official-language-of Newark Newarkspeak2448]
+/Newark/+/speak/ -> /Newarkspeak/ <Newarkspeak2448>
+DERIVED <Newarkspeak>
+DERIVE <softwarephile>
+19960204154105: !!!! <softwarephile>.<zU> similar to <softwarephile>.<zB>
+>DERIVE <softwarephy>
+19960204154105: !!!! <softwarephy>.<zU> similar to <softwarephy>.<zB>
+>>DERIVE <softwareph>
+19960204154105: !!!! <softwareph>.<zU> similar to <softwareph>.<zB>
+>>>>DERIVE <softwarephi>
+19960204154105: !!!! <softwarephi>.<zU> similar to <softwarephi>.<zB>
+>>DERIVE <softwar>
+19960204154105: !!!! <softwar>.<zU> similar to <softwar>.<zB>
+>>DERIVE <softwa>
+19960204154105: !!!! <softwa>.<zU> similar to <softwa>.<zB>
+>>>>DERIVE <softw>
+19960204154105: !!!! <softw>.<zU> similar to <softw>.<zB>
+>>>****ASSERTED [like softwarephile computer-program]
+/software/+/phile/ -> /softwarephile/ <softwarephile>
+DERIVED <softwarephile>
+DERIVE <Margaritaphobe>
+19960204154105: !!!! <Margaritaphobe>.<zU> similar to <Margaritaphobe>.<zB>
+>DERIVE <Margarit>
+19960204154105: !!!! <Margarit>.<zU> similar to <Margarit>.<zB>
+>****ASSERTED [like Margaritaphobe Margarita NUMBER:u:-1]
+/Margarita/+/phobe/ -> /Margaritaphobe/ <Margaritaphobe>
+****ASSERTED [like Margaritaphobe2449 spfgn-Margarita NUMBER:u:-1]
+/Margarita/+/phobe/ -> /Margaritaphobe/ <Margaritaphobe2449>
+DERIVED <Margaritaphobe>
+DERIVE <catologist>
+19960204154105: !!!! <catologist>.<zU> similar to <catologist>.<zB>
+>DERIVE <catologe>
+19960204154105: !!!! <catologe>.<zU> similar to <catologe>.<zB>
+>>DERIVE <catolog>
+19960204154105: !!!! <catolog>.<zU> similar to <catolog>.<zB>
+>>DERIVE <cate>
+19960204154105: !!!! <cate>.<zU> similar to <cate>.<zB>
+>****ASSERTED [specialty-of catologist cat]
+/cat/+/ologist/ -> /catologist/ <catologist>
+****ASSERTED [specialty-of catologist2450 cat]
+/cat/+/ologist/ -> /catologist/ <catologist2450>
+DERIVED <catologist>
+DERIVE <catologistize>
+19960204154105: !!!! <catologistize>.<zU> similar to <catologistize>.<zB>
+>DERIVE <catologisti>
+19960204154105: !!!! <catologisti>.<zU> similar to <catologisti>.<zB>
+>/catologist/+/ize/ -> /catologistize/ <catologist2450>
+/catologist/+/ize/ -> /catologistize/ <catologist>
+/catologist/+/ize/ -> /catologistize/ <catologist2450>
+/catologist/+/ize/ -> /catologistize/ <catologist>
+DERIVED <catologistize>
+DERIVE <barkathon>
+19960204154105: !!!! <barkathon>.<zU> similar to <barkathon>.<zB>
+/bark/+/thon/ -> /barkathon/ <barkathon>
+/bark/+/thon/ -> /barkathon/ <barkathon2451>
+/bark/+/thon/ -> /barkathon/ <barkathon2452>
+>DERIVE <barka>
+19960204154105: !!!! <barka>.<zU> similar to <barka>.<zB>
+>DERIVED <barkathon>
+DERIVE <coolarama>
+19960204154105: !!!! <coolarama>.<zU> similar to <coolarama>.<zB>
+>DERIVE <coola>
+19960204154105: !!!! <coola>.<zU> similar to <coola>.<zB>
+>/cool/+/rama/ -> /coolarama/ <good>
+/cool/+/rama/ -> /coolarama/ <cool>
+DERIVED <coolarama>
+DERIVE <guiltridden>
+19960204154105: !!!! <guiltridden>.<zU> similar to <guiltridden>.<zB>
+>DERIVE <guiltridde>
+19960204154106: !!!! <guiltridde>.<zU> similar to <guiltridde>.<zB>
+>>DERIVE <guiltridd>
+19960204154106: !!!! <guiltridd>.<zU> similar to <guiltridd>.<zB>
+>>DERIVE <guiltr>
+19960204154106: !!!! <guiltr>.<zU> similar to <guiltr>.<zB>
+>/guilt/+/ridden/ -> /guiltridden/ <guilt>
+DERIVED <guiltridden>
+DERIVE <hypercircumspectly>
+19960204154106: !!!! <hypercircumspectly>.<zU> similar to <hypercircumspectly>.<zB>
+>DERIVE <hypercircumspectl>
+19960204154106: !!!! <hypercircumspectl>.<zU> similar to <hypercircumspectl>.<zB>
+>>DERIVE <circumspectl>
+19960204154106: !!!! <circumspectl>.<zU> similar to <circumspectl>.<zB>
+>>>>DERIVE <hypercircumspect>
+19960204154106: !!!! <hypercircumspect>.<zU> similar to <hypercircumspect>.<zB>
+>/hyper/+/circumspect/ -> /hypercircumspect/ <reckless>
+>/hyper/+/circumspect/ -> /hypercircumspect/ <reckless>
+>DERIVED <hypercircumspect>
+>DERIVE <circumspectly>
+19960204154106: !!!! <circumspectly>.<zU> similar to <circumspectly>.<zB>
+>/circumspect/+/ly/ -> /circumspectly/ <reckless>
+>DERIVED <circumspectly>
+/hypercircumspect/+/ly/ -> /hypercircumspectly/ <reckless>
+/hypercircumspect/+/ly/ -> /hypercircumspectly/ <reckless>
+/hyper/+/circumspectly/ -> /hypercircumspectly/ <reckless>
+/hyper/+/circumspectly/ -> /hypercircumspectly/ <reckless>
+DERIVED <hypercircumspectly>
+DERIVE <inquisitivity>
+19960204154106: !!!! <inquisitivity>.<zU> similar to <inquisitivity>.<zB>
+>DERIVE <inquisitivite>
+19960204154106: !!!! <inquisitivite>.<zU> similar to <inquisitivite>.<zB>
+>>DERIVE <inquisitiv>
+19960204154106: !!!! <inquisitiv>.<zU> similar to <inquisitiv>.<zB>
+>>>DERIVE <quisitiv>
+19960204154106: !!!! <quisitiv>.<zU> similar to <quisitiv>.<zB>
+>>>>>>>DERIVE <quisitivite>
+19960204154106: !!!! <quisitivite>.<zU> similar to <quisitivite>.<zB>
+>>>DERIVE <quisitive>
+19960204154106: !!!! <quisitive>.<zU> similar to <quisitive>.<zB>
+>>>>>>>DERIVE <inquisitivit>
+19960204154106: !!!! <inquisitivit>.<zU> similar to <inquisitivit>.<zB>
+>>DERIVE <quisitivit>
+19960204154106: !!!! <quisitivit>.<zU> similar to <quisitivit>.<zB>
+>>>>DERIVE <inquisitivy>
+19960204154106: !!!! <inquisitivy>.<zU> similar to <inquisitivy>.<zB>
+>>DERIVE <quisitivy>
+19960204154106: !!!! <quisitivy>.<zU> similar to <quisitivy>.<zB>
+>>>>DERIVE <inquisitivi>
+19960204154106: !!!! <inquisitivi>.<zU> similar to <inquisitivi>.<zB>
+>>DERIVE <quisitivi>
+19960204154106: !!!! <quisitivi>.<zU> similar to <quisitivi>.<zB>
+>>>/inquisitive/+/ity/ -> /inquisitivity/ <curious>
+>DERIVE <quisitivity>
+19960204154106: !!!! <quisitivity>.<zU> similar to <quisitivity>.<zB>
+>DERIVED <inquisitivity>
+DERIVE <inquisitivitify>
+19960204154106: !!!! <inquisitivitify>.<zU> similar to <inquisitivitify>.<zB>
+>DERIVE <inquisitiviti>
+19960204154106: !!!! <inquisitiviti>.<zU> similar to <inquisitiviti>.<zB>
+>>DERIVE <quisitivitus>
+19960204154106: !!!! <quisitivitus>.<zU> similar to <quisitivitus>.<zB>
+>>>>DERIVE <inquisitivitife>
+19960204154106: !!!! <inquisitivitife>.<zU> similar to <inquisitivitife>.<zB>
+>>DERIVE <quisitivitife>
+19960204154106: !!!! <quisitivitife>.<zU> similar to <quisitivitife>.<zB>
+>>>>DERIVE <inquisitivitif>
+19960204154106: !!!! <inquisitivitif>.<zU> similar to <inquisitivitif>.<zB>
+>>DERIVE <quisitivitif>
+19960204154106: !!!! <quisitivitif>.<zU> similar to <quisitivitif>.<zB>
+>>>>DERIVE <quisitivitify>
+19960204154106: !!!! <quisitivitify>.<zU> similar to <quisitivitify>.<zB>
+>/inquisitivity/+/fy/ -> /inquisitivitify/ <curious>
+/inquisitivity/+/fy/ -> /inquisitivitify/ <curious>
+DERIVED <inquisitivitify>
+DERIVE <faithfuldom>
+19960204154106: !!!! <faithfuldom>.<zU> similar to <faithfuldom>.<zB>
+>DERIVE <faithfuld>
+19960204154106: !!!! <faithfuld>.<zU> similar to <faithfuld>.<zB>
+>/faithful/+/dom/ -> /faithfuldom/ <faithful>
+DERIVED <faithfuldom>
+DERIVE <cluelessville>
+19960204154106: !!!! <cluelessville>.<zU> similar to <cluelessville>.<zB>
+>DERIVE <cluelessvill>
+19960204154106: !!!! <cluelessvill>.<zU> similar to <cluelessvill>.<zB>
+>>DERIVE <cluelessvil>
+19960204154106: !!!! <cluelessvil>.<zU> similar to <cluelessvil>.<zB>
+>/clueless/+/sville/ -> /cluelessville/ <intelligent>
+>DERIVE <clueles>
+19960204154106: !!!! <clueles>.<zU> similar to <clueles>.<zB>
+>>DERIVE <cluel>
+19960204154106: !!!! <cluel>.<zU> similar to <cluel>.<zB>
+>>>/clueless/+/ville/ -> /cluelessville/ <intelligent>
+DERIVED <cluelessville>
+DERIVE <litigiouster>
+19960204154106: !!!! <litigiouster>.<zU> similar to <litigiouster>.<zB>
+>DERIVE <litigiouste>
+19960204154106: !!!! <litigiouste>.<zU> similar to <litigiouste>.<zB>
+>>DERIVE <litigioust>
+19960204154106: !!!! <litigioust>.<zU> similar to <litigioust>.<zB>
+>>DERIVE <litigiou>
+19960204154106: !!!! <litigiou>.<zU> similar to <litigiou>.<zB>
+>/litigious/+/ster/ -> /litigiouster/ <litigious>
+DERIVED <litigiouster>
+DERIVE <litigiousteress>
+19960204154106: !!!! <litigiousteress>.<zU> similar to <litigiousteress>.<zB>
+>DERIVE <litigioustere>
+19960204154106: !!!! <litigioustere>.<zU> similar to <litigioustere>.<zB>
+>****ASSERTED [female litigiousteress]
+/litigiouster/+/ess/ -> /litigiousteress/ <litigiousteress>
+DERIVED <litigiousteress>
+DERIVE <misanthropicard>
+19960204154106: !!!! <misanthropicard>.<zU> similar to <misanthropicard>.<zB>
+>DERIVE <misanthropice>
+19960204154106: !!!! <misanthropice>.<zU> similar to <misanthropice>.<zB>
+>/misanthropic/+/ard/ -> /misanthropicard/ <misanthropic>
+DERIVED <misanthropicard>
+DERIVE <pretentiousify>
+19960204154106: !!!! <pretentiousify>.<zU> similar to <pretentiousify>.<zB>
+>DERIVE <pretentiousy>
+19960204154106: !!!! <pretentiousy>.<zU> similar to <pretentiousy>.<zB>
+>>DERIVE <pretentiouse>
+19960204154106: !!!! <pretentiouse>.<zU> similar to <pretentiouse>.<zB>
+>>>>DERIVE <pretentiousi>
+19960204154106: !!!! <pretentiousi>.<zU> similar to <pretentiousi>.<zB>
+>>DERIVE <pretentiousife>
+19960204154106: !!!! <pretentiousife>.<zU> similar to <pretentiousife>.<zB>
+>>DERIVE <pretentiousif>
+19960204154106: !!!! <pretentiousif>.<zU> similar to <pretentiousif>.<zB>
+>/pretentious/+/ify/ -> /pretentiousify/ <pretentious>
+/pretentious/+/ify/ -> /pretentiousify/ <pretentious>
+DERIVED <pretentiousify>
+DERIVE <truize>
+19960204154106: !!!! <truize>.<zU> similar to <truize>.<zB>
+>DERIVE <tru>
+19960204154106: !!!! <tru>.<zU> similar to <tru>.<zB>
+>/true/+/ize/ -> /truize/ <correct>
+/true/+/ize/ -> /truize/ <true>
+/true/+/ize/ -> /truize/ <correct>
+/true/+/ize/ -> /truize/ <true>
+DERIVED <truize>
+DERIVE <silken>
+19960204154106: !!!! <silken>.<zU> similar to <silken>.<zB>
+>DERIVE <silke>
+19960204154106: !!!! <silke>.<zU> similar to <silke>.<zB>
+>/silk/+/en/ -> /silken/ <silk>
+/silk/+/en/ -> /silken/ <silk>
+/silk/+/en/ -> /silken/ <silk>
+DERIVED <silken>
+DERIVE <silkenation>
+19960204154107: !!!! <silkenation>.<zU> similar to <silkenation>.<zB>
+>DERIVE <silkenate>
+19960204154107: !!!! <silkenate>.<zU> similar to <silkenate>.<zB>
+>>DERIVE <silkene>
+19960204154107: !!!! <silkene>.<zU> similar to <silkene>.<zB>
+>>>/silken/+/ate/ -> /silkenate/ <silk>
+>DERIVED <silkenate>
+/silkenate/+/ion/ -> /silkenation/ <silk>
+>DERIVE <silkenat>
+19960204154107: !!!! <silkenat>.<zU> similar to <silkenat>.<zB>
+>/silken/+/ation/ -> /silkenation/ <silk>
+/silken/+/ation/ -> /silkenation/ <silk>
+/silken/+/ation/ -> /silkenation/ <silk>
+/silken/+/ation/ -> /silkenation/ <silk>
+/silken/+/ation/ -> /silkenation/ <silk>
+/silken/+/ation/ -> /silkenation/ <silk>
+DERIVED <silkenation>
+DERIVE <hotelesque>
+19960204154107: !!!! <hotelesque>.<zU> similar to <hotelesque>.<zB>
+>DERIVE <hotele>
+19960204154107: !!!! <hotele>.<zU> similar to <hotele>.<zB>
+>>DERIVE <hote>
+19960204154107: !!!! <hote>.<zU> similar to <hote>.<zB>
+>>>/hotel/+/esque/ -> /hotelesque/ <hotel>
+DERIVED <hotelesque>
+DERIVE <Dorchesterian>
+19960204154107: !!!! <Dorchesterian>.<zU> similar to <Dorchesterian>.<zB>
+>DERIVE <Dorchestere>
+19960204154107: !!!! <Dorchestere>.<zU> similar to <Dorchestere>.<zB>
+>>DERIVE <Dorchesterie>
+19960204154107: !!!! <Dorchesterie>.<zU> similar to <Dorchesterie>.<zB>
+>/Dorchester/+/ie/ -> /Dorchesterie/ <Dorchester>
+>DERIVED <Dorchesterie>
+>DERIVE <Dorchesteri>
+19960204154107: !!!! <Dorchesteri>.<zU> similar to <Dorchesteri>.<zB>
+>/Dorchester/+/ian/ -> /Dorchesterian/ <Dorchester>
+/Dorchesterie/+/an/ -> /Dorchesterian/ <Dorchester>
+DERIVED <Dorchesterian>
+DERIVE <bungalowoid>
+19960204154107: !!!! <bungalowoid>.<zU> similar to <bungalowoid>.<zB>
+>DERIVE <bungalowe>
+19960204154107: !!!! <bungalowe>.<zU> similar to <bungalowe>.<zB>
+>>DERIVE <bungalowoe>
+19960204154107: !!!! <bungalowoe>.<zU> similar to <bungalowoe>.<zB>
+>>DERIVE <bungalowo>
+19960204154107: !!!! <bungalowo>.<zU> similar to <bungalowo>.<zB>
+>/bungalow/+/oid/ -> /bungalowoid/ <bungalow>
+DERIVED <bungalowoid>
+DERIVE <microcomputerist>
+19960204154107: !!!! <microcomputerist>.<zU> similar to <microcomputerist>.<zB>
+>DERIVE <microcomputere>
+19960204154107: !!!! <microcomputere>.<zU> similar to <microcomputere>.<zB>
+>/microcomputer/+/ist/ -> /microcomputerist/ <personal-computer>
+>DERIVE <computerist>
+19960204154107: !!!! <computerist>.<zU> similar to <computerist>.<zB>
+>/computer/+/ist/ -> /computerist/ <computer>
+>/computer/+/ist/ -> /computerist/ <computer>
+>DERIVED <computerist>
+****ASSERTED [big microcomputerist NUMBER:u:-0.55]
+/micro/+/computerist/ -> /microcomputerist/ <microcomputerist>
+/microcomputer/+/ist/ -> /microcomputerist/ <personal-computer>
+DERIVED <microcomputerist>
+DERIVE <skyscraperfashion>
+19960204154107: !!!! <skyscraperfashion>.<zU> similar to <skyscraperfashion>.<zB>
+>DERIVE <skyscraperfashi>
+19960204154107: !!!! <skyscraperfashi>.<zU> similar to <skyscraperfashi>.<zB>
+>>DERIVE <skyscraperfash>
+19960204154107: !!!! <skyscraperfash>.<zU> similar to <skyscraperfash>.<zB>
+>>DERIVE <skyscraperf>
+19960204154107: !!!! <skyscraperf>.<zU> similar to <skyscraperf>.<zB>
+>/skyscraper/+/fashion/ -> /skyscraperfashion/ <skyscraper>
+DERIVED <skyscraperfashion>
+DERIVE <Karenster>
+19960204154107: !!!! <Karenster>.<zU> similar to <Karenster>.<zB>
+>DERIVE <Karenste>
+19960204154107: !!!! <Karenste>.<zU> similar to <Karenste>.<zB>
+>>DERIVE <Karenst>
+19960204154107: !!!! <Karenst>.<zU> similar to <Karenst>.<zB>
+>/Karens/+/ster/ -> /Karenster/ <aafgn-Karen>
+/Karen/+/ster/ -> /Karenster/ <aafgn-Karen>
+DERIVED <Karenster>
+DERIVE <telephonemania>
+19960204154107: !!!! <telephonemania>.<zU> similar to <telephonemania>.<zB>
+>DERIVE <telephon>
+19960204154107: !!!! <telephon>.<zU> similar to <telephon>.<zB>
+>/telephone/+/mania/ -> /telephonemania/ <telephonemania>
+/telephone/+/mania/ -> /telephonemania/ <telephonemania2453>
+/telephone/+/mania/ -> /telephonemania/ <telephonemania2454>
+DERIVED <telephonemania>
+DERIVE <gardenify>
+19960204154107: !!!! <gardenify>.<zU> similar to <gardenify>.<zB>
+>DERIVE <gardeny>
+19960204154107: !!!! <gardeny>.<zU> similar to <gardeny>.<zB>
+>>DERIVE <gardene>
+19960204154107: !!!! <gardene>.<zU> similar to <gardene>.<zB>
+>>>/garden/+/y/ -> /gardeny/ <exterior-area-yard>
+>/garden/+/y/ -> /gardeny/ <garden>
+>/garden/+/y/ -> /gardeny/ <exterior-area-yard>
+>/garden/+/y/ -> /gardeny/ <garden>
+>DERIVED <gardeny>
+>DERIVE <gardeni>
+19960204154107: !!!! <gardeni>.<zU> similar to <gardeni>.<zB>
+>>DERIVE <gardenife>
+19960204154107: !!!! <gardenife>.<zU> similar to <gardenife>.<zB>
+>>DERIVE <gardenif>
+19960204154107: !!!! <gardenif>.<zU> similar to <gardenif>.<zB>
+>/gardeny/+/fy/ -> /gardenify/ <garden>
+/gardeny/+/fy/ -> /gardenify/ <exterior-area-yard>
+/garden/+/ify/ -> /gardenify/ <exterior-area-yard>
+/garden/+/ify/ -> /gardenify/ <garden>
+/gardeny/+/fy/ -> /gardenify/ <garden>
+/gardeny/+/fy/ -> /gardenify/ <exterior-area-yard>
+/garden/+/ify/ -> /gardenify/ <exterior-area-yard>
+/garden/+/ify/ -> /gardenify/ <garden>
+DERIVED <gardenify>
+DERIVE <gardenification>
+19960204154107: !!!! <gardenification>.<zU> similar to <gardenification>.<zB>
+>DERIVE <gardenificate>
+19960204154107: !!!! <gardenificate>.<zU> similar to <gardenificate>.<zB>
+>>DERIVE <gardenifice>
+19960204154107: !!!! <gardenifice>.<zU> similar to <gardenifice>.<zB>
+>>>>DERIVE <gardenific>
+19960204154107: !!!! <gardenific>.<zU> similar to <gardenific>.<zB>
+>>/garden/+/ific/ -> /gardenific/ <exterior-area-yard>
+>>/garden/+/ific/ -> /gardenific/ <garden>
+>>DERIVED <gardenific>
+>>DERIVE <gardenificat>
+19960204154107: !!!! <gardenificat>.<zU> similar to <gardenificat>.<zB>
+>/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <exterior-area-yard>
+/gardenify/+/cation/ -> /gardenification/ <garden>
+>DERIVE <gardenifi>
+19960204154108: !!!! <gardenifi>.<zU> similar to <gardenifi>.<zB>
+>DERIVED <gardenification>
+DERIVE <suggestence>
+19960204154108: !!!! <suggestence>.<zU> similar to <suggestence>.<zB>
+>DERIVE <suggeste>
+19960204154108: !!!! <suggeste>.<zU> similar to <suggeste>.<zB>
+>/suggest/+/ence/ -> /suggestence/ <suggest>
+/suggest/+/ence/ -> /suggestence/ <suggest>
+/suggest/+/ence/ -> /suggestence/ <suggest>
+/suggest/+/ence/ -> /suggestence/ <suggest>
+/suggest/+/ence/ -> /suggestence/ <suggest>
+/suggest/+/ence/ -> /suggestence/ <suggest>
+DERIVED <suggestence>
+DERIVE <spination>
+19960204154108: !!!! <spination>.<zU> similar to <spination>.<zB>
+>DERIVE <spinate>
+19960204154108: !!!! <spinate>.<zU> similar to <spinate>.<zB>
+>>DERIVE <spine>
+19960204154108: !!!! <spine>.<zU> similar to <spine>.<zB>
+>>>>DERIVE <spinat>
+19960204154108: !!!! <spinat>.<zU> similar to <spinat>.<zB>
+>/spin/+/ation/ -> /spination/ <spin>
+/spin/+/ation/ -> /spination/ <spin>
+/spin/+/ation/ -> /spination/ <spin>
+DERIVED <spination>
+DERIVE <educatancy>
+19960204154108: !!!! <educatancy>.<zU> similar to <educatancy>.<zB>
+/educate/+/ancy/ -> /educatancy/ <educate>
+/educate/+/ancy/ -> /educatancy/ <educate>
+/educate/+/ancy/ -> /educatancy/ <educate>
+>DERIVE <educat>
+19960204154108: !!!! <educat>.<zU> similar to <educat>.<zB>
+>/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+>DERIVE <educatanc>
+19960204154108: !!!! <educatanc>.<zU> similar to <educatanc>.<zB>
+>/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+/educatancy/+/y/ -> /educatancy/ <educate>
+DERIVED <educatancy>
+DERIVE <stayer>
+19960204154108: !!!! <stayer>.<zU> similar to <stayer>.<zB>
+>DERIVE <staye>
+19960204154108: !!!! <staye>.<zU> similar to <staye>.<zB>
+>/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+/stay/+/er/ -> /stayer/ <stay>
+DERIVED <stayer>
+DERIVE <predictant>
+19960204154108: !!!! <predictant>.<zU> similar to <predictant>.<zB>
+>DERIVE <predicta>
+19960204154108: !!!! <predicta>.<zU> similar to <predicta>.<zB>
+>/predict/+/ant/ -> /predictant/ <predict>
+/predict/+/ant/ -> /predictant/ <predict>
+/predict/+/ant/ -> /predictant/ <predict>
+DERIVED <predictant>
+DERIVE <winkee>
+19960204154108: !!!! <winkee>.<zU> similar to <winkee>.<zB>
+>DERIVE <winke>
+19960204154108: !!!! <winke>.<zU> similar to <winke>.<zB>
+>/wink/+/ee/ -> /winkee/ <wink>
+/wink/+/ee/ -> /winkee/ <wink>
+/wink/+/ee/ -> /winkee/ <wink>
+DERIVED <winkee>
+19960204154108: Time spent on command = 4 seconds
+19960204154108: Time spent on command = 4 seconds
+19960204154911: TT shell interpreting line <quit>

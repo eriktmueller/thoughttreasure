@@ -1,0 +1,104 @@
+;**********************
+; SIMULATION
+;**********************
+;logclear
+; SHOWER SIMULATION
+;simul -lang z -dcout outshowe.txt -lang y -dialect ? -dcout outshowf.txt
+;3
+;pop
+;**********************
+;simul
+;6
+;pop
+;**********************
+; JUXTAPOSITION
+;**********************
+; RED BALL
+;lexentryjuxt -lang z -dcout outrede.txt -lang y -dialect ? -dcout outredf.txt
+;red
+;ball
+;pop
+;**********************
+; DATA EXTRACTION
+;**********************
+; TA GRAB BAG
+;dbg -flags all -level detail
+;parse -runsyn 0 -dcin ../examples/inta.txt -dcout outta.txt
+;dbg -flags synsem -level off
+; TWO USENET CLASSIFIEDS
+;parse -runsyn 0 -dcin ../examples/inexta.txt -dcout outexta.txt
+; FIAT SPYDER QA
+;dbg -flags sem -level detail
+;parse -dcin ../examples/inextb.txt -outsem 1 -outana 1 -outund 1 -dcout outextle.txt -lang y -dialect ? -parain 1 -echoin 0 -outsem 0 -outana 0 -outund 0 -dcout outextsf.txt
+; PARSING AUTOMOBILE NAMES
+;parse -runsyn 0 -dcin /home/corpus/english/usenet199510/rec.autos.marketplace -dcout outauto.txt
+;**********************
+; SYNTAX+SEMANTICS
+;**********************
+; ADJECTIVE DISAMBIGUATION
+;parse -dcin ../examples/inadjd.txt -runana 0 -outsem 1 -dcout outadjd.txt
+;validate -new outadjd.txt -old ../examples/outadjd.txt
+;**********************
+; SYNTAX+SEMANTICS+ANAPHORA
+;**********************
+; INTENSIONS
+;parse -dcin ../examples/inint1.txt -runund 0 -outsem 1 -outana 1 -dcout outint1.txt
+;validate -new outint1.txt -old ../examples/outint1.txt
+;parse -dcin ../examples/inint2.txt -runund 0 -outsem 1 -outana 1 -dcout outint2.txt
+;**********************
+; SYNTAX+SEMANTICS+ANAPHORA+UNDERSTANDING
+;**********************
+; FACT (SAMPLE CHATTERBOT CONVERSATION)
+; ENGLISH+FRENCH
+;parse -dcin ../examples/infct.txt -outsem 1 -outana 1 -outund 1 -dcout outfctle.txt -lang y -dialect ? -parain 1 -echoin 0 -outsem 0 -outana 0 -outund 0 -dcout outfctlf.txt
+; ENGLISH ONLY
+parse -dcin ../examples/infct.txt -outsem 1 -outana 1 -outund 1 -dcout outfctle.txt
+;validate -new outfctle.txt -old ../examples/outfctle.txt
+; APPOINTMENT
+;parse -dcin ../examples/inap.txt -outsem 1 -outana 1 -outund 1 -dcout outaple.txt -lang y -dialect ? -parain 1 -echoin 0 -outsem 0 -outana 0 -outund 0 -dcout outapsf.txt
+;validate -new outaple.txt -old ../examples/outaple.txt
+;validate -new outapsf.txt -old ../examples/outapsf.txt
+; SLEEP STORY
+;parse -speaker Karen -dcin ../examples/inss.txt -outsem 1 -outana 1 -outund 1 -dcout outssle.txt -lang y -dialect ? -parain 1 -echoin 0 -outsem 0 -outana 0 -outund 0 -dcout outsssf.txt
+;validate -new outssle.txt -old ../examples/outssle.txt
+;validate -new outsssf.txt -old ../examples/outsssf.txt
+; PERUTZ STORY
+;parse -dcin ../examples/inper.txt -outsem 1 -outana 1 -outund 1 -dcout outperse.txt
+;validate -new outperse.txt -old ../examples/outperse.txt
+; MOVIE REVIEW UNDERSTANDING
+;dbg -flags synsem -level detail
+; QUESTIONS REGARDING DATABASE
+;parse -dcin ../examples/inmr1.txt -outsem 1 -outana 1 -outund 1 -dcout outmr1le.txt
+; PARSING RATINGS
+;parse -dcin ../examples/inmr2.txt -outsem 1 -outana 1 -outund 1 -dcout outmr2le.txt
+; PARSING REVIEW AND QA
+;parse -dcin ../examples/inmr3.txt -outsem 1 -outana 1 -outund 1 -dcout outmr3le.txt
+; CHILD MICROWORLD
+;dbg -flags sem -level hyper
+;parse -dcin ../examples/inchild.txt -outsem 1 -outana 1 -outund 1 -dcout outchild.txt
+;**********************
+; OTHER MODULES
+;**********************
+; WORD FORMATION
+;parse -dcin ../examples/inwf1.txt -outsem 1 -outana 0 -outund 1 -dcout outwf1.txt
+;wf2e -file ../examples/inwf2.txt
+; TUTOYER/EMOTIONS
+;parse -dcin ../examples/intut.txt -translate 1 -outsem 1 -outana 1 -outund 1 -dcout outtutse.txt -lang y -dialect ? -parain 1 -echoin 0 -outsem 0 -outana 0 -outund 0 -dcout outtutsf.txt
+;**********************
+; TABLE
+;**********************
+; COUNTRY CODES
+;parse -dcin ../examples/intab.txt -dcout outtab.txt
+;**********************
+; DATA GATHERING
+;**********************
+;adverbial -dir /u/corpus/english/usenet199509
+;**********************
+; DEBUGGING
+;**********************
+;dbg -flags synsem -level detail
+;dbg -flags synsem -level off
+; USE FOR TRYING OUT NEW EXAMPLES OR DEBUGGING
+;parse -lang y -dialect ? -dcin ../examples/intest.txt -outund 1 -dcout outtest.txt
+;dbg -flags all -level detail
+;parse -lang z -dcin ../examples/intest.txt -outsyn 1 -outsem 1 -outana 1 -outund 1 -dcout outtest.txt

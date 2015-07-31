@@ -1,0 +1,17 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=record# album*.z/media-object,music-form-of-piece/record.z/disk.Tz/CD.z/
+record,album.z/album.¹My/disque.My/disque* compact*A.My/|part-of¤song|
+;_______________________________________________________________________________
+=video.z/media-object/video# film*.z/videotape,video# tape*.oz/video.Az/
+vidéo.Fy/vidéo.ßAy/huitième*A art*.kMy/
+==promotional#A video*.z//vidéo* publicitaire*A.Fy/
+==training#A video*.z//vidéo* d#R'entraînement#M.Fy/
+==music# video*.z//clip* vidéo*A.My/
+==video#A art*.z//art* vidéo*A.My/
+==video#A book*.z//livre* vidéo*A.My/
+==video#A clip*.z//clip.My/
+;_______________________________________________________________________________

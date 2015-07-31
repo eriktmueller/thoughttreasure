@@ -1,0 +1,275 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=personal#A article*.z/physical-object/objet* personnel*A.My/|free-object|
+humanmade|
+;_______________________________________________________________________________
+==baggage.z/small-container/bag.z/luggage.z/bagages.MPïy/
+===carry#V-on#R bag*.Àz//holdall.gz/sac* de#R vol#.My/
+===garment# bag*.z//housse* à#R vêtements#MP.Fy/
+===hand#-luggage*.z//bagages* à#R main#FS.MPïy/
+===luggage# carrier*.z//luggage# trolley*.z/porte#V-bagages#P.ßMy/
+===suitcase.z//valise.Fy/
+====pullman# case*.Àz//suitcase.gz/valise* pullman#M.Fy/
+====weekender.z//valise* fin# de#R semaine#.Fy/
+====*Martine suitcase//|owner-of=Martine|
+===tote# bag*.Àz//flight# bag*.gz/sac* fourre#V-tout#.My/fourre#V-tout#.ßMy/
+===baggage trunk//trunk.z/malle.Fy/
+===vanity# case*.z//mallette* de#R toilette#.Fy/
+===utility# case*.z//trousse* de#R toilette#.Fy/
+;_______________________________________________________________________________
+==bag.z/small-container/sac.My/
+===handbag.z//sac* à#R main#F.My/
+====accordian# bag*.z//sac* accordéon*.My/
+====box# bag*.z//sac* boîte#F ½.My/
+====carrier# bag*.z//sac* à#R provisions#FP.My/
+====clutch# bag*.z//pochette.Fy/
+====drawstring# bag*.z//sac* seau*.My/
+====duffel# bag*.z//balluchon.My/
+====hobo# bag*.z//sac* besace#F ½.My/besace.Fy/
+====men#P's bag*.z//pochette* de#R homme#M.Fy/
+====bag-muff//muff.z/manchon.My/
+====pouch.z//aumonière.Fy/
+====sac* polochon*.My//duffel# bag*.z/
+====satchel# bag*.z//satchel.z/sac* cartable*.My/cartable.My/calepin,carton.îMy/
+====sea# bag*.z//sac* marin*.My/
+====shoulder# bag*.z//sac* à#R bandoulière#F.My/
+====shopping# bag*.z//sac* à#R provisions#FP.My/cabas.My/
+;_______________________________________________________________________________
+==leather-goods//leather#S goodsÝgoods*.Pïz/
+articles* de#RS maroquinerie#FS.MPïy/
+===attache-case//attaché# case*.z/mallette* porte#V-documents#MP.Fy/
+===billfold.Àz//wallet.gz/porte#V-coupures#FP.ßMy/
+===bottom#-fold#V portfolio*.z//porte#V-documents#P à#R soufflet#.My/
+===briefcase.z//serviette.Fy/
+===card# case*.z//credit# card# wallet*.gz/porte#V-cartes#FP.ßMy/
+===checkbook# cover*.Àz//cheque# book# cover*.gz/porte#V-chéquier*.My/
+====calculator-checkbook-holder//calculator#\/checkbook# holder*.Àz/
+calculator#\/cheque# book# holder*.gz/portefeuille* chéquier#.My/
+===coin# purse*.z//porte#V-monnaie#F ½.My/
+===glasses#P case*.z//eyeglasses#P case*.oz/étui* à#R lunettes#FP.My/
+===key# case*.z//porte#V-clés#FP.ßMy/
+===passport# case*.z//porte#V-passeport*.My/
+===purse.z//bourse* à#R monnaie#.Fy/
+===underarm# portfolio*.z//porte#V-documents#P plat*A.My/
+===wallet.z/small-container/portefeuille.My/
+===*Jim-wallet//|owner-of=Jim|
+===writing# case*.z//écritoire.Fy/
+;_______________________________________________________________________________
+==glasses.Pïz/prosthesis/eyeglasses.oPïz/lunettes.FPïy/
+===aviator#S glasses*.Pïz//lunettes* sport*A.FPïy/
+===half#A-glasses*.Pïz//demi*A-lune*.Fy/
+===lorgnette.z//face#F ½-à#R-main#F.My/
+===monocle.z//monocle.My/
+===opera#S glasses*.Pïz//lorgnette.Fy/
+===pince#Vj-nez*j.z//bésicles* à#R pont#MS élastique#AMS.FPïy/
+===Ralph#® Lauren#® Polo#® Classic*®.z//
+===scissors*-glasses*.Pïz//binocle.My/
+===sunglasses.Pïz//shades.TPïz/lunettes* de#RS soleil#MS.FPïy/
+====dark#A glasses*.Pïz//lunettes* noires*A.FPïy/
+;_______________________________________________________________________________
+==jewelry.z//bijoux.MPïy/
+===bracelet.z//
+===jewelry-charm//charm.z/
+===earring.z//boucle* d#R'oreille#F.Fy/
+===necklace.z/neckwear/collier.My/
+====choker.z//collier* ras*A de#R cou#M.My/
+===pendant.z//
+===ring.z//bague.Fy/
+====wedding# ring*.z//alliance.Fy/
+=====men-s-wedding-ring//men#P's wedding# ring*.z/
+=====women-s-wedding-ring//women#P's wedding# ring*.z/
+===watch.z/electronic-appliance/montre.Fy/
+;_______________________________________________________________________________
+==key# chain*.z//
+;_______________________________________________________________________________
+==key.z//clé.Fy/
+==*Martine-BMW-key//
+==*Martine-Mercedes-key//
+==*Lucie-2CV-key//
+;_______________________________________________________________________________
+==wristwatch//watch,wristwatch.z/montre.Fy/
+;_______________________________________________________________________________
+==umbrella.z//parapluie.My/
+==*totes#® umbrella*.z//|black|nylon|made-in=country-THA|
+;_______________________________________________________________________________
+==hair# care# article*.z//
+;_______________________________________________________________________________
+===hairbrush.z//brosse* à#R cheveux#MP.Fy/
+====flat#A-back# brush*.z//brosse* pneumatique*A.Fy/
+====round#A brush*.z//brosse* ronde*A.Fy/
+====vent# brush*.z//brosse*-araignée*.Fy/
+====quill# brush*.z//brosse* anglaise*A.Fy/
+;_______________________________________________________________________________
+===physical-object-comb//comb.z/peigne.My/
+====rake# comb*.z//démêloir.My/
+====pitchfork# comb*.z//combiné* 2# dans#R 1#.My/combiné* 2# en#R 1#.My/
+====Afro# pick*.z//peigne* afro*A.My/
+====teaser# comb*.z//peigne* à#R crêper#V.My/
+====tail# comb*.z//peigne* à#R tige#F.My/
+====barber# comb*.z//peigne* de#R coiffeur#.My/
+;_______________________________________________________________________________
+===haircutting#S scissors*.Pïz//ciseaux* de#RS coiffeur#S.MPïy/
+====clippers.Pïz//tondeuse.Fy/
+;_______________________________________________________________________________
+===hair# accessory*.z//accessoire* de#R coiffure#F.My/
+====bobby# pin*.Àz//hair# grip*.gz/pince* à#R cheveux#MP.Fy/
+====wave# clip*.z//pince* à#R boucles#P de#R cheveux#MP.Fy/
+====hairpin.z//épingle* à#R cheveux#MP.Fy/
+====hair# roller*.z//bigoudi.My/
+====hair# clip*.z//pince* de#R mise# en#R plis#MP.Fy/
+====barrette.Àz//hair# slide*.gz/barrette.Fy/
+====curling# iron*.z//fer* à#R friser#V.My/
+====hair# dryer*.z//hairdryer.z/blow#V-dryer*.z/blowdryer.z/
+sèche#V-cheveux#P.ßMy/
+====*Con#®-Air#®.®z//|us|
+;_______________________________________________________________________________
+===hair# gel*.mz//gel.mz/hair# shaping# gel*.mz/gel* coiffant*A.My/
+gelée* coiffante*A.Fy/
+===*Keratina//Kératina.®my/|fr|
+===*Dep.®mz//|us|
+====sculpting# gel*.mz//
+====*Studio.®mz//|us|
+;_______________________________________________________________________________
+===hair# conditioner*.mz//conditioner.mz/après#R-shampooing*.y/
+;_______________________________________________________________________________
+===shampoo.mz/small-container/shampooing.My/
+====dandruff# shampoo*.mz//
+===*Aquavital.®my//Aquavital.z/|fr|
+===*Head-and-Shoulders/dandruff-shampoo/Head# &#K Shoulders#P.®mz/|us|
+===*L-Oreal//L#D'Oréal*.®my/L#D'Oréal*.®mz/
+===*Pantine.®mz//
+===*Prell.®mz//|us|
+===*Vidal# Sassoon*®.®mz//
+====shampoo* and#K conditioner*.mz/hair-conditioner/
+shampooing* et#K après#R-shampooing* 2# en#R 1#.My/
+====*Vidal-Sassoon-Wash-and-Go//Vidal# Sassoon#® Wash#V &#K Go#V ½.®my/|fr|
+;_______________________________________________________________________________
+==make-up//make#V-up#R ½.z/makeup.mz/
+===make#V-up#R remover*.mz//
+===mascara.mz//
+===eye# shadow*.mz//eyeshadow.mz/shadow.mTz/
+===eyeliner.mz//
+====crayon# eyeliner*.z//
+===eyebrow# pencil*.z//
+===lipliner# pencil*.z//
+===lipstick.mz//
+===lip# gloss*.mz//
+===make-up-foundation//foundation.mz/
+===make-up-powder//powder.mz/poudre.mjz/
+====powder# blush*.mz//teint#j poudre*j.mjz/
+;_______________________________________________________________________________
+==perfume.mz//essence,fragrance.z/scent.gz/scent.Tz/
+===cologne.mz//eau#j de#Rj cologne*.mz/cologne# water*.mz/
+===rose# water*.mz//
+===eau#j de#Rj toilette*.mz//toilet# water*.mz/
+===eau#j de#Rj parfum*.mz//
+;_______________________________________________________________________________
+==after#R-shave*.mz//aftershave.mz/
+;_______________________________________________________________________________
+==skin# care# article*.z//
+;_______________________________________________________________________________
+===exfoliant.z//
+====exfoliating# gel*.mz//
+====exfoliating# body# scrub*.mz//
+;_______________________________________________________________________________
+===soap.mz//savon.My/savonnette.Fy/
+====body# scrub*.mz//
+====cleansing# cream*.mz//
+====foaming# cleanser*.mz//
+====soap-gel//gel.mz/
+=====gel# facewash*.mz//
+=====cleansing# gel*.mz//
+===*Ivory.®z//|us|
+===*Irish#A Spring*.®z//|us|
+===*Monsavon.®y//|fr|
+===*Le#D Chat*ß.®My//|fr|
+;_______________________________________________________________________________
+===adhesive#A bandage*.z//sheer# strip*.z/sticking#A plaster*.qz/pansement.My/
+pansement* adhésif*A.My/
+===*Band#-Aid*.®z//|us|
+;_______________________________________________________________________________
+===moisturizer.mz//lotion,cream,skin# cream*.mz/
+lotion* hydratante*A.Fy/hydratant.Ay/
+====body# lotion*.mz//
+====eye# cream*.mz//
+====eye# lotion*.mz//
+====soothing# lotion*.mz//
+===*Clinique.®y//Clinique.®mz/
+===*Nivea.®y//Nivea.®mz/
+====lip# care*.z//soin* des#RP lèvres#FP.My/
+====*Chapstick.®z//
+====*Labello.®y//
+;_______________________________________________________________________________
+===sun# block*.mz//sunblock.mz/sun# block# cream*,sunblock# cream*.mz/
+suntan# lotion*.mz/tanning# lotion*.mz/SPF.z/crème* écran#M ½.Fy/
+====sun-block-SPF-four//SPF# 4# sun# block*.mz/SPF# 4*.z/
+====sun-block-SPF-six//SPF# 6# sun# block*.mz/SPF# 6*.z/
+====sun-block-SPF-fifteen//SPF# 15# sun# block*.mz/SPF# 15*.z/
+====sun-block-SPF-twenty//SPF# 20# sun# block*.mz/SPF# 20*.z/
+====sun-block-SPF-twenty-five//SPF# 25# sun# block*.mz/SPF# 25*.z/
+====sun-block-SPF-thirty//SPF# 30# sun# block*.mz/SPF# 30*.z/
+====sun-block-SPF-thirty-two//SPF# 32# sun# block*.mz/SPF# 32*.z/
+====sun-block-SPF-thirty-five//SPF# 35# sun# block*.mz/SPF# 35*.z/
+====sun-block-SPF-forty//SPF# 40# sun# block*.mz/SPF# 40*.z/
+;_______________________________________________________________________________
+===deodorant.mz//déodorant.My/désodorisant.My/
+===*Mennen.®z//Mennen.®y/
+;_______________________________________________________________________________
+===acne# medication*.z//
+===*Clearasil.®z//|us|
+;_______________________________________________________________________________
+===razor.z//rasoir.My/
+====electric#A razor*.z//rasoir* électrique*A.My/
+====double#A-edged#A razor*.z//rasoir* à#R double#A tranchant#.My/
+====disposable#A razor*.z//rasoir* jetable*A.My/
+;_______________________________________________________________________________
+==dental#A care# article*.z//
+===toothpick.z//cure#V-dent#F ½.My/
+===toothbrush.z//brosse* à#R dents#P.Fy/brosse* dentaire*A.Fy/
+===*Oral#A-B*.®z//|us|
+===*Flora.®y//|fr|
+===toothbrush# bristle*.qz//bristle.z/poil.My/
+===toothbrush# head*.qz//head.qz/tête.qFy/tête* de#R brossage#M.Fy/
+===toothbrush# handle*.qz//handle.qz/manche.My/
+===stimulator# tip*.z//stimulateur* de#R gencives#FP.My/
+===oral#A hygiene# center*.z//combiné* bucco#A-dentaire*A.My/
+===electric#A toothbrush*.z//
+===oral#A irrigator*.z//jet* dentaire*A.My/
+===*Water# Pik*®.®z//|us|
+===dental#A floss*.z//fil* dentaire*A.My/soie* dentaire*A.çFy/
+====waxed#A dental#A floss*.z//fil* dentaire*A ciré*A.My/
+soie* dentaire*A cirée*A.çFy/
+====*Parogencyl.®y//|fr|
+===mouthwash.z//bain* de#R bouche#F.My/
+===*Listerine.®z//|us|
+===*Scope.®z//|us|
+====fluoride# mouthwash*.z//
+====*Plax.®z//Plax.®y/bain* de#R bouche#F anti#R-plaque#F.My/
+===toothpaste.z//dentifrice.tz/dentifrice.¹My/pâte* dentifrice*A.Fy/
+====gel# toothpaste*.z//gel.z/gel.My/gel* dentifrice*.My/
+====tartar# control# toothpaste*.z//tartar# control*.z/anti#R-tartre*.y/
+====fluoride# toothpaste*.z//dentifrice* au#R fluor#.My/dentifrice* fluor#.My/
+====*Aqua-Fresh/gel-toothpaste/Aqua#-Fresh#A ½.®z/
+====*Close-Up/gel-toothpaste/Close#A-Up#B ½.®z/Très#B-Près#B ½.®y/
+====*Colgate.®z/tartar-control-toothpaste/Colgate.®y/
+====*Crest.®z//|us|
+====*Pepsodent-vitamine//Pepsodent* vitaminé*A.®My/|fr|
+====*Signal.®y/tartar-control-toothpaste/|fr|
+====*Signal-Plus//Signal#® Plus#A ½.®y/|fr|
+===tooth# powder*.z//poudre* dentifrice*A.Fy/
+===*Colgate#® tooth# powder*.z//
+===*Arm# and#K Hammer# tooth# powder*.z//Arm# &#K Hammer# tooth# powder*.z/
+===*Pepsodent#® tooth# powder*.z//
+;_______________________________________________________________________________
+==toilet# paper*.z//TP.Tz/bumf,bumph.gTz/papier* hygiénique*A.My/PQ.TMy/
+;_______________________________________________________________________________
+==gift.z//present.z/cadeau.My/
+;_______________________________________________________________________________
+==potpourri.z//
+==ornament.z//
+===Christmas# ornament*.z//
+==Swedish#A angel#S chimes*.Pïz//angel#S chimes*.Pïz/
+;_______________________________________________________________________________

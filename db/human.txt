@@ -1,0 +1,2326 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=part-of-human/living-thing,physical-object-role/part* of#R human*.z/
+|free-object|
+;_______________________________________________________________________________
+==body.z//corps.My/
+;_______________________________________________________________________________
+==prosthesis.z//prothèse.Fy/
+===dental-filling//filling.z/plombage.¹My/obturation.Fy/
+====silver# filling*.z/alloy/dental#A amalgam*.z/amalgam.z/mercury# filling*.z/
+mercury#-silver# filling*.z/mercury#-silver# amalgam*.z/silver# amalgam*.z/
+amalgam# alloy*.z/occlusal#A alloy*.z/metallic#A filling*.z/alloy# filling*.z/
+amalgame* dentaire*A.My/
+====bonded# amalgam*.z//
+====gallium# alloy*.z//
+====cast# gold*.z//
+====composite# resin*.z//
+====glass# ionomer*.z//
+====dental#A ceremic*.z//
+====temporary#A filling*.z//temp# filling*,temp.Tz/
+;_______________________________________________________________________________
+=-right-left-nonright-left-part-of-human//
+===right-left-part-of-human//
+===nonright-left-part-of-human//
+;_______________________________________________________________________________
+; combinations
+==bare#A neck*S and#K shoulders*.Pïz//décolleté.My/
+|part-of¤neck,left-shoulder,right-shoulder|
+;_______________________________________________________________________________
+; head
+;_______________________________________________________________________________
+==head.z//noodle.az/tête.Fy/|part-of¤skull,hair,forehead,left-temple,
+right-temple,face,left-ear,right-ear|
+==skull.z//crâne.My/
+==hair.mz//cheveux.MPïy/
+===body# hair*.mz/organ-of-touch/hair.z/poil.My/
+===toupee.z/hat/postiche.My/
+===hairstyle.z//coif.z/coiffure.Fy/
+==forehead.z//front.My/
+==temple.z/right-left-part-of-human/tempe.Fy/
+===left#A temple*.z//tempe* gauche*A.Fy/
+===right#A temple*.z//tempe* droite*A.Fy/
+==ear.z/organ-of-hearing,right-left-part-of-human/oreille.Fy/
+===left#A ear*.z//oreille* gauche*A.Fy/
+===right#A ear*.z//oreille* droite*A.Fy/
+;_______________________________________________________________________________
+; face
+;_______________________________________________________________________________
+==face.z//visage.My/figure.Fy/
+|part-of¤left-eye,right-eye,nose,mouth,left-cheek,right-cheek,chin|
+==eye.z/organ-of-sight,right-left-part-of-human/Óil.My/
+===left#A eye*.z//Óil* gauche*A.My/
+===right#A eye*.z//Óil* droit*A.My/
+==nose.z/organ-of-smell/nasal.Ay/nez.My/
+==mouth.z/organ-of-digestive-system,organ-of-respiratory-system/bouche.Fy/
+==cheek.z/right-left-part-of-human/joue.Fy/
+===left#A cheek*.z//joue* gauche*A.Fy/
+===right#A cheek*.z//joue* droite*A.Fy/
+==chin.z//menton.My/
+;_______________________________________________________________________________
+; neck
+;_______________________________________________________________________________
+==neck.z//cou.My/|part-of¤nape,Adam-s-apple|
+==nape.z//nape* of#R the#D neck#.z/nuque.Fy/
+==Adam#'s apple*.z//pomme* de#R Adam#M.Fy/
+;_______________________________________________________________________________
+; arm
+;_______________________________________________________________________________
+==arm.z/right-left-part-of-human/bras.ßMy/|part-of¤elbow,forearm,wrist|
+===left#A arm*.z//bras*ß gauche*A.My/
+===right#A arm*.z//bras*ß droit*A.My/
+==elbow.z/right-left-part-of-human/coude.My/
+===left#A elbow*.z//coude* gauche*A.My/
+===right#A elbow*.z//coude* droit*A.My/
+==forearm.z/right-left-part-of-human/avant#R-bras*ß.ßMy/
+===left#A forearm*.z//avant#R-bras*ß gauche*A.My/
+===right#A forearm*.z//avant#R-bras*ß droit*A.My/
+==wrist.z/right-left-part-of-human/poignet.My/
+===left#A wrist*.z//poignet* gauche*A.My/
+===right#A wrist*.z//poignet* droit*A.My/
+;_______________________________________________________________________________
+; hand
+;_______________________________________________________________________________
+==hand.z/grasper,right-left-part-of-human/main.Fy/
+|part-of¤palm,thumb,index-finger,middle-finger,third-finger,little-finger|
+===right#A hand*.z//main* droite*A.Fy/
+===left#A hand*.z//main* gauche*A.Fy/
+===hand1//
+===hand2//
+==palm.z/right-left-part-of-human/paume.Fy/
+==finger.z/organ-of-touch/doigt.My/|part-of¤fingernail,cuticle|
+===thumb.z//pouce.My/
+===index# finger*.z//index.My/
+===middle#A finger*.z//majeur.My/
+===third#A finger*.z//ring# finger*.z/annulaire.My/
+===little#A finger*.z//pinkie.z/auriculaire.My/
+==fingernail.z//ongle.My/|part-of¤lunula|
+==lunula.z//moon* of#R his*D fingernail*.z/lunular.Az/lunule.z/lunule.Fy/
+==cuticle.z//cuticula.z/cuticle.y/
+;_______________________________________________________________________________
+; trunk
+;_______________________________________________________________________________
+==trunk.z//tronc.My/|part-of¤chest,back,waist,left-armpit,right-armpit,
+left-shoulder,right-shoulder,left-shoulder-blade,right-shoulder-blade,
+left-breast,right-breast,left-hip,right-hip,loin,thorax,posterior-rugae,
+buttocks,navel,abdomen,pubis,groin|
+==chest.z//poitrine.Fy/
+==back.z//dos.My/
+==waist.z//taille.Fy/
+==armpit.z/right-left-part-of-human/aisselle.Fy/
+===left#A armpit*.z//aisselle* gauche*A.Fy/
+===right#A armpit*.z//aisselle* droite*A.Fy/
+==shoulder.z/right-left-part-of-human/épaule.Fy/
+===left#A shoulder*.z//épaule* gauche*A.Fy/
+===right#A shoulder*.z//épaule* droite*A.Fy/
+==shoulder# blade*.z/right-left-part-of-human/omoplate.Fy/
+===left#A shoulder# blade*.z//omoplate* gauche*A.Fy/
+===right#A shoulder# blade*.z//omoplate* droite*A.Fy/
+==breast.z/right-left-part-of-human/sein.My/gorge.tFy/buste.qMy/décolleté.qMy/
+|part-of¤areola,nipple|
+===left#A breast*.z//sein* gauche*A.My/
+===right#A breast*.z//sein* droit*A.My/
+==nipple.z/right-left-part-of-human/mamelon.My/
+===left#A nipple*.z//mamelon* gauche*A.My/
+===right#A nipple*.z//mamelon* droit*A.My/
+==areola.z/right-left-part-of-human/areolar.Az/areolate.Az/areolation.Nz/
+aréole.Fy/
+===left#A areola*.z//aréole* gauche*A.Fy/
+===right#A areola*.z//aréole* droite*A.Fy/
+==hip.z/right-left-part-of-human/hanche.Fy/
+===left#A hip*.z//hanche* gauche*A.Fy/
+===right#A hip*.z//hanche* droite*A.Fy/
+==loin.z//rein.My/
+==thorax.z//thorax.My/
+==posterior#A rugae*.Pïz//rugate.z/raie* des#RP fesses#P.Fy/
+==buttocks.Pïz//behind.¹Tz/backside,bottom,croup,rear,rear#A end*,rump,tail.Tz/
+posterior.z/butt,tush.ÀTz/ass.Àaz/bum.gTz/arse.gaz/derrière.jTz/buns.aPïz/
+caneebees,kneebees.@aPïz/fesses.FPïy/miches.TFPïy/derrière,postérieur.TMy/
+cul.aMy/
+===haunch.z//derrière.My/
+==navel.z//nombril.My/belly# button*.Tz/
+==abdomen.z//ventre.My/
+==pubis.z//pubis.My/
+==groin.z//aine.Fy/
+;_______________________________________________________________________________
+; leg
+;_______________________________________________________________________________
+==leg.z/right-left-part-of-human/jambe.Fy/|part-of¤thigh,knee,human-calf,ankle|
+===left#A leg*.z//jambe* gauche*A.Fy/
+===right#A leg*.z//jambe* droite*A.Fy/
+==thigh.z/right-left-part-of-human/cuisse.Fy/
+===left#A thigh*.z//cuisse* gauche*A.Fy/
+===right#A thigh*.z//cuisse* droite*A.Fy/
+==knee.z/right-left-part-of-human/genou.My/
+===left#A knee*.z//genou* gauche*A.My/
+===right#A knee*.z//genou* droit*A.My/
+==human-calf/right-left-part-of-human/calf.z/mollet.My/
+===left#A calf*.z//mollet* gauche*A.My/
+===right#A calf*.z//mollet* droit*A.My/
+==ankle.z/right-left-part-of-human/cheville.Fy/
+===left#A ankle*.z//cheville* gauche*A.Fy/
+===right#A ankle*.z//cheville* droite*A.Fy/
+;_______________________________________________________________________________
+; foot
+;_______________________________________________________________________________
+==foot.z/right-left-part-of-human/pied.My/|part-of¤heel,foot-arch,
+ball-of-the-foot,big-toe,second-toe|part-of¤third-toe,fourth-toe,fifth-toe|
+===left#A foot*.z//pied* gauche*A.My/
+===right#A foot*.z//pied* droit*A.My/
+==foot-arch//arch.¹z/voûte* plantaire*A.¹Fy/
+==ball-of-the-foot//ball.z/demi#A-pointes*.FPïy/
+==toe.z//orteil.My/
+===big#A toe*.z//hallux.z/gros*A orteil*.My/
+===second#A toe*.z//deuxième*A orteil*.My/
+===third#A toe*.z//troisième*A orteil*.My/
+===fourth#A toe*.z//quatrième*A orteil*.My/
+===fifth#A toe*.z//little#A toe*.z/cinquième*A orteil*.My/petit*A orteil*.My/
+==heel.z//talon.My/
+;_______________________________________________________________________________
+; internals
+;_______________________________________________________________________________
+==muscle.z//muscle.My/|part-of=human|
+===deltoid.z//deltoïde.My/
+===pectoral.z//pectoral.My/
+===biceps.ßz//biceps.ßMy/
+===triceps.ßz//triceps.ßMy/
+===gluteus# maximus*Aj.z//greatest#A gluteal*.z/gluteal.Az/grand*A fessier*.My/
+;_______________________________________________________________________________
+==bone.z//os.ßMy/|part-of=human|
+===clavicle.z//clavicular.Az/clavicule.Fy/
+===humerus.z//funny#A bone*.z/humérus.My/
+===carpus.z//carpe.My/
+===metacarpus.z//metacarpal.Az/metacarpal.Nz/métacarpe.My/
+===fibula.z//fibular.Az/péroné.My/
+===ribs.Pïz//côtes.FPïy/
+;_______________________________________________________________________________
+==organ.z//organe.My/
+;_______________________________________________________________________________
+===sense# organ*.z//organe* des#RP sens#P.My/|part-of=human|
+;_______________________________________________________________________________
+====organ* of#R sight#.z/right-left-part-of-human/
+=====eyebrow.z//sourcil.My/|part-of¤eyebrow-arch|
+=====eyebrow-arch//arch.¹z/arc.¹My/
+=====eyelash.z//cil.My/
+=====lacrimal#A duct*.z//tear# duct*.z/caroncule* lacrymale*A.Fy/
+=====iris.z//iris.My/
+=====eyelid.z//paupière.Fy/
+======upper#A eyelid*.z//paupière* supérieure*A.Fy/
+======lower#A eyelid*.z//paupière* inférieure*A.Fy/
+=====pupil.z//pupille.Fy/
+=====sclera.z//scleral.Az/sclérotique.Fy/
+=====eyeball.z//globe* oculaire*A.My/
+=====cornea.z//corneal.Az/cornée.Fy/
+=====eye# lens*.z//lens.¹z/cristallin.My/
+=====retina.z//retinal.Az/rétine.Fy/
+=====fovea.z//foveal,foveate,foveiform.Az/tache* jaune*A.Fy/
+=====optic#A nerve*.z//nerf* optique*A.My/
+;_______________________________________________________________________________
+====organ* of#R taste#.z//
+=====gum.z//gencive.Fy/|part-of=tooth|
+=====tonsil.z//tonsillar.Az/amygdale.Fy/
+=====lip.z//lèvre.Fy/
+======upper#A lip*.z//lèvre* supérieure*A.Fy/
+======lower#A lip*.z//lèvre* inférieure*A.Fy/
+;_______________________________________________________________________________
+====organ* of#R smell#.z//
+=====root* of#R nose*.z//bridge* of#R nose*.z/racine* du#R nez#M.Fy/
+=====septum.z//cloison.Fy/
+=====nares.Pïz//narial,narine.Az/nostril.z/narine.Fy/
+=====philtrum.z//sillon* naso*A-labial*A.My/
+=====sinus.z//sinus.My/
+=====hard#A palate*.z//voûte* du#R palais#M.Fy/
+=====soft#A palate*.z//voile* du#R palais#.My/
+=====uvula.z//uvular.Az/luette.Fy/
+=====olfactory#A nerve*.z//nerf* olfactif*A.My/
+=====olfactory#A bulb*.z//bulbe* olfactif*A.My/
+=====glottis.z//glotte.Fy/
+;_______________________________________________________________________________
+====organ* of#R hearing#.z//
+=====ear# drum*.z//membrane* du#R tympan#M.Fy/
+=====Eustachian#A tube*.z//trompe* de#R Eustache#.Fy/
+;_______________________________________________________________________________
+====organ* of#R touch#.z//
+=====hair# shaft*.z//tige* de#R le*DM poil#M.Fy/
+=====hair# follicle*.z//follicule.My/
+=====nerve.z//nerf.My/
+=====blood# vessel*.z/organ-of-circulatory-system/vaisseau* sanguin*A.My/
+=====capillary.z//capillary#A blood# vessel*.z/vaisseau* capillaire*A.My/
+=====sweat# gland*.z//glande* sudoripare*A.Fy/
+=====skin.z/organ-of-nervous-system/peau.Fy/
+======skin# surface*.z//surface* de#R la#D peau#.Fy/
+======epidermis.z//epidermal,epidermic.Az/épiderme.My/
+======dermis.z//dermal.Az/derme.My/
+======subcutaneous#A tissue*.z//hypoderme.My/
+;_______________________________________________________________________________
+===organ* of#R nervous#A system#.z//système* nerveux*A.My/|part-of=human|
+====cerebrum.z//cerebral.Az/cerebrally.Bz/brain.z/cerveau.My/
+====synapse.z//synapsis.Nz/synaptic.Az/synapse.Fy/
+====axon.z//axone.My/
+====dendrite.z//dendritic,dendritical.Az/dendritically.Bz/dendrite.Fy/
+====neuron.z//neurone.qz/neuronal,neuronic.Az/neurone.My/
+====pineal#A body*.z//pineal#A gland*.z/épiphyse.Fy/
+====cerebellum.z//cervelet.My/
+====pituitary#A gland*.z//hypophyse.Fy/
+====spinal#A column*.z//colonne* vertébrale#A.Fy/
+====spinal#A cord*.z//moelle* épinière*A.Fy/
+;_______________________________________________________________________________
+===organ* of#R digestive#A system#.z//appareil* digestif*A.My/|part-of=human|
+====enamel.z//émail.My/
+====crown.z//couronne.Fy/
+====tooth# root*.qz//root.¹z/racine.Fy/
+====dentin.z//dentine.z/ivoire.My/
+====pulp.z//pulpe.Fy/
+====apex.z//apex.My/
+====tooth.z//dent.Fy/|part-of¤enamel,crown,tooth-root,dentin,pulp,apex|
+=====molar.z//molaire.Fy/
+======first#A molar*.z//première*A molaire*.Fy/
+======second#A molar*.z//deuxième*A molaire*.Fy/
+======wisdom# tooth*.z//dent* de#R sagesse#.Fy/
+=====premolar.z//prémolaire.Fy/
+======first#A premolar*.z//première*A prémolaire*A.Fy/
+======second#A premolar*.z//deuxième*A prémolaire*A.Fy/
+=====canine.z//canine.Fy/
+=====incisor.z//incisive.Fy/
+======lateral#A incisor*.z//incisive* latérale*A.Fy/
+====tongue.z/organ-of-taste/langue.Fy/
+====salivary#A glands*.Pïz//glandes* salivaires*A.FPïy/
+====gallbladder.Àz//gall#-bladder*.gz/vésicule* biliaire*A.Fy/
+====liver.z//foie.My/
+====intestine.z//intestin.My/
+=====large#A intestine*.z//gros*A intestin*.My/
+=====small#A intestine*.z//intestin* grêle*A.My/
+====colon.z//côlon.My/
+====rectum.z//rectal.Az/rectally.Bz/rectum.My/
+====anus.z//anus.My/
+====pancreas.z//pancreatic.Az/pancréas.My/
+====stomach.z//estomac.My/
+;_______________________________________________________________________________
+===organ* of#R respiratory#A system#.z//appareil* respiratoire*A.My/
+|part-of=human|
+====nasal#A cavity*.z//cavité* nasale*A.Fy/
+====oral#A cavity*.z//cavité* buccale*A.Fy/
+====larynx.z/organ-of-smell/larynx.My/
+====vocal#A cord*.z//corde* vocale*A.Fy/
+====lung.z/organ-of-circulatory-system/poumon.My/
+=====left#A lung*.z//poumon* gauche*A.My/
+=====right#A lung*.z//poumon* droit*A.My/
+====epiglottis.z/organ-of-smell/epiglottal,epiglottic.Az/épiglotte.Fy/
+====pharynx.z/organ-of-digestive-system/pharynx.My/
+====esophagus.Àz/organ-of-taste/esophageal.ÀAz/oesophagus.gz/oesophageal.gAz/
+Ósophage.My/
+====trachea.z//trachée.Fy/
+====diaphragm.z//diaphragme.My/
+;_______________________________________________________________________________
+===organ* of#R urinary#A system#.z//appareil* urinaire*A.My/|part-of=human|
+====kidney.z//rein.My/
+====bladder.z//urinary#A bladder*.z/vessie.Fy/
+;_______________________________________________________________________________
+===organ* of#R circulatory#A system#.z//|part-of=human|
+====vein.z//veine.Fy/
+=====jugular#A vein*.z//veine* jugulaire*A.Fy/
+====artery.z//artère.Fy/
+====heart.z/organ-of-respiratory-system/cÓur.My/
+====aorta.z/organ-of-respiratory-system/aorte.Fy/
+====spleen.z//rate.Fy/
+;_______________________________________________________________________________
+===male#A genital#A organ*.z//organe* génital*A masculin*A.My/|part-of=male|
+; +human
+====prostate.z//prostate.Fy/
+====male#A urethra*.qz/organ-of-urinary-system/urethra.¹z/urètre* pénien*A.My/
+====penis.z//penile.Az/pénis.My/
+====scrotum.z//scrotum.My/
+====testicle.z//testicular.Az/balls.TPïz/gonads.TPïz/testicule.My/
+=====left#A testicle*.z//
+=====right#A testicle*.z//
+;_______________________________________________________________________________
+===female#A genital#A organ*.z//organe* génital*A féminin*A.My/|part-of=female|
+; +human
+====vulva.z//vulval,vulvar,vulvate.Az/vulve.Fy/
+|part-of¤labium-minus,labium-majus,clitoris,vagina|
+====uterus.z//utérus.My/
+====clitoris.z//clitoral,clitoric.Az/clitoris.My/
+====ovary.z//ovaire.My/
+====vagina.z//vagin.My/
+====labium# minus*A.z//petite*A lèvre*.Fy/
+====labium# majus*A.z//grande*A lèvre*.Fy/
+====female#A urethra*.qz/organ-of-urinary-system/urethra.¹z/urètre.My/
+====fallopian#A tube*.z//trompe* de#R Fallope#.Fy/
+;_______________________________________________________________________________
+=human.NAz/Homo-sapiens/person.z/human#A being*.tz/Homo# sapiens# sapiens#.qßz/
+humain.¹NAMy/personne.Fy/Homo# sapiens# sapiens#.qßMy/humanité.ÎNSFïy@/
+humanity.Îïz/|intelligent|travel-max-speed-of=1.0mps|
+part-of¤head,neck,left-arm,right-arm,left-hand,right-hand,trunk,left-leg,
+right-leg,left-foot,right-foot|length-of=.3m|width-of=.1m|height-of=1.7m|
+circadian-rhythm-of=24hrs|ideal-sleep-of=6¯8hrs|
+; todo: Different sleep times for different ages.
+; Lyons (1977, p. 763) distinguishes between human and person.
+; Animals and machines can be personified.
+;_______________________________________________________________________________
+==self.tz//moi#-même#A.Hy/
+;_______________________________________________________________________________
+==woman.Fz/human-adult,animal-female/grown#A woman*.Fz/femme.Fy/|female|
+==man.Mz/human-adult,animal-male/grown#A man*.Mz/homme.My/|male|
+==girl.Fz/human-child/fille.Fy/|female|
+==boy.Mz/human-child/garçon.My/|male|
+;_______________________________________________________________________________
+==human-child/animal-child/child.z/youngster.z/kid.Tz/kiddy,kiddie.az/
+enfant.§y/gamin.§Ty/|child|
+===human-infant//infant.z/baby.z/bébé.My/|infant|
+===human-teenager//teenager.z/adolescent.§y/|teenager|
+==human-adult/animal-adult/adult.z/grown#A-up#R ½.Tz/adulte.§y/|adult|
+===human-young-adult//young#A adult*.z/|young-adult|
+===human-thirty-something//thirty# something*.z/|thirty-something|
+===human-middle-aged-adult//middle#-aged#A adult*.z/|middle-aged-adult|
+===human-old-adult//old#A adult*.z/senior# citizen*.z/senior.Àz/|old-adult|
+====human-very-old-adult//very#B old#A adult*.z/|very-old-adult|
+==human-nonborn//|nonborn|
+===human-embryo/animal-embryo/embryo.z/embryon.My/|embryonic|
+===human-fetus/animal-fetus/fetus.z/fÓtus.My/|fetal|
+==human-dead-person//dead# person*.z/mort.§y/|dead|
+===human-dead-body//dead# body*.z/cadaver.tz/cadavre.My/
+;_______________________________________________________________________________
+==human-occupation//
+;_______________________________________________________________________________
+===student.z//étudiant.¹§y/|attend-school|
+;_______________________________________________________________________________
+====preschooler.z//|attend-preschool|
+=====day#-care# student*.qz//|attend-day-care|
+=====nursery#-school# student*.z//|attend-nursery-school|
+=====kindergartener.z//kindergarten# student*.z/
+|attend-kindergarten|
+;_______________________________________________________________________________
+====elementary#A-school# student*.z//écolier.§y/|attend-elementary-school|
+=====first#A grader*.z//|us|attend-first-grade|
+=====second#A grader*.z//|us|attend-second-grade|
+=====third#A grader*.z//|us|attend-third-grade|
+=====fourth#A grader*.z//|us|attend-fourth-grade|
+=====fifth#A grader*.z//|us|attend-fifth-grade|
+=====sixth#A grader*.z//|us|attend-sixth-grade|
+;_______________________________________________________________________________
+====secondary#A-school# student*.z//|attend-secondary-school|
+=====junior#A high#A school# student*.z//junior#A high#A student*.z/
+collégien.§y/|attend-junior-high-school|
+======seventh#A grader*.z//|us|attend-seventh-grade|
+======eighth#A grader*.z//|us|attend-eighth-grade|
+=====high#A-school# student*.z//lycéen.§NAy/potache.TMy/|attend-high-school|
+======ninth#A grader*.z//high#A-school# freshman*.z/|us|attend-ninth-grade|
+======tenth#A grader*.z//high#A-school# sophomore*.z/|us|attend-tenth-grade|
+======eleventh#A grader*.z//high#A-school# junior*.z/|us|attend-eleventh-grade|
+======twelfth#A grader*.z//high#A-school# senior*.z/|us|attend-twelfth-grade|
+;_______________________________________________________________________________
+====technical#A-school# student*.z//|attend-technical-school|
+====junior#A-college# student*.z//|attend-junior-college|
+;_______________________________________________________________________________
+====college# student*.z//étudiant.§y/|attend-college|
+;_______________________________________________________________________________
+====graduate# student*.Àz//grad# student*.TÀz/postgraduate.¹gz/postgrad.Tgz/
+étudiant.§y/|attend-graduate-school|
+=====medical#A student*.z//étudiant* en#R médecine#F.§y/carabin.oTMy/
+|attend-medical-school|
+=====law# student*.z//jurisprudent,publicist.qz/étudiant* en#R droit#M.§y/
+|attend-law-school|
+=====business# student*.z//|attend-MBA-program|
+=====doctoral#A candidate*.z//PhD# student*.z/
+étudiant* de#R troisième#AM cycle#M.§y/thèsard.T§y/|attend-doctoral-program|
+;_______________________________________________________________________________
+====postdoc.z//|do-postdoctoral-work|
+;_______________________________________________________________________________
+===teacher.z//educator.Àz/instructor.z/professeur.¹My/prof.T§y/
+enseignant.q§y/|teach|
+;_______________________________________________________________________________
+====coach.z//entraîneur.§y/
+=====basketball# coach*.z//
+=====football# coach*.z//
+=====tennis# coach*.z//
+====drama# coach*.z//répétiteur.§y/
+====vocal#A coach*.z//répétiteur.§y/
+====trainer.z//
+====tutor.z//private#A teacher*.z/professeur* particulier*A.My/
+====yogi.z//yogi.§y/
+;_______________________________________________________________________________
+====elementary#A-school# teacher*.z//teach.az/instituteur.q§y/
+====high#A-school# teacher*.z//teach.az/professeur.My/prof.TMy/
+;_______________________________________________________________________________
+====university# teacher*.qz//professor.Àz/lecturer.gz/academic.z/
+faculty.qÀz/tutor.qgz/professeur* à#R l#DF'université#NF.My/
+universitaire.§NAy/
+=====law# professor*.z//jurist,jurisprudent,jurisconsult.z/publicist.qz/
+professeur* de#R droit#M.My/juriste.§y/
+=====university-teacher-instructor//instructor.z/
+=====adjunct#A professor*.z//
+=====assistant#A professor*.z//lecturer.gz/professeur* adjoint*A.¹My/
+=====associate#A professor*.Àz//senior#A lecturer*,principal#A lecturer*.gz/
+maître* de#R conférences#FP.My/
+=====tenured#A professor*.z//professeur* titulaire*A d#R'une#D chaire#F.¹My/
+======full#A professor*.z//professor,reader.gz/
+======chaired#A professor*.z//
+======professor* emeritus*.z//
+;_______________________________________________________________________________
+===homemaker.z//
+====housewife.Fz/woman/femme* au#R foyer#M.¹Fy/ménagère.Fy/
+====househusband.Mz/man/père* au#R foyer#.¹My/homme* au#R foyer#.My/
+;_______________________________________________________________________________
+===astronaut.z//cosmonaute.¹§y/astronaute.§y/spationaute.q§y/
+===launch# team*.z//
+====launch# commentator*.z//
+====NASA# Test# Director*.z//NTD.z/
+====Orbiter# Test# Conductor*.z//OTC.z/
+;_______________________________________________________________________________
+===member* of#R armed#A forces#P.z//serviceman.oz/militaire.My/
+====officer.z//gradé.My/officier.My/
+====general.z//général.My/
+====colonel.z//colonel.My/
+====captain.z//capitaine.My/
+====lieutenant.z//lieutenant.My/
+;_______________________________________________________________________________
+===government* official*.z//politician.z/homme* politique*A.My/
+politicien.NA§y/politicard.hNA§y/
+====Chief#A Justice*.z//Chief#A Justice* of#R the#D United#A States#P.z/
+====Chief#A Justice* of#R Canada#.z//Chief#A Justice*.z/
+procureur* général*A.My/|ca|
+====Crown# Attorney*.z//procureur* de#R la#DF Couronne#F.My/|ca|
+====Supreme#A Court# justice*.z//Supreme#A Court# judge*.z/
+====Solicitor# Supreme#A Court*.z//SSC.z/
+====King#'s Counsel*.gz//KC,QC.z/Queen#'s Counsel*.gz/
+silk,silk# gown*,silk#-gownsman*.gz/|uk|
+====Attorney* General#.z//Attorney# General*.z/AG.z/
+procureur* général*A.My/|us|
+====attorney* general#.z//attorney# general*.z/AG.z/|us|
+====solicitor* general#.z//solicitor# general*.z/SG.z/|us|
+====avocat-au-Conseil-d-etat//avocat* au#R Conseil#M d#R'état#.§y/
+====avocat-a-la-cour-de-cassation//
+avocat* à#R la#DF cour#F de#R cassation#F.§y/
+====auditeur-au-Conseil-d-etat//auditeur* au#R Conseil#M d#R'état#.§y/
+====conseiller-au-Conseil-d-etat//conseiller* au#R Conseil#M d#R'état#.§y/
+====maitre-des-requetes-au-Conseil-d-etat//
+maître* des#RP requêtes#FP au#R Conseil#M d#R'état#.My/
+;_______________________________________________________________________________
+===inspector.z//inspecteur.§y/
+;_______________________________________________________________________________
+===clergyperson.z//clergyman.z/écclésiastique.My/
+====clergyman.Mz//|male|
+====clergywoman.Fz//|female|
+====minister.z//ministre.My/
+=====priest.z//prêtre.My/
+======rector.z//curé.My/
+======vicar.z//pasteur.My/
+====rabbi.z//rabbin.My/
+;_______________________________________________________________________________
+===policeman.z//policewoman.Fz/agent* de#R police#F.My/policier.My/
+===watchman.z//gardien.My/
+====night# watchman*.z//veilleur* de#R nuit#F.My/
+===guard.z//garde.My/
+;_______________________________________________________________________________
+===businessperson.z//
+;_______________________________________________________________________________
+====businessman.Mz/man/homme* d#R'affaires#FP.¹My/
+====businesswoman.Fz/woman/femme* d#R'affaires#P.¹Fy/
+====salesperson.z//vendeur.§y/
+=====salesman.Mz//|male|
+=====saleswoman.Fz//|female|
+;_______________________________________________________________________________
+====legal#A professional*.z//
+=====homme* de#R loi#F.My/man/
+=====amicus# curiae*.z//friend* of#R the#D court#.z/
+=====bailiff.z//huissier.My/
+=====notary# public#A.z//notary.z/public#A notary*.z/notaire.My/maître.My/
+=====lawyer.z//attorney.¹Àz/attorney*-at#R-law#.Àz/member* of#R the#D bar#.qÀz/
+legal#A practitioner*,officer* of#R the#D court#.qz/
+legal#A expert*.qz/law# agent*,writer,writer* to#R the#D signet#.îz/
+proctor.qz/procurator.oqz/civilian.oz/shyster,ambulance# chaser*.¹hz/
+pettifogger,Philadelphia# lawyer*.hz/attorneyship.ÎÀz/lawyerly,lawyerlike.Az/
+;be* admitted#V to#R the#D bar#N.Vz/take* silk#N.gVz/
+avocat.¹§y/juriste.q§y/maître.qMy/avocaillon.qhTMy/
+bavard,babillard,baveux,bêcheur,blanchisseur.ah§y/|employer-of=law-firm|
+======specialist# lawyer*.z//legist.qz/
+=======bankruptcy# attorney*.¹Àz//bankruptcy# lawyer*.z/
+|specialty-of=bankruptcy|
+========mandataire*-liquidateur*.§y//; represents creditors (créanciers)
+========liquidateur* judiciaire*A.§y//
+========commissaire* liquidateur*.My//
+=======business# lawyer*.z//avocat* d#R'affaires#FP.§y/|specialty-of=company|
+=======constitutional#A lawyer*.z//|specialty-of=constitutional-law|
+=======corporation# lawyer*.z//corporate#A lawyer*.z/company# lawyer*.gz/
+avocat* d#R'entreprise#F.§y/juriste.§y/|specialty-of=company|
+=======criminal#A lawyer*.z//avocat* en#R droit#M pénal#AM.§y/
+|specialty-of=criminal-law|
+=======patent# attorney*.Àz//patent# lawyer*.gz/
+conseil* en#R propriété#F industrielle#AF.My/
+|specialty-of=intellectual-property-right|
+=======tax# lawyer*.z//conseil* fiscal*A.My/
+avocat* en#R droit#M fiscal#AM.§y/
+=======avocat* en#R droit#M social#AM.§y//employment# lawyer*.qz/
+=======avocat* contentieux*A.§y//litigation# attorney*.qÀz/
+======notaire.My/legal-advisor,trial-attorney/maître.My/tabellion.thMy/
+lawyer.z/solicitor.gz/|specialty-of=trade-property,will,matrimonial-law|
+======attorney* in#R fact#.Àz//
+======conveyancer.qz//
+======court#-appointed#V lawyer*.z//officially#B-appointed#V lawyer*.z/
+avocat* commis*A d#R'office#M.¹§y/
+======curateur.§y//guardian,trustee.qz/
+======junior#A barrister*.qz//junior#A counsel*.qz/
+======law# member* of#R a#D court#-martial#A.z//
+======lawyer-leader//leader.gz/
+======private#A attorney*.Àz//
+======sergeant*-at#R-law#.gz//Common#A Serjeant*.gz/
+Common#A Serjeant* at#R Law#.gz/
+======special#A pleader*.z//
+======stuff# gown*.qz//stuff#-gownsman*.qz/
+======legal#A advisor*.z//solicitor.¹gz/counselor,legal#A counselor*.z/
+avocat* consultant*A.§y/conseil* juridique*A.My/conseiller* juridique*A.§y/
+conseil* judiciaire*A.oMy/conseil* juridique*A et#K fiscal*A.My/
+|specialty-of=legal-concept|
+======trial# attorney*.Àz//barrister.¹gz/barrister*-at#R-law#.gz/
+court# attorney*.gz/counselor,counselor*-at#R-law#,counsel.z/
+member* of#R the#D bar#.qgz/mouthpiece.qaz/
+advocate,deputy,agent,intercessor,pleader.qz/
+barristerial,representing,of#R counsel#N.qAz/
+avocat* plaidant*A,avocat* à#R la#D cour#F.¹§y/avoué.My/avoué* plaidant*A.My/
+|specialty-of=legal-concept|
+=======mandataire.§y//proxy.¹z/representative.z/
+=======consulting# barrister*.gz/legal-advisor/counsel*-in#R-chambers#P.gz/
+avocat*-conseil#M ½.§y/
+=======counsel* for#R the#D plaintiff#.z//
+avocat* de#R la#DF partie#F civile#AF.§y/
+=======defense# attorney*.Àz//attorney* for#R the#D defense#.z/
+defense# counsel*.z/avocat* de#R la#D défense#F.¹§y/défenseur.My/
+========public#A defender*.z//
+=======opposing# counsel*.z//opposing# lawyer*.z/
+=======prosecuting# attorney*.Àz/magistrature-debout/prosecutor.z/
+trial# judge# advocate*,counsel* for#R the#D prosecution#.z/
+procureur.My/procureur* de#R la#D République#F.My/
+========public# prosecutor*.z//procureur* général*A.My/
+========substitut-du-procureur-general//
+substitut* du#R procureur# général#A.My/substitute# public# prosecutor*.z/
+========avocat-general//avocat* général*A.§y/assistant# prosecutor*.qz/
+assistant# procurator* fiscal#A.îz/
+========district# attorney*.Àz//DA.z/
+représentant* du#R ministère# public#A.My/
+=========assistant# district# attorney*.Àz//
+========United#A States#P attorney*.Àz//US# attorney*.Àz/
+=====judge.z//jurist.qz/juge.My/magistrature.Fy/
+======magistrature* debout*A.ÎFy//ministère* public*A.ÎMy/parquet.My/
+======magistrature* assise*A.ÎFy//juge* des#RP tribunaux#P judiciaires#AP.My/
+=======juge* administratif*A.My//conseiller.§y/
+=======juge* titulaire*A de#R la#D Cour#F internationale#AF de#R justice#F.My//
+=======juge* d#R'instruction#F.My//committing# magistrate*.z/
+examining# judge*,examining# magistrate*.gz/
+=======juge* titulaire*A.My//
+=======juge-suppleant//juge* suppléant*A.My/
+=======juge* consulaire*A.My//
+=======juge-departiteur//juge* départiteur*.My/
+=======juge*-commissaire*.My//
+=======juge-de-la-mise-en-etat//juge* de#R la#D mise#F en#R état#.My/
+=======juge* d#R'application#F des#RP peines#FP.My//sentencing# judge*.qz/
+=======juge-des-referes//juge* des#RP référés#P.My/
+=======juge* aux#RP affaires#FP matrimoniales#AFP.My//
+=======magistrate.z//juge* d#R'instance#F.My/
+========justice* of#R the#D peace#.z//juge* de#R paix#F.oMy/
+========police# court# judge*.z//
+=======juge* des#RP enfants#P.My//children#P's judge*.Àz/
+juvenile# magistrate*.gz/
+;_______________________________________________________________________________
+====draftsman.z//dessinateur* industriel*A.§y/dessinateur.§y/
+====industrial#A designer*.z//designer.z/dessinateur.§y/
+designer,styliste.§y/concepteur*-dessinateur* industriel*A.§y/
+====interior# decorator*.z//décorateur,styliste.§y/
+;_______________________________________________________________________________
+====advertising# industry# professional*.z//
+professionnel* de#R publicité#F.§y/
+=====adman.qz//ad# man*.qz/creative.z/publicitaire.§y/
+spécialiste* de#R la#DF publicité#F.§y/
+=====commercial#A artist*.z/plastic-artist/dessinateur* publicitaire*A.¹§y/
+dessinateur* de#R publicité#F.§y/
+======fashion# illustrator*.z//dessinateur* de#R mode#F.§y/
+======illustrator.z//dessinateur* de#R presse#F.§y/
+======poster# designer*.z//poster# artist*.z/affichiste.§y/
+=====market# researcher*.z//
+======pollster.z//sondeur.§y/
+;_______________________________________________________________________________
+====securities#P industry# professional*.z//banquier,financier.My/
+|employer-of=investment-bank|
+=====investment# banker*.z//merchant# banker*.z/banquier.My/
+=====broker.z//courtier.§y/agent,broker.My/
+======account# executive*.z//
+======currency# broker*.z//foreign#A-exchange# broker*.z/FX# broker*.Tz/
+cambiste.NA§y/banquier* cambiste*A.My/|specialty-of=currency|
+=====securities#P salesperson*.z//salesperson.¹z/commercial.My/
+======securities#P salesman*.Mz//salesman.Mz/|male|
+======securities#P saleswoman*.Fz//saleswoman.Fz/|female|
+=====trader.z//dealer.z/trader.¹My/tradeur.My/broker.My/opérateur.§y/
+opérateur* boursier*A,opérateur* financier*A.§y/négociant.q§y/
+agent* de#R change#.oMy/|specialty-of=financial-instrument|
+======currency# trader*.z//foreign#A-exchange# trader*.z/FX# trader*.Tz/
+courtier* en#R devises#FP.§y/|specialty-of=currency|
+======arbitrager.z//arbitragiste.§y/|trade-arbitrage|
+======speculator.z//spéculateur.§y/boursicoteur.q§y/|trade-speculate|
+=======market# manipulator*.z//market# operator*.z/agioteur.o§y/
+|market-manipulation|
+=======insider# trader*.z//agioteur.§y/|insider-trading|
+=======bearish.Az//bear.z/baissier.My/
+========bear# raider*.z/market-manipulator/
+=======bullish.Az//bull.z/haussier.My/
+;_______________________________________________________________________________
+===vendor.z//marchand.§y/
+====food# vendor*.z//
+=====street# vendor*.z//
+;_______________________________________________________________________________
+===shopkeeper.z//storekeeper,retail#A merchant*.z/marchand.§y/commerçant.§y/
+====petit-commercant//petit*A commerçant*.§y/
+====antique# dealer*.z//antiquaire.§y/
+====grocer.z//épicier.§y/
+====pork# butcher*.z//charcutier.§y/
+====greengrocer.z//marchand* de#R fruits#MP et#K légumes#MP.¹§y/
+====second-hand-goods-dealer//second#A-hand# goodsÝgoods#P dealer*.z/
+junk# dealer*.z/brocanteur.§y/
+====fabric# seller*.z//marchand* de#R tissus#MP.§y/
+=====dry-goods-dealer//dry#A goodsÝgoods#P dealer*.Àz/mercer.gz/mercier.§y/
+====notions#P shopkeeper*.Àz//haberdasher.gz/mercier.§y/
+;_______________________________________________________________________________
+===clothing# industry# professional*.z//
+;_______________________________________________________________________________
+====cosmetician.z//cosmétologue.§y/
+====hairdresser.z//hairstylist,hair# stylist*,stylist.z/coiffeur.§y/
+=====barber.z//
+====shampooist.z//shampooer.z/shampouineur.§y/
+====hairdresser#'s assistant*.z//garçon* coiffeur*.My/
+;_______________________________________________________________________________
+====clothing# dealer*.z/shopkeeper/marchand* de#R vêtements#MP.§y/
+|specialty-of=clothing|
+=====used#A clothing# dealer*.z//fripier.§y/chiffonnier.§y/biffin.aMy/
+|specialty-of=secondhand-clothes|
+=====men#P's clothing# dealer*.z//
+marchand* de#R vêtements#MP pour#R hommes#MP.§y/|specialty-of=menswear|
+======shirtmaker.z//haberdasher.z/chemisier.§y/|specialty-of=shirt|
+=====women#P's clothing# dealer*.z//
+marchand* de#R vêtements#MP pour#R dames#FP.§y/
+marchand* de#R vêtements#MP pour#R femmes#FP.§y/|specialty-of=womenswear|
+=====shoe# dealer*.z//chausseur.My/|specialty-of=footwear|
+=====clothier.z//draper.¹gz/outfitter,costumier,costumer.z/
+marchand* de#R confection#F.§y/
+marchand* de#R vêtements#MP pour#R confection#F.§y/
+drapier.q§y/|specialty-of=ready-to-wear-clothes|
+;_______________________________________________________________________________
+====clothing# maker*.z//clothing# manufacturer*.z/
+fabricant* de#R vêtements#P.My/
+=====dressmaker.z//seamstress.z/couturière,couturier.jz/modiste.oz/
+couturière.Fy/|specialty-of=gown|
+=====furrier.z//fourreur.My/|specialty-of=fur|
+=====garmentworker.z//garmentmaker,needleworker,cutter,stitcher,finisher.z/
+couturière.Fy/
+=====glover.z//gantier.§y/|specialty-of=gloves|
+=====hosier.z//bonnetier.§y/|specialty-of=hosiery|
+=====shoemaker.z//cobbler.oz/souter.îz/cordonnier.o§y/savetier.oMy/
+bouif.aoMy/|specialty-of=footwear|
+======bootmaker.z//booter.oqz/bottier.My/|specialty-of=boot|
+=====tailor.Mz/clothing-dealer/
+tailoress.Fz/tailleur.qjz/fitter.z/sartor,busheler,bushelman,cloakmaker.qz/
+tailleur.My/marchand* de#R vêtements#MP sur#R mesure#F.§y/
+;_______________________________________________________________________________
+====fashion# designer*.z//designer.z/styliste,modéliste.§y/
+=====top#A fashion# designer*.z//couturier.My/
+======great#A designer*.z//grand*A couturier*.My/
+====model.z//mannequin.My/modèle.My/
+=====supermodel.z//top*ßA model*.My/
+;_______________________________________________________________________________
+===farmer.z//agriculteur.¹§y/
+agriculteur* exploitant*,exploitant* agricole*A.§y/
+fermier.§y/cultivateur.§y/
+;_______________________________________________________________________________
+===craftsman.z//artisan.z/artisan.¹§y/
+====faconnier//façonnier.¹§y/
+;_______________________________________________________________________________
+===milkman.Mz//dairywoman.Fz/laitier.§y/
+;_______________________________________________________________________________
+===postal#A worker*.z//postal#A employee*.z/post# office# worker*.z/
+====mail# handler*.z//
+====mail# carrier*.z//letter# carrier*.z/postal#A carrier*.z/carrier.z/
+facteur.§y/
+=====mailman.ÀMz//postman.gz/|male|
+=====mailwoman.ÀFz//postwoman.gz/|female|
+====postal#A clerk*.z//clerk.z/
+====postmaster.z//receveur* des#RP postes#NFP.My/
+;_______________________________________________________________________________
+===painter.z//peintre,peintre* en#R bâtiment#.My/
+;_______________________________________________________________________________
+===busser.z//busboy.z/aide#V-serveur#M ½.My/
+===cook.z//cuisinier.§y/
+====short#A order# cook*.z//
+===human-dishwasher//dishwasher.z/plongeur.§y/
+===restaurant-host//host.My/hostess.Fy/
+===restaurant-manager//restaurant# manager*,manager.z/gérant.§y/
+===waiter.z//server.z/food# server*.z/serveur.§y/
+====headwaiter.z//head#A waiter*,maitre# d#'.z/maître* d#R'hôtel#M.My/
+====male-waiter//waiter.Mz/|male|
+====waitress.Fz//|female|
+====waiter-captain//captain.z/
+====back# waiter*.z//
+====front# waiter*.z//
+====cafe-waiter//café# waiter*.z/garçon* de#R café#.My/garçon.My/
+====wine# steward*.z//wine# waiter*.z/sommelier.My/
+====sommelier.z//wine# waiter*.z/sommelier.My/
+====cocktail# person*.z//
+====food# server*.z//
+;_______________________________________________________________________________
+===car# park# attendant*.z//
+===coat# check# attendant*.z//
+===rest# room# attendant*.z//restroom# attendant*.z/
+===usher.z//placeur,huissier.My/
+;_______________________________________________________________________________
+===bartender.z//barman.My/barmaid.Fy/
+===taxigirl.z//taxi# dancer*,taxi# girl*.z/entraîneuse.Fy/taxi#M-girl*.Fy/
+danseur* mondain*A.My/
+;_______________________________________________________________________________
+===dog# walker*.z//promeneur* de#R chien#NM.@§y/
+;_______________________________________________________________________________
+===secretary.z//secrétaire.§y/
+====administrative#A assistant*.z//
+===receptionist.z//réceptionniste.§y/
+===typist.z//dactylo.§y/
+;_______________________________________________________________________________
+===game# player*.z//player.z/joueur.§y/
+====chess# player*.z//
+;_______________________________________________________________________________
+===athlete.z//athlète.§y/
+;_______________________________________________________________________________
+====baseball# player*.z//joueur* de#R baseball#M.@§y/
+=====batter.z//
+=====catcher.z//
+=====center#A fielder*.z//
+=====left#A fielder*.z//
+=====pitcher.z//
+=====right#A fielder*.z//
+=====shortstop.z//
+;_______________________________________________________________________________
+====blader.z//rollerblader.z/roller# blader*.z/
+====runner.z//coureur.§y/partant.§y/
+====sledder.z//
+====swimmer.z//nageur.§y/
+====tennis# player*.z//joueur* de#R tennis#M.@§y/
+;_______________________________________________________________________________
+===athletic#A official*.z//
+====first#A base# coach*.z//
+====third#A base# coach*.z//
+====umpire.z//
+;_______________________________________________________________________________
+===transportation# professional*.z//|employer-of=transportation-industry|
+;_______________________________________________________________________________
+====occupation-driver//driver.z/chauffeur.§y/
+=====bus# driver*.z//conducteur* d#R'autobus#NM.My/
+=====taxi# driver*.z//cab# driver*.îz/chauffeur* de#R taxi#NM.§y/
+=====truck# driver*.z//routier.My/
+;_______________________________________________________________________________
+====air-navigator//navigator.z/navigateur.§y/
+====co#A-pilot*.z//copilote.My/
+====flight# attendant*.z//steward.oMz/stewardess.oFz/steward.My/
+hôtesse* de#R l#D'air#NM.Fy/
+====pilot.z//pilote.My/
+=====airline# pilot*.z//
+;_______________________________________________________________________________
+====train-conductor//conductor.Àz/guard.gz/chef* de#R train#NM.My/
+;_______________________________________________________________________________
+===performing# arts#P professional*.z//in#R the#D business#N.Az/
+théâtreux.q§y/théâtreux.qAy/|employer-of=entertainment-industry|
+;_______________________________________________________________________________
+====performer.z//talent.z/interprète.§y/
+=====acrobat.z//acrobate.§y/
+======tightrope# walker*.z//funambulist.tz/
+danseur* de#R corde#F,funambule.§y/
+fildefériste,fil#M-de#R-fériste*,fil#M ½-de#R-fériste*.§y/
+=====performer-actor//actor.z/actress.Fz/comédien.§y/acteur.¹§y/
+artiste,interprète.§y/baladin.h§y/théâtreuse.ohFy/|specialty-of=act|
+======famous-actor//movie# star*.Àz/film# star*.gz/vedette* de#R cinéma#M.Fy/
+|famous|
+======ham-actor//ham.hz/hammy.Az/histrion.htMy/
+cabot.hTMy/cabot.hTAy/cabotin.hT§NAy/
+======comic#A actor*.z//comique.§y/|humorous|
+=======jester.oz//buffoon,clown.oz/bouffon.o§y/clown.oMy/
+======tragedian.z//tragic#A actor*.z/tragédien.§y/
+=====clown.z//clown.My/pitre.My/|humorous|
+=====comedian.z//comic.z/comique.§y/|humorous|
+======joke# teller*.z//
+=====dancer.z//danseur.¹§y/interprète.§y/
+======ballet# dancer*.z//ballerina.Fz/danseur* de#R ballet#M.¹§y/
+ballerine.¹Fy/danseur* classique*A.§y/danseur* du#R Opéra#M.q§y/
+=======premier*A danseur*.§y//danseur* étoile#F ½.§y/prima#A ballerina*.Fz/
+principal#A dancer*.Mz/
+=======dancer-subject//subject.z/sujet.My/|superior-of=premier-danseur|
+=======dancer-coryphaeus//coryphaeus.z/coryphée.My/
+|superior-of=dancer-subject|
+=======dancer-quadrille//quadrille.z/quadrille.My/
+|superior-of=dancer-coryphaeus|
+======modern#A dancer*.z//danseur* moderne*A.@§y/
+======danseuse* orientale*A.Fy//
+=======almah.z//Egyptian# dancing# girl*.z/almée.Fy/
+=======bayadere//bayadère.z/bayadère.Fy/
+======stripper.z//strip#ß-teaseur*.§y/
+======tap# dancer*.z//danseur* à#R claquettes#FP.§y/
+danseur* de#R claquettes#FP.§y/
+======chorus# girl*.Fz//chorus# boy*.Mz/danseur* de#R music#Fj-hall#M.§y/
+girl.Fy/boy.My/
+======cabaret# dancer*.z//danseuse* de#R cabaret#M.Fy/
+=====DJ.z//deejay.z/disc# jockey*.z/disc#-jockey*,disque*-jockey*.My/
+D\.J\..My/animateur.§y/
+=====entertainer.z//fantaisiste.§y/
+=====MC.TÀz//master* of#R ceremonies#P.Àz/emcee.TÀz/compère.gz/
+meneur* de#R jeu#M.§y/
+=====mime.z//mime.My/|silent|
+=====television# talent*.z//
+======anchorperson.z//anchor.z/news# anchor*.z/anchorman.qMz/
+anchorwoman.qFz/présentateur.§y/présentateur* vedette#F ½.§y/
+présentateur*-vedette#F ½.§y/présentateur* du#R journal#NM télévisé#AM.§y/
+======game# show# host*.z//animateur,meneur* de#R jeu#M.§y/
+======talk# show# host*.z//animateur,présentateur.§y/
+======video#A jock*.z//VJ.z/veejay.qz/animateur.§y/vidéo*A jockey*.My/
+;_______________________________________________________________________________
+====behind#R the#D scenes#NP.Az//en#R coulisse#NF.¹Ay/
+dans#R les#DP coulisses#NFP.Ay/
+=====audio#A engineer*.Àz//sound#A engineer*.gz/engineer.Tz/
+ingénieur* du#R son#M.My/
+=====cameraperson.z//cameraman.z/caméraman.My/cadreur.My/
+opérateur* de#R prises#FP de#R vue#F.§y/
+=====video# switcher# technician*.z//technicien* mélangeur#M ½.§y/
+technicien* aiguilleur#M ½.ç§y/
+=====technical#A director*.z//T\.D\..Tz/
+=====video# control# engineer*.z//shader.Tz/
+=====director.z//réalisateur.q§y/
+======assistant# director*.z//assistant* réalisateur*.§y/
+======film# director*.z//director.z/réalisateur.§y/
+réalisateur* de#R films#MP.§y/
+=======film# maker*.z//movie# maker*.qz/cinéaste.§y/
+========animator.z//animateur.§y/
+=======metteur-en-scene//metteur* en#R scène#F.Mïy/
+metteuse* en#R scène#F.qFïy/
+======theatre# director*.z//metteur* en#R scène#F.Mïy/
+metteuse* en#R scène#F.qFïy/
+======TV# director*.z//television# director*,director.z/réalisateur.§y/
+réalisateur* de#R télévision#F.§y/vidéaste.t§y/téléaste.q§y/
+=====chef* de#R production#F.@My//
+=====producer.z//producteur.q§y/
+======film# producer*.z//producer.z/producteur.§y/
+======radio# producer*.z//producer.z/réalisateur.§y/
+réalisateur* de#R radio#F.§y/metteur* en#R ondes#FP.My/
+metteuse* en#R ondes#FP.qFy/
+======theatre# producer*.z//metteur* en#R scène#F.My/
+metteuse* en#R scène#F.qFy/
+======TV# producer*.z//television# producer*,producer.z/producteur.§y/
+;_______________________________________________________________________________
+===journalist.z//correspondent.¹z/reporter.z/journaliste.¹§y/
+correspondant,reporter,grand*A reporter*.§y/reporteur.My/
+====foreign#A correspondent*.z//correspondant* à#R l#DM'étranger#M.§y/
+====local#A correspondent*.z//localier.My/correspondant* local*A.§y/
+====political#A analyst*.z//political#A expert*,political#A commentator*.z/
+politologue.§y/
+====radio# correspondent*.z//correspondant.§y/radioreporter.§y/
+====special#A correspondent*.z//correspondant* spécial*A.§y/
+envoyé* spécial*A.§y/
+====television# correspondent*.z//reporteur* d#R'images#FP.My/
+reporter*-caméraman# ½.§y/reporteur.My/
+;_______________________________________________________________________________
+===photographer.z//photographe.§y/
+====newspaper# photographer*.z/journalist/reporter* photographe*.§y/
+====paparazzi.Pïz//paparazzi.MPïy/
+====fashion# photographer*.z/clothing-industry-professional/
+photographe* de#R mode#F.§y/
+====portrait# photographer*.z//
+;_______________________________________________________________________________
+===artist.z//artiste.§y/|create=art|
+;_______________________________________________________________________________
+====performance# artist*.z//|create=performance-art|
+;_______________________________________________________________________________
+====plastic# artist*.z//visual#A artist*.z/artiste* plastique*A.¹§y/
+=====architect.z//architecte.¹§y/|create=architecture|
+=====artist-photographer/photographer/photographer.z/
+fine#A art# photographer*.z/photographe.¹§y/|create=photograph|
+=====artist-painter//painter.z/peintre.¹My/artiste* peintre#M ½.§y/
+|create-paint=painting|
+======graffiti# painter*.z//graffiti# artist*.z/painter,writer,tagger.Tz/
+|create-paint=graffiti|
+=====cartoonist.z//strip# cartoonist*.gz/dessinateur* humoristique*A.¹§y/
+dessinateur.§y/dessinateur* de#R bande#F dessinée#AF.§y/
+|create-draw=art-comics|
+======political#A cartoonist*.z//satirical#A cartoonist*.z/caricaturiste.¹§y/
+======caricaturist.z//caricaturiste.¹§y/
+=====human-drawer//drawer.z/draftsman.z/dessinateur.¹§y/
+=====engraver.z//graveur.¹§y/
+======etcher.z//graveur* à#R l#DF'eau#F-forte#AF.¹§y/
+======woodcutter.z//graveur* sur#R bois#M.¹§y/
+=====sculptor.z//sculpteur.¹ïMy/sculptrice.qFïy/
+|create=sculpture|
+;_______________________________________________________________________________
+====musician.z//musicien.§y/
+=====arranger.z//arrangeur.§y/|create-arrange=music|
+=====composer.z//compositeur.§y/|create-write-music=music|
+======songwriter.z/writer/auteur#M ½-compositeur*.§y/|create-write-music=song|
+=====orchestrator.z//orchestrateur.§y/|create-arrange=music|
+=====performing# musician*.z/performer/performer.z/
+artiste,exécutant,interprète.§y/|skill-of-play=musical-instrument|
+======guitarist.z//guitariste.§y/|skill-of-play=guitar|
+=======classical#A guitarist*.z//guitariste* classique*A.§y/
+=======jazz# guitarist*.z//guitariste* de#R jazz#M.§y/
+======violinist.z//violoniste.§y/|skill-of-play=violin|
+======violist.z//altiste.§y/|skill-of-play=viola|
+======cellist.z//violoncelliste.§y/|skill-of-play=cello|
+======bassist.z//bassiste.§y/contrebassiste.§y/|skill-of-play=double-bass|
+======pianist.z//pianiste.§y/|skill-of-play=piano|
+======flutist.z//flautist.z/flûtiste.§y/|skill-of-play=flute|
+;_______________________________________________________________________________
+======singer.z//chanteur.§y/|sing|
+=======human-soprano//soprano.z/soprane.Fy/|soprano|
+=======human-mezzo-soprano//mezzo#Aj-soprano*.z/mezzo#Aj-soprano#M ½.·Fy/
+mezzo.Fy/|mezzo-soprano|
+=======human-contralto//contralto.z/contralto.Fy/|contralto|
+=======human-alto//alto.z/alto.My/|alto|
+=======human-counter-tenor//counter#A-tenor*.z/haute#AF-contre#R ½.·My/
+|counter-tenor|
+=======human-tenor//tenor.z/ténor.My/|tenor|
+=======human-baritone//baritone.z/baryton.My/|baritone|
+=======human-bass-baritone//bass#-baritone*.z/baryton*-basse#F ½.My/
+|bass-baritone|
+=======human-bass//bass.z/basse.Fy/|bass|
+;_______________________________________________________________________________
+=======singer#-songwriter*.z/songwriter/
+auteur#M ½-compositeur*-interprète*.§y/
+;_______________________________________________________________________________
+====writer.z//author.z/écrivain.¹My/auteur.¹My/littérateur.My/
+écrivailleur,écrivassier.h§y/écrivaillon,plumitif.hMy/écrivassier.hAy/
+=====lyricist.z//auteur,parolier.§y/|create-write-literature=lyrics|
+======librettist.z//librettiste,parolier.§y/
+=====novelist.z//romancier.§y/|create-write-literature=fiction-novel|
+=====poet.z//poète.My/poétesse.hFy/|create-write-literature=poetry|
+=====playwright.z//dramaturge.§y/|create-write-literature=media-object-play|
+======comedy# writer*.z//comique.§y/
+=====screenwriter.z//screen# writer*.z/dialog# writer*.qz/scénariste.§y/
+dialoguiste.§y/|create-write-literature=media-object-screenplay|
+=====technical#A writer*.z//tech# writer*.z/
+;_______________________________________________________________________________
+===pharmacist.Àz//druggist.gz/pharmacien.§y/|specialty-of=drug|
+;_______________________________________________________________________________
+===classic#A profession*.Îz//profession.Îz/profession* libérale*A.ÎFy/
+;_______________________________________________________________________________
+===medical#A profession*.Îz//corps* médical*A.ÎMy/
+;_______________________________________________________________________________
+====doctor.z/classic-profession/physician,medical#A doctor*,MD.z/médecin.My/
+=====cardiologist.z//cardiologue.§y/
+=====dermatologist.z//dermatologue.§y/
+=====general#A practitioner*.z//GP.z/internist.Àz/médecin* généraliste*.¹My/
+interniste.§y/
+=====gynecologist.z//gynécologue.§y/
+=====OB#\/GYN*.z/obstetrician,gynecologist/
+=====obstetrician.z//obstétricien.§y/
+=====oncologist.z//oncologue.§y/
+=====ophthalmologist.z//eye# doctor*.z/ophtalmolgue,ophtalmologiste.§y/
+=====otolaryngologist.z//
+=====pediatrician.z//pédiatre.§y/
+=====primary#A care# physician*.z//
+=====surgeon.z//chirurgien.My/
+=====urologist.z//urologue.§y/
+;_______________________________________________________________________________
+====dentist.z/classic-profession/dentiste.§y/
+====dental#A assistant*.z//
+====dental#A hygienist*.z//hygienist.z/hygiéniste.§y/
+====optometrist.Àz//optician.gz/optométriste,réfractionniste.§y/
+====optician.z//opticien.§y/
+====nurse.z//infirmier.§y/
+====physical#A therapist*.Àz//physiotherapist.gz/kinésithérapeute.§y/
+;_______________________________________________________________________________
+===philosopher.z//philosophe.§y/
+;_______________________________________________________________________________
+===cognitive#A scientist*.z//
+;_______________________________________________________________________________
+===linguist.z/cognitive-scientist/linguiste.§y/
+====pragmaticien.§y//
+====computational#A linguist*.z//
+;_______________________________________________________________________________
+===scientist.z//scientifique.¹§y/savant.My/
+;_______________________________________________________________________________
+====physicist.z//physicien.¹§y/
+=====theoretical#A physicist*.z//physicien* théorique*A.@¹§y/
+;_______________________________________________________________________________
+====social#A scientist*.z//
+spécialiste* des#RP sciences#FP sociales#AFP.§y/
+;_______________________________________________________________________________
+=====anthropologist.z//anthropologue,anthropologiste.§y/
+=====anthropological#A linguist*.z/linguist/
+=====cultural#A anthropologist*.z//
+======archeologist.z//archéologue.§y/
+======cognitive#A anthropologist*.z//
+=====physical#A anthropologist*.z//
+;_______________________________________________________________________________
+=====economist.z//économiste.§y/
+;_______________________________________________________________________________
+=====political#A scientist*.z//
+spécialiste* en#R sciences#FP politiques#AFP.§y/
+;_______________________________________________________________________________
+=====psychologist.z//psychologue.§y/
+======research# psychologist*.z/cognitive-scientist/
+psychologue* scolaire*A.§y/
+=======cognitive#A psychologist*.z//psychologue* cognitif*A.@§y/
+=======experimental#A psychologist*.z//psychologue* expérimental*A.@§y/
+=======psychoanalyst.z//psychanalyste.§y/
+======clinical#A psychologist*.z//shrink.hTz/psy.T§y/
+=======psychiatrist.z/doctor/psychiatre.§y/aliéniste.o§y/psy.T§y/
+=======clinical-psychoanalyst//analyst,psychoanalyst.z/
+analyste,psychanalyste.§y/psy.T§y/
+=======clinical-analyst//analyst.z/analyste.§y/
+=======psychotherapist.z//therapist.z/thérapeute,psychothérapeute.§y/
+;_______________________________________________________________________________
+=====sociologist.z//sociologue.§y/
+;_______________________________________________________________________________
+===operator.z//opérateur.§y/
+;_______________________________________________________________________________
+====radio# operator*.z//opérateur* radio#F.§y/
+;_______________________________________________________________________________
+====computer# operator*.z//opérateur* d#R'ordinateur#M.@§y/
+;_______________________________________________________________________________
+====telephone# operator*.z//operator.z/standardiste.§y/
+=====PBX# operator*.z//switchboard# operator*.z/attendant.¹z/standardiste.¹§y/
+téléphoniste* d#R'un#D standard#M.§y/
+=====telephone#-company# operator*.z//telco# operator*.Tz/operator.z/
+téléphoniste.§y/opérateur.¹§y/
+======chief# operator*.z//
+======directory# assistance# operator*.z//DA# operator*.z/
+information# operator*.z/
+opérateur* au#R service#M de#R renseignements#MP.@§y/
+======intercept# operator*.z//
+======inward#A operator*.z//
+======mobile# operator*.z//
+======international# operator*.z//overseas#A operator*.z/
+======rate# and#K route# operator*.z//
+======service# assistant*.z//supervisor.z/SA.az/
+======toll# operator*.z//
+=======cord#-board# operator*.z//cordboard# operator*.z/
+========3CL#® operator*.z//
+=======TSP#® operator*.z//
+=======TSPS#® operator*.z//
+=======TOPS#® operator*.z//
+=======OSPS#® operator*.z//
+======universal#A operator*.z//
+======verification# operator*.z//
+;_______________________________________________________________________________
+===box#-office# employee*.z//employé* de#R guichet#M.@§y/
+===ticket# clerk*.gz//guichetier.§y/
+===airport-check-in-employee//check#V-in#R employee*.z/
+check#V-in#R desk# employee*.z/
+===ticket# taker*.z//contrôleur.@§y/
+;_______________________________________________________________________________
+===minimum#A wage# earner*.z//smicard.§y/
+;_______________________________________________________________________________
+===engineer.z//ingénieur.My/femme* ingénieur#M ½.Fy/
+;_______________________________________________________________________________
+====computer# professional*.z//informaticien.§y/
+=====knowledge# engineer*.z//ingénieur* de#R la#D connaissance#F.My/
+=====network# administrator*.z//
+=====computer# programmer*.z//programmer.z/programmeur.§y/
+=====software# engineer*.z//programmeur.§y/
+=====computer# scientist*.z//informaticien.§y/
+======computer# science# researcher*.z//chercheur* en#R informatique#F.Mïy/
+chercheuse* en#R informatique#F.çFïy/
+=======AI# researcher*.z/cognitive-scientist/
+artificial#A intelligence# researcher*.z/
+chercheur* en#R intelligence#F artificielle#AF.§y/
+;_______________________________________________________________________________
+====human#-factors#P researcher*.z//
+====chemical#A engineer*.z//ingénieur#M ½ chimiste*.§y/
+====civil#A engineer*.z//ingénieur* civil*A.My/
+ingénieur* des#RP Travaux#MP Publics#AMP.My/
+====electrical#A engineer*.z//ingénieur#M ½ électricien*.§y/
+====mechanical#A engineer*.z//ingénieur#M ½ mécanicien*.§y/
+====structural#A engineer*.z//ingénieur* des#RP Ponts#MP et#K Chaussées#FP.My/
+;_______________________________________________________________________________
+===self#N-employed#A person*.z//
+;_______________________________________________________________________________
+===retired#A person*.z//retraité.¹§y/
+;_______________________________________________________________________________
+===unemployed#A person*.z//chomeur.¹§y/demandeur* d#R'emploi#M.§y/
+sans#R-emploi#M.ß§y/
+;_______________________________________________________________________________
+===beach# bum*.z//
+===hippy.z//hippie,hippy.§y/
+===baba.My//baba* cool*A.My/hippy.¾z/
+===soixante#A-huitard*.§y//hippy.¾z/
+===flower# child*.z//enfant*-fleur#F ½.§y/
+===motorcycle# rider*.z//motocycliste.§y/
+;_______________________________________________________________________________
+===vagrant.z//bum.ÀTz/bag# lady*.TFz/clochard.My/clodo.TMy/
+===beggar.z//mendiant.§y/
+===homeless#A person*.z//homeless.Îkz/S\.D\.F\..¹§y/
+sans#R domicile#NM fixe#AM.§y/sans#R-abri#M.ß§y/sans#R-logis#M.ß§y/
+===urchin.z/human-child/gamin.My/
+====street# urchin*.z//gamin* des#RP rues#NFP.My/
+;_______________________________________________________________________________
+===terrorist.z//terroriste.§y/
+;_______________________________________________________________________________
+===sorcerer.Mz//sorceress.¹Fz/jeteur* de#R sort#M.¹§y/
+;_______________________________________________________________________________
+===prostitute.z//whore,hooker.hTz/prostituée.Fy/putain.hTFy/pute.haFy/
+;_______________________________________________________________________________
+==human-language//
+===French# speaker*.z//francophone.§y/|fluent-language-of=F121|
+===English# speaker*.z//anglophone.¹§y/angliciste.§y/|fluent-language-of=F122|
+;_______________________________________________________________________________
+==human-dietary-preference//dietary#A preference*.Îz/diet# preference*.Îz/
+food# preference*.Îz/
+;_______________________________________________________________________________
+; todo: food ontology needs work (meat includes fish)
+===vegetarian.z//végétarien.§y/|eat=vegetable|avoid=meat|
+====lacto#A-ovo#A vegetarian*.z//|eat=egg,dairy-product|
+====lacto#A vegetarian*.z//|eat=dairy-product|
+====ovo#A vegetarian*.z//|eat=egg|
+====vegan.z//végétalien.§y/
+;_______________________________________________________________________________
+===pescatarian.z//|eat=fish,vegetable,egg,dairy-product|avoid=meat|
+===demi#A-vegetarian*.z//|eat=food,chicken-food|avoid=meat|
+;_______________________________________________________________________________
+===dietary-preference-kosher//keep* kosher#A.Vz/|eat=kosher-food|
+===dietary-preference-halal//|eat=halal|
+;_______________________________________________________________________________
+===herbivore.z//herbivore.My/|eat=plant|[not [eat herbivore animal]]|
+===carnivore.z//carnivore.My/|eat=animal|
+===omnivore.z//omniovore.§y/|eat=plant,animal|
+;_______________________________________________________________________________
+==human-skin-color//
+===human-skin-color-Asian//Asian.z/Asiatique.§y/|Asian|
+===human-skin-color-Caucasian//Caucasian.z/white.z/Blanc.§y/|Caucasian|
+===human-skin-color-Hispanic//Hispanic.z/|Hispanic|
+===human-skin-color-Black//black.z/person* of#R color#.z/
+African#A-American*.qAz/African#A American*.qz/Negro.qhz/Noir.§y/
+homme* de#R couleur#F.My/individu* de#R couleur#F.¹My/|Black|
+;_______________________________________________________________________________
+==human-nationality-residence//
+;_______________________________________________________________________________
+===human-Afghan//Afghan.z/|attr-Afghan|nationality-of=country-AFG|
+===human-African//African.z/Africain.§y/|attr-African|residence-of=Africa|
+===human-American//American.z/Yankee.hz/Américain.¹§y/Étasunien,Etasunien.q§y/
+États#MP-Unien*§,Etats#MP-Unien*§.q§y/Yankee.hy/amerloque.ahy/ricain.ay/
+|attr-American|nationality-of=country-USA|
+===human-Asian//Asian.z/Asiatique.§y/|attr-Asian|residence-of=Asia|
+===human-Biarritz//Biarrot.§y/|attr-Biarritz|residence-of=Biarritz|
+===human-Briton//Briton.z/Britisher.îz/Brit.az/Britannique.§y/|attr-British|
+residence-of=Great-Britain|
+===human-Bruxellois//Bruxellois.§y/|residence-of=city-Brussels-BEL|
+===human-Burgundian//Burgundian.z/Bourguignon.§y/|attr-Burgundian|
+residence-of=Bourgogne|
+===human-Californian//Californian.z/Californien.§y/|attr-Californian|
+residence-of=state-CA-USA|
+===human-Canadian//Canadian.z/Canadien.§y/|attr-Canadian|
+residence-of=country-CAN|
+===human-Chinese//Chinese#A person*.z/Chinois.§y/|attr-Chinese|
+nationality-of=country-CHN|
+===human-Czech//Czech.z/Tchèque.§y/|attr-Czech|residence-of=country-CZE|
+===human-Czechoslovak//Czechoslovak,Czechoslovakian.z/Tchécoslovaque.§y/
+|attr-Czechoslovakian|residence-of=Czechoslovakia|
+===human-Dane//Dane.z/Danois.§y/|attr-Danish|nationality-of=country-DNK|
+===human-Douarnenez//Douarneniste.§y/|attr-Douarnenez|residence-of=Douarnenez|
+===human-Dutch//Néerlandais.§y/|attr-Dutch|nationality-of=country-NLD|
+====human-Dutchman/man/Dutchman.Mz/
+====human-Dutchwoman/woman/Dutchwoman.Fz/
+===human-East-Ender//East#A Ender*.z/Cockney.qz/|attr-East-Ender|
+residence-of=East-End|
+===human-English//Anglais.§y/|attr-English|residence-of=England|
+====human-Englishman/man/Englishman.Mz/
+====human-Englishwoman/woman/Englishwoman.Fz/
+===human-European//European.z/Européen.§y/|attr-European|residence-of=Europe|
+===human-Finn//Finn.z/Finnois.§y/Finlandais.§y/|attr-Finnish|
+nationality-of=country-FIN|
+===human-French//Français.§y/|attr-French|nationality-of=country-FRA|
+====human-Frenchman/man/Frenchman.Mz/
+====human-Frenchwoman/woman/Frenchwoman.Fz/
+===human-German//German.z/Allemand.§y/|attr-German|nationality-of=country-DEU|
+===human-Holland//Hollandais.§y/|residence-of=Holland|
+===human-Hongkong//Hongkongais.§y/|attr-Hongkong|nationality-of=country-HKG|
+===human-Ile-de-France//Francilien.§y/|attr-Ile-de-France|
+residence-of=Ile-de-France|
+===human-Indian//Indian.z/Indien.§y/|attr-Indian|nationality-of=country-IND|
+===human-Irish//Irlandais.§y/|attr-Irish|residence-of=country-IRL|
+====human-Irishman/man/Irishman.Mz/
+====human-Irishwoman/woman/Irishwoman.Fz/
+===human-Italian//Italian.z/Italien.§y/|attr-Italian|nationality-of=country-ITA|
+===human-Japanese//Japanese#A person*.z/Japonais.§y/|attr-Japanese|
+nationality-of=country-JPN|
+===human-Kashmiri//Kashmiri.z/|attr-Kashmiri|nationality-of=Kashmir|
+===human-Korean//Korean.z/Coréen.§y/|attr-Korean|residence-of=Korea|
+====human-North-Korean//North#A Korean*.z/Nord*A-Coréen*.§y/
+|attr-North-Korean|nationality-of=country-PRK|
+====human-South-Korean//South#A Korean*.z/Sud*A-Coréen*.§y/
+|attr-South-Korean|nationality-of=country-KOR|
+===human-Liverpudlian//Liverpudlian.z/Scouser.Tz/
+|attr-Liverpudlian|residence-of=city-Liverpool-GBR|
+===human-Londoner//Londoner.z/Londonien.§y/|attr-Londoner|
+residence-of=city-London-GBR|
+===human-Martinique//Martiniquais.§y/|attr-Martinique|
+nationality-of=country-MTQ|
+===human-Menton//Mentonnais.§y/|attr-Menton|residence-of=Menton|
+===human-Neuilly//Nocéen.§y/|attr-Neuilly|residence-of=Neuilly-sur-Seine|
+===human-New-Jersey//New#A Jerseyan*,New#A Jerseyite*.z/|attr-New-Jersey|
+residence-of=state-NJ-USA|
+===human-New-Yorker//New#A Yorker*.z/New#A Yorkais*.§y/|attr-New-York|
+residence-of=city-New-York-NY-USA|
+===human-Northern-Irish//Irlandais* du#RM Nord#NM.§y/|attr-Northern-Irish|
+residence-of=Northern-Ireland|
+===human-Parisian//Parisian.z/Parisien.§y/Parigot.T§y/|attr-Parisian|
+residence-of=Paris|
+===human-Pole//Pole.z/Polonais.§y/|attr-Polish|nationality-of=country-POL|
+===human-Scot//Scot.z/Écossais.§y/|attr-Scottish|residence-of=Scotland|
+====human-Scotsman/man/Scotsman.Mz/
+====human-Scotswoman/woman/Scotswoman.Fz/
+===human-Slovakian//Slovaque.§y/|attr-Slovakian|nationality-of=country-SVK|
+===human-Spaniard//Spaniard.z/Espagnol.§y/|attr-Spanish|
+nationality-of=country-ESP|
+===human-Swede//Swede.z/Suédois.§y/|attr-Swedish|nationality-of=country-SWE|
+===human-Swiss//Swiss# person*.z/Suisse.§y/|attr-Swiss|
+nationality-of=country-CHE|
+===human-Taiwanian//Taiwanian.z/Taiwanais.§y/|attr-Taiwanese|
+nationality-of=country-TWN|
+===human-Thai//Thai#A person*.z/Thaïlandais.§y/Siamois.o§y/|attr-Thai|
+nationality-of=country-THA|
+===human-Tokyoite//Tokyoite.z/Tokyoïte.§y/|attr-Tokyoite|
+residence-of=city-Tokyo-JPN|
+===human-Welsh//Gallois.§y/|attr-Welsh|residence-of=Wales|
+====human-Welshman/man/Welshman.Mz/
+====human-Welshwoman/woman/Welshwoman.Fz/
+;_______________________________________________________________________________
+==human-area//
+===human-country-person//country# person*.z/bumpkin,country# bumpkin*.Thz/
+rustic.hz/campagnard.§y/paysan,rustre.h§y/péquenaud,plouc.Th§y/
+bouseux,cul*-terreux*.ThMy/|rural|residence-of=rural-area|
+===human-suburbanite//suburbanite.z/banlieusard.§y/|suburban|
+residence-of=suburbia|
+===human-city-dweller//city#-dweller*.z/citadin.§y/|urban|
+residence-of=urban-area|
+;_______________________________________________________________________________
+==human-school//
+===human-ENS//normalien.§y/|attr-ENS|[diploma-of human-ENS na na ENS]|
+===human-ENA//énarque.TMy/|attr-ENA|[diploma-of human-ENA na na ENA]|
+===human-X//polytechnicien.§y/X.T§y/pipo.TMy/corpsard.qTMy/|attr-X|
+[diploma-of human-X na na X]|
+===human-Sorbonne//sorbonnard.oh§y/|attr-Sorbonne|
+[diploma-of human-Sorbonne na na Sorbonne]|
+;_______________________________________________________________________________
+==human-diploma//
+===bac# holder*.z//bachelier.§y/|diploma-of=bac|
+===BA# holder*.z//licencié* ès#R arts#MP.§y/|diploma-of=Bachelor-of-Arts|
+===BS# holder*.z//licencié* ès#R sciences#FP.My/|diploma-of=Bachelor-of-Science|
+===licence-es-lettres-holder//licencié* ès#R lettres#FP.My/
+|diploma-of=licence-es-lettres|
+===MA# holder*.z//maître* ès#R arts#P.My/|diploma-of=Master-of-Arts|
+===MS# holder*.z//maître* ès#R sciences#FP.My/|diploma-of=Master-of-Science|
+===docteur-es-lettres-holder//docteur* ès#R lettres#FP.My/
+|diploma-of=docteur-es-lettres|
+===docteur-es-sciences-holder//docteur* ès#R sciences#FP.My/
+|diploma-of=docteur-es-sciences|
+;_______________________________________________________________________________
+==human-religion//
+;_______________________________________________________________________________
+===human-Moonie//Moonie.z/|religion-of=religion-Moonie|
+;_______________________________________________________________________________
+===nonreligious#A person*.z//|nonreligious|religion-of=nonreligion|
+====human-agnostic//agnostic.z/agnostique.§y/
+|attr-agnostic|religion-of=agnosticism|
+====human-atheist//atheist.z/athée.§y/incroyant,non#B-croyant*.§y/
+|attr-atheist|religion-of=atheism|believe=[not [exist God]]|
+=====human-anti-religious//|attr-anti-religious|religion-of=antireligion|
+======human-libertine//libertine.z/libertin.§y/|attr-libertine|
+====human-freethinker//freethinker.z/libre*A penseur*.§y/
+;_______________________________________________________________________________
+===human-pantheist//pantheist.z/panthéiste.§y/|attr-pantheist|
+religion-of=pantheism|
+===human-occultist//occultist.z/|attr-occultist|religion-of=occultism|
+===human-witch//witch.z/warlock,wizard.z/|attr-witch|religion-of=witchcraft|
+===human-polytheist//polytheist.z/polythéiste.§y/|attr-polytheist|
+religion-of=polytheism|
+====human-animist//animist.z/|attr-animist|religion-of=animism|
+====human-shamanist//shamanist.z/|attr-shamanist|religion-of=shamanism|
+===human-Zoroastrian//Zoroastrian.z/|attr-Zoroastrian|
+religion-of=Zoroastrianism|
+===human-Shintoist//Shintoist.z/|attr-Shintoist|religion-of=Shintoism|
+===human-Taoist//Taoist.z/|attr-Taoist|religion-of=Taoism|
+===human-Confucianist//Confucianist.z/|attr-Confucianist|
+religion-of=Confucianism|
+===human-Vedaic//Vedaic.z/|attr-Vedaic|religion-of=Vedaism|
+====human-Jain//Jaina,Jainist.z/|attr-Jaina|religion-of=Jainism|
+====human-Buddhist//Buddhist.z/|attr-Buddhist|religion-of=Buddhism|
+=====human-Zen-Buddhist//Zen#A Buddhist*.z/|attr-Zen-Buddhist|
+religion-of=Zen-Buddhism|
+====human-Hindu//Hindu.z/|attr-Hindu|religion-of=Hinduism|
+====human-Sikh/human-monotheist/Sikh.z/|attr-Sikh|religion-of=Sikhism|
+;_______________________________________________________________________________
+===human-monotheist//monotheist.z/monothéiste.§y/|attr-monotheist|
+religion-of=monotheism|
+====human-Muslem//Muslem.z/Islamite.qz/musulman.§y/|attr-Muslem|
+religion-of=Muslemism|
+=====human-Sunnite//Sunnite.z/sunnite.§y/|attr-Sunnite|religion-of=Sunnism|
+======human-malekite//malékite.§y/|attr-malekite|religion-of=religion-malekite|
+======human-chafiite//chafiite.§y/|attr-chafiite|religion-of=religion-chafiite|
+======human-hanafite//hanafite.§y/|attr-hanafite|religion-of=religion-hanafite|
+=====human-Shiite//Shiite.z/chiite.§y/|attr-Shiite|religion-of=Shiism|
+=====human-kharidjite//kharidjite.§y/|attr-kharidjite|religion-of=kharidjisme|
+;_______________________________________________________________________________
+====human-Jew//Jew.z/Judaist.qz/Jewishness.Îz/Juif.§y/juif.§y/
+judaïcité,judaïté,judéité.ÎtFy/|attr-Jewish|religion-of=Judaism|
+=====Orthodox#A Jew*.z//Orthodox#A Judaism*.z/juif* orthodoxe*A.§y/
+judaïsme* orthodoxe*A.My/|religion-of=Orthodox-Judaism|
+======juif* ultra#B-orthodoxe*A.§y//
+======juif-orthodoxe-renovateur//juif* orthodoxe*A rénovateur*A.§y/
+======juif* orthodoxe*A sioniste*A.§y//
+======juif* sioniste*A de#R choc#M.§y//
+======juif* traditionaliste*.§y//
+=====Reform#A Jew*.z//Reform#A Judaism*.z/juif* non#B orthodoxe*A.§y/
+judaïsme* non#B orthodoxe*A.My/|religion-of=Reform-Judaism|
+======juif-sioniste-liberal//juif* sioniste*A libéral*A.§y/
+======juif-intellectuel-liberal//juif* intellectuel*A libéral*A.§y/
+;_______________________________________________________________________________
+====human-Christian//Christian.z/chrétien.§y/|attr-Christian|
+religion-of=Christianity|
+;_______________________________________________________________________________
+=====human-Protestant//Protestant.z/|attr-Protestant|religion-of=Protestantism|
+======human-Calvinist//Calvinist.z/|attr-Calvinist|religion-of=Calvinism|
+======human-Lutheran//Lutheran.z/|attr-Lutheran|religion-of=Lutheranism|
+======human-Episcopal//|attr-Episcopal|religion-of=Anglican-Communion|
+=======human-Anglican//Anglican.z/anglican.§y/|attr-Anglican|
+religion-of=Anglicanism|
+========human-Anglo-Catholic//Anglo#A-Catholic*.z/|attr-Anglo-Catholic|
+=======human-Episcopalian//Episcopalian.z/|attr-Episcopalian|
+religion-of=Episcopalianism|
+======human-Mennonite//Mennonite.z/mennonite.§y/anabaptiste.§y/|attr-Mennonite|
+religion-of=religion-Mennonite|
+======human-Baptist//Baptist.z/baptiste.§y/|attr-Baptist|
+religion-of=religion-Baptist|
+======human-Methodist//Methodist.z/méthodiste.§y/|attr-Methodist|
+religion-of=Methodism|
+======human-Quaker//Quaker.z/quaker.§y/|attr-Quaker|religion-of=religion-Quaker|
+======human-Adventist//Adventist.z/adventiste.§y/|attr-Adventist|
+religion-of=Adventism|
+=======human-Seventh-Day-Adventist//Seventh#A-Day# Adventist*.z/
+adventiste* du#R septième#A jour#M.§y/|attr-Seventh-Day-Adventist|
+religion-of=Seventh-Day-Adventism|
+======human-Mormon//Mormon.z/mormon.§y/|attr-Mormon|religion-of=Mormonism|
+======human-Christian-Scientist//Christian#A Scientist*.z/
+|attr-Christian-Scientist|religion-of=Christian-Science|
+======human-Jehovah-s-Witness//Jehovah#'s Witness*.z/Témoin* de#RS Jéhovah#S.My/
+|religion-of=religion-Jehovah-s-Witnesses|
+;_______________________________________________________________________________
+=====human-Catholic//Catholic.z/catholique.§y/catho.Ty/|attr-Catholic|
+religion-of=Catholicism|
+======human-Roman-Catholic//Roman#A Catholic*.z/|attr-Roman-Catholic|
+religion-of=Roman-Catholicism|
+======practicing# Catholic*.z//catholique* pratiquant*A.§y/pratiquant.§y/
+======non#B-practicing# Catholic*.z//catholique* non#B pratiquant*A.§y/
+non#B pratiquant*A.§y/
+;_______________________________________________________________________________
+=====human-Orthodox-Eastern-Church//Orthodox.z/|attr-Orthodox-Eastern-Church|
+religion-of=Orthodox-Eastern-Church|
+======human-Russian-Orthodox//Russian#A Orthodox*.z/orthodoxe* russe*.§y/
+|attr-Russian-Orthodox|religion-of=religion-Russian-Orthodox|
+======human-Greek-Orthodox//Greek#A Orthodox*.z/orthodoxe* grec*.§y/
+|attr-Greek-Orthodox|religion-of=religion-Greek-Orthodox|
+;_______________________________________________________________________________
+==human-political-party//
+===human-radical//radical.z/
+|politically-radical|political-affiliation-of=politics-radicalism|
+====human-extremist//extremist.z/
+|politically-extremist|political-affiliation-of=politics-extremism|
+====human-yippie//yippie.z/|politically-yippie|
+political-affiliation-of=politics-yippie|
+;_______________________________________________________________________________
+===human-revolutionary//revolutionary.z/revolutionist.z/révolutionnaire.§y/
+|politically-revolutionary|political-affiliation-of=politics-revolutionism|
+===human-subversive//subversive.z/|politically-subversive|
+political-affiliation-of=politics-subversivism|
+===human-anarchist//anarchist.z/anarchiste.§y/anar.T§y/
+|politically-anarchist|political-affiliation-of=politics-anarchy|
+===human-nihilist//nihilist.z/nihiliste.§y/|politically-nihilist|
+political-affiliation-of=politics-nihilism|
+;_______________________________________________________________________________
+===human-Jacobin//Jacobin.z/|political-affiliation-of=Jacobinism|
+===human-sans-culotte//sans#R-culotte*.z/
+|political-affiliation-of=sans-culottism|
+===human-syndicalist//syndicalist.z/|politically-syndicalist|
+political-affiliation-of=politics-syndicalism|
+====human-anarcho-syndicalist//anarcho#A-syndicalist*.z/anarchosyndicaliste.§y/
+|politically-anarcho-syndicalist|
+political-affiliation-of=politics-anarcho-syndicalism|
+;_______________________________________________________________________________
+===human-rightwinger//rightwinger.¹z/rightist.z/right#A-winger*.z/
+droitier.¹§y/droitiste.§y/|politically-right-wing|
+political-affiliation-of=right-wing|
+====human-royalist//royalist.z/monarchist.z/monarchiste.§y/
+|politically-royalist|political-affiliation-of=politics-royalism|
+====human-imperialist//imperialist.z/
+====human-reactionary//reactionary.z/réactionnaire.§y/réac.§y/
+|politically-reactionary|political-affiliation-of=politics-reactionaryism|
+;_______________________________________________________________________________
+====human-ultraconservative/human-radical/ultraconservative.¹z/
+extreme#A right#A-winger*,extreme#A rightwinger*.z/néo*A-conservateur*.§y/
+|politically-ultraconservative|
+political-affiliation-of=politics-ultraconservatism|
+;_______________________________________________________________________________
+=====human-fascist//fascist.z/fasciste.§y/
+|politically-fascist|political-affiliation-of=politics-fascism|
+=====human-nazi//nazi.z/
+|politically-nazi|political-affiliation-of=politics-nazism|
+======human-neonazi//neonazi.z/néonazi.§y/
+|politically-neonazi|political-affiliation-of=politics-neonazism|
+=====human-nationalist//nationalist.z/nationaliste.§y/
+|politically-nationalist|political-affiliation-of=politics-nationalism|
+;_______________________________________________________________________________
+====human-conservative//conservative.z/conservateur.§y/
+|politically-conservative|political-affiliation-of=politics-conservatism|
+;_______________________________________________________________________________
+====human-capitalist//capitalist.z/capitaliste.§y/
+|politically-capitalist|political-affiliation-of=politics-capitalism|
+=====human-individualist//individualist.z/
+|politically-individualistic|political-affiliation-of=politics-individualism|
+;_______________________________________________________________________________
+====human-Republican//Republican.z/républicain.§y/|us|
+politically-Republican|political-affiliation-of=Republican-Party|
+====human-Tory//Tory.z/|uk|
+politically-Tory|political-affiliation-of=Tory-Party|
+;_______________________________________________________________________________
+===human-moderate//moderate.¹z/centrist.z/
+moderatist,moderationist,moderantist.qz/middle#A-of#R-the#D-roader*.z/
+centriste.§y/modéré.o§y/
+|politically-moderate|political-affiliation-of=moderatism|
+;_______________________________________________________________________________
+===human-leftist//leftist.¹z/leftwinger,left#A-winger*.z/gauchiste.§y/
+|politically-left-wing|political-affiliation-of=left-wing|
+;_______________________________________________________________________________
+====human-anticapitalist//anticapitalist.z/anticapitaliste.§y/
+|politically-anticapitalist|political-affiliation-of=politics-anticapitalism|
+;_______________________________________________________________________________
+====human-progressive//progressive.z/
+|politically-progressive|political-affiliation-of=politics-progressivism|
+=====human-liberal//liberal.z/
+|politically-liberal|political-affiliation-of=politics-liberalism|
+=====human-welfare-stater//welfare# stater*.z/
+|political-affiliation-of=politics-welfarism|
+=====human-Democrat//Democrat.¹z/registered#A Democrat*.z/démocrate.§y/|us|
+politically-Democratic|political-affiliation-of=Democratic-Party|
+;_______________________________________________________________________________
+====human-socialist//socialist.z/socialiste.§y/
+|politically-socialist|political-affiliation-of=politics-socialism|
+=====human-collectivist//collectivist.z/
+|politically-collectivist|political-affiliation-of=politics-collectivism|
+=====human-state-socialist//state# socialist*.z/
+|politically-state-socialist|political-affiliation-of=politics-state-socialism|
+=====human-Fabian//Fabian.z/
+|politically-Fabian|political-affiliation-of=politics-Fabian-socialism|
+=====human-utopian-socialist//utopian#A socialist*.z/
+|political-affiliation-of=politics-utopian-socialism|
+=====human-phalansterian//Fourierist,phalansterian.z/
+|politically-phalansterian|political-affiliation-of=politics-phalansterism|
+=====human-Owenite//Owenite.z/
+|politically-Owenite|political-affiliation-of=politics-Owenism|
+=====human-Saint-Simonian//Saint#-Simonian*.z/
+|politically-Saint-Simonian|
+political-affiliation-of=politics-Saint-Simonianism|
+=====human-Social-Democrat//Social#A Democrat*.z/social#AM-démocrate*.§y/
+|politically-Social-Democratic|
+political-affiliation-of=Social-Democratic-Party|
+;_______________________________________________________________________________
+====human-communist//communist.z/Red,red.Tz/communiste.§y/rouge.oT§y/
+|politically-communist|political-affiliation-of=politics-communism|
+=====human-Bolshevist//Bolshevist,Bolshevik.z/Bolshie.az/
+|politically-Bolshevist|political-affiliation-of=Bolshevism|
+=====human-Marxist//Marxist.z/marxien,marxiste.§y/
+|politically-Marxist|political-affiliation-of=Marxism|
+=====human-Marxist-Leninist//Marxist#-Leninist*.z/marxiste*-léniniste*.§y/
+|politically-Marxist-Leninist|political-affiliation-of=Marxism-Leninism|
+=====human-Leninist//Leninist.z/léniniste.§y/
+|politically-Leninist|political-affiliation-of=Leninism|
+=====human-Trotskyite//Trotskyite,Trotskyist.z/
+|politically-Trotskyite|political-affiliation-of=Trotskyism|
+=====human-Stalinist//Stalinist.z/
+|politically-Stalinist|political-affiliation-of=Stalinism|
+=====human-Maoist//Maoist.z/
+|politically-Maoist|political-affiliation-of=Maoism|
+=====human-Titoist//Titoist.z/
+|politically-Titoist|political-affiliation-of=Titoism|
+=====human-Castroite//Castroite.z/
+|politically-Castroite|political-affiliation-of=Castroism|
+=====human-Marxist-revisionist//revisionist.z/
+|politically-Marxist-revisionist|political-affiliation-of=Marxist-revisionism|
+;_______________________________________________________________________________
+====human-left-wing-radical/human-radical/left#A-wing#N radical#.z/
+extreme#A leftwinger*,extreme#A left#A-winger*,left#A-wing# extremist*.z/
+|politically-left-wing-radical|
+political-affiliation-of=politics-left-wing-radicalism|
+=====human-progressiste//progressiste.§y/
+|politically-progressiste|political-affiliation-of=politics-progressiste|
+=====human-radical-socialiste//radical*-socialiste*.§y/rad#A-soc#.T§y/
+|politically-radical-socialiste|
+political-affiliation-of=politics-radical-socialisme|
+;_______________________________________________________________________________
+====human-worker-party//worker.z/travailliste.§y/
+|politically-worker|political-affiliation-of=politics-worker|
+;_______________________________________________________________________________
+==human-philosophy//
+===dualist.z//dualiste.§y/|believe=dualism|
+===empiricist.z//empiriste.§y/|believe=empiricism|
+===essentialist.z//essentialiste.§y/|believe=essentialism|
+===monist.z//moniste.§y/|believe=monism|
+====spiritual#A monist*.z//moniste* spirituel*A.§y/|believe=spiritual-monism|
+===nominalist.z//nominaliste.§y/|believe=nominalism|
+===philosophical-idealist//idealist.z/idéaliste.§y/|believe=idealism|
+===philosophical-materialist/human-atheist/materialist.z/matérialiste.§y/
+|attr-materialist|believe=materialism|religion-of=materialism|
+===philosophical-realist//realist.z/réaliste.§y/|believe=realism|
+====philosophical-neorealist//neo#A-realist*.z/néo*Aß-réaliste*.§y/
+|believe=neo-realism|
+===Platonist.z//|believe=Platonism|
+===pluralist.z//pluraliste.§y/|believe=pluralism|
+===positivist.z//positiviste.§y/|believe=positivism|
+===rationalist.z//rationaliste.§y/|believe=rationalism|
+===subjectivist.z//subjectiviste.§y/|believe=subjectivism|
+===utilitarian.z//utilitariste.§y/|believe=utilitarianism|
+;_______________________________________________________________________________
+; attributes
+==human-abstinent-person//modérateur,sage.y/ascète.qy/philosophe.Ty/
+|abstinent|
+==human-bully//bully.z/brute.Fy/tyran.My/|bullying|
+==human-clumsy-person//clumsy# oaf*.Tz/empoté.T§y/|clumsy|
+==human-coward//coward.z/wimp.Tz/|cowardly|
+==human-doer//doer.z/|attr-doer|
+==human-unsuccessful-person//unsuccessful#A person*.z/failure.z/washout.Tz/
+raté.§y/|unsuccessful|
+==human-lazy-person//lazy#A person*.z/bum.z/fainéant.§y/|lazy|
+==human-inexperienced-person//inexperienced# person*.Az/greenhorn,novice.z/
+newbie,newbee.Tz/bleu.My/|inexperienced|
+==human-extrovert//extrovert.z/extraverti,extroverti.§y/|extroverted|
+antonym-of=human-introvert|
+==human-introvert//introvert.z/introverti.§y/|introverted|
+==human-good-Samaritan//good#A Samaritan*.z/bon*A Samaritain*.§y/
+saint#A-bernard#.ßMy/|attr-good-Samaritan|antonym-of=human-wrongdoer|
+==human-wrongdoer//wrongdoer.z/malfaiteur.y/|attr-wrongdoing|
+==human-intelligent-person//genius.z/Einstein.Tz/|intelligent|
+antonym-of=human-unintelligent-person|
+==human-unintelligent-person//fool,dummy,idiot,stupid#A idiot*,lunatic.z/
+doof,doofball,bonehead.Tz/dip,dipshit,dumbfuck.az/yutz,putz.îTz/
+scatterbrain,basket# case#,airhead,chump,clueless#A clod*,dingbat,loser.Tz/
+turkey.Tz/dim#A bulb*.az/nebbish,schnook.Tîz/ass,bozo.az/Stepford# Wife*.aîz/
+crétin,idiot,imbécile,niais,nigaud,nul,nullard,foufou.T§y/niaiseux.ç§y/
+benêt.My/bêta,corniaud.TMy/bébête,bêtasse,godiche,nunuche.TFy/sot,toqué.T§y/
+|unintelligent|
+===April# Fool*.z//
+==human-unkind-person//unkind# person*.z/Attila.z/
+cochon,con,salaud,vacherie.y/|unkind|
+==human-litigious-person//litigious#A person*.z/chicaneur.§y/plaideur.o§y/
+|litigious|
+==human-nerd//dweeb,geek,nerd,nurd,weenie.Tz/bookworm.qz/
+ballot.oqTMy/pauvre*A mec*.qaMy/rat* de#R bibliothèque#F.qMy/|nerdy|
+===human-technogeek//technogeek.z/
+==human-grind//grind.Àz/swot.gz/bûcheur.§y/
+==human-noble-person//chambellan,écuyer,gentleman,seigneur.@y/
+gentilhomme,noble.My/|noble|
+==human-optimist//optimist.z/optimiste.§y/|optimistic|
+==human-activist//activist.z/militant.§y/|political|
+antonym-of=human-apolitical-person|
+==human-apolitical-person//apolitique.§y/|apolitical|
+==human-preppy//preppy.z/|preppy|
+==human-prejudiced-person//prejudiced#A person*.z/redneck,red#A-neck*.qhz/
+|prejudiced|
+==human-bigot//bigot.z/|bigoted|
+===human-racist//racist.z/raciste.§y/|racist|
+==human-male-chauvinist//male# chauvinist*.z/chauvinist.z/phallocrat.tz/
+phallocrate.My/macho.TMy/|male-chauvinist|
+==human-rich-person//rich# person*.z/have.Tz/golden#Aj boy*j.Ty/
+classes* aisées*A.FPïy/gens* aisés*A.MPïy/|rich|antonym-of=human-poor-person|
+==human-poor-person//poor#A person*.z/underprivileged#A person*.z/
+have#V not#B ½.Tz/défavorisés.¹kMPïy/|poor|
+==human-skeptic//skeptic.¹z/doubter.z/sceptique.§y/|skeptical|
+==human-gullible-person//gullible#A person*.z/innocent,jobard,naïf,niais.§y/
+gobe#V-mouche#F ½.My/gobeur.T§y/jocrisse.My/poire.TFy/gogo.oTMy/|gullible|
+==human-snob//snob.z/high#-hat*.oTz/snob.My/|snobby|
+==human-talkative-person//talkative#A person*.z/causeur.§y/|talkative|
+==human-techie//techie.z/technocrate.qMy/|technical|
+==human-troublemaker//troublemaker.z/emmerdeur.a§y/
+==human-spaced-out-person//space# cadet*,space# case*.az/|spaced-out|
+==human-annoying-person//pesk.z/|annoying|
+==human-neurotic//neurotic.z/névrosé.§y/|neurosis|
+==human-psychotic//psychotic.z/|psychosis|
+==human-schizophrenic//schizophrenic.z/schizophrène.§y/|schizophrenia|
+==human-famous-person//famous#A person*.z/star.z/|famous|
+===human-star//star.z/étoile,vedette,star,superstar.Fy/
+==human-lucky-person//lucky#A person*.z/chanceux.ç§y/|lucky|
+==human-pacifist//pacifist.z/pacifiste.§y/|pacifist|
+==human-sleepy-person//sleepy#A person*.z/sleepyhead.z/endormi.§y/|groggy|
+;_______________________________________________________________________________
+; misc
+==trekkor.z//trekkie.hz/|fan-of=Star-Trek|
+==cabling#m expert*.z//connectivity#m expert*.z/connecticien.y/
+|specialty-of=electrical-connector|
+==union# member*.z//|affiliation-of=labor-union|
+==net# surfer*.z//Internaut,netter,nettie,Internetter.z/
+==netizen.z//
+==USEnaut.z//
+==web# head*.z//web# addict*.z/|addiction-of=WWW|
+;_______________________________________________________________________________
+==John# Doe*.Éz//
+==Joe# Blow*.Éz//
+;_______________________________________________________________________________
+==stranger.z//inconnu.¹§y/étranger.§y/
+;_______________________________________________________________________________
+==human-role/role/human#A role*.z/
+;_______________________________________________________________________________
+; wedding
+===bride.z//mariée.Fy/épouse.Fy/|female|
+===bridegroom.z//groom.z/marié.My/|male|
+===wedding-attendant//attendant.z/
+====best#A man*.z//témoin.My/|male|
+====bridesmaid.z//demoiselle* d#R'honneur#NM.Fy/|female|
+====groomsman.z//
+===wedding# guest*.z//invité* au#R mariage#NM.§y/
+;_______________________________________________________________________________
+; communication
+===interlocutor.tz//interlocuteur.§y/
+====role-speaker/deictic/speaker.z/locuteur.§y/sujet* parlant*A.tMy/
+=====role-sender//sender.z/
+======mailer.z//
+=======emailer.z//e#-mailer*.z/
+=======role-poster//poster.z/
+====role-listener/deictic/listener.z/auditeur.§y/
+=====role-receiver//receiver.z/
+===called#A party*.z//
+===calling#V party*.z//caller.z/
+===sender.z//expéditeur.§y/
+===human-reader//reader.z/lecteur.§y/
+===recipient.z//addressee.z/destinataire.§y/
+===proposer.z//
+===proposee.z//
+;_______________________________________________________________________________
+; meeting
+===attendee.z//
+===person-being-met//
+====person-being-dated//date.z/
+===participant.z//participant.§y/
+;_______________________________________________________________________________
+; transportation
+===role-driver//driver.z/conducteur.My/automobiliste.§y/
+===passenger.z//passager.§y/
+====air# traveler*.z//usager* de#R l#D'air#NM.§y/
+====bus# rider*.z//
+====train# traveler*.z//rail# traveler*.z/
+usager* des#RP chemins#NMP de#R fer#NM.§y/
+=====subway# rider*.z//straphanger.Tz/
+===traveler.z//voyager.z/voyageur.§y/
+===guest.z//invité.§y/
+====house# guest*.z//
+====visitor.z//visiteur.§y/
+====hotel# guest*.z//client.§y/
+====lodger.gz//locataire.§y/pensionnaire.§y/
+===host.z//hôte.My/
+===leader.z//meneur,premier.§y/
+===follower.z//suiveur.§y/
+;_______________________________________________________________________________
+; eating
+===role-diner//diner.z/dîneur.§y/
+===eater.z//
+===dining# companion*.z//companion.z/compagnon.§y/
+===picnicker.z//pique#NF-niqueur*.§y/
+====picnicking# companion*.z//
+;_______________________________________________________________________________
+; trading
+===buyer.z//purchaser.z/acheteur.¹§y/acquéreur.§y/
+===seller.z//vendeur.§y/
+===shopper.z//personne* qui#H fait#V ses#DF courses#NFP.Fy/
+===shopping# companion*.z//
+===client.z//client.§y/
+===customer.z//client.§y/
+====regular#A customer*.z//regular.z/habitué.§y/
+===cashier.z//caissier.§y/
+====checkout# person*.z//checker.z/checkout# assistant*,checkout# operator*.gz/
+;_______________________________________________________________________________
+; entertainment
+===museum#-goer*.z//
+===role-character//character.z/personnage.My/
+===spectator.z//spectateur.§y/
+====moviegoer.z//spectateur* de#R cinéma#NM.§y/
+====theatergoer.z//amateur* de#R théâtre#NM.§y/
+====sports#P spectator*.z//
+;_______________________________________________________________________________
+; legal
+===juror.z//juré.My/femme* juré#M ½.Fy/
+===self#-styled#A lawyer*.z//latrine# lawyer*.@z/
+;_______________________________________________________________________________
+===advisor.z//consultant,guru.z/counsellor.gz/counselor.Àz/
+===advisee.z//
+===closer.z//
+===computer-user//user.z/utilisateur.§y/
+===employee# seeker*.z//;hiring
+===interviewer.z//
+===interviewee.z//candidat.§y/
+===job# candidate*.z//candidate.z/candidat.§y/
+===job# seeker*.z//
+===killer.z//terminator.ñz/meurtrier.My/
+====murderer.z//assassin,meurtrier.My/
+====assassin.z//assassin.My/
+====hitman.z//
+===opener.z//
+===opponent.z//adversaire.§y/
+===packer.z//emballeur,conditionneur.§y/
+===partner# dancer*.z//danseur.¹§y/cavalier.§y/
+===rescuer.z//sauveteur.My/
+====rescue# worker*.z//secouriste.§y/
+===rescued#Vd person*.z//
+===role-dresser//dresser.z/
+===sick# person*.z//malade.§y/|sick|
+====sick# man*.Mz//|male|
+====sick# woman*.Fz//|female|
+====role-patient//patient.z/patient.§y/
+===sleeper.z//dormeur.§y/
+===victim.z//victime.Fy/
+====disaster# victim*.z//sinistré.§y/
+;_______________________________________________________________________________
+==group.z//several#D humans*P.Pïz/groupe.¹My/
+;_______________________________________________________________________________
+===group-American//Americans.kPïz/American#A people*.kz/|attr-American|
+residence-of=country-USA|
+===group-British//British.kz/|attr-British|residence-of=Great-Britain|
+===group-Chinese//Chinese.kz/|attr-Chinese|nationality-of=country-CHN|
+===group-Danish//Danish.kz/|attr-Danish|nationality-of=country-DNK|
+===group-Dutch//Dutch.kz/|attr-Dutch|residence-of=country-NLD|
+===group-Finnish//Finnish.kz/|attr-Finnish|nationality-of=country-FIN|
+===group-Irish//Irish.kz/|attr-Irish|residence-of=country-IRL|
+===group-Japanese//Japanese.kz/|attr-Japanese|nationality-of=country-JPN|
+===group-Swedish//Swedish.kz/|attr-Swedish|nationality-of=country-SWE|
+===group-Welsh//Welsh.kz/|attr-Welsh|residence-of=Wales|
+;_______________________________________________________________________________
+===band.z//group.z/groupe.My/bande.Fy/orchestre.My/
+====Roxy# Music*.®Éz//
+====B#S-52#S's#.®kPïz//
+====Beatles.®kPïz//
+|part-of¤John-Lennon,Paul-McCartney,George-Harrison,Ringo-Starr|
+====Rolling#A Stones*.®kPïz//Stones*.TkPïz/
+====U2.®Éz//
+====rock-group-the-Who//Who.®kz/
+;_______________________________________________________________________________
+===clergy.z//clergé.My/|part-of¤clergyperson|
+===committee.z//comité.My/
+===couple.z//ménage.¹My/; relate this to ipts
+====married#A couple*.z//
+===demographic#A group*.z//demographic#A characteristic*.z/demographics.Pïz/
+===ethnic#A group*.z//
+====African#A-American#.NAz//Africain*-Américain*.NA§y/
+===family.z//famille.¹Fy/
+====household.z//ménage.¹My/
+=====French#A households*.Pïz/demographic-group/ménages* français*A.MPïy/
+===gay# community*.z//
+====San#Aj Francisco# gay# community*.z//
+===group-class//class.z/classe.Fy/
+===investors.Pïz//
+===jury.z//jury.My/
+===line-of-people//line.Àz/queue.gz/queue,file.Fy/
+===people.mz//folks.TPïz/gens.MPïy/
+===team.z//équipe.Fy/
+====sports#P team*.z//
+=====visiting# team*.z//away#A team*.z/visiteurs.§Pïy/
+=====home# team*.z//home# side*.z/équipe* qui#H reçoit#V.Fy/
+===paramilitary# organization*.z//paramilitary# grouping*.z/
+organisation* paramilitaire*A.Fy/
+===terrorist#A group*.z//groupe* terroriste*A.My/|part-of¤terrorist|
+====al#-Jihad*.z//Islamic#A Jihad*.z/
+====Hizballah.z//Party* of#R God#N.z/Islamic#A Jihad*.z/
+====Irish#A Republican#A Army*.kz//IRA.kz/PIRA.kz/
+====Irish#A National#A Liberation# Army*.kz//INLA.kz/
+====Khmer# Rouge*.z//
+====Liberation#S Tigers* of#RS Tamil#S Eelam#S.kPïz//Tamil#S Tigers*.kPïz/
+LTTE.z/
+====Loyalist# Volunteer# Force*.z//LVF.kz/
+====Palestine# Liberation# Front*.kz//PLF.kz/
+====Ulster# Volunteer# Force*.kz//UVF.kz/
+====Ulster# Defense# Association*.kz//UDA.kz/
+===victim-group//victims.Pïz/victimes.FPïy/|part-of¤victim|
+===wait#V staff*.z//|part-of¤waiter|
+;_______________________________________________________________________________
+; fictional characters
+;_______________________________________________________________________________
+=*Santa#A Claus*.z//Santa.Tz/Father# Christmas*.gz/père* Noël#.kMy/
+;_______________________________________________________________________________
+=*Larry//|male|
+=*Joyce//|natural-parent-of=Larry|
+=*Jim//Jim Garnier.Mº/|fanciful|male|height-of=1.7m|
+natural-parent-of=Joyce|sister-of=Karen|
+@19930201:na|residence-of=apt4d20rd|
+@19940714:na|tutoyer¤TT|tutoyer=TT|
+=*Karen//Karen Garnier.Mº/|fanciful|female|brother-of=Jim|
+=*Lucie//Lucie Paret.Fº/|fanciful|female|@1967|born=Toulouse|
+@1987:naÐ|residence-of=maison-de-Lucie|
+=*Martine-Mom//Fabienne Guérin.Fº/|fanciful|female|husband-of=Martine-Dad|
+@19620215|born=Paris|
+@1962:naÐ|nationality-of=country-FRA|
+@1987:naÐ|residence-of=Martine-apt|rich|
+=*Martine-Dad//François Guérin.Mº/|fanciful|male|wife-of=Martine-Mom|
+@19570922|born=Paris|
+@1957:naÐ|nationality-of=country-FRA|
+@1987:naÐ|residence-of=Martine-apt|rich|
+=*Martine//Martine Guérin.Fº/|fanciful|female|
+mother-of=Martine-Mom|father-of=Martine-Dad|aunt-of=Lucie|@19870325|born=Paris|
+@1987:naÐ|nationality-of=country-FRA|residence-of=Martine-apt|
+rich|@1987:2005|legal-guardian-of=Martine-Mom,Martine-Dad|
+=*Ruth Norville.Fº//|female|nationality-of=country-USA|
+=*Amy Newton.Fº//|female|nationality-of=country-USA|
+=*Mary//Mary Smith.Fº/|fanciful|female|roommate-of=Mary-Roommate|
+=*Mary-Roommate//|fanciful|female|roommate-of=Mary|
+=*Henri Bidault.Mº//|fanciful|male|wife-of=Florence-Bidault|
+=*Florence Bidault.Fº//|fanciful|female|husband-of=Henri-Bidault|
+;_______________________________________________________________________________
+=*Bertie.Éz//Bertie Turner.Mº/|fanciful|male|@19920312|born|
+@19920312:na|residence-of=Bertie-Lin-apt|
+=*Lin.Éz/Lin Griffin.Fº/|fanciful|female|@19920211|born|
+@19920312:na|residence-of=Bertie-Lin-apt|
+;_______________________________________________________________________________
+; ThoughtTreasure workers
+;_______________________________________________________________________________
+=*Erik//Erik Thomas Mueller.Mº/|male|nationality-of=country-USA|
+@198709:na|occupation-of=computer-scientist|
+@19940714:na|tutoyer¤TT|tutoyer=TT|
+@19950901:naÐ|
+;_______________________________________________________________________________
+; musicians
+;_______________________________________________________________________________
+=*Brassens//George Brassens.Mº/|male|@1921|born=Sete|@1981|
+died=Saint-Gely-du-Fesc|
+@1921:1981|nationality-of=country-FRA|occupation-of=singer,songwriter,guitarist|
+=*Charlie Parker.Mº//Bird.ÉTz/Bird.kTMy/|famous|
+=*John Lennon.Mº//|famous|
+=*Paul McCartney.Mº//|famous|
+=*George Harrison.Mº//|famous|
+=*Ringo Starr.Mº//Richard Starkey.Mº/|famous|
+=*Joe South.Mº//
+=*Jimmy Buffett.Mº//
+=*Bruce Johnson.Mº//
+=*Billy Joel.Mº//|famous|
+=*Niccolo Paganini.Mº//|male|@1782|born=city-Genoa-ITA|@1840|died=Nice|
+@1782:1840|nationality-of=country-ITA|occupation-of=composer,violinist|
+skill-of=violin|
+=*Beethoven//Ludwig van Beethoven.Mº/|male|famous|@1770|born|@1827|
+died|@1770:1827|nationality-of=country-DEU|occupation-of=composer|
+skill-of=piano|
+=*Tchaikovsky//|famous|
+; Zalenka?
+;_______________________________________________________________________________
+; actors
+;_______________________________________________________________________________
+=*Fernandel.Mº//Fernand Contandin.Mº/|male|@1903|born=Marseille|@1971|
+died=Paris|@1903:1971|nationality-of=country-FRA|
+occupation-of=performer-actor,singer|
+=*Mister-T//Mister# T*.z/
+;_______________________________________________________________________________
+; directors
+;_______________________________________________________________________________
+=*Henri Verneuil.Mº//Achod Malakian.Mº/|male|@1920|born=city-Rodosto-TUR|
+@1920:naÐ|nationality-of=country-ARM|
+@1940:naÐ|nationality-of=country-FRA|occupation-of=film-director|
+;_______________________________________________________________________________
+; writers
+;_______________________________________________________________________________
+=*Herman Melville.Mº//|male|famous|@1819|born=city-New-York-NY-USA|
+@1891|died=city-New-York-NY-USA|@1819:1891|nationality-of=country-USA|
+occupation-of=novelist,poet|
+=*Georges Perec.Mº//|occupation-of=writer|
+=*Geoffrey Chaucer.Mº//|occupation-of=poet|
+;_______________________________________________________________________________
+; journalists
+;_______________________________________________________________________________
+==journalists//|occupation-of=journalist|
+;_______________________________________________________________________________
+; San Francisco Chronicle
+==*Edward Epstein.Mº//|male|
+email-address-of=STRING:email-address:"epstein@sfgate.com"|
+==*Lee Hockstader.º//
+|email-address-of=STRING:email-address:"chronfeedback@sfgate.com"|
+==*Marc Sandalow.Mº//|male|
+email-address-of=STRING:email-address:"sandalow@sfgate.com"|
+==*Rebecca Smith.Fº//|female|
+email-address-of=STRING:email-address:"rsmith@sfgate.com"|
+==*Jaxon Van Derbeken.º//
+|email-address-of=STRING:email-address:"vanderbeken@sfgate.com"|
+;_______________________________________________________________________________
+; San Francisco Examiner
+==*Ray Delgado.Mº//|male|
+email-address-of=STRING:email-address:"delgado@examiner.com"|
+==*Malcolm Glover.Mº//|male|
+==*Rachel Gordon.Fº//|female|
+email-address-of=STRING:email-address:"RMGordon@aol.com"|
+==*Tyche Hendricks.º//
+|email-address-of=STRING:email-address:"sfexaminer@examiner.com"|
+==*Scott Winokur.Mº//|male|
+email-address-of=STRING:email-address:"sfexaminer@examiner.com"|
+;_______________________________________________________________________________
+; artists
+;_______________________________________________________________________________
+=*Manet//Édouard Manet.Mº/|famous|male|@1832|born=Paris|@1883|died=Paris|
+@1832:1883|nationality-of=country-FRA|occupation-of=artist-painter|
+=*Tex Avery.Mº//|male|@1918|born=city-Dallas-TX-USA|@1980|died=Burbank|
+@1918:1980|nationality-of=country-USA|
+occupation-of=animator,cartoonist,film-director|
+;_______________________________________________________________________________
+; business
+;_______________________________________________________________________________
+=*Akio Morita.Mº//|male|nationality-of=country-JPN|
+;_______________________________________________________________________________
+; government
+;_______________________________________________________________________________
+=*Vladimir Jirinovski.Mº//|male|nationality-of=country-RUS|
+occupation-of=government-official|
+=*Evgueni Iassine.Mº//|male|nationality-of=country-RUS|
+;_______________________________________________________________________________
+=*Henry-IV-France//Henry# IV*.¹z/Henri# IV*.z/
+Henri# IV#.My/|famous|male|@1553|born=Pau|@1610|
+died=Paris|
+=*Napoleon-Ier//Napoléon# Ier#.My/Napoléon# Bonaparte#.My/Bonaparte.¹My/
+Napoléon.My/Napoleon# I#.Mz/Napoleon.Mz/Bonaparte.Mz/
+|famous|male|@17690815|born=Ajaccio|@18210505|died=na|@17690815:18210505|
+nationality-of=country-FRA|
+=*Napolean-II//Napoléon# II#.My/
+François# Charles# Joseph# Napoléon# Bonaparte#.My/Napoléon.My/
+Napoleon# II#.Mz/Napoleon.Mz/|famous|male|@1811|born=Paris|@1832|died=na|
+@1811:1832|nationality-of=country-FRA|
+=*Napolean-III//Napoléon# III#.My/Charles# Louis# Napoléon# Bonaparte#.My/
+Napoléon.My/Napoleon# III#.Mz/Napoleon.Mz/|famous|male|@1808|born=Paris|
+@1873|died=na|@1808:1873|nationality-of=country-FRA|
+=*Philippe-Petain//Philippe Pétain.Mº/|male|
+=*de-Gaulle//Charles# André# Joseph# Marie#F de#R Gaulle#.My/
+Charles# de#R Gaulle#.My/de#R Gaulle#.My/
+Charles# André# Joseph# Marie#F de#R Gaulle*.Mz/Charles# de#R Gaulle*.Mz/
+de#R Gaulle*.z/|famous|male|@1890|born=Lille|@1970|died=na|@1890:1970|
+nationality-of=country-FRA|
+=*Felix-Gouin//Félix Gouin.Mº/|male|
+=*Georges Bidault.Mº//|male|
+=*Leon-Blum//Léon Blum.Mº/|male|
+=*Vincent Auriol.Mº//|male|
+=*Rene-Coty//René Coty.Mº/|male|
+=*Georges Pompidou.Mº//|male|
+=*Giscard//Valéry# Giscard# d#R'Estaing#.My/Giscard# d#R'Estaing#.My/VGE.ÉTMy/
+Valéry# Giscard# d#R'Estaing*.Mz/Giscard# d#R'Estaing*.Mz/|famous|male|
+=*Francois-Mitterrand//François Mitterrand.Mº/|famous|male|
+;_______________________________________________________________________________
+; politicians
+;_______________________________________________________________________________
+=*Jean-Marie Le Pen.Mº//|male|nationality-of=country-FRA|
+=*Philippe de Villiers.Mº//|male|nationality-of=country-FRA|
+=*Jacques Cheminade.Mº//|male|nationality-of=country-FRA|
+=*Arlette Laguiller.Fº//|female|nationality-of=country-FRA|
+=*Robert Hue.Mº//|male|nationality-of=country-FRA|
+=*Dominique Voynet.Fº//|female|nationality-of=country-FRA|
+;_______________________________________________________________________________
+; énarques
+;_______________________________________________________________________________
+=*Jacques Calvet.Mº//|male|nationality-of=country-FRA|
+@1957:na|[diploma-of Jacques-Calvet promotion-France-Afrique na ENA]|
+=*Jean Dromer.Mº//|male|nationality-of=country-FRA|
+@1957:na|[diploma-of Jean-Dromer promotion-France-Afrique na ENA]|
+=*Edouard-Balladur//Édouard Balladur.Mº/|male|nationality-of=country-FRA|
+@1929|born=city-Smyrne-TUR|
+@1957:na|[diploma-of Edouard-Balladur promotion-France-Afrique na ENA]|
+=*Jerome-Monod//Jérôme Monod.Mº/|male|nationality-of=country-FRA|
+pdg-of¤Lyonnaise-des-Eaux|
+@1957:na|[diploma-of Jerome-Monod promotion-France-Afrique na ENA]|
+=*Jean-Yves Haberer.Mº//|male|nationality-of=country-FRA|
+@1959:na|[diploma-of Jean-Yves-Haberer promotion-Vauban na ENA]|
+=*Jacques Chirac.Mº//|male|nationality-of=country-FRA|
+@1959:na|[diploma-of Jacques-Chirac promotion-Vauban na ENA]|
+=*Jacques Friedmann.Mº//|male|nationality-of=country-FRA|pdg-of¤UAP|
+@1959:na|[diploma-of Jacques-Friedmann promotion-Vauban na ENA]|
+=*Bernard Stasi.Mº//|male|nationality-of=country-FRA|
+@1959:na|[diploma-of Bernard-Stasi promotion-Vauban na ENA]|
+=*Bertrand Labrusse.Mº//|male|nationality-of=country-FRA|
+@1959:na|[diploma-of Bertrand-Labrusse promotion-Vauban na ENA]|
+=*Alain Chevalier.Mº//|male|nationality-of=country-FRA|
+@1959:na|[diploma-of Alain-Chevalier promotion-Vauban na ENA]|
+=*Jacques Toubon.Mº//|male|nationality-of=country-FRA|
+@1965:na|[diploma-of Jacques-Toubon promotion-Stendhal na ENA]|
+=*Alain Gomez.Mº//|male|nationality-of=country-FRA|pdg-of¤Thomson|
+@1965:na|[diploma-of Alain-Gomez promotion-Stendhal na ENA]|
+=*Jean-Pierre-Chevenement//Jean-Pierre Chevènement.Mº/|male|
+nationality-of=country-FRA|
+@1965:na|[diploma-of Jean-Pierre-Chevenement promotion-Stendhal na ENA]|
+=*Lionel Jospin.Mº//|male|nationality-of=country-FRA|
+@1965:na|[diploma-of Lionel-Jospin promotion-Stendhal na ENA]|
+=*Antoine-Seilliere-de-Laborde//Antoine Seillière de Laborde.Mº/
+|male|nationality-of=country-FRA|pdg-of¤CGIP|
+@1965:na|[diploma-of Antoine-Seilliere-de-Laborde promotion-Stendhal na ENA]|
+=*Jacques Attali.Mº//|male|nationality-of=country-FRA|
+@1970:na|[diploma-of Jacques-Attali promotion-Robespierre na ENA]|
+=*Louis Schweitzer.Mº//|male|nationality-of=country-FRA|pdg-of¤Renault|
+@1970:na|[diploma-of Louis-Schweitzer promotion-Robespierre na ENA]|
+=*Philippe-Seguin//Philippe Séguin.Mº/|male|nationality-of=country-FRA|
+@1970:na|[diploma-of Philippe-Seguin promotion-Robespierre na ENA]|
+=*Francis Lorentz.Mº//|male|nationality-of=country-FRA|pdg-of¤company-RATP|
+@1970:na|[diploma-of Francis-Lorentz promotion-Robespierre na ENA]|
+=*Philippe Lagayette.@Mº//|male|nationality-of=country-FRA|
+@1970:na|[diploma-of Philippe-Lagayette promotion-Robespierre na ENA]|
+=*Laurent Fabius.Mº//|male|nationality-of=country-FRA|
+@1973:na|[diploma-of Laurent-Fabius promotion-Rabelais na ENA]|
+=*Alain Cellier.Mº//|male|nationality-of=country-FRA|
+@1973:na|[diploma-of Alain-Cellier promotion-Rabelais na ENA]|
+=*Gerard-Longuet//Gérard Longuet.Mº/|male|nationality-of=country-FRA|
+@1973:na|[diploma-of Gerard-Longuet promotion-Rabelais na ENA]|
+=*Philippe-Jaffre//Philippe Jaffré.Mº/
+|male|nationality-of=country-FRA|pdg-of¤Elf-Aquitaine|
+@1973:na|[diploma-of Philippe-Jaffre promotion-Rabelais na ENA]|
+=*Francois-Leotard//François Léotard.Mº/|male|nationality-of=country-FRA|
+@1973:na|[diploma-of Francois-Leotard promotion-Rabelais na ENA]|
+=*Patrick Ponsolle.Mº//|male|nationality-of=country-FRA|ceo-of¤Suez|
+@1973:na|[diploma-of Patrick-Ponsolle promotion-Rabelais na ENA]|
+=*Martine Aubry.Fº//|female|nationality-of=country-FRA|
+@1975:na|[diploma-of Martine-Aubry promotion-Leon-Blum na ENA]|
+=*Frederic-Saint-Geours//Frédéric Saint-Geours.Mº/
+|male|nationality-of=country-FRA|dg-adjoint-of¤PSA|
+@1975:na|[diploma-of Frederic-Saint-Geours promotion-Leon-Blum na ENA]|
+=*Alain Minc.Mº//|male|nationality-of=country-FRA|
+@1975:na|[diploma-of Alain-Minc promotion-Leon-Blum na ENA]|
+=*Pascal Lamy.Mº//|male|nationality-of=country-FRA|
+@1975:na|[diploma-of Pascal-Lamy promotion-Leon-Blum na ENA]|
+=*Herve-Hannoun//Hervé Hannoun.Mº/|male|nationality-of=country-FRA|
+@1975:na|[diploma-of Herve-Hannoun promotion-Leon-Blum na ENA]|
+=*Yves Lyon-Caen.Mº//|male|nationality-of=country-FRA|
+@1975:na|[diploma-of Yves-Lyon-Caen promotion-Leon-Blum na ENA]|
+=*Segolene-Royal//Ségolène Royal.Fº/|female|nationality-of=country-FRA|
+@1980:na|[diploma-of Segolene-Royal promotion-Voltaire na ENA]|
+=*Francois-Hollande//François Hollande.Mº/|male|nationality-of=country-FRA|
+@1980:na|[diploma-of Francois-Hollande promotion-Voltaire na ENA]|
+=*Michel Sapin.Mº//|male|nationality-of=country-FRA|
+@1980:na|[diploma-of Michel-Sapin promotion-Voltaire na ENA]|
+=*Renaud Donnedieu de Vabres.Mº//|male|nationality-of=country-FRA|
+@1980:na|[diploma-of Renaud-Donnedieu-de-Vabres promotion-Voltaire na ENA]|
+=*Jean-Marie Messier.Mº//|male|nationality-of=country-FRA|
+[diploma-of Jean-Marie-Messier na na X]|ceo-of¤Generale-des-Eaux|
+@1982:na|[diploma-of Jean-Marie-Messier promotion-Aguesseau na ENA]|
+=*Pierre Mariani.Mº//|male|nationality-of=country-FRA|
+@1982:na|[diploma-of Pierre-Mariani promotion-Aguesseau na ENA]|
+;_______________________________________________________________________________
+=*Henry-IV-England//Henry# IV*.¹z/Henri# IV#.z/Henri# IV#.My/
+|male|@1367|born=Winchester|@1413|died=Westminster|
+;_______________________________________________________________________________
+=*Kennedy//John Fitzgerald Kennedy.Mº/JFK.Tz/|famous|male|
+=*LBJ.Tz//Lyndon Baines Johnson.Mº/|famous|male|
+=*Nixon//Richard Milhous Nixon.Mº/Nixonian.Az/tricky#A Dick*.az/|famous|male|
+=*Gerald Ford.Mº//|famous|male|
+=*Jimmy Carter.Mº//|famous|male|
+=*Reagan//Ronald Reagan.Mº/|famous|male|
+=*George Bush.Mº//|famous|male|
+=*Bill Clinton.Mº//William# Jefferson# Clinton#.qMy/
+William# Jefferson# Clinton*.qMz/|famous|male|
+email-address-of=STRING:email-address:"president@whitehouse.gov"|
+@1946|born=city-Hope-AR-USA|
+=*Al Gore.Mº//|famous|male|
+email-address-of=STRING:email-address:"vice-president@whitehouse.gov"|
+;_______________________________________________________________________________
+=*Greenspan//Alan Greenspan.Mº/Greenspan.Mz/US# central#A bank# chief#.kz/
+Federal#A Reserve# Chairman# Alan# Greenspan*.Mz/
+Federal#A Reserve# Chairman# Greenspan*.Mz/
+Chairman# Greenspan*.Mz/Fed# Chairman# Greenspan*.Mz/
+;_______________________________________________________________________________
+; television personalities
+;_______________________________________________________________________________
+=*Dan Rather.Mº//|famous|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=CBS|
+=*Connie Chung.Fº//|famous|female|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=CBS|
+=*Tom Brokaw.Mº//|famous|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=NBC|
+=*Bryant Gumbel.Mº//|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=NBC|
+=*Dave Garroway.Mº//|male|nationality-of=country-USA|
+occupation-of=talk-show-host|affiliation-of=NBC|@19820721|died=na|
+=*Frank McGee.Mº//|male|nationality-of=country-USA|
+occupation-of=talk-show-host|affiliation-of=NBC|@19740417|died=na|
+=*Peter Jennings.Mº//|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=ABC|
+=*Ted Koppel.Mº//|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=ABC|
+=*Charlie Rose.·Mº//|male|nationality-of=country-USA|
+=*Arsenio Hall.·Mº//|male|nationality-of=country-USA|
+=*Barbara Walters.Fº//|female|@1932|born=na|
+@1932:na|nationality-of=country-USA|occupation-of=anchorperson|
+affiliation-of=ABC|
+=*Jane Pauley.Fº//|female|@1951|born=na|
+@1951:na|nationality-of=country-USA|occupation-of=anchorperson|
+affiliation-of=NBC|
+=*Linda Ellerbee.Fº//and#K so#B itÝhe#H goes#V.ÎUz/|female|
+nationality-of=country-USA|occupation-of=television-correspondent|
+affiliation-of=NBC|
+=*Hugh Downs.Mº//|male|@1921|born=na|
+@1921:na|nationality-of=country-USA|occupation-of=anchorperson|
+affiliation-of=ABC|
+=*Robert MacNeil.Mº//|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=PBS|
+=*David Brinkley.Mº//|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=ABC|
+=*Jim Lehrer.Mº//|male|nationality-of=country-USA|
+occupation-of=anchorperson|affiliation-of=PBS|
+=*PPDA.My//Patrick Poivre d'Arvor.Mº/|male|nationality-of=country-FRA|
+occupation-of=anchorperson|@1971:1983|affiliation-of=France-2|
+@1983:na|affiliation-of=TF1|
+=*Anne de Coudenhove.Fº//|female|nationality-of=country-FRA|
+occupation-of=anchorperson|@1993:19940601|affiliation-of=France-3|
+@19940601:na|affiliation-of=LCI|
+=*Anne Sinclair.Fº//|female|
+nationality-of=country-FRA|occupation-of=anchorperson|affiliation-of=TF1|
+=*Christine Ockrent.Fº//|female|
+=*Christophe Decavanne.Mº//|male|nationality-of=country-FRA|
+occupation-of=talk-show-host|affiliation-of=TF1|
+=*Bruno Masure.Mº//|male|nationality-of=country-FRA|
+occupation-of=anchorperson|affiliation-of=France-2|
+=*Paul Amar.Mº//|male|nationality-of=country-FRA|
+occupation-of=anchorperson|@1991:199408|affiliation-of=France-2|
+=*Antoine de Caunes.Mº//|male|nationality-of=country-FRA|
+occupation-of=talk-show-host|affiliation-of=Canal-Plus|
+=*Philippe Gildas.Mº//|male|nationality-of=country-FRA|
+occupation-of=talk-show-host|affiliation-of=Canal-Plus|
+=*Philippe Vandel.Mº//|male|nationality-of=country-FRA|
+occupation-of=talk-show-host|affiliation-of=Canal-Plus|
+=*Jerome-Bonaldi//Jérôme Bonaldi.Mº/|male|nationality-of=country-FRA|
+occupation-of=talk-show-host|affiliation-of=Canal-Plus|
+=*Lisa-Malone//Lisa Malone.Fº/|female|occupation-of=launch-commentator|
+affiliation-of=NASA|
+;_______________________________________________________________________________
+; philosophers
+;_______________________________________________________________________________
+==philosophers//|occupation-of=philosopher|
+==*Socrates//Socrate.My/Socrates.Mz/Socratic.Az/
+|famous|male|@-470|born=na|@-399|died=na|
+@-470:-399|nationality-of=country-GRC|occupation-of=philosopher|
+==*Plato//Platon.My/Plato.Mz/Platonism.Îz/Platonic.Az/;Platonize.Véz/
+platonisme.Îy/platonique.Ay/|famous|male|@-428|born=na|@-348|died=na|
+@-428:-348|nationality-of=country-GRC|occupation-of=philosopher|
+==*Aristotle//Aristote.My/Aristotle.Mz/
+==*Descartes//René Descartes.Mº/Cartesian.Az/|male|nationality-of=country-FRA|
+==*David Hume.Mº//|male|@1711|born=city-Edinburgh-GBR|
+@1776|died=city-Edinburgh-GBR|
+@1711:1776|nationality-of=Scotland|occupation-of=philosopher|
+==*Hegel//Georg Wilhelm Friedrich.Mº/|male|nationality-of=country-DEU|
+==*Kant//Kant.Mz/Kant.My/Immanuel# Kant*.z/Emmanuel# Kant*.My/
+|male|@1724|born=na|@1804|died=na|
+@1724:1804|nationality-of=country-DEU|occupation-of=philosopher|
+==*Moritz Schlick.Mº//|male|nationality-of=country-DEU|
+==*Rudolf Carnap.Mº//|male|nationality-of=country-DEU|
+==*Otto Neurath.Mº//|male|nationality-of=country-AUT|
+==*Alfred Tarski.Mº//|male|nationality-of=country-USA|
+==*Charles-Morris//Charles W\. Morris.Mº/|male|nationality-of=country-USA|
+==*John Locke.Mº//|male|@1632|born=na|@1704|died=na|
+@1632:1704|nationality-of=England|occupation-of=philosopher|
+==*Ludwig Wittgenstein.Mº//|male|
+;_______________________________________________________________________________
+===phil-UK//|nationality-of=country-GBR|
+===*Hobbes//Thomas Hobbes.Mº/|male|
+===*JS-Mill//John Stuart Mill.Mº/|male|
+===*John-Austin//John Langshaw Austin.Mº/
+|male|@1911|born=city-Lancaster-GBR|@1960|died=Oxford|
+===*Bertrand-Russell//Bertrand Arthur William Russell III.Mº/|male|
+===*Ayer//Alfred Jules Ayer.Mº/|male|
+;_______________________________________________________________________________
+===phil-Ireland//|nationality-of=country-IRL|
+===*George Berkeley.Mº//|male|
+;_______________________________________________________________________________
+===phil-US//|nationality-of=country-USA|
+===*Searle//J\. R\. Searle.Mº/searlien.Ay/|male|
+===*Grice//H\. Paul Grice.Mº/|male|
+;_______________________________________________________________________________
+=*Freud//Sigmund Freud.Mº/
+|male|nationality-of=country-AUT|@1856|born=na|@1939|died=na|
+=*Anna Freud.Fº//|female|nationality-of=country-AUT|
+=*Jean-Francois-Kahn//Jean-François Kahn.Mº/|male|nationality-of=country-FRA|
+=*Richard Dawkins.Mº//|male|
+=*Mandelbrot//Benoît Mandelbrot.Mº/|male|
+=*Barrow//John D\. Barrow.Mº/|male|nationality-of=country-GBR|
+=*Leibniz//Wilhelm Gottfried Leibniz.Mº/Wilhelm Gottfried Leibnitz.Mº/
+|male|nationality-of=country-DEU|
+;_______________________________________________________________________________
+; NICI example
+; See (Huls, Bos, and Claassen, 1995).
+;_______________________________________________________________________________
+=*Alice-NICI//Alice Bartelme.Fº/|female|residence-of=city-Nijmegen-NLD|
+=*Charles-NICI//Charles Bates.Mº/|male|residence-of=city-Nijmegen-NLD|
+=*Wietske-NICI//Wietske Bazick.Mº/|male|
+=*Koen-NICI//Koen Bearse.Mº/|male|
+=*Bos-NICI//Bos Becker.Mº/|male|
+=*Hil-NICI//Hil Becker.Fº/|female|residence-of=city-Nijmegen-NLD|
+=*Carla Huls.Fº//|female|residence-of=city-Nijmegen-NLD|
+email-address-of=STRING:email-address:"huls@nici.kun.nl"|
+=*Hanneke-NICI//Hanneke Bolduc.Fº/|female|residence-of=city-Lent-NLD|
+=*Wim Claassen.Mº//|male|residence-of=city-Lent-NLD|wife-of=Hanneke-NICI|
+unique-author-of¤donald-report,conceptuele-generatie|
+=*Edwin Bos.Mº//|male|residence-of=city-Nijmegen-NLD|
+;_______________________________________________________________________________
+; linguists
+;_______________________________________________________________________________
+==linguists//|occupation-of=linguist|
+;_______________________________________________________________________________
+==*Montague//Richard Montague.Mº/|male|
+==*John Lyons.Mº//|male|
+;_______________________________________________________________________________
+===ling-Switzerland//|nationality-of=country-CHE|
+===*Saussure//Ferdinand de Saussure.Mº/|male|
+;_______________________________________________________________________________
+===ling-Denmark//|nationality-of=country-DNK|
+===*Otto Jespersen.Mº//|male|
+;_______________________________________________________________________________
+===ling-France//|nationality-of=country-FRA|
+===*Benveniste//Émile Benveniste.Mº/benvenistien.Ay/|male|
+===*Gustave Guillaume.Mº//|male|
+===*Antoine Culioli.Mº//|male|
+===*Jacques Boulle.Mº//|male|
+;_______________________________________________________________________________
+===ling-US//|nationality-of=country-USA|
+===*Roman Jakobson.Mº//|male|
+===*Noam Chomsky.Mº//|male|
+===*Charles Fillmore.Mº//|male|
+===*Jeffrey-Gruber//Jeffrey S\. Gruber.Mº/|male|
+===*Jackendoff//Ray S\. Jackendoff.Mº/|male|
+===*Joan Bresnan.Fº//|female|
+===*George Lakoff.Mº//|male|
+===*Robin-Lakoff//Robin T\. Lakoff.Fº/|female|
+;_______________________________________________________________________________
+; librarians
+;_______________________________________________________________________________
+=*Melvil Dewey.Mº//|male|nationality-of=country-USA|
+;_______________________________________________________________________________
+; lexicographers
+;_______________________________________________________________________________
+=*Roget//Peter Mark Roget.Mº/|male|nationality-of=country-GBR|
+;_______________________________________________________________________________
+; computer scientists
+;_______________________________________________________________________________
+=*Michael-Dyer//Michael G\. Dyer.Mº/|male|nationality-of=country-USA|
+=*Doug Lenat.Mº//Douglas B Lenat.Mº/|male|nationality-of=country-USA|
+=*Drew McDermott.Mº//|male|nationality-of=country-USA|
+=*Marvin Minsky.Mº//|male|nationality-of=country-USA|
+=*Ted Nelson.Mº//|male|nationality-of=country-USA|
+=*Allen Newell.Mº//|male|nationality-of=country-USA|
+=*Roger Schank.Mº//|male|nationality-of=country-USA|
+=*Doug Skuce.Mº//|email-address-of=STRING:email-address:"doug@csi.UOttawa.CA"|
+=*Herbert Simon.Mº//|male|nationality-of=country-USA|
+;_______________________________________________________________________________
+; physicists
+;_______________________________________________________________________________
+=*Alexei Starobinsky.Mº//|male|nationality-of=USSR|
+=*Alan Guth.Mº//|male|nationality-of=country-USA|
+=*Andrei Linde.Mº//|male|nationality-of=country-RUS|
+=*John-Barrow//John D\. Barrow.Mº/|male|nationality-of=country-GBR|
+=*Roger-Penrose//Roger Penrose.Mº/|male|nationality-of=country-GBR|
+=*Frank-Tipler//Frank J\. Tipler.Mº/|male|nationality-of=country-USA|
+=*John-Wheeler//John A\. Wheeler.Mº/|male|nationality-of=country-USA|
+;_______________________________________________________________________________
+; mathematicians
+;_______________________________________________________________________________
+=*John Conway.Mº//|male|nationality-of=country-GBR|
+;_______________________________________________________________________________
+; misc
+;_______________________________________________________________________________
+=*Dalai# Lama*.kz//Tenzin Gyatso.Mº/Kundun.Mº/|male|
+=*Marshall McLuhan.Mº//|male|@1911|born=city-Edmonton-CAN|
+@1980|died=city-Toronto-CAN|
+=*Francois-Ravaillac//François Ravaillac.Mº/|male|@1578|born=former-Touvre|
+@16100514|died=Paris|@1610|assassinate=Henry-IV-France|
+=*Bell//Alexander Graham Bell.Mº/|male|@1847|born=Scotland|@1922|died=na|
+;_______________________________________________________________________________
+; unknown
+;_______________________________________________________________________________
+=*Dello Onnis.º//|nationality-of=country-ARG|
+;_______________________________________________________________________________

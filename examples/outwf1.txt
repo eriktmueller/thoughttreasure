@@ -1,0 +1,809 @@
+> What is an intelligentphobe?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article intelligentphobe]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article intelligentphobe]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det an]
+   [NP [N intelligentphobe]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#13|[present-indicative
+ [standard-copula object-interrogative-pronoun intelligentphobe]]
+ENG intelligentphobe;
+An intelligentphobe is a type of human.
+Intelligentphobes hate geniuses.
+> What is a workstationphobe?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article workstationphobe]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article workstationphobe]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N workstationphobe]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#133|[present-indicative
+ [standard-copula object-interrogative-pronoun workstationphobe]]
+ENG workstationphobe;
+A workstationphobe is a type of human.
+Workstationphobes hate workstations.
+> What is a Magyarphone?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article Magyarphone]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article Magyarphone]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N Magyarphone]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1333|[present-indicative
+ [standard-copula object-interrogative-pronoun Magyarphone]]
+ENG Magyarphone;
+A Magyarphone is a type of human.
+A Magyarphone speaks Hungarian fluently.
+> What is a dogette?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article dogette]]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article dogette2443]]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article dogette2444]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article dogette]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article dogette2443]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article dogette2444]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N dogette]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#13339|[present-indicative
+ [standard-copula object-interrogative-pronoun dogette2443]]
+ENG dogette;
+A dogette is a type of dog. Other types of dogs: the dogette, the guard dog,
+the hunting dog, the luxury dog, and the mongrel.
+Dogettes are small.
+> What is a minicat?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article minicat]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article minicat]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N minicat]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#133393|[present-indicative
+ [standard-copula object-interrogative-pronoun minicat]]
+ENG minicat;
+A minicat is a type of cat. Other types of cats: the "chartreux", the "chat
+européen", the "jaguarondi", the "mistigri", the "oncoïde", the Angora cat, the
+Archangel cat, the blue cat, the Burmese, the calico cat, the Cheshire cat, the
+Chinchilla cat, the domestic shorthair cat, the Egyptian cat, the Havana brown
+cat, the Himalayan cat, the house cat, the Maltese cat, the Manx, the Persian,
+the Rex cat, the Russian blue cat, the serval, the Siamese, the silver cat, the
+tiger cat, the tomcat, the tortoise-shell cat, the Turkish cat, and others.
+Minicats are small.
+> What is a SPARCstationfest?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article
+   [SPARCstationfest]]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article
+   [SPARCstationfest]]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N SPARCstationfest]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1333932|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [SPARCstationfest]]]
+ENG SPARCstationfest;
+A SPARCstationfest is a type of script. Other types of scripts: cook, educate,
+prepare, take, teach, the business script, the class, the computer program
+script, the fighting, the holiday, the intellectual activity, the interpersonal
+script, the IRCathon, the leisure activity, the meal, the natural disaster, the
+outbreak of war, the performance, the personal script, the political script,
+the scientific script, the sporting event, the transaction, the trip, and
+others.
+A SPARCstationfest involves a SPARCstation.
+> What is Rooseveltspeak?
+SEMANTICS CONCEPTS:
+0.75000:[present-indicative
+ [isa object-interrogative-pronoun Rooseveltspeak]]
+0.75000:[present-indicative
+ [isa object-interrogative-pronoun Rooseveltspeak2445]]
+0.67500:[present-indicative
+ [standard-copula object-interrogative-pronoun Rooseveltspeak]]
+0.67500:[present-indicative
+ [standard-copula object-interrogative-pronoun Rooseveltspeak2445]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N Rooseveltspeak]]]]
+UNDERSTANDING CONCEPT:
+@na:na#13339324|[present-indicative
+ [standard-copula object-interrogative-pronoun Rooseveltspeak2445]]
+ENG Rooseveltspeak INFML;
+A Rooseveltspeak is a type of language. Other types of languages: the
+Afro-Asiatic, the Amerind, the Australian, the Austro-Asiatic, the
+Austronesian, the basque, the Caucasian, the Dravidian, the Eskimo-Aleut, the
+Indo-European language, the Japanese, the Khoisan, the Kivunjo, the Korean, the
+Lappish, the New Guinean, the Niger-Congo, the Nilo-Saharan, the
+Proto-language, the Rooseveltspeak, the sign language, the Sino-Tibetan, the
+Turkic, and the Uralic.
+Rooseveltspeak is its official language.
+> What is a xylophonephile?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article xylophonephile]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article xylophonephile]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N xylophonephile]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#133393243|[present-indicative
+ [standard-copula object-interrogative-pronoun xylophonephile]]
+ENG xylophonephile;
+A xylophonephile is a type of human.
+Xylophonephiles like xylophones.
+> What is a phonophobe?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article phonophobe]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article phonophobe]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N phonophobe]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1333932433|[present-indicative
+ [standard-copula object-interrogative-pronoun phonophobe]]
+ENG phonophobe;
+A phonophobe is a type of human.
+Phonophobes hate sounds.
+> What is a Pentiumologist?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article Pentiumologist]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article Pentiumologist]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N Pentiumologist]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#454422445|[present-indicative
+ [standard-copula object-interrogative-pronoun Pentiumologist]]
+ENG Pentiumologist;
+A Pentiumologist is a type of human.
+A Pentiumologist is knowledgeable about a Pentium.
+> What is an IRCathon?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article
+   [IRCathon]]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article
+   [IRCathon]]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det an]
+   [NP [N IRCathon]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#249257156|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [IRCathon]]]
+ENG IRCathon;
+An IRCathon is a type of script. Other types of scripts: cook, educate,
+prepare, take, teach, the business script, the class, the computer program
+script, the fighting, the holiday, the intellectual activity, the interpersonal
+script, the leisure activity, the meal, the natural disaster, the outbreak of
+war, the performance, the personal script, the political script, the scientific
+script, the SPARCstationfest, the sporting event, the transaction, the trip,
+and others.
+An IRCathon involves Internet Relay Chat.
+> What is boringsville?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa object-interrogative-pronoun interesting]]
+0.81000:[present-indicative
+ [standard-copula object-interrogative-pronoun interesting]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N boringsville]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1802395734|[present-indicative
+ [standard-copula object-interrogative-pronoun interesting]]
+ENG interesting ADJ; FR intéressant ADJ;
+ANT: ENG boringsville, boringsville, dullsville INFML; boring ADJ, FR ennuyeux
+ADJ, ENG old ADJ INFML, tiresome ADJ, tedious ADJ, dull ADJ; FR chiant ADJ SL,
+emmerdant ADJ INFML;
+> What is a stupidster?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [indefinite-article intelligent]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [indefinite-article intelligent]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det a]
+   [NP [N stupidster]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-844088153|[present-indicative
+ [standard-copula object-interrogative-pronoun intelligent]]
+ENG Einstein INFML PER, genius PER, gray matter INFML ISM, intellectual
+capacity ISM, brains PL C ISM; smartify V, smartify V, get a clue V INFML, get
+smart V INFML, wisen up V; intelligent ADJ; FR intelligent ADJ; ENG wisely ADJ,
+wise ADJ, smart ADJ; FR génial ADJ; judicieusement ADV;
+ANT: ENG stupidster PER, bozo SL PER, ass SL PER, turkey INFML PER, loser INFML
+PER, dingbat INFML PER, clueless clod INFML PER, chump INFML PER, airhead INFML
+PER, scatterbrain INFML PER, stupid idiot PER, idiot PER, fool PER, FR toqué
+INFML PER, sot M INFML PER, andouille F INFML, nunuche F INFML PER, godiche F
+INFML PER, bêtasse F INFML PER, bébête F INFML PER, corniaud M INFML PER, bêta
+M INFML PER, benêt M PER, foufou INFML PER, nullard INFML PER, nul INFML PER,
+nigot PER, niais PER, imbéci PER, idiot PER, crétin PER; niaiseux CAN PER; ENG
+stupid ADJ, dumb ADJ, unintelligent ADJ, FR stupide ADJ, bête ADJ, ENG
+scatterbrained ADJ INFML, ninny ADJ INFML, not all there ADJ INFML, clueless
+ADJ INFML, brain dead ADJ INFML, thick ADJ INFML, dim-witted ADJ, idiotic ADJ,
+FR débile ADJ INFML, foufou ADJ INFML, con ADJ INFML, sot ADJ INFML, toqué ADJ
+INFML, nunuche ADJ INFML, jeté ADJ INFML, godiche ADJ INFML, frappé ADJ INFML,
+corniaud ADJ INFML, cinglé ADJ INFML, bébête ADJ INFML, nigaud ADJ, niais ADJ,
+naïf ADJ, inintelligent ADJ, imbécile ADJ, idiot ADJ, crétin ADJ, ENG silly ADJ
+RARE; FR fou ADJ RARE; niaiseux ADJ CAN;
+A genius is a type of personality trait. Other types of personality traits:
+pretentious, puritanical, reckless, reclusive, religious, reputable, sacred,
+sanctimonious, sane, scholarly, screwed, selfish, sensual, servile, shy,
+snobby, sociable, strict, stubborn, sympathetic, talkative, tasteful, the
+privileged class, the skeptic, the space case, the techie, the troublemaker,
+titular, violent, witty, and others.
+Intelligentphobes hate geniuses.
+> Who is the Erikster?
+SEMANTICS CONCEPTS:
+1.00000:[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Erikster"]]]]
+0.90000:[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Erikster"]]]]
+0.90000:[present-indicative
+ [NAME-of rock-group-the-Who NAME:"Erikster"]]
+0.63000:[present-indicative
+ [isa
+  rock-group-the-Who
+  [such-that
+   human
+   [NAME-of human NAME:"Erikster"]]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro Who]]
+ [VP
+  [VP [V is]]
+  [NP
+   [Det the]
+   [NP [NAME Erikster]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#149053064|[present-indicative
+ [standard-copula human-interrogative-pronoun Erik]]
+ENG Erik Thomas Mueller GENONLY; FR Erik Thomas Mueller M GENONLY;
+An Erik Thomas Mueller is a human.
+I use tu with you.
+You are an AI researcher.
+> Who is Sarakins?
+SEMANTICS CONCEPTS:
+1.00000:[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Sarakins"]]]]
+0.90000:[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Sarakins"]]]]
+0.90000:[present-indicative
+ [NAME-of rock-group-the-Who NAME:"Sarakins"]]
+0.63000:[present-indicative
+ [isa
+  rock-group-the-Who
+  [such-that
+   human
+   [NAME-of human NAME:"Sarakins"]]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro Who]]
+ [VP
+  [VP [V is]]
+  [NP [NAME Sarakins]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1490530642|[present-indicative
+ [standard-copula human-interrogative-pronoun Sarakins]]
+ENG Sarakin GENONLY; FR Sarakins F GENONLY;
+A Sarakin is a human.
+Sara is the first name of Sarakin. She is female. Sarakin is American.
+> What is telephoneness?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa object-interrogative-pronoun phone]]
+0.90000:[present-indicative
+ [isa object-interrogative-pronoun stock-T]]
+0.81000:[present-indicative
+ [standard-copula object-interrogative-pronoun phone]]
+0.81000:[present-indicative
+ [standard-copula object-interrogative-pronoun stock-T]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N telephoneness]]]]
+UNDERSTANDING CONCEPT:
+@na:na#2020404535|[present-indicative
+ [standard-copula object-interrogative-pronoun phone]]
+ENG phone; telephoneness ISM, set FML, station set FML, terminal FML, telephone
+set, telephone; FR poste téléphonique M, téléphone M;
+A phone is a type of electronic appliance. Types of phones: the "Minitel 12".
+Other types of electronic appliances: computer equipment, Electrochromics, the
+amplifier, the answering machine, the audio mixer, the audio recorder, the
+bell, the calculator, the CD player, the dial, the display, the effects
+processor, the electronic musical instrument, the handset, the noise reduction
+unit, the operator position, the oscilloscope, the phonograph, the production
+video switcher, the radio, the receiver, the switching system, the sync box,
+the teleprompter, the tuner, the TV camera, the TV set, the video monitor, the
+video recorder, and others.
+A set is a R1 of a good condition and a phone state. A set is a R2 of a phone
+state and a script relation. A phone consists of a handset, a dial, a display,
+a transmitter, a receiver, and a bell.
+> What is 'yumarama'?
+SEMANTICS CONCEPTS:
+0.75000:[present-indicative
+ [isa object-interrogative-pronoun delicious]]
+0.67500:[present-indicative
+ [standard-copula object-interrogative-pronoun delicious]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N yumarama]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1270791128|[present-indicative
+ [standard-copula object-interrogative-pronoun delicious]]
+ENG delicious ADJ; yummy ADJ INFML, scrumptious ADJ; FR délicieux ADJ; ENG
+yumarama INTERJ INFML, yum yum INTERJ, yum INTERJ;
+Delicious is a type of taste. Other types of tastes: bitter, salty, and sweet.
+> What is 'orangeridden'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [orange object-interrogative-pronoun]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [AdjP [Adj orangeridden]]]]
+UNDERSTANDING CONCEPT:
+@na:na#176990609|[present-indicative
+ [orange object-interrogative-pronoun]]
+"pulls De Fursac" are barely orange. "cravates en soies numéro 21 d'Ermenegildo
+Zegna" are barely orange. Nicole Miller ties are barely orange. Rykiel ties are
+a little bit orange.
+> What is 'gutsily'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa object-interrogative-pronoun courageous]]
+0.81000:[present-indicative
+ [standard-copula object-interrogative-pronoun courageous]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N gutsily]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1769906092|[present-indicative
+ [standard-copula object-interrogative-pronoun courageous]]
+ENG balls PL INFML C ZEROART, courage ZEROART; have guts V; courageous ADJ;
+gutsy ADJ INFML, daring ADJ; FR gonflé ADJ INFML, courageux ADJ; ENG gutsily
+ADV, daringly ADV;
+ANT: ENG wimp INFML PER, cowardly ADJ, FR poltron ADJ, lâche ADJ,
+Courage is a type of personality trait. Other types of personality traits:
+pretentious, puritanical, reckless, reclusive, religious, reputable, sacred,
+sanctimonious, sane, scholarly, screwed, selfish, sensual, servile, shy,
+snobby, sociable, strict, stubborn, sympathetic, talkative, tasteful, the
+privileged class, the skeptic, the space case, the techie, the troublemaker,
+titular, violent, witty, and others.
+> What is 'smartify'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [intelligent object-interrogative-pronoun]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [intelligent na]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [intelligent na]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [V smartify]]]
+UNDERSTANDING CONCEPT:
+@na:na#519191737|[present-indicative
+ [intelligent object-interrogative-pronoun]]
+Insects are stupid.
+> What is 'yellowize'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [yellow object-interrogative-pronoun]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [yellow na]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [yellow na]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [V yellowize]]]
+UNDERSTANDING CONCEPT:
+@na:na#896950075|[present-indicative
+ [yellow object-interrogative-pronoun]]
+Browns are some yellow. Yellow roses are yellow. Gotcha trunks are a little bit
+yellow. "costumes droits en laine De Fursac" are nearly yellow. "vestes droites
+De Fursac" are nearly yellow. Sole shirts are yellow. "T-shirts de Galfa Club"
+are a little bit yellow. "T-shirts de Oxbow" are a little bit yellow. UCLA
+Bruins shorts are barely yellow. "pantalons jaunes en laine De Fursac" are
+nearly yellow. "cravates De Fursac" yellowize 0.05. "cravates De Fursac" are
+barely yellow.
+> What is 'twillen'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [twill na]]]
+0.90000:[present-indicative
+ [twill object-interrogative-pronoun]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [twill na]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N twillen]]]]
+UNDERSTANDING CONCEPT:
+@na:na#379566161|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [twill na]]]
+> What is 'Intelesque'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [Intel object-interrogative-pronoun]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [AdjP [Adj Intelesque]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-499305685|[present-indicative
+ [Intel object-interrogative-pronoun]]
+> What is 'Intelfashion'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa object-interrogative-pronoun Intel]]
+0.81000:[present-indicative
+ [standard-copula object-interrogative-pronoun Intel]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N Intelfashion]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-698089552|[present-indicative
+ [standard-copula object-interrogative-pronoun Intel]]
+ENG Intel ZEROART; Intelesque ADJ; Intelfashion ADV;
+Intel is an US corporation. Types of US corporations: Baby Bells. Other
+instances of US corporations: ABC, CBS Inc., Chase Manhattan, Disney, Dunn &
+Bradstreet, Eric Marder Associates, Fidelity, Gallup, Lotus, Microsoft, Morgan
+Stanley & Co., MOTU, Nielsen, Nielsen Media Research, Opcode, Quicken, Salomon,
+SCO, the Ablex, the Chemical Banking Corporation, the Funk & Wagnalls, the John
+Wiley, the Morgan Kaufmann, the Morgan Stanley, the Simon & Schuster, the Time
+Warner, the Vanguard Group, the Warner Bros., UBS, Viacom-Paramount, and
+others.
+Intel is a computer company. Other instances of computer companies: "Apple
+France", Apple Computers, Ataree, Compaq, Digital Equipment Corporation,
+Hewlett-Packard, IBM, IMSAI, MITS, Motorola, Novell, SGI, Sun Microsystems,
+SunSoft, the IBM France, Virtual Computers, and Zilog.
+A 4004, a 8008, a 8080, a 8085, a 8086, a 80186, a 80286, a 80386, and a 80486
+are some products of Intels.
+> What is 'businessite'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   human
+   [occupation-of human performing-arts-professional]]]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   human
+   [occupation-of human businessperson]]]]
+0.90000:[present-indicative
+ [businessperson object-interrogative-pronoun]]
+0.90000:[present-indicative
+ [performing-arts-professional object-interrogative-pronoun]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   human
+   [occupation-of human performing-arts-professional]]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   human
+   [occupation-of human businessperson]]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N businessite]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1609039083|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   human
+   [occupation-of human businessperson]]]]
+A human.
+> What is 'lawery'?
+SEMANTICS CONCEPTS:
+> What is 'serverize'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [server object-interrogative-pronoun]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [server na]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [server na]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N serverize]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1089478351|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [server na]]]
+> What is 'talkancy'?
+SEMANTICS CONCEPTS:
+0.75000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [online-talk]]]
+0.75000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [conversation]]]
+0.67500:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [online-talk]]]
+0.67500:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [conversation]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N talkancy]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1990118382|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [conversation]]]
+ENG conversation; talkee ROLE2, talkee ROLE2, talkee ROLE2, talkancy INFML,
+talkancy INFML, talkancy INFML, talkancy ISM, talkancy ISM, talkancy ISM; talk
+V, talk with V; FR parler V, parler à V; ENG chit V, converse V, speak V, have
+a conversation V, converse with V, chit with (about) V, speak to (about) V,
+talk with (about) V, talk to (about) V, have a conversation with V; FR causer
+avec V, bavarder avec V, discuter avec V, parler avec V, causer V, bavarder V,
+discuter V; ENG talkancy ADJ, talkancy ADJ, talkancy ADJ, talkancy ADJ,
+talkancy ADJ, talkancy ADJ;
+A conversation is a type of interpersonal script. Types of conversations: have.
+Other types of interpersonal scripts: begin, break, décrire, divorce, end,
+fight, lovemaking, make, marry, obtain, and wake.
+A human being is a R1 of a conversation. A human being is a R2 of a
+conversation. A list is a R3 of a conversation.
+> What is 'talkee'?
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [conversation]]]
+0.90000:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [online-talk]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [conversation]]]
+0.81000:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [online-talk]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro What]]
+ [VP
+  [VP [V is]]
+  [NP [N talkee]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1573652657|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [conversation]]]
+ENG conversation; talkee ROLE2, talkee ROLE2, talkee ROLE2, talkancy INFML,
+talkancy INFML, talkancy INFML, talkancy ISM, talkancy ISM, talkancy ISM; talk
+V, talk with V; FR parler V, parler à V; ENG chit V, converse V, speak V, have
+a conversation V, converse with V, chit with (about) V, speak to (about) V,
+talk with (about) V, talk to (about) V, have a conversation with V; FR causer
+avec V, bavarder avec V, discuter avec V, parler avec V, causer V, bavarder V,
+discuter V; ENG talkancy ADJ, talkancy ADJ, talkancy ADJ, talkancy ADJ,
+talkancy ADJ, talkancy ADJ;
+A conversation is a type of interpersonal script. Types of conversations: have.
+Other types of interpersonal scripts: begin, break, décrire, divorce, end,
+fight, lovemaking, make, marry, obtain, and wake.
+A human being is a R1 of a conversation. A human being is a R2 of a
+conversation. A list is a R3 of a conversation.

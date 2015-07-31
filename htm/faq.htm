@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>ThoughtTreasure FAQ</title>
+</head>
+<body bgcolor="#ffffff">
+<h1>ThoughtTreasure FAQ</h1>
+<hr>
+<ul>
+<li><b>How many pieces of common sense are in ThoughtTreasure?</b>
+<p>
+Here are some statistics for version 0.00022:
+<pre>
+DECLARATIVE
+database assertions       22,487
+hierarchical (ISA) links  28,818
+lexical entry features   126,511
+inflection features       99,637
+================================
+total                    277,453
+
+lexical entries           56,552
+verified inflections      33,407
+concepts                  27,093
+================================
+total                    117,052
+
+PROCEDURAL
+lines of C code           71,967
+</pre>
+<p>
+<li><b>How does the size of ThoughtTreasure compare with other related
+systems?</b>
+<p>
+Here is comparison of ThoughtTreasure 0.00022 with WordNet (Miller, 1995b),
+Cyc (Lenat, 1995), EDR (Yokoi, 1995), and LADL's electronic dictionary
+(Courtois and Silberztein, 1990):
+<pre>
+                TT   WordNet       Cyc     EDR    LADL
+            ______ _________ _________ _______ _______
+languages      E,F         E         E     E,J       F
+le          56,552   129,509           600,000 170,000
+infl        33,407                             600,000
+obj         27,093    99,642    39,665 400,000
+&lt;le, obj&gt;   53,896   166,000
+polysemy      6.8%       17%
+assertions  51,305   140,475   290,995
+code lines  71,967
+effort           3                 100
+</pre>
+(WordNet numbers are based on WordNet 1.6 of February 20, 1998.
+Cyc numbers are based on the Cyc C distribution of April 4, 1997.)
+<p>
+<dl>
+<dt>languages 
+<dd>The languages addressed by the system. (E = English, F = French,
+J = Japanese.) 
+<dt>le 
+<dd>The number of lexical entries, including words and phrases. For
+bilingual systems such as ThoughtTreasure and EDR, the numbers shown
+are the total for the two languages.
+<dt>infl 
+<dd>The number of validated inflections. ThoughtTreasure contains
+162,210 automatically generated inflections of which only 
+33,407 have been checked for correctness by a human. 
+<dt>obj 
+<dd>The number of atomic objects or word senses.
+<dt>&lt;le, obj> 
+<dd>The number of links between lexical entries and objects. (17.2 percent
+of the lexical entries in ThoughtTreasure are not linked to any object,
+due to the presence in phrases of words which are not defined in isolation.) 
+<dt>polysemy 
+<dd>The percentage of lexical entries linked to more than one object.
+<dt>code lines
+<dd>The number of lines of code not including function prototype declaration
+files, but including comments.
+<dt>assertions 
+<dd>The number of assertions (facts containing atomic objects) in the
+system. For ThoughtTreasure, only database assertions and hierarchical
+(ISA) links are included in this figure. Lexical entry features,
+inflection features, and knowledge hardcoded in C are not included.
+<dt>effort 
+<dd>The number of person-years spent developing the system.
+</dl>
+<p>
+<li><b>How do I use ThoughtTreasure from my program?</b>
+<p>
+There are three ways of doing this:
+<p>
+<ol>
+<li>
+Your program can read the ThoughtTreasure knowledge base (TTKB) files.
+A Python interface is provided in the distribution.
+Otherwise, your program can read in the files according to the
+<a href="ttkb.htm">TTKB specification</a>.
+<li>
+Your program can communicate over a socket connection to a ThoughtTreasure
+server using the ThoughtTreasure Server Protocol (TTSP).
+<a href="../java/doc/index.html">Java</a> and Python client APIs and incomplete Perl
+and Tcl client APIs are available. Otherwise, your
+program can communication with ThoughtTreasure according to the
+<a href="ttsp.htm">TTSP specification</a>.
+<li>
+You can link ThoughtTreasure into your program and invoke the C API
+functions in the file <tt>toolapi.c</tt>.
+</ol>
+<p>
+<li><b>How do I start the ThoughtTreasure server?</b>
+<p>
+Start ThoughtTreasure and then issue the command <tt>server</tt> or
+<tt>server -port PORT</tt> (where <tt>PORT</tt> is the desired listen port).
+<p>
+<li><b>What commands does ThoughtTreasure accept?</b>
+<p>
+To have a conversation with ThoughtTreasure, type <tt>chateng</tt> at the
+asterisk ("*") prompt. You may then ask it questions such as <i>How are
+you?</i>, <i>What time is it?</i>, <i>What color is the sky?</i>, and
+<i>What is a cat?</i>
+<p>
+For a complete list of ThoughtTreasure shell commands, see the
+ThoughtTreasure <a href="quickref.htm">quick reference</a>.
+<p>
+<li><b>Where does ThoughtTreasure place its output?</b>
+<p>
+ThoughtTreasure writes to standard output and places a number of output
+files in the current directory, including a <tt>log</tt> file and other
+files of the form <tt>out*.txt</tt>.
+<p>
+<li><b>What size does ThoughtTreasure expect for each C type?</b>
+<pre>
+sizeof(char) = 1
+sizeof(short) = 2
+sizeof(int) = 4
+sizeof(long) = 4
+sizeof(float) = 4
+sizeof(double) = 8
+</pre>
+<p>
+<li><b>Why do French words or ThoughtTreasure feature characters display
+incorrectly?</b>
+<p>
+ThoughtTreasure uses the ISO 8859-1 character set.
+Microsoft Windows Latin-1, Code Page 1252 is a superset of ISO 8859-1.
+However, DOS and many Windows applications use a different character set.
+The characters whose codes are greater than 127 are the ones that
+differ across the platforms. These are used for French texts and for
+ThoughtTreasure features.
+<p>
+The file <tt>utilchar.c</tt> has utilities to convert between the MS-DOS,
+Mac, and ISO 8859-1 character sets. Some of the mappings are approximate,
+since not all characters are available in all character sets.
+<p>
+<li><b>Why are there memory leaks in ThoughtTreasure?</b>
+<p>
+An attempt was made at first to free storage that is no longer being
+used. As the program became more complex, data structures were shared by
+more and more modules, making it difficult to determine exactly how and when
+to free storage. Programming time was saved by ignoring the problem and
+allowing some memory leaks for the time being. Some of the places in the
+code where storage might need to be freed are marked with the keyword
+<tt>todoFREE</tt>. An automatic garbage collector would also solve this
+problem.
+<p>
+<li><b>Why is there redundant (paranoid) code in ThoughtTreasure?</b>
+<p>
+Many programmers improve the efficiency of their code by eliminating
+redundant checks. For example, representation invariants are enforced
+in one part of the code and then assumed to be true in another. The
+opposite was done here: Given the notorious brittleness of AI programs,
+it was felt that each agent or module should do its best to deal with
+as many cases as possible and not to break in the face of unexpected
+input. This leads to somewhat less efficient code, but code that is
+more robust in the face of program modifications and new inputs. Some
+of the redundant code (that is, redundant provided other parts of the
+program have not been changed) is marked in the source with the
+keyword <tt>REDUNDANT</tt>.
+<p>
+<li><b>What keywords are used in the ThoughtTreasure code?</b>
+<p>
+In addition to the <tt>REDUNDANT</tt> and <tt>todoFREE</tt> keywords
+described above, here are some other keywords used in the code and database: 
+<p>
+<ul>
+<li>
+<tt>todo</tt> points out extensions that could or should be made, or
+cases which might not be handled properly by the code, outstanding
+questions and issues, and so on. 
+<li>
+<tt>todoSCORE</tt> points out places in the code where a possibility is
+rejected, but should really be accepted with an appropriate (low) score.
+For now, rejecting unlikely possibilities saves processing time, but there
+is still a nonzero probability that the possibility is the correct one.
+When additional possibilities are introduced, additional code might also
+need to be added to order and prune those possibilities. 
+<li>
+<tt>todoSCORE</tt> also points out places in the code where a score is
+not set and should be, or where the score should be tuned via a
+corpus-based statistical study. For example, in the base rule NP - NP1 NP2
+for generating appositives, how does heaviness (length) of NP1 relative
+to NP2 correspond to likelihood of the rule? How does heaviness of NP1
+and NP2 and the presence or absence of separators such as commas and
+dashes correspond to the likelihood of the rule? 
+<li>
+<tt>todoDATABASE</tt> points out places in the code where mappings from
+one value to another are hardcoded, usually as <tt>if</tt> or <tt>case</tt>
+statements. It would be more elegant for these mappings to be coded as
+assertions in a database file and retrieved from the code. 
+<li>
+<tt>todoTHREAD</tt> points out places in the code where threads could be
+used to make ThoughtTreasure run more quickly on a system with multiple
+CPUs, or where code is not yet thread safe (reentrant). 
+<li>
+<tt>todoFUNNY</tt> points out places in the code where a laugh could be
+generated if the interpretation is accepted. Examples are when a sentence
+can only be parsed by relaxing a selectional restriction (a dog teaches
+a human to play fetch), or when the depth of a word derivation is too
+high (as in ``televisionettificationizational'').
+</ul>
+<p>
+In the source code, comments are often used to provide typical examples
+of function inputs and outputs, and values of local variables at various
+points inside a function. This helps the reader understand exactly what
+is being processed. (A ThoughtTreasure object variable alone does not say
+much, since an object can take a variety of forms.) References are also
+made to specific input cases, to help the reader understand the purpose
+of a line of code. 
+<p>
+<li><b>What command-line arguments does ThoughtTreasure take?</b>
+<p>
+See the ThoughtTreasure <a href="quickref.htm">quick reference</a>.
+<p>
+<li><b>How do I learn more about ThoughtTreasure?</b>
+<p>
+Read the <a href="doc.htm">ThoughtTreasure documentation</a>.
+</ul>
+<hr>
+
+</BODY>
+</HTML>

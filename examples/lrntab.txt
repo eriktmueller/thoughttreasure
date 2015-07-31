@@ -1,0 +1,26 @@
+===scale//
+====mode//modific.AzT/
+===change//
+====change-modify//modification.z/
+modification.z/
+modification.z/
+|@19960224160135:na|[phone-prefix-of Italy STRING:phone-prefix:"390"]|
+[phone-prefix-of Jordan STRING:phone-prefix:"959"]|
+===country//
+===*Mars2407//Mars.z/
+|@19960224160135:na|phone-prefix-of=STRING:phone-prefix:"9999"|
+[phone-prefix-of Monaco STRING:phone-prefix:"33"]|
+[phone-prefix-of Peru STRING:phone-prefix:"510"]|
+===location-of//
+===*this.z//
+===*another.z//
+===*field2408//field.z/
+===*with.z//
+===*nothing.z//
+===*of2409//of.z/
+===*real2410//real.z/
+===*use.z//
+===*inside2411//inside.z/
+===*this2412//this.z/
+===*very.z//
+===*field2413//field.z/

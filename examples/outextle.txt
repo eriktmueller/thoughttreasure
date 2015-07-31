@@ -1,0 +1,89 @@
+> I want to buy a Fiat Spyder.
+SEMANTIC PARSE CONCEPTS:
+0.750:[infinitive
+ [active-goal
+  subject-pronoun
+  [believe subject-pronoun Fiat-Spider]]]
+[infinitive
+ [active-goal
+  subject-pronoun
+  [buy subject-pronoun na Fiat-Spider na]]]
+[present-indicative
+ [active-goal
+  subject-pronoun
+  [buy subject-pronoun na Fiat-Spider na]]]
+0.750:[present-indicative
+ [active-goal
+  subject-pronoun
+  [believe subject-pronoun Fiat-Spider]]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ [active-goal
+  Jim
+  [believe Jim Fiat-Spider]]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ [active-goal
+  Jim
+  [buy Jim na Fiat-Spider na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [active-goal
+  Jim
+  [buy Jim na Fiat-Spider na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [active-goal
+  Jim
+  [believe Jim Fiat-Spider]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <I.1SHz¸:he>]]
+ [W
+  [W [V <want.p1S·Vz¸>]]
+  [X
+   [Z
+    [W
+     [R <to.Rz¸>]
+     [W
+      [W [V <buy.fVz¸>]]
+      [X
+       [D <a.S·Dz¸>]
+       [X [PRODUCT Fiat-124-Spider 1969-Fiat-124-Spider 1970-Fiat-124-Spider 1971-Fiat-124-Spider 1972-Fiat-124-Spider 1973-Fiat-124-Spider 1974-Fiat-124-Spider 1975-Fiat-124-Spider 1978-Fiat-124 Fiat-1800-Spider 1976-Fiat-1800-Spider 1977-Fiat-1800-Spider 1978-Fiat-1800-Spider red-1978-Fiat-1800-Spider white-1978-Fiat-1800-Spider Fiat-2000-Spider 1979-Fiat-2000-Spider 1980-Fiat-2000-Spider 1981-Fiat-2000-Spider 1982-Fiat-2000-Spider]]]]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#26|[present-indicative
+ [active-goal
+  Jim
+  [buy Jim na Fiat-Spider na]]]
+There is twenty possibilities.
+A 124, a 2000, or a 1800?
+> What?
+SEMANTIC PARSE CONCEPTS:
+[interjection-of-noncomprehension Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[interjection-of-noncomprehension Jim TT]
+UNDERSTANDING TREE:
+[Z [U <What.·Uz¸:what>]]
+UNDERSTANDING CONCEPT:
+@na:na#261|[interjection-of-noncomprehension Jim TT]
+You want to buy a 124, a 2000, or a 1800?
+> A 124.
+SEMANTIC PARSE CONCEPTS:
+[indefinite-article Fiat-124-Spider]
+ANAPHORIC PARSE CONCEPT:
+Fiat-124-Spider
+UNDERSTANDING TREE:
+[X
+ [D <A.S·Dz¸:a>]
+ [X [N <124.SNz>]]]
+UNDERSTANDING CONCEPT:
+@na:na#2611|[active-goal
+ Jim
+ [buy
+  Jim
+  na
+  [itn-continuation-isa Fiat-124-Spider]
+  na]]
+A 1978 Fiat 124 was for sale for 3000 dollars by Todd Spire at
+"toddspi@quapaw.astate.edu" in Usenet newsgroup "rec.autos.marketplace" in
+message ID "toddspi.812311772@quapaw.astate.edu".

@@ -1,0 +1,626 @@
+19960320163354: ThoughtTreasure shell interpreting line <testts>
+19960320163354: ****two days ago
+19940710090000
+19960320163354: GenTsRange
+[L [N <avant hier.MSNy>][Y [R <à.Ry¸>][X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <deux.MSAy¸>]][N <jours.PMNy¸:jour>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <précédemment.By¸>]
+19960320163354: GenDate
+[X [N <dimanche.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <10.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]]
+19960320163354: GenDayAndPartOfTheDay
+[N <avant hier.MSNy>]
+19960320163354: ****yesterday aftern.
+19940711140000
+19960320163354: GenTsRange
+[L [X [N <hier.SMNy¸>][N <après midi.FSNy·>]][Y [R <à.Ry¸>][X [A <quatorze.FSAy¸>][N <heures.PFNy¸:heure>]]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <1.Ay>]][N <jour.SMNy¸>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <précédemment.By¸>]
+19960320163354: GenDate
+[X [N <lundi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <11.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [A <quatorze.FSAy¸>][N <heures.PFNy¸:heure>]]
+19960320163354: GenDayAndPartOfTheDay
+[X [N <hier.SMNy¸>][N <après midi.FSNy·>]]
+19960320163354: ****yesterday night
+19940711234552
+19960320163354: GenTsRange
+[L [N <la nuit dernière.FSNy>][Y [R <à.Ry¸>][X [X [N <minuit.SMNy¸>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <déca.Ay>]][N <heures.PFNy¸:heure>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <précédemment.By¸>]
+19960320163354: GenDate
+[X [N <lundi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <11.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [N <minuit.SMNy¸>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <la nuit dernière.FSNy>]
+19960320163354: ****3 hrs
+19940712064416
+19960320163354: GenTsRange
+[L [N <ce matin.MSNy>][Y [R <à.Ry¸>][X [X [A <sept.FSAy¸>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <trois.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <précédemment.By¸>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [A <sept.FSAy¸>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163354: ****60 mins
+19940712084416
+19960320163354: GenTsRange
+[L [B <il y a.By>][X [E [A <1.Ay>]][N <heure.SFNy¸>]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <1.Ay>]][N <heure.SFNy¸>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <ces derniers temps.By>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163354: ****-60 secs
+19940712094316
+19960320163354: GenTsRange
+[L [B <il y a.By>][X [E [A <soixante.MSAy¸>]][N <seconds.MPNy¸:second>]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <soixante.MSAy¸>]][N <seconds.MPNy¸:second>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <ces derniers temps.By>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163354: ****-1 sec
+19940712094415
+19960320163354: GenTsRange
+[L [B <il y a.By>][X [E [A <1.Ay>]][N <second.MSNy¸>]]]
+19960320163354: GenDurRelativeToNow
+[L [B <il y a.By>][X [E [A <1.Ay>]][N <second.MSNy¸>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <ces derniers temps.By>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163354: ****now
+19940712094416
+19960320163354: GenTsRange
+[B <ces derniers temps.By>]
+19960320163354: GenDurRelativeToNow
+[B <ces derniers temps.By>]
+19960320163354: GenDurRelativeToNow use word
+[B <ces derniers temps.By>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163354: ****1 sec
+19940712094417
+19960320163354: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <1.Ay>]][N <second.MSNy¸>]]]
+19960320163354: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <1.Ay>]][N <second.MSNy¸>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <sur le champ.By>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163354: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163354: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163354: ****2 secs
+19940712094418
+19960320163354: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <deux.MSAy¸>]][N <seconds.MPNy¸:second>]]]
+19960320163354: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <deux.MSAy¸>]][N <seconds.MPNy¸:second>]]]
+19960320163354: GenDurRelativeToNow use word
+[B <sur le champ.By>]
+19960320163354: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163355: ****~90 secs
+19940712094547
+19960320163355: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <deux.FSAy¸>]][N <minutes.PFNy¸:minute>]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <deux.FSAy¸>]][N <minutes.PFNy¸:minute>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant peu.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163355: ****~5 minutes
+19940712094923
+19960320163355: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <cinq.FSAy¸>]][N <minutes.PFNy¸:minute>]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <cinq.FSAy¸>]][N <minutes.PFNy¸:minute>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant peu.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163355: ****~45 minutes
+19940712103016
+19960320163355: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <1.Ay>]][N <heure.SFNy¸>]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <1.Ay>]][N <heure.SFNy¸>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant peu.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <déca.Ay>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <demie.FS·Ny¸:demi>]]]
+19960320163355: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163355: ****2 hours
+19940712114416
+19960320163355: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <deux.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <deux.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <tout à l'heure.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [N <midi.SMNy¸>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[N <ce matin.MSNy>]
+19960320163355: ****17 after noon
+19940712121701
+19960320163355: GenTsRange
+[Y [R <dans.Ry¸>][X [E [A <trois.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <trois.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <tout à l'heure.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [N <midi.SMNy¸>]][X [K <et.Ky¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]]
+19960320163355: ****15 before 1
+19940712124601
+19960320163355: GenTsRange
+[L [X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]][Y [R <à.Ry¸>][X [X [A <treize.FSAy¸>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <trois.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <treize.FSAy¸>][N <heures.PFNy¸:heure>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]]
+19960320163355: ****4 hours
+19940712135916
+19960320163355: GenTsRange
+[L [X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]][Y [R <à.Ry¸>][X [A <quatorze.FSAy¸>][N <heures.PFNy¸:heure>]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <quatre.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [A <quatorze.FSAy¸>][N <heures.PFNy¸:heure>]]
+19960320163355: GenDayAndPartOfTheDay
+[X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]]
+19960320163355: ****8 hours
+19940712160916
+19960320163355: GenTsRange
+[L [X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]][Y [R <à.Ry¸>][X [X [A <seize.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <quart.SNMy¸>]]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <six.FSAy¸>]][N <heures.PFNy¸:heure>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <seize.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[X [D <cette.FS·Dy¸:ce>][N <après midi.FSNy·>]]
+19960320163355: ****15 hours
+19940712234416
+19960320163355: GenTsRange
+[L [N <ce soir.MSNy>][Y [R <à.Ry¸>][X [X [N <minuit.SMNy¸>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <1.Ay>]][N <jour.SMNy¸>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <12.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [N <minuit.SMNy¸>]][Y [R <moins.·Ry¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[N <ce soir.MSNy>]
+19960320163355: ****1 day
+19940713092916
+19960320163355: GenTsRange
+[L [X [N <demain.SMNy¸>][N <matin.SMNy¸>]][Y [R <à.Ry¸>][X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <demie.FS·Ny¸:demi>]]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <1.Ay>]][N <jour.SMNy¸>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <mercredi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <13.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <demie.FS·Ny¸:demi>]]]
+19960320163355: GenDayAndPartOfTheDay
+[X [N <demain.SMNy¸>][N <matin.SMNy¸>]]
+19960320163355: ****2 days
+19940714090016
+19960320163355: GenTsRange
+[L [N <après demain.MSNy>][Y [R <à.Ry¸>][X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <deux.MSAy¸>]][N <jours.PMNy¸:jour>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <jeudi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <14.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]]
+19960320163355: GenDayAndPartOfTheDay
+[N <après demain.MSNy>]
+19960320163355: ****3 days
+19940715091516
+19960320163355: GenTsRange
+[L [X [N <vendredi.SMNy¸>][N <matin.SMNy¸>]][Y [R <à.Ry¸>][X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <quart.SNMy¸>]]]]]
+19960320163355: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <trois.MSAy¸>]][N <jours.PMNy¸:jour>]]]
+19960320163355: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163355: GenDate
+[X [N <vendredi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <15.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163355: GenTod
+[X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <quart.SNMy¸>]]]
+19960320163355: GenDayAndPartOfTheDay
+[X [N <vendredi.SMNy¸>][N <matin.SMNy¸>]]
+19960320163355: ****1 week
+19940719093016
+19960320163355: GenTsRange
+[L [X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <19.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]][Y [R <à.Ry¸>][X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <demie.FS·Ny¸:demi>]]]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <dans.Ry¸>][X [E [A <sept.MSAy¸>]][N <jours.PMNy¸:jour>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <avant longtemps.By>]
+19960320163356: GenDate
+[X [N <mardi.SMNy¸>][X [X [X [D <le.MS·Dy¸>][N <19.Ny>]][N <juillet.SMNy¸>]][N <1994.Ny>]]]
+19960320163356: GenTod
+[X [X [A <neuf.FSAy¸>][N <heures.PFNy¸:heure>]][X [K <et.Ky¸>][N <demie.FS·Ny¸:demi>]]]
+19960320163356: GenDayAndPartOfTheDay
+19960320163356: ****two days ago
+19940710090000
+19960320163356: GenTsRange
+[L [N <the day before yesterday.SNz>][Y [R <at.Rz¸>][X [N <nine.SNz¸>][B <am.Bz¸>]]]]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <two.Az¸>]][N <days.PNz¸:day>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <earlier.Bz>]
+19960320163356: GenDate
+[X [N <Sunday.S·Nz¸>][X [X [N <July.SNz¸>][N <10.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+[X [N <nine.SNz¸>][B <am.Bz¸>]]
+19960320163356: GenDayAndPartOfTheDay
+[N <the day before yesterday.SNz>]
+19960320163356: ****yesterday aftern.
+19940711140000
+19960320163356: GenTsRange
+[L [X [N <yesterday.SNz¸>][N <afternoon.SNz¸>]][Y [R <at.Rz¸>][X [N <two.SNz¸>][B <pm.·Bz¸>]]]]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <one.Az¸>]][N <day.SNz¸>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <earlier.Bz>]
+19960320163356: GenDate
+[X [N <Monday.SNz¸>][X [X [N <July.SNz¸>][N <11.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+[X [N <two.SNz¸>][B <pm.·Bz¸>]]
+19960320163356: GenDayAndPartOfTheDay
+[X [N <yesterday.SNz¸>][N <afternoon.SNz¸>]]
+19960320163356: ****yesterday night
+19940711234552
+19960320163356: GenTsRange
+[N <last night.SNz>]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <deca.·Az¸>]][N <hours.PNzÌ¸:hour>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <earlier.Bz>]
+19960320163356: GenDate
+[X [N <Monday.SNz¸>][X [X [N <July.SNz¸>][N <11.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <last night.SNz>]
+19960320163356: ****3 hrs
+19940712064416
+19960320163356: GenTsRange
+[N <this morning.SNz>]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <three.Az¸>]][N <hours.PNzÌ¸:hour>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <earlier.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****60 mins
+19940712084416
+19960320163356: GenTsRange
+[L [X [E [A <one.Az¸>]][N <hour.SNzÌ¸>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <one.Az¸>]][N <hour.SNzÌ¸>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <in the past few months.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****-60 secs
+19940712094316
+19960320163356: GenTsRange
+[L [X [E [A <sixty.Az¸>]][N <seconds.P·Nz¸:second>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <sixty.Az¸>]][N <seconds.P·Nz¸:second>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <in the past few months.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****-1 sec
+19940712094415
+19960320163356: GenTsRange
+[L [X [E [A <one.Az¸>]][N <2nds.S·Nz¸:second>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow
+[L [X [E [A <one.Az¸>]][N <2nds.S·Nz¸:second>]][B <ago.Bz>]]
+19960320163356: GenDurRelativeToNow use word
+[B <in the past few months.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****now
+19940712094416
+19960320163356: GenTsRange
+[B <in the past few months.Bz>]
+19960320163356: GenDurRelativeToNow
+[B <in the past few months.Bz>]
+19960320163356: GenDurRelativeToNow use word
+[B <in the past few months.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****1 sec
+19940712094417
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <one.Az¸>]][N <2nds.S·Nz¸:second>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <one.Az¸>]][N <2nds.S·Nz¸:second>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <instantly.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****2 secs
+19940712094418
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <seconds.P·Nz¸:second>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <seconds.P·Nz¸:second>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <instantly.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****~90 secs
+19940712094547
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <minutes.PNz¸:minute>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <minutes.PNz¸:minute>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <shortly.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****~5 minutes
+19940712094923
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <five.Az¸>]][N <minutes.PNz¸:minute>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <five.Az¸>]][N <minutes.PNz¸:minute>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <shortly.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****~45 minutes
+19940712103016
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <one.Az¸>]][N <hour.SNzÌ¸>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <one.Az¸>]][N <hour.SNzÌ¸>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <shortly.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****2 hours
+19940712114416
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <in a while.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[N <this morning.SNz>]
+19960320163356: ****17 after noon
+19940712121701
+19960320163356: GenTsRange
+[Y [R <in.·Rz¸>][X [E [A <three.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <three.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163356: GenDurRelativeToNow use word
+[B <in a while.Bz>]
+19960320163356: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163356: GenTod
+19960320163356: GenDayAndPartOfTheDay
+[X [D <this.S·Dz¸>][N <afternoon.SNz¸>]]
+19960320163356: ****15 before 1
+19940712124601
+19960320163356: GenTsRange
+[X [D <this.S·Dz¸>][N <afternoon.SNz¸>]]
+19960320163356: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <three.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+19960320163357: GenDayAndPartOfTheDay
+[X [D <this.S·Dz¸>][N <afternoon.SNz¸>]]
+19960320163357: ****4 hours
+19940712135916
+19960320163357: GenTsRange
+[L [X [D <this.S·Dz¸>][N <afternoon.SNz¸>]][Y [R <at.Rz¸>][X [N <two.SNz¸>][B <pm.·Bz¸>]]]]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <four.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+[X [N <two.SNz¸>][B <pm.·Bz¸>]]
+19960320163357: GenDayAndPartOfTheDay
+[X [D <this.S·Dz¸>][N <afternoon.SNz¸>]]
+19960320163357: ****8 hours
+19940712160916
+19960320163357: GenTsRange
+[X [D <this.S·Dz¸>][N <afternoon.SNz¸>]]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <six.Az¸>]][N <hours.PNzÌ¸:hour>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+19960320163357: GenDayAndPartOfTheDay
+[X [D <this.S·Dz¸>][N <afternoon.SNz¸>]]
+19960320163357: ****15 hours
+19940712234416
+19960320163357: GenTsRange
+[N <tonight.SNz¸>]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <one.Az¸>]][N <day.SNz¸>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <12.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+19960320163357: GenDayAndPartOfTheDay
+[N <tonight.SNz¸>]
+19960320163357: ****1 day
+19940713092916
+19960320163357: GenTsRange
+[X [N <tomorrow.SNz¸>][N <morning.SNz¸>]]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <one.Az¸>]][N <day.SNz¸>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Wednesday.SNz¸>][X [X [N <July.SNz¸>][N <13.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+19960320163357: GenDayAndPartOfTheDay
+[X [N <tomorrow.SNz¸>][N <morning.SNz¸>]]
+19960320163357: ****2 days
+19940714090016
+19960320163357: GenTsRange
+[L [N <the day after tomorrow.SNz>][Y [R <at.Rz¸>][X [N <nine.SNz¸>][B <am.Bz¸>]]]]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <two.Az¸>]][N <days.PNz¸:day>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Thursday.SNz¸>][X [X [N <July.SNz¸>][N <14.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+[X [N <nine.SNz¸>][B <am.Bz¸>]]
+19960320163357: GenDayAndPartOfTheDay
+[N <the day after tomorrow.SNz>]
+19960320163357: ****3 days
+19940715091516
+19960320163357: GenTsRange
+[Y [R <on.·Rz¸>][X [N <Friday.SNz¸>][N <morning.SNz¸>]]]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <three.Az¸>]][N <days.PNz¸:day>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Friday.SNz¸>][X [X [N <July.SNz¸>][N <15.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+19960320163357: GenDayAndPartOfTheDay
+[Y [R <on.·Rz¸>][X [N <Friday.SNz¸>][N <morning.SNz¸>]]]
+19960320163357: ****1 week
+19940719093016
+19960320163357: GenTsRange
+[Y [R <on.·Rz¸>][X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <19.SNz><,>]][N <1994.SNz>]]]]
+19960320163357: GenDurRelativeToNow
+[Y [R <in.·Rz¸>][X [E [A <seven.Az¸>]][N <days.PNz¸:day>]]]
+19960320163357: GenDurRelativeToNow use word
+[B <before long.Bz>]
+19960320163357: GenDate
+[X [N <Tuesday.SNz¸>][X [X [N <July.SNz¸>][N <19.SNz><,>]][N <1994.SNz>]]]
+19960320163357: GenTod
+19960320163357: GenDayAndPartOfTheDay
+Time spent on command = 3 seconds
+  19960320170035: ThoughtTreasure shell interpreting line <logclear>

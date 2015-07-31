@@ -1,0 +1,352 @@
+> Jacques Chirac is an enemy of François Mitterrand.
+SEMANTICS CONCEPTS:
+0.72000:[present-indicative
+ [enemy-of
+  [such-that
+   human
+   [NAME-of human NAME:"François Mitterrand."]]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]]]
+1.00000:[present-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]
+  [such-that
+   [indefinite-article human]
+   [enemy-of
+    [such-that
+     human
+     [NAME-of human NAME:"François Mitterrand."]]
+    human]]]]
+0.90000:[present-indicative
+ [enemy-of
+  [such-that
+   [such-that
+    human
+    [NAME-of human NAME:"Jacques Chirac"]]
+   [NAME-of
+    [such-that
+     human
+     [NAME-of human NAME:"Jacques Chirac"]]
+    NAME:"François Mitterrand."]]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [enemy-of Francois-Mitterrand Jacques-Chirac]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [isa Jacques-Chirac human2443]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [NAME Jacques Chirac]]
+ [VP
+  [VP
+   [VP [V is]]
+   [NP
+    [Det an]
+    [NP [N enemy]]]]
+  [PP
+   [P of]
+   [NP [NAME François Mitterrand.]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12|[present-indicative
+ [enemy-of Francois-Mitterrand Jacques-Chirac]]
+> He hates François Mitterrand.
+SEMANTICS CONCEPTS:
+1.00000:[present-indicative
+ [like-human
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"François Mitterrand."]]
+  NUMBER:u:-0.55]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [like-human human Francois-Mitterrand NUMBER:u:-0.55]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [like-human Jacques-Chirac Francois-Mitterrand NUMBER:u:-0.55]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro He]]
+ [VP
+  [VP [V hates]]
+  [NP [NAME François Mitterrand.]]]]
+UNDERSTANDING CONCEPT:
+@na:na#124|[present-indicative
+ [like-human Jacques-Chirac Francois-Mitterrand NUMBER:u:-0.55]]
+Right, he is an enemy of François Mitterrand.
+> He uses tu with François Mitterrand.
+SEMANTICS CONCEPTS:
+0.80000:[present-indicative
+ [tutoyer
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"François Mitterrand."]]]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer human Francois-Mitterrand]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer Jacques-Chirac Francois-Mitterrand]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer Francois-Mitterrand Francois-Mitterrand]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro He]]
+ [VP
+  [VP
+   [VP [V uses]]
+   [Expl tu]]
+  [PP
+   [P with]
+   [NP [NAME François Mitterrand.]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1244|[present-indicative
+ [tutoyer Jacques-Chirac Francois-Mitterrand]]
+But I thought that he was an enemy of François Mitterrand.
+> Lionel Jospin is an enemy of Jacques Chirac.
+SEMANTICS CONCEPTS:
+0.72000:[present-indicative
+ [enemy-of
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac."]]
+  [such-that
+   human
+   [NAME-of human NAME:"Lionel Jospin"]]]]
+1.00000:[present-indicative
+ [isa
+  [such-that
+   human
+   [NAME-of human NAME:"Lionel Jospin"]]
+  [such-that
+   [indefinite-article human]
+   [enemy-of
+    [such-that
+     human
+     [NAME-of human NAME:"Jacques Chirac."]]
+    human]]]]
+0.90000:[present-indicative
+ [enemy-of
+  [such-that
+   [such-that
+    human
+    [NAME-of human NAME:"Lionel Jospin"]]
+   [NAME-of
+    [such-that
+     human
+     [NAME-of human NAME:"Lionel Jospin"]]
+    NAME:"Jacques Chirac."]]
+  [such-that
+   human
+   [NAME-of human NAME:"Lionel Jospin"]]]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [enemy-of Jacques-Chirac Lionel-Jospin]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [isa Lionel-Jospin human2444]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [NAME Lionel Jospin]]
+ [VP
+  [VP
+   [VP [V is]]
+   [NP
+    [Det an]
+    [NP [N enemy]]]]
+  [PP
+   [P of]
+   [NP [NAME Jacques Chirac.]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12442|[present-indicative
+ [enemy-of Jacques-Chirac Lionel-Jospin]]
+> He uses tu with Jacques Chirac.
+SEMANTICS CONCEPTS:
+0.80000:[present-indicative
+ [tutoyer
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac."]]]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer human Jacques-Chirac]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer Jacques-Chirac Jacques-Chirac]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer Francois-Mitterrand Jacques-Chirac]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [tutoyer Lionel-Jospin Jacques-Chirac]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro He]]
+ [VP
+  [VP
+   [VP [V uses]]
+   [Expl tu]]
+  [PP
+   [P with]
+   [NP [NAME Jacques Chirac.]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#124428|[present-indicative
+ [tutoyer Lionel-Jospin Jacques-Chirac]]
+Right, Lionel Jospin holds a "promotion Stendhal" from the "École nationale
+d'administration" and he holds a "promotion Vauban" from the "École nationale
+d'administration".
+> Jacques Chirac succeeded at being elected President of France.
+SEMANTICS CONCEPTS:
+0.72000:[preterit-indicative
+ [succeeded-goal
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]
+  [President-of
+   France
+   [such-that
+    human
+    [NAME-of human NAME:"Jacques Chirac"]]]]]
+0.72000:[past-participle
+ [succeeded-goal
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]
+  [President-of
+   France
+   [such-that
+    human
+    [NAME-of human NAME:"Jacques Chirac"]]]]]
+ANAPHORA CONCEPT:
+[preterit-indicative
+ [succeeded-goal
+  Jacques-Chirac
+  [President-of France Jacques-Chirac]]]
+ANAPHORA CONCEPT:
+[past-participle
+ [succeeded-goal
+  Jacques-Chirac
+  [President-of France Jacques-Chirac]]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [NAME Jacques Chirac]]
+ [VP
+  [VP [V succeeded]]
+  [PP
+   [P at]
+   [NP
+    [S
+     [VP
+      [VP
+       [VP [V being]]
+       [Expl elected President]]
+      [PP
+       [P of]
+       [NP [N France]]]]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1244284|[past-participle
+ [succeeded-goal
+  Jacques-Chirac
+  [President-of France Jacques-Chirac]]]
+> He is happy.
+SEMANTICS CONCEPTS:
+1.00000:[present-indicative
+ [happiness subject-pronoun]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [happiness Jacques-Chirac]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [happiness Francois-Mitterrand]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [happiness Lionel-Jospin]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [Pro He]]
+ [VP
+  [VP [V is]]
+  [AdjP [Adj happy]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12442842|[present-indicative
+ [happiness Jacques-Chirac]]
+Right, he succeeds at being the president of France.
+> Lionel Jospin is resentful toward Jacques Chirac.
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [resentment
+  [such-that
+   human
+   [NAME-of human NAME:"Lionel Jospin"]]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac."]]]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [resentment Lionel-Jospin Jacques-Chirac]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [NAME Lionel Jospin]]
+ [VP
+  [VP [V is]]
+  [AdjP
+   [AdjP [Adj resentful]]
+   [PP
+    [P toward]
+    [NP [NAME Jacques Chirac.]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#124428422|[present-indicative
+ [resentment Lionel-Jospin Jacques-Chirac]]
+Right, he succeeds at being the president of France and Lionel Jospin is his
+enemy.
+> François Mitterrand is happy for Jacques Chirac.
+SEMANTICS CONCEPTS:
+0.90000:[present-indicative
+ [happy-for
+  [such-that
+   human
+   [NAME-of human NAME:"François Mitterrand"]]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac."]]]]
+1.00000:[present-indicative
+ [prep-because-of
+  [happiness
+   [such-that
+    human
+    [NAME-of human NAME:"François Mitterrand"]]]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac."]]]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [happy-for Francois-Mitterrand Jacques-Chirac]]
+ANAPHORA CONCEPT:
+[present-indicative
+ [prep-because-of
+  [happiness Francois-Mitterrand]
+  Jacques-Chirac]]
+UNDERSTANDING SYNTAX:
+[S
+ [NP [NAME François Mitterrand]]
+ [VP
+  [VP [V is]]
+  [AdjP
+   [AdjP [Adj happy]]
+   [PP
+    [P for]
+    [NP [NAME Jacques Chirac.]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1244284222|[present-indicative
+ [happy-for Francois-Mitterrand Jacques-Chirac]]
+True, he succeeds at being the president of France.
+But I thought that he was an enemy of François Mitterrand.

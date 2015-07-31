@@ -1,0 +1,32 @@
+Who is the boss of the NICI?
+Who is the secretary?
+Where does she live?
+Who else lives there?
+Do the women work for the NICI?
+Does Wim live in Nijmegen?
+What is the name of his wife?
+What did he write?
+What is the subject of donald_report?
+Move it to Bos.
+Close this.
+Who sent an email to Carla?
+Which emails are sent by Alice?
+She sent an email about Bos to Wietske.
+Remove all emails of her to Dijkstra.
+Her husband is called Lou.
+He lives in her hometown.
+Clear context.
+Who is the secretary of the NICI?
+Where does the secretary of the NICI live?
+Who else lives in Nijmegen?
+Do the women who live in Nijmegen work for the NICI?
+What did Wim write?
+Copy donald_report and conceptuele_generatie.
+Move donald_report to Bos.
+Close Bos.
+Alive sent an email about Bos to Wietske.
+Move all emails of Alive to Dijkstra.
+Alice's husband is called Lou.
+He lives in the same town as Alice.
+Clear context.
+cf also p. 76 CL 21(1) for more

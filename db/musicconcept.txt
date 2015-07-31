@@ -1,0 +1,173 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=musical#A concept*.z/abstract-object/concept* musical*A.My/
+;_______________________________________________________________________________
+==counterpoint.z//contre#R-chant*.My/
+==harmony.z//harmonie.Fy/
+;_______________________________________________________________________________
+==time# signature*.z//metre.z/mesure.Fy/
+===two#-two# time*.z//mesure* à#R deux#A temps#M.Fy/
+===two#-four# time*.z//deux#-quatre#.My/
+===three#-four# time*.z//mesure* à#R trois#A temps#M.Fy/
+===four#-four# time*.z//mesure* à#R quatre#A temps#M.Fy/
+;_______________________________________________________________________________
+==note.z//note.Fy/
+===note-C//C.z/do.ßMy/ut.ßMy/
+===note-D//D.z/ré.ßMy/
+===note-E//E.z/mi.ßMy/
+===note-F//F.z/fa.ßMy/
+===note-G//G.z/sol.ßMy/
+===note-A//A.z/;la.ßMy/ disabled for now because of similarity to la.D
+===note-B//B.z/si.ßMy/
+;_______________________________________________________________________________
+==scale# degree*.z//degré* de#R la#D gamme#F.My/
+===tonic.z//I.tz/tonique.Fy/
+===supertonic.z//II.tz/sus#A-tonique*.Fy/
+===mediant.z//III.tz/médiante.Fy/
+===subdominant.z//IV.tz/sous#R-dominante*.Fy/
+===dominant.z//V.tz/dominante.Fy/
+===submediant.z//VI.tz/sus#A-dominante*.Fy/
+===minor# seventh# degree*.z//subtonic.z/VII.tz/note* sensible*A.Fy/sensible.Fy/
+===leading#A tone*.z//VII.tz/note* sensible*A.Fy/sensible.Fy/
+;_______________________________________________________________________________
+==accidental.z//altération.Fy/
+===sharp.z//dièse.My/
+===flat.z//bémol.My/
+===natural.z//bécarre.My/
+===double# sharp*.z//double*A dièse*.My/
+===double# flat*.z//double*A bémol*.My/
+;_______________________________________________________________________________
+==note# duration*.z/relative-unit-of-time/valeur* des#RP notes#P.Fy/
+===whole#A note*.Àz//semi#A-breve*.gz/ronde.Fy/
+===half#A note*.Àz//minim.gz/blanche.Fy/
+===quarter#A note*.Àz//crotchet.gz/noire.Fy/
+===eighth#A note*.Àz//quaver.gz/croche.Fy/
+===sixteenth#A note*.Àz//semi#A-quaver*.gz/double*A croche*.Fy/
+===thirty#A-second#A note*.Àz//demi#A-semi#A-quaver*.gz/triple*A croche*.Fy/
+===sixty#A-fourth#A note*.Àz//hemi#A-demi#A-semi#A-quaver*.gz/
+quadruple*A croche*.Fy/
+;_______________________________________________________________________________
+==rest# duration*.z/relative-unit-of-time/valeur* des#RP silences#MP.Fy/
+===whole#A rest*.Àz//semi#A-breve# rest*.gz/pause.Fy/
+===half#A rest*.Àz//minim# rest*.gz/demi#A-pause*.Fy/
+===quarter#A rest*.Àz//crotchet# rest*.gz/soupir.My/
+===eighth#A rest*.Àz//quaver# rest*.gz/demi#A-soupir*.My/
+===sixteenth#A rest*.Àz//semi#A-quaver# rest*.gz/quart* de#R soupir#.My/
+===thirty#A-second#A rest*.Àz//demi#A-semi#A-quaver# rest*.gz/
+huitième* de#R soupir#.My/
+===sixty#A-fourth#A rest*.Àz//hemi#A-demi#A-semi#A-quaver# rest*.gz/
+seizième* de#R soupir#.My/
+;_______________________________________________________________________________
+==dynamics.z//velocity,note# velocity*.z/dynamique.Fy/
+===dynamics piano//piano.z/piano.Az/piano.Bz/piano.My/piano.By/
+===pianissimo.z//pianissimo.Az/pianissimo.Bz/pianissimo.My/pianissimo.By/
+===mezzo#Aj piano*.z//mezzo#Aj piano#.Az/mezzo#Aj piano#.Bz/
+===forte.z//forte.Az/forte.Bz/forte.ßMy/forte.By/
+===fortissimo.z//fortissimo.Az/fortissimo.Bz/fortissimo.My/fortissimo.By/
+===mezzo#Aj forte*.z//mezzo#Aj forte#.Az/mezzo#Aj forte#.Bz/
+;_______________________________________________________________________________
+==change* in#R dynamics#.z//
+===crescendo.z//crescendo.Az/crescendo.Bz/crescendo.My/crescendo.By/
+===decrescendo.z//decrescendo.Az/decrescendo.Bz/diminuendo.z/diminuendo.Az/
+diminuendo.Bz/decrescendo.My/decrescendo.By/
+;_______________________________________________________________________________
+==tempo.z//tempo.My/
+===amoroso.By//
+===andante.z//andante.Az/andante.Bz/andante.My/andante.By/
+===andantino.z//andantino.Az/andantino.Bz/andantino.My/andantino.By/
+===moderato.z//moderato.Az/moderato.Bz/
+===lento.z//lento.Az/lento.Bz/
+===adagio.z//adagio.Az/adagio.Bz/adagio.My/adagio.By/
+===largo.z//largo.Az/largo.Bz/
+===vivace.z//vivace.Az/vivace.Bz/
+===allegretto.z//allegretto.Az/allegretto.Bz/allegretto.My/allegretto.By/
+===allegro.z//allegro.Az/allegro.Bz/allegro.My/allegro.By/
+===presto.z//presto.Az/presto.Bz/presto.My/presto.By/
+;_______________________________________________________________________________
+==change* in#R tempo#.z//
+===accelerando.z//accelerando.Az/accelerando.Bz/accelerando.My/accelerando.By/
+===ritardando.z//ritardando.Az/ritardando.Bz/
+;_______________________________________________________________________________
+==scale.z//gamme.Fy/
+===artificial#A scale*.z//
+===whole#A-tone# scale*.z//
+===mode.z//modal#A scale*.z/mode.My/
+===pentatonic#A scale*.z//gamme* pentatonique*A.Fy/
+===chromatic#A scale*.z//chromatic.Az/gamme* chromatique*A.Fy/chromatique.Ay/
+===diatonic#A scale*.z//diatonic.Az/gamme* diatonique*A.Fy/diatonique.Ay/
+====major#A scale*.z/mode/Ionian#A mode*.z/gamme* majeure*A.¹Fy/
+mode* majeur*A.My/mode* ionien*A.My/
+====minor#A scale*.z//gamme* mineure*A.Fy/
+====Dorian#A mode*.z/mode,minor-scale/mode* dorien*A.My/
+====Phrygian#A mode*.z/mode,minor-scale/mode* phrygien*A.My/
+====Lydian#A mode*.z/mode/mode* lydien*A.My/
+====Mixolydian#A mode*.z/mode/mode* mixolydien*A.@My/
+====natural#A minor#A scale*.z/mode,minor-scale/Aeolian#A mode*.z/
+descending#A melodic#A minor#A scale*.z/mode* éolien*A.My/
+====Locrian#A mode*.z/mode,minor-scale/mode* locrien*A.@My/
+====harmonic#A minor# scale*.z/minor-scale/
+====melodic#A minor#A scale*.z/minor-scale/
+=====ascending#A melodic#A minor#A scale*.z//
+====Hungarian#A scale*.z//
+;_______________________________________________________________________________
+==interval.z//intervalle.My/
+===unison.z//perfect#A unison*.z/unisson.My/
+===interval comma//comma.My/
+===quarter# tone*.z//quarter# step*.z/
+===minor#A second*.z//half#A tone*,halftone.z/semitone.z/semitonic,semitonal.Az/
+semitonally.Bz/seconde* mineure*A.Fy/demi#-ton*.My/
+===major#A second*.z//second.z/whole#A tone*.z/seconde.Fy/seconde* majeure*A.Fy/
+===minor#A third*.z//tierce* mineure*A.Fy/
+===major#A third*.z//third.z/tierce.Fy/tierce* majeure*A.Fy/
+===diminished#A fourth*.z//quarte* diminuée*A.Fy/
+===perfect#A fourth*.z//fourth.z/quarte.Fy/quarte* juste*A.Fy/
+===tritone.z//augmented#A fourth*.z/triton.My/quarte* augmentée*A.Fy/
+===diminished#A fifth*.z//quinte* diminuée*A.Fy/
+===perfect#A fifth*.z//fifth.z/quinte.Fy/quinte* juste*A.Fy/
+===augmented#A fifth*.z//quinte* augmentée*A.Fy/
+===minor#A sixth*.z//sixte* mineure*A.Fy/
+===major#A sixth*.z//sixth.z/sixte.Fy/sixte* majeure*A.Fy/
+===minor#A seventh*.z//septième* mineure*A.Fy/
+===major#A seventh*.z//seventh.z/septième.Fy/septième* majeure*A.Fy/
+===octave.z//perfect#A octave*.z/octave.Fy/
+===minor#A ninth*.z//neuvième* mineure*A.Fy/
+===major#A ninth*.z//ninth.z/neuvième.Fy/neuvième* majeure*A.Fy/
+===minor#A tenth*.z//dixième* mineure*A.Fy/
+===major#A tenth*.z//tenth.z/dixième.Fy/dixième* majeure*A.Fy/
+===diminished#A eleventh*.z//onzième* diminuée*A.Fy/
+===perfect#A eleventh*.z//eleventh.z/onzième.Fy/onzième* juste*A.Fy/
+===augmented#A eleventh*.z//onzième* augmentée*A.Fy/
+===diminished#A twelfth*.z//douzième* diminuée*A.Fy/
+===perfect#A twelfth*.z//twelfth.z/douzième.Fy/douzième* juste*A.Fy/
+===augmented#A twelfth*.z//douzième* augmentée*A.Fy/
+===minor#A thirteenth*.z//treizième* mineure*A.Fy/
+===major#A thirteenth*.z//thirteenth.z/treizième.Fy/treizième* majeure*A.Fy/
+;_______________________________________________________________________________
+==chord.z//accord.My/
+;_______________________________________________________________________________
+==musical-ornament//ornament.z/ornement.My/
+===appoggiatura.z//appoggiature.Fy/
+===trill.z//trille.My/
+===musical-ornament-turn//turn.z/gruppetto.My/
+===mordent.z//mordant.My/
+;_______________________________________________________________________________
+==music-notation//
+===arpeggio.z//arpège.My/
+===ledger# line*.z//ligne* supplémentaire*A.Fy/
+===staff.z//portée.Fy/
+===music-line//line.z/ligne.Fy/
+===music-space//space.z/interligne.My/
+===g# clef*.z//clé* de#R sol#M.Fy/
+===f# clef*.z//clé* de#R fa#M.Fy/
+===c# clef*.z//clé* d#R'ut#M.Fy/
+===bar# line*.z//barre* de#R mesure#.Fy/
+===repeat# mark*.z//barre* de#R reprise#.Fy/
+===key# signature*.z//armature* de#R la#D clé#.Fy/
+===music-tie//tie.z/liaison.Fy/
+===accent# mark*.z//accent.My/
+===music-pause//pause.z/fermata.z/point* d#R'orgue#.My/
+===fingering.z//doigté.My/
+;_______________________________________________________________________________

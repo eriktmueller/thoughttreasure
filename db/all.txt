@@ -1,0 +1,66 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=concept//concept.¹z/Obj.tz/concept.¹My/
+;_______________________________________________________________________________
+==na.tz//NA,na# value*,NA# value*.z/not#B available#A.z/not#B applicable#A.z/
+;_______________________________________________________________________________
+==object.z//entity.z/objet.¹My/entité.Fy/|barrier-isa|
+===abstract#A object*.z//objet* abstrait*A.My/|barrier-isa|
+====possibility.z//possibilité.Fy/
+====information.z//information.¹Fy/renseignements.MPïy/
+=====data.mz//données.FPïy/
+======input.mz//input# data*.mz/entrée.Fy/données* d#RS'entrée#NFS.FPïy/
+données* à#RS traiter#Vf.FPïy/
+======output.mz//output# data*.mz/sortie.Fy/données* de#RS sortie#NFS.FPïy/
+====organization.z//organisation.¹Fy/
+===being.z//sentient#A being*.z/être.¹My/être* doué*A de#R sensations#FP.My/
+|sentient|
+===matter.mz//substance.z/matière,substance.Fy/
+====chemical.z//produit* chimique*A.My/
+====physical#A object*.z//object.z/objet* physique*A.¹My/objet.My/
+|barrier-isa|unwalkable|heavier-than-air|
+=====animate#A object*.z//objet* animé*A.¹My/
+======automaton.z//automate.My/
+=======android.z//androïde.My/
+=======robot.z//bot.Tz/robotic.Az/robotics.z/robot.My/de#R robot#NM.Ay/
+robotisé.Ay/robotique.Fy/
+===nonhuman//
+===question-element//
+;_______________________________________________________________________________
+==situation.z//situational.Az/situation.Fy/situationnel.Ay/
+; See Lyons (1977, p. 483).
+;_______________________________________________________________________________
+===state.z//static#A situation*.z/stative.Az/état.My/d#R'état#NM.Ay/
+|barrier-isa|
+;_______________________________________________________________________________
+; (S_EquativeRole)
+; (relation.N object1.N object2.N)  object2 BE/= relation OF object1
+; See Lyons (1977, p. 469) on sentence schemata.
+====relation.z//relationship.z/relation.¹Fy/rapport.My/lien.qMy/
+|barrier-isa|
+=====association-of//association.z/involve.¹Véz/relate* to+.Vz/
+have* to#R do#V with+.Vz/association.Fy/impliquer.Véy/
+;_______________________________________________________________________________
+====role.z//rôle.My/
+;_______________________________________________________________________________
+; (attribute.A object.N value) object BE attribute (S_AscriptiveAdj)
+; (attribute.V object.N value) object attribute (todo; that is, V = BE Adj)
+====attribute.z//property,characteristic.z/
+attribut.¹My/propriété,caractéristique.Fy/|barrier-isa|
+;_______________________________________________________________________________
+; (enum.A object.N) object BE enum (S_AscriptiveAdj)
+====enum.Tz//enumerated#A type*.z/type* d#R'énumération#F.My/|barrier-isa|
+;_______________________________________________________________________________
+; (S_VerbPred)
+; subj indexes: na = 1, ú = 2, ü = 3 (only one subj allowed)
+;               ù = group subject of two persons filling 1 and 2
+; obj indexes: na = no obj, è = 1, é = 2, ë = 3, ?? = 4 (multiple objs allowed)
+;   (followed by _ = optional)
+; iobjs fill in gaps starting at: na = 1, ö = 3, õ = 4 (+ = required, - =
+; optional)
+===action.z//dynamic#A situation*.z/affair.qz/action.Fy/do.Véz/faire.Véy/
+|barrier-isa|
+;_______________________________________________________________________________

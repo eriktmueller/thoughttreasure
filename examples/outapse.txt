@@ -1,0 +1,18 @@
+> I have an appointment with Ruth Norville at eleven pm.
+Where?
+> What?
+You have an appointment with her where in one hour?
+> The Four Seasons.
+> Display my calendar.
+You have an appointment with Ruth Norville at the Four Seasons in one hour.
+> I have an appointment with Amy Newton on March 21, 1996 at eight pm.
+Where?
+> List my appointments.
+You have an appointment with Ruth Norville at the Four Seasons in one hour. You
+have an appointment with Amy Newton on Thursday March 21, 1996 at eight pm.
+> I canceled the appointment with Amy.
+> List my appointments.
+You have an appointment with Ruth Norville at the Four Seasons in one hour.
+> Amy is mad at me.
+Right, you cancel the appointment with her and she will fail at having an
+appointment with you on Thursday March 21, 1996 at eight pm.

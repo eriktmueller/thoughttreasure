@@ -1,0 +1,619 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=AVENUE/avenue/
+==avenue-du-President-Kennedy//avenue* du#R Président#M Kennedy#C.Fy/
+==avenue* Montaigne#.Fy//
+==avenue* Charles#M de#R Gaulle#C.Fy//
+;_______________________________________________________________________________
+=BOULEVARD/boulevard/
+==boulevard* des#RP Capucines#FP.My//
+==boulevard* des#RP Italiens#P.My//
+==boulevard* Haussmann#.My//
+==boulevard* Montmartre#.My//
+==boulevard* Richard# Wallace#.My//
+;_______________________________________________________________________________
+=PASSAGE/passage,small-city-shopping-mall/
+==passage* des#RP Princes#MP.My//
+;_______________________________________________________________________________
+=ROADWAY-SQUARE/roadway-square/
+==place-Boieldieu/undrivable/place* Boïeldieu#.Fy/
+==place-de-l-Opera//place* de#R l#DM'Opéra#M.Fy/
+==place* de#R la#D Bastille#.Fy//
+==place* de#R Bagatelle#.Fy//
+;_______________________________________________________________________________
+=STREET/street/
+==Wiesengasse.zj//Wiesen# Alley*.z/Wiesengasse.Fyj/; "meadows alley" in German
+==quai* Branly#.My//
+==rue* de#R Amboise#.Fy//
+==rue* de#R Bagatelle#.Fy//
+==rue* de#R Provence#.Fy//
+==rue-de-la-Grange-Bateliere//rue* de#R la#D Grange#F-Batelière#AF.Ny/
+==rue* de#R Longchamp#.Fy//
+==rue* de#R Marivaux#.Fy//
+==rue* de#R Richelieu#M.Fy//
+==rue* Auber#.Fy//
+==rue* Chauchat#.Fy//
+==rue* Drouot#M.Fy//
+==rue* Favart#.Fy//
+==rue* Jean#M-Goujon#.Fy//
+==rue* Le#D Peletier#.Fy//
+==rue* Rossini#M.Fy//
+==rue* Saint#AM-Marc#M.Fy//
+==rue* Scribe#.Fy//
+==rue* Sedaine#.Fy//
+==A-Philip-Randolph-Square//A\.# Philip# Randolph# Square*.z/
+==Abingdon# Square*.z//
+==Abraham# Kazan# Street*.z//
+==Academy# Street*.z//
+==Adam-Clayton-Powell-Jr-Boulevard//Adam# Clayton# Powell# Jr\.# Boulevard*.z/
+==Admiral# George# Dewey# Promenade*.z//
+==Adrian# Avenue*.z//
+==Albany# Street*.z//
+==Alexander# Hamilton# Square*.z//
+==Allen# Street*.z//
+==Amsterdam# Avenue*.z//
+==Ann# Street*.z//
+==Archbishop-F-J-Sheen-Place//Archbishop# F\.J\.# Sheen# Place*.z/
+==Arden# Street*.z//
+==Asser# Levy# Place*.z//
+==Astor# Place*.z//
+==Attorney# Street*.z//
+==Audubon# Avenue*.z//
+==alphabet# soup*.Tz//
+===Avenue# A*.z//
+===Avenue# B*.z//
+===Avenue# C*.z//
+===Avenue# D*.z//
+==Avenue# of#R the#D Americas#P.z//Sixth# Avenue*.Tz/
+==Avenue-of-the-Finest//Avenue# of#R the#D Finest#A ½.z/
+==Bache# Plaza*.z//
+==Bank# Street*.z//
+==Barclay# Street*.z//
+==Barrow# Street*.z//
+==Baruch# Drive*.z//
+==Baruch# Place*.z//
+==Basil# Court*.z//
+==Battery# Place*.z//
+==Baxter# Street*.z//
+==Bayard# Street*.z//
+==Beach# Street*.z//
+==Beak# Street*.z//
+==Beaver# Street*.z//
+==Bedford# Street*.z//
+==Beekman# Place*.z//
+==Beekman# Street*.z//
+==Bennett# Avenue*.z//
+==Benson# Street*.z//
+==Bethune# Street*.z//
+==Bialstoker# Street*.z//
+==Bleecker# Street*.z//
+==Bleeker# Street#.z//
+==Bloomfield# Street*.z//
+==Bond# Street*.z//
+==Bowery.kz//
+==Bowling# Green*.z//
+==Broad#A Street*.z//
+==Broadway.z//
+==Broome# Street*.z//
+==Canal# Street*.z//
+==Cathedral# Parkway*.z//
+==Cedar# Street*.z//
+==Central#A Park# North*.z//
+==Central#A Park# South*.z//
+==Central#A Park# West*.z//
+==Centre# Street*.z//
+==Chambers# Street*.z//
+==Chase# Manhattan# Plaza*.z//
+==Chatham# Square*.z//
+==Chelsea# Square*.z//
+==Cherry# Street*.z//
+==Chestnut# Street*.z//
+==Christopher# Street*.z//
+==Church# Street*.z//
+==City# Hall# Park*.z//
+==City# Hall# Square*.z//
+==Claremont# Avenue*.z//
+==Columbus# Avenue*.z//
+==Columbus# Circle*.z//
+==Commerce# Street*.z//
+==Cooper# Square*.z//
+==Cooper# Street*.z//
+==Cortlandt# Alley*.z//
+==Cortlandt# Street*.z//
+==Delancy# Street*.z//
+==Douglas# MacArthur# Plaza*.z//
+==Dover# Street*.z//
+==Downing# Street*.z//
+==Duane# Street*.z//
+==Dyckman# Street*.z//
+==East# Broadway*.z//
+==East# End# Avenue*.z//
+==East# Houston# Street*.z//
+==East# Side# Express# Highway*.z//South# Street# Viaduct*.z/
+==East#A 3# Street*.z//
+==East#A 4# Street*.z//
+==East#A 4# Walk*.z//
+==East#A 5# Street*.z//
+==East#A 5# Walk*.z//
+==East#A 8# Street*.z//
+==East#A 9# Street*.z//
+==East#A 10# Street*.z//
+==East#A 11# Street*.z//
+==East#A 12# Street*.z//
+==East#A 13# Street*.z//
+==East#A 14# Street*.z//
+==East#A 15# Street*.z//
+==East#A 16# Street*.z//
+==East#A 17# Street*.z//
+==East#A 18# Street*.z//
+==East#A 19# Street*.z//
+==East#A 20# Street*.z//
+==East#A 21# Street*.z//
+==East#A 22# Street*.z//
+==East#A 23# Street*.z//
+==East#A 24# Street*.z//
+==East#A 25# Street*.z//
+==East#A 26# Street*.z//
+==East#A 27# Street*.z//
+==East#A 28# Street*.z//
+==East#A 29# Street*.z//
+==East#A 30# Street*.z//
+==East#A 31# Street*.z//
+==East#A 32# Street*.z//
+==East#A 33# Street*.z//
+==East#A 34# Street*.z//
+==East#A 35# Street*.z//
+==East#A 36# Street*.z//
+==East#A 37# Street*.z//
+==East#A 38# Street*.z//
+==East#A 39# Street*.z//
+==East#A 40# Street*.z//
+==East#A 41# Street*.z//
+==East#A 42# Street*.z//
+==East#A 43# Street*.z//
+==East#A 44# Street*.z//
+==East#A 45# Street*.z//
+==East#A 46# Street*.z//
+==East#A 47# Street*.z//
+==East#A 48# Street*.z//
+==East#A 49# Street*.z//
+==East#A 50# Street*.z//
+==East#A 51# Street*.z//
+==East#A 52# Street*.z//
+==East#A 53# Street*.z//
+==East#A 54# Street*.z//
+==East#A 55# Street*.z//
+==East#A 56# Street*.z//
+==East#A 57# Street*.z//
+==East#A 58# Street*.z//
+==East#A 59# Street*.z//
+==East#A 60# Street*.z//
+==East#A 61# Street*.z//
+==East#A 62# Street*.z//
+==East#A 63# Street*.z//
+==East#A 64# Street*.z//
+==East#A 65# Street*.z//
+==East#A 66# Street*.z//
+==East#A 67# Street*.z//
+==East#A 68# Street*.z//
+==East#A 69# Street*.z//
+==East#A 70# Street*.z//
+==East#A 71# Street*.z//
+==East#A 72# Street*.z//
+==East#A 73# Street*.z//
+==East#A 74# Street*.z//
+==East#A 75# Street*.z//
+==East#A 76# Street*.z//
+==East#A 77# Street*.z//
+==East#A 78# Street*.z//
+==East#A 79# Street*.z//
+==East#A 80# Street*.z//
+==East#A 81# Street*.z//
+==East#A 82# Street*.z//
+==East#A 83# Street*.z//
+==East#A 84# Street*.z//
+==East#A 85# Street*.z//
+==East#A 86# Street*.z//
+==East#A 87# Street*.z//
+==East#A 88# Street*.z//
+==East#A 89# Street*.z//
+==East#A 90# Street*.z//
+==East#A 91# Street*.z//
+==East#A 92# Street*.z//
+==East#A 93# Street*.z//
+==East#A 94# Street*.z//
+==East#A 95# Street*.z//
+==East#A 96# Street*.z//
+==East#A 97# Street*.z//
+==East#A 98# Street*.z//
+==East#A 99# Street*.z//
+==East#A 100# Street*.z//
+==East#A 101# Street*.z//
+==East#A 102# Street*.z//
+==East#A 103# Street*.z//
+==East#A 104# Street*.z//
+==East#A 105# Street*.z//
+==East#A 106# Street*.z//
+==East#A 107# Street*.z//
+==East#A 108# Street*.z//
+==East#A 109# Street*.z//
+==East#A 110# Street*.z//
+==East#A 111# Street*.z//
+==East#A 112# Street*.z//
+==East#A 113# Street*.z//
+==East#A 114# Street*.z//
+==East#A 115# Street*.z//
+==East#A 116# Street*.z//
+==East#A 117# Street*.z//
+==East#A 118# Street*.z//
+==East#A 119# Street*.z//
+==East#A 120# Street*.z//
+==East#A 121# Street*.z//
+==East#A 122# Street*.z//
+==East#A 123# Street*.z//
+==East#A 124# Street*.z//
+==East#A 125# Street*.z//
+==East#A 126# Street*.z//
+==East#A 127# Street*.z//
+==East#A 128# Street*.z//
+==East#A 129# Street*.z//
+==East#A 130# Street*.z//
+==East#A 131# Street*.z//
+==East#A 132# Street*.z//
+==East#A 135# Street*.z//
+==East#A 138# Street*.z//
+==Edgar# Street*.z//
+==Eighth# Avenue*.z//
+==Eleventh# Avenue*.z//
+==Elizabeth# Street*.z//
+==Elk# Street*.z//
+==Ellis# Island*.z//
+==Essex# Street*.z//
+==Exchange# Alley*.z//
+==Exchange# Place*.z//
+==Federal#A Plaza*.z//
+==Fifth# Avenue*.z//Museum# Mile*.z/the#D Avenue*.Tz/
+==Fifth# Street*.z//
+==First# Avenue*.z//
+==First# Street*.z//
+==Fort# Washington# Avenue*.z//
+==Fort# Washington# Park*.z//
+==Fourth# Avenue*.z//
+==FDR# Drive*.z//Franklin# D\.# Roosevelt# Drive*.z/East# River# Drive*.z/
+==Franklin# Place*.z//
+==Franklin# Street*.z//
+==Franklin# Square*.z//
+==Freedom# Place*.z//
+==Front# Street*.z//
+==Fulton# Market*.z//
+==Fulton# Street*.z//
+==Gold# Street*.z//
+==Governors#NP Island*.z//
+==Gracie# Mansion*.z//
+==Gracie# Square*.z//
+==Gracie# Terrace*.z//
+==Gramercy# Park*.z//
+==Gramercy# Park# East*.z//
+==Gramercy# Park# West*.z//
+==Grand#A Army# Plaza*.z//
+==Grand#A Street*.z//
+==Greene# Street*.z//
+==Greenwich# Avenue*.z//
+==Greenwich# Street*.z//
+==Grove# Court*.z//
+==Grove# Street*.z//
+==Harlem# River# Drive*.z//
+==Harlem# River# Driveway*.z//
+==Henry# Hudson# Parkway*.z//West# Side# Highway*.z/
+West# Side# Express# Highway*.z/
+==Henry# Street*.z//
+==Hudson# Street*.z//
+==Jane# Street*.z//
+==Lafayette# Street*.z//
+==Lenox# Avenue*.z//
+==Lexington# Avenue*.z//
+==Liberty# Island*.z//
+==Liberty# Place*.z//
+==Liberty# Street*.z//
+==Lincoln# Place*.z//
+==Lincoln# Square*.z//
+==Lincoln# Square# Plaza*.z//
+==Little#A West# 12# Street*.z//
+==MacDougal# Alley*.z//
+==MacDougal# Street*.z//
+==Madison# Avenue*.z//
+==Madison# Square# North*.z//
+==Madison# Street*.z//
+==Maiden# Lane*.z//
+==Mercer# Street*.z//
+==Minetta# Lane*.z//
+==Minetta# Place*.z//
+==Minetta# Street*.z//
+==Moore# Street*.z//
+==Morningside# Avenue*.z//
+==Morningside# Drive*.z//
+==Morris# Street*.z//
+==Mott# Street*.z//
+==Mulberry# Street*.z//
+==Ninth# Avenue*.z//
+==Park# Avenue*.z//
+==Park# Avenue# South*.z//
+==Park# Place*.z//
+==Park# Row*.z//
+==Park# Street*.z//
+==Pearl# Street*.z//
+==Prince# Street*.z//
+==Reade# Street#.z//
+==Riverside# Drive*.z//
+==Riverside# Drive# West*.z//
+==Rockefeller# Plaza*.z//
+==Roosevelt# Island*.z//
+==Roosevelt# Square*.z//
+==Second# Avenue*.z//
+==Second# Street*.z//
+==Seventh# Avenue*.z//Fashion# Avenue*.z/
+==Seventh# Avenue# South*.z//
+==Seventh# Street*.z//
+==Sheridan# Square*.z//
+==Sixth# Street*.z//
+==South# Street*.z//
+==Spring# Street*.z//
+==Stuyvesant# Alley*.z//
+==Stuyvesant# Oval*.z//
+==Stuyvesant# Square*.z//
+==Stuyvesant# Street*.z//
+==Sullivan# Street*.z//
+==Tenth# Avenue*.z//
+==Third# Avenue*.z//
+==Thomas# Street*.z//
+==Thompson# Street*.z//
+==Times# Square*.z//
+==Tudor# City# Place*.z//
+==Twelfth# Avenue*.z//
+==Union# Square*.z//
+==Union# Square# East*.z//
+==Union# Square# West*.z//
+==United#A Nations#NP Headquarters*.z//
+==United#A Nations#NP Plaza*.z//
+==University# Place*.z//
+==Vanderbilt# Avenue*.z//
+==Vanderbilt# Concourse*.z//Grand#A Central#A Station*.z/
+==Varick# Street*.z//
+==Walker# Street*.z//
+==Wall# Street*.z//
+==Washington# Bridge*.z//
+==Washington# Mews*.z//
+==Washington# Place*.z//
+==Washington# Square# East*.z//
+==Washington# Square# West*.z//
+==Washington# Street*.z//
+==Washington# Terrace*.z//
+==Water# Street*.z//
+==Watts# Street*.z//
+==Waverly# Place*.z//
+==West# Broadway*.z//
+==West# End# Avenue*.z//
+==West# Houston# Street*.z//
+==West# Street*.z//
+==West#A 3# Street*.z//
+==West#A 4# Street*.z//
+==West#A 8# Street*.z//
+==West#A 9# Street*.z//
+==West#A 10# Street*.z//
+==West#A 11# Street*.z//
+==West#A 12# Street*.z//
+==West#A 13# Street*.z//
+==West#A 14# Street*.z//
+==West#A 15# Street*.z//
+==West#A 16# Street*.z//
+==West#A 17# Street*.z//
+==West#A 18# Street*.z//
+==West#A 19# Street*.z//
+==West#A 20# Street*.z//
+==West#A 21# Street*.z//
+==West#A 22# Street*.z//
+==West#A 23# Street*.z//
+==West#A 24# Street*.z//
+==West#A 25# Street*.z//
+==West#A 26# Street*.z//
+==West#A 27# Street*.z//
+==West#A 27# Drive*.z//
+==West#A 28# Street*.z//
+==West#A 29# Street*.z//
+==West#A 30# Street*.z//
+==West#A 31# Street*.z//
+==West#A 32# Street*.z//
+==West#A 33# Street*.z//
+==West#A 34# Street*.z//
+==West#A 35# Street*.z//
+==West#A 36# Street*.z//
+==West#A 37# Street*.z//
+==West#A 38# Street*.z//
+==West#A 39# Street*.z//
+==West#A 40# Street*.z//
+==West#A 41# Street*.z//
+==West#A 42# Street*.z//
+==West#A 43# Street*.z//
+==West#A 44# Street*.z//
+==West#A 45# Street*.z//
+==West#A 46# Street*.z//
+==West#A 47# Street*.z//
+==West#A 48# Street*.z//
+==West#A 49# Street*.z//
+==West#A 50# Street*.z//
+==West#A 51# Street*.z//
+==West#A 52# Street*.z//
+==West#A 53# Street*.z//
+==West#A 54# Street*.z//
+==West#A 55# Street*.z//
+==West#A 56# Street*.z//
+==West#A 57# Street*.z//
+==West#A 58# Street*.z//
+==West#A 59# Street*.z//
+==West#A 60# Street*.z//
+==West#A 61# Street*.z//
+==West#A 61# Drive*.z//
+==West#A 62# Street*.z//
+==West#A 63# Street*.z//
+==West#A 64# Street*.z//
+==West#A 65# Street*.z//
+==West#A 66# Street*.z//
+==West#A 67# Street*.z//
+==West#A 68# Street*.z//
+==West#A 69# Street*.z//
+==West#A 70# Street*.z//
+==West#A 71# Street*.z//
+==West#A 72# Street*.z//
+==West#A 73# Street*.z//
+==West#A 74# Street*.z//
+==West#A 75# Street*.z//
+==West#A 76# Street*.z//
+==West#A 77# Street*.z//
+==West#A 78# Street*.z//
+==West#A 79# Street*.z//
+==West#A 80# Street*.z//
+==West#A 81# Street*.z//
+==West#A 82# Street*.z//
+==West#A 83# Street*.z//
+==West#A 84# Street*.z//Edgar# Allen# Poe# Street*.z/
+==West#A 85# Street*.z//
+==West#A 86# Street*.z//
+==West#A 87# Street*.z//
+==West#A 88# Street*.z//
+==West#A 89# Street*.z//
+==West#A 90# Street*.z//
+==West#A 91# Street*.z//
+==West#A 92# Street*.z//
+==West#A 93# Street*.z//
+==West#A 94# Street*.z//
+==West#A 95# Street*.z//
+==West#A 96# Street*.z//
+==West#A 97# Street*.z//
+==West#A 98# Street*.z//
+==West#A 99# Street*.z//
+==West#A 100# Street*.z//
+==West#A 101# Street*.z//
+==West#A 102# Street*.z//
+==West#A 103# Street*.z//
+==West#A 104# Street*.z//
+==West#A 105# Street*.z//
+==West#A 106# Street*.z//Duke# Ellington# Boulevard*.z/
+==West#A 107# Street*.z//
+==West#A 108# Street*.z//
+==West#A 109# Street*.z//
+==West#A 111# Street*.z//
+==West#A 112# Street*.z//
+==West#A 113# Street*.z//
+==West#A 114# Street*.z//
+==West#A 115# Street*.z//
+==West#A 116# Street*.z//
+==West#A 117# Street*.z//
+==West#A 118# Street*.z//
+==West#A 119# Street*.z//
+==West#A 120# Street*.z//
+==West#A 121# Street*.z//
+==West#A 122# Street*.z//
+==West#A 123# Street*.z//
+==West#A 124# Street*.z//
+==West#A 125# Street*.z//
+==West#A 126# Street*.z//
+==West#A 127# Street*.z//
+==West#A 128# Street*.z//
+==West#A 129# Street*.z//
+==West#A 130# Street*.z//
+==West#A 131# Street*.z//
+==West#A 132# Street*.z//
+==West#A 133# Street*.z//
+==West#A 134# Street*.z//
+==West#A 135# Street*.z//
+==West#A 136# Street*.z//
+==West#A 137# Street*.z//
+==West#A 138# Street*.z//
+==West#A 139# Street*.z//
+==West#A 140# Street*.z//
+==West#A 141# Street*.z//
+==West#A 142# Street*.z//
+==West#A 143# Street*.z//
+==West#A 144# Street*.z//
+==West#A 145# Street*.z//
+==West#A 146# Street*.z//
+==West#A 147# Street*.z//
+==West#A 148# Street*.z//
+==West#A 149# Street*.z//
+==West#A 150# Street*.z//
+==West#A 151# Street*.z//
+==West#A 152# Street*.z//
+==West#A 153# Street*.z//
+==West#A 154# Street*.z//
+==West#A 155# Street*.z//
+==West#A 156# Street*.z//
+==West#A 157# Street*.z//
+==West#A 158# Street*.z//
+==West#A 159# Street*.z//
+==West#A 160# Street*.z//
+==West#A 161# Street*.z//
+==West#A 162# Street*.z//
+==West#A 163# Street*.z//
+==West#A 164# Street*.z//
+==West#A 165# Street*.z//
+==West#A 166# Street*.z//
+==West#A 167# Street*.z//
+==West#A 168# Street*.z//
+==West#A 169# Street*.z//
+==West#A 170# Street*.z//
+==West#A 171# Street*.z//
+==West#A 172# Street*.z//
+==West#A 173# Street*.z//
+==West#A 174# Street*.z//
+==West#A 175# Street*.z//
+==West#A 176# Street*.z//
+==West#A 177# Street*.z//
+==West#A 178# Street*.z//
+==West#A 179# Street*.z//
+==West#A 180# Street*.z//
+==West#A 181# Street*.z//
+==West#A 182# Street*.z//
+==West#A 183# Street*.z//
+==West#A 184# Street*.z//
+==West#A 185# Street*.z//
+==West#A 186# Street*.z//
+==West#A 187# Street*.z//
+==West#A 188# Street*.z//
+==West#A 189# Street*.z//
+==West#A 190# Street*.z//
+==West#A 191# Street*.z//
+==West#A 192# Street*.z//
+==West#A 193# Street*.z//
+==West#A 196# Street*.z//
+==West#A 201# Street*.z//
+==West#A 202# Street*.z//
+==West#A 203# Street*.z//
+==West#A 204# Street*.z//
+==West#A 205# Street*.z//
+==West#A 206# Street*.z//
+==West#A 207# Street*.z//
+==West#A 208# Street*.z//
+==West#A 211# Street*.z//
+==West#A 212# Street*.z//
+==West#A 213# Street*.z//
+==West#A 214# Street*.z//
+==West#A 215# Street*.z//
+==West#A 216# Street*.z//
+==West#A 217# Street*.z//
+==West#A 218# Street*.z//
+==West#A 219# Street*.z//
+==West#A 220# Street*.z//
+==West#A 225# Street*.z//
+==West#A 227# Street*.z//
+==West#A 228# Street*.z//
+==Western#® Union#® International#A Plaza*.z//
+==White#A Street*.z//
+==Wooster# Street*.z//
+==Worth# Street*.z//
+==World# Trade# Center*.z//
+==York# Avenue*.z//
+==York# Street*.z//
+;_______________________________________________________________________________

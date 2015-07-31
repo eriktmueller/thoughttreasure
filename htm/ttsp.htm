@@ -1,0 +1,480 @@
+<html>
+<head>
+<title>ThoughtTreasure Server Protocol</title>
+</head>
+<body bgcolor="#ffffff">
+<h1>ThoughtTreasure Server Protocol version 0.00023 (TTSP23)</h1>
+<h2>A protocol for querying commonsense and lexical databases</h2>
+by Erik T. Mueller
+<p>
+November 30, 1999
+<hr>
+The ThoughtTreasure Server Protocol (TTSP) enables client software
+to communicate with a ThoughtTreasure server in order to query
+its commonsense knowledge base and to carry out natural language
+processing tasks such as parsing and generation.
+<h3>Operation of protocol</h3>
+<p>
+A ThoughtTreasure server starts the TTSP service by listening on TCP port
+number 1832. (This is a registered port number listed by the Internet
+Assigned Numbers Authority [IANA]). A client wishing to use the
+ThoughtTreasure server requests a connection to the server host on that
+TCP port. Once connected, the client sends a command to the server. The
+server processes the command and sends a response to the client. This
+command-response cycle continues any number of times until the connection
+is closed or aborted.
+<h3>Commands and responses</h3>
+Commands and responses consist of characters from the ISO 8859-1
+character set.
+<p>
+A command consists of a single line. The line contains a case-insensitive
+keyword, followed by zero or more arguments, followed by a LF character.
+The length of a command line is unlimited.
+<p>
+Responses consist of one or more lines, where each line is terminated
+with a LF character. The length of a response line is unlimited.
+<p>
+There are several types of responses:
+<ul>
+<li>A <em>boolean response</em> is a single line consisting of the
+character <tt>0</tt> or the character <tt>1</tt>, followed by a LF.
+<li>A <em>string response</em> is a single line consisting of
+a sequence of characters followed by a LF.
+<li>A <em>colon list response</em> is a single line consisting of
+a colon-separated list of tokens followed by a LF. The tokens can be
+of various types.
+<li>A <em>multiline response</em> consists of one or more content
+lines (which can be of various types), each terminated with a LF,
+followed by a single termination line consisting of a period
+(<tt>.</tt>) followed by a LF.
+<li>An <em>error response</em> consists of <tt>error:</tt> followed by
+a description of the error followed by a LF.
+</ul>
+<h3>ThoughtTreasure strings</h3>
+<p>
+ThoughtTreasure strings used in this document are defined by the following
+Extended Backus-Naur Form (EBNF) grammar:
+<pre>
+Concept        ::= Assertion | Token
+Assertion      ::= (TimestampRange '|')? '[' Concept (' ' Concept)* ']'
+TimestampRange ::= '@' Timestamp ':' Timestamp
+Timestamp      ::= 'na' | '-Inf' | '+Inf' | 'Inf' | ISO8601Subset
+ISO8601Subset  ::= Y Y Y Y M M D D 'T' H H M M S S 'Z'
+                   | Y Y Y Y M M D D 'T' H H M M S S
+                   | Y Y Y Y M M D D 'T' H H M M S S '-' H H M M
+                   | Y Y Y Y M M D D 'T' H H M M S S '+' H H M M
+                   | Y Y Y Y M M D D
+                   | Y Y Y Y M M
+                   | Y Y Y Y
+Y              ::= Digit
+M              ::= Digit
+D              ::= Digit
+H              ::= Digit
+M              ::= Digit
+S              ::= Digit
+Token          ::= ObjName | String | Number | TimestampRange | Name
+ObjName        ::= ObjNameChar+
+ObjNameChar    ::= Digit | Letter | '-' | '?'
+String         ::= ('STRING:' ObjName ':')? '"' StringChar* '"'
+Number         ::= 'NUMBER:' ObjName ':' Double
+Name           ::= 'NAME:' '"' StringChar* '"'
+PNode          ::= PNodeLexitem | PNodeConstit | PNodeName | PNodeTsRange
+                   | PNodeTelno | PNodeString
+PNodeLexitem   ::= '[' 'PNODE:' FeatureChar ':L:"' Text '":"' Features '":"'
+                   Text '":"' Features '"' ']'
+PNodeConstit   ::= '[' 'PNODE:' FeatureChar ' ' PNode (' ' PNode)? ']'
+PNodeName      ::= '[' 'PNODE:' FeatureChar ':NAME:"'  Text '"' ']'
+PNodeTsRange   ::= '[' 'PNODE:' FeatureChar ':TSRANGE:"'  TimestampRange '"' ']'
+PNodeTelno     ::= '[' 'PNODE:' FeatureChar ':TELNO:"' Text '"' ']'
+PNodeString    ::= '[' 'PNODE:' FeatureChar ':STRING:"' Text '"' ']'
+Digit          ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+Text           ::= StringChar*
+Features       ::= FeatureChar+
+StringChar is any character except "
+FeatureChar is any <a href="quickref.htm">ThoughtTreasure feature character</a>.
+Letter is a-z or A-Z (ISO 8859-1 letters are not included)
+Double is the output of C printf %g
+</pre>
+<h3>List of commands and responses</h3>
+This section discusses the particular commands and responses.
+The command keywords are shown here in mixed case, though their
+case is ignored by the server. In the examples below, <tt>C:</tt>
+indicates a command sent by the client to the server; <tt>S:</tt>
+indicates a response sent by the server to the client.
+<p>
+In addition to the server's response to each command as described
+below, the server may respond with an error response if there is
+an error in processing the command (due to, say, an invalid command
+keyword or missing arguments).
+<h4>Status</h4>
+<pre>
+Status
+</pre>
+Returns the status of the ThoughtTreasure server. The server replies
+with a string response of <tt>up</tt>. For example:
+<pre>
+C: Status
+S: up
+</pre>
+<h4>ISA</h4>
+<pre>
+ISA &lt;ObjName1> &lt;ObjName2>
+</pre>
+Tests whether the specified object (ObjName2) is of the specified
+class (ObjName1). The server replies with a boolean response of
+<tt>1</tt> or <tt>0</tt>. For example:
+<pre>
+C: ISA beverage Evian
+S: 1
+</pre>
+<h4>IsPartOf</h4>
+<pre>
+IsPartOf &lt;PartObjName> &lt;WholeObjName>
+</pre>
+Tests whether the specified object (PartObjName) is a part of another
+specified object (WholeObjName). The server replies with a boolean
+response of <tt>1</tt> or <tt>0</tt>. For example:
+<pre>
+C: IsPartOf fingernail human
+S: 1
+C: IsPartOf fingernail chest
+S: 0
+</pre>
+<h4>Parents</h4>
+<pre>
+Parents &lt;ObjName>
+</pre>
+Returns the parents of the specified object (ObjName). The server
+replies with a colon list response, where each token is either
+an ObjName or a filename. For example:
+<pre>
+C: Parents human
+S: Homo-sapiens:db/human.txt
+</pre>
+<h4>Children</h4>
+<pre>
+Children &lt;ObjName>
+</pre>
+Returns the children of the specified object (ObjName). The server
+replies with a colon list response, where each token is an ObjName.
+For example:
+<pre>
+C: Children phase-of-life
+S: not-alive:alive
+</pre>
+<h4>Ancestors</h4>
+<pre>
+Ancestors &lt;ObjName>
+</pre>
+Returns the ancestors of the specified object (ObjName). The server
+replies with a colon list response, where each token is either
+an ObjName or a filename. For example:
+<pre>
+C: Ancestors physical-object
+S: db/all.txt:concept:object:matter
+</pre>
+<h4>Descendants</h4>
+<pre>
+Descendants &lt;ObjName>
+</pre>
+Returns the ancestors of the specified object (ObjName). The server
+replies with a colon list response, where each token is an ObjName.
+For example:
+<pre>
+C: Descendants child
+S: teenager:infant
+</pre>
+<h4>Retrieve</h4>
+<pre>
+Retrieve &lt;picki> &lt;anci> &lt;desci> &lt;mode> &lt;ptn>
+</pre>
+Retrieves assertions from the database matching the specified pattern.
+<p>
+If picki is not <tt>-1</tt>, it is the index of the object to be picked out
+of the result assertion.
+<p>
+Anci indicates the index on which to move up (mode=<tt>anc</tt> or
+mode=<tt>ancdesc</tt>) the hierarchy. Anci should be <tt>-1</tt> if the
+mode is neither <tt>anc</tt> nor <tt>ancdesc</tt>.
+<p>
+Desci indicates the index on which to move down (mode=<tt>desc</tt> or
+<tt>ancdesc</tt>) the hierarchy. Desci should be <tt>-1</tt> if the mode
+is neither <tt>desc</tt> nor <tt>ancdesc</tt>.
+<p>
+Mode is either <tt>exact</tt>, <tt>anc</tt>, <tt>desc</tt>, or
+<tt>ancdesc</tt>.
+<p>
+Ptn is a sequence of ObjNames such as <tt>duration-of attend-play ?</tt>.
+<p>
+The server replies with a multiline response where each content line
+is a Concept. For example:
+<pre>
+C: Retrieve 2 1 -1 anc duration-of attend-play ?
+S: NUMBER:second:7200
+C: Retrieve -1 -1 -1 exact min-value-of young-adult ?
+S: @-Inf:Inf|[min-value-of young-adult NUMBER:year:18]
+C: Retrieve -1 -1 1 desc at-grid mini-bar
+S: @19870101T000000:na|[at-grid mini-bar1934 Park-Plaza-1E [GRIDSUBSPACE 1 19]]
+</pre>
+<h4>PhraseToConcepts</h4>
+<pre>
+PhraseToConcepts &lt;Features> &lt;Text>
+</pre>
+Returns the ThoughtTreasure ObjNames and other information for the
+specified word or phrase (Text) with the specified features. The feature
+"z" indicates English; the feature "y" indicates French. 
+(See the <a href="quickref.htm">complete list of feature characters</a>.)
+The server replies with a multiline response where each content line is a
+word-meaning association. A word-meaning association consists of the
+following items separated by colons:
+<ul>
+<li>
+The citation form of the word or phrase (lexical entry), such as the
+infinitive form of a verb or the singular form of a noun.
+<li>
+Features (such as part of speech and language) for the lexical entry.
+<li>
+The particular inflection of the lexical entry, such as the
+third-person singular form of a verb.
+<li>
+Features (such as singular "S" or plural "P") for the particular
+inflection of the lexical entry.
+<li>
+ObjName.
+<li>
+Features that apply to this particular word-meaning association.
+<li>
+From range.
+<li>
+To range.
+</ul>
+Weights are used for representing gradable concepts. In this scheme,
+<em>cold</em> is represented as <tt>hot</tt> with a negative
+weight. Weights range from -1.0 to 1.0. The from range and to range
+represent the lower and upper bounds for the weight of this word-meaning
+association. For example, the link from the word <em>cold</em> to the
+meaning <tt>hot</tt> might have a from range of -1.0 and a
+to range of -0.1. This means that <tt>hot</tt> with a weight in
+that range is called <em>cold</em>.
+<p>
+For example:
+<pre>
+C: PhraseToConcepts z cheap
+S: cheap:Az:cheap:Az:expensive:T:-1:-0.1
+S: .
+C: PhraseToConcepts z granddads
+S: granddad:MNz:granddads:PNz:grandfather-of:T:0.1:1
+S: .
+</pre>
+<h4>ConceptToLexEntries</h4>
+<pre>
+ConceptToLexEntries &lt;ObjName>
+</pre>
+Returns the lexical entries associated with the specified object
+(ObjName) in the lexicon. The server replies with a multiline response
+where each content line is a word-meaning association as defined
+above. For example:
+<pre>
+C: ConceptToLexEntries adult
+S: grown woman:FNz:grown woman:FNz:adult:þ:0.1:1
+S: grown man:MNz:grown man:MNz:adult:þ:0.1:1
+S: adult:Az¸:adult:Az¸:adult:¹:0.1:1
+S: adult:Nz¸:adult:Nz¸:adult:¹:0.1:1
+S: .
+</pre>
+<h4>Tag</h4>
+<pre>
+Tag &lt;Features> &lt;Text>
+</pre>
+Performs part-of-speech (and other) tagging of the specified natural
+language text with the specified features.
+The text should be terminated with one or more space characters. The
+server replies with a multiline response where each content line consists
+of a word-meaning association as defined above plus a start position and
+end position in the Text. For example:
+<pre>
+C: Tag z bright blues and greens 
+S: bright:Az¸:bright:Az¸:bright:¹:0.1:1:0:6
+S: blues:·Nz¸:blues:·Nz¸:blues:m:0.1:1:7:12
+S: blue:·Nz¸:blues:P·Nz¸:other-uniform:Pï:0.1:1:7:12
+S: blue:·Nz¸:blues:P·Nz¸:blue:¹:0.1:1:7:12
+S: and:Kz¸:and:Kz¸:and:¹w©:0.1:1:13:16
+S: and:Kz¸:and:Kz¸:add:T:0.1:1:13:16
+S: green:Nz¸:greens:PNz¸:green:¹:0.1:1:17:23
+S: green:Nz¸:greens:PNz¸:aasn-Green::0.1:1:17:23
+S: .
+</pre>
+<h4>SyntacticParse</h4>
+<pre>
+SyntacticParse &lt;Features> &lt;Text>
+</pre>
+Syntactically parses the specified natural language text with the specified
+features.
+The text should be terminated with one or more space characters. The server
+replies with a multiline response where each content line consists of either
+the word <tt>SENTENCE</tt>, indicating the beginning of the next
+sentence, or a PNode.
+<pre>
+C: SyntacticParse z yellow bacon. 
+S: SENTENCE
+S: [PNODE:X [PNODE:E [PNODE:A:L:"yellow":"Az¸":"yellow":"Az¸"]] [PNODE:X [PNODE:N:L:"bacon":"Nz":"bacon":"SNz"]]]
+S: .
+C: SyntacticParse z My phone number is 212-555-1212. 
+S: SENTENCE
+S: [PNODE:Z [PNODE:X [PNODE:D:L:"his":"·Dz¸":"My":"1S·Dz¸"] [PNODE:X [PNODE:N:L:"phone number":"Nz":"phone number":"SNz"]]] [PNODE:W [PNODE:W [PNODE:V:L:"be":"Vz¸":"is":"p3SVz¸"]] [PNODE:X [PNODE:N:TELNO:"12125551212"]]]]
+S: .
+</pre>
+<h4>SemanticParse</h4>
+<pre>
+SemanticParse &lt;Features> &lt;Text>
+</pre>
+Syntactically and semantically parses the specified natural language text
+with the specified features. The text should be terminated with one
+or more space characters. The server replies with a multiline response
+where each content line consists of either the word <tt>SENTENCE</tt>,
+indicating the beginning of the next sentence, a Concept, or a PNode.
+The PNode is the parse tree corresponding to the previous Concept.
+For example:
+<pre>
+C: SemanticParse z bright whites. 
+S: SENTENCE
+S: [bright white]
+S: [PNODE:X [PNODE:E [PNODE:A:L:"bright":"Az¸":"bright":"Az¸"]] [PNODE:X [PNODE:N:L:"white":"Nz¸":"whites":"PNz¸"]]]
+S: .
+C: SemanticParse z Mary had a little lamb. 
+S: SENTENCE
+S: [past-participle [eat [such-that human [NAME-of human NAME:"Mary"]] [such-that lamb-food [a-little lamb-food]]]]
+S: [PNODE:Z [PNODE:X [PNODE:N:NAME:"Mary"]] [PNODE:W [PNODE:W [PNODE:V:L:"have":"Vz¸":"had":"dVz¸"]] [PNODE:X [PNODE:E [PNODE:A:L:"a little":"Az":"a little":"Az"]] [PNODE:X [PNODE:N:L:"lamb":"Nz¸":"lamb":"SNz¸"]]]]]
+S: .
+</pre>
+<h4>Generate</h4>
+<pre>
+Generate &lt;Features> &lt;Assertion>
+</pre>
+Generates the specified assertion in natural language with the specified
+language, dialect, and style (Features). The server replies with a string
+response. For example:
+<pre>
+C: Generate z [good Jim]
+S: Jim Garnier is wonderful. 
+C: Generate zT [good Jim]
+S: He is great.
+C: Generate za [good Jim]
+S: He is slamming. 
+C: Generate z [occupation-of Jim artist]
+S: He is an artist. 
+</pre>
+<h4>Chatterbot</h4>
+<pre>
+Chatterbot &lt;Features> &lt;Text>
+</pre>
+Sends natural language input text with the specified features to the
+chatterbot. The server replies with a string response. For example:
+<pre>
+C: Chatterbot z Hello. 
+S: Hello. 
+C: Chatterbot z What's your name? 
+S: Thomas. 
+C: Chatterbot z What color is the sky? 
+S: The sky is sky blue. 
+C: Chatterbot z Bye. 
+S: Goodbye. 
+</pre>
+<h4>ClearContext</h4>
+<pre>
+ClearContext
+</pre>
+The discourse context is normally maintained for each client. This allows,
+for example, pronouns to be understood and generated (as in
+"He is an artist" above). <tt>ClearContent</tt> clears the discourse
+context (to force generation of "Jim Garnier is an artist" above).
+The server replies with a boolean response of <tt>1</tt>. For example:
+<pre>
+C: ClearContext
+S: 1
+</pre>
+<h4>Quit</h4>
+<pre>
+Quit
+</pre>
+The server closes the connection. For example:
+<pre>
+C: Quit
+S: [closes connection]
+</pre>
+<h4>Bringdown</h4>
+<pre>
+Bringdown
+</pre>
+Forces ThoughtTreasure to break out of the server select loop,
+so that it can process further ThoughtTreasure shell commands.
+The server closes the connection. For example:
+<pre>
+C: Bringdown
+S: [closes connection]
+</pre>
+<h3>Command/response summary</h3>
+Here is a summary of commands and responses:
+<pre>
+Status => string
+  "Is the server running?"
+ISA ObjName ObjName => boolean
+  "Is ___ an instance of ___?"
+IsPartOf ObjName ObjName => boolean
+  "Is ___ a part of ___?"
+Parents ObjName => colon list
+  "What are all the parents of ___?"
+Children ObjName => colon list
+  "What are all the children of ___?"
+Ancestors ObjName => colon list
+  "What are all the ancestors of ___?"
+Descendants ObjName => colon list
+  "What are all the descendants of ___?"
+Retrieve N N N Mode Ptn => multiline Concept
+  "___?" (arbitrary query of database such as:
+    "How long does ___ typically last?"
+    "How many ___ does a person typically have?" [husband, friend]
+    "At what age is someone called ___?" [teenager, adult]
+    "Where are ___ typically found?")
+PhraseToConcepts Features Text => multiline word-meaning association
+  "What concepts does ___ express?"
+ConceptToLexEntries ObjName => multiline word-meaning association
+  "What words or phrases express ___?"
+Tag Features Text => multiline word-meaning association, start, stop
+  "What words or phrases are in ___?"
+SyntacticParse Features Text => multiline SENTENCE or PNode
+  "What are the synactic parse trees of ___?"
+SemanticParse Features Text => multiline SENTENCE, Concept, or PNode
+  "What assertions does ___ express?"
+Generate Features Assertion => string
+  "What sentence expresses ___?"
+Chatterbot Features Text => string
+  "___?" (arbitrary natural language query)
+ClearContext => boolean
+  "Clear the discourse context."
+Quit => [server closes connection]
+  "I'm done."
+Bringdown => [server closes connection]
+  "Bring down the server."
+
+Optionally for all of the above: error
+</pre>
+<h3>TTSP implementations</h3>
+<p>
+Server implementations:
+<ul>
+<li>
+C: The ThoughtTreasure Server.
+</ul>
+<p>
+Client implementations:
+<ul>
+<li>
+<a href="../java/doc/index.html">Java: The ThoughtTreasure Java-based client API.</a>
+</ul>
+<h3>References</h3>
+<sp>
+Internet Assigned Numbers Authority. Port numbers.
+<hr>
+</body>
+</html>

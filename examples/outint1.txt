@@ -1,0 +1,535 @@
+> Karen Garnier daydreams.
+SEMANTICS:
+0.00000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> An American daydreams.
+SEMANTICS:
+0.81000:[present-indicative
+ [daydream
+  [such-that
+   [indefinite-article human]
+   [nationality-of human United-States]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2651 na]]
+> The American daydreams.
+SEMANTICS:
+0.81000:[present-indicative
+ [daydream
+  [such-that
+   [definite-article human]
+   [nationality-of human United-States]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2652 na]]
+> My sister daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [possessive-determiner sister-of]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of Jim human]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> She daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream subject-pronoun na]]
+ANAPHORA:
+[present-indicative
+ [daydream na na]]
+> Jim Garnier's sister daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [NAME-of human NAME:"Jim Garnier"]]
+    human]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> Karen Garnier, an American, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [nationality-of human United-States]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> Karen Garnier, my sister, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [standard-copula
+    [possessive-determiner sister-of]
+    human]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> Karen Garnier, Jim Garnier's sister, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [NAME-of human NAME:"Jim Garnier"]]
+    human]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> A cheerful American daydreams.
+SEMANTICS:
+0.72900:[present-indicative
+ [daydream
+  [such-that
+   human
+   [cheerful human]
+   [nationality-of human United-States]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream
+  [such-that
+   human
+   [cheerful human]
+   [nationality-of human United-States]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2653 na]]
+> The American who daydreams, ate.
+SEMANTICS:
+1.00000:[preterit-indicative
+ [ingest
+  [such-that
+   [definite-article human]
+   [present-indicative
+    [daydream human na]]
+   [nationality-of human United-States]]
+  food]]
+ANAPHORA:
+[preterit-indicative
+ [ingest human2654 food]]
+> The American who is Jim Garnier's sister, ate.
+SEMANTICS:
+0.10000:[preterit-indicative
+ [ingest
+  [such-that
+   human
+   [sister-of
+    [such-that
+     [definite-article human]
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [nationality-of human United-States]]
+    human]]
+  food]]
+1.00000:[preterit-indicative
+ [ingest
+  [such-that
+   [definite-article human]
+   [present-indicative
+    [standard-copula
+     human
+     [such-that
+      human
+      [sister-of
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]
+       human]]]]
+   [nationality-of human United-States]]
+  food]]
+ANAPHORA:
+[preterit-indicative
+ [ingest human2656 food]]
+ANAPHORA:
+[preterit-indicative
+ [ingest human2657 food]]
+> The American who is my sister, ate.
+SEMANTICS:
+1.00000:[preterit-indicative
+ [ingest
+  [such-that
+   [definite-article human]
+   [present-indicative
+    [standard-copula
+     human
+     [possessive-determiner sister-of]]]
+   [nationality-of human United-States]]
+  food]]
+1.00000:[preterit-indicative
+ [ingest
+  [such-that
+   [definite-article human]
+   [present-indicative
+    [isa
+     human
+     [possessive-determiner sister-of]]]
+   [nationality-of human United-States]]
+  food]]
+ANAPHORA:
+[preterit-indicative
+ [ingest human2658 food]]
+> Karen Garnier, an American who is my sister, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [nationality-of human United-States]
+   [present-indicative
+    [isa
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [nationality-of human United-States]
+   [present-indicative
+    [standard-copula
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [present-indicative
+    [standard-copula
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]
+   [nationality-of human United-States]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [present-indicative
+    [isa
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]
+   [nationality-of human United-States]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+> Karen Garnier, an American who is Jim Garnier's sister, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [nationality-of human United-States]
+   [present-indicative
+    [standard-copula
+     human
+     [such-that
+      human
+      [sister-of
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]
+       human]]]]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [present-indicative
+    [standard-copula
+     human
+     [such-that
+      human
+      [sister-of
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]
+       human]]]]
+   [NAME-of human NAME:"Karen Garnier"]
+   [nationality-of human United-States]]
+  na]]
+0.09000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     [indefinite-article human]
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [nationality-of human United-States]]
+    human]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.09000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [NAME-of human NAME:"Karen Garnier"]
+     [nationality-of human United-States]]
+    human]]
+  na]]
+0.00900:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [nationality-of human United-States]
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [NAME-of human NAME:"Karen Garnier"]]
+    human]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2661 na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2663 na]]
+> Karen Garnier, a cheerful American, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [nationality-of human United-States]
+   [cheerful human]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier2664 na]]
+> Karen Garnier, a cheerful American who is my sister, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [cheerful human]
+   [nationality-of human United-States]
+   [present-indicative
+    [isa
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [cheerful human]
+   [nationality-of human United-States]
+   [present-indicative
+    [standard-copula
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [present-indicative
+    [standard-copula
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]
+   [cheerful human]
+   [nationality-of human United-States]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [present-indicative
+    [isa
+     human
+     [possessive-determiner sister-of]]]
+   [NAME-of human NAME:"Karen Garnier"]
+   [cheerful human]
+   [nationality-of human United-States]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier2665 na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier2666 na]]
+> Karen Garnier, a cheerful American who is Jim Garnier's sister, daydreams.
+SEMANTICS:
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [cheerful human]
+   [nationality-of human United-States]
+   [present-indicative
+    [standard-copula
+     human
+     [such-that
+      human
+      [sister-of
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]
+       human]]]]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.90000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [present-indicative
+    [standard-copula
+     human
+     [such-that
+      human
+      [sister-of
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]
+       human]]]]
+   [NAME-of human NAME:"Karen Garnier"]
+   [cheerful human]
+   [nationality-of human United-States]]
+  na]]
+0.09000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [nationality-of human United-States]
+     [cheerful human]]
+    human]
+   [NAME-of human NAME:"Karen Garnier"]]
+  na]]
+0.09000:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [NAME-of human NAME:"Karen Garnier"]
+     [cheerful human]
+     [nationality-of human United-States]]
+    human]]
+  na]]
+0.00900:[present-indicative
+ [daydream
+  [such-that
+   human
+   [sister-of
+    [such-that
+     human
+     [cheerful human]
+     [nationality-of human United-States]
+     [present-indicative
+      [standard-copula
+       human
+       [such-that
+        human
+        [NAME-of human NAME:"Jim Garnier"]]]]
+     [NAME-of human NAME:"Karen Garnier"]]
+    human]]
+  na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier2667 na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier2668 na]]
+ANAPHORA:
+[present-indicative
+ [daydream Karen-Garnier2670 na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2672 na]]
+ANAPHORA:
+[present-indicative
+ [daydream human2674 na]]

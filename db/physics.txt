@@ -1,0 +1,432 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=universe.z/concept/possible#A universe*.z/possible#A world*.z/
+universe# ensemble*.z/world# ensemble*.z/
+hypothetical#A universe*.z/hypothetical#A world*.z/
+set* of#R possible#A universes#P.kz/
+set* of#R possible#A worlds#P.kz/
+set* of#R all#D universes#P.kz/
+set* of#R all#D worlds#P.kz/
+set* of#R all#D possible#A universes#P.kz/
+set* of#R all#D possible#A worlds#P.kz/
+ensemble* of#R all#D possible#A universes#P.kz/
+ensemble* of#R all#D possible#A worlds#P.kz/
+ensemble* of#R all#D universes#P.kz/
+ensemble* of#R all#D worlds#P.kz/
+ensemble* of#R possible#A universes#P.kz/
+ensemble* of#R possible#A worlds#P.kz/
+ensemble* of#R hypothetical#A or#K actual#A universes#P.z/
+metauniverse.kz/
+univers.My/
+;_______________________________________________________________________________
+=-universal#A theory*.z/cosmological-theory/theory* of#R the#D universe#.z/
+;_______________________________________________________________________________
+===visible#A universe*.z//observable#A universe*.z/
+;_______________________________________________________________________________
+===many#A-worlds#P universe*.z//alternative#A world*.z/alternate#A world*.z/
+alternative#A universe*.z/alternate#A universe*.z/Many#A Worlds#P.z/
+Many#A Worlds#P interpretation*.kz/
+;_______________________________________________________________________________
+===infinite#A universe*.z//
+====infinite#A inhomogeneous#A universe*.z//randomly#B infinite#A universe*.z/
+;_______________________________________________________________________________
+===cyclic#A universe*.z//oscillatory#A universe*.z/cyclic#A universe# model*.z/
+|@1977|create¤John-Wheeler|[text-ref cyclic-universe Barrow-Tipler-ACP
+"Universe may have a cyclic character" "248"]|
+;_______________________________________________________________________________
+===steady#A-state# universe*.z//
+;_______________________________________________________________________________
+===clockwork#A universe*.z//
+====Newtonian#A universe*.z//
+====UCST//universal#A computer# simulation# theory*.z/UCST.îTz/
+|[text-ref UCST Barrow-Tipler-ACP "entire Universe is envisaged as a program"
+  "125"]|
+[text-ref UCST Barrow-Tipler-ACP "equate the Universe with its simulation"
+ "154"]|
+[text-ref UCST Barrow-PITS "Universe as a great computer program" "248"]|
+[text-ref UCST Barrow-PITS
+ "just a software program that runs on the hardware of matter" "296"]|
+=====UCST-hardware//universe* as#K a#D giant#A computer#.z/
+=====UCST-software//universe* as#K a#D giant#A computer# program#.z/
+universe* as#K a#D Turing# Machine#.z/Universal#A Program*.z/
+Universal#A simulation*.z/
+;_______________________________________________________________________________
+===inflationary#A universe*.z//inflationary#A universe# theory*.z/
+inflationary#A universe# model*.z/
+;_______________________________________________________________________________
+====big#A bang# universe*.z//big#A-bang# theory*.z/
+théorie* du#R big#AMj-bang#NMj.@Fy/théorie* du#R big#AMj bang#NMj.@Fy/
+=====hot#A big#A bang# cosmology*.z//hot#A big#A bang# cosmological#A model*.z/
+;_______________________________________________________________________________
+====original#A inflation# theory*.z//|create¤Alexei-Starobinsky|
+====old#A inflation# theory*.z//old#A inflation*.Tz/
+|@1981|create¤Alan-Guth|
+====new#A inflation# theory*.z//new#A inflationary# universe# model*.z/
+new#A inflation*.Tz/|@1982|create¤Andrei-Linde|
+====chaotic#A inflationary#A universe*.z//chaotic#A inflation# theory*.z/
+chaotic#A inflationary# universe# model*.z/chaotic#A inflation*.Tz/
+|@1983|create¤Andrei-Linde|
+;_______________________________________________________________________________
+=-our-universe-other-universes-distinction//
+;_______________________________________________________________________________
+===our-universe/physical-object/our#DP universe*.Éz/Universe.¹kz/
+notre*DP univers*.ÉMy/Univers.¹kMy/
+====our-universe-alternative/many-worlds-universe/
+alternative#A version* of#R our#DP universe#.¹z/
+;_______________________________________________________________________________
+===other-universes//different#A universe*.Éz/another#D universe*.Éz/
+====other-universe-alternative/many-worlds-universe/
+alternative#A version* of#R a#D different#D universe#.¹z/
+;_______________________________________________________________________
+=superstring.z/matter/supercorde.¹Fy/
+;_______________________________________________________________________________
+=particle.z/matter/subatomic#A particle*.z/particule.¹Fy/
+|href="http://pdg.lbl.gov/"|
+;_______________________________________________________________________________
+;_______________________________________________________________________________
+==boson.z//interaction# carrier*.z/boson.¹My/
+===photon.z//gamma.tz/photon.My/|antiparticle-of=photon|electric-charge-of=0u|
+spin-of=1u|carrier-of¤electromagnetism|
+===gluon.z//g.tz/gluon.My/|carrier-of¤strong-force|
+====gluon1.z//
+====gluon2.z//
+====gluon3.z//
+====gluon4.z//
+====gluon5.z//
+====gluon6.z//
+====gluon7.z//
+====gluon8.z//
+===graviton.z//graviton.My/|carrier-of¤gravitation|
+===mediator# boson*.z//boson* vecteur*A.My/|carrier-of¤weak-force|
+====W# boson*.z//boson* vecteur*A W#.My/
+=====W#-plus*.z//
+=====W#-minus*.z//
+====Z# boson*.z//Z0.tz/boson* vecteur*A Z#.My/Z0.tMy/
+===heavy#A boson*.z//
+====Higgs# boson*.z//boson* de#R Higgs#.My/
+=====H#-plus*.z//
+=====H0.z//
+=====H#-minus*.z//
+===very#B light#A boson*.z//
+====axion.z//A0.tz/
+;_______________________________________________________________________________
+;_______________________________________________________________________________
+==lepton.z//lepton.¹My/leptonique.Ay/
+;_______________________________________________________________________________
+===electron.z/first-generation-fermion/e#-minus*.tz/électron.My/
+|electric-charge-of=-1u|spin-of=.5u,-.5u|baryon-number-of=0u|@1898|discover¤na|
+===positron.z/first-generation-fermion/e#-plus*.tz/positron,positon.¹My/
+|electric-charge-of=1u|antiparticle-of=electron|
+===muon.z/second-generation-fermion/mu#-minus*.tz/muon.My/muonique.Ay/
+|electric-charge-of=-1u|
+===antimuon.z//mu#-plus*.tz/antimuon.My/|electric-charge-of=1u|
+antiparticle-of=muon|
+===heavy# lepton*.z//
+====tau# lepton*.z/third-generation-fermion/tau.My/
+====antitau.z//|antiparticle-of=tau-lepton|
+;_______________________________________________________________________________
+===neutrino.z//neutrino.My/|electric-charge-of=0u|baryon-number-of=0u|
+====electron#-neutrino*.z/first-generation-fermion/electron# neutrino*.z/
+nu#-e*.tz/neutrino* d#R'électron#.My/neutrino* électron#.My/
+neutrino*-électron*.My/
+====muon#-neutrino*.z/second-generation-fermion/muon# neutrino*.z/
+muonneutrino.z/nu#-mu*.tz/neutrino* de#R muon#.My/neutrino* muon#.My/
+neutrino* mu#.My/
+====tau#-neutrino*.z/third-generation-fermion/tau# neutrino*.z/nu#-tau*.tz/
+neutrino* de#R tau#.My/neutrino* tau#.My/neutrino*-tau*.My/
+;_______________________________________________________________________________
+===antineutrino.z//antineutrino.My/|electric-charge-of=0u|
+====electron#-antineutrino*.z/first-generation-fermion/
+electron# antineutrino*.z/nu#-e#-bar*.tz/antineutrino* d#R'électron#.My/
+|antiparticle-of=electron-neutrino|
+====muon#-antineutrino*.z/second-generation-fermion/muon# antineutrino*.z/
+nu#-mu#-bar*.tz/antineutrino* de#R muon#.My/|antiparticle-of=muon-neutrino|
+====tau#-antineutrino*.z/third-generation-fermion/tau# antineutrino*.z/
+nu#-tau#-bar*.tz/antineutrino* de#R tau#.My/|antiparticle-of=tau-neutrino|
+;_______________________________________________________________________________
+===massive#A neutrino*.z//
+===lepton# mixing*.z//
+;_______________________________________________________________________________
+;_______________________________________________________________________________
+==quark.z//parton.oz/q.tz/quark.¹My/parton.oMy/
+===antiquark.z//q#-bar*.tz/anti#A-quark*.¹My/
+;_______________________________________________________________________________
+==-quark# flavor*.z//quark# species*.z/saveur* d#R'un#D quark#M.¹Fy/
+|spin-of=.5u|baryon-number-of=.333333333u|
+;_______________________________________________________________________________
+====up#A quark*.z/first-generation-fermion/u.tz/u# quark*.z/quark* u#.¹My/u.tMy/
+quark* haut*A.My/
+|electric-charge-of=.666666666u|@1960|discover¤na|
+====anti#B-up#A quark*.z/first-generation-fermion,antiquark/u#-bar*.tz/
+|electric-charge-of=-.666666666u|antiparticle-of=up-quark|
+====down#A quark*.z/first-generation-fermion/d.tz/d# quark*.z/quark* d#.¹My/
+d.tMy/quark* bas*A.My/
+|electric-charge-of=-.333333333u|@1960|discover¤na|
+====anti#B-down#A quark*.z/first-generation-fermion,antiquark/d#-bar*.tz/
+|electric-charge-of=.333333333u|antiparticle-of=down-quark|
+;_______________________________________________________________________________
+====charm# quark*.z/second-generation-fermion/charmed#A quark*.z/c.tz/
+c# quark*.z/charme.My/quark* c#.¹My/c.tMy/quark* charme#.My/
+|electric-charge-of=.666666666u|@1975|discover¤na|
+====anti#B-charm#A quark*.z/second-generation-fermion,antiquark/c#-bar*.tz/
+|electric-charge-of=-.666666666u|antiparticle-of=charm-quark|
+====strange#A quark*.z/second-generation-fermion/s.tz/s# quark*.z/étrangeté.Fy/
+quark* s#.¹My/s.tMy/quark* étrange*A.My/
+|electric-charge-of=-.333333333u|@1947|discover¤na|
+====anti#B-strange#A quark*.z/second-generation-fermion,antiquark/s#-bar*.tz/
+|electric-charge-of=.333333333u|antiparticle-of=strange-quark|
+;_______________________________________________________________________________
+====top#A quark*.z/third-generation-fermion/truth# quark*.z/t.tz/t# quark*.z/
+vérité.Fy/quark* t#.¹My/quark* top#.My/top.My/t.tMy/quark* sommet#.My/
+|electric-charge-of=.666666666u|@1994:1995|discover¤na|
+====anti#B-top#A quark*.z/third-generation-fermion,antiquark/t#-bar*.tz/
+|electric-charge-of=-.666666666u|antiparticle-of=top-quark|
+====bottom#A quark*.z/third-generation-fermion/beauty# quark*.z/b.tz/
+b# quark*.z/beauté.Fy/quark* b#.¹My/bottom.My/b.tMy/quark* beauté#F.My/
+|electric-charge-of=-.333333333u|@1981|discover¤na|
+====anti#B-bottom#A quark*.z/third-generation-fermion,antiquark/b#-bar*.tz/
+|electric-charge-of=.333333333u|antiparticle-of=bottom-quark|
+;_______________________________________________________________________________
+====b#-prime# quark*.z/fourth-generation-fermion/
+;_______________________________________________________________________________
+==-quark# color*.z//couleur* d#R'un#D quark#M.¹Fy/
+====red#A quark*.z//quark* rouge*A.My/
+====green#A quark*.z//quark* vert*A.My/
+====blue#A quark*.z//quark* bleu*A.My/
+;_______________________________________________________________________________
+==hadron.z//strongly#B interacting# particle*.z/hadron.My/
+|comment="built out of quarks and gluons"|
+;_______________________________________________________________________________
+===baryon.z//qqq.tz/|comment="built out of three quarks"|
+;_______________________________________________________________________________
+====unflavored#A baryon*.z//|strangeness-of=0u|charm-of=0u|bottomness-of=0u|
+;_______________________________________________________________________________
+=====nucleon.z/fermion/|spin-of=.5u|isospin-of=.5u|
+======neutron.z//n.tz/n# baryon*.z/neutron.My/|electric-charge-of=0u|
+baryon-number-of=1u|part-of¤up-quark,down-quark,down-quark|
+======antineutron.z//antineutron.My/|electric-charge-of=0u|baryon-number-of=-1u|
+antiparticle-of=neutron|
+======proton.z//p.tz/proton.My/|electric-charge-of=1u|baryon-number-of=1u|
+part-of¤up-quark,up-quark,down-quark|
+======antiproton.z//antiproton.My/|electric-charge-of=-1u|baryon-number-of=-1u|
+antiparticle-of=proton|
+;_______________________________________________________________________________
+=====delta# particle*.z//delta# baryon*.z/|spin-of=1.5u|isospin-of=1.5u|
+======delta#-plus#-plus*.z//|electric-charge-of=2u|
+part-of¤up-quark,up-quark,up-quark|
+======delta#-plus*.z//|electric-charge-of=1u|
+part-of¤up-quark,up-quark,down-quark|
+======delta0.z//|electric-charge-of=0u|part-of¤up-quark,down-quark,down-quark|
+======delta#-minus*.z//|electric-charge-of=-1u|
+part-of¤down-quark,down-quark,down-quark|
+;_______________________________________________________________________________
+====hyperon.z//strange#A baryon*.z/; strangeness-of != 0u
+;_______________________________________________________________________________
+=====lambda# particle*.z//lambda.z/lambda# baryon*.z/lambda# hyperon*.z/
+lambda.y/|strangeness-of=-1u|isospin-of=0u|
+part-of¤up-quark,down-quark,strange-quark|
+=====sigma# particle*.z//sigma.z/sigma# baryon*.z/sigma# hyperon*.z/
+|strangeness-of=-1u|spin-of=1.5u|isospin-of=1u|
+======sigma#-plus*.z//|electric-charge-of=1u|
+part-of¤up-quark,up-quark,strange-quark|
+======sigma0.z//|electric-charge-of=0u|
+part-of¤up-quark,down-quark,strange-quark|
+======sigma#-minus*.z//
+|electric-charge-of=-1u|part-of¤down-quark,down-quark,strange-quark|
+======sigma#-plus#-bar*.z//|antiparticle-of=sigma-plus|
+======sigma0#-bar*.z//|antiparticle-of=sigma0|
+======sigma#-minus#-bar*.z//|antiparticle-of=sigma-minus|
+;_______________________________________________________________________________
+=====xi# particle*.z//xi# baryon*.z/|strangeness-of=-2u|spin-of=1.5u|
+isospin-of=.5u|
+======xi0.z//|electric-charge-of=0u|
+part-of¤up-quark,strange-quark,strange-quark|
+======xi#-minus*.z//
+|electric-charge-of=-1u|part-of¤down-quark,strange-quark,strange-quark|
+;_______________________________________________________________________________
+=====omega# particle*.z//omega# baryon*.z/|strangeness-of=-3u|spin-of=1.5u|isospin-of=0u|
+======omega#-minus*.z//
+|electric-charge-of=-1u|part-of¤strange-quark,strange-quark,strange-quark|
+;_______________________________________________________________________________
+====charmed#A baryon*.z//|charm-of=1u|
+=====charmed#A lambda#-plus*.z//charmed#A lambda*.z/lambda#-c*.z/
+lambda#-c#-plus*.z/lambda* charmé*A.My/
+|electric-charge-of=1u|part-of¤up-quark,down-quark,charm-quark|
+=====charmed#A sigma*.z//
+=====charmed#A xi*.z//
+======charmed#A xi#-plus*.z//|electric-charge-of=1u|
+======charmed#A xi0*.z//|electric-charge-of=0u|
+=====charmed#A omega*.z//
+======charmed#A omega0*.z//|electric-charge-of=0u|
+;_______________________________________________________________________________
+====bottom#A baryon*.z//; bottomness-of != 0u
+=====bottom#A lambda*.z//
+======bottom#A lambda0*.z//|electric-charge-of=0u|
+;_______________________________________________________________________________
+===meson.z//q# q#-bar*.tz/quark#-antiquark# system*.z/méson.My/
+|baryon-number-of=0u|
+comment="built out of a quark and an antiquark"|
+;_______________________________________________________________________________
+====pi# meson*.z/boson/pion.z/méson* pi*ßA.My/|spin-of=0u|
+=====pi#-plus*.z//|part-of¤anti-down-quark,up-quark|
+=====pi0.z//|antiparticle-of=pi0|
+=====pi#-minus*.z//|part-of¤anti-up-quark,down-quark|
+;_______________________________________________________________________________
+====K# meson*.z/boson/méson* K#.My/|spin-of=0u|
+=====K#-plus*.z//
+=====K0.z//
+=====K#-minus*.z//
+=====K0S.z//
+=====K0L.z//
+;_______________________________________________________________________________
+====eta# meson*.z//
+=====eta-meson-eta//eta.z/
+=====eta#-prime*.z//
+;_______________________________________________________________________________
+====rho# meson*.z//|spin-of=1u|
+=====rho#-plus*.z//|part-of¤anti-down-quark,up-quark|
+=====rho0.z//
+=====rho#-minus*.z//|part-of¤anti-up-quark,down-quark|
+;_______________________________________________________________________________
+====a-1//a_1.z/
+====M# meson*.z/boson/méson* M#.My/
+;_______________________________________________________________________________
+====D# meson*.z//
+=====D#-plus*.z//|strangeness-of=0u|charm-of=1u|electric-charge-of=1u|
+part-of¤anti-down-quark,charm-quark|
+=====D0.z//|strangeness-of=0u|charm-of=1u|electric-charge-of=0u|
+part-of¤anti-up-quark,charm-quark|
+=====D-plus-S//D#-plus#-sÝS*.z/
+|strangeness-of=1u|charm-of=1u|electric-charge-of=1u|
+part-of¤anti-strange-quark,charm-quark|
+=====D-s//D#-sÝS*.z/
+======D-s-plus//D#-sÝS#-plus*.z/
+======D-s-minus//D#-sÝS#-minus*.z/
+====B# particle*.z//
+=====B#-plus*.z//
+=====B0.z//
+=====B#-minus*.z//
+=====B-s0//B_s0.z/
+=====B-s-star//B#-sÝS#-star*.z/
+;_______________________________________________________________________________
+====strange#A meson*.z//|charm-of=0u|bottomness-of=0u|; strangeness-of != 0
+=====K#-star*.z//
+=====K-2//K_2.z/
+=====phi# particle*.z//phi.z/phi.My/|part-of¤anti-strange-quark,strange-quark|
+electric-charge-of=0u|
+;_______________________________________________________________________________
+====charmed#A meson*.z//méson* charmé*A.My/; charm-of != 0
+=====D#-star*.z//
+;=====D-star-2//D#-star_2*.z/
+;<D-star_2>: <*> in <2*> unexpected in phrase word
+;_______________________________________________________________________________
+====charmed#A strange#A meson*.z//; strangeness-of != 0 charm-of != 0
+=====D-star-s//D#-star#-sÝS*.z/D#-s#-star*.z/
+======D-s-star-plus//D#-sÝS#-star#-plus*.z/
+======D-s-star-minus//D#-sÝS#-star#-minus*.z/
+;_______________________________________________________________________________
+====c# c#-bar# meson*.z//c# cbar# meson*.z/charmonium.z/
+|electric-charge-of=0u|part-of¤anti-charm-quark,charm-quark|
+=====chi-c0//chi_c0.z/
+=====eta#-c*.z//
+=====J# family*.z//psi# meson*.z/famille* J#M.Fy/famille* psi#C.Fy/
+méson* psi#.My/|electric-charge-of=0u|@1974|discover¤na|
+;_______________________________________________________________________________
+====b# b#-bar# meson*.z//b# bbar# meson*.z/
+|electric-charge-of=0u|part-of¤anti-bottom-quark,bottom-quark|
+=====upsilon# particle*.z//upsilon# meson*.z/famille* upsilon#M.Fy/
+|electric-charge-of=0u|@197806|discover¤na|
+=====chi-b2//chi_b2.z/
+;_______________________________________________________________________________
+===non#B-q# qbar*.z//
+===diquark.z//qq.tz/|comment="consists of two quarks"|
+===four#A quark# state*.z//qqqq.tz/|comment="consists of four quarks"|
+;_______________________________________________________________________________
+===unidentified#A particle*.z//
+====iota# particle*.z//iota.z/
+;_______________________________________________________________________________
+==fermion.z//fermion.My/; todo: any and all particles with spin .5 or 0
+===first#A generation# fermion*.z//fermion* de#R première#AF famille#F.@My/
+===second#A generation# fermion*.z//fermion* de#R deuxième#AF famille#F.@My/
+===third#A generation# fermion*.z//fermion* de#R troisième#AF famille#F.@My/
+===fourth#A generation# fermion*.z//fermion* de#R quatrième#AF famille#F.@My/
+;_______________________________________________________________________________
+=heat# source*.z/matter/
+;_______________________________________________________________________________
+=light# source*.z/matter/
+;_______________________________________________________________________________
+=power# source*.z/matter/
+;_______________________________________________________________________________
+=force.z/matter/force.Fy/
+;_______________________________________________________________________________
+==weak#A force*.kz//weak#A interaction*.z/interaction* faible*A.kFy/
+force* faible*A.kFy/
+==strong#A force*.kz//strong#A interaction*.kz/interaction* forte*A.kFy/
+force* forte*A.kFy/
+==gravitation.z//gravitation.Fy/force* de#R gravité#.kFy/
+==electricity.mz/power-source/électricité.Fy/
+==magnetism.mz//magnétisme.My/
+==pressure.z//pression.Fy/
+;_______________________________________________________________________________
+==electromagnetism.z/electricity,magnetism/electromagnetic#A radiation*.mz/
+électromagnétisme.¹My/onde* électromagnétique*A.Fy/radiation.Fy/
+radiation* électromagnétique*A.¹Fy/force* électromagnétique*A.kFy/
+;_______________________________________________________________________________
+===radio# wave*.z//radiofrequency.Az/RF.Az/
+onde* hertzienne*A,onde* radioélectrique*A.Fy/radiofréquence.Fy/
+====VLF.z//very#B low#A frequency*.¹z/très#B basse*A fréquence*.Fy/VLF,TBF.Fy/
+bande* Mam#M.Fy/onde* myriamétrique*A.Fy/
+====LF.z//long#A wave*.¹z/low#A frequency*.z/grande*A onde*.Fy/
+onde* longue*A.Fy/basse* fréquence*.Fy/LF,BF.Fy/bande* km#M.Fy/
+onde* kilométrique*A.Fy/
+====MF.z//medium#A wave*.¹z/medium#A frequency*.z/onde* moyenne*A.Fy/
+petite*A onde*.Fy/moyenne*A fréquence*.Fy/MF,FL.y/bande* hm#M.Fy/
+onde* hectométrique*A.Fy/
+====SW.z//shortwave.z/short#A wave*.z/high#A frequency*.z/HF.z/
+onde* courte*A.Fy/haute*A fréquence*.Fy/HF.Fy/bande* dam#M.Fy/
+onde* décamétrique*A.Fy/
+====VHF.z//very#B high#A frequency*.z/très#B haute*A fréquence*.Fy/THF,VHF.Fy/
+bande* m#M.Fy/onde* métrique*A.Fy/
+====UHF.z//ultrahigh#A frequency*.z/ultra#B-haute*A fréquence*.Fy/UHF.Fy/
+bande* dm#M.Fy/onde* décimétrique*A.Fy/
+====SHF.z//shf.z/superhigh#A frequency*.z/bande* cm#M.Fy/SHF.Fy/
+onde* centimétrique*A.Fy/
+====EHF.z//ehf.z/extremely#B high#A frequency*.z/bande* mm#M.Fy/EHF.Fy/
+onde* millimétrique*A.Fy/
+====bande* dmm#M.Fy//onde* décimillimétrique*A.Fy/
+====microwave.z//micro*A-onde*.Fy/
+;_______________________________________________________________________________
+===infrared.z//rayon* infrarouge*A.My/
+===EM-light//light.mz/visible#A light*.mz/lumière.Fy/radiation* visible*A.Fy/
+onde* lumineuse*A de#R la#D lumière#F.Fy/|frequency-of=780¯380ang|
+====spectrum.z//rainbow.z/
+===ultraviolet.z//ultraviolet.Az/rayon* ultraviolet*A.My/ultraviolet.Ay/
+===x#S-ray*.z//rayon* X#.My/
+===gamma# ray*.z//rayon* gamma*Aß.My/
+;_______________________________________________________________________________
+=waveform.z/matter/
+;_______________________________________________________________________________
+==EKG.Àz//ECG.gz/heart# rate*.z/electrocardiogram.z/
+électrocardiogramme.My/électrocardiographique.Ay/électrocardiographie.ÎFy/
+;_______________________________________________________________________________
+==EMG.Tz//
+;_______________________________________________________________________________
+==brainwave.z//brain# wave*.z/EEG.z/EEG# rhythm*,EEG# pattern*.z/
+electroencephalogram.tz/brain# electrical#A activity*.mz/
+brain# electrical#A activity# pattern*.z/onde* cérébrale*A.Fy/
+électroencéphalogramme,électro*ßA-encéphalogramme*,encéphalogramme.My/EEG.My/
+===alpha# wave*.z//alpha# EEG*.z/alpha# rhythm*.z/rythme* alpha*ßA.My/
+rythme* de#R repos#.My/
+|frequency-of=8¯13hz|
+===beta# wave*.z//fast#A EEG*.z/rythme* bêta*ßA.My/|frequency-of=13¯40hz|
+===delta# wave*.z//delta# rhythm*.z/|frequency-of=.5¯3hz|
+===K# complex*.z//K#-complex*.z/|frequency-of=12¯14hz|
+===theta# wave*.z//theta# activity*.mz/rythme* thêta*ßA.My/
+|frequency-of=3.5¯8hz|
+===sleep# spindle*.z//
+;_______________________________________________________________________________
+=sound.z/matter,waveform/audio.z/phono.tz/son.¹My/bruit.qMy/perceptible.Ay/
+;_______________________________________________________________________________

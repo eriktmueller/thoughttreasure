@@ -1,0 +1,145 @@
+> Who directed Rendezvous in Paris?
+SEMANTIC PARSE CONCEPTS:
+0.810:[past-participle
+ [director-of RDP human-interrogative-pronoun]]
+0.810:[preterit-indicative
+ [director-of RDP human-interrogative-pronoun]]
+0.510:[past-participle
+ [director-of RDP rock-group-the-Who]]
+0.510:[preterit-indicative
+ [director-of RDP rock-group-the-Who]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of RDP human-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of RDP human-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of RDP rock-group-the-Who]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of RDP rock-group-the-Who]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <directed.iVz:direct>]]
+  [X [N <Rendezvous in Paris.Nz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12|[preterit-indicative
+ [director-of RDP human-interrogative-pronoun]]
+Eric Rohmer directed Rendezvous in Paris.
+> Who starred in the film?
+SEMANTIC PARSE CONCEPTS:
+0.900:[past-participle
+ [actor-of
+  [definite-article film]
+  human-interrogative-pronoun
+  na]]
+0.900:[preterit-indicative
+ [actor-of
+  [definite-article film]
+  human-interrogative-pronoun
+  na]]
+0.567:[past-participle
+ [actor-of
+  [definite-article film]
+  rock-group-the-Who
+  na]]
+0.567:[preterit-indicative
+ [actor-of
+  [definite-article film]
+  rock-group-the-Who
+  na]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [actor-of RDP human-interrogative-pronoun na]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [actor-of RDP human-interrogative-pronoun na]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [actor-of RDP rock-group-the-Who na]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [actor-of RDP rock-group-the-Who na]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <starred.iVz:star>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <the.Dz¸>]
+    [X [N <film.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#122|[preterit-indicative
+ [actor-of RDP human-interrogative-pronoun na]]
+Clara Bellar starred in Rendezvous in Paris in 1992. Antoine Basler starred in
+Rendezvous in Paris. Mathias Megard starred in Rendezvous in Paris. Aurore
+Rauscher starred in Rendezvous in Paris.
+> Is the Hunchback of Notre Dame rated PG?
+SEMANTIC PARSE CONCEPTS:
+[MPAA-rating-of Hunchback-of-Notre-Dame MPAA-PG]
+ANAPHORIC PARSE CONCEPT:
+[MPAA-rating-of Hunchback-of-Notre-Dame MPAA-PG]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W
+    [W [V <Is.p3SVz¸:be>]]
+    [X
+     [D <the.Dz¸>]
+     [X [N <Hunchback of Notre Dame.SNz>]]]]
+   [0 <rated.0z>]]
+  [X [N <PG.Nz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1221|[MPAA-rating-of Hunchback-of-Notre-Dame MPAA-PG]
+No, the Hunchback of Notre Dame is not rated PG.
+> The animated movie got a G rating?
+SEMANTIC PARSE CONCEPTS:
+0.729:[past-participle
+ [MPAA-rating-of
+  [definite-article animated-film]
+  [indefinite-article MPAA-G]]]
+0.729:[past-participle
+ [begin-copula
+  [definite-article animated-film]
+  [indefinite-article MPAA-G]]]
+0.729:[preterit-indicative
+ [MPAA-rating-of
+  [definite-article animated-film]
+  [indefinite-article MPAA-G]]]
+0.729:[preterit-indicative
+ [begin-copula
+  [definite-article animated-film]
+  [indefinite-article MPAA-G]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [MPAA-rating-of Hunchback-of-Notre-Dame MPAA-G]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [begin-copula Hunchback-of-Notre-Dame MPAA-G]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [MPAA-rating-of Hunchback-of-Notre-Dame MPAA-G]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [begin-copula Hunchback-of-Notre-Dame MPAA-G]]
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <The.Dz¸:the>]
+  [X [N <animated movie.SNz>]]]
+ [W
+  [W [V <got.iVz¸:get>]]
+  [X
+   [D <a.S·Dz¸>]
+   [X [N <G rating.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12213|[preterit-indicative
+ [MPAA-rating-of Hunchback-of-Notre-Dame MPAA-G]]
+Yes, the Hunchback of Notre Dame was in fact rated g.

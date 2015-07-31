@@ -1,0 +1,438 @@
+*** CLOTHING
+(A)  N ENG SING
+  (1) &clothing &../db/Clothing.txt FREQ U ENG wardrobe, garb INFML U, garment,
+costume, dress U, attire U, wear U, apparel U, clothes PL C; FR tenue F,
+vêtement M; ENG raiment FML, wearing apparel U, rags PL SL C, threads PL INFML
+C, gear INFML U, getup INFML, style, fashion; FR sape F SL, pelure F INFML U,
+frusques FPL INFML DEROG C, nippes FPL INFML C, fringues FPL INFML C, toilette
+F, garde-robe F, habillement M, costume M, ajustement M, habit M; ENG caparison
+RARE, livery RARE, rig INFML RARE, turnout INFML RARE, trappings PL RARE C,
+accoutrements PL RARE C, accoutrements PL RARE C, things PL RARE C, furnishings
+PL RARE C, linens PL RARE C, feathers PL RARE C, habiliments PL RARE C, duds PL
+INFML RARE C, togs PL INFML RARE C, toggery INFML RARE, drapery RARE, robe
+RARE, robing RARE, trim RARE, toilette F RARE, guise RARE, habit RARE, array
+RARE, garmenture RARE, dressing RARE; FR trousseau M RARE, équipement M RARE,
+look M RARE, allure F RARE, affaires FPL RARE C, mise F RARE; ENG clobber SL GB
+U, fig GB; vestmental ADJ RARE;
+
+A wardrobe is a type of personal article. Types of wardrobes: footwear, gloves,
+hosiery, neckwear, pajamas, pants, short pants, socks, suspenders, the apron,
+the belt, the cloak, the coat, the cuff link, the dishabille, the dress, the
+handkerchief, the hat, the jacket, the legging, the outfit, the overcoat, the
+shirt, the skirt, the sweater, the veil, the vest, and undergarments. Other
+types of personal articles: cash, glasses, leather goods, stationery, the
+baggage, the birth control device, the check, the checkbook, the credit card,
+the dental care article, the hair care article, the handbag, the key, the key
+chain, the skin care article, the towel, the umbrella, the washcloth, and the
+writing instrument.
+
+
+A clothing dealer is knowledgeable about a wardrobe. A raiment is a R3 of a
+primitive action and a tog. A raiment is a R2 of a personal script, a personal
+script, and a human relation. A raiment is a R1 of a personality trait.
+Clothing industry is a manufacturer of a wardrobe.
+
+wardrobe                                          black
+_________________________________________________ _____
+"chaussettes d'Ermenegildo Zegna" FPL             0.5  
+"cravate en soie numéro 70 d'Ermenegildo Zegna" F 0.3  
+"pantalon d'Ermenegildo Zegna" M                  0.99 
+"pantalon en laine De Fursac" M                   0.3  
+"veste droite d'Ermenegildo Zegna" F              0.5  
+Bill Robinson shirt                               0.1  
+Breffni Prince sweater                            0.5  
+daniel craig tie                                  0.9  
+Dash coat                                         0.9  
+double-breasted De Fursac jacket                  0.3  
+double-breasted Ermenegildo Zegna jacket          0.99 
+double-breasted two-piece De Fursac suit          0.3  
+double-breasted two-piece Ermenegildo Zegna suit  0.99 
+Gotcha trunks PL                                  0.4  
+Mani by Giorgio Armani overcoat                   0.8  
+Nicole Miller tie                                 0.5  
+Rose scarf                                        0.5  
+Speedo thongs PL                                  0.7  
+touch of gold T-shirt                             0.1  
+
+wardrobe                                                
+_______________________________________ ________________
+"Giorgio Armani jacket" F               Italian         
+"pantalon en coton de Giorgio Armani" M Italian         
+"Richelieu de Jean Thiot" M             French          
+"T-shirt de Oxbow" M                    French          
+501                                     American        
+510                                     American        
+Alfani belt                             Taiwanian       
+Austin Grey fitted shirt                "Hongkongais" M 
+b.u.m. equipment shorts PL              Turkey          
+Barney's tie                            Italian         
+Bill Robinson shirt                     "Hongkongais" M 
+Breffni Prince sweater                  Irishwoman F    
+daniel craig tie                        Italian         
+Dash coat                               Canadian        
+Florenzi shirt                          "Hongkongais" M 
+Gotcha trunks PL                        Taiwanian       
+Loris Azzaro tie                        French          
+Mani by Giorgio Armani overcoat         Italian         
+Pere Mar coat                           Korean          
+Reebok HardCourt sneakers PL            Korean          
+Russell athletic sweatpants PL          American        
+Russell athletic sweatshirt             American        
+Rykiel tie                              French          
+Screen Stars T-shirt                    American        
+Sole shirt                              Taiwanian       
+Speedo trunks PL                        American        
+Studio 0001 corduroys by Ferre PL       Italian         
+touch of gold T-shirt                   American        
+Ungaro Uomo sweater                     "Hongkongais" M 
+Unionbay shorts PL                      Taiwanian       
+Valentino tie                           Italian         
+Woodhouse shirt                         Indian          
+
+wardrobe                                         white
+________________________________________________ _____
+"chemise de Ciao" F                              0.1  
+"chemise grise et blanche d'Ermenegildo Zegna" F 0.3  
+"pull De Fursac" M                               0.05 
+"T-shirt de Galfa Club" M                        0.1  
+Bill Robinson shirt                              0.1  
+Breffni Prince sweater                           0.5  
+daniel craig tie                                 0.1  
+Dash coat                                        0.1  
+Giorgio Armani dress shirt                       0.8  
+Gotcha trunks PL                                 0.3  
+Mani by Giorgio Armani overcoat                  0.2  
+Reebok HardCourt sneakers PL                     0.8  
+Rose scarf                                       0.5  
+touch of gold T-shirt                            0.7  
+Ungaro Uomo sweater                              0.1  
+
+wardrobe                                          red  
+_________________________________________________ _____
+"chaussettes d'Ermenegildo Zegna" FPL             0.5  
+"cravate en soie numéro 21 d'Ermenegildo Zegna" F 0.7  
+"cravate en soie numéro 70 d'Ermenegildo Zegna" F 0.3  
+"pantalon d'Ermenegildo Zegna" M                  0.01 
+"pull De Fursac" M                                0.1  
+"T-shirt de Oxbow" M                              0.5  
+"veste droite d'Ermenegildo Zegna" F              0.5  
+Barney's tie                                      0.5  
+double-breasted Ermenegildo Zegna jacket          0.01 
+double-breasted two-piece Ermenegildo Zegna suit  0.01 
+touch of gold T-shirt                             0.1  
+
+wardrobe                                          grey 
+_________________________________________________ _____
+"chemise grise et blanche d'Ermenegildo Zegna" F  0.7  
+"cravate en soie numéro 70 d'Ermenegildo Zegna" F 0.2  
+"pull De Fursac" M                                0.05 
+Bill Robinson shirt                               0.8  
+Nicole Miller tie                                 0.1  
+Ungaro Uomo sweater                               0.2  
+
+wardrobe                     blue
+____________________________ ____
+"T-shirt de Galfa Club" M    0.5 
+Loris Azzaro tie             0.5 
+Reebok HardCourt sneakers PL 0.2 
+UCLA Bruins shorts PL        0.7 
+Valentino tie                0.2 
+
+wardrobe                              yellow
+_____________________________________ ______
+"costume droit en laine De Fursac" M  0.34  
+"pantalon jaune en laine De Fursac" M 0.34  
+"T-shirt de Galfa Club" M             0.15  
+"T-shirt de Oxbow" M                  0.2   
+Gotcha trunks PL                      0.3   
+UCLA Bruins shorts PL                 0.1   
+
+wardrobe          blue-green
+_________________ __________
+Nicole Miller tie 0.2       
+Woodhouse shirt   0.3       
+
+wardrobe                  violet
+_________________________ ______
+"pull De Fursac" M        0.05  
+"T-shirt de Galfa Club" M 0.15  
+
+wardrobe            cyan
+___________________ ____
+"chemise de Ciao" F 0.1 
+Unionbay shorts PL  0.1 
+
+wardrobe                              light brown
+_____________________________________ ___________
+"costume droit en laine De Fursac" M  0.33       
+"Giorgio Armani jacket" F             0.2        
+"pantalon jaune en laine De Fursac" M 0.33       
+"T-shirt de Oxbow" M                  0.2        
+
+wardrobe                   burgundy
+__________________________ ________
+Giorgio Armani dress shirt 0.1     
+Valentino tie              0.8     
+
+wardrobe                                          orange
+_________________________________________________ ______
+"cravate en soie numéro 21 d'Ermenegildo Zegna" F 0.1   
+"pull De Fursac" M                                0.1   
+Nicole Miller tie                                 0.1   
+Rykiel tie                                        0.3   
+
+wardrobe     orange-red
+____________ __________
+Barney's tie 0.1       
+Rykiel tie   0.7       
+
+wardrobe                  magenta
+_________________________ _______
+"T-shirt de Galfa Club" M 0.1    
+Loris Azzaro tie          0.2    
+
+wardrobe              light blue
+_____________________ __________
+Loris Azzaro tie      0.2       
+touch of gold T-shirt 0.1       
+Unionbay shorts PL    0.8       
+
+wardrobe                                          green
+_________________________________________________ _____
+"cravate en soie numéro 21 d'Ermenegildo Zegna" F 0.1  
+Barney's tie                                      0.1  
+Loris Azzaro tie                                  0.1  
+Unionbay shorts PL                                0.1  
+
+wardrobe            pink
+___________________ ____
+"chemise de Ciao" F 0.7 
+Nicole Miller tie   0.1 
+Woodhouse shirt     0.2 
+
+wardrobe                  olive-green
+_________________________ ___________
+"Giorgio Armani jacket" F 0.6        
+Barney's tie              0.1        
+
+wardrobe                                          brown
+_________________________________________________ _____
+"cravate en soie numéro 21 d'Ermenegildo Zegna" F 0.1  
+Barney's tie                                      0.2  
+Woodhouse shirt                                   0.2  
+
+wardrobe                                          light grey
+_________________________________________________ __________
+"cravate en soie numéro 70 d'Ermenegildo Zegna" F 0.2       
+Giorgio Armani dress shirt                        0.1       
+Woodhouse shirt                                   0.3       
+
+wardrobe                                          last price      
+_________________________________________________ ________________
+"ceinture d'Ermenegildo Zegna" F                  650 francs PL   
+"chaussettes d'Ermenegildo Zegna" FPL             165 francs PL   
+"chemise blanche en coton d'Ermenegildo Zegna" F  850 francs PL   
+"chemise grise en coton d'Ermenegildo Zegna" F    850 francs PL   
+"chemise grise et blanche d'Ermenegildo Zegna" F  950 francs PL   
+"chemise noire en coton d'Ermenegildo Zegna" F    850 francs PL   
+"chemise rouge en coton d'Ermenegildo Zegna" F    890 francs PL   
+"cravate en soie numéro 21 d'Ermenegildo Zegna" F 550 francs PL   
+"cravate en soie numéro 70 d'Ermenegildo Zegna" F 550 francs PL   
+"pantalon en coton d'Ermenegildo Zegna" M         1850 francs PL  
+"pantalon en laine d'Ermenegildo Zegna" M         1250 francs PL  
+"pantalon noir en laine d'Ermenegildo Zegna" M    2550 francs PL  
+"veste droite d'Ermenegildo Zegna" F              6190 francs PL  
+Bullock's belt                                    16.5 dollars PL 
+double-breasted two-piece Ermenegildo Zegna suit  8450 francs PL  
+
+wardrobe                        cotton
+_______________________________ ______
+"pardessus de Daniel Hechter" M 0.44  
+"T-shirt de Galfa Club" M       0.33  
+Austin Grey fitted shirt        0.7   
+Breffni Prince sweater          0.48  
+Gotcha trunks PL                0.22  
+Pere Mar coat                   0.175 
+Russell athletic sweatpants PL  0.5   
+Russell athletic sweatshirt     0.5   
+Sole shirt                      0.35  
+touch of gold T-shirt           0.5   
+Ungaro Uomo sweater             0.52  
+
+wardrobe                                            
+_______________________________________ ____________
+"pantalon en coton de Giorgio Armani" M 30          
+510                                     32 31       
+Alfani belt                             30          
+Austin Grey fitted shirt                32.5 14.5   
+b.u.m. equipment shorts PL              medium      
+Bill Robinson shirt                     small       
+Breffni Prince sweater                  medium      
+Bullock's belt                          30          
+Christopher Hayes briefs PL             38          
+Christopher Hayes undershirt            39          
+Dash coat                               40          
+Florenzi shirt                          small       
+Fruit Of The Loom undershirt            35          
+Giorgio Armani dress shirt              32.5 14.5   
+Gotcha trunks PL                        28          
+Pere Mar coat                           medium      
+Reebok HardCourt sneakers PL            8.5         
+Sole shirt                              small       
+Speedo trunks PL                        small       
+Studio 0001 corduroys by Ferre PL       30          
+touch of gold T-shirt                   medium      
+UCLA Bruins shorts PL                   33          
+Ungaro Uomo sweater                     small       
+Unionbay shorts PL                      extra large 
+Woodhouse shirt                         medium      
+
+wardrobe       model
+______________ _____
+Alfani belt    8024 
+Bullock's belt 7282 
+
+wardrobe                              dark brown
+_____________________________________ __________
+"costume droit en laine De Fursac" M  0.33      
+"Giorgio Armani jacket" F             0.2       
+"pantalon jaune en laine De Fursac" M 0.33      
+
+wardrobe                                                 
+________________________________________________ ________
+"chemise blanche en coton d'Ermenegildo Zegna" F 14.5 37 
+"chemise de Ciao" F                              large   
+"chemise grise en coton d'Ermenegildo Zegna" F   14.5 37 
+"chemise grise et blanche d'Ermenegildo Zegna" F 14.5 37 
+"chemise noire en coton d'Ermenegildo Zegna" F   14.5 37 
+"chemise rouge en coton d'Ermenegildo Zegna" F   14.5 37 
+"pantalon d'Ermenegildo Zegna" M                 46      
+"pantalon en coton d'Ermenegildo Zegna" M        40      
+"pantalon en laine d'Ermenegildo Zegna" M        38      
+"pantalon noir en laine d'Ermenegildo Zegna" M   38      
+"pardessus de Daniel Hechter" M                  46      
+"pull De Fursac" M                               48      
+"Richelieu de Jean Thiot" M                      41.5    
+"T-shirt de Galfa Club" M                        medium  
+"T-shirt de Oxbow" M                             medium  
+double-breasted De Fursac jacket                 46      
+double-breasted Ermenegildo Zegna jacket         46      
+double-breasted two-piece Ermenegildo Zegna suit 46      
+Liberto army shorts PL                           40      
+Reebok HardCourt sneakers PL                     42      
+
+wardrobe                                 dark grey
+________________________________________ _________
+"chemise de Ciao" F                      0.1      
+"pantalon en laine De Fursac" M          0.7      
+"pull De Fursac" M                       0.55     
+double-breasted De Fursac jacket         0.7      
+double-breasted two-piece De Fursac suit 0.7      
+Ungaro Uomo sweater                      0.7      
+
+wardrobe                       polyester
+______________________________ _________
+Austin Grey fitted shirt       0.3      
+Gotcha trunks PL               0.42     
+Pere Mar coat                  0.825    
+Russell athletic sweatpants PL 0.49     
+Russell athletic sweatshirt    0.5      
+Sole shirt                     0.65     
+touch of gold T-shirt          0.5      
+
+wardrobe                        viscose
+_______________________________ _______
+"pardessus de Daniel Hechter" M 0.275  
+"T-shirt de Galfa Club" M       0.67   
+
+wardrobe                       rayon
+______________________________ _____
+Russell athletic sweatpants PL 0.01 
+Ungaro Uomo sweater            0.48 
+
+wardrobe  manufacturer       
+_________ ___________________
+bra       Playtex "Cacharel" 
+briefs PL Jockey             
+briefs PL Jockey             
+
+wardrobe                                 HASA relation                                    
+________________________________________ _________________________________________________
+"gilet de Gianfranco Ferre" M            "costume droit de Gianfranco Ferre" M            
+"pantalon d'Ermenegildo Zegna" M         double-breasted two-piece Ermenegildo Zegna suit 
+"pantalon en laine De Fursac" M          double-breasted two-piece De Fursac suit         
+"pantalon jaune en laine De Fursac" M    "costume droit en laine De Fursac" M             
+"pantalon noir de Gianfranco Ferre" M    "costume droit de Gianfranco Ferre" M            
+"veste droite de Gianfranco Ferre" F     "costume droit de Gianfranco Ferre" M            
+double-breasted De Fursac jacket         double-breasted two-piece De Fursac suit         
+double-breasted Ermenegildo Zegna jacket double-breasted two-piece Ermenegildo Zegna suit 
+
+wardrobe         product 
+________________ ________
+Levi's jeans PL  Levi    
+Speedo thongs PL Speedo  
+Speedo trunks PL Speedo  
+Wonderbra        Playtex 
+
+wardrobe                 specialty               
+________________________ ________________________
+boot                     bootmaker               
+dress                    dressmaker              
+footwear                 shoemaker shoe dealer   
+gloves PL                glover                  
+hosiery                  hosier                  
+menswear                 men's clothing dealer   
+ready-to-wear clothes PL clothier                
+secondhand clothes PL    used clothing dealer    
+shirt                    shirtmaker              
+womenswear               women's clothing dealer 
+
+wardrobe                                         HASA relation                                                  
+________________________________________________ _______________________________________________________________
+"costume droit de Gianfranco Ferre" M            "pantalon noir de Gianfranco Ferre" M "gilet de Gianfranco Ferr
+"costume droit en laine De Fursac" M             "pantalon jaune en laine De Fursac" M                          
+double-breasted two-piece De Fursac suit         "pantalon en laine De Fursac" M double-breasted De Fursac jacke
+double-breasted two-piece Ermenegildo Zegna suit "pantalon d'Ermenegildo Zegna" M double-breasted Ermenegildo Ze
+pants PL                                         right pocket left pocket                                       
+short pants PL                                   right pocket left pocket                                       
+
+Clothing industry is a manufacturer of a wardrobe.
+
+
+A wardrobe. A human relation. Fancy dress. A personal script. A bedroom. Human.
+An organ of digestive system. A dentin. A tooth. An apex.
+
+(B)  V ENG PRESP clothe
+  (1) &pull-on &primitive-action FREQ [SUBJECT MANIPULATOR] clothe [DO ANIMAL]
+(IO in+WARDROBE) ENG outfit (in), dress (in); attire (in), costume (in), deck
+(in); FR vêtir (de), habiller (de); ENG sock (in) RARE, stock (in) RARE, shoe
+(in) RARE, boot (in) RARE, hood (in) RARE, hat (in) RARE, cap (in) RARE, bonnet
+(in) RARE, coif (in) RARE, shirt (in) RARE, breech (in) RARE, frock (in) RARE,
+gown (in) RARE, jacket (in) RARE, coat (in) RARE, mantle (in) RARE, cloak (in)
+RARE, masquerade (in) RARE, disguise (in) RARE, suit (in) RARE, habit (in)
+RARE, fit (in) RARE, rig (in) RARE, caparison (in) RARE, uniform (in) RARE,
+accouter (in) RARE, equip (in) RARE, turn out (in) RARE, fit out (in) RARE, rig
+up (in) RARE, rig out (in) RARE, rag up (in) RARE, rag out (in) RARE, dud (in)
+RARE, swaddle (in) RARE, swathe (in) RARE, muffle up (in) RARE, bundle up (in)
+RARE, wrap up (in) RARE, enshroud (in) RARE, shroud (in) RARE, sheathe (in)
+RARE, envelop (in) RARE, lap (in) RARE, enwrap (in) RARE, wrap (in) RARE,
+bedrape (in) RARE, drape (in) RARE, dight (in) RARE, bedeck (in) RARE, endue
+(in) RARE, invest (in) RARE, enrobe (in) RARE, robe (in) RARE, habilitate (in)
+RARE, garment (in) RARE, raiment (in) RARE, apparel (in) RARE, array (in) RARE,
+tire (in) RARE, garb (in) RARE, enclothe (in) RARE; tog (in) N INFML RARE;
+
+A tog is a type of primitive action. Other types of primitive actions: bring,
+close, connect, create, destroy, discover, fill, flip, give, go, grasp, hit,
+ingest, let, lie, lower, move, open, pour, rub, sit, stand, take, the chronic
+illness attack, the mtran, touch, translate, and others.
+
+A tog takes 5 seconds. A manipulator is a R1 of a tog. An animal is a R2 of a
+tog. A raiment is a R3 of a tog. A physical object is a W1 of a tog.
+
+It is a R2 of a tog and a killing.
+
+
+A tog. An animal. A body position. A physical object. A script. Human. An owner.
+A stock. A stock option. An option. A premium. A last price. A quote. An
+attribute. An offer price.
+

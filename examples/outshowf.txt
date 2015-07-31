@@ -1,0 +1,761 @@
+& Jim Garnier est dans la chambre de Jim Garnier.
+& Il porte un pyjama.
+& Il porte un pyjama.
+& Il veut prendre une douche.
+& Jim Garnier est motivé.
+& Il est motivé, puisqu'il veut prendre une douche.
+& Il veut se déshabiller.
+& Il veut retirer un pyjama.
+& Jim Garnier consiste en le muscle de Jim Garnier.
+& Il consiste en son os.
+& Il consiste en l'organe des sens de Jim Garnier.
+& Il consiste en le système nerveux de Jim Garnier.
+& Il consiste en l'appareil digestif de Jim Garnier.
+& Il consiste en l'appareil respiratoire de Jim Garnier.
+& Il consiste en l'appareil urinaire de Jim Garnier.
+& Il consiste en l'« organ of circulatory system » de Jim Garnier.
+& Il consiste en la tête de Jim Garnier.
+& Il consiste en le cou de Jim Garnier.
+& Il consiste en le bras gauche de Jim Garnier.
+& Il consiste en le bras droit de Jim Garnier.
+& Il consiste en la main gauche de Jim Garnier.
+& Il consiste en la main droite de Jim Garnier.
+& Il veut retirer un pyjama de Jim Garnier.
+& Que la main droite de Jim Garnier est près d'un pyjama est un objectif de Jim
+& Garnier.
+& Il veut être près d'un pyjama.
+& Il réussit à être près d'un pyjama.
+& Que sa main droite bouge à un pyjama est un objectif de Jim Garnier.
+& Jim Garnier veut être près d'un pyjama.
+& Il réussit à être près d'un pyjama.
+& Sa main droite va bouger à un pyjama.
+& La main droite de Jim Garnier va être près d'un pyjama.
+& Que la main droite de Jim Garnier va bouger à un pyjama va être un objectif
+& de Jim Garnier.
+& Que la main droite de Jim Garnier va être près d'un pyjama va être un
+& objectif de Jim Garnier.
+& Il en va retirer un pyjama.
+& Il tiendra un pyjama.
+& Un pyjama sera dans la chambre de Jim Garnier.
+& Il réussira à retirer un pyjama de Jim Garnier.
+& Il voudra être près de l'étagère.
+& Jim Garnier voudra aller à pied de la chambre de Jim Garnier au placard de «
+& 20 rue Drouot apartment 4D ».
+& Il voudra être debout.
+& Il voudra se mettre debout.
+& Il se mettra debout.
+& Jim Garnier sera debout.
+& Il réussira à se mettre debout.
+& Il réussira à être debout.
+& Il ira à pied de sa chambre au placard de « 20 rue Drouot apartment 4D ».
+& Un pyjama sera dans le placard de « 20 rue Drouot apartment 4D ».
+& Jim Garnier sera dans le placard de « 20 rue Drouot apartment 4D ».
+& Il réussira à aller à pied de la chambre de Jim Garnier au placard de « 20
+& rue Drouot apartment 4D ».
+& Il réussira à être près de l'étagère.
+& Il voudra desserrer un pyjama.
+& Jim Garnier desserrera un pyjama.
+& Il réussira à desserrer un pyjama.
+& Il retire un pyjama.
+& Il réussira à retirer un pyjama.
+& Jim Garnier voudra retirer un pyjama.
+& Il voudra retirer un pyjama de se.
+& Que sa main droite sera près d'un pyjama sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près d'un pyjama.
+& Il réussira à être près d'un pyjama.
+& Que sa main droite bougera à un pyjama sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près d'un pyjama.
+& Il réussira à être près d'un pyjama.
+& Sa main droite bougera à un pyjama.
+& La main droite de Jim Garnier sera près d'un pyjama.
+& Que la main droite de Jim Garnier bougera à un pyjama sera un objectif de Jim
+& Garnier.
+& Que la main droite de Jim Garnier sera près d'un pyjama sera un objectif de
+& Jim Garnier.
+& Il en retirera un pyjama.
+& Il tiendra un pyjama.
+& Un pyjama sera dans le placard de « 20 rue Drouot apartment 4D ».
+& Il réussira à retirer un pyjama de Jim Garnier.
+& Jim Garnier voudra être près de l'étagère.
+& Il réussira à être près de l'étagère.
+& Il voudra desserrer un pyjama.
+& Il desserrera un pyjama.
+& Jim Garnier réussira à desserrer un pyjama.
+& Il retirera un pyjama.
+& Il réussira à retirer un pyjama.
+& Il réussira à se déshabiller.
+& Que la baignoire-douche sera en marche sera un objectif de Jim Garnier.
+& La baignoire-douche consiste en la baignoire de la baignoire-douche.
+& La baignoire-douche consiste en le « shower curtain » de la baignoire-douche.
+& La baignoire-douche consiste en la pomme de douche de la baignoire-douche.
+& La baignoire-douche consiste en le « shower switch » de la baignoire-douche.
+& La baignoire de la baignoire-douche consiste en le robinet d'eau chaude de la
+& baignoire de la baignoire-douche.
+& La baignoire de la baignoire-douche consiste en le robinet d'eau froide de la
+& baignoire de la baignoire-douche.
+& La baignoire-douche est éteinte.
+& Que le robinet d'eau froide de la baignoire de la baignoire-douche sera réglé
+& sur 5 sera un objectif de Jim Garnier.
+& Il sera modal.
+& Que sa main droite sera près du robinet d'eau froide de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Il voudra aller à pied à sa salle de bains du placard de « 20 rue Drouot
+& apartment 4D ».
+& Il réussira à être debout.
+& Il ira à pied à sa salle de bains du placard de « 20 rue Drouot apartment 4D
+& ».
+& Jim Garnier sera dans la salle de bains de Jim Garnier.
+& Il réussira à aller à pied à sa salle de bains du placard de « 20 rue Drouot
+& apartment 4D ».
+& Il réussira à être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Que sa main droite bougera au robinet d'eau froide de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Sa main droite bougera au robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& La main droite de Jim Garnier sera près du robinet d'eau froide de la
+& baignoire de la baignoire-douche.
+& Que la main droite de Jim Garnier bougera au robinet d'eau froide de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du robinet d'eau froide de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Le robinet d'eau froide de la baignoire de la baignoire-douche sera réglé sur
+& 5.
+& Il réussira.
+& Que le robinet d'eau froide de la baignoire de la baignoire-douche sera réglé
+& sur 5 sera un objectif de Jim Garnier.
+& Que le robinet d'eau chaude de la baignoire de la baignoire-douche sera réglé
+& sur 5 sera un objectif de Jim Garnier.
+& Il sera modal.
+& Que la main droite de Jim Garnier sera près du robinet d'eau chaude de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Il voudra être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Que sa main droite bougera au robinet d'eau chaude de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Sa main droite bougera au robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& La main droite de Jim Garnier sera près du robinet d'eau chaude de la
+& baignoire de la baignoire-douche.
+& Que la main droite de Jim Garnier bougera au robinet d'eau chaude de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du robinet d'eau chaude de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Le robinet d'eau chaude de la baignoire de la baignoire-douche sera réglé sur
+& 5.
+& Il réussira.
+& Que le robinet d'eau chaude de la baignoire de la baignoire-douche sera réglé
+& sur 5 sera un objectif de Jim Garnier.
+& Que le « shower switch » de la baignoire-douche sera en marche sera un
+& objectif de Jim Garnier.
+& Il voudra ouvrir la baignoire-douche.
+& Que la main droite de Jim Garnier sera près du « shower switch » de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Il voudra être près du « shower switch » de la baignoire-douche.
+& Il réussira à être près du « shower switch » de la baignoire-douche.
+& Que sa main droite bougera au « shower switch » de la baignoire-douche sera
+& un objectif de Jim Garnier.
+& Jim Garnier voudra être près du « shower switch » de la baignoire-douche.
+& Il réussira à être près du « shower switch » de la baignoire-douche.
+& Sa main droite bougera au « shower switch » de la baignoire-douche.
+& Sa main droite sera près du « shower switch » de la baignoire-douche.
+& Que la main droite de Jim Garnier bougera au « shower switch » de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Que sa main droite sera près du « shower switch » de la baignoire-douche sera
+& un objectif de Jim Garnier.
+& Jim Garnier ouvrira la baignoire-douche.
+& Le « shower switch » de la baignoire-douche sera en marche.
+& La baignoire-douche sera en marche.
+& Il réussira à ouvrir la baignoire-douche.
+& Que le « shower switch » de la baignoire-douche sera en marche sera un
+& objectif de Jim Garnier.
+& Que la baignoire-douche sera en marche sera un objectif de Jim Garnier.
+& Jim Garnier consiste en le tronc de Jim Garnier.
+& Il consiste en sa jambe gauche.
+& Il consiste en sa jambe droite.
+& Il consiste en son pied gauche.
+& Il consiste en le pied droit de Jim Garnier.
+& La tête de Jim Garnier consiste en le crâne de la tête de Jim Garnier.
+& La tête de Jim Garnier consiste en les cheveux de la tête de Jim Garnier.
+& La baignoire de la baignoire-douche consiste en le bec de la baignoire de la
+& baignoire-douche.
+& La baignoire de la baignoire-douche consiste en la plomberie de la baignoire
+& de la baignoire-douche.
+& La baignoire de la baignoire-douche consiste en le porte-savon de la
+& baignoire de la baignoire-douche.
+& Jim Garnier voudra saisir l'Aquavital.
+& Que sa main droite sera près de l'Aquavital sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de l'Aquavital.
+& Il voudra aller à pied à l'Aquavital de la baignoire-douche.
+& Il réussira à être debout.
+& Il ira à pied à l'Aquavital de la baignoire-douche.
+& Il sera dans la salle de bains de Jim Garnier.
+& Il réussira à aller à pied à l'Aquavital de la baignoire-douche.
+& Jim Garnier réussira à être près de l'Aquavital.
+& Que sa main droite bougera à l'Aquavital sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de l'Aquavital.
+& Il réussira à être près de l'Aquavital.
+& Sa main droite bougera à l'Aquavital.
+& La main droite de Jim Garnier sera près de l'Aquavital.
+& Que la main droite de Jim Garnier bougera à l'Aquavital sera un objectif de
+& Jim Garnier.
+& Que la main droite de Jim Garnier sera près de l'Aquavital sera un objectif
+& de Jim Garnier.
+& Il saisira l'Aquavital.
+& Il tiendra l'Aquavital.
+& Il réussira à saisir l'Aquavital.
+& Il voudra ouvrir l'Aquavital.
+& Que la main gauche de Jim Garnier sera près de l'Aquavital sera un objectif
+& de Jim Garnier.
+& Il voudra être près de l'Aquavital.
+& Il réussira à être près de l'Aquavital.
+& Que la main gauche de Jim Garnier bougera à l'Aquavital sera un objectif de
+& Jim Garnier.
+& Jim Garnier voudra être près de l'Aquavital.
+& Il réussira à être près de l'Aquavital.
+& Sa main gauche bougera à l'Aquavital.
+& La main gauche de Jim Garnier sera près de l'Aquavital.
+& Que la main gauche de Jim Garnier bougera à l'Aquavital sera un objectif de
+& Jim Garnier.
+& Que la main gauche de Jim Garnier sera près de l'Aquavital sera un objectif
+& de Jim Garnier.
+& Il ouvrira l'Aquavital.
+& L'Aquavital sera ouvert.
+& Il réussira à ouvrir l'Aquavital.
+& Il voudra verser l'Aquavital dans les cheveux de la tête de Jim Garnier.
+& Jim Garnier réussira à tenir l'Aquavital.
+& Que sa main droite sera près des cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près des cheveux de la tête de Jim Garnier.
+& Il réussira à être près des cheveux de sa tête.
+& Que sa main droite bougera aux cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près des cheveux de la tête de Jim Garnier.
+& Il réussira à être près des cheveux de sa tête.
+& Sa main droite bougera aux cheveux de sa tête.
+& Sa main droite sera près des cheveux de sa tête.
+& Que sa main droite bougera aux cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Que la main droite de Jim Garnier sera près des cheveux de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Il versera l'Aquavital dans les cheveux de sa tête.
+& Il réussira à verser l'Aquavital dans les cheveux de la tête de Jim Garnier.
+& Il voudra fermer l'Aquavital.
+& Que la main gauche de Jim Garnier sera près de l'Aquavital sera un objectif
+& de Jim Garnier.
+& Jim Garnier fermera l'Aquavital.
+& L'Aquavital sera fermé.
+& Il réussira à fermer l'Aquavital.
+& Que la main droite de Jim Garnier bougera au porte-savon de la baignoire de
+& la baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du porte-savon de la baignoire de la
+& baignoire-douche.
+& Il voudra aller à pied de l'Aquavital à la baignoire-douche.
+& Il réussira à être debout.
+& Il ira à pied de l'Aquavital à la baignoire-douche.
+& L'Aquavital sera dans la salle de bains de Jim Garnier.
+& Il sera dans la salle de bains de Jim Garnier.
+& Il réussira à aller à pied de l'Aquavital à la baignoire-douche.
+& Jim Garnier réussira à être près du porte-savon de la baignoire de la
+& baignoire-douche.
+& Sa main droite bougera au porte-savon de la baignoire de la baignoire-douche.
+& La main droite de Jim Garnier sera près du porte-savon de la baignoire de la
+& baignoire-douche.
+& Que la main droite de Jim Garnier bougera au porte-savon de la baignoire de
+& la baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra desserrer l'Aquavital.
+& Il desserrera l'Aquavital.
+& Il réussira à desserrer l'Aquavital.
+& Il voudra frotter les cheveux de la tête de Jim Garnier.
+& Que la main droite de Jim Garnier sera près des cheveux de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Il voudra être près des cheveux de sa tête.
+& Il réussira à être près des cheveux de sa tête.
+& Que sa main droite bougera aux cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près des cheveux de la tête de Jim Garnier.
+& Il réussira à être près des cheveux de sa tête.
+& Sa main droite bougera aux cheveux de sa tête.
+& Sa main droite sera près des cheveux de sa tête.
+& Que la main droite de Jim Garnier bougera aux cheveux de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Que sa main droite sera près des cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera les cheveux de la tête de Jim Garnier.
+& Il réussira à frotter les cheveux de sa tête.
+& Que les cheveux de sa tête bougeront à la pomme de douche de la
+& baignoire-douche seront leurs objectifs.
+& Il voudra être près de la pomme de douche de la baignoire-douche.
+& Il réussira à être près de la pomme de douche de la baignoire-douche.
+& Les cheveux de la tête de Jim Garnier bougeront à la pomme de douche de la
+& baignoire-douche.
+& Les cheveux de sa tête seront près de la pomme de douche de la
+& baignoire-douche.
+& Que les cheveux de la tête de Jim Garnier bougeront à la pomme de douche de
+& la baignoire-douche seront des objectifs de Jim Garnier.
+& Il voudra frotter les cheveux de sa tête.
+& Que sa main droite sera près des cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera les cheveux de la tête de Jim Garnier.
+& Il réussira à frotter les cheveux de sa tête.
+& Il voudra saisir la savonnette.
+& Que sa main droite sera près de la savonnette sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la savonnette.
+& Il voudra aller à pied à la savonnette de la baignoire-douche.
+& Il réussira à être debout.
+& Il ira à pied à la savonnette de la baignoire-douche.
+& Jim Garnier sera dans la salle de bains de Jim Garnier.
+& Il réussira à aller à pied à la savonnette de la baignoire-douche.
+& Il réussira à être près de la savonnette.
+& Que sa main droite bougera à la savonnette sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la savonnette.
+& Il réussira à être près de la savonnette.
+& Sa main droite bougera à la savonnette.
+& Sa main droite sera près de la savonnette.
+& Que la main droite de Jim Garnier bougera à la savonnette sera un objectif de
+& Jim Garnier.
+& Que sa main droite sera près de la savonnette sera un objectif de Jim Garnier.
+& Jim Garnier saisira la savonnette.
+& Il tiendra la savonnette.
+& Il réussira à saisir la savonnette.
+& Sa tête consiste en le front de sa tête.
+& La tête de Jim Garnier consiste en la tempe gauche de la tête de Jim Garnier.
+& La tête de Jim Garnier consiste en la tempe droite de la tête de Jim Garnier.
+& Sa tête consiste en la figure de sa tête.
+& Que la figure de sa tête bougera à la pomme de douche de la baignoire-douche
+& sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la pomme de douche de la baignoire-douche.
+& Il voudra aller à pied de la savonnette à la baignoire-douche.
+& Il réussira à être debout.
+& Il ira à pied de la savonnette à la baignoire-douche.
+& La savonnette sera dans la salle de bains de Jim Garnier.
+& Il sera dans sa salle de bains.
+& Jim Garnier réussira à aller à pied de la savonnette à la baignoire-douche.
+& Il réussira à être près de la pomme de douche de la baignoire-douche.
+& La figure de sa tête bougera à la pomme de douche de la baignoire-douche.
+& La figure de sa tête sera près de la pomme de douche de la baignoire-douche.
+& Que la figure de la tête de Jim Garnier bougera à la pomme de douche de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Il voudra frotter la figure de sa tête.
+& Que sa main droite sera près de la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la figure de la tête de Jim Garnier.
+& Il réussira à être près de la figure de sa tête.
+& Que sa main droite bougera à la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la figure de la tête de Jim Garnier.
+& Il réussira à être près de la figure de sa tête.
+& Sa main droite bougera à la figure de sa tête.
+& Sa main droite sera près de la figure de sa tête.
+& Que la main droite de Jim Garnier bougera à la figure de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Que sa main droite sera près de la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la figure de la tête de Jim Garnier.
+& Il réussira à frotter la figure de sa tête.
+& Il voudra frotter son bras gauche.
+& Que sa main droite sera près de son bras gauche sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près du bras gauche de Jim Garnier.
+& Il réussira à être près de son bras gauche.
+& Que sa main droite bougera à son bras gauche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras gauche de Jim Garnier.
+& Il réussira à être près de son bras gauche.
+& Sa main droite bougera à son bras gauche.
+& La main droite de Jim Garnier sera près du bras gauche de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au bras gauche de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Il frottera son bras gauche.
+& Il réussira à frotter le bras gauche de Jim Garnier.
+& Il voudra frotter le bras droit de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras droit de Jim Garnier.
+& Il réussira à être près de son bras droit.
+& Que sa main droite bougera à son bras droit sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras droit de Jim Garnier.
+& Il réussira à être près de son bras droit.
+& Sa main droite bougera à son bras droit.
+& La main droite de Jim Garnier sera près du bras droit de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Il frottera son bras droit.
+& Il réussira à frotter le bras droit de Jim Garnier.
+& Il voudra frotter le tronc de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Jim Garnier voudra être près du tronc de Jim Garnier.
+& Il réussira à être près de son tronc.
+& Que sa main droite bougera à son tronc sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du tronc de Jim Garnier.
+& Il réussira à être près de son tronc.
+& Sa main droite bougera à son tronc.
+& La main droite de Jim Garnier sera près du tronc de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Il frottera son tronc.
+& Il réussira à frotter le tronc de Jim Garnier.
+& Il voudra frotter la jambe gauche de Jim Garnier.
+& Que la main droite de Jim Garnier sera près de la jambe gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe gauche de Jim Garnier.
+& Il réussira à être près de sa jambe gauche.
+& Que sa main droite bougera à sa jambe gauche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe gauche de Jim Garnier.
+& Il réussira à être près de sa jambe gauche.
+& Sa main droite bougera à sa jambe gauche.
+& Sa main droite sera près de sa jambe gauche.
+& Que la main droite de Jim Garnier bougera à la jambe gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Que sa main droite sera près de sa jambe gauche sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la jambe gauche de Jim Garnier.
+& Il réussira à frotter sa jambe gauche.
+& Il voudra frotter sa jambe droite.
+& Que sa main droite sera près de sa jambe droite sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la jambe droite de Jim Garnier.
+& Il réussira à être près de sa jambe droite.
+& Que sa main droite bougera à sa jambe droite sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe droite de Jim Garnier.
+& Il réussira à être près de sa jambe droite.
+& Sa main droite bougera à sa jambe droite.
+& Sa main droite sera près de sa jambe droite.
+& Que la main droite de Jim Garnier bougera à la jambe droite de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Que sa main droite sera près de sa jambe droite sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la jambe droite de Jim Garnier.
+& Il réussira à frotter sa jambe droite.
+& Que sa main droite bougera au porte-savon de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du porte-savon de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du porte-savon de la baignoire de la baignoire-douche.
+& Sa main droite bougera au porte-savon de la baignoire de la baignoire-douche.
+& La main droite de Jim Garnier sera près du porte-savon de la baignoire de la
+& baignoire-douche.
+& Que la main droite de Jim Garnier bougera au porte-savon de la baignoire de
+& la baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra desserrer la savonnette.
+& Il desserrera la savonnette.
+& Il réussira à desserrer la savonnette.
+& Il voudra frotter la figure de la tête de Jim Garnier.
+& Que la main droite de Jim Garnier sera près de la figure de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Il voudra être près de la figure de sa tête.
+& Il réussira à être près de la figure de sa tête.
+& Que sa main droite bougera à la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la figure de la tête de Jim Garnier.
+& Il réussira à être près de la figure de sa tête.
+& Sa main droite bougera à la figure de sa tête.
+& Sa main droite sera près de la figure de sa tête.
+& Que la main droite de Jim Garnier bougera à la figure de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Que sa main droite sera près de la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la figure de la tête de Jim Garnier.
+& Il réussira à frotter la figure de sa tête.
+& Il voudra frotter son bras gauche.
+& Que sa main droite sera près de son bras gauche sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près du bras gauche de Jim Garnier.
+& Il réussira à être près de son bras gauche.
+& Que sa main droite bougera à son bras gauche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras gauche de Jim Garnier.
+& Il réussira à être près de son bras gauche.
+& Sa main droite bougera à son bras gauche.
+& La main droite de Jim Garnier sera près du bras gauche de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au bras gauche de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Il frottera son bras gauche.
+& Il réussira à frotter le bras gauche de Jim Garnier.
+& Il voudra frotter le bras droit de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras droit de Jim Garnier.
+& Il réussira à être près de son bras droit.
+& Que sa main droite bougera à son bras droit sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras droit de Jim Garnier.
+& Il réussira à être près de son bras droit.
+& Sa main droite bougera à son bras droit.
+& La main droite de Jim Garnier sera près du bras droit de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Il frottera son bras droit.
+& Il réussira à frotter le bras droit de Jim Garnier.
+& Il voudra frotter le tronc de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Jim Garnier voudra être près du tronc de Jim Garnier.
+& Il réussira à être près de son tronc.
+& Que sa main droite bougera à son tronc sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du tronc de Jim Garnier.
+& Il réussira à être près de son tronc.
+& Sa main droite bougera à son tronc.
+& La main droite de Jim Garnier sera près du tronc de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Il frottera son tronc.
+& Il réussira à frotter le tronc de Jim Garnier.
+& Il voudra frotter la jambe gauche de Jim Garnier.
+& Que la main droite de Jim Garnier sera près de la jambe gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe gauche de Jim Garnier.
+& Il réussira à être près de sa jambe gauche.
+& Que sa main droite bougera à sa jambe gauche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe gauche de Jim Garnier.
+& Il réussira à être près de sa jambe gauche.
+& Sa main droite bougera à sa jambe gauche.
+& Sa main droite sera près de sa jambe gauche.
+& Que la main droite de Jim Garnier bougera à la jambe gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Que sa main droite sera près de sa jambe gauche sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la jambe gauche de Jim Garnier.
+& Il réussira à frotter sa jambe gauche.
+& Il voudra frotter sa jambe droite.
+& Que sa main droite sera près de sa jambe droite sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la jambe droite de Jim Garnier.
+& Il réussira à être près de sa jambe droite.
+& Que sa main droite bougera à sa jambe droite sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe droite de Jim Garnier.
+& Il réussira à être près de sa jambe droite.
+& Sa main droite bougera à sa jambe droite.
+& Sa main droite sera près de sa jambe droite.
+& Que la main droite de Jim Garnier bougera à la jambe droite de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Que sa main droite sera près de sa jambe droite sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la jambe droite de Jim Garnier.
+& Il réussira à frotter sa jambe droite.
+& Que la baignoire-douche sera éteinte sera un objectif de Jim Garnier.
+& Que le robinet d'eau froide de la baignoire de la baignoire-douche sera réglé
+& sur 0 sera un objectif de Jim Garnier.
+& Il sera modal.
+& Que sa main droite sera près du robinet d'eau froide de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Que sa main droite bougera au robinet d'eau froide de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& Sa main droite bougera au robinet d'eau froide de la baignoire de la
+& baignoire-douche.
+& La main droite de Jim Garnier sera près du robinet d'eau froide de la
+& baignoire de la baignoire-douche.
+& Que la main droite de Jim Garnier bougera au robinet d'eau froide de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du robinet d'eau froide de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Le robinet d'eau froide de la baignoire de la baignoire-douche sera réglé sur
+& 0.
+& Il réussira.
+& Que le robinet d'eau froide de la baignoire de la baignoire-douche sera réglé
+& sur 0 sera un objectif de Jim Garnier.
+& Que le robinet d'eau chaude de la baignoire de la baignoire-douche sera réglé
+& sur 0 sera un objectif de Jim Garnier.
+& Il sera modal.
+& Que la main droite de Jim Garnier sera près du robinet d'eau chaude de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Il voudra être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Que sa main droite bougera au robinet d'eau chaude de la baignoire de la
+& baignoire-douche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Il réussira à être près du robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& Sa main droite bougera au robinet d'eau chaude de la baignoire de la
+& baignoire-douche.
+& La main droite de Jim Garnier sera près du robinet d'eau chaude de la
+& baignoire de la baignoire-douche.
+& Que la main droite de Jim Garnier bougera au robinet d'eau chaude de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du robinet d'eau chaude de la
+& baignoire de la baignoire-douche sera un objectif de Jim Garnier.
+& Le robinet d'eau chaude de la baignoire de la baignoire-douche sera réglé sur
+& 0.
+& La baignoire-douche sera éteinte.
+& Il réussira.
+& Que le robinet d'eau chaude de la baignoire de la baignoire-douche sera réglé
+& sur 0 sera un objectif de Jim Garnier.
+& Que la baignoire-douche sera éteinte sera un objectif de Jim Garnier.
+& Jim Garnier voudra saisir la serviette de toilette.
+& Que sa main droite sera près de la serviette de toilette sera un objectif de
+& Jim Garnier.
+& Jim Garnier voudra être près de la serviette de toilette.
+& Il voudra aller à pied de la baignoire-douche à la serviette de toilette.
+& Il réussira à être debout.
+& Il ira à pied de la baignoire-douche à la serviette de toilette.
+& Il sera dans sa salle de bains.
+& Jim Garnier réussira à aller à pied de la baignoire-douche à la serviette de
+& toilette.
+& Il réussira à être près de la serviette de toilette.
+& Que sa main droite bougera à la serviette de toilette sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la serviette de toilette.
+& Il réussira à être près de la serviette de toilette.
+& Sa main droite bougera à la serviette de toilette.
+& Sa main droite sera près de la serviette de toilette.
+& Que la main droite de Jim Garnier bougera à la serviette de toilette sera un
+& objectif de Jim Garnier.
+& Que sa main droite sera près de la serviette de toilette sera un objectif de
+& Jim Garnier.
+& Jim Garnier saisira la serviette de toilette.
+& Il tiendra la serviette de toilette.
+& Il réussira à saisir la serviette de toilette.
+& Il voudra frotter les cheveux de sa tête.
+& Que la main droite de Jim Garnier sera près des cheveux de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Il voudra être près des cheveux de sa tête.
+& Il réussira à être près des cheveux de sa tête.
+& Que sa main droite bougera aux cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près des cheveux de la tête de Jim Garnier.
+& Il réussira à être près des cheveux de sa tête.
+& Sa main droite bougera aux cheveux de sa tête.
+& Sa main droite sera près des cheveux de sa tête.
+& Que la main droite de Jim Garnier bougera aux cheveux de la tête de Jim
+& Garnier sera un objectif de Jim Garnier.
+& Que sa main droite sera près des cheveux de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera les cheveux de la tête de Jim Garnier.
+& Il réussira à frotter les cheveux de sa tête.
+& Il voudra frotter la figure de sa tête.
+& Que sa main droite sera près de la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la figure de la tête de Jim Garnier.
+& Il réussira à être près de la figure de sa tête.
+& Que sa main droite sera près de la figure de sa tête sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la figure de la tête de Jim Garnier.
+& Il réussira à frotter la figure de sa tête.
+& Il voudra frotter son bras gauche.
+& Que sa main droite sera près de son bras gauche sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près du bras gauche de Jim Garnier.
+& Il réussira à être près de son bras gauche.
+& Que sa main droite bougera à son bras gauche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras gauche de Jim Garnier.
+& Il réussira à être près de son bras gauche.
+& Sa main droite bougera à son bras gauche.
+& La main droite de Jim Garnier sera près du bras gauche de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au bras gauche de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Il frottera son bras gauche.
+& Il réussira à frotter le bras gauche de Jim Garnier.
+& Il voudra frotter le bras droit de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras droit de Jim Garnier.
+& Il réussira à être près de son bras droit.
+& Que sa main droite bougera à son bras droit sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du bras droit de Jim Garnier.
+& Il réussira à être près de son bras droit.
+& Sa main droite bougera à son bras droit.
+& La main droite de Jim Garnier sera près du bras droit de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du bras droit de Jim Garnier sera
+& un objectif de Jim Garnier.
+& Il frottera son bras droit.
+& Il réussira à frotter le bras droit de Jim Garnier.
+& Il voudra frotter le tronc de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Jim Garnier voudra être près du tronc de Jim Garnier.
+& Il réussira à être près de son tronc.
+& Que sa main droite bougera à son tronc sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près du tronc de Jim Garnier.
+& Il réussira à être près de son tronc.
+& Sa main droite bougera à son tronc.
+& La main droite de Jim Garnier sera près du tronc de Jim Garnier.
+& Que la main droite de Jim Garnier bougera au tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Que la main droite de Jim Garnier sera près du tronc de Jim Garnier sera un
+& objectif de Jim Garnier.
+& Il frottera son tronc.
+& Il réussira à frotter le tronc de Jim Garnier.
+& Il voudra frotter la jambe gauche de Jim Garnier.
+& Que la main droite de Jim Garnier sera près de la jambe gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe gauche de Jim Garnier.
+& Il réussira à être près de sa jambe gauche.
+& Que sa main droite bougera à sa jambe gauche sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe gauche de Jim Garnier.
+& Il réussira à être près de sa jambe gauche.
+& Sa main droite bougera à sa jambe gauche.
+& Sa main droite sera près de sa jambe gauche.
+& Que la main droite de Jim Garnier bougera à la jambe gauche de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Que sa main droite sera près de sa jambe gauche sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la jambe gauche de Jim Garnier.
+& Il réussira à frotter sa jambe gauche.
+& Il voudra frotter sa jambe droite.
+& Que sa main droite sera près de sa jambe droite sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de la jambe droite de Jim Garnier.
+& Il réussira à être près de sa jambe droite.
+& Que sa main droite bougera à sa jambe droite sera un objectif de Jim Garnier.
+& Jim Garnier voudra être près de la jambe droite de Jim Garnier.
+& Il réussira à être près de sa jambe droite.
+& Sa main droite bougera à sa jambe droite.
+& Sa main droite sera près de sa jambe droite.
+& Que la main droite de Jim Garnier bougera à la jambe droite de Jim Garnier
+& sera un objectif de Jim Garnier.
+& Que sa main droite sera près de sa jambe droite sera un objectif de Jim
+& Garnier.
+& Jim Garnier frottera la jambe droite de Jim Garnier.
+& Il réussira à frotter sa jambe droite.
+& Que sa main droite bougera à l'« heated towel rack » sera un objectif de Jim
+& Garnier.
+& Jim Garnier voudra être près de l'« heated towel rack ».
+& Il réussira à être près de l'« heated towel rack ».
+& Sa main droite bougera à l'« heated towel rack ».
+& Sa main droite sera près de l'« heated towel rack ».
+& Que la main droite de Jim Garnier bougera à l'« heated towel rack » sera un
+& objectif de Jim Garnier.
+& Il voudra desserrer la serviette de toilette.
+& Il desserrera la serviette de toilette.
+& Il réussira à desserrer la serviette de toilette.
+& Il prend une douche.
+& Jim Garnier réussira à prendre une douche.
+& Il sera heureux.
+& Il sera heureux, puisqu'il réussira à prendre une douche.

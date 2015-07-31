@@ -1,0 +1,1486 @@
+<HTML>
+<HEAD>
+<TITLE>ThoughtTreasure Quick Reference</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+
+<H1>ThoughtTreasure Quick Reference</H1>
+
+<HR>
+<FONT SIZE=5>ThoughtTreasure shell commands</FONT>
+<PRE>
+adverbial -dir &lt;dirname>
+adverbial -file &lt;filename>
+  Find potential adverbials.
+algmorph
+  Run algorithmic morphology tool.
+anamorph
+  Run analogical morphology tool.
+cfe -w &lt;word>
+  Find in English corpus.
+cff -w &lt;word>
+  Find in French corpus.
+chateng
+chateng -speaker Jim -listener TT
+  Run English chatterbot. Indicate end of input with a blank line.
+  Indicate end of chat session with 'quit'.
+chatfr
+  Run French chatterbot.
+corpusfind
+  Find in corpus.
+cl -lang z -dir &lt;dirname>
+corpusload -lang z -dir &lt;dirname>
+  Load corpus.
+corpusvalagainst
+  Validate against corpus.
+covcheckeng
+  Check English coverage.
+covcheckfr
+  Check French coverage.
+covcheckengm
+  Check English coverage and print missing.
+covcheckfrm
+  Check French coverage and print missing.
+daydream
+  Run daydreamer.
+db
+  Run database tool.
+dbg -flags syn/sem/synsem/all -level off/bad/ok/detail/hyper
+  Set the debugging flags and level. Affects log file output.
+  Default is "all" flags and "detail" level.
+dict
+dict0
+  Run dictionary tool.
+exit
+  Exit ThoughtTreasure.
+filtfeat
+  Run filter tool.
+genhtml
+help
+  Print this list of commands.
+html
+inflscan
+  Run inflection scanner.
+learnnames
+  Learn names.
+legal
+  Print legal notice.
+lexentry
+  Run lexical entry tool.
+lexentryjuxt
+  Run lexical entry juxtaposition tool.
+lexentryscan
+  Run lexical entry scanner.
+loadbegin
+  Issue this command before issuing the loadinf, loadisa, and loadpolity
+  commands.
+loadend
+  Issue this command after issuing the loadinf, loadisa, and loadpolity
+  commands.
+loadinf
+  Load an inflection file.
+loadisa
+  Load an ISA file. (All files except db/geog.txt are currently ISA files.)
+loadpolity
+  Load a polity file. (db/geog.txt is currently the only polity file.)
+logclear
+lc
+  Truncate the log file.
+obj
+  Run object tool.
+objhref
+parse -dcin &lt;infn> -outsyn 1 -outsem 1 -outana 1 -outund 1 -dcout &lt;outfn>
+  Parse a file. (See the detailed description of the arguments
+  below.)
+pcn -dcin STDIN -dcout
+pcn -dcin &lt;infn> -dcout &lt;outfn>
+  Parse compound nouns.
+polysem
+  Print polysemous lexical entries.
+pop
+  Pop up a level.
+posambig
+  Print entries with ambiguous part of speech.
+prover
+  Run theorem prover tool.
+quit
+  Exit ThoughtTreasure or pop up a level.
+report
+  Run report tool.
+server
+server -port &lt;port>
+  Run the ThoughtTreasure socket-based server. Control returns to the
+  ThoughtTreasure shell when a client issues the 'Bringdown' command.
+simul
+  Run sample simulations.
+sortbyline
+  Sort by line.
+sortbytree 
+  Sort by tree (note last line must be === */).
+stop
+  Call the function Debugger(). When running ThoughtTreasure from
+  a debugger, a breakpoint should be set on this function, so
+  that the stop command will cause the program to break in the
+  debugger.
+suffgender
+  Study French gender suffixes.
+test
+  Take ThoughtTreasure shell commands from ../examples/test.tts.
+testcomptense
+  Test generation of compound tenses.
+testgenattr
+  Test generation of attributes.
+testgenrel
+  Test generation of relations.
+testgentemp
+testgentempdb
+  Test generation of temporal relations.
+testsa 
+  Test generation of speech acts.
+testtrip
+  Test trip finding.
+testts
+  Test timestamp range generation.
+tt -file &lt;filename>
+  Invoke the ThoughtTreasure shell recursively on the specified
+  filename.
+up
+  Pop up a level.
+validate -old &lt;filename> -new &lt;filename>
+  Run Unix 'diff' to compare two files and report whether they differ.
+  Used to validate test suite runs against previous runs.
+wf1fill
+  Fill in words.
+wf1train
+  Train word formation.
+wf2e
+  Test English word formation.
+wf2f
+  Test French word formation.
+!!
+  Rerun the last command (not including stop).
+</PRE>
+<FONT SIZE=5><P>Command arguments</FONT> </P>
+<PRE>
+-dcin &lt;filename>
+  Filename of the input channel. Its language is specified by -lang.
+-dcout &lt;filename>
+  Filename of an output channel, of which there may be several.
+  Attributes of the channel are specified by -lang, -dialect, -style,
+  -parain, -echoin, -outsyn, -outsem, -outana, and -outund.
+-dialect À/g/ç/î/o
+  Dialect of the input or output channel:
+    À = American (default)
+    g = British
+    ç = Canadian
+    î = other
+    o = old.
+-dir &lt;dirname>
+-echoin 1/0
+  Whether to echo the input verbatim to the output. (Echo output
+  is indicated by "" at the start of each line.) Default is 1.
+-f &lt;filename>
+-file &lt;filename>
+-flags syn/sem/synsem/all
+-lang z/y
+  Language of the input or output channel:
+    z = English (default)
+    y = French.
+  The -lang, -dialect, -style, -parain, -echoin, -outsyn, -outsem,
+  -outana, and -outund options apply to later -dcout (and -dcin)
+  options until modified by another occurrence of -lang, -dialect,
+  and so on.
+-level off/bad/ok/detail/hyper
+-listener &lt;object>
+  The listener ThoughtTreasure object to be pushed onto the deictic
+  stack before starting to parse the input file (or participate
+  in a chat). Default is TT (ThoughtTreasure).
+-new
+-obj
+-o
+-old
+-outana 0/1
+  Whether to output all anaphoric parse list objects to the file.
+  Default is 0.
+-outsem 0/1
+  Whether to output all semantic parse list objects to the file.
+  Default is 0.
+-outsyn 0/1
+  Whether to output all syntactic parse trees to the file. Default
+  is 0.
+-outund 0/1
+  Whether to output the single best syntactic parse tree and
+  semantic parse list object as determined by the understanding
+  agency. Default is 0.
+-parain 0/1
+  Whether to regenerate a paraphrase of the input on the output
+  channel. This may be used to produce an interlingual translation
+  of the input. (Paraphrase output is indicated by ")" at the
+  start of each line.) Default is 0.
+-port &lt;port>
+  The listen port of the ThoughtTreasure server.
+-runana 1/0
+  Whether to run the anaphoric parser. If the anaphoric parser is
+  not run, then the understanding agency is not run. Default is 1.
+-runsem 1/0
+  Whether to run the semantic parser. If the semantic parser is
+  not run, then anaphoric parser, and understanding agency are
+  not run. Default is 1.
+-runsyn 1/0
+  Whether to run the syntactic parser. If the syntactic parser is
+  not run, then the text agency is run and the semantic parser,
+  anaphoric parser, and understanding agency are not run. "1/0"
+  indicates that either 1 or 0 may be specified. Default is 1.
+-runund 1/0
+  Whether to run the understanding agency. Default is 1.
+-speaker &lt;object>
+  The speaker ThoughtTreasure object to be pushed onto the deictic
+  stack before starting to parse the input file (or participate
+  in a chat). Default is Jim.
+-style ?/t/T/a
+  Style of the input or output channel:
+    ? = standard (default)
+    t = literary, technical
+    T = informal
+    a = slang
+-translate 0/1
+  Whether to produce a transfer-based translation of the input
+  to the file outtrans.txt. The translation is French if
+  the input is English and vice versa. Default is 0.
+-word
+-w
+</PRE>
+<P><HR>
+<FONT SIZE=5>ThoughtTreasure manual page</FONT>
+<PRE>
+tt(1)                     User Commands                     tt(1)
+
+NAME
+     tt - run ThoughtTreasure
+
+SYNOPSIS
+     tt [-a] [-l] [-c cmd] [-f file] [-g langs] [-d dialects]
+
+OPTIONS
+     -a          Use the more memory-intensive analogical morphology
+                 instead of the default algorithmic morphology.
+
+     -l          Do not load the ThoughtTreasure database.
+
+     -c cmd      After the database is loaded (if it is loaded), execute
+                 the specified ThoughtTreasure shell command.
+
+     -f file     After the database is loaded (if it is loaded), execute
+                 ThoughtTreasure shell commands in the specified file.
+
+     -g langs    Start ThoughtTreasure for the specified languages.
+
+     -d dialects Start ThoughtTreasure for the specified dialects.
+
+                 (By default ThoughtTreasure is started for English only.
+                 This means it does not load any French lexical entries.
+                 To start ThoughtTreasure for English and French, do:
+                 tt -g zy -d ?Àgç)
+
+FILES
+     ./log         Program trace and debugging log.
+     ./in*.txt     Program input files.
+     ./out*.txt    Program output files.
+     ttlegal.txt   Copyright and other legal information.
+     help.txt      List of ThoughtTreasure shell commands.
+     src/*         Source code.
+     db/*          Database.
+     htm/*         Documentation in HTML format.
+     examples/*    Example program input and output.
+     bin/*         Executables.
+
+ENVIRONMENT VARIABLES
+     TTROOT        Location of root of ThoughtTreasure tree.
+
+The output files of ThoughtTreasure are as follows:
+
+outadv.txt                English adverbial
+outdicte.txt              English dictionary tool output
+outdictf.txt              French dictionary tool output
+outeinfl.txt              learned English inflections
+outfinfl.txt              learned French inflections
+outfname.txt              learned given names
+outhuman.txt              learned humans
+outtrans.txt              output from transfer-based translation
+outlrn.txt                various learning output
+outlname.txt              learned family names
+</PRE>
+<P><HR>
+<FONT SIZE=5>ThoughtTreasure feature characters</FONT><P>
+<TABLE BORDER CELLSPACING=1 BORDERCOLOR="#000000" CELLPADDING=7 WIDTH=504>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<P><B><FONT FACE="Courier" SIZE=1>Feature </B></FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<B><FONT FACE="Courier" SIZE=1><P>Abbreviation</B></FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<B><FONT FACE="Courier" SIZE=1><P>Description</B></FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<B><FONT FACE="Courier" SIZE=1><P>Type </B></FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>%</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>to be entered </FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>?</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>NA </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>empty feature</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>@</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>TODO </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>unattested</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>_</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>OPT </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>optional</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>¸</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>CHECKED </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflections checked</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>¿</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ZBZ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ZBZ block</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>+</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>REQ</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>mandatory</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>±</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>+PRESP </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>present participle</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subcategorization</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>«</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PRE </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>prefix</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>»</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SUFF </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>suffix</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>×</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>VOUVOIEMENT</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>vouvoiement</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>mode of address </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>÷</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>+INDIC </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>indicative taker</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subcategorization</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>§</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>masculine,feminine</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>instruction</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&copy;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>COORD </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>coordinator</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&reg;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>TDMK </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>brand name</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>noun </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>°</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>BZZ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>block</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>µ</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>MODAL </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>modal auxiliary</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>grammatical modal</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>¶</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>no inflection</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>instruction</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>·</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>REALLY </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>true inflection</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>0</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>EXPL</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>expletive</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>¾</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>TRANSONLY </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>translation only</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>frequency</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>1</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>1 </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>first person</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>person</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>¹</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>FREQ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>frequent word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>frequency</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>2</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>2 </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>second person</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>person</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>²</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>TUTOIEMENT</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>tutoiement</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>mode of address </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>3</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>3 </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>third person</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>person</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>6</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>POSITIVE </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>positive degree</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>absolute degree </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>7</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>COMPAR </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>comparative degree</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>relative degree </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>8</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SUPERL </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>superlative degree</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>relative degree </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>9</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ELEMENT </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>element</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>A</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ADJ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>adjective</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>a</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SL </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>slang</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>language style </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ª</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>GENONLY </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>generate only</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>frequency</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Aacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ELISION </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>elision</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>alternative form </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&aacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ROLE2 </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>role name at I=2</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>parallel universe</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&agrave;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ROLE1 </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>role name at I=1</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>parallel universe</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Agrave;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>US </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>American English</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>dialect </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Auml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PREVOWEL </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>pre-vowel form</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>alternative form </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&auml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ROLE3 </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>role name at I=3</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>parallel universe</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&AElig;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>BEE </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>BEE block</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>B</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ADV </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>adverb</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>b</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PREPOSED </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>preposed adjective</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>C</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>NEUT </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>neuter</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>gender </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>c</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>CONDIT </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>conditional tense</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ccedil;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>CAN </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>Canadian</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>dialect </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>d</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PP </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>past participle</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>D</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>DET </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>determiner</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&eth;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>WBW </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>WBW block</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>e</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PRESP </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>gerund</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>E</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ADJP</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>adjective phrase</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>constituent</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&eacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>object at I=2</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>object location </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Eacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ZEROART</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>zero article taker</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&egrave;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>object at I=1</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>object location </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Egrave;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ASP </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>aspirated</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>phonetic feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ecirc;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>state-change verb</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subcategorization</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&euml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>object at I=3</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>object location </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>F</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>F </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>feminine</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>gender </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>f</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>INF </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>infinitive</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>g</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>GB </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>British English</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>dialect </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>G</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>INDIC </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>indicative mood</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>grammatical mood </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>H</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PRON </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>pronoun</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>h</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>DEROG </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>derogatory word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>connotation </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>I</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>IMPER</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>imperative mood</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>grammatical mood</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>i</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PAST </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>simple past</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Iacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>CONTRACTION </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>contraction</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>alternative form </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Igrave;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>VOC </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>vocalic</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>phonetic feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&icirc;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>REGION </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>regional</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>dialect </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Icirc;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ISM </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>abstract quality</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>parallel universe </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Iuml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>+INF </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>infinitive taker</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subcategorization</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&iuml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>C </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>common inflection</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>J</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SUBJ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subjunctive mood</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>grammatical mood </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>j</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>BORR </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>borrowing</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>K</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>CONJ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>conjunction</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>k</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>DEFART </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>definite article </FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>l</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ETRE </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ecirc;tre taker</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>L</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ADVP</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>adverb phrase</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>constituent</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>m</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>U </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>non-count noun</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>M</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>M </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>masculine</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>gender </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>N</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>N </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>noun</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ntilde;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>HUMOR </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>humorous word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>connotation </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>o</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>OLD FASH </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>dated word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>dialect </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>O</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>+SUBJ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subjunctive taker</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subcategorization</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>º</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>multilingual name</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>instruction</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Oacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>EPITH </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>attributive</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ocirc;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>NR </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>no reordering</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Ocirc;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>NOTPROGR</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>no progressive</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other grammatical</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ouml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>iobj at I=3+</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>iobj location</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&otilde;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>iobj at I=4+</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>iobj location</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>p</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PRES </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>present tense</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>P</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PL </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>plural</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>number</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>q</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>RARE </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>infrequent word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>frequency</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>Q</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>QUES </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>interrogative</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>sentence </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>R</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PREP </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>preposition</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>s</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SIMPP </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>pass&eacute; simple</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>S</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SING </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>singular</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>number</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&szlig;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>INV </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>invariant word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>instruction</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>t</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>FML </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>technical word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>language style </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>T</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>INFML </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>informal word</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>language style </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&THORN;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>BWW </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>BWW block</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&thorn;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ATTACH </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>attachment</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>parallel universe </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>U</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>INTERJ </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>interjection</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>u</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>FUT </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>future</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>inflection tense </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&Uacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PRED </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>predicative</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>rule block</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&uacute;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subject at I=2</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subject location </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&ugrave;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subject at I=1,2</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subject location </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&uuml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<P>&nbsp;</TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subject at I=3</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>subject location </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>v</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PROV </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>proverb</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>other feature </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>V</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>V </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>verb</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>w</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>COORD </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>coordinator</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>conjunction </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>W</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>VP</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>verb phrase</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>constituent</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>x</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>SENTENCE </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>sentence</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>part of speech </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>X</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>NP</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>noun phrase</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>constituent</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>y</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>FR </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>French</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>language </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>Y</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>PP</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>prepositional phrase</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>constituent</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>&yuml;</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>FUS </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>fused</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>instruction</FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>z</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>ENG </FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>English</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>language </FONT></TD>
+</TR>
+<TR><TD WIDTH="16%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>Z</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>S</FONT></TD>
+<TD WIDTH="25%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>sentence</FONT></TD>
+<TD WIDTH="35%" VALIGN="TOP">
+<FONT FACE="Courier" SIZE=1><P>constituent</FONT></TD>
+</TR>
+</TABLE>
+<HR>
+<FONT SIZE=5>ThoughtTreasure database file format</FONT>
+<PRE>
+atomic-object-definition -
+  ==...==lexentry0/parent,parent,.../lexentry/lexentry/.../
+  |item|item|...|
+
+indent ISA format     polity format
+====== ========== =================
+     =        ISA          cpart-of
+     *   concrete           capital
+     -   contrast multilevel polity
+
+polity format:
+=continent
+==country
+===U.S. state, France region, territories
+====U.S. county, France d&eacute;partement
+=====city
+======U.S. borough, France arrondissement
+=======city-subsubdivision (neighborhood)
+========city-subsubsubdivision
+=========city-subsubsubsubdivision
+==========city-subsubsubsubsubdivision)
+
+lexentry0 - lexentry OR atomic-object
+
+item - @tsrange,tsrange,... OR
+       atomic-object OR                  (predicate)
+       atomic-object=value,value,... OR  (relation)
+       atomic-object¤value,value,... OR  (relation)
+       list-object OR                    (assertion)
+       GS=griddef
+
+tsrange - ts{:ts{:days{:tod{:dur}}}}{&ETH;}
+  {} indicate optional
+
+ts - tsnumber OR na
+tsnumber - yyyymmddThhmmssZ OR yyyymmddThhmmss OR
+           yyyymmddThhmmss-hhmm OR yyyymmddThhmmss+hhmm OR 
+           yyyymmdd OR yyyymm OR yyyy OR na OR
+           -Inf OR +Inf OR Inf
+days - day+day+... OR day¯day OR na
+day - mon OR tue OR wed OR thu OR fri OR sat OR sun OR
+       lun OR mar OR mer OR jeu OR ven OR sam OR dim
+tod - todnumber OR na
+todnumber - hh OR hhmm OR hhmmss
+dur - number dur-stem OR na
+dur-stem - hrs OR min OR sec OR hhmm OR hhmmss
+
+value - atomic-object OR
+        #atomic-object OR   (create instance)
+        constant-object OR
+        quick-object
+
+list-object - [list-object1 list-object1 ...]
+list-object1 - value OR list-object
+
+griddef - gridsnap gridkey
+gridsnap - character character ...
+gridkey - gridkey1 OR gridkey1 gridkey
+gridkey1 - character {. character character ...} :
+            {&amp;} atomic-object
+  {} indicate optional
+
+constant-object - "string" OR
+                   string misc-stem OR
+                   number stem OR
+                   STRING:atomic-object:"string" OR
+                   NUMBER:atomic-object:number
+
+stem - unitless-stem OR length-stem OR
+       velocity-stem OR frequency-stem OR
+       mass-stem OR bytes-stem OR
+       currency-stem
+
+unitless-stem - u OR pc
+length-stem - m OR km OR ft OR mi
+velocity-stem - mps OR mph OR kmph
+frequency-stem - hz OR khz OR mhz OR ghz OR ang
+mass-stem - g OR lbs
+bytes-stem - byte OR Kbyte OR Mbyte OR Gbyte OR Tbyte
+currency-stem - $ OR F
+misc-stem - usch OR frch OR usca OR frca OR dbw OR
+             coor OR km2 OR mi2
+
+quick-object -
+  HUMAN:lexentry
+  MALE:lexentry
+  FEMALE:lexentry
+  GROUP:lexentry
+  BUILDING:lexentry:street-number:street-name:postal-code:
+    city:state:country
+  FLOOR:lexentry:level:street-number:street-name:postal-code:
+    city:state:country
+  APARTMENT:lexentry:apt:level:street-number:street-name:
+    postal-code:city:state:country
+  ROOM:lexentry:room:apt:level:street-number:street-name:
+    postal-code:city:state:country
+  PLAY:lexentry:playwright:composer
+  OPERA:lexentry:composer:librettist
+  DANCE:lexentry:choreographer:composer
+  MUSIC:lexentry:composer</PRE>
+
+<HR>
+
+</BODY>
+</HTML>

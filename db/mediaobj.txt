@@ -1,0 +1,338 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=media#P object*.z/information/|humanmade|
+;_______________________________________________________________________________
+==hypermedia.Pïz//hypermédia.y/|@1969|create¤Ted-Nelson|
+===hypertext.z//hypertext.My/
+===website//web# site*.¹z/website.z/
+===web# page*.z//webpage.z/
+====homepage//home#A page*.¹z/homepage.z/
+====graphical#A web# page*.z//
+====Java#-enabled#Vd web# page*.z//
+;_______________________________________________________________________________
+==message.z//message.My/
+;_______________________________________________________________________________
+==mail.Àz//post.gz/courrier.My/
+;_______________________________________________________________________________
+===snail# mail*.z//physical#A mail*,regular#A mail*,conventional#A mail*.z/
+normal#A mail*,standard#A mail*.z/poste.Fy/
+====US# mail*.z//
+====snail-mail-letter//letter.z/lettre.Fy/|part-of¤envelope,sheet-of-paper|
+;_______________________________________________________________________________
+===electronic#A mail*.mz//courrier* électronique*A.My/
+;_______________________________________________________________________________
+====email.mz//e#-mail*.mz/E#-mail*.mz/mail.Tmz/message.z/electronic#A mail*.omz/
+computer# mail*.omz/email.¹My/e#-mail*.My/E#-mail*.My/mél.My/
+messagerie* électronique*A.Fy/
+messagerie.Fy/message.My/message* électronique*A.My/
+;_______________________________________________________________________________
+=====email1-NICI//|@19950302|[send-email Wietske-NICI Carla-Huls email1-NICI]|
+=====email2-NICI//|@19950212|[send-email Alice-NICI Wim-Claassen email2-NICI]|
+=====email3-NICI//|@19950213|[send-email Alice-NICI Koen-NICI email3-NICI]|
+=====email4-NICI//|@19950216|[send-email Alice-NICI Carla-Huls email4-NICI]|
+;_______________________________________________________________________________
+=====email# header*.z//
+======standard#A email# header*.z//
+======FirstClass# email# header*.z//
+======post#A email# header*.z//
+;_______________________________________________________________________________
+====mailing# list*.z//liste* de#R diffusion#.¹Fy/liste* de#R messagerie#.Fy/
+liste.Fy/
+;_______________________________________________________________________________
+====fax.z//fax.My/télécopie.Fy/
+;_______________________________________________________________________________
+====newsgroup.z//discussion# group*.z/news.mz/forum.z/forum.¹My/
+groupe* de#R news#FP.My/groupe.TMy/groupe* de#R messagerie#F.My/news.¹kFPïy/
+News.kFPïy/News.kMy/Newsgroup.kMy/
+=====Usenet# newsgroup*.z/ontology,four-level-semantic-net/net# news*.z/
+netnews.z/Usenet# news*.z/Net# news*.z/Usenet# hierarchy*.z/
+Usenet# newsgroup# hierarchy*.z/groupe* Usenet#.¹My/niouzegroupe.aMy/
+forum* Usenet#.My/news* de#R Usenet#M.FPïy/
+|@1980|create¤na|
+=====Usenet# posting*.z//Usenet# post*.z/Usenet# article*.z/
+posting,post,article.z/article* Usenet#.¹My/article.My/
+;_______________________________________________________________________________
+====voice# mail*.mz//
+=====answering# machine# message*.z//message.z/message.My/
+;_______________________________________________________________________________
+==advertisement.z//ad.Tz/advert.gTz/campaign,advertising# campaign*.Îz/
+publicité.¹Fy/pub.TFy/réclame.Fy/
+===classified# ad*.z/text/classified# advertisement*.z/want#V ad*.Àz/
+annonce.Fy/petite*A annonce*.Fy/
+===job# description*.z//description* de#R poste#NM.Fy/
+===television# commercial*.z/video/commercial.z/
+===infomercial.z//publi*A-information*.ÎFz/
+;_______________________________________________________________________________
+==art.z//fine#A art*.z/art.¹My/beaux*A-arts*.MPïy/
+;_______________________________________________________________________________
+===architecture.mz//architecture.Fy/
+===art-comics//cartoons.Pïz/comics,funnies.ÀPïz/comic# strip*.z/
+strip# cartoon*.gz/bande* dessinée*A.Fy/neuvième*A art*.kMy/
+===art-picture//picture.z/tableau.My/peinture.Fy/
+===drawing.z//dessin.My/
+===graffiti.z//spraycan# art*.z/graf.Tz/
+===museum# piece*.z//
+===painting.z//tableau.My/peinture.Fy/|free-object|
+===*Le-Dejeuner-sur-l-herbe//Le#D Déjeuner#M sur#R l#D'herbe#F.Éy/
+|@1862|create-paint¤Manet|
+===performance# art*.z//
+===photograph.z//photographie.Fy/
+===sculpture.z//sculpture.Fy/
+====statue.z//statue.Fy/
+===watercolor.z//aquarelle.Fy/
+====art-schema//schema.z/schéma.My/
+;_______________________________________________________________________________
+===American#A art*.z//|create¤human-American|
+====colonial#A silver*.z//
+===Oriental#A art*.z//
+;_______________________________________________________________________________
+==broadcast.z//show.z/broadcasting.Îz/émission.¹Fy/diffusion.Fy/
+;_______________________________________________________________________________
+==genetic# code*.z//code* génétique*.¹My/
+===genome.z//genomic.Ay/génome.¹My/|part-of¤gene|
+===gene.z//gène.My/
+;_______________________________________________________________________________
+==dance.z//danse*.Fy/
+;_______________________________________________________________________________
+==-dance# form*.z//
+;_______________________________________________________________________________
+====pre#B-classic#A dance# form*.z/music-form-of-movement/court# dance*.z/
+ancienne* danse*.Fy/
+=====pavane.z//pavane.Fy/
+=====galliard.z//
+=====allemande.z//alman,almagne.qz/allemande.Fy/
+=====courante.z//courante.Fy/
+=====corrente.z//
+=====sarabande.z//sarabande.Fy/
+=====gigue.z//gigue.Fy/
+=====minuet.z//menuet.My/
+=====gavotte.z//gavotte.Fy/
+=====bourree//bourrée.z/bourrée.Fy/
+=====rigaudon.z//rigaudon,rigodon.My/
+=====passepied.z//passe#V-pied*.My/
+=====dance-chaconne//chaconne.z/chaconne,chacone.Fy/
+=====dance-passacaglia//passacaglia.z/passacaille.Fy/
+=====canaries.Pïz//
+=====loure.z//loure.Fy/
+=====passamezzo.z//
+;_______________________________________________________________________________
+====waltz.z//valse.Fy/
+====quadrille.z//cotillion.Àz/quadrille.My/
+====Virginia# Reel*.z//
+====twist.kz//twist.My/twister.Vy/
+====slam.Vz//
+====pogo.Vz//
+;_______________________________________________________________________________
+==datafeed.z//digital#A information# service*.z/flux.My/
+;_______________________________________________________________________________
+===wire# service*.z//wire,newswire,news# wire*,news# feed*.z/
+dépêche* envoyée*A aux#RP abonnés#MP.Fy/fil.TMy/
+====wire-service-AP//AP.z/Associated#A Press*.z/AP.y/
+====wire-service-AFP//AFP.z/Agence#j France# Presse*j.z/AFP.kFy/
+Agence* France# Presse#.kFy/
+=====wire-service-AFP-France//fil* France#F de#R l#D'AFP#F.My/
+French#A AFP# wire*.z/
+====wire-service-Bloomberg//Bloomberg.z/
+====wire-service-Business-Wire//Business# Wire*.z/
+====wire-service-Computerworld//Computerworld.z/
+====wire-service-Comtex//Comtex.z/
+====wire-service-GINA//GINA.z/Internet# Wire*.z/
+====wire-service-InfoWorld//InfoWorld.z/
+====wire-service-InterActive-Week//Inter@ctive# Week*.z/
+====wire-service-IT-Informer//IT# Informer*.z/MMP.z/
+====wire-service-Media-Daily//Media# Daily*.z/Cowles# New#A Media*.z/
+====wire-service-Nando//Nando.z/
+====wire-service-NYTSYN//NYTSYN.z/
+====wire-service-CNET//CNET.z/
+====wire-service-PC-Week//PC# Week*.z/
+====wire-service-Tech-Wire//Tech# Wire*.z/
+====wire-service-PRNewswire//PRNewswire.z/
+====wire-service-Reuters//Reuters.z/Reuter.z/Reuters.y/
+====wire-service-UPI//UPI.z/United#A Press# International*.z/UPI.y/
+====wire-service-Wired//Wired.z/
+====wire-service-ZDNet//ZDNet.z/
+;_______________________________________________________________________________
+===BBS.z//Bulletin# Board# System*.z/BBS.y/
+;_______________________________________________________________________________
+===financial#A information# service*.z//
+===*Reuters# Marketfeed# 2000*.®z//Reuters# IDN*.®z/IDN.®z/
+===*3615# la#D bourse*.Fy//|minitel-number-of=STRING:minitel:"3615LABOURSE"|
+feed-of=Paris-Stock-Exchange|
+===*3615-les-Echos//3615#S les#D Échos*.MPïy/
+|minitel-number-of=STRING:minitel:"3615LESECHOS",STRING:minitel:"3616LESECHOS"|
+feed-of=Paris-Stock-Exchange|
+===*3615# money*.y//|minitel-number-of=STRING:minitel:"3615MONEY"|
+feed-of=Paris-Stock-Exchange|feed-of=NYSE|
+===*3615# AJ*.y//|minitel-number-of=STRING:minitel:"3615AJ"|
+===*3615# BO*.y//|minitel-number-of=STRING:minitel:"3615BO"|
+;_______________________________________________________________________________
+==part* of#R text#.z//
+===text-cover//cover.z/couverture.Fy/
+====text-front-cover//front#A cover*.z/
+====text-back-cover//back#A cover*.z/
+===text-table-of-contents//table* of#R contents#P.z/
+table* des#RP matières#P.Fy/
+===text-preface//preface.z/préface.Fy/
+===text-introduction//introduction.z/introduction.Fy/
+===text-chapter//chapter.z/chapitre.My/
+===text-section//section.z/section.Fy/article.My/paragraphe.My/
+===text-figure//figure.z/figure.Fy/
+===text-table//table.z/table.Fy/|length-of=5in|height-of=3in|width-of=0in|
+===text-index//index.z/index.My/catalogue.My/
+===text-appendix//appendix.z/appendice.My/annexe.Fy/
+;_______________________________________________________________________________
+==media-object-text//text.¹z/text# type*.z/texte.¹My/
+|part-of¤text-front-cover,text-back-cover,text-table-of-contents,
+text-preface,text-introduction,text-chapter,text-section,text-figure,
+text-table,text-index,text-appendix|
+;_______________________________________________________________________________
+===personal# text*.z//
+====diary.z//journal.My/
+====personal-journal//journal.z/journal.My/
+====resume.Àz//resumé.Àz/CV,cv.gz/curriculum# vitae*.tgz/CV,cv.My/
+curriculum# vitae#.tßMy/
+=====academic#A CV*.z//vita.Àz/curriculum# vitae*.Àz/
+;_______________________________________________________________________________
+===student-text//
+====media-object-homework//assignment,homework.z/devoirs.MPïy/
+====media-object-exam//exam.z/examination.oz/examen.My/
+====media-object-quiz//quiz.z/interrogation.Fy/
+;_______________________________________________________________________________
+===financial#A quote*.z//
+====stock# quote*.z//
+====currency# quote*.z//FX# rate# quote*.z/
+;_______________________________________________________________________________
+===press# release*.z//
+====economic#A release*.z//
+;_______________________________________________________________________________
+=====Census# Bureau# release*.z//Census# Bureau# statistical#A release*.z/
+; monthly releases
+======c20-release//C20,C20# release*,C25# report*.z/housing#S starts*.Pïz/
+======c22-release//C22,C22# release*,C22# report*.z/housing#S completions*.Pïz/
+======c25-release//C25,C25# release*,C25# report*.z/new#A home#S sales*.Pïz/
+======c30-release//C30,C30# release*,C30# report*.z/
+value# of#R new#A construction# put#Vd in#R place*.z/
+======c40-release//C40,C40# release*,C40# report*.z/building#S permits*.Pïz/
+; quarterly releases
+======c50-release//C50,C50# release*,C50# report*.z/
+residential#A improvements* and#K repairs*.Pïz/
+;_______________________________________________________________________________
+=====Federal#A Reserve# release*.z//
+Federal#A Reserve# statistical#A release*.z/
+======Beige# Book*.z//Beige# Book# state# of#R the#D economy*.z/
+; monthly releases
+======g5-release//G5,G5# release*,G5# report*.z/foreign#A exchange#S rates*.Pïz/
+======g17-release//G17,G17# release*,G17# report*.z/
+industrial#A production# and#K capacity# utilization*.z/
+======g19-release//G19,G19# release*,G19# report*.z/consumer# credit*.z/
+;_______________________________________________________________________________
+===media-object-report//report.¹z/rapport.¹My/
+;_______________________________________________________________________________
+===media-object-article//article.¹z/article.¹My/
+;_______________________________________________________________________________
+====news# article*.z/media-object-report/news# report*.z/
+=====injury-fatality-report//injury#-fatality# report*.z/
+=====Fed-watch//Fed# watch*.z/Greenspan# mention*.z/
+=====merger-story//merger# story*.z/
+=====Congressional#A legislation*.z/legal-concept/legislation.z/
+; cf http://thomas.loc.gov
+======Congressional#A bill*.z//bill.z/
+=======House# bill*.z//HR.z/
+=======Senate# bill*.z//S.z/
+======Congressional#A concurrent#A resolution*.z//concurrent#A resolution*.z/
+=======House# concurrent#A resolution*.z//H# CON# RES*.z/
+=======Senate# concurrent# resolution*.z//S# CON# RES*.z/
+======Congressional#A resolution*.z//resolution.z/
+=======House# resolution*.z//H# RES*.z/
+=======Senate# resolution*.z//S# RES*.z/
+=======Congressional#A joint#A resolution*.z//joint#A resolution*.z/
+========House# joint#A resolution*.z//H# J# RES*.z/
+========Senate# joint#A resolution*.z//S# J# RES*.z/
+======Congressional#A amendment*.z//amendment.z/
+=======House# amendment*.z//H# AMDT*.z/
+=======Senate# amendment*.z//S# AMDT*.z/
+;_______________________________________________________________________________
+====media-object-review//review.z/
+=====book# review*.z//
+=====theater-review//review* of#R a#D play#.¹z/theater# review*.z/
+=====TV-show-review//review* of#R a#D TV# show#.¹z/TV# review*.z/
+=====film# review*.z//movie# review*.Àz/
+;_______________________________________________________________________________
+===media-object-paper//paper.¹z/article.¹My/
+;_______________________________________________________________________________
+===thesis.z//dissertation.z/diss.Tz/thèse.¹Fy/
+====doctoral#A thesis*.z//doctoral#A dissertation*.z/thèse* de#R doctorat#M.¹Fy/
+thèse* d#R'État#M.Fy/thèse* de#R doctorat#M d#R'Université#.Fy/
+thèse* de#R doctorat#M d#R'État#M.Fy/
+;_______________________________________________________________________________
+===periodical.z//print#S media*.kPïz/|free-object|
+;_______________________________________________________________________________
+====amateur#A periodical*.z//
+=====Paper*.kz//
+;_______________________________________________________________________________
+====low#A circulation# periodical*.z//
+=====fanzine.z//fanzine.¹My/magazine* des#RP fans#P.My/
+;_______________________________________________________________________________
+====daily# newspaper*.z//newspaper.z/daily,daily#A paper*.z/paper.Tz/
+quotidien.¹My/presse* quotidienne*A.ÎFy/journal.My/
+=====Newsday.®Éz//Newsday.®Éy/
+=====morning# newspaper*.z//morning# paper*.z/
+======InfoMatin.®ßy/French-company/Info#® Matin*ß®.y/|fr|
+======New#A York# Times*.®kz/US-company/NYT.z/Times.kTz/
+New#Aj York#C Times*j.¹®kMy/NYT.kMy/
+All#D the#D News#N That#K'sÝbe#V Fit#A to#R Print#V.xz/
+Toutes#D les#DP nouvelles#NFP qu#K'il#H convient#V d#R'imprimer#V.xy/|us|
+======New#A York# Daily#A News*.®kz/US-company/
+New#Aj York#C Daily#Aj News*.¹®kMy/|us|
+======Los#D Angeles# Times*.®kz/US-company/Los#Dj Angeles# Times*j.¹®kMy/
+======Washington# Post*.®kz/US-company/Washington#C Post*j.¹®kMy/
+======Wall# Street# Journal*.®kz/US-company/
+Wall#Cj Street#Cj Journal*.¹®kMy/
+======USA# Today*.®Éz/US-company/USA#MP Today*.¹®Éy/
+======San#Aj Francisco# Chronicle*.®kz/US-company/
+Chronicle# Publishing# Company*.kz/Chronicle.kTz/|href="http://www.sfgate.com"|
+=====afternoon# newspaper*.z//afternoon# paper*.z/
+======San#Aj Francisco# Examiner*.®kz/US-company/Examiner.kTz/
+|href="http://www.examiner.com"|
+=====evening# newspaper*.z//evening# paper*.z/
+======Figaro.®kMy/French-company/Le#Dj Figaro*j.®Éz/|fr|
+======France#F-Soir#M.®Éy/French-company/France#-Soir*j.®Éz/|fr|
+======newspaper-Liberation/French-company/Libération.®ÉFy/Libé.@kTFy/
+Libération.®Éz/|fr|
+======Le-Monde/French-company/Monde.®kMy/Le#Dj Monde*j.®Éz/|fr|
+=====Sunday# newspaper*.z//Sunday# paper*.z/
+;_______________________________________________________________________________
+====weekly#A magazine*.z//
+=====Evenement-du-jeudi//Événement* du#R jeudi#.®kMy/
+L#Dj'Événement#j du#Rj jeudi*j.®Éz/|fr|
+=====Newsweek.®Éz//
+=====Nouvel#A Observateur#.®kMy//Nouvel#A Obs#ß.®kMy/
+Le#Dj Nouvel#Aj Observateur*.®Éz/|fr|
+=====television# guide*.z//
+======TV# Guide*.®Éz//
+=====Time.®Éz//
+;_______________________________________________________________________________
+====monthly#A magazine*.z//
+;_______________________________________________________________________________
+====bimonthly#A magazine*.z//
+;_______________________________________________________________________________
+====quarterly#A magazine*.z//
+;_______________________________________________________________________________
+====journal.z//technical#A journal*.z/revue* technique*A.¹Fy/revue.Fy/
+=====Cognitive# Science*.Éz//|publish¤Ablex|
+=====Artificial#A Intelligence*.Éz//|publish¤Elsevier|
+======AIJ-61//Artificial#A Intelligence# 61*.z/
+======AIJ-62//Artificial#A Intelligence# 62*.z/
+======AIJ-63//Artificial#A Intelligence# 63*.z/|@1993|publish¤Elsevier|
+;_______________________________________________________________________________
+===media-object-script//script.z/scénario.My/texte.My/
+====media-object-screenplay/literature/screenplay.z/scénario.My/
+=====media-object-teleplay//teleplay.z/
+;_______________________________________________________________________________
+===poetry.z//poésie.Fy/
+====poem.z//poème.¹My/
+====lyrics.Pïz//paroles.FPïy/
+;_______________________________________________________________________________

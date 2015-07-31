@@ -1,0 +1,288 @@
+<html>
+<head>
+<title>ThoughtTreasure Knowledge Base</title>
+</head>
+<body bgcolor="#ffffff">
+<h1>ThoughtTreasure Knowledge Base (TTKB) version 0.00023</h1>
+by Erik T. Mueller
+<p>
+November 30, 1999
+<hr>
+ThoughtTreasure Knowledge Base (TTKB) is a dump of the ThoughtTreasure
+lexicon and knowledge base in a format that is easier for other programs
+to read and use than the ThoughtTreasure database files.
+TTKB can be accessed:
+<ol>
+<li>
+<a href="../python/query.htm">from the web</a> using the
+<tt>python/query.cgi</tt> CGI script,
+<li>
+using the <tt>python/ttkb</tt> command,
+<li>
+from Python using the routines provided in <tt>python/ttkb.py</tt>, and
+<li>
+from other languages by reading TTKB.
+</ol>
+<p>
+Human coders add to the ThoughtTreasure database files in the <tt>db</tt>
+subdirectory of the ThoughtTreasure distribution. The <tt>runtime/grind.sh</tt>
+script converts the ThoughtTreasure database files into TTKB, which
+resides in the <tt>ttkb</tt> subdirectory.
+This directory contains three files:
+<ul>
+<li><tt>infl.txt</tt> - inflection file
+<li><tt>le.txt</tt> - lexical entry file
+<li><tt>obj.txt</tt> - object/assertion file
+</ul>
+<h3>Inflection file</h3>
+<p>
+Sample lines of <tt>infl.txt</tt> are:
+<pre>
+dog_collars /PNz/ dog_collar-Nz
+rêvassassions /iP1JVy/ rêvasser-Vy
+</pre>
+Each line of <tt>infl.txt</tt> is of the form:
+<p>
+<em>word_or_phrase infl_features le_uid</em>
+<dl>
+<dt><em>word_or_phrase</em>
+<dd>Inflection (word or phrase) with spaces mapped to underscores ("_").
+<dt><em>infl_features</em>
+<dd><a href="quickref.htm">ThoughtTreasure features</a> associated with
+the inflection, preceded and followed by a slash ("/"). For example,
+features provide number, part of speech, and language.
+<dt><em>le_uid</em>
+<dd>Unique identifier of the associated lexical entry. The
+<em>word_or_phrase</em> is one possible inflection for this lexical entry.
+</dl>
+The <tt>infl.txt</tt> file is sorted by <em>word_or_phrase</em> so
+programs can use binary search to look up inflections.
+<h3>Lexical entry unique identifiers</h3>
+<p>
+A lexical entry unique identifier (le_uid) consists of:
+<ul>
+<li>the citation form of the lexical entry with spaces mapped to
+underscores ("_"), followed by
+<li>
+a dash ("-"), followed by
+<li>
+the feature character for the gender of the lexical entry, where applicable,
+followed by
+<li>
+the feature character for the part of speech of the lexical entry, followed by
+<li>
+the feature character for the language of the lexical entry.
+</ul>
+<p>
+Sample le_uids are:
+<pre>
+dormir-Vy
+knowledge_acquisition-Nz
+</pre>
+<h3>Lexical entry file</h3>
+<p>
+Sample lines of <tt>le.txt</tt> are:
+<pre>
+create-Vz /Vz/ ·· create /¹/ 1:subj::::0 2:obj::::0
+director-Nz /Nz¸/ ·· Director /¹É/ TV-director // film-director // director /¹/
+don_t_mention_it-xz /xz/ ·'·_·_·· interjection-of-response-to-thanks //
+hammer-Vz /Vz/ ·· hammer-into // 1:subj::::0 2:obj::::0 3:iobj:into-Rz:::0
+kick-Vz /Vz/ ·· died /T/ 1:subj::::0 :expl:the_bucket-0z::V_O:0
+knowledge_acquisition-Nz /Nz/ ·· knowledge-acquisition /¹/
+</pre>
+Each line of <tt>le.txt</tt> is of the form:
+<p>
+<em>le_uid le_features phrase_separators [leo ...]</em>
+<dl>
+<dt><em>le_uid</em>
+<dd>Lexical entry unique identifier as described in the previous
+section.
+<dt><em>le_features</em>
+<dd><a href="quickref.htm">ThoughtTreasure features</a> of the
+lexical entry, preceded and followed by a slash ("/").
+<dt><em>phrase_separators</em>
+<dd>A phrase such as <em>don't mention it</em> contains three phrase
+separators: single quote ("'"), space (" "), and space (" "). This
+field contains the phrase_separators delimited by "·" and with spaces
+mapped to underscores "_".
+<dt><em>[leo ...]</em>
+<dd>Zero or more lexical entry to object connections (leos).
+</dl>
+<p>
+The <tt>le.txt</tt> file is sorted by <em>le_uid</em>.
+<h3>Lexical entry to object connections</h3>
+<p>
+Sample leos are:
+<pre>
+create /¹/ 1:subj::::0 2:obj::::0
+Director /¹É/
+hammer-into // 1:subj::::0 2:obj::::0 3:iobj:into-Rz:::0
+</pre>
+<p>
+A leo consists of:
+<p>
+<em>objname leo_features [theta_role ...]</em>
+<dl>
+<dt><em>objname</em>
+<dd>Name of the object associated with the lexical entry. That is,
+one of the lexical entry's meanings.
+<dt><em>leo_features</em>
+<dd><a href="quickref.htm">ThoughtTreasure features</a> associated
+with this particular lexical entry-object connection, preceded and followed
+by a slash ("/").
+<dt><em>[theta_role ...]</em>
+<dd>Zero or more theta roles.
+</dl>
+<h3>Theta roles</h3>
+<p>
+Sample theta roles are:
+<pre>
+1:subj::::0
+2:obj::::0 
+3:iobj:into-Rz:::0
+</pre>
+<p>
+A theta role consists of colon-separated items:
+<p>
+<em>slot_number</em>:<em>case</em>:<em>le_uid</em>:<em>subcat</em>:<em>position</em>:<em>optional_flag</em>
+<dl>
+<dt><em>slot_number</em>
+<dd>Slot number in the assertion of this theta role (empty for <tt>expl</tt>
+case).
+<dt><em>case</em>
+<dd>One of the following:
+<ul>
+<li><tt>subj</tt> - subject
+<li><tt>obj</tt> - object
+<li><tt>iobj</tt> - indirect object
+<li><tt>aobj</tt> - adjective object
+<li><tt>kobj1</tt> - first object of conjunction
+<li><tt>kobj2</tt> - second object of conjunction
+<li><tt>expl</tt> - expletive. This is a word or phrase which must be present
+but does not appear in the result concept. An example is <em>kick the
+bucket</em>: the concept for <em>bucket</em> does not appear in the result
+concept.
+</ul>
+<dt><em>le_uid</em>
+<dd>Lexical entry unique identifier. The preposition for <tt>iobj</tt> or the
+expletive phrase for <tt>expl</tt>.
+<dt><em>subcat</em>
+<dd>Subcategorization feature. One of the following:
+<ul>
+<li><tt>O</tt> - subjunctive
+<li><tt>÷</tt> - indicative
+<li><tt>Ï</tt> - infinitive
+<li><tt>±</tt> - present participle
+</ul>
+<dt><em>position</em>
+<dd>Position of the theta role. One of the following:
+<ul>
+<li><tt>_V</tt> - before the verb
+<li><tt>V_O</tt> - after the verb and before the object
+<li><tt>VO_</tt> - after the object
+</ul>
+<dt><em>optional_flag</em>
+<dd>0 if the theta role is required; 1 if the theta role is optional.
+</dl>
+<h3>Object/assertion file</h3>
+<p>
+Sample lines of <tt>obj.txt</tt> are:
+<pre>
+create-dig creuser-Vy dig-Vz [ako create-dig create-class]
+fall-asleep endormir-Vy go-Vz fall-Vz [ako fall-asleep personal-script] [leadto1 fall-asleep asleep] 
+farmland terre-FNy land-Nz farmland-Nz [ako farmland landmass]
+</pre>
+Each line of <tt>obj.txt</tt> is of the form:
+<p>
+<em>objname [le_uid ...] [assertion ...]</em>
+<dl>
+<dt><em>objname</em>
+<dd>Name of the object.
+<dt><em>[le_uid ...]</em>
+<dd>Zero or more lexical entry unique identifiers. That is, words or phrases for
+the concept in English and/or French.
+<dt><em>[assertion ...]</em>
+<dd>Zero or more assertions about the object.
+</dl>
+<p>
+The <tt>obj.txt</tt> file is sorted by <em>objname</em>.
+<h3>Assertions</h3>
+<p>
+Sample assertions are:
+<pre>
+[ako fall-asleep personal-script]
+[duration-of cafe-stay NUMBER:second:7200]
+[event01-of collect-card-payment [hand-to buyer seller credit-card]]
+[role01-of take-bus bus-rider]
+@19890101T000000:19890101T000001|[born Patapouf Paris] 
+</pre>
+ThoughtTreasure assertions are defined by the following Extended Backus-Naur
+Form (EBNF) grammar:
+<pre>
+Assertion      ::= (TimestampRange '|')? '[' Concept (' ' Concept)* ']'
+Concept        ::= Assertion | Token
+TimestampRange ::= '@' Timestamp ':' Timestamp
+Timestamp      ::= 'na' | '-Inf' | '+Inf' | 'Inf' | ISO8601Subset
+ISO8601Subset  ::= Y Y Y Y M M D D 'T' H H M M S S 'Z'
+                   | Y Y Y Y M M D D 'T' H H M M S S
+                   | Y Y Y Y M M D D 'T' H H M M S S '-' H H M M
+                   | Y Y Y Y M M D D 'T' H H M M S S '+' H H M M
+                   | Y Y Y Y M M D D
+                   | Y Y Y Y M M
+                   | Y Y Y Y
+Y              ::= Digit
+M              ::= Digit
+D              ::= Digit
+H              ::= Digit
+M              ::= Digit
+S              ::= Digit
+Token          ::= ObjName | String | Number | TimestampRange | Name
+ObjName        ::= ObjNameChar+
+ObjNameChar    ::= Digit | Letter | '-' | '?'
+String         ::= ('STRING:' ObjName ':')? '"' StringChar* '"'
+Number         ::= 'NUMBER:' ObjName ':' Double
+Name           ::= 'NAME:' '"' StringChar* '"'
+Digit          ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+StringChar is any character except "
+Letter is a-z or A-Z (ISO 8859-1 letters are not included)
+Double is the output of C printf %g
+</pre>
+<h3>Implementing parsers</h3>
+<p>
+When implementing parsers using the lexicon, one must be careful to
+take into account constraints associated with the links from lexical
+entries to concepts. Concepts should only be activated if all of the
+hard constraints are satisfied. Concepts should be activated to the
+extent that soft constraints are satisfied. The hard constraints are:
+<ul>
+<li>
+Expletive constraints: An additional word or phrase must be present
+at a certain location. For example, the link from the lexical entry
+<em>kick</em> to the concept <tt>die</tt> requires the presence of
+<em>the bucket</em> after the verb.
+<li>
+Object constraints: A direct object must be present. For example,
+the link from the lexical entry <em>hire</em> to the concept <tt>hire</tt>
+requires the presence of a direct object.
+<li>
+Indirect object constraints: An indirect object must be present and
+preceded by a particular preposition. For example, the link from the
+lexical entry <em>fly</em> to the concept <tt>fly-into</tt> requires
+the presence of an indirect object preceded by the preposition <em>into</em>.
+</ul>
+The soft constraints are:
+<ul>
+<li>
+Selectional constraints: Certain argument types are preferred. For
+example, the first argument of <tt>meow</tt> is typically a <tt>cat</tt>.
+<li>
+Filters: Certain syntactic environments are preferred. For example,
+<em>Internet</em> prefers a definite article (<em>I connected to the
+Internet</em> is preferred over <em>I connected to Internet</em>), and
+<em>to die for</em> prefers to be postposed (<em>It's a chocolate sundae
+to die for</em> is preferred over <em>It's a to die for chocolate
+sundae</em>).
+</ul>
+<hr>
+</body>
+</html>

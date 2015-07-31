@@ -1,0 +1,395 @@
+<html>
+<head>
+<title>ThoughtTreasure Release Notes</title>
+</head>
+<body bgcolor="#ffffff">
+<hr>
+<h2>ThoughtTreasure 0.00023 release notes (20150731)</h2>
+<ol>
+<li>Brought code and documentation up to date.</li>
+</ol>
+<hr>
+<h2>ThoughtTreasure 0.00022 release notes (19991208)</h2>
+<ol>
+<li>
+Added <a href="../python/query.htm">web querying</a> of the
+<a href="tt.htm">ThoughtTreasure</a>
+knowledge base. This uses a new reformatted version of the ThoughtTreasure
+database called <a href="../htm/ttkb.htm">TTKB</a>. The ttkb (1) command
+allows access to TTKB. TTKB can also be accessed from Python.
+<li>
+Simplified declarative representations of planning agents (PAs) called
+scripts have been added. The existing planning agents have been
+redescribed as scripts, and new scripts have been added. See the paper
+on <a href="http://arxiv.org/abs/cs/0003004">A database and lexicon of
+scripts in ThoughtTreasure</a>. Scripts have not yet been incorporated into the
+planning agency.
+<li>
+Added a Python client API that communicates with a ThoughtTreasure server
+over a socket connection. Perl and Tcl client APIs are in progress.
+<li>
+Attachments (and the feature character <tt>þ</tt>) have been eliminated.
+Previously we had:
+<pre>
+==country//|attachment-rel-of=nationality-of|
+===Scotland.z//Scot.þz/Scottish.Az/
+</pre>
+Attachments were originally designed to provide an efficient way of
+entering related words. However the lack of an atomic concept for,
+say, a Scottish person, caused problems in derivational morphology,
+generation of occupations, and other tasks. So the above is now
+represented using separate, but connected, concepts:
+<pre>
+==attribute//
+===Scottish.Az//
+==human//
+===Scot.z//|Scottish|nationality-of=Scotland|
+==country//
+===Scotland.z//
+</pre>
+This sets up the following three-way equivalence:
+<pre>
+[Scottish ?human] ==
+[nationality-of ?human Scotland] ==
+[isa ?human Scot]
+</pre>
+As a result the occupation, religion, geography, and other ontologies
+have been reorganized.
+<li>
+Ranges have been eliminated. Ranges allowed the representation of gradable
+concepts using weights. For example, <tt>bad</tt> was represented as
+<tt>good</tt> with a weight of -1.0. Lack of an atomic concept for
+<tt>bad</tt> caused problems similar to those for attachments. Now
+<tt>good</tt> and <tt>bad</tt> are separate concepts, linked by an
+<tt>antonym-of</tt> relation. Stronger or weaker versions of concepts
+are represented as subtypes. That is, <tt>OK</tt> is a <tt>good</tt>.
+<li>
+The role features (<tt>à</tt>, <tt>á</tt>, and <tt>ä</tt>) have
+been eliminated and replaced by other mechanisms:
+<ul>
+<li>
+For relations (such as <tt>nationality-of</tt>), inverse relations have
+been defined (such as <tt>citizen-of</tt>). The lexical entries defined
+with role <tt>à</tt> (such as <em>citizen</em>) have been moved
+to the inverse relations, while the lexical entries defined
+with role <tt>á</tt> (such as <em>nationality</em>) remain associated
+with the original relation. No existing relations made use of the
+<tt>ä</tt> role.
+<li>
+For actions, concepts have been defined for all roles and actions have
+been linked to those concepts via the relations <tt>role1-of</tt>,
+<tt>role2-of</tt>, ... Thus <tt>à</tt> is now <tt>role1-of</tt>,
+<tt>á</tt> is now <tt>role2-of</tt>, and <tt>ä</tt> is now <tt>role3-of</tt>.
+</ul>
+<li>
+The feature character <tt>ê</tt> (become) has been eliminated. This caused
+problems similar to those for attachments. Previously we had:
+<pre>
+===relaxed.Az//relax.Vêz/
+</pre>
+This is now represented as two linked concepts:
+<pre>
+===relaxed.Az//
+===become-relaxed//relax.Vz/|leadto1=relaxed|
+</pre>
+The <tt>ê</tt> feature was not yet used in the code, so no code
+modifications were necessary. The new <tt>leadto</tt> relations are
+as follows:
+<pre>
+[leadto1 pred1 pred2] is equivalent to [leadto [pred1 X] [pred2 X]]
+[leadto2 pred1 pred2] is equivalent to [leadto [pred1 X Y] [pred2 Y]]
+[leadto12 pred1 pred2] is equivalent to [leadto [pred1 X Y] [pred2 X Y]]
+</pre>
+<li>
+<tt>parsegen</tt> has been eliminated. This caused the generator to generate
+a more specific concept if the assertion satisfied the selectional constraints
+of that more specific concept. For example, <tt>ingest</tt> would
+be generated as <tt>eat</tt> if what was ingested was <tt>food</tt>, or
+<tt>drink</tt> if what was ingested was a <tt>beverage</tt>. On parsing,
+<tt>eat</tt> and <tt>drink</tt> would both be converted into <tt>ingest</tt>.
+First of all, on the parsing side, this seems wrong: it prevents us from
+representing <em>John drank the pizza</em>, which although bizarre, should
+probably be passed along as is to the understanding agency. So this feature
+is now completely eliminated for parsing. On the generation side, it should
+be acceptable always to use a more specific word (for a more specific concept)
+if one exists, so there is no need to assert explicitly that a concept
+is <tt>parsegen</tt>.
+<li>
+Metonymy coercion and the <tt>whole<em>N</em></tt> relations have been
+eliminated. These allowed <em>Jim opened the jar</em> to be converted by the
+semantic parser into <em>Jim's hand opened the jar</em>. This sort of detail
+should instead be handled by the understanding agency, and not be coded
+directly into verb selectional constraints as before. That is, the subject of
+<em>wash face</em> should not have a selectional constraint of <tt>grasper</tt>
+(hand). Instead it should have a selectional constraint of <tt>human</tt>.
+<li>
+<tt>tran</tt> has been eliminated. This was intended to mark concepts
+only useful in translation, but did not seem to be used anywhere in the
+code and only a few concepts in the database were marked with <tt>tran</tt>.
+<li>
+<here>
+The generation only feature character <tt>ª</tt> has been eliminated.
+It was only being used in one lexical entry.
+<li>
+Assertions (not just tokens) may now be used as values of <tt>=</tt> and
+<tt>¤</tt>. Instead of having to enter:
+<pre>
+==con1//|[pred1 con1 [pred2 con2 con3]]|[pred2 [pred3 con4 con5] con1]|
+</pre>
+you may now enter:
+<pre>
+==con1//|pred1=[pred2 con2 con3]|pred2¤[pred3 con4 con5]|
+</pre>
+<li>
+The space and time efficiency of contexts has been improved by
+eliminating copying. Instead, only differences are now stored.
+<li>
+Expletive <em>himself</em> coded before a verb now is located after
+the verb.
+<li>
+The <tt>-g</tt> (analogical morphology) command-line argument has been
+added to enable analogical morphology, which is better but uses more
+memory than the default algorithmic morphology. Previously, recompilation
+was necessary to activate analogical morphology.
+<li>
+Updated car ontology/lexicon.
+<li>
+Expanded other- entries in clothing ontology/lexicon.
+<li>
+Incorporated ThoughtTreasure server protocol registered port number
+1832 as listed by the Internet Assigned Numbers Authority (IANA).
+<li>
+Moved <tt>duration-of</tt> in hierarchy so that it parses and generates
+properly. Modified question-word question answering to allow questions
+about actions, such as <em>Web surfing takes how long?</em> and <em>What
+is the duration of gardening?</em>.
+<li>
+Fixed segmentation fault problems reported by JAmes Atwill, Matti Airas,
+and others.
+<li>
+Fixed compilation problems exposed under Solaris 2.6 and made improvements
+to makefile. Patches provided by David Arnold.
+<li>
+Changed server protocol encoding of GRIDSUBSPACE from (for example)
+<tt>[GRIDSUBSPACE 1 2]</tt> to
+<tt>[GRIDSUBSPACE NUMBER:u:1 NUMBER:u:2]</tt>.
+<li>
+Fixed problem where Orange as in Orange, CA was being stored under the
+lexical entry "orange" instead of "Orange".
+</ol>
+<hr>
+<h2>ThoughtTreasure 0.00021 release notes (19981201)</h2>
+<ol>
+<li>
+ThoughtTreasure has been ported to compile and run under Red Hat Linux 5.2.
+<li>
+A new <a href="http://xenia.media.mit.edu/~mueller/papers/tt.html">overview</a>
+of ThoughtTreasure is available.
+<li>
+A socket-based server interface has been added, allowing applications
+written in any language to make use of ThoughtTreasure. A client
+communicates with the server using the
+<a href="ttsp.htm">ThoughtTreasure Server Protocol (TTSP)</a>.
+The server is invoked via the ThoughtTreasure shell command <tt>server</tt>
+or <tt>server -port PORT</tt> where <code>PORT</code> is the listen
+port. The server returns control to the ThoughtTreasure shell when
+a client issues the <tt>Bringdown</tt> command.
+<li>
+A <a href="../java/doc/index.html">Java-based client API</a> has been added, enabling Java
+programs to communicate with the ThoughtTreasure server using TTSP.
+<li>
+More words, phrases, concepts, and assertions have been added.
+ThoughtTreasure now has 31,458 English and 20,162 French lexical
+entries, 22,386 concepts, 14,105 database assertions, and
+24,275 ISA links.
+<li>
+ThoughtTreasure now loads only English lexical entries by default.
+The <tt>-g</tt> (language) and <tt>-d</tt> (dialect) command-line
+arguments have been added to enable selection of what languages to load
+and what dialects to enable. To start ThoughtTreasure for both English and
+French, issue the command <tt>tt -g zy -d ?Àgç</tt> where:
+<pre>
+z = English
+y = French
+? = all dialects
+À = American English
+g = British English
+ç = Canadian English/French
+</pre>
+<li>
+ThoughtTreasure time and date stamps have been modified to conform to
+the international standard ISO 8601. The new formats are:
+<pre>
+YYYYMMDD"T"HHMMSS"Z" (in GMT)
+YYYYMMDD"T"HHMMSS (in some unspecified local time)
+YYYYMMDD"T"HHMMSS"-"HHMM
+YYYYMMDD"T"HHMMSS"+"HHMM
+YYYYMMDD
+YYYYMM
+YYYY
+na
+-Inf
++Inf
+Inf
+</pre>
+The appropriate changes have been made in the database.
+Here are some examples of old and new format timestamps:
+<pre>
+OLD               NEW
+19980103134502et  19980103T134502-0500
+19980103134502gt  19980103T134502Z
+199801031345gt    19980103T134500Z
+19980103          19980103 (unchanged)
+</pre>
+<li>
+There was some inconsistency in the case of the constants for
+negative and positive infinity (<tt>-Inf</tt>, <tt>-inf</tt>,
+<tt>+Inf</tt>, <tt>+inf</tt>, <tt>Inf</tt>, and <tt>inf</tt>).
+A lower-case "i" is no longer supported anywhere (neither in
+timestamps nor numbers). The allowed constants are now:
+<pre>
+-Inf
++Inf
+Inf
+</pre>
+<li>
+The code has been modified to pass the <tt>-Wall</tt> tests
+of <tt>gcc</tt>. Several potential bugs were fixed in the process.
+<li>
+Segmentation fault problems in the <tt>test</tt> and <tt>quit</tt>
+commands have been fixed.
+<li>
+The file <tt>toolapi.c</tt> contains an easier-to-use application
+programming interface (API) to ThoughtTreasure, which can be used
+when ThoughtTreasure is linked into an application (as an alternative
+to running it as a server).
+<li>
+A <tt>pcn</tt> command to understand novel compound nouns has been added.
+This is experimental and not yet complete. See <tt>compnoun.c</tt>,
+<tt>semparse.c</tt> (look for "CompoundNoun"), <tt>toolsh.c</tt>
+(look for "pcn"), and <tt>ling.txt</tt> (look for "1-2-is-a-2").
+<li>
+Reports (from the <tt>report</tt> ThoughtTreasure shell command) are
+now placed in the current directory ".", not "../reports".
+</ol>
+<hr>
+<h2>ThoughtTreasure 0.00020 release notes (19970922)</h2>
+<ol>
+<li>
+ThoughtTreasure has been ported to compile and run under MS-DOS or Windows
+using DJGPP 2.01.
+<li>
+Lexical entries, concepts, and text agents have been added for the movie
+review application.
+<li>
+A <tt>help</tt> command has been added that prints the file <tt>help.txt</tt>
+describing ThoughtTreasure shell commands and their arguments.
+<li>
+The <tt>TTROOT</tt> environment variable is now used to specify
+the location of the ThoughtTreasure distribution (for reading db files). 
+<li>
+<tt>chateng</tt> and <tt>chatfr</tt> commands have been added, which are
+the same as <tt>talkeng</tt> and <tt>talkfr</tt>. The name of
+<tt>online-talk</tt> has been changed to <tt>online-chat</tt>. 
+<li>
+Filenames in <tt>src</tt> and <tt>db</tt> directories have been changed
+to be DOS compatible (= maximum of 8 characters + "." + maximum of 3
+characters). 
+<li>
+Modification to UA_Time_Tense for <tt>inper.txt</tt> has been taken
+out. This caused problems with <tt>intut.txt</tt>.
+<li>
+PNodeTypeClassMatch has been modified to allow proper operation of
+TA_Time_MergeDateTod.
+<li>
+cancel.Vz has been added to to <tt>eninfl.txt</tt> so that appointment
+example works properly in algorithmic morphology mode.
+<li>
+BE entry of actor-of (added for the movie review understanding
+example) has been commented out to get the Perutz story to parse correctly.
+Otherwise, it thinks "Mrs. Puchl was a grocer" means she played a grocer
+in a movie. (Pruning is currently set to keep only one interpretation.)
+<li>
+ObjListSort functionality has been eliminated when compiling using
+<tt>gcc</tt>. (I'm using the <tt>gcc</tt> and libraries that come with
+DJGPP 2.01.) The comparison functions are seeing bad Obj pointers. Tests
+prior to calling <tt>qsort</tt> seem to indicate its arguments are OK.
+<tt>qsort</tt> or something else is trashing the array to be sorted,
+and I was unable to find the problem. I decided to eliminate the sorting
+for now. This means that some output won't be properly sorted by
+timestamp. (<tt>qsort</tt> has given me trouble before; in Solaris 2.4
+x86 it had a sign extension bug.) 
+<li>
+Filenames in examples directory (and in the test script <tt>test.tts</tt>)
+have been changed to be DOS compatible. 
+<li>
+ThoughtTreasure loads slowly on my Windows PC. I tried replacing
+<tt>malloc</tt>, but the result was the same. Disk I/O might be the problem,
+but a test program indicates getc() can be used to read a large file very
+quickly. Profiling turned up nothing useful. Load is slightly faster under
+MS-DOS than under Windows 95. 
+<li>
+Bug in YMDHMSToUnixTs has been fixed. It was not completely initializing
+struct tm. This sometimes caused timestamps to be parsed incorrectly
+(depending on the state of uninitialized memory). 
+<li>
+Note "Who painted _Le D&eacute;jeuner sur l'herbe_?" doesn't parse
+when the French lexicon isn't loaded (as is the case by
+default). (There is no English entry for this work.) 
+<li>
+Floating point exception problems caused by large numbers (usually
+-9999) in database (db/*) files have been fixed.
+<li>
+Segmentation fault problems in <tt>talkeng</tt> caused by
+HashTableHash() when compiling with <tt>gcc</tt> have been fixed.
+<li>
+Alignment problems have been fixed: <tt>malloc</tt> is now used by default.
+If <tt>qalloc</tt> is used, it attempts always to maintain 8-byte alignment. 
+<li>
+Memory management code including <tt>qalloc</tt> has been reworked to be
+more robust across platforms. 
+<li>
+In SleepMs(), call to <tt>usleep</tt> has been added under <tt>gcc</tt>,
+which is used by the typing simulator in <tt>utiltype.c</tt>. 
+<li>
+Init() has been modified to load ThoughtTreasure in English-only mode, to
+reduce load time. 
+<li>
+A few platform-specific (Mac OS and NEXT) modifications suggested by users
+have been incorporated. I haven't tested these.
+</ol>
+<hr>
+<h2>ThoughtTreasure 0.00015 release notes (19960716)</h2>
+<p>
+Minor modifications.
+<p>
+<hr>
+<h2>ThoughtTreasure 0.00014 release notes (19960713)</h2>
+<p>
+Minor modifications.
+<p>
+<hr>
+<h2>ThoughtTreasure 0.00013 release notes (19960630)</h2>
+<p>
+Modifications for NextStep from Frank M. Siegert have been incorporated.
+<p>
+<hr>
+<h2>ThoughtTreasure 0.00012 release notes (19960515)</h2>
+<p>
+Bugs exposed by compiling with <tt>gcc</tt> and running under SunOS on
+Sparc have been fixed.
+<p>
+<hr>
+<h2>ThoughtTreasure 0.00011 release notes (19960430)</h2>
+<p>
+Minor modifications.
+<p>
+<hr>
+<h2>ThoughtTreasure 0.0001 release notes (19960428)</h2>
+<p>
+First release of ThoughtTreasure.
+<p>
+<hr>
+
+</body>
+</html>

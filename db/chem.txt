@@ -1,0 +1,233 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=atom.z/chemical/element.z/chemical#A element*.z/atomic.Az/atome.¹My/
+atomique.Ay/élément.My/élément* chimique*A.My/
+==hydrogen.Émz/power-source/hydrogène.¹kMy/H.tz/H.tMy/|atomic-number-of=1u|
+atomic-weight-of=1.0079u|
+==helium.Éz//hélium.¹kMy/He.tz/He.tMy/|atomic-number-of=2u|
+atomic-weight-of=4.0026u|
+==lithium.Émz//lithium.¹kMy/Li.tz/Li.tMy/|atomic-number-of=3u|
+==beryllium.Émz//béryllium.¹kMy/Be.tz/Be.tMy/|atomic-number-of=4u|
+==boron.Émz//bore.¹kMy/B.tz/B.tMy/|atomic-number-of=5u|
+==carbon.Émz//carbone.¹kMy/C.tz/C.tMy/|atomic-number-of=6u|
+atomic-weight-of=12.011u|
+==nitrogen.Émz//azote.¹kMy/N.tz/N.tMy/|atomic-number-of=7u|
+atomic-weight-of=14.0067u|
+==oxygen.Émz//oxygène.¹kMy/O.tz/O.tMy/|atomic-number-of=8u|
+atomic-weight-of=15.9994u|
+===LOX.z//lox.z/liquid#A oxygen*.z/|liquid|
+===gaseous#A oxygen*.z//|gas|
+==fluorine.Émz//fluor.¹kMy/F.tz/F.tMy/|atomic-number-of=9u|
+==neon.Émz//néon.¹kMy/Ne.tz/Ne.tMy/|atomic-number-of=10u|
+==sodium.Émz//sodium.¹kMy/Na.tz/Na.tMy/|atomic-number-of=11u|
+==magnesium.Émz//magnésium.¹kMy/Mg.tz/Mg.tMy/|atomic-number-of=12u|
+==aluminum.Émz//aluminium.¹kMy/Al.tz/Al.tMy/|atomic-number-of=13u|
+==silicon.Émz//silicium.¹kMy/Si.tz/Si.tMy/|atomic-number-of=14u|
+==phosphorus.Émz//phosphore.¹kMy/P.tz/P.tMy/|atomic-number-of=15u|
+==sulfur.Émz//soufre.¹kMy/S.tz/S.tMy/|atomic-number-of=16u|
+==chlorine.Émz//chlore.¹kMy/Cl.tz/Cl.tMy/chlorinate.Vz/chlorer.Vy/
+|atomic-number-of=17u|
+==argon.Émz//argon.¹kMy/Ar.tz/Ar.tMy/|atomic-number-of=18u|
+==potassium.Émz//potassium.¹kMy/K.tz/K.tMy/|atomic-number-of=19u|
+==calcium.Émz//calcium.¹kMy/Ca.tz/Ca.tMy/|atomic-number-of=20u|
+==scandium.Émz//scandium.¹kMy/Sc.tz/Sc.tMy/|atomic-number-of=21u|
+==titanium.Émz//titane.¹kMy/Ti.tz/Ti.tMy/|atomic-number-of=22u|
+==vanadium.Émz//vanadium.¹kMy/V.tz/V.tMy/|atomic-number-of=23u|
+==chromium.Émz//chrome.Az/chrome.¹kMy/Cr.tz/Cr.tMy/
+|atomic-number-of=24u|atomic-weight-of=51.9961u|
+==manganese.Émz//manganèse.¹kMy/Mn.tz/Mn.tMy/|atomic-number-of=25u|
+==iron.Émz//fer.¹kMy/Fe.tz/Fe.tMy/|atomic-number-of=26u|
+atomic-weight-of=55.847u|
+==cobalt.Émz//cobalt.¹kMy/Co.tz/Co.tMy/|atomic-number-of=27u|
+==atom-nickel//nickel.Émz/nickel.¹kMy/Ni.tz/Ni.tMy/|atomic-number-of=28u|
+==copper.Émz//cuivre.¹kMy/Cu.tz/Cu.tMy/|atomic-number-of=29u|
+==zinc.Émz//zinc.¹kMy/Zn.tz/Zn.tMy/|atomic-number-of=30u|
+==gallium.Émz//gallium.¹kMy/Ga.tz/Ga.tMy/|atomic-number-of=31u|
+==germanium.Émz//germanium.¹kMy/Ge.tz/Ge.tMy/|atomic-number-of=32u|
+==arsenic.Émz//arsenic.¹kMy/As.tz/As.tMy/|atomic-number-of=33u|
+==selenium.Émz//sélénium.¹kMy/Se.tz/Se.tMy/|atomic-number-of=34u|
+==bromine.Émz//brome.¹kMy/Br.tz/Br.tMy/|atomic-number-of=35u|
+==krypton.Émz//krypton.¹kMy/Kr.tz/Kr.tMy/|atomic-number-of=36u|
+==rubidium.Émz//rubidium.¹kMy/Rb.tz/Rb.tMy/|atomic-number-of=37u|
+==strontium.Émz//strontium.¹kMy/Sr.tz/Sr.tMy/|atomic-number-of=38u|
+==yttrium.Émz//yttrium.¹kMy/Y.tz/Y.tMy/|atomic-number-of=39u|
+==zirconium.Émz//zirconium.¹kMy/Zr.tz/Zr.tMy/|atomic-number-of=40u|
+==niobium.Émz//niobium.¹kMy/Nb.tz/Nb.tMy/|atomic-number-of=41u|
+==molybdenum.Émz//molybdène.¹kMy/Mo.tz/Mo.tMy/|atomic-number-of=42u|
+==technetium.Émz//technétium.¹kMy/Tc.tz/Tc.tMy/|atomic-number-of=43u|
+==ruthenium.Émz//ruthénium.¹kMy/Ru.tz/Ru.tMy/|atomic-number-of=44u|
+==rhodium.Émz//rhodium.¹kMy/Rh.tz/Rh.tMy/|atomic-number-of=45u|
+==palladium.Émz//palladium.¹kMy/Pd.tz/Pd.tMy/|atomic-number-of=46u|
+==silver.Émz//argent.¹kMy/Ag.tz/Ag.tMy/
+|atomic-number-of=47u|atomic-weight-of=107.8682u|
+==cadmium.Émz//cadmium.¹kMy/Cd.tz/Cd.tMy/|atomic-number-of=48u|
+==indium.Émz//indium.¹kMy/In.tz/In.tMy/|atomic-number-of=49u|
+==tin.Émz//étain.¹kMy/Sn.tz/Sn.tMy/|atomic-number-of=50u|
+==antimony.Émz//antimoine.¹kMy/Sb.tz/Sb.tMy/|atomic-number-of=51u|
+==tellurium.Émz//tellure.¹kMy/Te.tz/Te.tMy/|atomic-number-of=52u|
+==iodine.Émz//iode.¹kMy/I.tz/I.tMy/|atomic-number-of=53u|
+atomic-weight-of=126.9045u|
+==xenon.Émz//xénon.¹kMy/Xe.tz/Xe.tMy/|atomic-number-of=54u|
+==cesium.Émz//césium.¹kMy/Cs.tz/Cs.tMy/|atomic-number-of=55u|
+==barium.Émz//baryum.¹kMy/Ba.tz/Ba.tMy/|atomic-number-of=56u|
+==lanthanum.Émz//lanthane.¹kMy/La.tz/La.tMy/|atomic-number-of=57u|
+==cerium.Émz//cérium.¹kMy/Ce.tz/Ce.tMy/|atomic-number-of=58u|
+==praseodymium.Émz//praséodyme.¹kMy/Pr.tz/Pr.tMy/|atomic-number-of=59u|
+==neodymium.Émz//néodyme.¹kMy/Nd.tz/Nd.tMy/|atomic-number-of=60u|
+==promethium.Émz//prométhium.¹kMy/prométhéum.kMy/Pm.tz/Pm.tMy/
+|atomic-number-of=61u|
+==samarium.Émz//samarium.¹kMy/Sm.tz/Sm.tMy/|atomic-number-of=62u|
+==europium.Émz//europium.¹kMy/Eu.tz/Eu.tMy/|atomic-number-of=63u|
+==gadolinium.Émz//gadolinium.¹kMy/Gd.tz/Gd.tMy/|atomic-number-of=64u|
+==terbium.Émz//terbium.¹kMy/Tb.tz/Tb.tMy/|atomic-number-of=65u|
+==dysprosium.Émz//dysprosium.¹kMy/Dy.tz/Dy.tMy/|atomic-number-of=66u|
+==holmium.Émz//holmium.¹kMy/Ho.tz/Ho.tMy/|atomic-number-of=67u|
+==erbium.Émz//erbium.¹kMy/Er.tz/Er.tMy/|atomic-number-of=68u|
+==thulium.Émz//thulium.¹kMy/Tm.tz/Tm.tMy/|atomic-number-of=69u|
+==ytterbium.Émz//ytterbium.¹kMy/Yb.tz/Yb.tMy/|atomic-number-of=70u|
+==lutetium.Émz//lutétium.¹kMy/Lu.tz/Lu.tMy/|atomic-number-of=71u|
+==hafnium.Émz//hafnium.¹kMy/Hf.tz/Hf.tMy/|atomic-number-of=72u|
+==tantalum.Émz//tantale.¹kMy/Ta.tz/Ta.tMy/|atomic-number-of=73u|
+==tungsten.Émz//tungstène.¹kMy/W.tz/W.tMy/|atomic-number-of=74u|
+==rhenium.Émz//rhénium.¹kMy/Re.tz/Re.tMy/|atomic-number-of=75u|
+==osmium.Émz//osmium.¹kMy/Os.tz/Os.tMy/|atomic-number-of=76u|
+==iridium.Émz//iridium.¹kMy/Ir.tz/Ir.tMy/|atomic-number-of=77u|
+==platinum.Émz//platine.¹kMy/Pt.tz/Pt.tMy/platinum#N-plated#.qAz/platiné.qAy/
+|atomic-number-of=78u|
+==atom-gold//gold.¹Émz/or.¹kMy/Au.tz/Au.tMy/
+|atomic-number-of=79u|atomic-weight-of=196.9665u|
+==mercury.Émz//mercure.¹kMy/Hg.tz/Hg.tMy/|atomic-number-of=80u|
+==thallium.Émz//thallium.¹kMy/Tl.tz/Tl.tMy/|atomic-number-of=81u|
+==lead.Émz//plomb.¹kMy/Pb.tz/Pb.tMy/|atomic-number-of=82u|
+==bismuth.Émz//bismuth.¹kMy/Bi.tz/Bi.tMy/|atomic-number-of=83u|
+==polonium.Émz//polonium.¹kMy/Po.tz/Po.tMy/|atomic-number-of=84u|
+==astatine.Émz//astate.¹kMy/At.tz/At.tMy/|atomic-number-of=85u|
+==radon.Émz//radon.¹kMy/Rn.tz/Rn.tMy/|atomic-number-of=86u|
+==francium.Émz//francium.¹kMy/Fr.tz/Fr.tMy/|atomic-number-of=87u|
+==radium.Émz//radium.¹kMy/Ra.tz/Ra.tMy/|atomic-number-of=88u|
+==actinium.Émz//actinium.¹kMy/Ac.tz/Ac.tMy/|atomic-number-of=89u|
+==thorium.Émz//thorium.¹kMy/Th.tz/Th.tMy/|atomic-number-of=90u|
+==protactinium.Émz//protactinium.¹kMy/Pa.tz/Pa.tMy/|atomic-number-of=91u|
+==uranium.Éz//uranium.¹kMy/U.tz/U.tMy/|atomic-number-of=92u|
+atomic-weight-of=238.0289u|
+===natural#A uranium# isotope*.z//isotope* naturel*A de#R l#D'uranium#.My/
+====uranium#-234*.Éz//uranium* 234#.¹kMy/
+====uranium#-235*.Éz//uranium* 235#.¹kMy/
+====uranium#-238*.Éz//uranium* 238#.¹kMy/
+===artificial#A uranium# isotope*.z//isotope* artificiel*A de#R l#D'uranium#.My/
+====uranium#-233*.Éz//uranium* 233#.¹kMy/
+====uranium#-236*.Éz//uranium* 236#.¹kMy/
+====uranium#-237*.Éz//uranium* 237#.¹kMy/
+====uranium#-239*.Éz//uranium* 239#.¹kMy/
+==neptunium.Émz//neptunium.¹kMy/Np.tz/Np.tMy/|atomic-number-of=93u|
+==plutonium.Émz//plutonium.¹kMy/Pu.tz/Pu.tMy/|atomic-number-of=94u|
+atomic-weight-of=244u|
+===plutonium#-239*.Éz//plutonium* 239#.¹kMy/
+==americium.Émz//américium.¹kMy/Am.tz/Am.tMy/|atomic-number-of=95u|
+==curium.Émz//curium.¹kMy/Cm.tz/Cm.tMy/|atomic-number-of=96u|
+==berkelium.Émz//berkélium.¹kMy/Bk.tz/Bk.tMy/|atomic-number-of=97u|
+==californium.Émz//californium.¹kMy/Cf.tz/Cf.tMy/|atomic-number-of=98u|
+==einsteinium.Émz//einsteinium.¹kMy/Es.tz/Es.tMy/|atomic-number-of=99u|
+==fermium.Émz//fermium.¹kMy/Fm.tz/Fm.tMy/|atomic-number-of=100u|
+==mendelevium.Émz//mendélévium.¹kMy/Md.tz/Md.tMy/|atomic-number-of=101u|
+==nobelium.Émz//nobélium.¹kMy/No.tz/No.tMy/|atomic-number-of=102u|
+==lawrencium.Éz//lawrencium.kMy/Lr.tz/Lr.tMy/|atomic-number-of=103u|
+atomic-weight-of=260u|
+==rutherfordium.Éz//unnilquadium.kMy/Rf.tz/Unq.tMy/|atomic-number-of=104u|
+==hahnium.Éz//unnilpentium.kMy/Ha.tz/Unp.tMy/|atomic-number-of=105u|
+==unnilhexium.@Éz//unnilhexium.kMy/Unh.tz/Unh.tMy/|atomic-number-of=106u|
+==unnilseptium.@Éz//unnilseptium.kMy/Uns.tz/Uns.tMy/|atomic-number-of=107u|
+==unniloctium.@Éz//unniloctium.kMy/Uno.tz/Uno.tMy/|atomic-number-of=108u|
+==unnilennium.@Éz//unnilennium.kMy/Une.tz/Une.tMy/|atomic-number-of=109u|
+;_______________________________________________________________________________
+=molecule.z/chemical/molécule.¹Fy/
+==molecular#A filament*.z//filament* moléculaire*A.¹My/
+;_______________________________________________________________________________
+=compound.z/molecule/composé.My/
+;_______________________________________________________________________________
+==H20//water.mz/H2O.tz/eau.¹Fy/H2O.ty/
+==NaCl//salt.¹z/NaCl.tz/sel.¹My/NaCl.ty/
+;_______________________________________________________________________________
+==compound-salt//salt.¹z/sel.¹My/
+==compound-bromide//bromide.¹z/bromure.¹My/
+;_______________________________________________________________________________
+==acid.z//acide.¹My/
+;_______________________________________________________________________________
+===amino#A acid*.z//acide* aminé*A.¹My/
+====essential#A amino#A acid*.z//acide* aminé*A essentiel*A.¹My/
+=====lysine.z//lysine.¹Fy/
+=====tyrosine.z//tyrosine.¹Fy/
+=====valine.z//valine.¹Fy/
+====nonessential#A amino#A acid*.z//
+=====alanine.z//alanine.¹Fy/
+;_______________________________________________________________________________
+===nucleic#A acid*.z//acide* nucléique*A.My/
+====DNA.z/molecular-filament/deoxyribonucleic#A acid*.z/double#A helix*.z/
+ADN.¹My/acide* désoxyribonucléique*A.My/double*A hélice*.Fy/
+|part-of¤adenine,thymine,cytosine,guanine|content-of=genome|
+====RNA.z//ribonucleic#A acid*.z/ARN.¹My/acide* ribonucléique*A.My/
+;_______________________________________________________________________________
+==base.z//base.¹Fy/
+===adenine.z//A.tz/adénine.¹Fy/base* A#M.Fy/
+===thymine.z//T.tz/thymine.¹Fy/base* T#M.Fy/
+===cytosine.z//C.z/cytodine.¹Fy/base* C#M.Fy/
+===guanine.z//G.z/guanine.¹Fy/base* G#M.Fy/
+;_______________________________________________________________________________
+==carbohydrate.z//hydrate* de#R carbone#.¹My/
+===starch.z//
+===cellulose.z//cellulose.¹Fy/
+===compound-sugar//sugar.mz/sucre.¹My/
+====sucrose.z//saccharose.¹Fy/
+====glucose.mz//glucose.¹My/
+;_______________________________________________________________________________
+==nucleoside.z//
+;_______________________________________________________________________________
+==nucleotide.z//
+===ADP.z//adenosine# diphosphate*.z/
+===ATP.z//
+;_______________________________________________________________________________
+==protein.z/molecular-filament/protéine.¹Fy/filament* protéique*A.My/
+===enzyme.z//enzymatic,enzymic.Az/enzyme.¹Fy/enzymatique.Ay/
+;_______________________________________________________________________________
+=alloy.z/chemical/alliage.My/
+==steel.z//acier.My/
+==bronze.z//bronze.My/
+;_______________________________________________________________________________
+=chemical-oil//oil.z/huile.Fy/
+==animal#A oil*.z//
+==vegetable#A oil*.z//
+==mineral#A oil*.z//
+==volatile#A oil*.z//
+===essential#A oil*.z//
+===oil* of#R turpentine#.z//turpentine.z/
+;_______________________________________________________________________________
+=chemical-resin/chemical/resin.z/
+;_______________________________________________________________________________
+=mixture.z/chemical/mélange.¹My/
+==air.z//air.My/
+==paint.z//peinture.Fy/|liquid|
+==soap# bubble*.z//bulle* de#R savon#M.Fy/
+==sand.z//sable.My/
+===fine#A sand*.z//sablon.My/
+==oleoresin.z//|part-of¤chemical-resin,essential-oil|
+===turpentine.z//
+==varnish.z//vernis.My/|liquid|
+===oil# varnish*.z//
+===spirit# varnish*.z//
+==wood.mz//bois.My/
+==mixture-gas/power-source/gas.mz/gaz.My/
+==dirt.mz//ground,soil,earth.mz/earthly.Az/terre.Fy/sol.My/
+==mud.mz//boue.Fy/
+;_______________________________________________________________________________
+=solution.z/chemical/
+==petroleum.z/power-source/pétrole.My/
+===paraffin.z//paraffin# oil*.gz/pétrole,pétrole* lampant*A.My/
+===fuel# oil*.z//oil.z/
+====heating# oil*.z//mazout.z/
+====motor# oil*.z//
+===kerosene.z//
+===gasoline.mÀz//gas.mÀz/petrol.mgz/essence.Fy/
+;_______________________________________________________________________________

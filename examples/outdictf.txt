@@ -1,0 +1,453 @@
+*** CLOTHING
+(A)  N ANGL SING
+  (1) &clothing &../db/Clothing.txt FRÉQ U ANGL wardrobe, garb FAM U, garment,
+costume, dress U, attire U, wear U, apparel U, clothes PL C; FR tenue F,
+vêtement M; ANGL raiment LITTÉR, wearing apparel U, rags PL ARG C, threads PL
+FAM C, gear FAM U, getup FAM, style, fashion; FR sape F ARG, pelure F FAM U,
+frusques FPL FAM PÉJ C, nippes FPL FAM C, fringues FPL FAM C, toilette F,
+garde-robe F, habillement M, costume M, ajustement M, habit M; ANGL caparison
+RARE, livery RARE, rig FAM RARE, turnout FAM RARE, trappings PL RARE C,
+accoutrements PL RARE C, accoutrements PL RARE C, things PL RARE C, furnishings
+PL RARE C, linens PL RARE C, feathers PL RARE C, habiliments PL RARE C, duds PL
+FAM RARE C, togs PL FAM RARE C, toggery FAM RARE, drapery RARE, robe RARE,
+robing RARE, trim RARE, toilette F RARE, guise RARE, habit RARE, array RARE,
+garmenture RARE, dressing RARE; FR trousseau M RARE, équipement M RARE, look M
+RARE, allure F RARE, affaires FPL RARE C, mise F RARE; ANGL clobber ARG GB U,
+fig GB; vestmental ADJ RARE;
+
+La tenue est une sorte d'objet personnel. Sortes de tenues : l'ensemble, l'«
+handkerchief », la bonneterie, la ceinture, la chemise, la jupe, la robe, la
+veste, le chapeau, le déshabillé, le gilet, le manteau, le pantalon, le pull,
+le pyjama, le short, le tablier, le voile, le « cloak », le « cuff link », le «
+footwear », le « legging », le « neckwear », les bretelles, les chaussettes,
+les gants et les sous-vêtements. Autres sortes d'objets personnels : l'article
+de bureau, l'instrument d'écriture, l'« hair care article », la carte de
+crédit, la clef, la serviette de toilette, le carnet de chèques, le chèque, le
+dispositif contraceptif, le gant de toilette, le parapluie, le sac à main, le «
+dental care article », le « key chain », le « skin care article », les articles
+de maroquinerie, les bagages, les espèces et les lunettes.
+
+
+Une tenue est une spécialité d'une marchande de vêtements. De la pelure est un
+R3 d'une action primitive et un « tog ». De la pelure est un R2 d'un « personal
+script », un « personal script » et un « human relation ». De la pelure est un
+R1 d'un trait de caractère. Prêt-à-porter est un fabricant d'une tenue.
+
+tenue F                                         noir M
+_______________________________________________ ______
+chaussettes d'Ermenegildo Zegna FPL             0,5   
+costume croisé en laine d'Ermenegildo Zegna M   0,99  
+costume croisé en laine De Fursac M             0,3   
+cravate en soie numéro 70 d'Ermenegildo Zegna F 0,3   
+pantalon d'Ermenegildo Zegna M                  0,99  
+pantalon en laine De Fursac M                   0,3   
+veste droite d'Ermenegildo Zegna F              0,5   
+veston croisé d'Ermenegildo Zegna M             0,99  
+veston croisé De Fursac M                       0,3   
+« Bill Robinson shirt »                         0,1   
+« Breffni Prince sweater »                      0,5   
+« daniel craig tie »                            0,9   
+« Dash coat »                                   0,9   
+« Gotcha trunks » PL                            0,4   
+« Mani by Giorgio Armani overcoat »             0,8   
+« Nicole Miller tie »                           0,5   
+« Rose scarf »                                  0,5   
+« Speedo thongs » PL                            0,7   
+« touch of gold T-shirt »                       0,1   
+
+tenue F                                                
+_____________________________________ _________________
+Giorgio Armani jacket F               Italien M        
+pantalon en coton de Giorgio Armani M Italien M        
+Richelieu de Jean Thiot M             Français M       
+T-shirt de Oxbow M                    Français M       
+« 501 »                               Américain M      
+« 510 »                               Américain M      
+« Alfani belt »                       Taiwanais M      
+« Austin Grey fitted shirt »          Hongkongais M    
+« b.u.m. equipment shorts » PL        Turquie F        
+« Barney's tie »                      Italien M        
+« Bill Robinson shirt »               Hongkongais M    
+« Breffni Prince sweater »            « Irishwoman » F 
+« daniel craig tie »                  Italien M        
+« Dash coat »                         Canadien M       
+« Florenzi shirt »                    Hongkongais M    
+« Gotcha trunks » PL                  Taiwanais M      
+« Loris Azzaro tie »                  Français M       
+« Mani by Giorgio Armani overcoat »   Italien M        
+« Pere Mar coat »                     Coréen M         
+« Russell athletic sweatpants » PL    Américain M      
+« Russell athletic sweatshirt »       Américain M      
+« Rykiel tie »                        Français M       
+« Screen Stars T-shirt »              Américain M      
+« Sole shirt »                        Taiwanais M      
+« Speedo trunks » PL                  Américain M      
+« Studio 0001 corduroys by Ferre » PL Italien M        
+« touch of gold T-shirt »             Américain M      
+« Ungaro Uomo sweater »               Hongkongais M    
+« Unionbay shorts » PL                Taiwanais M      
+« Valentino tie »                     Italien M        
+« Woodhouse shirt »                   Indien M         
+
+tenue F                                        blanc M
+______________________________________________ _______
+chemise de Ciao F                              0,1    
+chemise grise et blanche d'Ermenegildo Zegna F 0,3    
+pull De Fursac M                               0,05   
+T-shirt de Galfa Club M                        0,1    
+« Bill Robinson shirt »                        0,1    
+« Breffni Prince sweater »                     0,5    
+« daniel craig tie »                           0,1    
+« Dash coat »                                  0,1    
+« Giorgio Armani dress shirt »                 0,8    
+« Gotcha trunks » PL                           0,3    
+« Mani by Giorgio Armani overcoat »            0,2    
+« Rose scarf »                                 0,5    
+« touch of gold T-shirt »                      0,7    
+« Ungaro Uomo sweater »                        0,1    
+
+tenue F                                         rouge M
+_______________________________________________ _______
+chaussettes d'Ermenegildo Zegna FPL             0,5    
+costume croisé en laine d'Ermenegildo Zegna M   0,01   
+cravate en soie numéro 21 d'Ermenegildo Zegna F 0,7    
+cravate en soie numéro 70 d'Ermenegildo Zegna F 0,3    
+pantalon d'Ermenegildo Zegna M                  0,01   
+pull De Fursac M                                0,1    
+T-shirt de Oxbow M                              0,5    
+veste droite d'Ermenegildo Zegna F              0,5    
+veston croisé d'Ermenegildo Zegna M             0,01   
+« Barney's tie »                                0,5    
+« touch of gold T-shirt »                       0,1    
+
+tenue F                                         gris M
+_______________________________________________ ______
+chemise grise et blanche d'Ermenegildo Zegna F  0,7   
+cravate en soie numéro 70 d'Ermenegildo Zegna F 0,2   
+pull De Fursac M                                0,05  
+« Bill Robinson shirt »                         0,8   
+« Nicole Miller tie »                           0,1   
+« Ungaro Uomo sweater »                         0,2   
+
+tenue F                   bleu M
+_________________________ ______
+T-shirt de Galfa Club M   0,5   
+« Loris Azzaro tie »      0,5   
+« UCLA Bruins shorts » PL 0,7   
+« Valentino tie »         0,2   
+
+tenue F                             jaune M
+___________________________________ _______
+costume droit en laine De Fursac M  0,34   
+pantalon jaune en laine De Fursac M 0,34   
+T-shirt de Galfa Club M             0,15   
+T-shirt de Oxbow M                  0,2    
+« Gotcha trunks » PL                0,3    
+« UCLA Bruins shorts » PL           0,1    
+
+tenue F               bleu-vert M
+_____________________ ___________
+« Nicole Miller tie » 0,2        
+« Woodhouse shirt »   0,3        
+
+tenue F                 violet M
+_______________________ ________
+pull De Fursac M        0,05    
+T-shirt de Galfa Club M 0,15    
+
+tenue F                cyan M
+______________________ ______
+chemise de Ciao F      0,1   
+« Unionbay shorts » PL 0,1   
+
+tenue F                             « light brown »
+___________________________________ _______________
+costume droit en laine De Fursac M  0,33           
+Giorgio Armani jacket F             0,2            
+pantalon jaune en laine De Fursac M 0,33           
+T-shirt de Oxbow M                  0,2            
+
+tenue F                        « burgundy »
+______________________________ ____________
+« Giorgio Armani dress shirt » 0,1         
+« Valentino tie »              0,8         
+
+tenue F                                         orange M
+_______________________________________________ ________
+cravate en soie numéro 21 d'Ermenegildo Zegna F 0,1     
+pull De Fursac M                                0,1     
+« Nicole Miller tie »                           0,1     
+« Rykiel tie »                                  0,3     
+
+tenue F          orange-rouge M
+________________ ______________
+« Barney's tie » 0,1           
+« Rykiel tie »   0,7           
+
+tenue F                 magenta M
+_______________________ _________
+T-shirt de Galfa Club M 0,1      
+« Loris Azzaro tie »    0,2      
+
+tenue F                   « light blue »
+_________________________ ______________
+« Loris Azzaro tie »      0,2           
+« touch of gold T-shirt » 0,1           
+« Unionbay shorts » PL    0,8           
+
+tenue F                                         vert M
+_______________________________________________ ______
+cravate en soie numéro 21 d'Ermenegildo Zegna F 0,1   
+« Barney's tie »                                0,1   
+« Loris Azzaro tie »                            0,1   
+« Unionbay shorts » PL                          0,1   
+
+tenue F               rose M
+_____________________ ______
+chemise de Ciao F     0,7   
+« Nicole Miller tie » 0,1   
+« Woodhouse shirt »   0,2   
+
+tenue F                 couleur olive F
+_______________________ _______________
+Giorgio Armani jacket F 0,6            
+« Barney's tie »        0,1            
+
+tenue F                                         brun M
+_______________________________________________ ______
+cravate en soie numéro 21 d'Ermenegildo Zegna F 0,1   
+« Barney's tie »                                0,2   
+« Woodhouse shirt »                             0,2   
+
+tenue F                                         « light grey »
+_______________________________________________ ______________
+cravate en soie numéro 70 d'Ermenegildo Zegna F 0,2           
+« Giorgio Armani dress shirt »                  0,1           
+« Woodhouse shirt »                             0,3           
+
+tenue F                                         dernier cours M             
+_______________________________________________ ____________________________
+ceinture d'Ermenegildo Zegna F                  650 francs MPL              
+chaussettes d'Ermenegildo Zegna FPL             165 francs MPL              
+chemise blanche en coton d'Ermenegildo Zegna F  850 francs MPL              
+chemise grise en coton d'Ermenegildo Zegna F    850 francs MPL              
+chemise grise et blanche d'Ermenegildo Zegna F  950 francs MPL              
+chemise noire en coton d'Ermenegildo Zegna F    850 francs MPL              
+chemise rouge en coton d'Ermenegildo Zegna F    890 francs MPL              
+costume croisé en laine d'Ermenegildo Zegna M   8450 francs MPL             
+cravate en soie numéro 21 d'Ermenegildo Zegna F 550 francs MPL              
+cravate en soie numéro 70 d'Ermenegildo Zegna F 550 francs MPL              
+pantalon en coton d'Ermenegildo Zegna M         1850 francs MPL             
+pantalon en laine d'Ermenegildo Zegna M         1250 francs MPL             
+pantalon noir en laine d'Ermenegildo Zegna M    2550 francs MPL             
+veste droite d'Ermenegildo Zegna F              6190 francs MPL             
+« Bullock's belt »                              16,5 dollars américains MPL 
+
+tenue F                            coton M
+__________________________________ _______
+pardessus de Daniel Hechter M      0,44   
+T-shirt de Galfa Club M            0,33   
+« Austin Grey fitted shirt »       0,7    
+« Breffni Prince sweater »         0,48   
+« Gotcha trunks » PL               0,22   
+« Pere Mar coat »                  0,175  
+« Russell athletic sweatpants » PL 0,5    
+« Russell athletic sweatshirt »    0,5    
+« Sole shirt »                     0,35   
+« touch of gold T-shirt »          0,5    
+« Ungaro Uomo sweater »            0,52   
+
+tenue F                                         
+_____________________________________ __________
+pantalon en coton de Giorgio Armani M 30        
+« 510 »                               32 31     
+« Alfani belt »                       30        
+« Austin Grey fitted shirt »          32,5 14,5 
+« b.u.m. equipment shorts » PL        moyenne F 
+« Bill Robinson shirt »               s M       
+« Breffni Prince sweater »            moyenne F 
+« Bullock's belt »                    30        
+« Christopher Hayes briefs » PL       38        
+« Dash coat »                         40        
+« Florenzi shirt »                    s M       
+« Giorgio Armani dress shirt »        32,5 14,5 
+« Gotcha trunks » PL                  28        
+« Pere Mar coat »                     moyenne F 
+« Sole shirt »                        s M       
+« Speedo trunks » PL                  s M       
+« Studio 0001 corduroys by Ferre » PL 30        
+« touch of gold T-shirt »             moyenne F 
+« UCLA Bruins shorts » PL             33        
+« Ungaro Uomo sweater »               s M       
+« Unionbay shorts » PL                XL        
+« Woodhouse shirt »                   moyenne F 
+
+tenue F            modèle M
+__________________ ________
+« Alfani belt »    8024    
+« Bullock's belt » 7282    
+
+tenue F                             « dark brown »
+___________________________________ ______________
+costume droit en laine De Fursac M  0,33          
+Giorgio Armani jacket F             0,2           
+pantalon jaune en laine De Fursac M 0,33          
+
+tenue F                                                  
+______________________________________________ __________
+chemise blanche en coton d'Ermenegildo Zegna F 14,5 37   
+chemise de Ciao F                              l M       
+chemise grise en coton d'Ermenegildo Zegna F   14,5 37   
+chemise grise et blanche d'Ermenegildo Zegna F 14,5 37   
+chemise noire en coton d'Ermenegildo Zegna F   14,5 37   
+chemise rouge en coton d'Ermenegildo Zegna F   14,5 37   
+costume croisé en laine d'Ermenegildo Zegna M  46        
+pantalon d'Ermenegildo Zegna M                 46        
+pantalon en coton d'Ermenegildo Zegna M        40        
+pantalon en laine d'Ermenegildo Zegna M        38        
+pantalon noir en laine d'Ermenegildo Zegna M   38        
+pardessus de Daniel Hechter M                  46        
+pull De Fursac M                               48        
+Richelieu de Jean Thiot M                      41,5      
+short armée de Liberto M                       40        
+T-shirt de Galfa Club M                        moyenne F 
+T-shirt de Oxbow M                             moyenne F 
+veston croisé d'Ermenegildo Zegna M            46        
+veston croisé De Fursac M                      46        
+
+tenue F                             « dark grey »
+___________________________________ _____________
+chemise de Ciao F                   0,1          
+costume croisé en laine De Fursac M 0,7          
+pantalon en laine De Fursac M       0,7          
+pull De Fursac M                    0,55         
+veston croisé De Fursac M           0,7          
+« Ungaro Uomo sweater »             0,7          
+
+tenue F                            « polyester »
+__________________________________ _____________
+« Austin Grey fitted shirt »       0,3          
+« Gotcha trunks » PL               0,42         
+« Pere Mar coat »                  0,825        
+« Russell athletic sweatpants » PL 0,49         
+« Russell athletic sweatshirt »    0,5          
+« Sole shirt »                     0,65         
+« touch of gold T-shirt »          0,5          
+
+tenue F                       viscose F
+_____________________________ _________
+pardessus de Daniel Hechter M 0,275    
+T-shirt de Galfa Club M       0,67     
+
+tenue F                            rayonne F
+__________________________________ _________
+« Russell athletic sweatpants » PL 0,01     
+« Ungaro Uomo sweater »            0,48     
+
+tenue F               fabricant M          
+_____________________ _____________________
+culotte F             « Jockey »           
+slip à taille basse M « Jockey »           
+soutien-gorge M       « Playtex » Cacharel 
+
+tenue F                             « HASA relation »                             
+___________________________________ ______________________________________________
+gilet de Gianfranco Ferre M         costume droit de Gianfranco Ferre M           
+pantalon d'Ermenegildo Zegna M      costume croisé en laine d'Ermenegildo Zegna M 
+pantalon en laine De Fursac M       costume croisé en laine De Fursac M           
+pantalon jaune en laine De Fursac M costume droit en laine De Fursac M            
+pantalon noir de Gianfranco Ferre M costume droit de Gianfranco Ferre M           
+veste droite de Gianfranco Ferre F  costume droit de Gianfranco Ferre M           
+veston croisé d'Ermenegildo Zegna M costume croisé en laine d'Ermenegildo Zegna M 
+veston croisé De Fursac M           costume croisé en laine De Fursac M           
+
+tenue F                 produit M   
+_______________________ ____________
+Wonderbra L'Authentique « Playtex » 
+« Levi's jeans » PL     « Levi »    
+« Speedo thongs » PL    « Speedo »  
+« Speedo trunks » PL    « Speedo »  
+
+tenue F                spécialité F                            
+______________________ ________________________________________
+bonneterie F           bonnetier M                             
+botte F                bottier M                               
+chemise F              chemisier M                             
+gants MPL              gantier M                               
+prêt-à-porter M        marchand de vêtements pour confection M 
+robe F                 couturière F                            
+vêtement pour femmes M marchand de vêtements pour femmes M     
+vêtement pour hommes M marchand de vêtements pour hommes M     
+vêtement usé M         chiffonnier M                           
+« footwear »           « shoemaker » chausseur M               
+
+tenue F                                       « HASA relation »                                              
+_____________________________________________ _______________________________________________________________
+costume croisé en laine d'Ermenegildo Zegna M pantalon d'Ermenegildo Zegna M veston croisé d'Ermenegildo Zegn
+costume croisé en laine De Fursac M           pantalon en laine De Fursac M veston croisé De Fursac M        
+costume droit de Gianfranco Ferre M           pantalon noir de Gianfranco Ferre M gilet de Gianfranco Ferre M
+costume droit en laine De Fursac M            pantalon jaune en laine De Fursac M                            
+pantalon M                                    « right pocket » « left pocket »                               
+short M                                       « right pocket » « left pocket »                               
+
+De la pelure est un R2 d'un « personal script ». Humain est un R1 d'un «
+personal script », un scénario et une race. Un objet physique est un R2 d'un
+scénario. Un objet physique est un R3 d'une action primitive. Humain est un R2
+d'une action primitive.
+
+
+Elle. Un « personal script ». Humain. Un « country relation ». Le pays. Un «
+location ». Le quartier.
+
+(B)  V ANGL PPRÉS clothe
+  (1) &pull-on &primitive-action FRÉQ [SUJET « MANIPULATOR »] clothe
+[COD ANIMAL] (COI in+TENUE) ANGL outfit (in), dress (in); attire (in), costume
+(in), deck (in); FR vêtir (de), habiller (de); ANGL sock (in) RARE, stock (in)
+RARE, shoe (in) RARE, boot (in) RARE, hood (in) RARE, hat (in) RARE, cap (in)
+RARE, bonnet (in) RARE, coif (in) RARE, shirt (in) RARE, breech (in) RARE,
+frock (in) RARE, gown (in) RARE, jacket (in) RARE, coat (in) RARE, mantle (in)
+RARE, cloak (in) RARE, masquerade (in) RARE, disguise (in) RARE, suit (in)
+RARE, habit (in) RARE, fit (in) RARE, rig (in) RARE, caparison (in) RARE,
+uniform (in) RARE, accouter (in) RARE, equip (in) RARE, turn out (in) RARE, fit
+out (in) RARE, rig up (in) RARE, rig out (in) RARE, rag up (in) RARE, rag out
+(in) RARE, dud (in) RARE, swaddle (in) RARE, swathe (in) RARE, muffle up (in)
+RARE, bundle up (in) RARE, wrap up (in) RARE, enshroud (in) RARE, shroud (in)
+RARE, sheathe (in) RARE, envelop (in) RARE, lap (in) RARE, enwrap (in) RARE,
+wrap (in) RARE, bedrape (in) RARE, drape (in) RARE, dight (in) RARE, bedeck
+(in) RARE, endue (in) RARE, invest (in) RARE, enrobe (in) RARE, robe (in) RARE,
+habilitate (in) RARE, garment (in) RARE, raiment (in) RARE, apparel (in) RARE,
+array (in) RARE, tire (in) RARE, garb (in) RARE, enclothe (in) RARE; tog (in) N
+FAM RARE;
+
+Le « tog » est une sorte d'action primitive. Autres sortes d'actions primitives :
+abattrer, aller, baisser, bouger, connecter, consommer, coucher, créer,
+découvrir, desserrer, détruire, donner, fermer, frapper, frotter, installer, le
+mtran, mettre, ouvrir, remplir, retirer, saisir, toucher, traduire, verser, «
+flip » et autres.
+
+Un « tog » prend 5 seconds. Un « manipulator » est un R1 d'un « tog ». Un
+animal est un R2 d'un « tog ». De la pelure est un R3 d'un « tog ». Un objet
+physique est un W1 d'un « tog ».
+
+Un « manipulator » est un R1 d'un « tog » et un scénario. Un objet physique est
+un W1 d'un scénario. Un objet physique est un R2 d'une action primitive. Une
+action primitive prend 2 seconds. 2 seconds est une relation d'un « old audible
+ring tone ». 4 seconds est une relation d'un « old audible ring tone ». 4
+seconds est une relation d'un « precise audible ring tone ». 480 Hz est une
+fréquence d'un « precise audible ring tone ». 480 Hz est une fréquence d'un «
+precise line busy tone ». 0 seconds est une relation d'un « precise line busy
+tone ». 0 seconds est la valeur maximale d'un « duration relative to now ». 0
+seconds est la valeur minimale d'un « duration relative to now ». 0 seconds est
+une relation d'un « calling card service prompt tone ». 0 seconds est une
+relation d'un « receiver off-hook ». 0 seconds est une relation d'un « precise
+reorder tone ». 480 Hz est une fréquence d'un « precise reorder tone ». 480 Hz
+est une fréquence d'un « precise high tone ».
+
+
+Un « tog ». Un « manipulator ». Une action primitive. Un objet physique. Drew
+McDermott. Les Etats-Unis. Wisconsin. Madison. La ville. Une résidence. L'administration
+politique. Un lieu de mort. Un animal. Un objet. Un suffixe. Un scénario. Un «
+planning relation ». Une relation. Un « attribute-relation inference ». Un
+attribut. Un adjectif. Un adverbe. Un nom. Une relation linguistique. Un affixe.
+Humain. Un « telephone call ».
+

@@ -1,0 +1,28 @@
+ThoughtTreasure
+Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+All Rights Reserved.
+
+http://www.amazon.com/gp/product/1478171650/
+
+ThoughtTreasure is a trademark of Erik Thomas Mueller.
+
+All brand names and product names are the trademarks or registered
+trademarks of their respective owners and/or manufacturers.
+
+This is free software. You can redistribute it and/or modify it
+under the terms of the GNU General Public License Version 2 as
+published by the Free Software Foundation.
+
+This software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this software; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+02110-1301 USA.
+
+Any rights not expressly granted herein are reserved.
+
+Any slights of people, places, or organizations are unintentional.

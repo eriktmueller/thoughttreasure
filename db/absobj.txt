@@ -1,0 +1,2577 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=economy.z/abstract-object/economic.¹Az/economics.¹Îz/économie.¹Fy/
+économique.¹Ay/économie.¹ÎFy/
+;_______________________________________________________________________________
+=area.z/abstract-object/region.z/région.¹Fy/
+==rural#A area*.z//country.¹kz/countryside,land.z/campagne.¹kFy/
+==suburbia.z//suburbs.¹kPïz/suburb.z/banlieue.¹kFy/faubourg.My/périphérie.qFy/
+==urban-area//city.¹kz/ville.¹kFy/
+;_______________________________________________________________________________
+=polity.z/organization/governmental#A organization*.z/régime* politique*A.My/
+constitution* politique*A.Fy/régime.My/administration* politique*A.Fy/
+;_______________________________________________________________________________
+==continent.z//continent.My/
+;_______________________________________________________________________________
+==world# region*.z//region* of#R the#D world#.z/
+===Arabian#A Peninsula*.z//Arabia.z/
+===Far#A East*.z//|part-of¤country-CHN,country-JPN|;todo: East of India
+===Middle#A East*.z//Mideast.z/Near#A East*.z/Moyen*A-Orient*.My/
+|part-of¤country-ISR,country-GZ,country-LBY,country-IRN,country-AFG|
+part-of¤country-CYP,country-TUR|;todo
+;_______________________________________________________________________________
+==country# region*.z//
+===New#A England*.z//
+;_______________________________________________________________________________
+==state# region*.z//
+===SF-Bay-Area//Bay# Area*.z/San#Aj Francisco# Bay# Area*.z/
+;_______________________________________________________________________________
+==commonmarket.z//common#A market*.z/marché* commun*A.My/
+==*CARICOM.My//Caribbean#A Community*.¹z/
+|@1973:na|part-of¤country-BRB,country-GUY,country-JAM,country-TTO|
+==*CIS.z//Commonwealth* of#R Independent#A States#P.z/CEI.¹Fy/
+Communauté* des#RP États#MP indépendants#AMP.Fy/
+|@1991:na|
+part-of¤country-ARM,country-AZE,country-KAZ,country-RUS,Byelorussia,Kirghizstan|
+part-of¤country-MDA,country-UZB,country-TJK,country-TKM,country-UKR|
+==*EC//European#A Community*.kNz/European#A Economic#A Community*.kz/
+European#A Union*.¹kNz/EU.¹kz/EEC,EC.okz/Common#A Market*.kz/
+Communauté* européenne*A.kNFy/Union* européenne*A.¹kNFy/Union.¹kNFy/UE.¹kNFy/
+CEE,CE.okNFy/Communauté* économique*A européenne*A.kNFy/
+Union* économique*A européenne*A.kNFy/
+Marché* commun*A.kMy/Douze.okTMy/Quinze.kTMy/
+|@1957|founded|@1957:na|
+part-of¤country-BEL,country-FRA,country-ITA,country-LUX,country-DEU,country-NLD|
+@1973:na|
+part-of¤country-DNK,country-IRL,country-GBR|@1981:na|part-of¤country-GRC|
+@19860101:na|part-of¤country-ESP,country-PRT|
+@19950101:na|part-of¤country-SWE,country-FIN,country-AUT|
+;_______________________________________________________________________________
+==country.z//land.z/pays.¹My/état.My/
+===country-state//State.¹z/État.¹My/Etat.My/
+;_______________________________________________________________________________
+==country# subdivision*.z//subdivision* de#R pays#M.@¹Fy/
+===DOM#-TOM#.My//Dom#-Tom#.My/
+French#A overseas#A department* and#K territory*.¹z/
+====DOM.ßMy//Dom.ßMy/département* d#R'outre#R-mer#F.My/
+French#A overseas#A department*.¹z/
+overseas#A department* of#R France#.z/
+====TOM.ßMy//Tom.ßMy/territoire* d#R'outre#R-mer#F.My/
+French#A overseas#A territory*.¹z/overseas#A territory* of#R France#.z/
+====coll-terr//collectivité* territoriale*A française*A.Fy/
+French#A overseas#A region* with#R a#D level# of#R autonomy#.¹z/
+===US# commonwealth*.z//commonwealth.¹z/état* libre*A associé*A.¹My/
+===UK# dependency*.z//dependency.¹z/territoire* dépendant*A.¹My/
+===polity-state//state.z/état.My/
+===province.z//province.Fy/
+===region.z//région.Fy/
+;_______________________________________________________________________________
+==country# subsubdivision*.z//subsubdivision* de#R pays#M.@¹Fy/
+===county.z//comté.My/
+===department.z//département.My/
+;_______________________________________________________________________________
+==city.z//locality.qz/commune,ville.¹Fy/cité,municipalité.Fy/village.My/
+;_______________________________________________________________________________
+==city# subdivision*.z//subdivision* de#R ville#.@¹Fy/
+;_______________________________________________________________________________
+===borough.z//municipalité.Fy/
+===arrondissement.My//district.z/
+;_______________________________________________________________________________
+==city# subsubdivision*.z//neighborhood.¹z/section.z/quartier.¹My/
+subsubdivision* de#R ville#.@Fy/
+===precinct.z//
+===city-subsubdivision-quarter//quarter.z/
+===city-subsubdivision-zone//zone.z/
+;_______________________________________________________________________________
+===airport.z/exterior-area-station/aéroport.My/
+===*Charles# de#R Gaulle# airport*.z//
+aéroport* Charles# de#R Gaulle#C.My/Roissy.Ty/|part-of=Roissy-en-France|
+===*JFK-airport//John# F\.# Kennedy# airport*.z/JFK.Tz/Kennedy# airport*.z/
+Kennedy.qz/Idlewild.oz/aéroport* John# F\.# Kennedy#C.My/
+aéroport* Kennedy#C.My/Kennedy.Cy/Idlewild.oy/|part-of=Queens|
+;_______________________________________________________________________________
+===exterior-area-park/exterior-area/park.z/parc.My/jardin* public*A.My/
+===*Central#A Park*.z//
+===*Riverside#A Park*.z//
+===*Bois* de#R Boulogne#.My//
+;_______________________________________________________________________________
+==city# subsubsubdivision*.z//subsubsubdivision* de#R ville#.@¹Fy/
+neighborhood.z/section.z/quartier.My/
+===block.z//
+==city# subsubsubsubdivision*.z//subsubsubsubdivision* de#R ville#.@¹Fy/
+neighborhood.z/section.z/quartier.My/
+==city# subsubsubsubsubdivision*.z//subsubsubsubsubdivision* de#R ville#.@¹Fy/
+neighborhood.z/section.z/quartier.My/
+;_______________________________________________________________________________
+=research# institution*.z/organization/
+==ARC.kFy//association* pour#R la#D recherche# cognitive#A.Fy/
+==CNRS.®My/government-institution/
+Centre* national*A de#R la#D recherche#F scientifique#AF.My/
+|headquarters-of=BUILDING::15:quai Anatole-France:75700:Paris::country-FRA|
+===CREA.My//Centre* de#R recherche#F en#R épistémologie#F appliquée#AF.My/
+URA# 1259# CNRS#.y/
+|headquarters-of=BUILDING::1:rue Descartes:75005:Paris::country-FRA|
+; Typical seminars:
+; Pierre Jacob Theorie de l'esprit et architecture cognitive
+===MSH.Fy//Maison* des#RP sciences#FP de#R l#D'homme#M.Fy/URA# 1198# CNRS#.y/
+|headquarters-of=BUILDING::54:boulevard Raspail:75006:Paris::country-FRA|
+====Laboratoire* de#R science#F cognitive#AF et#K psycholinguistique#F.My//
+==CNET.®My/government-institution/
+Centre* national*A d#R'études#FP des#RP télécommunications#FP.My/
+;_______________________________________________________________________________
+=educational#A institution*.z/organization/school.z/école.Fy/
+;_______________________________________________________________________________
+==elementary#A school*.z//primary#A school*.z/
+grade# school*,grammar# school*.oz/école* primaire*A.Fy/
+==*RPS.®ÉTz//Roosevelt# Public#A School*.®Éz/
+;_______________________________________________________________________________
+==free#A school*.z//école* privée*A spécialisée*A.Fy/
+==*Erehwon.®Éz//
+==*Summerhill.®Éz//
+;_______________________________________________________________________________
+==junior#A high#A school*.z//junior#A high#A ½.z/
+collège,collège* d#R'enseignement# secondaire#A.My/
+;_______________________________________________________________________________
+==high#A school*.z//lycée.My/
+==*HHS.®ÉTz//Hightstown# High#A School*.®Éz/
+;_______________________________________________________________________________
+==grande-ecole//grande*A école*.Fy/French#A grande#Aj école*j.¹z/
+prestigious#A French#A university#-level# school*.z/academy.z/
+;_______________________________________________________________________________
+==*ESCP//École* supérieure*A de#R commerce#M de#R Paris#M.kFy/ESCP.kFy/
+;_______________________________________________________________________________
+==*ENS//École* normale*A supérieure*A.kFy/ENS.kTFy/Normale* sup*A.TÉFy/
+|headquarters-of=BUILDING::46:rue d'Ulm:75005:Paris::country-FRA|
+headquarters-of=BUILDING::24:rue Lhomond:75005:Paris::country-FRA|
+; DNA/genetic processes.
+;_______________________________________________________________________________
+==*ENA//École* nationale*A d#R'administration#F.¹kFy/ENA,E\.N\.A\..Fy/
+énarchie.ÎñFy/
+;_______________________________________________________________________________
+==*X//École* polytechnique*A.kFy/X.kTy/pipo.oTMy/
+;_______________________________________________________________________________
+==*Ecole-des-beaux-arts//École* des#RP beaux#AMP-arts#MP.kFy/
+Beaux*A-Arts*.kMPïy/Art# School*.kz/
+;_______________________________________________________________________________
+==*Arts-et-metiers//Arts#NMP et#K métiers#NMP.My/
+Conservatoire* national*A des#RP arts#NMP et#K métiers#NMP.My/
+Institute* for#R engineering# studies#P.z/
+;_______________________________________________________________________________
+==*ENST.Fy//École* nationale*A supérieure*A des#RP télécommunications#P.kFy/
+Télécom#-Paris#.Ty/
+|headquarters-of=BUILDING::46:rue Barrault:75013:Paris::country-FRA|
+; Typical seminars:
+; Traitement automatique de la semantique des langues
+;_______________________________________________________________________________
+==university# department*.z//department.z/département.My/
+unité* de#R formation# et#K de#R recherche#.Fy/UFR.Fy/
+;_______________________________________________________________________________
+==*CAMS.y//|part-of=UnivParis5|; todo
+==*EHESS.Fy//École* des#RP hautes#AP études#P en#R sciences#P sociales#AP.kFy/
+|part-of=UnivParis5|; todo
+headquarters-of=BUILDING::105:boulevard Raspail:75006:Paris::country-FRA|
+; Hermeneutique.
+; Typical seminars:
+; Seminaire Semiotique, linguistique et cognition
+;   Florence de Challonge (CNRS) Spatialite et discours litteraire
+; La question de la modelisation en sciences humaines : mathematiques et
+; informatique
+;_______________________________________________________________________________
+==*NICI.kz//Nijmegen# Institute* for#R Cognition# and#K Information#.z/
+|part-of=Univ-Nijmegen|department-head-of=Charles-NICI|secretary-of=Hil-NICI|
+researcher-of=Carla-Huls,Wim-Claassen,Edwin-Bos|
+;_______________________________________________________________________________
+==*UFR-etudes-anglophones-Charles-V//
+UFR# études#FP anglophones#AFP Charles#M V#C.Fy/|part-of=UnivParis7|
+headquarters-of=BUILDING::8:rue Charles V:75004:Paris::country-FRA|
+;_______________________________________________________________________________
+==*URA-316-CNRS//Laboratoire* de#R psychologie#F expérimentale#AF.My/
+URA# 316# CNRS#.y/RISC#-CNRS#.y/|part-of=UnivParis5,CNRS|
+headquarters-of=BUILDING:Centre Henri Piéron:28:rue Serpente:75006:Paris::country-FRA|
+; instructions communicatives mere-enfant
+; Typical seminars:
+; Pluralite de traitements dans les taches de conservation chez les enfants
+; d'age scolaire
+; Comment les jeunes enfants se representent-ils les relations de parente ?
+; Seminaire Comprehension de textes et memoire
+;_______________________________________________________________________________
+==*LADL.My//
+Laboratoire* d#R'automatique#F documentaire#AF et#K linguistique#F.My/
+|part-of=UnivParis6|; todo
+; Typical seminars:
+; Les completives en ancien francais
+;_______________________________________________________________________________
+==*LIMSI.My//
+Laboratoire* d#R'informatique#F pour#R la#D mécanique#F et#K les#DP sciences#FP de#R l#D'ingénieur#.My/
+|part-of=UnivParisSud|
+; Claire Nedellec - IJCAI'95 Learning and Comprehensibility seminar
+; Gerard Sabah
+; Yves Kodratoff
+; G. Ligozat
+====LIMSI1//Département* communication#F homme#-machine#F.My/
+; Typical seminars:
+; Reseaux inter-representationnels en cartographie cognitive
+;_______________________________________________________________________________
+==*SAMOS.Fy//Statistique* appliquée*A et#K modelisation# aléatoire#A.Fy/
+|part-of=UnivParis1|
+headquarters-of=BUILDING::90:rue de Tolbiac:75013:Paris::country-FRA|
+; Typical seminars:
+; Nouvelles bornes pour le modele de Hopfield de memoire associative
+; Neural nets.
+;_______________________________________________________________________________
+==university.z//college.Tz/université.¹Fy/uni.Tgz/fac.¹TFy/faculté.Fy/
+;_______________________________________________________________________________
+; 80 universities in France.
+;_______________________________________________________________________________
+===IUT.My//institut* universitaire*A de#R technologie#F.My/
+===INSA.My//institut* national*A de#R sciences#FP appliquées#AFP.My/
+===IEP.My//institut* d#R'études#FP politiques#AFP.My/
+===*IEP-Paris//Institut* d#R'études#FP politiques#AFP de#R Paris#.®kMy/IEP.kMy/
+===institut* polytechnique*A.My//
+===universite-technologique//université* technologique*A.Fy/
+;_______________________________________________________________________________
+==*Cambridge# University*.®Éz//Cambridge.®Éz/université* de#R Cambridge#C.®kFy/
+==*Oxford# University*.®Éz//Oxford.@®Éz/université* d#R'Oxford#C.@®kFy/
+oxonien.@Ay/
+;_______________________________________________________________________________
+==*College-de-France//Collège* de#R France#F.My/
+|headquarters-of=BUILDING::11:place Marcelin Berthelot:75005:Paris::country-FRA|
+; Typical seminars:
+; Boulez lectures.
+; Le regard (II). Mecanismes, adaptation et pathologie
+; Les mecanismes de la plasticite sensorielle (II) :
+; effets des changements de referentiels sur les deplacements locomoteurs
+;_______________________________________________________________________________
+==*ILPGA.My//
+Institut* de#R linguistique#F et#K phonétique#F générales#AFP et#K appliquées#AFP.kMy/
+|headquarters-of=BUILDING::19:rue des Bernardins:75005:Paris::country-FRA|
+; Phonology class.
+; Typical seminars:
+; Pierre-Yves Raccah (CNRS-idl, Paris) Semantique formelle
+;_______________________________________________________________________________
+==*ESPCI.Fy//
+École* superieure*A de#R physique#F et#K de#R chimie#F industrielles#AFP.kFy/
+|headquarters-of=BUILDING::10:rue Vauquelin:75005:Paris::country-FRA|
+;_______________________________________________________________________________
+===Universite-de-Paris//Université* de#R Paris#M.®kFy/
+University* of#R Paris#M.kz/
+;_______________________________________________________________________________
+====Sorbonne.®kFy//Sorbonne.®kz/
+====*UnivParis1//Université* de#R Paris#M I#C.®kFy/Paris#M-I#C.®ÉFy/
+Université* de#R Paris#M I#C Panthéon#M Sorbonne#.®kFy/
+Paris#M-I#C-Panthéon#M-Sorbonne#.®ÉFy/Paris#M-I#C-Sorbonne#.®ÉFy/
+|headquarters-of=BUILDING::12:place Panthéon:75005:Paris::country-FRA|
+====*UnivParis3//Université* de#R Paris#M III#C.®kFy/Paris#M-III#C.®ÉFy/
+Université* de#R Paris#M III#C Sorbonne# Nouvelle#A.®kFy/
+Paris#M-III#C-Sorbonne#-Nouvelle#A.®ÉFy/
+|headquarters-of=BUILDING::17:rue de la Sorbonne:75005:Paris::country-FRA|
+====*UnivParis4//Université* de#R Paris#M IV#C.®kFy/Paris#M-IV#C.®ÉFy/
+|headquarters-of=BUILDING::17:rue de la Sorbonne:75005:Paris::country-FRA|
+;_______________________________________________________________________________
+===*UnivParis2//Université* de#R Paris#M II#C.®kFy/Paris#M-II#C.®ÉFy/
+Université* de#R Paris#M II#C Panthéon#M Assas#M.®kFy/
+Paris#M-II#C-Panthéon#M-Assas#M.®ÉFy/Paris#M-II#C-Assas#M.®ÉFy/
+|headquarters-of=BUILDING::12:place Panthéon:75005:Paris::country-FRA|
+;_______________________________________________________________________________
+===*UnivParis5//Université* de#R Paris#M V#C.®kFy/Paris#M-V#C.®ÉFy/
+Université* de#R Paris#M V#C René#M Descartes#M.®kFy/
+Université* René#M Descartes#M.®kFy/Paris#M-V#C-René#M-Descartes#M.®ÉFy/
+|headquarters-of=BUILDING::12:rue École de Médecine:75006:Paris::country-FRA|
+;_______________________________________________________________________________
+====Jussieu.ÉMy//
+====*UnivParis6//Université* de#R Paris#M VI#C.®kFy/Paris#M-VI#C.®ÉFy/
+Université* de#R Paris#M VI#C Pierre#M et#K Marie#F Curie#M-Jussieu#M.®kFy/
+Paris#M-VI#C-Jussieu#M.®ÉFy/
+|headquarters-of=BUILDING::2:place Jussieu:75005:Paris::country-FRA|
+====*UnivParis7//Université* de#R Paris#M VII#C.®kFy/Paris#M-VII#C.®ÉFy/
+Université* de#R Paris#M VII#C Denis#M Diderot#M.®kFy/
+université* Denis#M-Diderot#M-Paris#M-VII#C.®kFy/
+Paris#M-VII#C-Denis#M-Diderot#M.®ÉFy/
+|headquarters-of=BUILDING::4:place Jussieu:75005:Paris::country-FRA|
+; Linguistics class with M. Boulle.
+;_______________________________________________________________________________
+===*UnivParis8//Université* de#R Paris#M VIII#C.®kFy/Paris#M-VIII#C.®ÉFy/
+|headquarters-of=BUILDING::2:rue de la Liberté:93256:Saint-Denis::country-FRA|
+;_______________________________________________________________________________
+===*UnivParis9//Université* de#R Paris#M IX#C.®kFy/Paris#M-IX#C.®ÉFy/
+Université* de#R Paris#M IX#C Dauphine#M.®kFy/Paris#M-IX#C-Dauphine#M.®ÉFy/
+|headquarters-of=BUILDING:::place du Maréchal-de-Lattre-de-Tassigny:75016:Paris::country-FRA|
+; Research library with AI journals.
+;_______________________________________________________________________________
+===*UnivParis10//Université* de#R Paris#M 10#C.®kFy/
+Université* de#R Paris#M 10#C Nanterre#C.®kFy/Paris#M-10#C.®ÉFy/
+Paris#M-10#C-Nanterre#C.®ÉFy/
+;_______________________________________________________________________________
+===*UnivParis11//Université* de#R Paris#M XI#C.®kFy/Paris#M-XI#C.®ÉFy/
+Paris#M-XI#C-Orsay#M.®ÉFy/Université* de#R Paris#M XI#C Orsay#M.®kFy/
+===*UnivParis12//Université* de#R Paris#M XII#C.®kFy/Paris#M-XII#C.®ÉFy/
+Université* de#R Paris#M XII#C Val#M de#R Marne#.®kFy/
+;|headquarters-of=BUILDING::61:avenue du Général de Gaulle:94010:::country-FRA|
+===*UnivParis13//Université* de#R Paris#M XIII#C.®kFy/Paris#M-XIII#C.®ÉFy/
+;_______________________________________________________________________________
+==*UnivParisSud//Université* de#R Paris#M-Sud#M.®kFy/
+|headquarters-of=BUILDING::::91405:Orsay::country-FRA|
+;_______________________________________________________________________________
+==*Rutgers.®Éz//Rutgers#® University*.®Éz/
+==*Rutgers#® Law# School*.®Éz//|part-of=Rutgers|
+==*UC.ÉTz//University* of#R California#.®kz/
+Université* de#R la#D Californie#.kFy/
+==*UCLA.®Éz//University* of#R California#\, Los#jD Angeles*C.®kz/
+Université* de#R la#D Californie# à#R Los#jD Angeles#.kFy/|part-of=UC|
+==*UC# Berkeley*.®Éz//University* of#R California#\, Berkeley*.®kz/Cal.®ÉTz/
+UCB.®Éqz/Université* de#R la#D Californie# à#R Berkeley#C.kFy/|part-of=UC|
+==*UC# Santa#A Cruz*.®Éz//University* of#R California#\, Santa#A Cruz*.®kz/
+UCSC.®Éqz/Université* de#R la#D Californie# à#R Santa#Aj Cruz#C.kFy/|part-of=UC|
+==*UC# Irvine*.®Éz//University* of#R California#\, Irvine*.®kz/UCI.®Éqz/
+Université* de#R la#D Californie# à#R Irvine#.kFy/|part-of=UC|
+==*UC# Davis*.®Éz//University* of#R California#\, Davis*.®kz/
+Université* de#R la#D Californie# à#R Davis#.Fky/|part-of=UC|
+==*UC# Santa#A Barbara*.®Éz//
+University* of#R California#\, Santa#A Barbara*.®kz/
+UCSB.®Éz/Université* de#R la#D Californie# à#R Santa#Aj Barbara#.kFy/
+|part-of=UC|
+==*UCSD.®Éz//UC#® San#Aj Diego*.®Éz/
+University* of#R California#\, San#Aj Diego*.®kz/
+Université* de#R la#D Californie# à#R San#Aj Diego#C.Fky/|part-of=UC|
+==*Caltech.®Éz//California# Institute# of#R Technology*.¹®kMz/
+==*Boston# University*.®Éz//BU.®ÉTz/Université* de#R Boston#.kFy/
+==*MIT.®Éz//Massachusetts# Institute# of#R Technology*.¹®kMz/MIT.®kMy/
+==*NYU.®Éz//New#A York# University*.®Éz/Université* de#R New#Aj York#C.kFy/
+==*Carnegie#-Mellon#.®Éz//
+==*University* of#R Pennsylvania#.®kz//
+==*Stanford.®Éz//Stanford#® University*.®Éz/Stanford.®Éy/
+==*University* of#R Michigan#.z//université* du#R Michigan#M.kFy/
+;_______________________________________________________________________________
+==*Univ-Nijmegen//University* of#R Nijmegen#.z/
+;_______________________________________________________________________________
+===Ivy#-League# university*.z//Ivy#-League# college*.z/
+grande*A université* privée*A américaine*A.Fy/
+===*Harvard.®Éz//Harvard#® University*.®Éz/Université* Harvard#C.¹®ÉFy/
+Harvard.®Éy/
+===*Yale.®Éz//Yale#® University*.®Éz/
+===*Princeton# University*.®Éz//Princeton.Éz/
+université* américaine*A de#R Princeton#C.kFy/
+===*Brown.®Éz//Brown#® University*.®Éz/Université* Brown#C.kFy/
+===*Columbia.®Éz//Columbia#® University*.®Éz/
+;_______________________________________________________________________________
+==college.z//université.Fy/collège.qMy/
+==*Bard.®Éz//
+==*Berklee# School# of#R Music#.®kz//Berklee# School#.kMz/
+==*Oberlin# College*.®Éz//
+;_______________________________________________________________________________
+==continuing# education*.z//formation* permanente*A.Fy/
+formation* professionnelle*A continue*A.Fy/
+;_______________________________________________________________________________
+=labor# union*.z/organization/union.¹z/trade# union*.z/union.Az/syndicat.¹My/
+syndical,du#R syndicat#NM.Ay/
+==UAW.z//UAW# International#A Union*.z/United#A Auto# Workers#P Union*.z/
+United#A Auto#S Workers*.Pïz/
+==UAW-ASE//academic#A student# employee# union*.z/
+;_______________________________________________________________________________
+=employers.Pïz/organization/patronat.¹My/
+==CNPF.My//Conseil* national*A du#R patronat# français#A.My/
+;_______________________________________________________________________________
+=club.z/organization/club.My/
+==club-society//society.z/société.Fy/
+==club-association//association.z/association.Fy/
+;_______________________________________________________________________________
+=belief# system*.z/abstract-object/
+==traditional#A values*.Pïz//valeurs* traditionnelles*A.FPïy/
+===reperes-traditionnels//repères* traditionnels*A.MPïy/
+traditional#A points* of#R reference#S.Pïz/
+==family#S values*.Pïz//valeurs* familiales*A.FPïy/
+==puritan#A values*.Pïz//valeurs* puritaines*A.FPïy/
+;_______________________________________________________________________________
+=political#A system*.z/belief-system/political.Az/politics.Îz/
+political#A belief# system*.z/politique.Ay/politique.ÎFy/
+political#A doctrine*.z/political#A ideology*.z/belief# system*.z/doctrine.z/
+ideology.z/système* politique*A.¹My/doctrine.Fy/dogme.My/idéologie.Fy/
+théorie,thèse.qFy/opinion* politique*A.Fy/bord.My/couleur,tendance.Fy/
+allégeance,appartenance.Fy/orthodoxie.Fy/
+;_______________________________________________________________________________
+==political#A party*.z/organization/party.z/faction,camp,machine.qz/
+political#A machine*.z/party# machine*.z/parti.My/
+;_______________________________________________________________________________
+; Political system ontology based on Chapman (1992) with French words
+; from Rey-Debove and Rey (1993) and French parties from
+; {La Libération}.
+;_______________________________________________________________________________
+===major#A party*.z//parti* principal*A.My/
+===minor#A party*.z//third#A party*.z/splinter# party*.z/
+===party* in#R power#.z//
+===opposition# party*.z//
+===loyal#A opposition*.z//
+;_______________________________________________________________________________
+==internationalism.z//internationalisme.My/
+;_______________________________________________________________________________
+==politics-radicalism//radicalism.z/
+===politics-extremism//extremism.z/
+===politics-yippie//
+====youth# international#A party# line*.z//YIPL.Tz/
+;_______________________________________________________________________________
+==politics-revolutionism//revolutionism.z/
+==politics-subversivism//
+==politics-anarchy//anarchy.z/anarchisme.My/anarchie.My/
+==politics-nihilism//nihilism.z/nihilisme.My/
+;_______________________________________________________________________________
+==misc-political-party/political-party/
+===Prohibition# Party*.kz//|us|
+===Anti#A-Masonic#A Party*.kz//|us|
+===Anti#A-Monopoly# Party*.kz//|us|
+===Constitutional#A Union# Party*.kz//|us|
+===Democratic#A-Republican#A Party*.kz//|us|
+===State#'s Rights#P Democratic#A Party*.kz//Dixiecrats.TPïz/|us|
+===Farmer#-Labor# Party*.kz//|us|
+===Federalist#A Party*.kz//|us|
+===Free#A Soil# Party*.kz//|us|
+===Greenback# Party*.kz//|us|
+===Independent#A Party*.kz//|us|
+===American#A Party*.kz//Know#V-Nothing# Party*.kz/|us|
+===Liberal#A Republican#A Party*.kz//|us|
+===Liberty# Party*.kz//|us|
+===People#P's Party*.kz//Populist#A Party*.z/|us|
+===Bull# Moose# Party*.kz//|us|
+===Whig# Party*.kz//|us|
+===CNI.My//Centre* national*A des#RP Indépendants#P et#K Paysans#P.kMy/|fr|
+===Jacobinism.z//
+===sans#R-culottism*.z//sans#R-culotterie*.jz/|fr|
+===politics-syndicalism//syndicalism.z/syndicalisme.My/
+====politics-anarcho-syndicalism//anarcho#A-syndicalism*.z/
+anarcho*A-syndicalisme*.My/anarchosyndicalisme.My/
+====criminal#A syndicalism*.z//
+;_______________________________________________________________________________
+==right#A wing*.z//Right.kz/droite.kFy/
+;_______________________________________________________________________________
+===politics-nonprogressivism//nonprogressivism.z/
+===politics-royalism//royalism,monarchism.z/
+===politics-imperialism//imperialism.z/
+===politics-reactionaryism//reactionaryism.¹z/reaction,reactionism.z/
+reactionarism,reactionariness.z/
+;_______________________________________________________________________________
+===politics-ultraconservatism/politics-radicalism/ultraconservatism.¹z/
+right#A-wing# extremism*.z/extreme#A rightism*,radical#A rightism*.z/
+extrême*A droite*.kFy/extrême*A-droite*.kFy/droite* dure*A.kFy/
+nouvelle*A droite*.kFy/
+====Moral#A Majority*.z//
+====politics-fascism//fascism.z/fascisme.My/
+====politics-nazism//nazism.z/
+=====politics-neonazism//neonazism.z/
+====politics-nationalism//nationalism.z/nationalisme.My/
+====FN.My/political-party/Front* national*A.kMy/|fr|
+====EXD.Fy/political-party/extrême*A droite*.kFy/|fr|
+=====Alliance* populaire*A.kFy//
+;_______________________________________________________________________________
+===politics-conservatism//conservatism.¹z/conservativeness,rightism.z/
+;_______________________________________________________________________________
+====politics-capitalism//capitalism.¹z/capitalistic#A system*.z/capitalisme.¹My/
+libéralisme.¹My/capitalisme* privé*A.My/
+=====politics-free-enterprise//free#A enterprise*.mz/
+free#A-enterprise# economy*,free#A-enterprise# system*.z/
+private#A enterprise*.mz/free#A economy*,finance# capitalism*.z/
+laissez#Vj-faire#Vj ½.jz/laissez#Vj-faireism*j.z/private#A ownership*.z/
+=====politics-individualism//individualism.z/individualisme.My/
+;_______________________________________________________________________________
+====conservative#A party*.z/political-party/parti* conservateur*A.My/
+;_______________________________________________________________________________
+=====Republican#A Party*.kz//GOP.z/Grand#A Old#A Party*.z/
+parti* républicain*A.kMy/|us|
+=====Conservative#A Party*.kz//parti* conservateur*A.My/|us|
+=====National#A Republican#A Party*.kz//|us|
+=====Tory#A Party*.kz//Conservative#A Party*.kz/Toryism.z/|uk|
+=====CAT.Fy//Chasse*-pêche# tradition#.kFy/|fr|
+=====CPNT.Fy//Chasse*-pêche#-nature# et#K tradition#.kFy/|fr|
+=====Parti-republicain//Parti* républicain*A.kMy/
+=====Parti* radical*A.kMy/politics-radicalism/|fr|
+=====Parti-social-democrate//Parti* social#A-démocrate#.kMy/|fr|
+=====REG.My//|fr|
+=====CDS.My//Centre* des#RP Démocrates#P sociaux#PA.kMy/|fr|
+=====URC.Fy//Union* du#R rassemblement#M et#K du#R centre#M.kFy/|fr|
+=====UPF.Fy//Union* pour#R la#D France#F.kFy/|fr|
+======UPF-RPR//UPF#-RPR#M ½.Fy/
+UPF* représentée*A par#R un#D candidat#M RPR#M.kFy/
+======UPF#-UDF*.Fy//UPF* représentée*A par#R un#D candidat#M UDF#.kFy/
+======UPF-UDF-CDS//UPF#-UDF#-CDS#M ½.Fy/
+UPF* représentée*A par#R un#D candidat#M CDS#M.kFy/
+======UPF-UDF-PR//UPF#-UDF#-PR#M ½.Fy/
+UPF* représentée*A par#R un#D candidat#M du#R Parti#M républicain#AM.kFy/
+======UPF#-UDF#-Rad*A.Fy/politics-radicalism/
+UPF* représentée*A par#R un#D candidat#M du#R Parti#M radical#AM.kFy/
+======UPF-UDF-PSD//UPF#-UDF#-PSD#M ½.Fy/
+UPF* représentée*A par#R un#D candidat#M du#R Parti#M social#AM-démocrate#M.kFy/
+=====RPR.kMy//Rassemblement* pour#R la#D République#F.kMy/|fr|
+=====UDF.kFy//Union* pour#R la#D Démocratie# française#A.kFy/|fr|
+======UDF-CDS//UDF#-CDS#M ½.Fy/
+UDF*-Centre#M ½ des#RP Démocrates#MP sociaux#MPA.kFy/
+======UDF-PR//UDF#-PR#M ½.Fy/UDF*-Parti#M républicain#AM.kFy/
+======UDF#-Rad*A.Fy/politics-radicalism/UDF*-Parti#M radical#AM.kFy/
+=====RPCR.My//
+Rassemblement* pour#R la#D Calédonie#F dans#R la#D République#F.kMy/|fr|
+=====RPR#-diss*.My//RPR* dissident#.kMy/|fr|
+=====UDF-diss//UDF#-diss#M ½.Fy/UDF* dissident#M.kFy/|fr|
+=====DVD-party//DVD.My/candidat* divers*A droite#F.kMy/|fr|
+======rdp//Mouvement* des#RP républicains#P démocrates#AP de#R progès#.kMy/
+;_______________________________________________________________________________
+==moderatism.z//center,moderateness,moderate#A position*.z/
+;_______________________________________________________________________________
+==left#A wing*.z//leftism.¹z/Left.kNz/gauche.kFy/
+;_______________________________________________________________________________
+===politics-anticapitalism//anticapitalism.z/
+;_______________________________________________________________________________
+===politics-progressivism//progressivism.¹z/
+===politics-liberalism//liberalism.¹z/
+;_______________________________________________________________________________
+====politics-welfarism//welfarism.z/
+;_______________________________________________________________________________
+====progressive#A party*.z/political-party/
+=====Democratic#A Party*.kz//parti* démocrate*A.kMy/|us|
+=====Liberal#A Party*.kz//|us|
+=====Progressive#A Party*.kz//|us|
+=====Labor# Party*.kz//|uk|
+=====Liberal#A Party* in#R England#.qkz//Liberal#A Party*.¹kz/|uk|
+=====SE.My//Sans#R étiquette#F ½ politique#AF ½.kMy/|fr|
+======Parti-pour-la-defense-des-animaux//
+Parti* pour#R la#D défense#F des#RP animaux#P.kMy/
+======Parti* de#R la#D loi#F naturelle#AF.kMy//
+=====Ecologistes//Écologistes.kMPïy/
+======ECO.My//|fr|
+=======ECO-GE//ECO#-GE#F ½.My/ECO* représenté*A par#R un#D candidat#M GE#F.kMy/
+=======ECO#S-Verts*.MPïy//
+ECO* représenté*A par#R un#D candidat#M des#RP Verts#P.kMy/
+=======ECO#-DVE*.My//ECO* représenté*A par#R un#D candidat#M DVE#A.kMy/
+======Generation-Ecologie//Génération* Écologie#.kFy/GE.Fy/GEC.Fy/|fr|
+======Verts.kMPïy//VEC.My/|fr|
+======DVE.My//candidat* divers*A Écologie#F.kMy/|fr|
+=======UED.Fy//Union* écologie# et#K démocratie#.kFy/
+=======Generation-Verte//Génération* Verte*A.kFy/
+=======Rassemblement* nature#F et#K animaux#P.kMy//
+=====ADFP.Fy//Alliance* des#RP Français#MP pour#R le#D progrès#M.kFy/|fr|
+=====MAJ.Fy//Majorité* présidentielle*A.kFy/
+Mouvement* des#RP réformateurs#P et#K France#F unie#AF.kMy/|fr|
+;_______________________________________________________________________________
+===politics-socialism//socialism.¹z/socialisme.My/
+====politics-etatisme//étatisme.My/
+====politics-nationalization//nationalization.z/
+====politics-egalitarisme//égalitarisme.My/socialisme* égalitaire*A.My/
+====politics-collectivism//collectivism.z/collective#A ownership*.z/
+public#A ownership*.z/collectivisme.My/
+====politics-state-socialism//state# socialism*.z/Staatsozialismus.jz/
+====politics-guild-socialism//guild# socialism*.z/
+====politics-International//International.z/internationale.Fy/
+====politics-Fabian-socialism//Fabian#A socialism*.z/
+====politics-socialisme-scientifique//socialisme* scientifique*A.My/
+====politics-utopian-socialism//utopian#A socialism*.z/
+socialisme* utopique*A.My/
+====politics-phalansterism//phalansterism.z/
+====politics-Owenism//Owenism.z/
+====politics-Saint-Simonianism//Saint#-Simonianism*.z/
+;_______________________________________________________________________________
+====socialist#A party*.z/political-party/
+=====Socialist#A Labor# Party*.kz//
+=====Socialist#A Workers#P Party*.kz//
+=====FLNKS.My//
+Front* de#R libération#F nationale#AF kanak*A et#K socialiste*A.kMy/|fr|
+=====PS.My//Parti* socialiste*A.kMy/|fr|
+======PSG.My//Parti* socialiste*A guyanais*A.kMy/
+=====PS#-diss*.My//Socialiste* dissident*A.kMy/|fr|
+;_______________________________________________________________________________
+====Social#A Democratic#A Party*.kz/political-party/Social#A Democracy*.z/
+social#AM-démocratie*.Fy/
+;_______________________________________________________________________________
+===politics-communism//communism.mz/communisme.My/
+;_______________________________________________________________________________
+====Bolshevism.z//bolshevism.z/
+====Marxism.z//marxisme.My/
+====Marxism#-Leninism*.z//marxisme*-léninisme*.My/
+====Leninism.z//léninisme.My/
+====Trotskyism.z//
+====Stalinism.z//
+====Maoism.z//
+====Titoism.z//
+====Castroism.z//
+====Marxist-revisionism//revisionism.z/
+====Marxian#A socialism*.z//
+====dialectical#A materialism*.z//
+====democratic#A centralism*.z//
+====dictatorship* of#R the#D proletariat#.z//
+====Communist# International*.z//Comintern.z/
+====Communist# Information# Bureau*.z//Cominform.z/
+====iron# curtain*.z//rideau* de#R fer#.My/
+====Communist#A Party*.kz/political-party/parti* communiste*A.kMy/
+=====PC.My//Parti* communiste*A.¹kMy/|fr|
+======PCF.My//Parti* communiste*A français*A.¹kMy/
+======PCR.My//Parti* communiste*A réunionnais*A.¹kMy/
+======PCG.My//Parti* communiste*A guadeloupéen*A.¹kMy/
+======PCM.My//Parti* communiste*A martiniquais*A.¹kMy/
+=====ComC.My//Communiste* contestataire*A exclu*A du#R PCF*.¹kMy/|fr|
+===DVG.Fy/political-party/candidat* divers*A gauche#F.¹kMy/|fr|
+====Mouvement* des#RP citoyens#P.kMy//
+====SEGA.Fy/DVE/Solidarité* écologie* gauche*A alternative*A.kFy/
+;_______________________________________________________________________________
+===politics-left-wing-radicalism/politics-radicalism/
+left#A-wing#N radicalism*.z/left#A-wing#N extremism*.z/extrême*A gauche*.¹Fy/
+====politics-progressiste//progressisme.My/
+====politics-radical-socialisme/political-party/radical*A-socialisme*.My/
+parti* républicain*A radical*A.My/
+====extreme#A left#A party*.Nz/political-party/
+=====PPM.My//Parti* progressiste*A martiniquais*A.kMy/|fr|
+=====MRG.My//Mouvement* des#RP radicaux#P de#R gauche#F.kMy/|fr|
+;_______________________________________________________________________________
+===politics-worker//worker.z/travaillisme.My/
+====EXG.Fy/political-party,politics-radicalism/LCR.y/extrême*A gauche*.kFy/|fr|
+====Parti* des#RP travailleurs#P.kMy/political-party/|fr|
+====LO.Fy/political-party/Lutte* ouvrière*A.kFy/|fr|
+;_______________________________________________________________________________
+=labor# issue*.z/abstract-object/
+==wages.Pïz//pay,compensation,reward.z/salaire.My/paye.Fy/
+==benefits.Pïz//avantage,avantage* social*A.My/
+==work#S rules*.Pïz//
+==job# security*.z//sécurité* de#R l#D'emploi#NM.Fy/
+==labor-issue-recognition//recognition.z/
+;_______________________________________________________________________________
+=government.z/organization/gouvernement.My/
+;_______________________________________________________________________________
+=government# institution*.z/organization/
+; todo: Represent government structure.
+;_______________________________________________________________________________
+==US# Congress*.kz//Congress.kz/
+===US# House* of#R Representatives#P.z//House* of#R Representatives#P.z/
+===US# Senate*.z//Senate.z/
+;_______________________________________________________________________________
+==State# Senate*.z//Senate.z/
+;_______________________________________________________________________________
+==US#A Census# Bureau*.z//Census# Bureau*.z/
+==Fed//US#A Federal#A Reserve*.kz/Federal#A Reserve*.kz/Fed.kTz/
+central#A bank*.z/
+===FRB//US#A Federal#A Reserve# Board*.kz/Federal#A Reserve# Board*.kz/FRB.kz/
+====FOMC//US#A Federal#A Open#A Market# Committee*.kz/
+Federal#A Open#A Market# Committee*.kz/FOMC.kz/
+;_______________________________________________________________________________
+==NASA.z//National#A Aeronautics#P and#K Space# Administration*.z/NASA.Fy/
+;_______________________________________________________________________________
+==military#A institution*.z//
+;_______________________________________________________________________________
+===air# force*.z//armée* de#R l#DM'air#M.Fy/
+===*US#A Air# Force*.z//Armée* américaine*A de#R l#DM'air#M.Fy/
+;_______________________________________________________________________________
+===navy.z//marine.Fy/
+===*US#A Navy*.z//marine* américaine*A.Fy/
+;_______________________________________________________________________________
+===marines.Pïz//marines.FPïy/
+===*US#A Marines*.Pïz//marines* américaines*A.FPïy/
+;_______________________________________________________________________________
+===army.z//armée.Fy/
+====troops.Pïz//
+===*US#A Army*.z//Armée* américaine*A.Fy/
+;_______________________________________________________________________________
+; todo: Relate below to minister-of.
+=*Banque* de#R France#.®kFy/bank,French-government-owned-company/
+Banque#j de#Rj France*.®kz/Bank# of#R France*.®kz/
+=*ministry* of#R Employment#.z//ministère* du#R Travail#.¹My/
+=*INSEE.kMy//Insee.kMy/
+Institut* national*A de#R la#D statistique#R et#K des#RP études#FP économiques#AFP.kMy/
+=*FCA.kz//Farm# Credit# Administration*.kz/|us|
+=*FDA.kz//Food# and#K Drug# Administration*.kz/|us|
+=*DOD.kz//Department* of#R Defense#.¹z/
+Département* de#R la#D Défense#F américain*A.¹My/
+Département* Américain*A de#R la#D Défense#F.My/
+Ministère* de#R la#D défense#F.My/DOD,DoD.My/
+=*GIGN.My//groupe* d#R'intervention#F de#R la#D gendarmerie#F nationale#AF.My/
+=*Library# of#R Congress*.z//
+;_______________________________________________________________________________
+==communications#P commission*.z//
+==*FCC.kz//Federal#A Communications#P Commission*.kz/
+Commission* fédérale*A des#RP communications#P.kFy/FCC.kFy/|us|
+==*CSA.kMy//Conseil* supérieur*A de#R l#D'audiovisuel#.kMy/|fr|
+;_______________________________________________________________________________
+==intelligence# organization*.z//service* secret*A.My/
+==*CIA.kz//Central#A Intelligence# Agency*.kz/CIA.kFy/Company.kTz/
+Central#Aj Intelligence#Cj Agency*j.kFy/|us|
+==*FBI.kz//Federal#A Bureau* of#R Investigation#.kz/FBI.kMy/
+Federal#Aj Bureau* of#Rj Investigation#F.kMy/|us|
+==*NSA.kz//NSA.kFy/|us|
+==*DPSD.kFy//
+direction* de#R la#D protection# et#K de#R la#D sécurité# de#R défense#.kFy/|fr|
+==*SGDN.kMy//secrétariat* général*A de#R la#D défense#F nationale#AF.kMy/|fr|
+==*DGSE.kFy//direction* générale*A de#R la#D sécurité# extérieure#A.kFy/|fr|
+==*DRM.kFy//direction* du#RM renseignement#M militaire#AM.kFy/|fr|
+==*DST.kFy//direction* de#R la#D surveillance# du#RM territoire#M.kFy/|fr|
+==*COS.kMy//commandement* des#RP opérations#FP spéciales#AFP.kMy/|fr|
+==*KGB.kz//KGB.kMy/
+==*SVR.My//SVR* russe*A.My/
+;_______________________________________________________________________________
+==CA-PERB//California# Public#A Employment# Relations#P Board*.z/
+Public#A Employment# Relations#P Board*.z/PERB.z/
+;_______________________________________________________________________________
+==Palestinian#A National#A Council*.z//
+;_______________________________________________________________________________
+; U.V.: unité de valeur
+=diploma.z//diplôme.My/
+;_______________________________________________________________________________
+==elementary#A school# diploma*.z//
+==junior#A high#A school# diploma*.z//
+;_______________________________________________________________________________
+==high#A-school#-level# diploma*.mz//
+diplôme* de#R fin#F de#R études#FP secondaires#AFP.My/
+===CAP.My//certificat* d#R'aptitude#F professionnelle#FA.My/
+certificat* d#R'aptitude#F pédagogique#FA.My/5e+2.y/|fr|
+===BEP.My//brevet* de#R études#FP professionnelles#FPA.My/3e+3.y/|fr|
+===BEPC.My//brevet* des#RP collèges#P.My/
+brevet* de#R études#FP du#R premier#A cycle#.My/|fr|
+===high#A-school# diploma*.z//high#A-school# equivalence*.z/|us|
+;_______________________________________________________________________________
+==bac.My//baccalauréat.My/bachot.y/maturité.îFy/|fr|
+===bac# A#.My//bac# littéraire*A.My/
+===bac# B#.My//bac# écriture#F.My/
+===bac# C#.My//bac# mathématiques#FP.My/
+===bac# D#.My//bac# sciences#FP.My/
+===bac# E#.My//
+;_______________________________________________________________________________
+==degree.z//diplôme* universitaire#A.My/
+;_______________________________________________________________________________
+===technical#A-school# degree*.z//
+====DUT.My//diplôme* universitaire#A de#R technologie#F.My/
+bac+2.My/|fr|
+====BTS.My//brevet* de#R technicien# supérieur#A.My/
+bac+2,bac+3.My/|fr|
+;_______________________________________________________________________________
+===junior#A-college# degree*.z//
+====DEUG.My//diplôme* de#R études#FP universitaires#FPA générales#FPA.My/
+bac+2.My/premier#A cycle*.My/|fr|
+====AA.z//AA# degree*.z/Associate# degree*.z/
+Associate* of#R Arts#P,Associate* in#R Arts#P.z/
+;_______________________________________________________________________________
+===Bachelors-degree//Bachelor#'s.z/Bachelor#'s degree*.¹z/first#A degree*.gz/
+licence.¹Fy/baccalauréat.çMy/bac+3.My/licencié.§NAy/
+====Bachelor* of#R Arts#P.z//BA,AB.z/baccalauréat* ès#R arts#P.çMy/
+licence* ès#R arts#MP.Fy/
+====Bachelor* of#R Science#.z//BS,SB.Àz/BSc.z/
+baccalauréat* ès#R sciences#FP.cMy/licence* ès#R sciences#FP.Fy/
+====Bachelor* of#R Laws#P.z//LLB,LL\.B\..z/
+diplôme* universitaire*A de#R droit#M.My/licence* en#R droit#M.Fy/
+====licence-es-lettres//licence* ès#R lettres#FP.Fy/
+;_______________________________________________________________________________
+===admission-to-a-French-grande-ecole//
+admission* to#R a#D French#A grande#Aj école#j.z/promotion.¹Fy/promo.¹TFy/|fr|
+====admission* to#R the#D ENA#.z//promotion* ENA#.@Fy/promo* ENA#.@TFy/
+=====promotion* France#-Afrique#.Fy//|@1957|create¤ENA|
+=====promotion* Vauban#C.Fy//|@1959|create¤ENA|
+=====promotion* Stendhal#M.Fy//|@1965|create¤ENA|
+=====promotion* Robespierre#M.Fy//|@1970|create¤ENA|
+=====promotion* Rabelais#C.Fy//|@1973|create¤ENA|
+=====promotion-Leon-Blum//promotion* Léon#M-Blum#M.Fy/|@1975|create¤ENA|
+=====promotion* Voltaire#M.Fy//|@1980|create¤ENA|
+=====promotion-Aguesseau//promotion* d#R'Aguesseau#M.Fy/|@1982|create¤ENA|
+;_______________________________________________________________________________
+===advanced#A degree*.z//higher#A degree*.gz/
+;_______________________________________________________________________________
+====Masters-degree//Master#'s.z/Master#'s degree*.¹z/maîtrise.¹Fy/bac+4.My/
+second#A cycle*.My/
+=====Master* of#R Arts#P.z//MA,AM.z/maîtrise* ès#R arts#MP.Fy/
+=====Master* of#R Science#.z//MS,SM.Àz/MSc.z/maîtrise* ès#R sciences#P.Fy/
+=====Master* of#R Business# Administration#.z//MBA,M\.B\.A\..z/
+=====Master* of#R Laws#P.z//LLM,LL\.M\..z/
+;_______________________________________________________________________________
+====post-master-s//postgraduate.Az/troisième#A cycle*.My/
+de#R troisième#AM cycle#NM.Ay/
+=====EBD.z//everything# but#R the#D dissertation#.z/|us|
+=====DESS.My//D\.E\.S\.S\..My/
+diplôme* de#R études#FP supérieures#FPA spécialisées#FPA.My/bac+5.My/|fr|
+=====DEA.My//D\.E\.A\..My/diplôme* de#R études#FP approfondies#FPA.My/
+bac+5.My/|fr|
+;_______________________________________________________________________________
+====Doctorate.z//doctoral.Az/doctorat.My/doctoral.Ay/
+=====Doctor* of#R Dental# Surgery#.z//DDS,D\.D\.S\..z/
+=====Doctor* of#R Dental# Medicine#.z//DMD,D\.M\.D\..z/
+=====Doctor* of#R Library# Science#.z//DLS,D\.L\.S\..z/
+=====Doctor* of#R Ministry#.z//DMin,D\.Min\..z/
+=====Doctor* of#R Musical#A Arts#P.z//DMA,D\.M\.A\..z/
+=====Doctor* of#R Philosophy#.z//PhD,Ph\.D\..z/
+=====Doctor* of#R Science#.z//ScD,Sc\.D\..z/
+=====Doctor* of#R Laws#P.z//LLD,LL\.D\..z/
+doctorat* en#R droit#,doctorat* de#R droit#.My/
+=====Doctor* of#R Medicine#.z//MD,M\.D\..z/Medical#A Doctor*.Tz/
+docteur* en#R médecine#F.My/
+=====Jurum# Doctor*.jz//JD,J\.D\..z/
+doctorat* en#R droit#,doctorat* de#R droit#.My/
+=====bac-plus-8//bac+8.My/|fr|
+=====bac-plus-9//bac+9.qMy/|fr|
+=====docteur-es-lettres//|fr|
+=====docteur-es-sciences//|fr|
+;_______________________________________________________________________________
+=legal#A concept*.¹z/abstract-object/law.z/justice.mz/legal.Az/
+concept* juridique*A.¹My/droit.My/justice.Fy/juridique.Ay/
+;_______________________________________________________________________________
+==droit* naturel*A.My//droit* universel*A.My/natural#A rights*.Pïz/
+===droit* moral*A.My//morale.Fy/ethics.Pïz/moral#A code*.z/
+;_______________________________________________________________________________
+==international#A law*.z//droit* international*A public*A.My/
+===diplomacy.z//diplomatie.Fy/
+;_______________________________________________________________________________
+==droit* positif*A.My//
+;_______________________________________________________________________________
+===common#A law*.z//droit* coutumier*A.My/droit* commun*A.My/
+;_______________________________________________________________________________
+===constitutional#A law*.z//droit* constitutionnel*A.My/droit* public*A.My/
+====droit* administratif*A.My//
+====droit* financier*A.My//législation* financière*A.Fy/
+;_______________________________________________________________________________
+===statute# law*.z//law,statute.z/droit* écrit*A.My/loi.Fy/code.My/
+====decree.z//décret.My/
+====legal-rule//rule.z/règlement.My/
+====regulation.z//règlement.My/
+=====traffic#S regulations*.Pïz//highway# code*.qz/code* de#R la#D route#F.My/
+;_______________________________________________________________________________
+====tax# law*.z//code* fiscal*A.My/droit* fiscal*A.My/
+;_______________________________________________________________________________
+====criminal#A law*.z//code* pénal*A.My/droit* pénal*A.My/droit* criminel*A.My/
+====droit-prive//droit* privé*A.My/
+=====commercial#A law*.z//droit* commercial*A.My/code* de#R commerce#M.My/
+;_______________________________________________________________________________
+=====civil#A law*.z//code* civil*A.My/droit* civil*A.My/
+======matrimonial#A law*.z//
+;_______________________________________________________________________________
+======bankruptcy.z/script/faillite.¹Fy/
+=======banqueroute.Fy/criminal-law/fraudulent#A bankruptcy*.z/|illegal|
+=======Chapter# 7*.z//Chapter# 7# bankruptcy*.z/straight#A bankruptcy*.Tz/
+straight#A 7*.Tz/liquidation* judiciaire*A.¹Fy/
+=======Chapter# 9*.z//Chapter# 9# bankruptcy*.z/
+=======Chapter# 11*.z//Chapter# 11# bankruptcy*.z/
+Chapter# 11# reorganization*.z/Chapter# 11# reorganization# plan*.z/
+redressement* judiciaire*A.¹My/
+=======Chapter# 13*.z//Chapter# 13# bankruptcy*.z/
+;_______________________________________________________________________________
+=====Napoleonic#A code*.z//code* Napoléon#.My/code* napoléonien*A.My/
+======code* civil*A.My/civil-law/|@1804|create¤Napoleon-Ier|
+======code-de-procedure-civile/civil-law/code* de#R procédure#F civile#AF.My/
+|@1806|create¤Napoleon-Ier|
+======code-penal/criminal-law/code* pénal*A.My/|@1810|create¤Napoleon-Ier|
+======code* d#R'instruction#F criminelle#AF.My/criminal-law/
+|@1809|create¤Napoleon-Ier|
+======code* de#R commerce#M.My/commercial-law/|@1807|create¤Napoleon-Ier|
+;_______________________________________________________________________________
+==jurisdiction.z//court.z/juridiction.Fy/cour.Fy/tribunal.My/
+;_______________________________________________________________________________
+===Federal#A court*.z//cour* fédérale*A.Fy/|us|
+====Federal#A district# court*.z//district# court*.z/
+cour* fédérale*A de#R grande#A instance#.Fy/
+;_______________________________________________________________________________
+===State#A court*.z//|us|
+===administrative#A jurisdiction*.z//juridiction* administrative*A.Fy/|fr|
+====Conseil-d'etat//Conseil* de#R état#.My/
+====cour* d#R'appel#M administrative*A.Fy//Council* of#R State#.z/
+====tribunal* administratif*A.My//
+;_______________________________________________________________________________
+===judiciary# jurisdiction*.z//juridiction* judiciaire*A.Fy/
+====civil#A court*.z//
+=====tribunal* de#R commerce#M.My//commercial#A court*.z/
+=====conseil* de#R prud#A'hommes#P.My//industrial#A tribunal*.z/
+=====tribunal* civil*A de#R grande#AF instance#F.My//
+tribunal* de#R grande#AF instance#F.My/high#A court*.z/County# court*.z/
+=====tribunal* d#R'instance#F.My//magistrate#'s court*.z/
+small#A-claims#P court*.z/|superior-of=tribunal-civil-de-grande-instance|
+====criminal#A court*.z//
+=====cour* de#R cassation#.Fy/civil-court/final#A court* of#R appeals#P.gz/
+final#A court* of#R appeal#.gz/court* of#R cassation#.z/
+=====cour* d#R'appel#M.Fy/civil-court/court* of#R appeals#P.z/
+appellate# court*.Àz/court* of#R appeal#.gz/|superior-of=cour-de-cassation|
+=====cour* d#R'assises#P.Fy//court* of#R assizes#P.z/Crown# Court*.gz/
+|superior-of=cour-d-appel|
+=====tribunal* correctionnel*A de#R grande#AF instance#F.My//correctionnelle.Fy/
+tribunal* correctionnel*A.My/tribunal* de#R grande#AF instance#F.My/
+high#A court*.z/County# court*.z/|superior-of=cour-d-assises|
+=====tribunal* de#R police#F.My//police# court*,traffic# court*.z/
+|superior-of=tribunal-correctionnel-de-grande-instance|
+;_______________________________________________________________________________
+=physical-property/legal-concept/property.z/propriété.Fy/
+;_______________________________________________________________________________
+==belongings.Pïz//possessions.Pïz/personal#A possessions*.Pïz/
+personal#A belongings*.Pïz/biens.MPïy/
+==personal#A property*.z//biens* personnels*A.MPïy/
+==property-land//land.z/terrain.My/terres.FPïy/
+==real#A estate*.z//property.z/biens* immobiliers*A.MPïy/
+;_______________________________________________________________________________
+=intellectual#A property# right*.z/legal-concept/intellectual#A property#.z/
+IP.Tz/propriété* intellectuelle*A.Fy/propriété* industrielle*A.Fy/
+==patent.z//brevet.¹My/brevet* d#R'invention#F.My/
+==copyright.z//copyright.My/droit* d#R'auteur#.My/
+==registered#A trademark*.z//marque* déposée*A.Fy/
+===trademark.z//marque.Fy/
+===servicemark.z//marque.Fy/
+====US# servicemark*.z//
+;_______________________________________________________________________________
+=legal#A document*.z/legal-concept/
+==accord.z/civil-law/accord.My/
+==agreement.z/civil-law/accord.My/
+==contract.z/civil-law/contrat.My/
+==license.z//autorisation.Fy/permis.My/licence.Fy/
+===driving# license*.gz//driver#'s license*.Àz/permis* de#R conduire#V.My/
+==will.z/civil-law/bequest,legacy,testament.¹z/bequeathal,devise,inheritance.z/
+last#A will# and#K testament#.z/probate,attested#A copy*,codicil.z/
+estate.qz/testament.¹My/succession.Fy/
+;_______________________________________________________________________________
+=financial#A market*.z/organization/marché* financier*A.My/
+market,financial#A market*,capital#A market*.z/
+marché* financier*A.¹My/marché.My/marché* des#RP capitaux*P.My/
+marché* des#RP valeurs#FP mobilières#AFP.My/
+;_______________________________________________________________________________
+==primary#A market*.z//marché* primaire*A.My/
+;_______________________________________________________________________________
+==secondary#A market*.z//marché* secondaire*A.My/
+===OTC.Az//over#R-the#D-counter#N.Az/over#R-the#D-counter# market*.z/
+marché* hors#R cote#F.My/hors#R-cote#F ½.My/
+====bond# market*.z//marché* des#RP obligations#FP.My/
+marché* obligataire*A.My/
+====money# market*.z//marché* monétaire*A.My/marché* de#R l#D'argent#.My/
+====interbank#A market*.z//foreign#A-exchange# market*.z/FX# market*.z/
+marché* des#RP changes*P.My/marché* interbancaire*A des#RP devises#FP.My/
+marché* des#RP devises#FP.My/
+====euromarket.z//euromarché.My/
+;_______________________________________________________________________________
+===stock# market*.z//marché* des#RP actions#FP.My/Bourse.Fy/
+;_______________________________________________________________________________
+===physical#A exchange*.qz//exchange.¹z/bourse.¹Fy/marché* boursier*A.My/
+;_______________________________________________________________________________
+====stock# exchange*.z//Bourse.Fy/Bourse* des#RP valeurs#P.Fy/
+;_______________________________________________________________________________
+=====Amex.®Éz//Amex.®kz/American#A Stock# Exchange*.kz/Curb.oTkz/
+Curb# Exchange*.okz/
+=====London# Stock# Exchange*.kz//Stock# Exchange*.kz/Stock# Exchange*.kMy/
+=====Lyon# Stock# Exchange*.kz//Bourse* de#R Lyon#.kFy/
+=====NYSE.z//New#A York# Stock# Exchange*.kz/Big#A Board*.kz/
+Bourse* de#R New#Aj-York#.kFy/|@1792|founded|
+=====Paris# Stock# Exchange*.kz//Bourse* de#R Paris#M.kFy/
+======cote* officielle*A.Fy//official#A list*.qz/
+======second-marche//second*A marché*.My/second#A market*.qz/
+=====Tokyo# Stock# Exchange*.kz//Bourse* de#R Tokyo#.kFy/
+;_______________________________________________________________________________
+=====regional#A stock# exchange*.z//
+======BSE.Éz//Boston# Stock# Exchange*.kz/
+======CHX.Éz//Chicago# Stock# Exchange*.kz/Midwest#A Stock# Exchange*.okz/
+======PCX.Éz//Pacific#A Exchange*.kz/Pacific#A Stock# Exchange*.kz/Pacific.Tkz/
+PSE,pacificex.Éz/
+======PHLX.Éz//Philadelphia# Stock# Exchange*.kz/
+;_______________________________________________________________________________
+====futures#P exchange*.z//commodities#P exchange*.z/
+commodity# futures#P exchange*.z/
+marché* à#R terme#.My/marché* des#RP matières#FP premières#AFP.My/
+=====CBOT.kz//Chicago# Board# of#R Trade*.kz/|@1848|founded|
+=====MATIF.kz//MATIF.My/marché* à#R terme# international*A de#R France#F.My/
+marché* à#R terme# d#R'instruments*P financiers*AP.My/
+|@1986|create¤country-FRA|
+;_______________________________________________________________________________
+====options#P exchange*.z//
+=====CBOE.kz//Chicago# Board# Options#P Exchange*.kz/
+;_______________________________________________________________________________
+===electronic#A exchange*.z//marché* électronique*A.My/
+====AZX.Éz//Arizona# Stock# Exchange*.kz/
+====Globex.®z//
+====Instinet.®z//
+====NASDAQ.®z//
+;_______________________________________________________________________________
+=financial#A instrument*.z/abstract-object/security.¹z/instrument.z/
+instrument* financier*A.My/titre.¹My/valeur.¹Fy/instrument.My/
+;_______________________________________________________________________________
+==admission.z//admittance.oz/entrée.Fy/droit* d#R'entrée#NF.My/
+;_______________________________________________________________________________
+==cash.mz//espèces.FPïy/
+===cash-bill/physical-object/bill.z/note.z/billet.My/
+===cash-coin/physical-object/coin.z/pièce* de#R monnaie#.Fy/pièce.Fy/
+====cash-token//token.z/jeton.My/
+=====subway# token*.z//
+;_______________________________________________________________________________
+==checkbook.z/physical-object/cheque# book*.z/chéquier.My/
+carnet* de#R chèques#P.My/
+==check.Àz/physical-object/cheque.gz/chèque.My/
+;_______________________________________________________________________________
+==transit# ticket*.z/ticket/
+==transit# card*.z/physical-object,ecash/
+===DC-transit-card//farecard.z/
+===Boston-transit-card//T# pass*.z/
+====Boston-subway-pass//subway# pass*.z/
+====Boston-bus-pass//bus# pass*.z/
+====Boston-combo-pass/Boston-subway-pass,Boston-bus-pass/combo# pass*.z/
+===NYC-transit-card//Metro# card*.z/
+;_______________________________________________________________________________
+==debit# card*.z/physical-object,ecash/card.z/carte* bancaire*A.Fy/
+==*Carte# Bleu*.®Fy//Carte# Bleu*.®z/
+;_______________________________________________________________________________
+==credit# card*.z/physical-object,ecash/card.z/carte* de#R crédit#M.Fy/
+==*VISA-card//Visa.®z/VISA.®z/
+==*MasterCard-card//Mastercard.®z/
+==*Amex-card//American#® Express#® card*.z/Amex#® card*.z/
+===*Amex-gold-card//American#® Express#® gold#A card*.z/
+;_______________________________________________________________________________
+==ecash//ecash.¹z/e#-cash*.z/E#-cash*.z/electronic#A cash*.oz/
+;_______________________________________________________________________________
+==portfolio.z//portefeuille.¹My/patrimoine.My/
+;_______________________________________________________________________________
+==index.z//indice.My/
+===spread.z//spread,écart.My/
+===CAC#® index*.kz//indice* CAC#®.Mky/CAC.®kMy/
+====CAC#® General#A Index*.kz//
+====CAC#® 40*.kz//CAC#® 40#.kMy/
+indice* CAC#® 40#.kMy/CAC*® 40#.kMy/
+===Dow# Jones# Index*.kz//
+====Dow.kz//Dow# Jones# Industrial#A Average*.kz/indice* Dow#-Jones#.kMy/
+|RIC-of=".DJI"|
+===FTSE#®-100#.kz//FTSE.®kz/
+Financial#A® Times#® Stock# Exchange# 100# index*.kz/
+footsie.kTz/indice* Footsie#.kMy/
+===Nikkei.kz//Nikkei# Dow*.kz/Nikkei# 225# Stock# Average*.kz/
+indice* Nikkei#.kMy/|tt-ticker-of="Nikkei"|
+===S-and-P-index//S&P#® index*.kz/indice* Standard# &#K Poor# s.kMy/
+====S-and-P-100//S&P#® 100*.kz/Standard# &#K Poor#'s 100# Index*.kz/
+S&P#® 100*.@ky/
+====S-and-P-400//S&P#® 400*.kz/Standard# &#K Poor#'s 400# Index*.kz/
+S&P#® 400*.@ky/
+====SPX//S&P#® 500*.kz/Standard# &#K Poor#'s 500# Index*.kz/
+S&P#® 500*.@ky/|RIC-of=".SPX"|
+;_______________________________________________________________________________
+==derivative# instrument*.z//derivative.z/produit* dérivé*A.My/
+;_______________________________________________________________________________
+===option.z//option.Fy/contrat* à#R prime#F.My/
+====put# option*.z//option* d#R'achat#M,option* achat#M.Fy/
+====call# option*.z//option* de#R vente#,option* vente#.Fy/
+====stock# option*.z//stock#M-option*.@Fy/|underlying-of=stock|
+====bond# option*.z//|underlying-of=bond|
+====futures#P option*.z//|underlying-of=futures-contract|
+=====bond# futures#P option*.z//|underlying-of=interest-rate-future|
+;_______________________________________________________________________________
+===forward#A contract*.z/contract/contrat* à#R terme*.My/
+;_______________________________________________________________________________
+===futures#P contract*.z/contract/futures.Pïz/contrat* à#R terme*.My/future.@y/
+====commodity# future*.z//contrat* des#RP matières#FP premières#AFP.My/
+====financial#A future*.z//financial.qz/
+=====currency# future*.z//|underlying-of=currency|
+=====index# future*.z//|underlying-of=index|
+======CAC#-40# contract*.z//contrat* CAC# 40#.My/|underlying-of=CAC-40|
+=====interest#-rate# future*.z//bond# future*.z/
+|underlying-of=fixed-income-instrument|
+======long#A-bond# contract*.z//30#-year# bond# contract*.z/
+contrat* sur#R le#D bon# du#R Trésor# à#R 30#A ans#P.My/
+|exchange-ticker-of="US"|market-of=CBOT|
+======notional#A contract*.z//MATIF# contract*.kTz/MATIF.kTy/notional.z/
+notionnel.My/|exchange-ticker-of="PTB"|market-of=MATIF|
+=======March# MATIF*.kz//contrat* à#R échéance#F mars# sur#R le#D MATIF#.kMy/
+=======June# MATIF*.kz//contrat* à#R échéance#F juin# sur#R le#D MATIF#.kMy/
+=======September# MATIF*.kz//
+contrat* à#R échéance#F septembre# sur#R le#D MATIF#.kMy/
+=======December# MATIF*.kz//
+contrat* à#R échéance#F décembre# sur#R le#D MATIF#.kMy/
+======PIBOR# contract*.z//PIBOR# futures#P contract*.z/PIBOR.Tz/
+contrat* PIBOR#.My/PIBOR.My/|exchange-ticker-of="PIB"|market-of=MATIF|
+;_______________________________________________________________________________
+===FRA.z/agreement/forward#A rate# agreement*.z/FRA.@ßy/
+===swap.z//swap.¹My/crédit* croisé*A.My/
+====interest#-rate# swap*.z//swap* de#R taux#M d#R'intérêt#.My/
+====cross#R-currency# swap*.z//
+;_______________________________________________________________________________
+==financial#A asset*.z//actif.My/
+===repo.z/agreement/repurchase# agreement*.z/
+===reverse#A repo*.z/agreement/reverse#A repurchase# agreement*.z/
+;_______________________________________________________________________________
+===mutual#A fund#S shares*.Pïz//mutual#A fund*.z/
+shares* in#R a#SD mutual#A fund#S.Pïz/
+sicav.ßFy/société* d#R'investissement#M à#R capital#M variable#AM.Fy/
+====sicav-monetaire//sicav*ß monétaire*A.Fy/money#-market# mutual#A fund*.z/
+====sicav*ß obligataire*A.Fy//bond# fund*.z/
+;_______________________________________________________________________________
+===stock.z//equity.z/share.qz/action.¹Fy/
+part,part* sociale*A,part* d#R'intérêt#M.Fy/
+====common#A stock*.z//action.Fy/
+; todo: insert stock database here
+=====BEL.ÉTz//|underlying-of=Bell-Atlantic|issuer-of=Bell-Atlantic|
+currency-of=USD|exchange-ticker-of="BEL"|market-of=NYSE|
+=====stock-T//T.¹ÉTz/telephone.Tz/|underlying-of=ATT|issuer-of=ATT|
+currency-of=USD|exchange-ticker-of="T"|market-of=NYSE|
+====preferred#A stock*.Àz//preference#S shares*.gPïz/preference# stock*.gz/
+action* privilégiée*A,action* de#R priorité#.Fy/
+;_______________________________________________________________________________
+===rate.z//taux.My/
+;_______________________________________________________________________________
+====reserve# requirement*.z//bank# reserve# requirement*.z/
+banks#P' reserve# requirement*.z/
+;_______________________________________________________________________________
+====interest# rate*.z//taux* d#R'intérêt#.My/
+=====base# rate*.z//
+=====commercial#A paper# rate*.z//
+======1#-month# commercial#A paper# rate*.z//
+======3#-month# commercial#A paper# rate*.z//
+======6#-month# commercial#A paper# rate*.z//
+=====discount# rate*.z//Federal#A Reserve# discount# rate*.z/
+=====federal#A funds#P rate*.z//
+=====federal#A funds#P target*.z//federal#A funds#P rate# target*.z/
+=====prime# rate*.z//
+;_______________________________________________________________________________
+===fixed#A-income# instrument*.z//instrument* de#R taux#.My/
+instrument* à#R revenu# fixe#A.My/
+;_______________________________________________________________________________
+====certificate* of#R deposit#.z//CD,bank# CD*.z/certificat* de#R dépôt#.My/
+;_______________________________________________________________________________
+====bond.z//debt.z/obligation.Fy/|market-of=bond-market|
+=====corporate#A bond*.z//
+=====convertible# bond*.z//obligation* convertible*A.Fy/
+=====debenture.z//obligation.Fy/
+=====Eurobond.z//euro#A-obligation*.Fy/
+=====junk# bond*.z//high#A-yield# bond*.z/
+obligation* à#R fort#AM rendement#M.Fy/
+=====municipal#A bond*.z//|issuer-of=polity|
+=====bond# strip*.qz//strip.¹z/zero.z/strip.My/
+======OAT#® strip*.z//strip* OAT#®F.My/OAT*®ß démembrée*A.Fy/
+;_______________________________________________________________________________
+=====government# bond*.z//bon* du#R Trésor#.¹My/emprunt* de#R l#D'État#.My/
+emprunt.My/rente* du#R Trésor#M,rente* sur#R l#DM'État#M.Fy/|issuer-of=country|
+;_______________________________________________________________________________
+======US# government# bond*.z//United#A States#P government# bond*.z/
+bon* du#R Trésor# aux#RP États#P-Unis#AP.My/
+bon* du#R Trésor# américain#A.¹My/|issuer-of=country-USA|currency-of=USD|
+=======T#-bill*.z//Treasury# bill*.z/bill.Tz/|coupon-of=0u|
+========90#-day# bill*.z//90#-day# T#-bill*.z/90#-day# Treasury#-bill*.z/
+3#-month# bill*.z/3#-month# T#-bill*.z/3#-month# Treasury#-bill*.z/
+|tt-ticker-of="TB3M"|
+=========912794L44//|cusip-of="912794L44"|issue-date-of=19940331|
+maturity-of=19940630T000000|@19940331|tp=.99115u|
+=========912794M35//|cusip-of="912794M35"|issue-date-of=19940407|
+maturity-of=19940707T000000|@19940407|tp=.99062u|
+=========912794M68//|cusip-of="912794M68"|issue-date-of=19940505|
+maturity-of=19940804T000000|@19940505|tp=.98989u|
+========180#-day# bill*.z//180#-day# T#-bill*.z/180#-day# Treasury#-bill*.z/
+6#-month# bill*.z/6#-month# T#-bill*.z/6#-month# Treasury#-bill*.z/
+|tt-ticker-of="TB6M"|
+========1#-year# bill*.z//1#-year# T#-bill*.z/1#-year# Treasury#-bill*.z/
+|tt-ticker-of="TB1Y"|
+=======T#-note*.z//Treasury# note*.z/
+========2#-year# note*.z//bon* du#R Trésor# à#R deux#A ans#P.My/
+|tt-ticker-of="US2Y"|
+========3#-year# note*.z//bon* du#R Trésor# à#R trois#A ans#P.My/
+|tt-ticker-of="US3Y"|
+========5#-year# note*.z//bon* du#R Trésor# à#R cinq#A ans#P.My/
+|tt-ticker-of="US5Y"|
+========7#-year# note*.z//bon* du#R Trésor# à#R sept#A ans#P.My/
+|tt-ticker-of="US7Y"|
+========10#-year# note*.z//10#-year*.Tz/bon* du#R Trésor# à#R dix#A ans#P.My/
+|tt-ticker-of="US10Y"|
+=======T#-bond*.z//30#-year# bond*.z/long#A bond*,bond.Tz/
+bon* du#R Trésor# à#R 30#A ans#P.My/
+|tt-ticker-of="US30Y"|
+;_______________________________________________________________________________
+======French#A government# bond*.z//obligation* française*A.Fy/
+obligation* domestique*A.Fy/
+=======BTF.®z//BTF.®My/
+=======BTAN.®z//BTAN.®My/
+========BTAN-7-199911//|coupon-of=7pc|tt-ticker-of="BTAN799"|
+=======OAT.®z//OAT.®Fy/
+========OAT-85-2012//|coupon-of=8.5pc|tt-ticker-of="OAT8512"|
+========OAT-85-2023//|coupon-of=8.5pc|tt-ticker-of="OAT8523"|
+;_______________________________________________________________________________
+===currency.z//foreign#A exchange*.z/FX.Tz/money.mz/monetary#A unit*.z/
+devise.¹Fy/monnaie.Fy/change.My/|market-of=interbank-market|
+;_______________________________________________________________________________
+====postage# stamp*.z//stamp.¹z/timbre.¹My/timbre*-poste#NF.My/|value-of=.33$|
+;_______________________________________________________________________________
+====USD.ÉTz//dollar.¹z/US#A dollar*.z/$,$US.Tz/USD,$,$US.TMy/dollar.My/
+dollar* américain*A.My/billet* vert*A.TMy/
+=====dollar-denominated-coin/cash-coin/|issuer-of=country-USA|
+======penny.z//cent.z/cent.My/sou.oMy/rond.TMy/|value-of=.01$|
+======nickel.z//pièce* de#R cinq#A cents#MP.Fy/|value-of=.05$|
+======dime.z//pièce* de#R dix#A cents#MP.Fy/|value-of=.10$|
+======quarter-coin//quarter.z/quart* de#R dollar#.My/
+pièce* de#R 25#A cents#MP.Fy/|value-of=.25$|
+======half#A-dollar*.z//half#A-a#D-dollar*.z/demi#A-dollar*.My/|value-of=.50$|
+=======Kennedy# half#A-dollar*.z//
+=====dollar-denominated-bill/cash-bill/|issuer-of=country-USA|
+======dollar# bill*.z//billet* d#R'un#D dollar#.My/|value-of=1.00$|
+======2#A-dollar# bill*.z//billet* de#R 2#A dollars#P.My/|value-of=2.00$|
+======5#A-dollar# bill*.z//billet* de#R 5#A dollars#P.My/|value-of=5.00$|
+======10#A-dollar# bill*.z//billet* de#R 10#A dollars#P.My/|value-of=10.00$|
+======20#A-dollar# bill*.z//billet* de#R 20#A dollars#P.My/|value-of=20.00$|
+======50#A-dollar# bill*.z//billet* de#R 50#A dollars#P.My/|value-of=50.00$|
+======100#A-dollar# bill*.z//billet* de#R 100#A dollars#P.My/|value-of=100.00$|
+;_______________________________________________________________________________
+====FRF.ÉTz//franc.¹z/French#A franc*.z/F.TMz/FRF,F.TMy/franc* français*A.My/
+franc.My/|tt-ticker-of="FRF"|
+=====franc-denominated-coin/cash-coin/|issuer-of=country-FRA|
+======5#A-centime# piece*.z//5#A-centime# coin*.z/
+pièce* de#R cinq#AMP centimes#MP.Fy/|value-of=.05F|
+=======5cp1//|inside=Opera-Comique-cash-register|
+=======5cp2//|inside=Opera-Comique-cash-register|
+=======5cp3//|inside=Opera-Comique-cash-register|
+======10#A-centime# piece*.z//10#A-centime# coin*.z/
+pièce* de#R dix#AMP centimes#MP.Fy/|value-of=.10F|
+=======10cp1//|inside=Opera-Comique-cash-register|
+=======10cp2//|inside=Opera-Comique-cash-register|
+=======10cp3//|inside=Opera-Comique-cash-register|
+======20#A-centime# piece*.z//20#A-centime# coin*.z/
+pièce* de#R vingt#AMP centimes#MP.Fy/|value-of=.20F|
+=======20cp1//|inside=Opera-Comique-cash-register|
+=======20cp2//|inside=Opera-Comique-cash-register|
+=======20cp3//|inside=Opera-Comique-cash-register|
+======50#A-centime# piece*.z//50#A-centime# coin*.z/half#A-franc# piece*.z/
+half#A-franc# coin*.z/pièce* de#R cinquante#AMP centimes#MP.Fy/|value-of=.50F|
+=======50cp1//|inside=Opera-Comique-cash-register|
+=======50cp2//|inside=Opera-Comique-cash-register|
+=======50cp3//|inside=Opera-Comique-cash-register|
+======1#A-franc# piece*.z//1#A-franc# coin*.z/franc.z/
+pièce* d#R'un#DM franc#M.Fy/franc.My/|value-of=1.00F|
+======2#A-franc# piece*.z//2#A-franc# coin*.z/
+pièce* de#R deux#AMP francs#MP.Fy/|value-of=2.00F|
+======5#A-franc# piece*.z//5#A-franc# coin*.z/
+pièce* de#R cinq#AMP francs#MP.Fy/|value-of=5.00F|
+======10#A-franc# piece*.z//10#A-franc# coin*.z/
+pièce* de#R dix#AMP francs#MP.Fy/|value-of=10.00F|
+=======10fp1//|inside=Jim-wallet|
+=======10fp2//|inside=Jim-wallet|
+=======10fp3//|inside=Opera-Comique-cash-register|
+=======10fp4//|inside=Opera-Comique-cash-register|
+=======10fp5//|inside=Opera-Comique-cash-register|
+======20#A-franc# piece*.z//20#A-franc# coin*.z/
+pièce* de#R vingt#AMP francs#MP.Fy/|value-of=20.00F|
+=======20fp1//|inside=Opera-Comique-cash-register|
+=======20fp2//|inside=Opera-Comique-cash-register|
+=======20fp3//|inside=Opera-Comique-cash-register|
+=====franc-denominated-bill/cash-bill/|issuer-of=country-FRA|
+======10#A-franc# bill*.z//billet* de#R 10#A francs#P.My/|value-of=10.00F|
+=======10fb1//|inside=Opera-Comique-cash-register|
+=======10fb2//|inside=Opera-Comique-cash-register|
+=======10fb3//|inside=Opera-Comique-cash-register|
+======20#A-franc# bill*.z//billet* de#R 20#A francs#P.My/|value-of=20.00F|
+=======20fb1//|inside=Opera-Comique-cash-register|
+=======20fb2//|inside=Opera-Comique-cash-register|
+=======20fb3//|inside=Opera-Comique-cash-register|
+======50#A-franc# bill*.z//billet* de#R 50#A francs#P.My/|value-of=50.00F|
+=======50fb1//|inside=Jim-wallet|
+=======50fb2//|inside=Jim-wallet|
+=======50fb3//|inside=Opera-Comique-cash-register|
+=======50fb4//|inside=Opera-Comique-cash-register|
+=======50fb5//|inside=Opera-Comique-cash-register|
+======100#A-franc# bill*.z//billet* de#R 100#A francs#P.My/|value-of=100.00F|
+=======100fb1//|inside=Jim-wallet|
+=======100fb2//|inside=Jim-wallet|
+=======100fb3//|inside=Opera-Comique-cash-register|
+=======100fb4//|inside=Opera-Comique-cash-register|
+=======100fb5//|inside=Opera-Comique-cash-register|
+======200#A-franc# bill*.z//billet* de#R 200#A francs#P.My/|value-of=200.00F|
+=======200fb1//|inside=Jim-wallet|
+=======200fb2//|inside=Jim-wallet|
+=======200fb3//|inside=Opera-Comique-cash-register|
+=======200fb4//|inside=Opera-Comique-cash-register|
+=======200fb5//|inside=Opera-Comique-cash-register|
+======500#A-franc# bill*.z//billet* de#R 500#A francs#P.My/|value-of=500.00F|
+=======500fb1//|inside=Opera-Comique-cash-register|
+=======500fb2//|inside=Opera-Comique-cash-register|
+=======500fb3//|inside=Opera-Comique-cash-register|
+;_______________________________________________________________________________
+====GBP.ÉTz//British#A pound*.z/pound* sterling#.z/pound.¹z/BP.Fz/GBP,BP.Fy/
+livre* sterling#Aß.Fy/livre.¹Fy/|tt-ticker-of="GBP"|
+=====pound-denominated-coin/cash-coin/|issuer-of=country-GBR|
+======British#A penny*.Àz//penny.gz/penny.My/
+;_______________________________________________________________________________
+====JPY.ÉTz//Japanese#A yen*.z/yen.¹z/JPY.TMy/yen.¹My/|issuer-of=country-JPN|
+tt-ticker-of="JPY"|
+;_______________________________________________________________________________
+====DM.ÉTz//German#A mark*.z/mark.¹z/DM.TMy/mark.¹My/|issuer-of=country-DEU|
+tt-ticker-of="DEM"|
+=====pfennig.z//pfennig.¹My/;|value-of=.01DM|
+=====10#A-pfennig# piece*.z//10#A-pfennig# coin*.z/
+pièce* de#R dix#AMP pfennigs#MP.Fy/
+;|value-of=.10DM|
+=====German-heller//heller.¹z/heller.¹y/|copper|
+;_______________________________________________________________________________
+====Austrian-schilling//Austrian#A schilling*.z/schilling.¹z/schilling.¹My/
+schelling.oMy/|issuer-of=country-AUT|
+=====groschen.z//groschen.¹My/;|value-of=.01schilling|
+=====Austrian-heller//heller.¹z/heller.¹y/|bronze|
+;_______________________________________________________________________________
+=physical#A concept*.¹z/abstract-object/physics.z/concept* physique*A.¹My/
+physique.Fy/
+==spatial//spatial#A concept*.z/concept* spatial*A.My/
+===space.z//espace.¹My/
+===location.z//place.z/emplacement.¹My/endroit.My/
+; Few descendants of the "location" concept, because locations are treated
+; specially by the code.
+====destination.z//destination.Fy/
+====source.z//origin.z/source.Fy/
+====hiding# place*.z//cachette.Fy/
+====meeting# place*.z//rendez#VP-vous#HP,lieu* de#R rendez#VP-vous#HP.My/
+==temporal//temporal#A concept*.z/concept* temporel*A.My/
+===time.z//temps.¹My/
+===fois.¹Fy//time.¹z/
+;_______________________________________________________________________________
+=metaphysical#A concept*.¹z/abstract-object/metaphysics.z/
+concept* métaphysique*A.¹My/métaphysique.Fy/
+==nonmatter.z//spiritual.Az/immatériel,incorporel,spirituel.Ay/
+==mind.z//esprit.My/
+==religious#A concept*.z//concept* religieux*A.My/
+===god.z//dieu.My/
+====God.z//Dieu.My/
+===polytheistic#A god*.z//dieu* polythéiste*A.My/
+===angel.z//ange.My/
+===devil.z//diable,démon.My/
+===ghost.z//fantôme,revenant.My/
+===heaven.z//ciel,paradis.My/
+===hell.z//enfer.My/
+===prophet.z//prophète.My/
+===scripture.z//écriture* Sainte*A.Fy/écriture.kFy/
+;_______________________________________________________________________________
+=religion.z/organization,metaphysics/religion.¹Fy/culte.My/
+;_______________________________________________________________________________
+==cult.z//secte.Fy/
+===religion-Moonie//secte* Moon#.kFy/
+;_______________________________________________________________________________
+==nonreligion.z//
+===agnosticism.z//agnosticisme.My/
+===atheism.z//athéisme.¹My/incroyance.Fy/
+====antireligion//irreligion.z/irréligion.Fy/
+;_______________________________________________________________________________
+==pantheism.z//panthéisme.My/
+==occultism.z//occult,occultness.Îz/
+==witchcraft.z//black#A magic*.z/sorcery.z/magic.qz/
+==polytheism.z//polytheistic*A religion*.z/primitive*A religion*.hz/
+religion* polythéiste*A.Fy/polythéisme.My/religion* primitive*A.hFy/
+===animism.z//animisme.My/
+===shamanism.z//chamanisme.My/
+==Zoroastrianism.z//zoroastrisme.My/
+==Shintoism.z//shintoïsme.My/
+==Taoism.z//taoïsme.My/
+==Confucianism.z//confucianisme.My/
+;_______________________________________________________________________________
+==Vedaism.z//védisme.My/
+;_______________________________________________________________________________
+===Jainism.z//jaïnisme.My/
+===Hinduism.z//hindouisme.My/
+===Sikhism.z/monotheism/
+;_______________________________________________________________________________
+===Buddhism.z//bouddhisme.My/
+====Hinayana.z//Narrow#A Way*.z/Southern#A Buddhism*.z/
+====Theravada.z/Hinayana/; Sri Lanka, Burma, Thailand, Cambodia
+=====Vipassana.z//Insight# Meditation*.z/
+====Mahayana.z//Great#A Way*,Great#A Vehicle*.z/Northern#A Buddhism*.z/
+=====Pure#A Land*.z//; China, Japan, Korea
+=====Vietnamese#A Buddhism*.z/Hinayana/
+=====Madhyamika.z//
+=====Yogacara.z//Vijnanavada.z/Consciousness# School*.z/
+====Vajrayana.z//Diamond# Vehicle*.z/Lamaism.z/Indestructible#A Path*.z/; Japan
+=====Tibetan#A Buddhism*.z/Hinayana,Mahayana,Tantrayana/
+======Nyingma.z//
+=======Dzogchen.z//
+======Kagyu.z//
+======Gelug.z//
+======Gelup.z//
+======Sakya.z//
+====Tantrayana.z//; Tibet, Nepal
+====Zen#A Buddhism*.z/Mahayana/Zen.z/; Japan, Vietnam, Korea, China
+;_______________________________________________________________________________
+==monotheism.z//monotheistic*A religion*.z/religion* monothéiste*A.Fy/
+;_______________________________________________________________________________
+===Muslemism.z//Islam.z/Islamism.z/islam.My/islamisme.My/
+====Sunnism.z//sunnisme.My/
+=====religion-malekite//
+=====religion-chafiite//
+=====religion-hanafite//
+====Shiism.z//chiisme.My/
+====kharidjisme.My//
+;_______________________________________________________________________________
+===Judaism.z//judaïsme.My/
+====Orthodox#A Judaism*.z//judaïsme* orthodoxe*A.My/
+====Conservative#A Judaism*.z//
+====Reform#A Judaism*.z//judaïsme* non#B orthodoxe*A.My/
+;_______________________________________________________________________________
+===Christianity.z//Christendom.Îz/christianisme.My/
+;_______________________________________________________________________________
+====Protestantism.z//protestantisme.My/Église* de#R la#D réforme#.Fy/
+=====Federation-protestante-de-France//
+Fédération* protestante*A de#R France#.Fy/
+=====Calvinism.z//Reformed#A Church*.z/calvinisme.My/
+=====Lutheranism.z//luthéranisme.My/
+=====Anglican#A Communion*.z//
+======Anglicanism.z//Church* of#R England#.z/anglicanisme.My/
+Église* anglicane*A.Fy/
+======Anglican#A Church* of#R Canada#.z//
+======Episcopalianism.z//Protestant#A Episcopal#A Church*.z/
+======Episcopal#A Church* of#R Scotland#.z//
+=====religion-Mennonite//
+=====religion-Baptist//
+=====Methodism.z//Église* méthodiste*A.Fy/
+=====religion-Quaker//
+=====Adventism.z//
+======Seventh#A-Day# Adventism*.z//
+=====Mormonism.z//Mormon# Church*.z/
+Church* of#R Jesus# Christ# of#R Latter#A-day# Saints#P.z/
+mormonisme.My/
+Église* de#R Jésus#M-Christ#M des#RP saints#MP des#RP derniers#AMP jours#NMP.Fy/
+=====Salvation# Army*.z//Armée* du#R Salut#M.Fy/
+=====Christian#A Science*.z//Church* of#R Christ#\, Scientist#.z/
+Église* de#R la#D science# chrétienne#A.Fy/
+=====religion-Jehovah-s-Witnesses//Jehovah#S's Witnesses*.Pïz/
+Témoins* de#RS Jéhovah#S.MPïy/
+;_______________________________________________________________________________
+====Catholicism.z//Église* catholique*A.Fy/
+;_______________________________________________________________________________
+=====Roman#A Catholicism*.z//Roman#A Catholic#A Church*.z/Roman#A Church*.z/
+Church* of#R Rome#N.z/Rome.z/Roman#A Rite*.z/Western#A Church*.z/
+;_______________________________________________________________________________
+=====Eastern#A Catholicism*.z//Eastern#A Rite*.z/Eastern#A Church*.z/
+;_______________________________________________________________________________
+======Byzantine#A Rite*.z//
+=======Albanian#A Rite*.z//
+=======Bulgarian#A Rite*.z//
+=======Belarussian#A Rite*.z//
+=======Croatian#A Rite*.z//
+=======Georgian#A Rite*.z//
+=======Greek#A Rite*.z//
+=======Hungarian#A Rite*.z//
+=======Italo#A-Greek#A Rite*.z//Italo#A-Albanian#A Rite*.z/
+=======Melkite#A Rite*.z//
+=======Romanian#A Rite*.z//
+=======Russian#A Rite*.z//
+=======Ruthenian#A Rite*.z//
+=======Slovak#A Rite*.z//
+=======Ukrainian#A Rite*.z//
+;_______________________________________________________________________________
+======Alexandrian#A Rite*.z//
+=======Coptic#A Rite*.z//
+=======Ge#A'ez#A Rite*.z//Ethiopic#A Rite*.z/
+;_______________________________________________________________________________
+======Antiochene#A Rite*.z//
+=======Maronite#A Rite*.z//
+=======Syrian#A Rite*.z//
+=======Syro#A-Malankar#A Rite*.z//
+;_______________________________________________________________________________
+======Armenian#A Rite*.z//
+;_______________________________________________________________________________
+======Chaldean#A Rite*.z//
+;_______________________________________________________________________________
+======Syro#A-Malabar#A Rite*.z//
+;_______________________________________________________________________________
+====Orthodox#A Eastern#A Church*.z//Eastern#A Orthodox#A Church*.z/
+Eastern#A Church*.z/Orthodox#A Church*.z/Église* orthodoxe*A.Fy/
+Église* orientale*A.Fy/
+=====religion-Russian-Orthodox//Russian#A Orthodox#A Church*.z/
+Église* orthodoxe*A russe*A.Fy/
+=====religion-Greek-Orthodox//Greek#A Orthodox#A Church*.z/
+Église* orthodoxe*A grecque*A.Fy/
+;_______________________________________________________________________________
+=rating.z/abstract-object/indice.My/
+==Q#® rating*.z//indice* Q*®.@My/
+==popularity# rating*.z//cote* de#R popularité#.Fy/
+==school-mark//grade.¹z/mark.z/note.¹Fy/
+==television# audience# rating*.z//indice* d#R'écoute#F.My/
+===Nielsen#® rating*.z//Nielsens.k®Pïz/indice* Nielsen*®.@My/|us|
+===Audimat#® rating*.z//Audimat,audimat.®My/|fr|
+; MRBEGIN
+==MPAA# rating*.z//Motion# Picture# Association# of#R America# rating*.z/
+classification.z/
+===MPAA-G//G.¹Éz/G# rating*.z/
+===MPAA-NC-17//NC#-17*.¹Éz/NC#-17# rating*.z/
+===MPAA-PG//PG.¹Éz/PG# rating*.z/
+===MPAA-PG-13//PG#-13*.¹Éz/PG#-13# rating*.z/
+===MPAA-R//R.¹Éz/R# rating*.z/
+; obsolete and/or non-MPAA
+===MPAA-GP//GP.¹Éz/GP# rating*.z/
+===MPAA-M//M.¹Éz/M# rating*.z/
+===MPAA-NR//NR.¹Éz/NR# rating*.z/
+===MPAA-X//X.¹Éz/X# rating*.z/
+===MPAA-XX//XX.¹Éz/XX# rating*.z/
+===MPAA-XXX//XXX.¹Éz/XXX# rating*.z/
+; MREND
+;_______________________________________________________________________________
+=domain.z/abstract-object/field.z/domaine,champ.My/
+==domain-current-events//
+==domain-art//
+==domain-music//
+==domain-science//
+==domain-sports//
+==domain-math//
+==domain-social-studies//
+==domain-reading//
+==domain-english//
+;_______________________________________________________________________________
+=data# structure*.z/abstract-object/data# object*.z/object.z/declarative.Az/
+declarative#A representation*.z/objet* d#R'informatique#F.¹My/objet.My/
+représentation* déclarative*A.Fy/déclaratif.Ay/
+;_______________________________________________________________________________
+==bit.z//bit.¹My/monade.qFy/
+;_______________________________________________________________________________
+==data-structure-nibble//nibble.z/quartet.¹My/
+;_______________________________________________________________________________
+==byte.z//octet.¹My/
+|canonical-factor-of=1u|gen-min-of=1u|gen-max-of=1000u|
+===kilobyte.z//K.z/kilooctet.¹My/kilo*Aß-octet*.My/Ko.My/
+|canonical-factor-of=1000u|gen-min-of=1u|gen-max-of=1000u|
+===megabyte.z//meg.z/M.z/mégaoctet.¹My/méga*Aß-octet*.My/Mo.My/
+|canonical-factor-of=1000000u|gen-min-of=1u|gen-max-of=1000u|
+===gigabyte.z//gig.z/gigaoctet.¹My/giga*Aß-octet*.My/Go.My/
+|canonical-factor-of=1000000000u|gen-min-of=1u|gen-max-of=1000u|
+===terabyte.z//téraoctet.@¹My/téra*Aß-octet*.@My/
+|canonical-factor-of=1000000000000u|gen-min-of=1u|gen-max-of=1000u|
+;_______________________________________________________________________________
+==data-structure-character//character.z/caractère.My/
+;_______________________________________________________________________________
+==-character# size*.z//
+====8#-bit# character*.z//
+=====unsigned#A char*.z//
+=====signed#A char*.z//char.z/
+====16#-bit# character*.z//
+;_______________________________________________________________________________
+==-character# set*.z//code.z/code.My/
+;_______________________________________________________________________________
+====ASCII.z//ASCII.y/
+;_______________________________________________________________________________
+====-ASCII#A character*.z//
+======carriage# return*.z//CR.z/retour#M-chariot#M.@My/
+======backspace.z//BS.z/retour#M arrière#Aß.@My/
+;_______________________________________________________________________________
+====-extended#A ASCII*.z//
+======IBM# extended#A ASCII*.z//extension* IBM#C au#R code#M ASCII#C.Fy/
+======Apple# extended#A ASCII*.z//extension* Apple#C au#R code#M ASCII#C.Fy/
+======Unicode.z//
+======ISO# code*.z//IEC# code*.z/
+=======ISO-8859-1//ISO# 8859#-1*.z/8859#-1*.z/
+=======ISO-8859-5//ISO# 8859#-5*.z/8859#-5*.z/
+=======ISO-8859-7//ISO# 8859#-7*.z/8859#-7*.z/
+=======ISO-8859-8//ISO# 8859#-8*.z/8859#-8*.z/
+;_______________________________________________________________________________
+====EBCDIC.z//EBCDIC.y/
+====Baudot.z//Baudot.y/
+;_______________________________________________________________________________
+==computer word//word.¹z/mot.¹My/
+===8#-bit# word*.z//
+===16#-bit# word*.z//
+===32#-bit# word*.z//
+;_______________________________________________________________________________
+==integer.z//int.z/nombre* entier*A.¹My/
+===short-integer//short.¹z/short#A integer*.z/
+===unsigned#A short*.z//
+===unsigned#A integer*.z//unsigned#A int*.z/nombre* entier*A positif*A.¹My/
+===long#A integer*.z//long.z/long#A int*.z/entier* long*A.¹My/
+==pointer.z//pointeur.My/
+;_______________________________________________________________________________
+==floating#A point# number*.z//float.z/real.z/nombre* flottant*A.¹My/
+nombre* réel*A.My/à#R virgule#NF flottante#AF.Ay/flottant.Ay/
+===double.z//
+;_______________________________________________________________________________
+==string.z//character# string*.z/chaîne.¹Fy/
+;_______________________________________________________________________________
+==-string# representation*.z//
+====null#-terminated#A string*.z//C# string*.z/
+====Pascal# string*.z//
+;_______________________________________________________________________________
+==-string# type*.z//
+;_______________________________________________________________________________
+====financial#A instrument# identifier*.z//
+=====ticker.z//ticker# symbol*.z/symbol.z/
+======exchange# ticker*.z//
+======RIC.z//Reuters# Instrument# Code*.z/
+;_______________________________________________________________________________
+====URI//URI.¹z/uniform#A resource# identifier*.z/
+=====URL//URL.¹z/uniform#A resource# locator*.z/
+=====RELURL//RELURL.¹z/relative#A uniform#A resource# locator*.z/
+relative#A URL*.z/
+====username//username,user# name*.z/login.z/
+====email-address//email# address*.¹z/e#-mail# address*.z/
+E#-mail# address*.z/email,e#-mail*,E#-mail*.Tz/
+Internet# address*.z/adresse* email#M.¹Fy/
+adresse* e#M-mail#M.Fy/adresse* E#M-mail#M.Fy/
+adresse* électronique*A.Fy/
+adresse* électronique*A personnelle*A.Fy/
+====minitel//Minitel#® number*.z/numéro* Minitel#®.@My/
+====search# string*.z//
+====page# number*.z//
+|comment="page number is a string because we must be able to represent page
+numbers such as vii."|
+;_______________________________________________________________________________
+====phone-code//telephone# code*.¹z/phone# code*.z/numéro* de#R téléphone#.¹My/
+;_______________________________________________________________________________
+=====phone-number//telephone# number*.¹z/phone# number*.z/number.z/
+======pstn//worldwide#A unique#A phone# number*.z/
+======nanp-pstn//NANP# phone# number*.¹z/national#A phone# number*.z/
+;_______________________________________________________________________________
+=====phone-prefix//telephone# prefix*.z/phone# prefix*.z/prefix.z/indicatif.¹My/
+======cc//country# code*.z/
+======cc-city-code//country# and#K city# code*.z/
+======NPA//area# code*.z/NPA.tz/
+======city-code//city# code*.z/
+======routing-code//route.¹z/operator# route*.z/routing# code*.z/
+operator# routing# code*.z/operator# routing*.z/
+=======ATT-routing-code//AT&T# route*.z/
+=======BOC-routing-code//BOC# route*.z/
+======exchange-code//exchange.¹z/exchange# code*.z/
+=======NNX.z//
+=======NXX.z//
+;_______________________________________________________________________________
+====sn//street# number*.z/
+====pob//post#-office# box# number*.z/PO# Box# number*.z/
+====USPS-state//USPS# state# abbreviation*.z/
+====ISO-3166-country//ISO# 3166# country# abbreviation*.z/
+====zip//zip# code*.Àz/post# code*.gz/postal#A code*.z/
+code* postal*A.My/
+====zip-4//
+====coor//coordinates.Pïz/
+;_______________________________________________________________________________
+==array.z//tableau.¹My/
+;_______________________________________________________________________________
+==structure.z//structure.¹Fy/
+;_______________________________________________________________________________
+==list.z//liste.Fy/
+===linked#A list*.z//linear#A list*.z/
+liste* linéaire*A,liste* séquentielle*A.Fy/
+;_______________________________________________________________________________
+==tree# structure*.z//tree.Tz/structure* arborescente*A.¹Fy/arbre.TMy/
+===binary#A tree*.z//
+;_______________________________________________________________________________
+==buffer.z//
+===stack.z//lifo.z/lifo# buffer*.z/pile.¹Fy/
+===fifo.z//fifo# buffer*.z/
+;_______________________________________________________________________________
+==variable.z//variable.¹Fy/
+===local#A variable*.z//
+===global#A variable*.z//variable* globale*A.¹Fy/
+===own#V variable*.z//
+;_______________________________________________________________________________
+==computer-file//file.¹z/fichier.¹My/
+===filename.z//file# name*.z/
+===pathname.z//path# name*.z/
+===donald-report//donald_report.z/|topic-of="DoNaLD"|
+===conceptuele-generatie//conceptuele_generatie.z/
+;_______________________________________________________________________________
+==computer-directory//directory.¹z/
+;_______________________________________________________________________________
+==unique#A identifier*.z//unique#A ID*.z/uid.tz/
+===message# ID*.z/string/
+;_______________________________________________________________________________
+==GUI# widget*.z//widget.z/widget.My/
+===GUI-bar//bar.z/barre.Fy/
+====GUI-icon-bar//icon# bar*.z/barre* d#R'icônes#MP.Fy/barre* d#R'icônes#FP.Fy/
+====GUI-menu-bar//menu# bar*.z/barre* de#R menu#M.Fy/
+====GUI-status-bar//status# bar*.z/barre* d#R'état#M.Fy/
+====GUI-task-bar//task# bar*.z/barre* de#R tâches#P.Fy/
+====GUI-title-bar//title# bar*.z/barre* de#R titre#M.Fy/
+====GUI-toolbar//toolbar.z/tool# bar*.z/barre* d#R'outils#MP.Fy/toolbar.Fy/
+===GUI-box//box.z/boîte.Fy/
+====GUI-dialog-box//dialog# box*.z/boîte* de#R dialogue#M.Fy/formulaire.My/
+====GUI-checkbox//checkbox.z/case* à#R cocher#V.Fy/case* d#R'option#F.Fy/
+====GUI-list-box//list# box*.z/liste* déroulante*A.Fy/
+===GUI-bullet//bullet.z/puce.Fy/
+===GUI-button//button.z/bouton.My/
+====GUI-radio-button//radio# button*.z/bouton* radio*A.My/case* radio*A.Fy/
+cercle* d#R'option#F.My/
+===GUI-clickable-image-map//clickable#A image# map*.z/carte* sensible*A.Fy/
+===GUI-hourglass//hourglass.z/sablier.My/
+===GUI-hyperlink//link.¹z/hyperlink.z/lien* hypertexte*A.My/
+===GUI-icon//icon.z/icône.My/icône.Fy/icon.My/
+===GUI-menu//menu.z/menu.My/
+====GUI-pulldown-menu//pulldown# menu*.z/menu* déroulant*A.My/
+===GUI-recycle-bin//recycle# bin*.z/trash.z/poubelle.Fy/corbeille.Fy/broyeur.My/
+recycleur.My/
+===GUI-slider//slider.z/ascenseur.My/barre* de#R défilement#M.Fy/slider.My/
+===GUI-window//window.z/fenêtre.Fy/
+;_______________________________________________________________________________
+==knowledge# structure*.z//representation.z/knowledge# representation*.Îz/
+memory# structure*.z/objet* structuré*A.¹My/représentation.Fy/
+;_______________________________________________________________________________
+===syntactic#A structure*.z/linguistic-concept/syntactic#A parse*.z/
+syntactic#A tree*.z/parse# tree*.z/phrase#-structure# tree*.z/parse.z/
+constituent# structure*.z/c#-structure*.z/analyse* grammaticale*A.¹Fy/
+====phrase# structure*.z//structure* syntagmatique*.Fy/
+====surface# structure*.z//structure* de#R surface#.Fy/
+=====phonological#A form*.z//forme* phonologique*A.¹Fy/FP.tFy/
+====deep#A structure*.z//D#-structure*.z/structure* profonde*.Fy/
+D#C-structure*.Fy/
+;_______________________________________________________________________________
+===semantic#A representation*.z/linguistic-concept/semantic#A structure*.z/
+semantic#A interpretation*.z/semantic.¹Az/representation* of#R concepts#P.qz/
+représentation* sémantique*A.¹Fy/sémantique.¹Ay/
+;_______________________________________________________________________________
+====idea.z//objective#A concept*.z/idée.Fy/; Plato
+;_______________________________________________________________________________
+====belief.z//croyance.Fy/
+====thought.z//pensée.Fy/
+====recollection.z//memory.z/souvenir.My/
+====advice.mz//tip.Tz/hot# tip*.az/conseil.My/
+====recommendation.z//
+;_______________________________________________________________________________
+====tautology.z//tautological.Az/tautologie.Fy/tautologique.Ay/
+====contradiction.z//contradictory.Az/contradiction.Fy/contradictoire.Ay/
+====paradox.z//paradoxical.Az/paradoxe.My/paradoxal.Ay/
+;_______________________________________________________________________________
+====laws* of#R thought#S.Pïz//|create¤Aristotle|
+=====law* of#R identity#.z//
+=====law* of#R excluded#A middle#.z//
+=====law* of#R non#B-contradiction#.z//
+;_______________________________________________________________________________
+====Leibniz-CU//Characteristica# Universalis*.jz/
+caractéristique* universelle*A.Fy/
+|@1716|create¤Leibniz|
+[text-ref Leibniz-CU Ayer-LTL "Characteristica Universalis" "151"]|
+[text-ref Leibniz-CU Russell-HWP "Characteristica Universalis" "592"]|
+[text-ref Leibniz-CU Lyons-Semantics "constructing an ideal language" "300"]|
+[text-ref Leibniz-CU Lyons-Semantics "the ideas of Leibniz and Wilkins" "317"]|
+[text-ref Leibniz-CU Lyons-Semantics "Leibniz's symbolic language" "332"]|
+;_______________________________________________________________________________
+====predicate.z//prédicat.¹My/catégorie*-opérateur#M ½.Fy/
+====argument.z//role#-player*.Tz/argument.¹My/
+=====adjective-argument//
+====idea-type//type.z/kind,sort.z/sorte.¹Fy/genre.My/
+=====other#A type*.z//autre*A sorte*.Fy/
+====instance.z//occurrence.Fy/
+=====other#A instance*.z//autre*A occurrence*.Fy/
+;_______________________________________________________________________________
+====proposition.z//proposition.¹Fy/
+=====empirical#A proposition*.z//empirical#A generalization*.z/
+;_______________________________________________________________________________
+====-analytic#A-synthetic#A distinction*.z//
+======analytic#A proposition*.z//analytic.Az/|create¤Kant|
+======synthetic#A proposition*.z//synthetic.Az/|create¤Kant|
+;_______________________________________________________________________________
+====-a#j-priori#j-a#j-posteriori#j distinction*.z//
+======a#j priori#j proposition*.z//a#j priori#j.kz/a#j priori#j truth*.z/
+======a#j posteriori#j proposition*.z//a#j posteriori#j.kz/
+a#j posteriori#j truth*.z/
+;_______________________________________________________________________________
+====semantic#A field*.z//field#-theory*.z/
+;_______________________________________________________________________________
+====signification.z//
+====significatum.z//
+====denotatum.z//
+====referent.z//
+====logical#A calculus*.z//calculus.z/
+====presupposition.z//
+;_______________________________________________________________________________
+===-extension#-intension# distinction*.z//
+=====logical-intension//intension.¹z/meaning,sense,connotation.z/intensional.Az/
+=====logical-extension//extension.¹z/reference,denotation.z/extensional.¹Az/
+truth# functional*.Az/
+;_______________________________________________________________________________
+===-cognitive#-affective# distinction*.z//
+=====affective#A meaning*.z//emotive#A meaning*.z/
+=====cognitive#A meaning*.z//referential#A meaning*.z/
+;_______________________________________________________________________________
+====sense#S-components*.Pïz//universal#A sense#S-components*.Pïz/
+general#A sense#S-components*.Pïz/componential#A analysis*.z/
+semantic#A features*.Pïz/semantic#A components*.Pïz/
+=====seme.z//
+=====classeme.z//
+====sense#S-contents*.Pïz//
+====sense#S-relations*.Pïz//
+;_______________________________________________________________________________
+====theory* of#R definite#A descriptions#P.z//|create¤Bertrand-Russell|
+;_______________________________________________________________________________
+====logical#A atom*.z//universal.z/logical#A particle*.z/atome* logique*A.My/
+|create¤Bertrand-Russell|
+;_______________________________________________________________________________
+====Sachverhalt.jz//atomic#A fact*.z/atomic#A proposition*.z/
+state* of#R affairs#P.z/fait* atomique*A.¹My/proposition* atomique*A.Fy/
+état* de#R choses#FP.My/
+|create¤Ludwig-Wittgenstein|example="Socrate est sage."|
+====Tatsache.jz//fact.¹z/molecular#A proposition*.z/fait.¹My/
+proposition* moléculaire*A.Fy/
+|part-of¤Sachverhalt|create¤Ludwig-Wittgenstein|
+example="Socrate est sage et Platon est son élève."|
+;_______________________________________________________________________________
+====state#-description*.z//; Carnap, Bar-Hillel
+====model#-theoretic#A semantics*.z//; Tarski
+;_______________________________________________________________________________
+====case# frame*.z//|@1968|create¤Charles-Fillmore|
+====lexical#A conceptual#A structure*.z//LCS.tz/functional#A structure*.oz/
+functional#A form*.oz/|@1969|create¤Jackendoff|
+;_______________________________________________________________________________
+====mentalese.z//language* of#R thought#.z/; from Fodor 1975
+;_______________________________________________________________________________
+====modal#A structure*.z//|@1972|create¤Jackendoff|
+====table* of#R coreference#.z//|@1972|create¤Jackendoff|
+====semantic#A tree*.z//
+====semantic#A primitives*.z//
+;_______________________________________________________________________________
+====Schank-CD/ontology/CD.¹z/conceptual#A dependency*.z/
+conceptual#A representation*.z/dépendance* conceptuelle*A.¹Fy/DC.Fy/
+|@1972|create¤Roger-Schank|
+=====TRANS/frame/trans#-frame*.z/|barrier-isa|
+;_______________________________________________________________________________
+====logical#A form*.z//LF.tz/forme* logique*A.Fy/FL.tFy/
+=====quasi#B-logical#A form*.z//QLF.tz/
+====functional#A structure*.z//f#-structure*.z/
+====thematic#A structure*.z//topic#-comment# structure*.z/
+====lexical#A relational#A structure*.z//LRS.tz/; Hale & Keyser 1993
+;_______________________________________________________________________________
+====interlingua.z//IL.tz/interlingual#A form*.z/interlingual.Az/
+interlangue.@Fy/interlingual.Ay/
+=====TMR.tz//text# meaning# representation# language*.z/; Mikrokosmos
+;_______________________________________________________________________________
+====knowledge# representation# language*.z//
+=====CycL.z/e-language/
+=====KL#-ONE*.z/AI-language/KLONE.z/langage* KL#C-ONE#C.¹My/
+======LOOM.z//
+;_______________________________________________________________________________
+====e#-language*.z//e#C-langue*.@Fy/
+;_______________________________________________________________________________
+=====KQML.z//
+=====KIF.z/ontology/
+=====MCF.z//
+=====PICS.z//
+=====SHOE.z//
+=====SGML.z//
+=====XML.z//
+;_______________________________________________________________________________
+=====computer# language*.z//programming# language*.¹z/
+computer# programming# language*.z/
+;_______________________________________________________________________________
+======markup# language*.z//
+=======HTML.z//
+;_______________________________________________________________________________
+======machine# language*.z//langage* machine#F.¹My/LM.My/LM* codé*A.My/
+LM* numérique*A.My/langage* numérique*A.My/
+;_______________________________________________________________________________
+======assembly# language*.z//assembler.z/assembleur.¹My/LM* symbolique*A.My/
+;_______________________________________________________________________________
+======high#A-level# language*.z//HLL.z/langage* évolué*A.¹My/
+;_______________________________________________________________________________
+======-language# type*.z//
+;_______________________________________________________________________________
+========declarative#A language*.z//
+=========Prolog.Éz//Prolog.¹Éy/
+;_______________________________________________________________________________
+========functional#A language*.z//
+=========APL.Éz//APL.¹Éy/
+=========*EMPL.Éz//EMPL.¹Éy/|@1977|create¤Erik|
+=========*Softronics# APL*.Éz//Softronics# APL*.Éy/|@1979:1980|create¤Erik|
+=========*APL2.Éz//APL2.¹Éy/
+==========*A-plus-language//A+.Éz/A+.¹Éy/
+============J-language//J.Éz/J.¹Éy/
+============K-language/J-language/K.Éz/K.¹Éy/
+;_______________________________________________________________________________
+=========Lisp.Éz//Lisp.¹Éy/
+==========Interlisp.Éz//Interlisp.¹Éy/
+==========Maclisp.Éz//Maclisp.¹Éy/
+==========Common#A Lisp*.Éz//
+==========Scheme.Éz//Scheme.¹Éy/
+===========T-language//T.Éz/T.¹Éy/
+;_______________________________________________________________________________
+=========Perl.Éz//Perl.¹Éy/
+=========TRAC.Éz//TRAC.¹Éy/
+;_______________________________________________________________________________
+========procedural#A language*.z//
+;_______________________________________________________________________________
+=========Algol.Éz//
+;_______________________________________________________________________________
+=========Basic.Éz//Basic.¹Éy/
+=========*Tiny#A Basic*.Éz//
+==========*MINOL.Éz//MINOL.¹Éy/|@1975:1976|create¤Erik|
+;_______________________________________________________________________________
+=========C# language*.kz//C.Éz/C.¹Éy/
+==========C-plus-plus/Clu/C++.Éz/C++.¹Éy/
+;_______________________________________________________________________________
+=========Clu.Éz/Pascal-language/Clu.¹Éy/
+=========Cobol.Éz//Cobol.¹Éy/
+=========Fortran.Éz//Fortran.¹ÉMy/
+=========Java.Éz/C-plus-plus/
+=========*JDK.z//Java# Development# Kit*.z/
+==========*JDK# 1\.0*.z//
+==========*JDK# 1\.1*.z//
+===========*JDK# 1\.1\.1*.z//
+===========*JDK# 1\.1\.2*.z//
+===========*JDK# 1\.1\.3*.z//
+===========*JDK# 1\.1\.4*.z//
+===========*JDK# 1\.1\.5*.z//
+===========*JDK# 1\.1\.6*.z//
+===========*JDK# 1\.1\.7*.z//
+==========*Java# 2*.z//Java# 2# Platform*.z/JDK# 1\.2*.oz/
+=========Javascript.Éz//
+;_______________________________________________________________________________
+=========Logo.Éz//Logo.¹Éy/
+=========Pascal-language//Pascal.Éz/Pascal.¹Éy/
+=========PL#\/I*.Éz//PL#\/I#.¹Éy/
+==========PL#\/M*.Éz//PL#\/M#.¹Éy/
+=========Snobol.Éz//Snobol.¹Éy/
+==========Spitbol.Éz//Spitbol.¹Éy/
+;_______________________________________________________________________________
+======AI# language*.z//AI# shell*.z/expert# system# shell*.z/AI# tool*.z/
+=======Director.Éz//Director.¹Éy/
+=======FRL.Éz//FRL.¹Éy/
+=======KEE.Éz//KEE.¹Éy/
+=======KRL.Éz//KRL.¹Éy/
+=======OPS.Éz//OPS.¹Éy/
+=======Planner.Éz//Planner.¹Éy/
+;_______________________________________________________________________________
+=====programming# construct*.z//
+;_______________________________________________________________________________
+======instruction.z//instruction.¹Fy/
+;_______________________________________________________________________________
+======branch.z//branching.Îz/transfer* of#R control#.z/
+rupture* de#R séquence#.¹Fy/
+=======goto.z//unconditional#A branch*.z/unconditional#A transfer*.z/
+unconditional#A jump*.z/jump,JMP.z/saut* inconditionnel*A.¹My/
+=======conditional#A branch*.z//conditional#A transfer*.z/conditional#A jump*.z/
+saut* conditionnel*A.¹My/
+========if# statement*.z//
+;_______________________________________________________________________________
+======invocation.z//procedure# invocation*.z/function# invocation*.z/CALL.z/
+;_______________________________________________________________________________
+======loop.z//boucle.¹Fy/
+=======for#R loop*.z//
+=======do#V loop*.z//
+=======while#K loop*.z//
+;_______________________________________________________________________________
+======module.z//modular.Az/module.¹My/modularité.ÎFy/
+;_______________________________________________________________________________
+=======main#A program*.z//main.z/programme* principal*A.¹My/
+=======subroutine.z//procedure.z/routine.z/sous#R-programme*.¹My/procédure.Fy/
+=======function.z//fonction.¹Fy/
+;_______________________________________________________________________________
+=======programming-construct-rule//rule.z/règle.¹Fy/
+========if-then//if#K-then#B rule*.z/si#K alors#B.y/
+=========production# rule*.z//production.z/règle* de#R production#.¹Fy/
+========phrase#-structure# rule*.z//production.z/rewrite# rule*.z/b#-rule*.qz/
+règle* de#R réécriture#.¹Fy/règle* P#C-S#C.¹Fy/
+========transformational#A rule*.z/generative-grammar/transformation.z/
+règle* transformationelle*A.@Fy/transformation.¹Fy/
+=========Heavy#A NP# shift*.z//Déplacement* de#R NP# lourd#A.My/
+=========Move#V-alpha#.z/GB/movement.Îz/déplacer#V alpha#.y/déplacement.ÎMy/
+==========NP#-movement*.z//déplacement* de#R NP#.My/
+==========wh#-movement*.z//déplacement* de#R wh#C.My/
+========projection# rule*.z//
+========stylistic#A rule*.z//règle* stylistique*A.¹Fy/
+========phonological#A rule*.z//règle* phonologique*A.¹Fy/
+========deletion#A rule*.z//effacement.¹My/
+;_______________________________________________________________________________
+=======FSM.z//finite#A-state# machine*.z/
+========ATN.z//augmented# transition# network*.z/
+réseau* de#R transition#F augmenté*A.¹My/ATN.My/
+;_______________________________________________________________________________
+=======society* of#R mind#.z/symbolic-AI-model/SOM.tz/
+société* de#R l#D'esprit#M.¹Fy/|@1981|create¤Marvin-Minsky|
+;_______________________________________________________________________________
+========agent.z//agent.¹My/
+=========NA//NA.z/net# agent*.¹z/softbot.z/
+=========PA//PA.z/planning# agent*.¹z/
+=========TA//TA.z/text# agent*.¹z/
+=========UA//UA.z/understanding# agent*.¹z/
+=========AI-actor//actor.z/
+=========AI-critic//critic.z/
+=========AI-demon//demon.z/démon.¹My/
+=========AI-expert//expert.z/
+=========AI-specialist//specialist.z/
+=========AI-sprite//sprite.z/
+;_______________________________________________________________________________
+========agency.z//service.¹My/
+;_______________________________________________________________________________
+=========language# agency*.z//language# module*,language# faculty*.z/
+==========semantics# agency*.z//semantic#A component*.z/
+composant* sémantique*A.¹My/
+===========lexical#A-semantic#A component*.z//
+|part-of¤projection-rule|
+==========syntax# agency*.z//syntactic#A component*.z/
+composant* syntaxique*A.¹My/
+|part-of¤phrase-structure-rule,transformational-rule|
+==========composant* morpho#Aß-phonologique*A.¹My//
+==========phonology# agency*.z//phonological#A component*.z/
+composant* phonologique*A.¹My/|part-of¤phonological-rule|
+;_______________________________________________________________________________
+========censor.z//censeur.¹My/
+;_______________________________________________________________________________
+========A#-brain*.z//cerveau* A#.¹My/
+========B#-brain*.z//blunder# stopper*,blunderstopper.z/timeout# mechanism*.qz/
+cerveau* B#.¹My/
+;_______________________________________________________________________________
+========neme.z//C#-line*.z/nème.¹y/ligne* C#M.Fy/
+=========microneme.z//micronème.¹y/
+=========polyneme.z//polynème.¹y/
+;_______________________________________________________________________________
+========nome.z//nome.¹y/
+=========isonome.z//isonome.¹y/
+==========pronome.z//pronome.¹y/
+===========paranome.z//paranome.¹y/
+;_______________________________________________________________________________
+=====protocol.z//protocole.My/
+======FTP.z//File# Transfer# Protocol*.z/RFC# 959*.z/MIL#-STD#-1780*.z/FTP.y/
+|@1971|create¤na|; transfer de fichier.My
+=======anonymous#A FTP*.z//FTP* anonyme*A.y/
+======LAPD.z//Q\.921.z/Q\.921.y/protocole* Q\.921#C.My/LAPD.y/
+protocole* LAPD#C.My/
+======NFS.z//NFS.y/protocole* NFS#C.My/
+======NNTP.z//Network# News# Transfer# Protocol*.z/NNTP.y/protocole* NNTP#C.My/
+======POP.z//POP.y/protocole* POP#C.My/
+======PPP.z//PPP.y/protocole* PPP#C.My/
+======SLIP.z//SLIP.y/protocole* SLIP#C.My/
+======SMTP.z//SMTP.y/protocole* SMTP#C.My/
+======TCP#\/IP*.z//TCP#\/IP#.y/
+======TCP.z//
+======Internet# Protocol*.z//IP.z/
+======HTTP.z//
+======CCITT# protocol*.z//protocole* CCITT#.My/
+=======Q931.Tz//Q\.931.z/Q\.931.y/protocole* Q\.931#C.My/
+=======V32.Tz//V\.32.z/V32.z/V\.32.y/V32.y/protocole* V\.32#C.My/
+protocole* V32#C.My/
+=======V32bis.Tz//V\.32bis.z/V32bis.z/V\.32bis.y/V32bis.y/
+protocole* V\.32bis#C.My/protocole* V32bis#C.My/
+=======X12.Éz/ontology/Electronic#A Data# Interchange*,EDI.z/
+X12# transaction# set*.z/|href="http://www.premenos.com/"|
+=======X25.Tz//X\.25.z/X\.25.y/protocole* X\.25#C.My/
+=======X400.Tz//X\.400.z/X\.400.y/protocole* X\.400#C.My/|@1984|create¤CCITT|
+=======X500.Tz//X\.500.z/X\.500.y/protocole* X\.500#C.My/|@1988|create¤CCITT|
+;_______________________________________________________________________________
+===assertion.z//assertion.¹z/
+===node.z//nÓud.¹My/
+===link.z//arc.¹My/
+;_______________________________________________________________________________
+===ontology.z//ontologie.¹Fy/
+;_______________________________________________________________________________
+====library# classification# system*.z//
+=====Dewey# decimal# system*.z//Dewey# decimal#A classification*.z/
+Dewey# decimal*.Tz/|@1876|create¤Melvil-Dewey|
+====*LCSH.z/multilevel-semantic-net,reference-work/
+Library# of#R Congress# Subject# Headings#P.z/
+Library# of#R Congress# Classification*.z/
+|@1898|create¤Library-of-Congress|
+=====*LCSH1.z//|@1909|publish¤Library-of-Congress|
+=====*LCSH11.z//|isbn-of="0-8444-0591-4"|@1988|publish¤Library-of-Congress|
+;_______________________________________________________________________________
+===*CODE4.z/multilevel-semantic-net/|@1992|create¤Doug-Skuce|
+===*ConText.z//
+====yellow#A pages#P.z/two-level-semantic-net/
+=====NYNEX#® Yellow#A Pages#P.®z//
+; See SCAN culture in (Pinker, 1994).
+;_______________________________________________________________________________
+===semantic#A net*.z//ISA# hierarchy*.z/réseau* sémantique*A.¹My/
+====two#A-level# semantic#A net*.z//
+====three#A-level# semantic#A net*.z//
+====four#A-level# semantic#A net*.z//
+====multilevel#A semantic#A net*.z//
+;_______________________________________________________________________________
+===synset.z//synonym# set*.z/
+===knowledge-structure-plan//plan.¹z/plan.¹My/
+===frame.z//cadre.¹My/|part-of=society-of-mind|@1974|create¤Marvin-Minsky|
+===schema.z//schéma.¹My/
+===Tau.z//|@1982|create¤Michael-Dyer|
+===MOP.z//memory# organization# packet*.z/MOP.¹y/|@1982|create¤Roger-Schank|
+===TOP.z//|@1982|create¤Roger-Schank|
+===K#-line*.z//ligne* K#M.¹Fy/|part-of=society-of-mind|@1981|
+create¤Marvin-Minsky|
+;_______________________________________________________________________________
+=number.z/abstract-object/nombre.My/
+;_______________________________________________________________________________
+==u//unitless#A number*.z/nombre* sans#R unité#F.@My/
+===coordinate.z//
+====x# coordinate*.z//
+====y# coordinate*.z//
+====grid# coordinate*.z//
+=====grid# x# coordinate*.z/x-coordinate/
+=====grid# y# coordinate*.z/y-coordinate/
+===count.z//comptage.My/
+===quantity.z//number.¹z/nombre.My/quantité.¹Fy/
+====small-quantity//little.¹z/peu.¹My/
+;_______________________________________________________________________________
+==timestamp.z//time# stamp*.oz/horodateur.My/
+;_______________________________________________________________________________
+===beginning.z/temporal-transitional-conjunct/start.z/initially,originally.Bz/
+in#R the#D beginning#N.Bz/at#R first#N.Bz/début.My/commencement.My/
+au#R début#NM.@Bz/
+====genesis.z//genèse.Fy/
+=====Genesis.z//Genèse.Fy/
+====start# timestamp*.z//moment* du#R début#.My/
+;_______________________________________________________________________________
+===abstract-object-end//end.z/fin.My/
+====stop# timestamp*.z//temps* d#R'arrêt#.My/
+;_______________________________________________________________________________
+==time# range*.z//plage* de#R temps#M.Fy/; todo: add values
+===decade-1920//twenties.kPïz/années* 20#.kFPïy/
+===decade-1930//thirties.kPïz/années* 30#.kFPïy/
+===decade-1940//forties.kPïz/années* 40#.kFPïy/
+===decade-1950//fifties.kPïz/années* 50#.kFPïy/
+===decade-1960//sixties.kPïz/années* 60#.kFPïy/
+===decade-1970//seventies.kPïz/années* 70#.kFPïy/
+===decade-1980//eighties.kPïz/années* 80#.kFPïy/
+===decade-1990//nineties.kPïz/années* 90#.kFPïy/
+===decade-2000//zeros.@kPïz/
+;_______________________________________________________________________________
+==tod//time* of#R day#.z/time* of#R day# in#R seconds#P since#R midnight#.z/
+;_______________________________________________________________________________
+==unit-of-measure//unit* of#R measure#.z/unité* de#R mesure#.Fy/
+;_______________________________________________________________________________
+===unit* of#R time#.z//unité* de#R temps#M.Fy/
+;_______________________________________________________________________________
+====absolute#A unit* of#R time#.z//unité* de#R temps#M absolue*A.Fy/
+=====second.z//seconde.Fy/|canonical-factor-of=1u|gen-min-of=1u|gen-max-of=60u|
+=====minute.z//minute.Fy/|canonical-factor-of=60u|gen-min-of=1u|gen-max-of=15u|
+=====hour.z//heure.Fy/|canonical-factor-of=3600u|gen-min-of=.25u|gen-max-of=12u|
+=====day.z//jour.My/journée.qFy/|canonical-factor-of=86400u|gen-min-of=.5u|
+gen-max-of=31u|
+=====week.z//semaine.Fy/|canonical-factor-of=604800u|gen-min-of=1u|
+gen-max-of=10u|
+=====month.z//mois.My/|canonical-factor-of=2629746u|gen-min-of=1u|
+gen-max-of=12u|
+=====quarter year//quarter.z/trimestre.My/
+|canonical-factor-of=7889238u|gen-min-of=1u|gen-max-of=4u|
+=====year.z//an.My/année.qFy/|canonical-factor-of=31556952u|
+gen-min-of=1u|gen-max-of=9999u|
+=====decade.z//décennie.Fy/décade.qFy/|canonical-factor-of=315569520u|
+gen-min-of=1u|gen-max-of=9999u|
+=====century.z//siècle.My/|canonical-factor-of=3155695200u|
+gen-min-of=1u|gen-max-of=9999u|
+=====millennium.z//millénaire.My/|canonical-factor-of=31556952000u|
+gen-min-of=1u|gen-max-of=9999u|
+;_______________________________________________________________________________
+====relative#A unit* of#R time#.z//unité* de#R temps#M relative*A.Fy/
+;_______________________________________________________________________________
+===unit* of#R temperature#.z//unité* de#R température#.Fy/
+====degree* Kelvin#.z//Kelvin.z/
+====degree* Celsius#.z//degree* centigrade#.oz/degré* Celsius#.My/
+degré* centigrade*A.My/
+====degree* Fahrenheit#.z//degré* Fahrenheit#.My/; todo: conversion formulas
+;_______________________________________________________________________________
+===unit* of#R liquid#A volume#.z//
+====liter//litre.z/litre.¹My/|canonical-factor-of=1u|
+====barrel.z//bbl.tz/baril.¹My/baril* américain*A.My/
+|canonical-factor-of=158.987u|
+====barrel other//barrel.z/|canonical-factor-of=119.228u|
+====barrel fermented beverage//barrel.z/|canonical-factor-of=117.347u|
+====American#A bushel*.z//bushel.¹Àz/bu.Àtz/boisseau* américain*A.¹My/
+boisseau.My/|canonical-factor-of=35.239u|
+====British#A bushel*.z//bushel.¹gz/bushel.¹çz/bu.gtz/bu.çtz/boisseau.¹çMy/
+boisseau* britannique*A.¹My/|canonical-factor-of=36.369u|
+====liquid-volume-cup//cup.z/|canonical-factor-of=.237u|
+====fluid# dram*.z//dram.z/|canonical-factor-of=.003696u|
+====fluid# ounce*.z//ounce.z/|canonical-factor-of=.02957u|
+====gallon.Àz//gal.Àtz/gallon* américain*A.¹My/|canonical-factor-of=3.7854u|
+====imperial#A gallon*.z//gallon.gz/gal.gtz/gallon.çz/gallon* britannique*A.¹My/
+|canonical-factor-of=4.546u|
+====gill.z//|canonical-factor-of=.1183u|
+====minim.z//|canonical-factor-of=.0616u|
+====unit-of-liquid-volume-peck//peck.z/|canonical-factor-of=8.81u|
+====dry#A measure# pint*.z//pint.z/pt.tz/|canonical-factor-of=.550u|
+====liquid# measure# pint*.Àz//pint.Àz/pt.Àtz/pinte* américaine*A.¹Fy/
+|canonical-factor-of=.473u|
+====imperial#A pint*.gz//pint.gz/pt.gtz/pinte* britannique*A.¹Fy/
+|canonical-factor-of=.568u|
+====dry#A measure# quart*.z//quart.z/|canonical-factor-of=1.101u|
+====liquid# measure# quart*.Àz//quart.Àz/|canonical-factor-of=.9464u|
+====imperial#A quart*.gz//quart.gz/|canonical-factor-of=1.136u|
+====unit-of-liquid-volume-tablespoon//tablespoon.z/tbs,tbsp.tz/
+|canonical-factor-of=.014786u|
+====unit-of-liquid-volume-teaspoon//teaspoon.z/tsp.tz/
+|canonical-factor-of=.004928u|
+;_______________________________________________________________________________
+===unit* of#R distance#.z//
+====distance-meter//metre.z/mètre.¹My/|canonical-factor-of=1u|
+====surveyor#'s chain*.z//Gunter#'s chain*.z/|canonical-factor-of=20.1u|
+====engineer#'s chain*.z//|canonical-factor-of=30.48u|
+====surveyor#'s link*.z//Gunter#'s link*.z/|canonical-factor-of=.201u|
+====engineer#'s link*.z//|canonical-factor-of=.3048u|
+====fathom.z//brasse.Fy/|canonical-factor-of=1.828u|; LNPR says 1.60
+====distance-foot//foot.z/ft.tz/pied.My/|canonical-factor-of=0.3048u|; '
+====furlong.z//|canonical-factor-of=201.2u|
+====inch.z//in.tz/pouce.My/|canonical-factor-of=.0254u|; ''
+====kilometer//kilometre.z/kilomètre.¹My/|canonical-factor-of=1000u|
+====statute# league*.z//|canonical-factor-of=4827000u|
+====nautical#A league*.z//|canonical-factor-of=5559000u|
+====micron.z//|canonical-factor-of=1e-6u|
+====mil.z//|canonical-factor-of=.0000254u|
+====statute# mile*.z//mille* terrestre*A.My/|canonical-factor-of=1609000u|
+====British#A nautical#A mile*.z//nautical#A mile*.z/mille* marin*A.My/
+mille* marin*A britannique*A.My/|canonical-factor-of=1853000u|
+====international#A nautical#A mile*.z//nautical#A mile*.z/mille* marin*A.My/
+mille* marin*A international*A.My/|canonical-factor-of=1852000u|
+====pace.z//|canonical-factor-of=.889u|
+=====military#A pace*.z//|canonical-factor-of=.762u|
+=====double#A time# military#A pace*.z//|canonical-factor-of=.9144u|
+=====Roman#A pace*.z//|canonical-factor-of=1.4758u|
+=====geometric#A pace*.z//|canonical-factor-of=1.524u|
+====point.z//point.Az/|canonical-factor-of=0.0003527u|
+====distance-rod//rod.z/|canonical-factor-of=5.03u|
+====span.z//|canonical-factor-of=.2268u|
+====distance-yard//yard.z/yard.My/|canonical-factor-of=.9144u|
+;_______________________________________________________________________________
+===unit* of#R area#.z//
+====square-meter//square#A metre*.z/mètre* carré*A.¹My/|canonical-factor-of=1u|
+====acre.z//acre.¹Fy/|canonical-factor-of=4046.86u|
+====are.z//are.¹My/|canonical-factor-of=100u|
+====hectare.z//hectare.My/|canonical-factor-of=10000u|
+====section.z//|canonical-factor-of=2589.99u|
+====township.Àz//|canonical-factor-of=93239u|
+;_______________________________________________________________________________
+===unit* of#R volume#.z//
+====cubic-meter//cubic#A metre*.z/stere.z/mètre* cube*.¹My/
+|canonical-factor-of=1u|
+====cord-of-wood//cord.z/|canonical-factor-of=3.6u|r1=wood|
+====register# ton*.z//ton.qz/|canonical-factor-of=2.8317u|r1=ship|
+;_______________________________________________________________________________
+===unit* of#R velocity#.z//
+====meter-per-second//metre* per#R second#.z/mètre* par#R seconde#F.My/
+====knot.z//
+;_______________________________________________________________________________
+===unit* of#R weight#.z//
+====troy# dram*.z//dram.z/|canonical-factor-of=3.89u|
+====avoirdupois# dram*.z//dram.z/|canonical-factor-of=1.77u|
+====grain.z//|canonical-factor-of=.0648u|
+====gram.z//gramme.My/|canonical-factor-of=1u|
+====kilogram.z//kilo.Tz/kilogramme.My/kilo.TMy/|canonical-factor-of=1000u|
+====US-hundredweight//hundredweight.Àz/quintal.Àz/cwt.Àtz/
+|canonical-factor-of=45359u|
+====UK-hundredweight//hundredweight.gz/quintal.gz/hundredweight.çz/cwt.gtz/
+|canonical-factor-of=50802u|
+====troy# ounce*.z//ounce.¹z/|canonical-factor-of=31.1035u|
+====avoirdupois# ounce*.z//ounce.¹z/oz.tz/once.¹Fy/oz.tFy/
+|canonical-factor-of=28.3495u|
+====troy# pound*.z//pound.¹z/|canonical-factor-of=373.24u|
+====French#A pound*.z//livre.¹Fy/|canonical-factor-of=500u|
+====avoirdupois# pound*.z//pound.¹z/lb.tz/livre.¹Fy/lb.tFy/
+|canonical-factor-of=453.59u|
+====pennyweight.z//|canonical-factor-of=1.55u|
+====quintal.z//|canonical-factor-of=100000u|
+====scruple.z//|canonical-factor-of=1.2959u|
+====British#A stone*.Àz//st.gtz/stone.gz/|canonical-factor-of=6350u|
+====metric#A ton*.z//tonne.z/ton.z/tonne.Fy/|canonical-factor-of=1000000u|
+====avoirdupois# ton*.z//short#A ton*.z/st.Àtz/ton.Àz/ton.gz/
+|canonical-factor-of=907184u|
+====long#A ton*.z//deadweight# ton*.z/ton.gz/|canonical-factor-of=1016060u|
+;_______________________________________________________________________________
+===unit* of#R pressure#.z//
+;_______________________________________________________________________________
+===frequency.z//fréquence.Fy/
+====hertz.z//Hz.z/hertz.My/Hz.My/
+;_______________________________________________________________________________
+=value-range-name/abstract-object/value# range# name*.z/
+;_______________________________________________________________________________
+==part* of#R the#D day#.z/temporal/|unit-of=tod|
+===late#A night*.z//night.z/nuit.Fy/
+|min-value-of=NUMBER:tod:0000|max-value-of=NUMBER:tod:0400|
+===early#A morning*.z//matin* très#B tôt#B.My/
+|min-value-of=NUMBER:tod:0400|max-value-of=NUMBER:tod:0600|
+===morning.z//matin.My/matinée.qFy/avant#R-midi#M.·ßîMy/avant#R-midi#M.·ßçFy/
+|min-value-of=NUMBER:tod:0600|max-value-of=NUMBER:tod:1200|
+===afternoon.z//après#R-midi#.·ßMy/après#R-midi#M.·ßFy/aprèm.·TMy/aprèm.·TFy/
+|min-value-of=NUMBER:tod:1200|max-value-of=NUMBER:tod:1700|
+===evening.z//soir.My/soirée.qFy/
+|min-value-of=NUMBER:tod:1700|max-value-of=NUMBER:tod:2100|
+===night.z//nuit.Fy/soir.My/
+|min-value-of=NUMBER:tod:2100|max-value-of=NUMBER:tod:2400|
+===daytime.z//
+|min-value-of=NUMBER:tod:0600|max-value-of=NUMBER:tod:2100|
+===nighttime.z//
+|min-value-of=NUMBER:tod:2100|max-value-of=NUMBER:tod:0600|
+;_______________________________________________________________________________
+==speed# description*.z//description* de#R vitesse#.Fy/
+===fast.Az//quick.Az/quickly.Bz/fast.TBz/lickety#-split#A.TBz/
+rapide.Ay/rapidement,vite.By/
+===slow.Az//slowly.Bz/lent.Ay/lentement.By/
+;_______________________________________________________________________________
+==temperature# description*.z/temporal/description* de#R température#.Fy/
+|unit-of=unit-of-temperature|
+===freezing.Az//arctic,bitter# cold*,freezing# cold#,icy,ice#B-cold#.Az/
+glacial.Ay/|min-value-of=-9999u|max-value-of=0u|
+===cold.Az//brisk,chilly,crisp,frigid,invigorating,nippy.Az/
+froid,vivifiant,vif.Ay/|min-value-of=0u|max-value-of=5u|
+===cool.Az//frais.Ay/
+|min-value-of=5u|max-value-of=10u|
+===mild.Az//temperate,lukewarm.Az/doux,tempéré.Ay/
+|min-value-of=10u|max-value-of=15u|
+===warm.Az//warmth.z/chaud.Ay/chaleur.Fy/
+|min-value-of=15u|max-value-of=20u|
+===hot.Az//heat.z/torrid,sweltering,burning.Az/toasty.TAz/chaud.Ay/chaleur.Fy/
+|min-value-of=20u|max-value-of=9999u|
+====hot#A weather*.z//temps* chaud*A.My/
+;_______________________________________________________________________________
+==barometric#A pressure# description*.z//
+description* de#R pression# barométrique#A.Fy/|r2=unit-of-pressure|
+===isobar.z//isobare.Fy/
+===low#A pressure# center*.z//dépression.Fy/dépression* barométrique*A.Fy/
+dépressionnaire.Ay/cyclone.My/
+===high#A pressure# center*.z//anticyclone.My/maximum* barométrique*A.My/
+===trough.z//creux* barométrique*A.My/
+;_______________________________________________________________________________
+==humidity# description*.z/attribute/description* de#R humidité#.Fy/
+===dry.Az//sec.Ay/|min-value-of=0pc|max-value-of=40pc|antonym-of=wet|
+===humid.Az//humide.Ay/|min-value-of=70pc|max-value-of=100pc|
+====humid#A weather*.z//temps* humide*A.My/
+====wet.Az//mouillé.Ay/
+;_______________________________________________________________________________
+=clothing# size*.z/abstract-object/taille,pointure.Fy/
+==clothing-size-S//small.NAz/S.TMy/
+==clothing-size-M//medium.NAz/moyenne.Fy/M.TMy/
+==clothing-size-L//large.NAz/L.TMy/
+==clothing-size-XL//extra#B large*.NAz/XL.TNAy/
+;_______________________________________________________________________________
+=compass# direction*.z/abstract-object/direction* au#R compas#NM.Fy/
+==north.NAz//north.Bz/nord.My/nord.ßAy/du#R nord#NM.Ay/au#R nord#NM.By/
+vers#R le#D nord#NM.By/
+==south.NAz//south.Bz/sud.My/sud.ßAy/du#R sud#NM.Ay/au#R sud#NM.By/
+vers#R le#D sud#NM.By/
+==east.NAz//east.Bz/est.My/est.ßAy/d#R'est#NM.Ay/à#R l#DM'est#NM.By/
+vers#R l#DM'est#NM.By/
+==west.NAz//west.Bz/ouest.My/ouest.ßAy/de#R l#DM'ouest#NM,à#R l#DM'ouest#NM.By/
+à#R l#DM'ouest#NM,vers#R l#DM'ouest#NM.By/
+;_______________________________________________________________________________
+=relative#A direction*.z/abstract-object/direction* relative*A.Fy/
+==left.z//left.Az/left.Bz/gauche.Ay/à#R gauche#A.By/
+==right.z//right.Bz/droit.Ay/à#R droite#A.By/
+===right-RIGHT//right.AÓz/|r1=[and physical-object [not human]]|
+==upstage.z//lointain.My/
+==stage# left*.z//
+==stage# right*.z//
+==prompt# side*.z//côté* jardin#.My/
+==opposite#R prompt# side*.z//côté* cour#F.My/
+;_______________________________________________________________________________
+=value-name/abstract-object/value# name*.z/
+;_______________________________________________________________________________
+==fraction.z/attribute/fraction.Fy/
+===half.z//half.Az/demi.§y/demi.Ay/|value-of=.5u|
+===fraction-third//third.z/third.Az/tiers.My/tiers.Ay/
+|value-of=.3333333333333333u|
+===fraction-quarter//quarter.z/quarter.Az/quart.My/quart.Ay/|value-of=.25u|
+===fraction-fifth//fifth.z/fifth.Az/cinquième.§y/cinquième.Ay/|value-of=.2u|
+===fraction-sixth//sixth.z/sixth.Az/sixième.§y/sixième.Ay/
+|value-of=.1666666666666666u|
+===fraction-seventh//seventh.z/seventh.Az/septième.§y/septième.Ay/
+|value-of=.142857142857142857u|
+===fraction-eighth//eighth.z/eighth.Az/huitième.§y/huitième.Ay/|value-of=.125u|
+===fraction-ninth//ninth.z/ninth.Az/neuvième.§y/neuvième.Ay/
+|value-of=.11111111111111111u|
+===fraction-tenth//tenth.z/tenth.Az/dixième.§y/dixième.Ay/deci.Az/d.tz/
+déci.ßAy/d.ty/|value-of=.1u|
+===fraction-eleventh//eleventh.z/eleventh.Az/onzième.§y/onzième.Ay/
+|value-of=.090909090909090909u|
+===fraction-twelfth//twelfth.z/twelfth.Az/douzième.§y/douzième.Ay/
+|value-of=.083333333333333333u|
+===fraction-thirteenth//thirteenth.z/thirteenth.Az/treizième.§y/treizième.Ay/
+|value-of=.0769230769230769230u|
+===fraction-hundredth//hundredth.z/centième.My/centi.Az/c.tz/centi.ßAy/c.ty/
+|value-of=1e-2u|
+===fraction-thousandth//thousandth.z/millième.My/milli.Az/m.tz/milli.ßAy/m.ty/
+|value-of=1e-3u|
+===fraction-ten thousandth//decimilli.Az/dm.tz/decimilli.ßAy/dm.ty/
+|value-of=1e-4u|
+===fraction-hundred thousandth//centimilli.Az/cm.tz/centimilli.ßAy/cm.ty/
+|value-of=1e-5u|
+===fraction-millionth//millionth.z/millionième.My/micro.Az/µ,u.tz/micro.ßAy/
+µ,u.ty/|value-of=1e-6u|
+===fraction-billionth//billionth.z/milliardième.My/nano.Az/n.tz/nano.ßAy/n.ty/
+|value-of=1e-9u|
+===fraction-trillionth//trillionth.z/pico.Az/p.tz/pico.ßAy/p.ty/
+|value-of=1e-12u|
+===fraction-quadrillionth//quadrillionth.z/femto.Az/f.tz/femto.ßAy/f.ty/
+|value-of=1e-15u|
+===fraction-quintillionth//quintillionth.Àz/atto.Az/a.tz/atto.ßAy/a.ty/
+|value-of=1e-18u|
+;_______________________________________________________________________________
+==ordinal#A number*.z/attribute/nombre* ordinal*A,numéral* ordinal*A.My/
+|value-of=0u|
+===first.Az//first.Az/premier.§y/premier.Ay/|value-of=1u|
+===ordinal second//second.z/second.Az/deuxième.§y/deuxième.Ay/|value-of=2u|
+===third.z//third.Az/troisième.§y/troisième.Ay/|value-of=3u|
+===fourth.z//fourth.Az/quatrième.§y/quatrième.Ay/|value-of=4u|
+===fifth.z//fifth.Az/cinquième.§y/cinquième.Ay/|value-of=5u|
+===sixth.z//sixth.Az/sixième.§y/sixième.Ay/|value-of=6u|
+===seventh.z//seventh.Az/septième.§y/septième.Ay/|value-of=7u|
+===eighth.z//eighth.Az/huitième.§y/huitième.Ay/|value-of=8u|
+===ninth.z//ninth.Az/neuvième.§y/neuvième.Ay/|value-of=9u|
+===tenth.z//tenth.Az/dixième.§y/dixième.Ay/|value-of=10u|
+===eleventh.z//eleventh.Az/onzième.§y/onzième.Ay/|value-of=11u|
+===twelfth.z//twelfth.Az/douzième.§y/douzième.Ay/|value-of=12u|
+===thirteenth.z//thirteenth.Az/treizième.§y/treizième.Ay/|value-of=13u|
+;_______________________________________________________________________________
+==cardinal-number/attribute/cardinal#A number*.z/number.z/nombre.My/
+nombre* cardinal*A,numéral* cardinal*A.¹My/
+===zero.z//zero.Az/nought.¹gz/nought.¹gAz/nil.gz/nil.gAz/no.Dz/zip.Tz/
+zéro.My/aucun.Ay/
+|value-of=0u|
+===one.z//one.Az/;un.My/un.Ay/
+|value-of=1u|
+===two.z//two.Az/deux.§y/deux.Ay/|value-of=2u|
+===three.z//three.Az/trois.§y/trois.Ay/|value-of=3u|
+===four.z//four.Az/quatre.§y/quatre.Ay/|value-of=4u|
+===five.z//five.Az/cinq.§y/cinq.Ay/|value-of=5u|
+===six.z//six.Az/six.§y/six.Ay/|value-of=6u|
+===seven.z//seven.Az/sept.§y/sept.Ay/|value-of=7u|
+===eight.z//eight.Az/huit.§y/huit.Ay/|value-of=8u|
+===nine.z//nine.Az/neuf.§y/neuf.Ay/|value-of=9u|
+===ten.z//ten.Az/dix.§y/dix.Ay/deca.Az/da.tz/déca.ßAy/da.ty/|value-of=10u|
+===eleven.z//eleven.Az/onze.§y/onze.Ay/|value-of=11u|
+===twelve.z//twelve.Az/douze.§y/douze.Ay/|value-of=12u|
+===thirteen.z//thirteen.Az/treize.§y/treize.Ay/|value-of=13u|
+===fourteen.z//fourteen.Az/quatorze.§y/quatorze.Ay/|value-of=14u|
+===fifteen.z//fifteen.Az/quinze.§y/quinze.Ay/|value-of=15u|
+===sixteen.z//sixteen.Az/seize.§y/seize.Ay/|value-of=16u|
+===seventeen.z//seventeen.Az/dix#-sept#.§y/dix#-sept#.Ay/|value-of=17u|
+===eighteen.z//eighteen.Az/dix#-huit#.§y/dix#-huit#.Ay/|value-of=18u|
+===nineteen.z//nineteen.Az/dix#-neuf#.§y/dix#-neuf#.Ay/|value-of=19u|
+===twenty.z//twenty.Az/vingt.§y/vingt.Ay/|value-of=20u|
+===thirty.z//thirty.Az/trente.§y/trente.Ay/|value-of=30u|
+===forty.z//forty.Az/quarante.§y/quarante.Ay/|value-of=40u|
+===fifty.z//fifty.Az/cinquante.§y/cinquante.Ay/|value-of=50u|
+===sixty.z//sixty.Az/soixante.§y/soixante.Ay/|value-of=60u|
+===seventy.z//seventy.Az/soixante#-dix#.§y/soixante#-dix#.Ay/septante.î§y/
+septante.îAy/|value-of=70u|
+===eighty.z//eighty.Az/quatre#-vingt#.§y/quatre#-vingt#.Ay/huitante.î§y/
+huitante.îAy/octante.î§y/octante.îAy/|value-of=80u|
+===ninety.z//ninety.Az/quatre#-vingt# dix#.§y/quatre#-vingt# dix#.Ay/
+nonante.î§y/nonante.îAy/|value-of=90u|
+===hundred.z//hundred.Az/cent.§y/cent.Ay/hecto.Az/h.tz/hecto.ßAy/h.ty/
+|value-of=100u|
+===ream.z//|value-of=500u|
+===thousand.z//thousand.Az/mille.My/mille.Ay/kilo.Az/k.tz/kilo.ßAy/k.ty/
+|value-of=1000u|
+===myria.Az/myria.ßAy/myrio.ßAy/|value-of=10000u|
+===hectokilo.Az//h.tz/hectokilo.ßAy/h.ty/|value-of=1e5u|
+===million.z//million.Az/million.My/million.Ay/mega.Az/M.tz/méga.ßAy/M.ty/
+|value-of=1e6u|
+===billion.z//billion.Az/milliard.My/billion.oMy/giga.Az/G.tz/giga.ßAy/G.ty/
+|value-of=1e9u|
+===trillion.z//trillion.Az/billion.oz/billion.oAz/billion.My/
+trillion.oMy/trillion.oMy/tera.Az/T.tz/téra.ßAy/T.ty/|value-of=1e12u|
+===quadrillion.z//quadrillion.Az/quatrillion.oMy/peta.Az/P.tz/peta.ßAy/P.ty/
+|value-of=1e15u|
+===quintillion.Àz//quintillion.ÀAz/trillion.gz/trillion.gAz/trillion.My/
+exa.Az/E.tz/exa.ßAy/E.ty/|value-of=1e18u|
+===sextillion.z//sextillion.Az/|value-of=1e21u|
+===septillion.Àz//septillion.ÀAz/quadrillion.gz/quadrillion.gAz/
+quatrillion.My/|value-of=1e24u|
+===octillion.z//octillion.Az/
+===nonillion.z//nonillion.Az/
+===decillion.z//decillion.Az/
+===undecillion.z//undecillion.Az/
+===duodecillion.z//duodecillion.Az/
+===tredecillion.z//tredecillion.Az/
+===quattuordecillion.z//quattuordecillion.Az/
+===quindecillion.z//quindecillion.Az/
+===sexdecillion.z//sexdecillion.Az/
+===septdecillion.z//septdecillion.Az/
+===octodecillion.z//octodecillion.Az/
+===novemdecillion.z//novemdecillion.Az/
+===vigintillion.z//vigintillion.Az/
+===googol.z//googol.Az/
+===googolplex.z//googolplex.Az/
+===zillion.z//zillion.Az/
+===jillion.z//jillion.Az/
+===infinity.z//infini.¹My/infinité.Fy/
+;_______________________________________________________________________________
+==hour* of#R the#D day#.z/temporal/|unit-of=tod|
+===noon.z//midday.¹gz/noonday.gz/lunchtime.qz/midi.My/|value-of=NUMBER:tod:1200|
+===midnight.z//minuit.My/|value-of=NUMBER:tod:0000|
+;_______________________________________________________________________________
+==relative-day/temporal/relative#A day*.z/|unit-of=day|
+===the#D day* before#R yesterday#.z//avant#R-hier#NM.My/
+avant#R-veille*.qFy/|value-of=-2u|
+===yesterday.z//hier.My/veille.qFy/|value-of=-1u|
+===today.z//aujourd#B'hui*.My/au#R jour# d#R'aujourd#B'hui#N.TMy/
+|value-of=0u|
+===tomorrow.z//demain.My/lendemain.qkMy/|value-of=1u|
+===the#D day* after#R tomorrow#.z//après#R-demain#.My/
+surlendemain.qMy/|value-of=2u|
+;_______________________________________________________________________________
+==day* of#R the#D week#.z/temporal/|unit-of=day|
+===Sunday.z//dimanche.¹My/|value-of=0u|
+===Monday.z//lundi.¹My/|value-of=1u|
+===Tuesday.z//mardi.¹My/|value-of=2u|
+===Wednesday.z//mercredi.¹My/|value-of=3u|
+===Thursday.z//jeudi.¹My/|value-of=4u|
+===Friday.z//vendredi.¹My/|value-of=5u|
+===Saturday.z//samedi.¹My/|value-of=6u|
+;_______________________________________________________________________________
+==month* of#R the#D year#.z/temporal/|unit-of=month|
+===January.z//janvier.¹My/|value-of=1u|
+===February.z//février.¹My/|value-of=2u|
+===March.z//mars.¹My/|value-of=3u|
+===April.z//avril.¹My/|value-of=4u|
+===May.z//mai.¹My/|value-of=5u|
+===June.z//juin.¹My/|value-of=6u|
+===July.z//juillet.¹My/|value-of=7u|
+===August.z//août.¹My/|value-of=8u|
+===September.z//septembre.¹My/|value-of=9u|
+===October.z//octobre.¹My/|value-of=10u|
+===November.z//novembre.¹My/|value-of=11u|
+===December.z//décembre.¹My/|value-of=12u|
+;_______________________________________________________________________________
+==season.z//saison.Fy/
+===winter.z//wintertime.z/hiver.My/
+====Christmastime.z//Christmas# time*.z/Christmastide,Christmas# tide*.oz/
+période* de#R Noël#M.Fy/
+===spring.z//springtime.z/printemps.My/
+===summer.z//summertime.z/été.My/
+===autumn.z//fall.¹Àz/automne.My/
+;_______________________________________________________________________________
+==astrological#A sign*.z/temporal/zodiac# sign*.z/zodiac.z/
+===sign-Aries//Aries.Éz/Ram.kz/
+===sign-Taurus//Taurus.Éz/Bull.kz/
+===sign-Gemini//Gemini.Éz/Twins.kPïz/
+===sign-Cancer//Cancer.Éz/Crab.kz/
+===sign-Leo//Leo.Éz/Lion.kz/
+===sign-Virgo//Virgo.Éz/Virgin.kz/
+===sign-Libra//Libra.Éz/Balance.kz/
+===sign-Scorpius//Scorpius.Éz/Scorpion.kz/
+===sign-Sagittarius//Sagittarius.Éz/Archer.kz/
+===sign-Capricorn//Capricorn.Éz/Goat.kz/
+===sign-Aquarius//Aquarius.Éz/Water# Bearer*.kz/
+===sign-Pisces//Pisces.Éz/Fishes.kPïz/
+;_______________________________________________________________________________
+==time# zone*.z/temporal/fuseau* horaire*A.My/fuseau.My/
+;_______________________________________________________________________________
+===dst//daylight# saving# time*.Àz/daylight# savings#P time*.Àz/
+Summer# Time*.gz/heure* d#R'été#M.Fy/
+;_______________________________________________________________________________
+===PT-zone//PT.z/Pacific#A Time*.z/heure* du#R Pacifique#M.Fy/
+====PST.z//Pacific#A Standard#A Time*.z/heure* normale*A du#R Pacifique#M.Fy/
+|value-of=-8u|
+====PDT.z/dst/Pacific#A Daylight# Time*.z/heure* d#R'été#M du#R Pacifique#M.Fy/
+|value-of=-7u|
+;_______________________________________________________________________________
+===MT.z//Mountain#A Time*.z/heure* des#RP Montagnes# Rocheuses#AP.Fy/
+====MST.z//Mountain#A Standard#A Time*.z/heure* normale*A des#RP Rocheuses#P.Fy/
+|value-of=-7u|
+====MDT.z/dst/Mountain#A Daylight# Time*.z/
+heure* d#R'été#M des#RP Montagnes# Rocheuses#AP.Fy/|value-of=-6u|
+;_______________________________________________________________________________
+===CT.z//Central#A Time*.z/
+====CST.z//Central#A Standard#A Time*.z/|value-of=-6u|
+====CDT.z/dst/Central#A Daylight# Time*.z/|value-of=-5u|
+;_______________________________________________________________________________
+===ET.z//Eastern#A Time*.z/heure* de#R l#D'Est#M.Fy/
+====EST.z//Eastern#A Standard#A Time*.z/heure* normale*A de#R l#D'Est#M.Fy/
+|value-of=-5u|
+====EDT.z/dst/Eastern#A Daylight# Time*.z/heure* d#R'été#M de#R l#D'Est#M.Fy/
+|value-of=-4u|
+;_______________________________________________________________________________
+===GMT.z//Greenwich# Mean#A Time*.z/universal#A time*.z/
+coordinated#A universal#A time*.z/temps* universel*A.¹My/
+temps* universel*A de#R Greenwich#C.¹My/TU.My/|value-of=0u|
+===BST.z/dst/British# Summer# Time*.z/heure* d#R'été#M britannique*A.Fy/
+|value-of=1u|
+;_______________________________________________________________________________
+===CET.z//MET.z/Central#A European#A Time*.z/
+heure* des#RP pays#MP d#R'Europe# centrale#A.Fy/|value-of=1u|
+;_______________________________________________________________________________
+===EET.z//Eastern#A European#A Time*.z/heure* de#R l#D'Europe# orientale#A.Fy/
+|value-of=2u|
+;_______________________________________________________________________________
+=dual#A value# range# name*.z/abstract-object/
+;_______________________________________________________________________________
+==relative-day-and-part-of-the-day/temporal/
+relative#A day* and#K part* of#R the#D day#.z/|unit1-of=day|unit2-of=tod|
+; Definite articles are hardcoded here to enable TA_Time parsing.
+===the#D night# before#R last#A.Éz//avant#R-hier#NM soir#NM.ÉMy/
+la#D nuit# d#R'avant#R-hier#NM.ÉFy/
+|min-value1-of=-2u|max-value1-of=-2u|min-value2-of=NUMBER:tod:2100|
+max-value2-of=NUMBER:tod:2400|
+===last#A night*.Éz//hier#B soir#.ÉMy/la#D nuit# dernière#A.ÉFy/
+|min-value1-of=-1u|max-value1-of=-1u|min-value2-of=NUMBER:tod:2100|
+max-value2-of=NUMBER:tod:2400|
+===late#A last#A night#N.¹Éz//
+|min-value1-of=0u|max-value1-of=0u|min-value2-of=NUMBER:tod:0000|
+max-value2-of=NUMBER:tod:0400|
+===early#A this#D morning#N.¹Éz//
+|min-value1-of=0u|max-value1-of=0u|min-value2-of=NUMBER:tod:0400|
+max-value2-of=NUMBER:tod:0600|
+===this#D morning#N.¹Éz//ce#D matin#NM.¹ÉMy/
+|min-value1-of=0u|max-value1-of=0u|min-value2-of=NUMBER:tod:0600|
+max-value2-of=NUMBER:tod:1200|
+===tonight.Éz//ce#D soir#.ÉMy/
+|min-value1-of=0u|max-value1-of=0u|min-value2-of=NUMBER:tod:2100|
+max-value2-of=NUMBER:tod:2400|
+;_______________________________________________________________________________
+==relative-day-and-part-of-the-day-story-time/temporal/
+|unit1-of=day|unit2-of=tod|
+===the#D night# before#R.Éz//the#D previous#A night#.Éz/la#D veille#.ÉFy/
+|min-value1-of=-1u|max-value1-of=-1u|min-value2-of=NUMBER:tod:2100|
+max-value2-of=NUMBER:tod:2400|
+;_______________________________________________________________________________

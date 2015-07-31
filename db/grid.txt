@@ -1,0 +1,1893 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=wormhole//|walkable|drivable|rollable|
+==Opera-worm//
+==metro-Opera-Entrance1//
+==metro-RD-Entrance1//
+==metro-RD-pont-de-Sevres-entrance1//
+==metro-RD-mairie-de-Montreuil-entrance1//
+==metro-RD-Balard-entrance1//
+==metro-RD-Creteil-entrance1//
+==metro-RD-pont-de-Sevres-track//
+==metro-RD-mairie-de-Montreuil-track//
+==metro-RD-Balard-track//
+==metro-RD-Creteil-track//
+==metro-Opera-Balard-track//
+==metro-Opera-Creteil-track//
+==French-bar1-Entrance//
+==Italian-restaurant1-Entrance//
+==small-city-food-store1-Entrance//
+==20-rue-Drouot-Entrance//
+==20-rue-Drouot-0To1//
+==20-rue-Drouot-1To2//
+==20-rue-Drouot-2To3//
+==20-rue-Drouot-3To4//
+==20-rue-Drouot-4To5//
+==20-rue-Drouot-Elevator//
+; todo: Elevators are more complicated. Like metro.
+==Opera-Comique-Entrance1//
+==Opera-Comique-Stage-Entrance//
+==Opera-Comique-0To1A//
+==Opera-Comique-0To1B//
+==Opera-Comique-0To1Stage//
+==Opera-Comique-1To2A//
+==Opera-Comique-1To2B//
+==Opera-Comique-1To2Drop//
+==sapins-0To1//
+==sapins-14To15//
+==sapins-15To16//
+==sapins-Elevator//
+==sapins-Entrance//
+==Plaza-0To1//
+==Plaza-1To2//
+==Plaza-Elevator//
+==Plaza-Entrance//
+==maison-de-Lucie-Entrance//
+==perif-Porte-Maillot//
+==Paris-to-France//
+==Toulouse-to-France//
+==Mirepoix-to-France//
+==CDG-runway//
+==CDG-2C-Entrance1//
+==JFK-runway//
+==QBB-Manhattan-to-NYC//
+==JFK-entrance//
+=grid//
+==20-rue-Drouot-4E/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=4u|orientation-of=north|part-of=20-rue-Drouot|polity-of=9arr|
+has-ceiling|@19940201:na–|GS=
+                                                               wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+                                                     wwwwwwwwwww  vvvweee   JT  hhhRSwXXXXXXXXXw
+                                   wwwwwwwwwwwwwwwwwww         w  vvvwQkk       hhhhhwXXXXXXXXXw
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww        w4       w         w   kQwQkk       hhhhhwXX       w
+w  FFFFFFFF ee   E KDDDD  eeeeeeeeew        f        w5        w6  kQwQkk       hhhhhwXU       w
+wW FFFFFFFF ee       c    eeeeeeeeew        f        wwwwpppwwwwwpppwwQkk7      hhhhhwXX8      w
+wn  LI                           eew        f        p               wwwwwppppwwwwwwwwwwppppwwww
+f   II                           eew3       w        p               p                         w
+fg                               eewwwwwwwwwwp       p               p                         w
+fg                                 w         p       p0              p                         w
+fg                                 p         wwwwwwwwwwwwwwwwwwwwwwwwwtttttttttttta           aw
+f                                  p         peewdddddddddMNuuuuuuuuuwttttttttttttt           tw
+w                                  p         peewdddddddOOOOOOuuuuuuuwttttttttttttt            w
+w C                                w         peewdddddddOOOOOOuuuuuuuwn    c          bbbbbbbbbw
+w                                  wZ        pVewdddddddOOOOOOuuuuuuuw                bbbbbbbbbw
+w             c                    w2        pYewdddddddOOOOOOuuuuuuuwaA              bbbbbbbbbw
+f         ttttttttt                wwwwwwqqqqwwwwdddddddOOOOOOuuuuuuuw A              bbbbbbbbbw
+fg       ctttttttttc      ee     GGw            w                    w A              bbbbbbbbbw
+fg        ttttttttt       ee     GGw            p                    w                bbbbbbbbbw
+fg            c           ee      nw            p                    w                bbbbbbbbbw
+f    c                    kk       w            p                    w   K            bbbbbbbbbw
+w  tttt      eeeeeeeeeee  kk     HHw            p                    w     ttttttBt   bbbbbbbbbw
+w1n          eeeeeeeeeee  ee     HHw            w                    w9   ggggg        ggggg  nw
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqwwwwwwwwwwwwwwwwwwwwfffffffwwwwwwfffffffwwwwwwfffffffwww
+.
+a:lamp
+b:&Jim-bed
+c:side-chair
+d:stairs-down
+e:shelf
+f:window
+g:radiator
+h:bath-shower
+k:sink
+n:AC-outlet
+p:door
+q:door-with-lock
+t:table
+u:stairs-up
+v:toilet
+w:wall
+A:synthesizer
+B:&Jim-TV1
+C:&Jim-TV2
+D:clavinet
+E:guitar
+F:love-seat
+G:stove
+H:refrigerator
+I:coffee-table
+J:heated-towel-rack
+K:Electro-Voice-635A-microphone
+L:&Jim-phone
+M:&20-rue-Drouot-3To4
+N:&20-rue-Drouot-4To5
+O:&20-rue-Drouot-Elevator
+Q:mirror
+R:Aquavital
+R:Aquavital
+S:soap
+T:towel
+U:Christopher-Hayes-briefs
+U:Christopher-Hayes-briefs
+U:Christopher-Hayes-briefs
+U:Christopher-Hayes-undershirt
+U:Christopher-Hayes-undershirt
+U:Christopher-Hayes-undershirt
+U:chaussettes-d-Ermenegildo-Zegna
+U:chaussettes-d-Ermenegildo-Zegna
+U:mid-calf-length-sock
+U:mid-calf-length-sock
+U:mid-calf-length-sock
+U:mid-calf-length-sock
+U:mid-calf-length-sock
+U:mid-calf-length-sock
+U:sweat-socks
+U:sweat-socks
+U:chemise-blanche-en-coton-d-Ermenegildo-Zegna
+U:chemise-blanche-en-coton-d-Ermenegildo-Zegna
+U:chemise-rouge-en-coton-d-Ermenegildo-Zegna
+U:chemise-noire-en-coton-d-Ermenegildo-Zegna
+U:chemise-grise-en-coton-d-Ermenegildo-Zegna
+U:chemise-grise-et-blanche-d-Ermenegildo-Zegna
+U:Giorgio-Armani-dress-shirt
+U:Austin-Grey-fitted-shirt
+U:Alfani-shirt-A
+U:Alfani-shirt-B
+U:Cecilia-Metheny-shirt-A
+U:De-Fursac-shirt-A
+U:De-Fursac-shirt-B
+U:De-Fursac-shirt-C
+U:De-Fursac-shirt-D
+U:De-Fursac-shirt-E
+U:Perry-Ellis-shirt-A
+U:Perry-Ellis-shirt-B
+U:Perry-Ellis-shirt-C
+U:Perry-Ellis-shirt-D
+U:Perry-Ellis-shirt-E
+U:Perry-Ellis-shirt-F
+U:Florenzi-shirt
+U:Woodhouse-shirt
+U:Unionbay-shirt-A
+U:Unionbay-shirt-B
+U:Bill-Robinson-shirt
+U:Sole-shirt
+U:chemise-de-Ciao
+U:T-shirt-de-Galfa-Club
+U:T-shirt-de-Oxbow
+U:Hanes-T-shirt-A
+U:Hanes-T-shirt-B
+U:Screen-Stars-T-shirt-A
+U:Screen-Stars-T-shirt-B
+U:touch-of-gold-T-shirt
+U:Fruit-Of-The-Loom-undershirt
+U:Breffni-Prince-sweater
+U:pull-De-Fursac
+U:Ungaro-Uomo-sweater
+U:veste-droite-d-Ermenegildo-Zegna
+U:veston-croise-d-Ermenegildo-Zegna
+U:veston-croise-De-Fursac
+U:veste-droite-De-Fursac-A
+U:pantalon-noir-en-laine-d-Ermenegildo-Zegna
+U:pantalon-en-laine-d-Ermenegildo-Zegna
+U:pantalon-d-Ermenegildo-Zegna
+U:pantalon-en-coton-d-Ermenegildo-Zegna
+U:pantalon-en-coton-de-Giorgio-Armani
+U:pantalon-en-laine-De-Fursac
+U:pantalon-jaune-en-laine-De-Fursac
+U:Studio-0001-corduroys-by-Ferre
+U:Levi-s-510-jeans
+U:INC-pants-A
+U:INC-pants-B
+U:short-armee-de-Liberto
+U:Unionbay-shorts
+U:bum-equipment-shorts
+U:UCLA-Bruins-shorts
+U:Speedo-trunks
+U:Gotcha-trunks
+U:Russell-athletic-sweatshirt
+U:Russell-athletic-sweatpants
+U:ceinture-d-Ermenegildo-Zegna
+U:Alfani-belt
+U:Bullock-s-belt
+U:belt-A
+U:belt-B
+U:cravate-en-soie-numero-21-d-Ermenegildo-Zegna
+U:cravate-en-soie-numero-70-d-Ermenegildo-Zegna
+U:Christopher-Hayes-tie-A
+U:Christopher-Hayes-tie-B
+U:Barney-s-tie
+U:daniel-craig-tie
+U:Nicole-Miller-tie
+U:Loris-Azzaro-tie
+U:Rykiel-tie
+U:Valentino-tie
+U:cravate-de-Moholy-Nagy-A
+U:cravate-de-Moholy-Nagy-B
+U:cravate-De-Fursac-A
+U:cravate-De-Fursac-B
+U:cravate-De-Fursac-C
+U:Speedo-thongs
+U:Speedo-thongs
+U:Salamander-A
+U:Salamander-A
+U:Salamander-B
+U:Salamander-B
+U:Richelieu-de-Jean-Thiot
+U:Richelieu-de-Jean-Thiot
+U:&Jim-wallet
+V:Dash-coat
+V:Giorgio-Armani-jacket
+U:veste-droite-De-Fursac-B
+V:Mani-by-Giorgio-Armani-overcoat
+V:Pere-Mar-coat
+V:pardessus-de-Daniel-Hechter
+V:Rose-scarf
+V:Christian-Dior-scarf-A
+V:Christian-Dior-scarf-B
+V:gants-de-Guanti-Restelli
+V:totes-umbrella
+V:Reebok-HardCourt-sneakers
+V:Reebok-HardCourt-sneakers
+W:antenna
+X:clothing-shelf
+Y.wfp:closet
+Z.wfq:&apt4d20rd
+0.wfp:hallway
+1.wfp:living-room
+2.wfpq:&Jim-foyer
+3.wfp:courette
+4.wfp:telephone-room
+5.wfp:heating-room
+6.wfp:toilet-room
+7.wfp:&Jim-bathroom
+8.wfp:closet
+9.wfp:&Jim-bedroom
+.
+|
+==20-rue-Drouot-3E/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=3u|orientation-of=north|part-of=20-rue-Drouot|polity-of=9arr|
+has-ceiling|@19940201:na–|GS=
+             wwwwwwwwwwwwwwwwwwwwww
+             wdddddddddMNuuuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+wwwwwwqqqqwwwwdddddddOOOOOOuuuuuuuw
+w            w                    w
+w            p                    w
+w            p                    w
+w            p                    w
+w            p                    w
+w            w                    w
+wqqqqwwwwwwwwwwwwwwwwwwwwfffffffwww
+.
+d:stairs-down
+f:window
+p:door
+u:stairs-up
+w:wall
+M:&20-rue-Drouot-2To3
+N:&20-rue-Drouot-3To4
+O:&20-rue-Drouot-Elevator
+.
+|
+==20-rue-Drouot-2E/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=2u|orientation-of=north|part-of=20-rue-Drouot|polity-of=9arr|
+has-ceiling|@19940201:na–|GS=
+             wwwwwwwwwwwwwwwwwwwwww
+             wdddddddddMNuuuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+wwwwwwqqqqwwwwdddddddOOOOOOuuuuuuuw
+w            w                    w
+w            p                    w
+w            p                    w
+w            p                    w
+w            p                    w
+w            w                    w
+wqqqqwwwwwwwwwwwwwwwwwwwwfffffffwww
+.
+d:stairs-down
+f:window
+p:door
+u:stairs-up
+w:wall
+M:&20-rue-Drouot-1To2
+N:&20-rue-Drouot-2To3
+O:&20-rue-Drouot-Elevator
+.
+|
+==20-rue-Drouot-1E/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=1u|orientation-of=north|part-of=20-rue-Drouot|polity-of=9arr|
+has-ceiling|@19940201:na–|GS=
+             wwwwwwwwwwwwwwwwwwwwww
+             wdddddddddMNuuuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+             wdddddddOOOOOOuuuuuuuw
+wwwwwwqqqqwwwwdddddddOOOOOOuuuuuuuw
+w            w                    w
+w            p                    w
+w            p                    w
+w            p                    w
+w            p                    w
+w            w                    w
+wqqqqwwwwwwwwwwwwwwwwwwwwfffffffwww
+.
+d:stairs-down
+f:window
+p:door
+u:stairs-up
+w:wall
+M:&20-rue-Drouot-0To1
+N:&20-rue-Drouot-1To2
+O:&20-rue-Drouot-Elevator
+.
+|
+==20-rue-Drouot-Rez/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=0u|orientation-of=north|part-of=20-rue-Drouot|polity-of=9arr|
+has-ceiling|@19940201:na–|GS=
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  w                        dddddw                            Nuuuuuuuuuw                         w
+  q                        dddddw                        wOOOOOOuuuuuuuw                         w
+  q                        dddddw                        wOOOOOOuuuuuuuw                         w
+  q                        dddddw                        wOOOOOOuuuuuuuw                         w
+  q                        dddddw                 wwwwwwwwOOOOOOuuuuuuuw                         w
+  q                        dddddw                 wAAAAA  OOOOOOuuuuuuuw                         w
+  w                        dddddw                 w                    w                         w
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                 w                    w                         w
+  w              w              w                 w                    w                         w
+  w              w              w                 w                    w                         w
+  w              w              w                 w                    w                         w
+  w              w              w                 w                    w                         w
+  wwwwwwwwwwwwwwwwwwwwwppppwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  w                                                                                              w
+  w                                                                                              w
+  q                                                                                              w
+  q                                                                                              w
+  q                                                                                              w
+ Mq                                                                                              w
+  q                                                                                              w
+  q                                                                                              w
+  w                                                                                              w
+  w                                                                                              w
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqwwwwwwww
+.
+d:stairs-down
+p:door
+q:door-with-lock
+u:stairs-up
+w:wall
+A:mailbox
+M:&20-rue-Drouot-Entrance
+N:&20-rue-Drouot-0To1
+O:&20-rue-Drouot-Elevator
+.
+|
+==Italian-restaurant1/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=0u|orientation-of=north|polity-of=9arr|has-ceiling|
+@19940201:na–|GS=
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  w                                                  w
+  w    ttt      ttt     ctttc                        w
+  w   ctttc    ctttc     ttt       w                 w
+ 2q                                w                 w
+  q                                w                 w
+  w    ttt      ttt     ctttc      w                 w
+  w   ctttc    ctttc     ttt       w                 w
+  w1                               w                 w
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+c:side-chair
+q:door-with-lock
+t:table
+w:wall
+1.wq:Italian-restaurant
+2:&Italian-restaurant1-Entrance
+.
+|
+==Cave-Drouot-grid/floor/|col-distance-of=.185m|row-distance-of=.275m|
+level-of=0u|orientation-of=south|polity-of=9arr|has-ceiling|
+@19940201:na–|GS=
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  w   vttttttttttttttttttttttxtttttts         ttt    w
+  w                                 s        ctttc   f
+  w                                 s         ttt    f
+  w   sssssssssssssssssssssssssssssss                f
+  w     b     b     b     b     b                    f
+  w                                                  w
+  w                                                  w
+  w                                                  w
+  w1       b                                         w
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwffffwwwwwwwwwwqqqqwwwww
+                                               2
+.
+b:bar-stool
+c:side-chair
+f:window
+q:door-with-lock
+s:counter
+t:table
+v:TV-set
+w:wall
+x:Biston-Brillette-moulis-1990
+x:Haut-Batailley-pauillac-1989
+x:Fonplegade-saint-emilion-1989
+x:Michelot-meursault-1990
+x:Droin-chablis-1992
+x:Pothier-Rieusset-pommard-1989
+x:anisette
+x:Benedictine
+x:Cointreau
+x:gin
+x:rum
+x:brandy
+x:vodka
+x:Scotch-whiskey
+x:rye-whiskey
+x:malt-whiskey
+x:Guinness
+x:Perrier
+x:Schweppes
+1.wfq:&Cave-Drouot
+2:&French-bar1-Entrance
+.
+|
+==grid-small-city-food-store1/floor/|col-distance-of=.185m|
+row-distance-of=.275m|level-of=0u|orientation-of=south|polity-of=9arr|
+has-ceiling|@19940201:na–|GS=
+VVVVVSSSwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+VVVVVSSSw                                              fnffw
+VVVVVSS2q                                              ffffw
+VVVVVSSSq                                              fxffw
+VVVVVSSSw                                              ffffw
+VVVVVSSSw   ttt        ffffmffff                       ffffw
+VVVVVSSSw   tttB    sssssssssssssssssssssssssssss      ffffw
+VVVVVSSSw cArtt     sssssssssssssssssssssssssssss      fuffw
+VVVVVSSSw   ttt            z        y                  ffffw
+VVVVVSSSw                                              fvffw
+VVVVVSSSw                                              ffffw
+VVVVVSSSw                                              ffffw
+VVVVVSSSw1                                             fpffw
+VVVVVSSSwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+A:employee-side-of-counter
+B:customer-side-of-counter
+S:sidewalk
+V:&rue-de-Provence
+c:side-chair
+f:store-refrigerator
+m:orange-Fanta
+m:Coke
+m:Diet-Coke
+m:Orangina
+m:Banga
+m:Sprite
+n:carrot
+n:greenhouse-lettuce
+n:tomato
+n:onion
+n:garlic
+n:chives
+n:celery
+p:jambon-de-Paris
+p:lardons
+p:pate-de-canard
+p:saucisse-de-Francfort
+p:salami-danois
+p:saucisson-sec
+p:saucisson-a-l-ail
+p:saumon-fume
+q:door-with-lock
+r:cash-register
+s:store-shelf
+t:table
+u:Coeur-de-lion
+v:chicken-eggs
+v:Tropicana-apple-juice
+v:Tropicana-orange-juice
+v:Tropicana-grapefruit-juice
+v:lowfat-milk
+v:whole-milk
+w:wall
+x:Danette
+x:Yoplait
+x:yogurt-Danone
+x:Fjord
+y:Ovaltine
+y:lait-Lactel
+z:biscotte-Heudebert
+z:biscuit-Pepito-Belin
+z:Cocoa-Krispies
+1.wq:&small-city-food-store1
+2:&small-city-food-store1-Entrance
+.
+|
+==Richelieu-Drouot-area//quartier* Richelieu#-Drouot#.My/|col-distance-of=5m|
+row-distance-of=10m|level-of=0u|orientation-of=north|polity-of=9arr,2arr|
+@19940201:na–|GS=
+sssssssssssrrrssssssssssssrrrsssssssssssrrrsssssssssssssssssss
+VVVVVVVVVVViiiVVVVVVVVVVVViiiVVVVVVVVVVViiiVVVVVVVVVVVVVVVVVVV
+VVVVVVVVVVViiiVVVVVVVVVVVViiiVVVVVVVVVVViiiVVVVVVVVVVVVVVVVVVV
+sssssssssssLLLssssssssssssCCCsssssssssssDDDsssssssssssssssssss
+oooooooooosLLLsoooooooooosCCCsooooooooosDDDsoooooooooooooooooZ
+oooooooooosLLLsoooooooooosCCC9ooooooooosDDDs11111111oooooooooo
+oooooooooosLLLsoooooooooosCCCsooooooooosDDD211111111oooooooooo
+oooooooooosLLLsoooooooooosCCCsooooooooosDDDsoooooooooooooooooo
+oooooooooosLLLsoooooooooosCCCsoooooo777sDDDsssssssssssssssssss
+oooooooooosLLLsoooooooooosCCCsoooooo777siiiGGGiiiGGGGGGGGGGGGG
+oooooooooosLLLsoooooooooosCCCsoooooo777siiiGGGiiiGGGGGGGGGGGGG
+oooooooooosLLLsoooooooooosCCCsoooooo777sDDDsssSSSsssssssssssss
+oooooooooosLLLsoooooooooosCCCsoooooo777sDDDsosSSSsoooooooooooooo
+sssssssssssLLLssssssssssssCCCsssssssssssDDDsssSSSsoooooooooooooo
+SSSSSSSSSSSiiiSSSSSSSSSSSSiiiSSSSSSSSSSSiiiSSSSSSsoooooooooooooo
+SSSSSSSSSSSiiiSSSSSSSSSSSSiiiSSSSSSSSSSSiiiSSSSSSsoooooooooooooo
+sssssssssssLLLssssssssssssCCCsssssssssssDDDs8sssssoooooooooooooo
+oooooooooosLLLsoooooooooosCCCsooooooooosDDDsoooooooooooooooooooo
+oooooooooosLLLsoooooooooosCCCsooooooooosDDDsoooooooooooooooooooo
+sssssssssssLLLssssssssssssCCCsssssss3dssDDDssssssssssssssssssssss
+HHHHHHHHHHHiiiHHHHHHHHHHHHiiiHHHHHHHHHHHiiiMMMMMMMMMMMMMMMMMMMMMM
+HHHHHHHHHHHiiiHHHHHHHHHHHHiiiHHHHHHHHHHHiiiMMMMMMMMMMMMMMMMMMMMMM
+sssssssssssLLLssssssssssssssssssssIIIIIIRRRssssssssssssssssssssss
+oooooooooosLLLsoooooooossssssIIIIIIIIsssRRRsooooooooooooooooooooo
+oooooooooosLLLsooossssssIIIIIIIIssssssosRRRsooooooooooooooooooooo
+oooooooooosLLLsssssIIIIIIIIssssssPooooosRRRsooooooooooooooooooooo
+oooooooosssLLLIIIIIIIIssssssoooooPooooosRRRsooooooooooooooooooooo
+oooossssssIIIIIIIIssssssoooooooooPPPPPPsRRRsooooooooooooooooooooo
+ssssIiiiIIIIssFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+IIIIIiiisssss FFFsssssssssssssssssssssssRRRsooooooooooooooooooooo
+IIsssXXXsoooosiiiAAAAAAAAAAAAAAAAAAAAAAAiiisooooooooooooooooooooo
+oooosXXXs44446iiiAAAAAAAAAAAAAAAAAAAAAAAiiisooooooooooooooooooooo
+oooosXXX54444sFFFsssssssssssssssssssssssRRRsooooooooooooooooooooo
+oooosXXXs4444sFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXs4444sFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXs4444sFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXs4444sFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXs4444sFFFsssssssssssssssssssssssRRRsooooooooooooooooooooo
+oooosXXXBBBBBBiiiEEEEEEEEEEEEEEEEEEEEEEEiiisooooooooooooooooooooo
+oooosiiiBBBBBBiiiEEEEEEEEEEEEEEEEEEEEEEEiiisooooooooooooooooooooo
+oooosiiiBBBBBBiiisssssssssssssssssssssssRRRsooooooooooooooooooooo
+oooosXXXsoooosFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXsoooosFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXsoooosFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+oooosXXXsoooosFFFsooooooooooooooooooooosRRRsooooooooooooooooooooo
+.
+d:stairs-down
+i:intersection
+o:building
+r:street
+s:sidewalk
+A:&rue-de-Amboise
+B:&place-Boieldieu
+C:&rue-Chauchat
+D:&rue-Drouot
+E:&rue-Saint-Marc
+F:&rue-Favart
+G:&rue-de-la-Grange-Bateliere
+H:&boulevard-Haussmann
+I:&boulevard-des-Italiens
+L:&rue-Le-Peletier
+M:&boulevard-Montmartre
+P:&passage-des-Princes
+R:&rue-de-Richelieu
+S:&rue-Rossini
+V:&rue-de-Provence
+X:&rue-de-Marivaux
+Z:&small-city-food-store1-Entrance
+1:&20-rue-Drouot
+2:&20-rue-Drouot-Entrance
+3:&metro-RD-Entrance1
+4:&Opera-Comique
+5:&Opera-Comique-Entrance1
+6:&Opera-Comique-Stage-Entrance
+7:&Hotel-des-ventes
+8:&French-bar1-Entrance
+9:&Italian-restaurant1-Entrance
+.
+|
+==metro-RD-1//mÈtro* Richelieu#-Drouot#.My/|col-distance-of=5m|
+row-distance-of=10m|level-of=-1u|orientation-of=north|polity-of=9arr,2arr|
+@19940201:na–|GS=
+   wwwwwwwwwwwwwwwwwwwwwwwwwwwww
+2ddT                        uuu1
+   w                           w
+   w         wwwwwwww          w
+   w         w     Xw          w
+   w        BfA     w          w
+   w         w      w          w
+   w         w      w          w
+   w         w      w          w
+   w         wwwwwwww          w
+   w                           w
+3ddT                           w
+   w                           w
+   w                           w
+   w                           w
+   w                           w
+4ddT                           w
+   w                           w
+   w                           w
+   w                           w
+   w                           w
+   wwwTwwwwwwwwwwwwwwwwwwwwwwwww
+      d
+      5
+.
+d:stairs-down
+u:stairs-up
+w:wall
+A:employee-side-of-counter
+B:customer-side-of-counter
+T:ticket-turnstile
+X.wf:&metro-RD-ticket-booth
+1:&metro-RD-Entrance1
+2:&metro-RD-pont-de-Sevres-entrance1
+3:&metro-RD-mairie-de-Montreuil-entrance1
+4:&metro-RD-Balard-entrance1
+5:&metro-RD-Creteil-entrance1
+.
+|
+==metro-RD-2abc//mÈtro* Richelieu#-Drouot#.My/|col-distance-of=5m|
+row-distance-of=10m|level-of=-2u|orientation-of=north|polity-of=9arr,2arr|
+@19940201:na–|GS=
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    wwwwwwwwwMwwAAAAwwwwAwwAwwwwAAAAwwwwNwwAwwMwwwww
+    w   BBBBC   BBBB    BBBB    BBBB   CBBBB     uu2
+    w                                              w
+    w6                                             w
+DDDDDDDDDDDDDDDDDDDDDDDDDHDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
+EEEEEEEEEEEEEEEEEEEEEEEEEIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+    w7                                             w
+    w                                              w
+    w   BBBBC   BBBB    BBBB    BBBB   CBBBB     uu3
+    wwwwwwwwwMwwAAAAwwwwAAAAwwwwwwwAwwwwNwwAwwMwwwww
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+u:stairs-up
+w:wall
+A:advertising-panel
+B:bench
+C:trash-can
+D:&metro-pont-de-Sevres-tracks
+E:&metro-mairie-de-Montreuil-tracks
+H:&metro-RD-pont-de-Sevres-track
+I:&metro-RD-mairie-de-Montreuil-track
+M:subway-map
+N:neighborhood-map
+2:&metro-RD-pont-de-Sevres-entrance1
+3:&metro-RD-mairie-de-Montreuil-entrance1
+6.uwT:&metro-RD-pont-de-Sevres-platform
+7.uwT:&metro-RD-mairie-de-Montreuil-platform
+.
+|
+==metro-RD-2c//mÈtro* Richelieu#-Drouot#.My/|col-distance-of=5m|
+row-distance-of=10m|level-of=-2u|orientation-of=north|polity-of=9arr,2arr|
+@19940201:na–|GS=
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+    wwwwwwwwwMwwwwwwwwwwAwwAwwwwAAAAwwwwNwwAwwMwwwww
+    w   BBBBC   BBBB    BBBB    BBBB   CBBBB     uu4
+    w                                              w
+    w8                                             w
+FFFFFFFFFFFFFFFFFFFFFFFFFJFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+.
+u:stairs-up
+w:wall
+A:advertising-panel
+B:bench
+C:trash-can
+F:&metro-Balard-tracks
+J:&metro-RD-Balard-track
+M:subway-map
+N:neighborhood-map
+4:&metro-RD-Balard-entrance1
+8.uwT:&metro-RD-Balard-platform
+.
+|
+==metro-RD-2d//mÈtro* Richelieu#-Drouot#.My/|col-distance-of=5m|
+row-distance-of=10m|level-of=-2u|orientation-of=north|polity-of=9arr,2arr|
+@19940201:na–|GS=
+GGGGGGGGGGGGGGGGGGGGGGGGGKGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+    w9                                             w
+    w                                              w
+    w   BBBBC   BBBB    BBBB    BBBB   CBBBB     uu5
+    wwwwwwwwwMwwAAAAwwwwAwwAwwwwAAAAwwwwNwwAwwMwwwww
+    wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+u:stairs-up
+w:wall
+A:advertising-panel
+B:bench
+C:trash-can
+G:&metro-Creteil-tracks
+K:&metro-RD-Creteil-track
+M:subway-map
+N:neighborhood-map
+5:&metro-RD-Creteil-entrance1
+9.uwT:&metro-RD-Creteil-platform
+.
+|
+==Opera-area//quartier* OpÈra#.My/|col-distance-of=3m|row-distance-of=6m|
+level-of=0u|orientation-of=north|polity-of=9arr|@19940201:na–|GS=
+s4AAAs        ssSSSSs                                   s
+ sAAAAs       ssSSSSsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+  sAAAAs     ssSSSSsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+   sAAAAs    ssSSSSsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+    sAAAAs  sBSSSSsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+     sAAAAs ssSSSSsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+      sAAAAssSSSSs OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO s
+       sAAAAsSSSSs OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO s
+        siiiiiiis  OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  s
+         siiiiiis  OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  s
+          siiiis   OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO   s
+          siiiiis  OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  s
+         siiiiiiis OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO s
+         siiiiiiiisOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+        sSSSSssAAAAsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+        sSSSSs sAAAAsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+       sSSSSs   sAAAAsOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOs
+       sSSSSs    sAAAAsuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuus
+      sSSSSs      sAAAAsssssssssssssssssssssssssssssss
+      sSSSSs       sPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPs
+     sSSSSs        sPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPs
+     sSSSSs        sPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPs
+    sSSSSs         sPPPPPsssssssssssssssssssssssssssPPPPPs
+   sSSSSs          sPPPPPsssssssssssssssssssssssssssPPPPPs
+   sSSSSs      XXXXsPPPPPsssssssssssssssssssssssssssPPPPPs
+  sSSSSs       XXXXsPPPPPssssssssssss1235sssssssssssPPPPPs
+sssSSSSsssssssssssssPPPPPsssssssssssssssssssssssssssPPPPPs
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+.
+i:intersection
+s:sidewalk
+A:&rue-Auber
+B:&rue-Scribe-bus-stop
+C:&boulevard-des-Capucines
+O:&Opera-Garnier
+P:&place-de-l-Opera
+S:&rue-Scribe
+X:&Cafe-de-la-Paix
+1:&metro-Opera-Entrance1
+2:&metro-Opera-Balard-track
+3:&metro-Opera-Creteil-track
+4:&Opera-worm
+5:&metro-Opera-platform
+.
+|
+==Opera-Comique-Rez/floor/|col-distance-of=.3m|row-distance-of=.6m|level-of=0u|
+orientation-of=south|part-of=Opera-Comique|polity-of=2arr|has-ceiling|
+@19940201:na–|GS=
+ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+ w      wuu2uuuw                               wuu3uuuwuuuuuuw
+ w      wuuuuuuw                               wuuuuuuwuuuuuuw
+ w      wuuuuuuw                               wuuuuuuwuuuuuuw
+ wCC    wuuuuuuw                               wuuuuuuwuuuuCCw
+ w      wC     w                               w     Cw      w
+ w      w      wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww      w      p
+ w      w      CC X                           CC      w      w
+ p      p      p                               p      p      P
+ p      p      ttt                           ttt      p      P
+ p      p      ttt     A                     ttt      p      P
+ w      w      tttttttRTtttttttttttttttttttttttt      w      w
+ w      w      ttttttttttttttttttttttttttttttttt      w      w
+ w      w              B                              w      w
+ p      p                                             p      P
+ p      p                                             p      P
+ p      p                                             p      P1
+ w      w                                             w      w
+ wwwwwwww                                             w      p
+5Q      w                                             w      w
+ Q      w                                             wuuuuuuw
+ wuuuuuuw                   c  c  c                   wuuuuuuw
+ wCu4uuCwC     CMMMMC     CMMMMMMMMMC     CMMMMC     CwCuuuuCw
+ wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+p:door
+t:counter
+u:stairs-up
+w:wall
+A:employee-side-of-counter
+B:customer-side-of-counter
+C:column
+M:mirror
+P:revolving-door
+Q:stage-entrance
+R:&Opera-Comique-cash-register
+T:&Opera-Comique-ticket-box
+X.tpCw:&Opera-Comique-box-office
+1:&Opera-Comique-Entrance1
+2:&Opera-Comique-0To1A
+3:&Opera-Comique-0To1B
+4:&Opera-Comique-0To1Stage
+5:&Opera-Comique-Stage-Entrance
+.
+|
+==Opera-Comique-1E/floor/|col-distance-of=.3m|row-distance-of=.6m|level-of=1u|
+orientation-of=south|part-of=Opera-Comique|polity-of=2arr|has-ceiling|
+@19940201:na–|GS=
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wC4uCw                                                 wC5uCw
+wuuuuw                                                 wuuuuw
+wuuuuw                                                 wuuuuw
+w                                                           w
+w                                                           w
+wddddw                                                 wddddw        
+wddddw                                                 wddddw    
+wddddwF                                                wddddw   
+wd2ddwwwwpppppwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwd3ddw            
+wwwwwwwH                                              wwwwwww
+wC  C                                                   C  Cw
+w                                                           w
+w        S S S S S S S S S S     S S S S S S S S S S        w
+w                                                           w
+w      S S S S S S S S S S S     S S S S S S S S S S S      w
+w                                                           w
+w    S S S S S S S S S S S S     S S S S S S S S S S S S    w
+w                                                           w
+w    S S S S S S S S S S S S6    S S S S S S S S S S S S    w
+w                                                           w
+w    S S S S S S S S S S S S     S S S S S S S S S S S S    w
+w                                                           w
+w      S S S S S S S S S S S     S S S S S S S S S S S      w
+w                                                           w
+w    OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO    w
+w    OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO    w
+w    OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO    w
+w    OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO    w
+w    OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO    w
+wC  C                                                   C  Cw
+w    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM    w
+w    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMBMM    w
+wwwwwUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUwwwww
+wG  L                                                   R   w
+wWW                                                       WWw
+wWW                                                       WWw
+w                                                           w
+w                                                           w
+w                                                           w
+w                                                           w
+w                                                           w
+w                                                           w
+w                                                           w
+w                                                           w
+w                                                           w
+w  Y                                                     Y  w
+w  Y                                                     Y  w 
+w  Y                                                     Y  w
+w   YPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPY   w
+w    YPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPY    w
+w     YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY     w
+w                                                           w
+w                                                           w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwpppww
+wD  AAAA  AAAA  AAAA    wN                                  w
+w    c     c     c     Aw                                   w
+w                     cAw                                   w
+w                       w                                   w
+w                      Aw                                   w
+w                     cAw                                   w
+w                       w                                   w
+w                       w                                   w
+wdddd                   p                                   w
+w7ddd                   p          c          c             w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+c:side-chair
+d:stairs-down
+p:door
+u:stairs-up
+w:wall
+A:mirror
+B:prompt-box
+C:column
+D.wfp:dressing-room
+F.wfp:foyer
+G.wfpU:stage
+H.wfpU:theater-hall
+L:opposite-prompt-side
+M:proscenium
+N.wfp:rehearsing-room
+O:orchestra-pit
+P:upstage
+R:prompt-side
+S:orchestra-seat
+U:stage-curtain
+W:theater-wing
+Y:scenery
+2:&Opera-Comique-0To1A
+3:&Opera-Comique-0To1B
+4:&Opera-Comique-1To2A
+5:&Opera-Comique-1To2B
+6:&Opera-Comique-1To2Drop
+7:&Opera-Comique-0To1Stage
+.
+|
+==Opera-Comique-2E/floor/|col-distance-of=.3m|row-distance-of=.6m|level-of=2u|
+orientation-of=south|part-of=Opera-Comique|polity-of=2arr|has-ceiling|
+@19940201:na–|GS=
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+w                                                           w     
+wddddw                                                 wddddw                  
+wddddwF                                                wddddw         
+wd2ddwwwwpppppwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwd3ddw               
+wwwwwwwB                                              wwwwwww
+wC  C                                                   C  Cw
+w                                                           w
+w        S S S S S S S S S S S S S S S S S S S S S S        w
+w                                                           w
+w      S S S S S S S S S S S S S S S S S S S S S S S S      w
+w                                                           w
+w    S S S S S S                             S S S S S S    w
+w                                                           w
+w  S S S S S S                                 S S S S S S  w
+w                                                           w
+wRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRw
+w4OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOw
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+d:stairs-down
+w:wall
+B.wfpR:balcony
+C:column
+F.wfp:foyer
+O:open-floor
+R:balcony-railing
+S:balcony-seat
+2:&Opera-Comique-1To2A
+3:&Opera-Comique-1To2B
+4.wfpR:&Opera-Comique-1To2Drop
+.
+|
+==France-2-Rez/floor/|col-distance-of=.3m|row-distance-of=.6m|level-of=0u|
+orientation-of=north|part-of=France-2-building|polity-of=8arr|@19940604:na–|GS=
+AAAAAAAAAAAss   wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w1 n      n      n      SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS  wuuuuw3    kwv   k     3w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                             C   C   C   C             nwuuuuw     vw           w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                        wuuuuw      w           w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       SSSSSfffffffffffffffffSSSSSSSSS  w    wwwpppwwpppwwwwwwwww  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       SJ                            S  w    p                 0w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wn                      S                             S  w    p                  w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       S   C C C C C C C C           S nwVV  p                  f  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       S8 ttttttttttttttttt      8S  S  wwwwwwww      wwwww     f  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                  S     w      w      w   w     f  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                          FP               T      S     wwwwwwww      w   w     f  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wn                               C  C C            S     p             w   w     f  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                        M     ttLttLtLtLC        HS     p             w   w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w              RRDRT T  M       tttttMttLC        HS     wwwwwwwwwwppppwwwww     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                        M      tLttLMtLLC        HSSS   w      w6        7w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wn                         FP    C  C  C             S  nw      w          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       98                        tC S   w      w         7w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       S   C      tt             tC S   w      w          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       SCtttt    CttZM       T   tC S   w      wpppwwwwwwww     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       S tttt                       S   w      w5         w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wn                      S  C C                       S  nw      w          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                       SSSSSSS   B B B B            S   w      wYM tUU    w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                             SK  ttttttt           8S   w      wY  tUUc   w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                    S   w      wYM ttt    w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wn                            SSSSSSSSSSSSSSSSSSSSSSSS  nwuuuu  wY  tttc   w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                        wuuuu  wYM ttt    w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w  n      n               n       n       n       n      wuuuu  wYK tQQc   w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wwwwwwwwwwwwwwwwwwwwppppwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwuuuu  wYM tQQ    w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w4                                                              wY  tttc   w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                               wYM ttt    p     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                               wY9 tttc   p     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                               wYM        p     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                               w          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                               wwwwwwwwwwww     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    wwwwssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    p  pNsGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          p    p  pssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          p    wwwwssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          p    ptttssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    p c ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    wwwwssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    p  pssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    p  pssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w    wwwwssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w                                                                          w     w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w       w2WWWWWW  Hw        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w       p  II     Hw        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w       p  II     Xw        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w       w          w        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w       wc M       w        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wwwwwww       wwwwwwwwwwww        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w       tt       wwwww      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssEEEp     p       tt c     p   p      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssEEEp    p        ttttttt  p   p      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssEEEp  Hw         ttttttt  wwwww      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssOEEp  Hw                    w        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssEEEp  Hw                  wwwww      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssEEEp    p                 p   p      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAssEEEp     p                p   p      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w                wwwww      w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wwwwwww                  w        w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   w     w    M             wO       w                                              w  ssGGGGGGGGGGG
+AAAAAAAAAAAss   wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  ssGGGGGGGGGGG
+.
+f:window
+k:sink
+n:AC-outlet
+p:door
+s:sidewalk
+t:table
+v:toilet
+w:wall
+A:&avenue-Montaigne
+B:bar-stool
+C:side-chair
+D:seat
+E:steps
+F:footstool
+G:&rue-Jean-Goujon
+H:paper-sign
+I:coffee-table
+J.wp:set-of-television-show
+K:clock
+L:lavaliere-microphone
+M:Thomson-monitor
+N:stage-entrance
+O:main-entrance
+P:portable-TV-camera
+Q:production-video-switcher
+R:boom-dolly
+S:scenery
+T:Thomson-TV-camera
+U:audio-console
+V:vending-machine
+W:red-leather-love-seat
+X:red-leather-club-chair
+Y:monitor-wall
+Z:ceiling-camera
+0.wfp:hallway
+1.wp:&Studio-Pierre-Desgraupes
+2.wp:waiting-room
+3.wp:toilet-room
+4.wp:cour
+5.wp:production-control-room
+6.wp:tape-machine-room
+7:video-tape-recorder
+8:floodlight
+9:audio-monitor
+.
+|
+==CDG-2C-0//Charles#M de#R Gaulle#C AÈrogare* 2# C#M.Fy/
+|col-distance-of=5m|row-distance-of=10m|part-of=Charles-de-Gaulle-airport|
+level-of=0u|orientation-of=north|polity-of=Roissy-en-France|@1974:na–|GS=
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR3
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HH                      EEEE       EEE          EEEE 
+HH                    EEEE         EEE            EEEE
+HH                  EEEE           EEE              EEEE
+BBBBBBTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+BBBBBBTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                    EEE            EEE               EEE
+                    EEE            EEE               EEE
+                    EEE            EEE               EEE
+                    EEE            EEE               EEE
+                    EEE            EEE               EEE
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwww
+w                         w2                w
+w                         w                 w
+w                         w                 w
+w                         w                 w
+w                         w                 w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwww
+w                                           w
+w                                           w
+w                                           w
+w                                           w
+w                                           w
+w                                           w
+w                                           w
+w                                           w
+w1                                          w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwww
+                                      45
+.
+p:door
+w:wall
+B:holding-bay
+E:exit-taxiway
+H:holding-point
+R:runway
+T:taxiway
+1.wp:&CDG-2C
+2.wp:&CDG-gate-6
+3:&CDG-runway
+4:&CDG-2C-Entrance1
+5:&CDG-2C-bus-stop
+.
+|
+==JFK-international-terminal//|col-distance-of=5m|row-distance-of=10m|
+part-of=JFK|level-of=0u|orientation-of=north|polity-of=Queens|
+@1960:na–|GS=
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR3
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HH                      EEEE       EEE          EEEE 
+HH                    EEEE         EEE            EEEE
+HH                  EEEE           EEE              EEEE
+BBBBBBTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+BBBBBBTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+BBBBBB              EEE            EEE               EEE
+BBBBBB              EEE            EEE               EEE
+BBBBBB              EEE            EEE               EEE
+BBBBBB              EEE            EEE               EEE
+BBBBBB              EEE            EEE               EEE
+BBBBBB              EEE            EEE               EEE
+BBBBBB              EEE            EEE               EEE
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                    TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                    TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                    TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwww
+w                                           w
+w                                           w
+w2                                          w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwww
+w                                           w
+w                                           w
+w                                           w
+w                                           w
+w1                                          w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwppppwwww
+                                       4
+.
+p:door
+w:wall
+B:holding-bay
+E:exit-taxiway
+H:holding-point
+R:runway
+T:taxiway
+1.w:&JFK
+2.wp:&JFK-gate-26
+3:&JFK-runway
+4:&JFK-entrance
+.
+|
+==Earth-1//|col-distance-of=1000km|row-distance-of=1000km|level-of=0u|
+polity-of=Earth|orientation-of=north|@1987:na–|GS=
+UUAAAAAFFF
+UUAAAAAFFF
+UNAAAAAFFP
+UUAAAAAFFF
+.
+A:&Atlantic-Ocean
+F:&country-FRA
+P:&CDG-runway
+N:&JFK-runway
+U:&country-USA
+.
+|
+==sapins-15E/floor/|fanciful|col-distance-of=.185m|row-distance-of=.275m|
+level-of=15u|orientation-of=north|part-of=residence-des-sapins|
+polity-of=Neuilly-sur-Seine|has-ceiling|@1987:na–|GS=
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+w n                   w n  hhhw n      w nKKK      DDDDw n             w n          GGGwdddddddddMNuuuuuuuuuw
+w                bbbbbwee  hhhwkk   vvvw   Q           w               wkk          GGGwdddddddOOOOOOuuuuuuuw
+w                bbbbbwkk  hhhwkk   vvvw           eeeew               wkk           ttwdddddddOOOOOOuuuuuuuw
+w                bbbbbwkk  hhhw        wm          eeeew               w t           tYwdddddddOOOOOOuuuuuuuw
+w                bbbbbwkk  hhhw        wWW         eeeew               w             ttwdddddddOOOOOOuuuuuuuw
+w                bbbbbw       w        wWi         eeeew               w             ttwdddddddOOOOOOuuuuuuuw
+w                bbbbbw       wee      wWW         eeeew               wHHHH         ttw                    w
+w                     w      7wee     6w             9 w              9wHHHH  PP       w                    w
+w                     wwpppppwwwwpppppwwwwwwwwwwwpppppwwwwwwwwwwwpppppwwwwwwwwwwwpppppww                    w
+w                     p                                                               Zq                    q
+w DDDDDj              p                                                                q                    q
+w DDDDDD  FFFF       8p           n                                                   0q                    q
+wwwwwwwwwwwwwwwwwwwwwwwwpppppwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwpppppwwwwwqqqqwwwwwwwwwwwwww
+w                             w  n   SSSSSSSSSSSSSSS  n    tttt                       nw
+w  a                          w  a   SSSSSSSSSSSSSSS       tXtt                      LEw
+w             c               w      SSSSSSSSSSSSSSS  A                              VEw
+w         ttttttttt           w  A                                                   BEw
+w         ttttttttt           w                                                      BEw
+w        ctttttttttc          w      CCCCCCCCC TT  A  A                              BEw
+w         ttttttttt           w      CCCCCCCCC TT                                    UEw
+w         ttttttttt           w                                                      BEw
+w        ctttttttttc          w                                                      BEw
+w         ttttttttt           p                                                      BEw
+w         ttttttttt           p                                                      BEw
+w             c               p                                                      BEw
+w                             p                                                      REw
+w n                          2p1                                                     n w
+wwwwwwfffffwwwwwwwwwfffffwwwwwwwwwwwwwwwwwwwwwwwwfffffwwwwwwwwwfffffwwwwwwwwwfffffwwwwww
+.
+a:lamp
+b:&Martine-Mom-Dad-bed
+c:side-chair
+d:stairs-down
+e:&Martine-bed
+f:window
+h:bath-shower
+i:&Martine-coat
+i:&Martine-shirt
+i:&Martine-bell-bottoms
+i:&Martine-espadrille1
+i:&Martine-espadrille2
+i:&Martine-briefs
+i:&Martine-sock1
+i:&Martine-sock2
+j:&Martine-Mercedes-key
+j:&Martine-BMW-key
+k:sink
+m:&Martine-suitcase
+n:AC-outlet
+p:door
+q:door-with-lock
+t:table
+u:stairs-up
+v:toilet
+w:wall
+A:armchair
+B:media-object-book
+C:love-seat
+D:armoire
+E:bookshelf
+F:linen-chest
+G:stove
+H:refrigerator
+K:desk
+L:left-speaker
+M:&sapins-14To15
+N:&sapins-15To16
+O:&sapins-Elevator
+P:pantry
+Q:cabriolet
+R:right-speaker
+S:sofa
+T:coffee-table
+U:rock
+V:video-cassette-recorder
+V:TV-set
+V:radio
+V:cassette-recorder
+V:receiver
+W:furniture-dresser
+X:&Martine-phone
+Y:microwave-oven
+Y:toaster
+Z.wfq:&Martine-apt
+0.wfp:hallway
+1.wfp:living-room
+2.wfp:dining-room
+6.wfp:toilet-room
+7.wfp:bathroom
+8.wfp:master-bedroom
+9.wfp:bedroom
+.
+|
+==sapins-Rez/floor/|fanciful|col-distance-of=.185m|row-distance-of=.275m|
+level-of=0u|orientation-of=north|part-of=residence-des-sapins|
+polity-of=Neuilly-sur-Seine|has-ceiling|@1987:na–|GS=
+  wwwwwwwwwwwwwwwwwwwwww
+  w          Nuuuuuuuuuw
+  w       OOOOOOuuuuuuuw
+  w       OOOOOOuuuuuuuw
+  w       OOOOOOuuuuuuuw
+  w       OOOOOOuuuuuuuw
+  w       OOOOOOuuuuuuuw
+  w                    w
+  w                    w
+  w                   Aw
+  w                   Aw
+  w                   Aw
+  w                   Aw
+  w                    w
+  w                    w
+  w                    w
+  wwwqqqqqqqqqqqqqqqqwww
+             M
+.
+q:door-with-lock
+u:stairs-up
+w:wall
+A:mailbox
+M:&sapins-Entrance
+N:&sapins-0To1
+O:&sapins-Elevator
+.
+|
+==Porte-de-Bagatelle-area//quartier* Porte#F de#R Bagatelle#F.My/|fanciful|
+col-distance-of=5m|row-distance-of=10m|level-of=0u|orientation-of=north|
+polity-of=Neuilly-sur-Seine|@1987:na–|GS=
+                                                                          RRRRRRR
+                                                                          RRRRRRR
+                                                                          RRRRRRR
+sLLLLsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssRRRRRRR
+GiiiiGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGiiiiiii
+GiiiiGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGiiiNiii
+GiiiiGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGiiiiiii
+GiiiiGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGiiiiiii
+sLLLLsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssRRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs                                                                    RRRRRRR
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLs
+sLLLLssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+riiiiAAAAAAAAAAAAAAAAAAAAAAAAAAAiiirrrrrrrrrrriiirrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+riiiiAAAAAAAAAAAAAAAAAAAAAAAAAAAiiirrrrrrrrrrriiirrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+sLLLLsssssssssssssssssiiisssssssBBBsssssssssssrrrssssssssssssssssssssssssssssssssssssssss
+sLLLLs                PPPPPPPPPsBBBs         srrrs
+sLLLLs                PPPPPPPPPsBBBs         srrrs
+sLLLLs                PPPPPPPPPsBBBs         srrrs
+sLLLLs                PPPPPPPPPsBBBs         srrrs
+sLLLLs                PPPPPPPPPsBBBs         srrrs
+sLLLLs                PCPPPPDPPsBBBs         srrrs
+sLLLLs                PPPPPPPPPsBBBs         srrrs
+sLLLLs                PCPPPPDPPiBBBs         srrrs
+sLLLLs                PPPPPPPPPiBBBs         srrrs
+sLLLLs                PPPPPPPPPiBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLs                        MsBBBs         srrrs
+sLLLLs                         sBBBs         srrrs
+sLLLLsssssssssssssssssssssssssssBBBsssssssssssrrrssssssssssssssssssssssssssssssssssssssss
+ViiiiVVVVVVVVVVVVVVVVVVVVVVVVVVViiiVVVVVVVVVVViiiVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+ViiiiVVVVVVVVVVVVVVVVVVVVVVVVVVViiiVVVVVVVVVVViiiVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+ssssssHHHHsssssssssssssssssssssssssssssssssssssssssssHHHHssssssssssssssssssssssssssssssss
+1 T  T T T  T T  T T  T T  T T T  T  T T T T  T  T T  T T  T T  T  T  T T T T  T   T T
+ T  T  T  T  T T  T  T  T  T T   T T  T  T  T  T T T  T T   T T  T T   T T  T  T  T  T T 
+T   T T  T T  T  T  T  T  T T T T  T T T T  T T T T T  T  T T  T  T T T   T T T  T T  T 
+  T  T  T  T  T T  T T T  T T T  T T T T T  T  T  T  T   T  T  T  T  T T  T T  T  T  T T
+T    T  T T  T  T  T T  T T  T  T  T T  T T T   T T T T   T  T   T T T  T T T   T   T  T
+.
+i:intersection
+r:street
+s:sidewalk
+A:&place-de-Bagatelle
+B:&rue-de-Bagatelle
+C:Mercedes-500SEL
+C:&Martine-Mercedes
+C:&Martine-BMW
+D:BMW-325i
+G:&avenue-Charles-de-Gaulle
+H:bench
+T:fir
+L:&rue-de-Longchamp
+M:&sapins-Entrance
+N:&perif-Porte-Maillot
+P:parking-lot
+R:&Paris-circular-route
+V:&boulevard-Richard-Wallace
+1.sH:&Bois-de-Boulogne
+.
+|
+==Paris-rough//|col-distance-of=2km|row-distance-of=3km|level-of=0u|
+orientation-of=north|polity-of=Paris|@1987:na–|GS=
+                                     AAA5
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                                     AAAA
+                     RRRRRRRRRRRRRRRRRRRRRRR
+                  RRRRRRRRRRRRRRRRRRRRRRRRRR
+                RRRRRRRRRRRRRR4RRRRRRRRRRRRR
+               RRRRR
+              RRRRR
+            NRRRR
+           RRRRR
+           RRRRR
+          RRRRR
+          RRRRR
+         RRRRR
+         RRRRR
+         RRRRR
+          RRRRRRRRRRRRRRRRRRRR
+          RRRRRRRRRRRRRRRRRRRR
+           RRRRRRRRRRRRRRRRRRM
+.
+A:&autoroute-A-1
+M:&Paris-to-France
+N:&perif-Porte-Maillot
+R:&Paris-circular-route
+4:&Opera-worm
+5:&CDG-2C-Entrance1
+.
+|
+==Paris-underground//|col-distance-of=50m|row-distance-of=100m|level-of=-1u|
+orientation-of=north|polity-of=Paris|@1987:na–|GS=
+
+             DDDDDDDDDDDDHDDDDDDDDDDDDDDD
+             EEEEEEEEEEEEIEEEEEEEEEEEEEEE
+                         JFFFFFFFFFFFFFFF
+                        FKGGGGGGGGGGGGGGG
+                       FG
+                      FG
+                     LM
+                    FG
+.
+D:&metro-pont-de-Sevres-tracks
+E:&metro-mairie-de-Montreuil-tracks
+F:&metro-Balard-tracks
+G:&metro-Creteil-tracks
+H:&metro-RD-pont-de-Sevres-track
+I:&metro-RD-mairie-de-Montreuil-track
+J:&metro-RD-Balard-track
+K:&metro-RD-Creteil-track
+L:&metro-Opera-Balard-track
+M:&metro-Opera-Creteil-track
+.
+|
+;  000000000011111111112222222222333333333344444444445555555555666666666677777777778888888888
+;  012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789
+==France-grid//|col-distance-of=12km|row-distance-of=12km|level-of=0u|
+orientation-of=north|polity-of=country-FRA|@1987:na–|GS=
+SSSeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeCCCCCCC   
+SSSeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeCCCCCCf    
+SSeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeCCCfffff    
+SeeeeeeeeeeeeeeeeeeeeeeCCCeeeeeeeeCCCCCfffffff   
+eeeeeeeeeCeeeeeeeeeCCeeeCCCCCCCCCCCCCCCffffffffff
+eeeeeeeeeCCCCCCeCCCCCCCCCCCCCCCCCCCCCCCffffffffff
+eeeeeCeeeCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCffffffffffff
+eeCCCCeeCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCfffffffffffff
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCfffffffffffff f
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCffffffffffffffff
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCfffffffffffffffff fff
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCffffffffffffffffffffff
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCffffffffffffffffffffffffff     
+CCCCCCCCCCCCCCCCCCfCCfCCCCCCCCCffffffffffffffffffffffffffffff
+CCCCCCCCCCCCCCCCCCfffffCCCCCCCffffffffffffffffffffffffffffffff f
+CCCCCCCCCCCCCCCCCCfffffCCCCCCCCffffffffffffffffffffffffffffffffff ff
+CCCCCCCCCCCCCCCCCCCfffffCCCCCCfffffffffffffffffffffffffffffffffffffff
+CCCCCCCCCCCCCCCCCCCCfffffffffffffffffffffffffffffffffffffffffffffffff
+CCCCCCCCCCCCCCCCCCCCfffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+CCCCCCCCCCCCCCCCCCCCffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+CCCCCCCCCCCfCCCCCCCCffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+CCCCCCCCffffCCCCCCCCffffffffffffffffffffffffPffffffffffffffffffffffffffffffff
+CCfffffffffffCCCCCCCCffffffffffffffffffffffAfffffffffffffffffffffffffffffffff
+fffffffffffffCffCffffffffffffffffffffffffffAfffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffBfffffffffffffffffffffffffffffffff
+OOOffffffffffffffffffffffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOffffffffffffffffffffffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OffffffffffffffffffffffffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOfffffffffffffffffffffffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOffOffffffffffffffffffffffffffffffffffffBfffffffffffffffffffffffffffffffff
+DDDDDDDffffffffffffffffffffffffffffffffffBfffffffffffffffffffffffffffffffff
+DDDDDDDDDfffffffffffffffffffffffffffffffffBffffffffffffffffffffffffffffffff
+DDDDDDDDDDDDDfffffffffffffffffffffffffffffBffffffffffffffffffffffffffffff f
+DDDDDDDDDDDDDDffffffffffffffffffffffffffffBfffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOffffffffffffffffffffffffffffBffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOffOfffffffffffffffffffffffffBfffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOffffffffffffffffffffffffffBffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOfffffffffffffffffffffffffBffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOfffffffffffffffffffffffBffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOffffffffffffffffffffffffBffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOfffffffffffffffffffffffBfffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOffffffffffffffffffffffBffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOffffffffffffffffffffBfffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOffffffffffffffffffffBffffffffffffffffffffffffffff  fff
+OOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffff  ffff
+OOOOOOOOOOOOOOOOOOOOOOfffffffffffffffBfffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOfffffffffffffffBffffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOfffffffffffffffBfffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOfffffffffffffffBfffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOfffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOffffffffffffffffBfffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOOOfffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOfOfffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOffOffffffffffffffBffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOfffffffffffffffffBffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOffffffffffffffffffBfffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOOfffffffffffffffffBfffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOOfffffffffffffffffBfffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffffffffffff   f
+OOOOOOOOOOOOOOOOOOOOfffffffffffffffffffBfffffffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOfffffffffffffffffffBffffffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOffffffffffffffffffBfffffffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOOffffffffffffffffffBffffffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOfffffffffffffffffffBfffffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOffffffffffffffffffffBfffffffffffffffffffffffffffffffffff
+OOOOOOOOOOOOOOOOOOOfffffffffffffffffffTfffffffffffffffffffffffffffffffffff
+       OOOOOOOOOOOffffffffffffffffffffBfffffffffffffff  fffff fffffffffff
+            OOOO ffffffffffffffffffffffBfffffffffffff       f   fffffffff
+                    fffffffffffffffffffBfffffffffff               ffffff
+                    fffffffffffffffffffMffffffffff                 f f
+                      fffffffffffffffffBffffffffff
+                        ffffffffffffffffBfffffffff
+                         ff ffffffffffffBfffffffff
+                                ff    ffffffffffff
+                                         ffffffffff
+                                          ffffff
+.
+e:&England
+f:&country-FRA
+A:&autoroute-A-6a
+B:&autoroute-N-20
+C:&English-Channel
+D:&Bay-of-Biscay
+M:&Mirepoix-to-France
+O:&Atlantic-Ocean
+P:&Paris-to-France
+T:&Toulouse-to-France
+S:&Celtic-Sea
+.
+|
+==maison-de-Lucie-Rez/floor/|fanciful|col-distance-of=.185m|
+row-distance-of=.275m|level-of=0u|orientation-of=north|
+part-of=maison-de-Lucie|polity-of=Mirepoix|has-ceiling|@1993:na–|GS=
+wwwwffffwwwwwwwwwwwwwwwwwwwwwwwwffffwwwwwwwwwwwwwwwwwwwffffwwwwwwwwwwwwwwwwwwwwwwwwwww
+w X           w       w                            p                                 w
+w             w       w  H    c c c c              p                                 w
+w             w       w     ttttttttttt            p                                 w
+w bbb         w       w     ttttttttttt          ttw                                 w
+w bbb         w       w       c c c c            Ptw                                 w
+w bbb         w       w                          ktwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+w bbb         w                                    w                                 w
+wwwwwwwwwpppwww                                    w                                 w
+w bbb         w                                    w                                 w
+w bbb         w                                    w                                 w
+w bbb         w                                    w                                 w
+w bbb         w                                    w                                 w
+w             w                                    w                                 w
+w             p                                    p                                 w
+w             p                                    p                                 w
+wwwwwffffwwwwwwwwwqqqwwwwwwwwwwwffffwwwwwwwwwwwwwwwwwwwffffwwwwwwwwwwwwwwwwwwwwwwwwwww
+                  SLS
+                  SSS
+.
+b:bed
+c:side-chair
+f:window
+k:&Lucie-2CV-key
+p:door
+q:door-with-lock
+t:table
+w:wall
+P:&Lucie-phone
+S:steps
+L:&maison-de-Lucie-Entrance
+X:clothing-shelf
+.
+|
+==Lucie-area//|fanciful|col-distance-of=5m|row-distance-of=10m|
+level-of=0u|orientation-of=north|polity-of=Mirepoix|@1993:na–|GS=
+MMMMMMMMMMMMMMMMMMMMMMMMMMMM          rrr
+MMMMMTMMMMMTMMMMMTMMMMMM        T       rrr
+   MMMMMTMMMMTMMMMMM    T         hhh    rrr
+       MMMMMMMMM            BBB   hhh    rrr
+                            BBB           rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrN
+MMM                 F    T               rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+MMMMMMMM                 F             rrr                      hhh
+MMMMTMMMTMMM               F          rrr                       hhh
+MMMMTMMMMMTMMMMM            BBB      rrr
+MMMMMMMMMMMMMMMMMMM         BBB      rrr
+MMTMMMTMMMMMTMMMTMMM                rrr
+MMMMMTMMMTMMMTMMMMM       BBBB      rrr
+MMMTMMMTMMMTMMMTMM        BBBB       rrr
+MMMMMMMMMMMMMMMMMM    T   BBBB       rrr
+MMMMMMMTMMTMMM                        rrr
+MMMMMMMMMMM                  HHH      rrr
+MMMMTMMTMM   T               HHH     rrr
+MMMMMMMMMM        F   BBB    L      rrr
+MMTMMTMMM   T F       BBB         rrrr
+MMMMMMMM           PPPP          rrrr
+MMTMMTMM           CPPPDDDDDDDDDrrrrr
+MMMMMMM            PPPPDDDDDDDDrrrrrrr
+MMMM               PPPP       rrrr rrrr
+M                           rrrr     rrrr
+    hhh                  rrrrr         rrrrr
+    hhh                rrrrr      T      rrrrrr
+rrrrrrrrrrrrrrrrrrrrrrrrr    T         T     rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+rrrrrrrrrrrrrrrrrrrrrr            T             rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+1       T      T          T        T        T        T
+   T              T         T           T         T            T              T
+          T      T       T        T      T         T  T        T       T     T
+ T      T     T      T    T    T     T     T    T  T    T      T     T     T
+   T      T     T    T    T   T   T   T    T  T  T  T    T   T T T   T T T  T
+    T    T    T   T    T   T    T   T    T  T    T  T     T    T   T    T    T
+.
+h:house
+r:street
+B:barn
+C:&Lucie-2CV
+D:driveway
+F:fir
+H:&maison-de-Lucie
+L:&maison-de-Lucie-Entrance
+M:hill
+N:&Mirepoix-to-France
+P:parking-area
+T:tree
+1.r:forest
+.
+|
+==Manhattan-grid//|col-distance-of=20m|row-distance-of=40m|level-of=0u|
+orientation-of=north|polity-of=Manhattan|@1987:na–|GS=
+HHZZZZsRRssssssWWssssBBBssssAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsii999999ii9999iii9999ii999999ii999999iisYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsii999999ii9999iii9999ii999999ii999999iisYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRssssssWWssssBBBssssAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRssssssWWssssBBBssssAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsii888888ii8888iii8888ii888888ii888888iisYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsii888888ii8888iii8888ii888888ii888888iisYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRssssssWWssssBBBssssAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRs    sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRssssssWWssssBBBssssAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsii777777ii7777iii7777ii777777ii777777iisYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsii777777ii7777iii7777ii777777ii777777iisYYYYYYYYYYYYYYYYYYYYYYYs
+HHZZZZsRRssssssWWssssBBBssssAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs  sBBBs  sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs   sBBBs sAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs    sBBBssAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs     sBBBsAAs    sCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH ssssssssssssWWssssssssBBBAAssssssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH 666666666666ii666666666iiii666666ii666666iisYYYYYYYYYYYYYYYYYYYYYYYs
+HH 666666666666ii666666666iiii666666ii666666iisYYYYYYYYYYYYYYYYYYYYYYYs
+HH ssssssssssssWWssssBBBssssAABBBsssCCssssssPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAsBBBssCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAssBBBsCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs sBBBCCs    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs  sBBiis    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs   sBiis    sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs    siiBs   sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs    siiBBs  sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs    sCCBBBs sPPsYYYYYYYYYYYYYYYYYYYYYYYs
+HH            sWWs         sAAs    sCCsBBBssPPsYYYYYYYYYYYYYYYYYYYYYYYs                 DDDDDDDDDDDDDDDDE
+HH            sWWs         sAAs    sCCssBBBsPPsYYYYYYYYYYYYYYYYYYYYYYYs                 DDDDDDDDDDDDDDDDD
+HH ssssssssssssWWsssssssssssAAssssssCCsssBBBPPsssssssssssssssssssssssss                 DDD
+HH 555555555555ii55555555555ii555555ii5555iiiiXXXXXXXXXXXXXXXXXXXXXXXXQQQQQQQQQQQQQQQQQQQQQQQQQ
+HH 555555555555ii55555555555ii555555ii5555iiiiXXXXXXXXXXXXXXXXXXXXXXXXQQQQQQQQQQQQQQQQQQQQQQQQQ
+HH ssssssssssssWWsssssssssssAAssssssCCssssss  ssssssssssssssssssssssss     
+                                                                     L
+.
+i:intersection
+s:sidewalk
+A:&Amsterdam-Avenue
+B:&Broadway
+C:&Columbus-Avenue
+D:&Queensboro-Bridge
+E:&QBB-Manhattan-to-NYC
+H:&Henry-Hudson-Parkway
+L:&Park-Plaza-Hotel
+P:&Central-Park-West
+Q:&East-59-Street
+R:&Riverside-Drive
+W:&West-End-Avenue
+X:&Central-Park-South
+Y:&Central-Park
+Z:&Riverside-Park
+5:&West-59-Street
+6:&West-72-Street
+7:&West-79-Street
+8:&West-86-Street
+9:&West-96-Street
+.
+|
+==NYC-rough//|col-distance-of=50m|row-distance-of=100m|level-of=0u|
+orientation-of=north|polity-of=city-New-York-NY-USA|@1987:na–|GS=
+
+XXXXXXX
+  XXXX
+M  XX
+MM    QQQQQQQQ
+MM   QQQQQQQQQQQ
+MMDEDQQQQQQQQQQQQ
+MM   QQQQQQQQQQQQQ
+MM  BBBBBBBBBBBQQ4Q
+M  BBBBBBBBBBBBB
+     BBBBBBBBBB
+      BBBBBBB
+   S
+  SSSSSSS
+ SSSSSSSSSS
+SSSSSSSSSSSSS
+.
+D:&Queensboro-Bridge
+E:&QBB-Manhattan-to-NYC
+B:&Brooklyn
+M:&Manhattan
+S:&Staten-Island
+Q:&Queens
+X:&Bronx
+4:&JFK-entrance
+.
+|
+==Park-Plaza-Rez/floor/|col-distance-of=.185m|row-distance-of=.275m|level-of=0u|
+orientation-of=south|part-of=Park-Plaza-Hotel|polity-of=Plaza-Suite|
+has-ceiling|@1987:na–|GS=
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  w          Nuuuuuuuuuw                      w
+  w       OOOOOOuuuuuuuw          c           w
+  w       OOOOOOuuuuuuuw          c           w
+  w       OOOOOOuuuuuuuw          c           w
+  w       OOOOOOuuuuuuuw          c           w
+  w       OOOOOOuuuuuuuw          wwwwwwwwwwwww
+  w                                           w
+  w                                           w
+  w                                           w
+  w                                           w
+  w                    w                      w
+  w                    w                      w
+  w                    w                      w
+  w                    w                      w
+  w                    w                      w
+  wwwwwwwwwwwwwwwwwwwwwwwwwwqqqqqqqqqqqqqqqqwww
+             M
+.
+c:counter
+q:door-with-lock
+u:stairs-up
+w:wall
+M:&Plaza-Entrance
+N:&Plaza-0To1
+O:&Plaza-Elevator
+.
+|
+==Park-Plaza-1E/floor/|col-distance-of=.185m|row-distance-of=.275m|level-of=1u|
+orientation-of=south|part-of=Park-Plaza-Hotel|polity-of=Plaza-Suite|
+has-ceiling|@1987:na–|GS=
+wwwwwwwwwwwwwfffffwwwfffwwwwwwwwwwwwwwwwwwwwwwwww
+wZ       c         mw v   kwdddddddddMNuuuuuuuuuw
+weBeX              Vw   hhhwdddddddOOOOOOuuuuuuuw
+wbbbbbbbbbbb        w   hhhwdddddddOOOOOOuuuuuuuw
+wbbbbbbbbbbb        p   hhhwdddddddOOOOOOuuuuuuuw
+wbbbbbbbbbbb        p   hhhwdddddddOOOOOOuuuuuuuw
+w                   wwwwwwwwdddddddOOOOOOuuuuuuuw
+w                   p      w                    w
+wna  KKK  DD        p      w                    w
+wwwwwwwwwwwwwwwqqqwwwwwwwwww                    w
+w                                               w              
+w                                              Hw             
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+a:lamp
+b:bed
+c:side-chair
+d:stairs-down
+e:night-table
+f:window
+h:bath-shower
+k:sink
+m:minibar
+n:AC-outlet
+p:door
+q:door-with-lock
+u:stairs-up
+v:toilet
+w:wall
+B:Bible
+D:armoire
+H.wfqdOu:hallway
+K:desk
+M:&Plaza-0To1
+N:&Plaza-1To2
+O:&Plaza-Elevator
+V:TV-set
+X:phone
+Z.wfq:hotel-room
+.
+|
+==child-microworld1//|fanciful|col-distance-of=.185m|row-distance-of=.275m|
+level-of=0u|orientation-of=north|polity-of=city-Cambridge-MA-USA|has-ceiling|
+@1999:na–|GS=
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+w                                                 w                    bbbbw
+w                                                 w                    bbbbw
+w                                                 w    e                   w
+w                              P                  d                        w
+w                                                 d                        w
+w                                                 wwwwwwwwwwwwwwwwwwwwwwwwww
+w                                                 d                        w
+w           Z                                     d              f         w
+w                                                 w                        w
+w                                                 w          cccc          w
+w                                                 w          cccc          w
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+.
+d:door
+w:wall
+b:&Bertie-bed
+c:&Lin-bed
+e.wd:&Bertie-bedroom
+f.wd:&Lin-bedroom
+P.wd:&Bertie-Lin-playroom
+Z.w:&Bertie-Lin-apt
+.
+|

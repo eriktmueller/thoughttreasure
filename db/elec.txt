@@ -1,0 +1,1753 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=electronic#A device*.z/physical-object/dispositif* éléctronique*A.My/
+|free-object|humanmade|
+;_______________________________________________________________________________
+==electronic#A medium*.z//
+;_______________________________________________________________________________
+===magnetic#A media*.Pïz//magnetic#A storage#S media*.Pïz/magnetic#A medium*.z/
+magnetic#A storage# medium*.z/
+;_______________________________________________________________________________
+====tape.z//bande.Fy/
+;_______________________________________________________________________________
+=====audio# cassette*.z//cassette.¹z/cassette# tape*.z/cassette* audio*ßA.¹Fy/
+;_______________________________________________________________________________
+=====DAT# tape*.z//DAT# cassette*.z/DAT.z/4mm,4mm# tape*.z/
+cassette* audionumérique*A.Fy/DAT.¹Fy/
+======4mm# data# tape*.z//
+=======DDS#-2# tape*.z//
+=======DDS#-3# tape*.z//
+=======DDS#-4# tape*.z//
+;_______________________________________________________________________________
+=====data# cartridge*.z//
+=====DLTtape.z//DLT.z/compac# tape*.z/
+;_______________________________________________________________________________
+=====videotape.z//bande* vidéo*ßA.¹Fy/
+======video# cassette*.z//cassette* vidéo*A.¹Fy/
+=======VHS.z//VHS# tape*.z/
+=======8mm-tape//8mm# tape*.z/8mm.z/
+========8mm# videotape*.z//
+========8mm# data# tape*.z//
+;_______________________________________________________________________________
+====magnetic#A disk*.z//disk.z/
+=====floppy# disk*.z//diskette.z/
+======floppy-HD//HD# disk*.z/HD.z/DS#-HD# disk*.z/DS#-HD*.z/
+;_______________________________________________________________________________
+===optical#A media*.Pïz//optical#A storage#S media*.Pïz/optical#A medium*.z/
+optical#A storage# medium*.z/
+====optical#A disk*.z//
+====CD.z//compact#A disc*.z/disque* compact*A.¹My/CD.My/compact.My/
+compact*A disque*.TMy/petit*A disque*.TMy/
+=====CD#-ROM*.z//CD#-ROM*.¹ßMy/CD#-Rom*.¹ßMy/disque* optique*A compact*A.My/
+DOC.çMy/
+=====CDI.z//CDI.¹ßy/
+=====CDV.z//CDV.¹ßy/
+=====CD-R//CD#-R*,CDR.z/CD#-Recordable*.z/
+=====CD#-ReWritable*.z//
+====DVD.z/videodisc/
+=====DVD#-RAM*.z//
+====videodisc.z//vidéodisque.¹My/
+;_______________________________________________________________________________
+===magneto#A-optical#A media*.Pïz//magneto#A-optical#A storage#S media*.Pïz/
+magneto#A-optical#A medium*.z/magneto#A-optical#A storage# medium*.z/
+magnetooptical#A media*.Pïz/magnetooptical#A storage#S media*.Pïz/
+magnetooptical#A medium*.z/magnetooptical#A storage# medium*.z/
+====magneto#A-optical#A disk*.z//magnetooptical#A disk*.z/MO# disk*.z/MO.z/
+=====MO#-128*.z//
+;_______________________________________________________________________________
+===vinyl# disc*.z//vinyl.¹z/record.z/disque* noir*A.¹My/disque.My/
+====LP.z//long#A-playing# record*.z/33# tours#P.¹ßMy/disque* 33# tours#P.My/
+====45-record//45.¹z/single.z/45# rpm*.z/45# tours#P.¹ßMy/
+====12#-inch# single*.z//
+;_______________________________________________________________________________
+==electronic#A appliance*.z/appliance/appareil* électronique*A.My/|unwalkable|
+;_______________________________________________________________________________
+===film# projector*.z//projector.z/projecteur.My/
+===film# screen*.z//movie# screen*.Àz/screen.z/
+;_______________________________________________________________________________
+===POS# terminal*.z//point#-of#R-sale# terminal*.z/credit# card# reader*.z/
+;_______________________________________________________________________________
+===dental#A equipment*.z//
+====dental#A drill*.z/physical-object-drill/dentist#'s drill*.z/drill.z/
+roulette.Fy/
+===*Cavitron.®z//
+===*Dentsply#-Cavitron*.®z//
+====ultrasonic#A scaler*.z//
+====dental-explorer//explorer.z/
+;_______________________________________________________________________________
+===medical#A equipment*.z//
+====stethoscope.z//stéthoscope.My/
+====blood# pressure# cuff*.z//cuff.z/manchon,manchon* de#R tensiomètre#NM.My/
+====eye# chart*.z//
+=====Snellen# eye# chart*.z//
+=====pocket# vision# card*.z//
+====medical#A thermometer*.z/thermometer/
+=====oral#A thermometer*.z//thermomètre* buccal*A.My/
+=====rectal#A thermometer*.z//thermomètre* rectal*A.My/
+=====axillary#A thermometer*.z//
+=====aural#A thermometer*.z//
+====ophthalmoscope.z//
+====otoscope.z//
+====peak# flow# meter*.z//
+====tongue# depressor*.z//tongue# blade*.tz/wooden#A tongue# blade*.tz/
+;_______________________________________________________________________________
+===device-light/light-source/light.z/lumière.Fy/
+====flashlight.Àz//torch.gz/torche,lampe.Fy/
+torche* électrique*A,lampe* électrique*A.Fy/lampe* de#R poche#F.Fy/
+====lamp.z//lampe.Fy/
+====street# light*.z//street# lamp*.z/réverbère.My/
+====traffic# light*.z//feu.My/
+=====red#A light*.z//feu* rouge*A.My/
+=====green#A light*.z//feu* vert*A.My/
+;_______________________________________________________________________________
+===lighting# board*.z//pupitre* de#R éclairage#.My/
+===scoreboard.z//tableau.My/
+;_______________________________________________________________________________
+===answering# machine*.z//telephone# answering# machine*.z/répondeur.¹My/
+répondeur* téléphonique*A.My/
+;_______________________________________________________________________________
+===audio# mixer*.z//mixer.z/
+;_______________________________________________________________________________
+===*Mackie#® 1202*®.z//1202.¹®z/|product-of¤Mackie|
+===*Mackie#® 1604*®.z//1604.¹®z/|product-of¤Mackie|
+===*Carvin#® 842*®.z//842.¹®z/|product-of¤Carvin|
+;_______________________________________________________________________________
+====audio# console*.Àz//sound# desk*.gz/pupitre* de#R son#.My/
+;_______________________________________________________________________________
+===CD# player*.z//CD# system*.z/Compact#A Disc# player*.z/platine* laser#M.Fy/
+laser.My/
+;_______________________________________________________________________________
+===calculator.z//calculette.Fy/
+;_______________________________________________________________________________
+===computer# equipment*.mz//computer# hardware*,computer# product*.z/
+;_______________________________________________________________________________
+====CPU.z//central#A processing# unit*.z/processor.z/unité* centrale*A.Fy/
+;_______________________________________________________________________________
+=====microprocessor.z//microprocesseur.My/
+;_______________________________________________________________________________
+======CISC# processor*.z//CISC.Îz/
+;_______________________________________________________________________________
+=======4#-bit# microprocessor*.z//|bits-of=4u|
+=======*Intel#® 4004*.®z//4004.¹®z/|product-of¤Intel|
+=======8#-bit# microprocessor*.z//|bits-of=8u|
+=======*Intel# 8008*.®z//8008.¹®z/|product-of¤Intel|
+=======*Intel# 8080*.®z//8080.¹®z/|product-of¤Intel|
+=======*Intel# 8085*.®z//8085.¹®z/|product-of¤Intel|
+=======*Motorola# 6800*.®z//6800.¹®z/|product-of¤Motorola|
+=======*Zilog# Z#-80*.¹z//Z80.z/Z#-80*.¹®z/|product-of¤Zilog|
+;_______________________________________________________________________________
+=======x86.z//
+;_______________________________________________________________________________
+=======*Intel# 8086*.®z//8086.¹®z/|product-of¤Intel|
+=======*Intel# 80186*.®z//186.®z/80186.¹®z/|product-of¤Intel|
+=======*Intel# 80286*.®z//286.®z/80286.¹®z/|product-of¤Intel|
+;_______________________________________________________________________________
+=======*Intel#® 80386*.®z//386.®z/80386.¹®z/|product-of¤Intel|
+========*20#-MHz# Intel#® 80386*.®z//20#-MHz# 386*.¹®z/20#-MHz# 80386*.®z/
+|clock-frequency-of=20000000u|
+========*25#-MHz# Intel#® 80386*.®z//25#-MHz# 386*.¹®z/25#-MHz# 80386*.®z/
+|clock-frequency-of=25000000u|
+=======*Intel# 80486*.®z//486.®z/80486.¹®z/|product-of¤Intel|
+;_______________________________________________________________________________
+=======*Intel# Pentium*.®z//Pentium.¹®z/Intel# 80586*.z/586.z/80586.z/
+|product-of¤Intel|
+;_______________________________________________________________________________
+=======*Intel# Pentium# II*.®z//Pentium# II*.¹®z/|product-of¤Intel|
+;_______________________________________________________________________________
+=======*Intel# P6*.®z//P6.¹®z/Intel# 80686*.z/686.z/80686.z/
+|product-of¤Intel|
+;_______________________________________________________________________________
+=======*Intel# P7*.®z//P7.¹®z/Intel# 80786*.z/786.z/80786.z/Tahoe.Tz/
+|product-of¤Intel|; 1500 SPECint92 available late 1997
+;_______________________________________________________________________________
+=======680x0.z//
+;_______________________________________________________________________________
+=======*Motorola#® 68000*.®z//68000.¹®z/|product-of¤Motorola|
+========*10#-MHz# Motorola#® 68000*.®z//10#-MHz# 68000*.¹®z/
+|clock-frequency-of=10000000u|
+;_______________________________________________________________________________
+=======*Motorola#® 68010*.®z//68010.¹®z/|product-of¤Motorola|
+========*10#-MHz# Motorola#® 68010*.®z//10#-MHz# 68010*.¹®z/
+|clock-frequency-of=10000000u|
+;_______________________________________________________________________________
+=======*Motorola#® 68020*.®z//68020.¹®z/|product-of¤Motorola|
+========*15\.7#-MHz# Motorola#® 68020*.®z//15\.7#-MHz# 68020*.¹®z/
+|clock-frequency-of=15700000u|
+========*16\.67#-MHz# Motorola#® 68020*.®z//16\.67#-MHz# 68020*.¹®z/
+|clock-frequency-of=16670000u|
+========*20#-MHz# Motorola#® 68020*.®z//20#-MHz# 68020*.¹®z/
+|clock-frequency-of=20000000u|
+========*25#-MHz# Motorola#® 68020*.®z//25#-MHz# 68020*.¹®z/
+|clock-frequency-of=25000000u|
+;_______________________________________________________________________________
+=======*Motorola#® 68030*.®z//68030.¹®z/|product-of¤Motorola|
+========*20#-MHz# Motorola#® 68030*.®z//20#-MHz# 68030*.¹®z/
+|clock-frequency-of=20000000u|
+========*33#-MHz# Motorola#® 68030*.®z//33#-MHz# 68030*.¹®z/
+|clock-frequency-of=33000000u|
+;_______________________________________________________________________________
+=======*Motorola# 68040*.®z//68040.¹®z/|product-of¤Motorola|
+;_______________________________________________________________________________
+=====*Alpha.z//
+=====*MIPS.z//
+;_______________________________________________________________________________
+======RISC# processor*.z//RISC.Îz/
+;_______________________________________________________________________________
+======*PowerPC.®z//PPC.z/Power# PC*.z/|product-of¤Apple-Computers,IBM|
+=======*PowerPC#® 601*.z//
+=======*PowerPC#® 604*.z//
+;_______________________________________________________________________________
+======*SPARC.®z//
+;_______________________________________________________________________________
+=======*Fujitsu# SF9010*.z//Fujitsu# MB86900*.z/SF9010,MB86900.z/
+========*16\.67#-MHz# SF9010*.z//
+========*14\.28#-MHz# MB86900*.z//
+;_______________________________________________________________________________
+=======*20#-MHz# MB86901A*.z//
+=======*25#-MHz# MB86901A*.z//
+=======*33#-MHz# MB86903*.z//33#-MHz# Fujitsu# MB86903*.z/
+=======*33#-MHz# W8701*.z//33#-MHz# Weitek# W8701*.z/
+=======*40#-MHz# MB86903*.z//40#-MHz# Fujitsu# MB86903*.z/
+=======*40#-MHz# W8701*.z//40#-MHz# Weitek# W8701*.z/
+=======*20#-MHz# LSI# L64801*.z//
+=======*25#-MHz# LSI# L64801*.z//
+;_______________________________________________________________________________
+=======*Cypress#® CY7C601*.z//ROSS#® RT601*.z/Fujitsu#® RT601*.z/
+========*25#-MHz# CY7C601*.z//
+========*33#-MHz# CY7C601*.z//Sunray.Tz/
+========*40#-MHz# CY7C601*.z//
+;_______________________________________________________________________________
+=======*Cypress#® CY7C602*.z//ROSS#® RT602*.z/Fujitsu#® RT602*.z/
+;_______________________________________________________________________________
+=======*Cypress#® CY7C605*.z//ROSS#® RT605*.z/Fujitsu#® RT605*.z/
+;_______________________________________________________________________________
+=======*microSPARC.®z//Texas# Instruments#P TMX390S10*.z/TI#® TMX390S10*.z/
+TMX390S10.z/
+========*45#-MHz# microSPARC*®.z//
+========*50#-MHz# microSPARC*®.z//
+;_______________________________________________________________________________
+=======*microSPARC# II*.®z//Fujitsu#® MB86904*.z/
+========*60#-MHz# microSPARC#®-II*.z//
+========*70#-MHz# microSPARC#®-II*.z//
+========*85#-MHz# microSPARC#®-II*.z//
+========*110#-MHz# microSPARC#®-II*.z//
+;_______________________________________________________________________________
+=======*superSPARC.®z//Texas# Instruments#P TMX390Z50*.z/
+Texas# Instruments#P TMS390Z50*.z/TI#® TMX390Z50*.z/TI#® TMS390Z50*.z/
+TMX390Z50,TMS390Z50.z/
+========*33#-MHz# superSPARC*®.z//
+========*36#-MHz# superSPARC*®.z//
+========*40#-MHz# superSPARC*®.z//
+========*45#-MHz# superSPARC*®.z//
+========*50#-MHz# superSPARC*®.z//
+========*60#-MHz# superSPARC*®.z//
+========*50#-MHz# superSPARC#®-II*.z//
+========*60#-MHz# superSPARC#®-II*.z//
+========*70#-MHz# superSPARC#®-II*.z//
+========*75#-MHz# superSPARC#®-II*.z//
+========*85#-MHz# superSPARC#®-II*.z//
+========*50#-MHz# superSPARC#-plus*®.z//
+========*60#-MHz# superSPARC#-plus*®.z//
+;_______________________________________________________________________________
+=======*100#-MHz# hyperSPARC*®.z//
+=======*125#-MHz# hyperSPARC*®.z//
+;_______________________________________________________________________________
+=======*UltraSPARC.®z//
+;_______________________________________________________________________________
+====FPU.z//floating#A point# coprocessor*.z/
+====*Motorola#® 68881*.®z//68881.¹®z/|product-of¤Motorola|
+====*Motorola#® 68882*.®z//68882.¹®z/|product-of¤Motorola|
+====*Intel#® 80387*.®z//387.®z/80387.¹®z/|product-of¤Intel|
+=====*20#-MHz# Intel#® 80387*.®z//20#-MHz# 387*.¹®z/20#-MHz# 80387*.®z/
+|clock-frequency-of=20000000u|
+=====*25#-MHz# Intel#® 80387*.®z//25#-MHz# 387*.¹®z/25#-MHz# 80387*.®z/
+|clock-frequency-of=25000000u|
+;_______________________________________________________________________________
+====motherboard.z//
+=====ISA# motherboard*.z//
+=====MCA# motherboard*.z//
+=====EISA# motherboard*.z//
+;_______________________________________________________________________________
+====computer-chassis//chassis.¹z/computer# chassis*.z/case.z/computer# case*.z/
+=====computer-rackmount//rackmount.¹z/rack# mount*.z/
+=====computer-desktop//desktop.z/
+======computer-slim-line-desktop//slim#A-line# desktop*.z/
+======computer-full-size-desktop//full#A-size# desktop*.z/
+======computer-pizza-box//pizza# box*.¹z/pizza# box# chassis*.z/
+=======computer-square-pizza-box//square#A pizza# box*.¹z/
+square#A pizza# box# chassis*.z/
+=======computer-wide-pizza-box//wide#A pizza# box*.¹z/
+wide#A pizza# box# chassis*.z/
+=====computer-lunchbox//lunchbox.z/lunchbox# chassis*.z/
+=====computer-monitor-chassis//monitor# chassis*.¹z/monitor.z/
+=====computer-tower//tower.z/
+======computer-mini-tower//mini#A tower*.z/
+======computer-medium-tower//medium#A tower*.z/
+======computer-midtower//midtower.z/
+======computer-large-tower//large#A tower*.z/
+======computer-wide-tower//wide#A tower*.z/
+=======computer-deskside-chassis//deskside# chassis*.z/
+;_______________________________________________________________________________
+====computer-architecture//computer# architecture*.z/
+====*sun4.z//
+====*sun4c.z//
+====*sun4d.z//
+====*sun4m.z//
+====*i86pc.z//
+;_______________________________________________________________________________
+====computer-bus//bus.z/computer# bus*.z/buss.z/computer# buss*.z/
+=====S#-100# bus*.z//
+=====ISA# bus*.z//ISA.z/ISA# I#\/O# bus*.z/AT# bus*.z/
+Industry# Standard# Architecture*.z/
+=====VESA# bus*.z//VESA.z/VESA# local# bus*.z/VL.z/
+Video# Electronic# Standards#P Association# bus*.z/
+=====MCA# bus*.z//MCA.z/MicroChannel.z/MicroChannel# bus*.z/
+MicroChannel# Architecture*.z/
+=====EISA# bus*.z//EISA.z/Extended#A Industry# Standard# Architecture*.z/
+=====PCI# bus*.z//PCI.z/Peripheral# Component# Interconnect*.z/
+=====NuBus.z//
+=====Multibus.z//
+=====VME# bus*.z//VME.z/VMEbus.z/VMEBus.z/
+=====SBus.z//
+=====MBus.z//Mbus.z/
+=====XDBus.z//
+=====P4# bus*.z//P4.z/P4# connector*.z/
+;_______________________________________________________________________________
+====computer# peripheral*.z//peripheral.z/
+;_______________________________________________________________________________
+=====computer-keyboard//keyboard.¹z/computer# keyboard*.z/
+;_______________________________________________________________________________
+=====computer-memory//computer# memory*.mz/memory.m¹z/
+======EDO.mz//
+======EDO# ECC*.mz//ECC#-EDO*.mz/
+======DRAM.mz//
+======SDRAM.mz//
+======DIMM.mz//
+======SIMM.mz//
+;_______________________________________________________________________________
+=====computer-printer//printer.z/
+======laser# printer*.z//
+=======color#A laser# printer*.z//
+======ink#-jet# printer*.z//inkjet# printer*.z/
+=======color#A ink#-jet# printer*.z//color#A inkjet# printer*.z/
+======dot#-matrix# printer*.z//
+======label# printer*.z//
+======stylus# printer*.z//
+=======color#A stylus# printer*.z//
+;_______________________________________________________________________________
+=====computer-scanner//scanner.z/
+======bar# code# reader*.z/bar# code# scanner*.z/
+======business# card# scanner*.z//business# card# reader*.z/
+======color# scanner*.z//
+======flatbed# scanner*.z//
+======slide# scanner*.z//35mm# scanner*.z/
+;_______________________________________________________________________________
+=====graphics# card*.z//video# card*.z/
+;_______________________________________________________________________________
+=====computer-monitor//monitor.¹z/computer# monitor*,display,CRT# monitor*.z/
+;_______________________________________________________________________________
+======black#-and#K-white# computer# monitor*.z//B#\/W# computer# monitor*.z/
+======*15#-inch# black#-and#K-white# monitor*.z//15#-inch# B#\/W# monitor*.z/
+|diagonal-length-of=15in|
+======*17#-inch# black#-and#K-white# monitor*.z//17#-inch# B#\/W# monitor*.z/
+|diagonal-length-of=17in|
+======*19#-inch# black#-and#K-white# monitor*.z//19#-inch# B#\/W# monitor*.z/
+|diagonal-length-of=19in|
+;_______________________________________________________________________________
+======color#A computer# monitor*.z//color#A monitor*.z/
+;_______________________________________________________________________________
+=======LCD# monitor*.z//
+========analog# LCD# monitor*.z//
+========digital# LCD# monitor*.z//
+;_______________________________________________________________________________
+======*15#-inch# color# monitor*.z//|diagonal-length-of=15in|
+======*17#-inch# color# monitor*.z//|diagonal-length-of=17in|
+======*19#-inch# color# monitor*.z//|diagonal-length-of=19in|
+;_______________________________________________________________________________
+=====computer# terminal*.z//
+;_______________________________________________________________________________
+======Minitel.®z//Minitel.¹®My/
+======*Minitel* 1#.My//|product-of¤France-Telecom|
+======*Minitel* 1B#.My//|product-of¤France-Telecom|
+======*Minitel* 2#.My//|product-of¤Philips|
+======*Minitel* 5#.My//|product-of¤France-Telecom|; portable
+======*Minitel* 10#.My//|product-of¤France-Telecom|
+======*Minitel* 12#.My/phone/|product-of¤France-Telecom|
+======*Minitel* dialogue#.My//|product-of¤France-Telecom|
+======*Minitel* Magis*.My//|product-of¤France-Telecom|@1994|create=na|
+======*Sillage* 2000#.My//|product-of¤France-Telecom|@1994|create=na|
+======*Lecam.My//lecteur* de#R cartes#FP à#R mémoire#F.My/
+|product-of¤France-Telecom|
+======*Point* Phone* Minitel*.My//|product-of¤France-Telecom|; public Minitel
+;_______________________________________________________________________________
+=====*vt100.®z//|product-of¤DEC|
+;_______________________________________________________________________________
+=====SCSI# device*.z//
+;_______________________________________________________________________________
+=====mass#A storage# device*.z//mass#A storage*.Îz/
+;_______________________________________________________________________________
+======disk# drive*.z//
+=======hard#A disk# drive*.z//hard#A disk*.z/HDD.z/disque* dur*A.My/
+========internal#A hard#A disk# drive*.z//disque* dur*A interne*A.My/
+========external#A hard#A disk# drive*.z//disque* dur*A externe*A.My/
+=======floppy#A disk# drive*.z//lecteur* de#R disquette#F.My/
+;_______________________________________________________________________________
+======CD#-ROM# drive*.@z//lecteur* de#R CD#-ROM#.My/
+;_______________________________________________________________________________
+====computer.z//host.z/ordinateur.¹My/ordinateur* hôte*.My/hôte.My/
+;_______________________________________________________________________________
+=====personal#A computer*.z//PC.z/PC.My/microcomputer.oz/
+micro*A-ordinateur*,microordinateur.My/micro.TMy/ordinateur* individuel*A.My/
+;_______________________________________________________________________________
+======laptop.z//laptop# computer*.z/
+======notebook-computer//notebook.z/notebook# computer*.z/
+======palmtop.z//palmtop# computer*.z/palm# device*.z/
+;_______________________________________________________________________________
+=====*Altair-computer//Altair.®z/8800.¹®z/Altair#® 8800*.z/|product-of¤MITS|
+;_______________________________________________________________________________
+======IBM#-compatible#A computer*.z//IBM#N-compatible#.Az/univers* PC#.qMy/
+======*Compaq# computer*.®z//|product-of¤Compaq|
+======*IBM# PC*.z//|product-of¤IBM|
+=======*IBM# PC#-XT*.z//XT.¹®y/
+=======*IBM# PC#-AT*.z//AT.¹®y/
+;_______________________________________________________________________________
+=====*Apple# computer*.z//ordinateur* Apple#®C.My/|product-of¤Apple-Computers|
+======*Apple# I*.z//
+======*Apple# II*.z//
+======*computer-Lisa//Lisa.®z/
+======*Macintosh.®z//Macintosh.®My/
+=======*Macintosh# Centris# 650*.®z//Centris# 650*.¹®z/
+Macintosh# Centris# 650*.®My/
+=======*Macintosh# Quadra# 650*.®z//650.®z/Quadra# 650*.¹®z/
+Macintosh# Quadra# 650*.®My/
+=======*Power# Mac*.®z//Power# Mac*.®My/
+========*Macintosh# Performa# 5200*.®z//5200.®z/Performa# 5200*.¹®z/
+Macintosh# Performa# 5200*.®My/
+=======*iMac.®z//
+;_______________________________________________________________________________
+=====*Atari# computer*.z//ordinateur* Atari#®C.My/|product-of¤Atari|
+======*Atari#® 1040St*®.z//1040St.¹®z/
+;_______________________________________________________________________________
+=====mainframe.z//mainframe# computer*.z/ordinateur* central*A.My/
+;_______________________________________________________________________________
+=====minicomputer.z//mini*A-ordinateur*.My/
+=====*DEC#® PDP#®-8*.®z//PDP8,PDP#®-8*.¹®z/|product-of¤DEC|
+=====*DEC#® PDP#®-10*.®z//PDP10,PDP#®-10*.¹®z/|product-of¤DEC|
+=====*DEC#® PDP#®-11*.®z//PDP11,PDP#®-11*.¹®z/|product-of¤DEC|
+;_______________________________________________________________________________
+=====workstation.z//station* de#R travail#M.Fy/poste* de#R travail#.My/
+open#A computing# workstation*.z/
+=====server.z//open#A computing# server*.z/
+;_______________________________________________________________________________
+====*Sun# computer*.z//|product-of¤Sun-Microsystems|
+;_______________________________________________________________________________
+=====*Sun#-1*.z//
+======*original#A Sun#-1*.z/workstation/|processor-of=Motorola-68000|
+computer-monitor-of=17-inch-black-and-white-monitor|OS-of=Unisoft-V7-UNIX|
+======*100.z/workstation/|processor-of=10-MHz-Motorola-68000|
+computer-bus-of=Multibus|OS-of=Unisoft-V7-UNIX|
+======*100U.z/workstation/|processor-of=10-MHz-Motorola-68010|
+computer-bus-of=Multibus|OS-of=SunOS|last-OS-of=SunOS-4.0.3|
+======*170.z/server/|processor-of=Motorola-68010|computer-bus-of=Multibus|
+computer-chassis-of=computer-rackmount|OS-of=SunOS|last-OS-of=SunOS-4.0.3|
+;_______________________________________________________________________________
+=====*Sun#-2*.z//|OS-of=SunOS|last-OS-of=SunOS-4.0.3|
+======*2#\/120*.z/workstation/|processor-of=10-MHz-Motorola-68010|
+computer-chassis-of=computer-deskside-chassis|computer-bus-of=Multibus|
+slots-of=9u|RAM-of=7Mbyte|VRAM-of=1Mbyte|
+======*2#\/170*.z/server/|processor-of=10-MHz-Motorola-68010|
+computer-chassis-of=computer-rackmount|computer-bus-of=Multibus|slots-of=15u|
+RAM-of=7Mbyte|VRAM-of=1Mbyte|
+======*2#\/50*.z/workstation/|processor-of=10-MHz-Motorola-68010|
+computer-chassis-of=computer-wide-pizza-box|computer-bus-of=VME-bus|slots-of=2u|
+RAM-of=7Mbyte|
+======*2#\/130*.z/workstation/|processor-of=10-MHz-Motorola-68010|
+computer-chassis-of=computer-deskside-chassis|computer-bus-of=VME-bus|
+slots-of=12u|RAM-of=7Mbyte|
+======*2#\/160*.z/workstation/|processor-of=10-MHz-Motorola-68010|
+computer-chassis-of=computer-deskside-chassis|computer-bus-of=VME-bus|
+slots-of=12u|RAM-of=7Mbyte|
+;_______________________________________________________________________________
+=====*Sun#-3*.z//|OS-of=SunOS|first-OS-of=SunOS-3.0|last-OS-of=SunOS-4.1.1U1|
+======*3#\/160*.z/workstation/|processor-of=16.67-MHz-Motorola-68020|MIPS-of=2u|
+computer-chassis-of=computer-deskside-chassis|computer-bus-of=VME-bus|
+slots-of=12u|RAM-of=16Mbyte|cycle-time-of=270ns|virtual-memory-of=256Mbyte|
+======*3#\/75*.z/workstation/|processor-of=16.67-MHz-Motorola-68020|MIPS-of=2u|
+computer-chassis-of=computer-wide-pizza-box|computer-bus-of=VME-bus|slots-of=2u|
+RAM-of=16Mbyte|cycle-time-of=270ns|virtual-memory-of=256Mbyte|
+======*3#\/140*.z/workstation/|processor-of=16.67-MHz-Motorola-68020|
+FPU-of=Motorola-68881|MIPS-of=2u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=3u|RAM-of=16Mbyte|cycle-time-of=270ns|
+virtual-memory-of=256Mbyte|
+======*3#\/150*.z/workstation/|processor-of=16.67-MHz-Motorola-68020|
+FPU-of=Motorola-68881|MIPS-of=2u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=6u|RAM-of=16Mbyte|cycle-time-of=270ns|
+virtual-memory-of=256Mbyte|
+======*3#\/180*.z/server/|processor-of=16.67-MHz-Motorola-68020|
+FPU-of=Motorola-68881|MIPS-of=2u|computer-chassis-of=computer-rackmount|
+computer-bus-of=VME-bus|slots-of=12u|RAM-of=16Mbyte|cycle-time-of=270ns|
+virtual-memory-of=256Mbyte|
+======*3#\/110*.z/workstation/Prism.Tz/|processor-of=Motorola-68020|
+MIPS-of=2u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=3u|
+======*3#\/50*.z/workstation/Model# 25*.Tz/
+|processor-of=15.7-MHz-Motorola-68020|MIPS-of=1.5u|
+computer-chassis-of=computer-wide-pizza-box|RAM-of=4Mbyte|cycle-time-of=270ns|
+virtual-memory-of=256Mbyte|
+======*3#\/60*.z/workstation/Ferrari.Tz/|processor-of=20-MHz-Motorola-68020|
+FPU-of=Motorola-68881|MIPS-of=3u|computer-chassis-of=computer-wide-pizza-box|
+computer-bus-of=P4-bus|RAM-of=24Mbyte|cycle-time-of=200ns|
+virtual-memory-of=256Mbyte|
+======*3#\/60LE*.z/workstation/|processor-of=20-MHz-Motorola-68020|
+FPU-of=Motorola-68881|
+MIPS-of=3u|computer-chassis-of=computer-wide-pizza-box|computer-bus-of=P4-bus|
+RAM-of=12Mbyte|cycle-time-of=200ns|virtual-memory-of=256Mbyte|
+======*3#\/260*.z/workstation/Sirius.Tz/|processor-of=25-MHz-Motorola-68020|
+FPU-of=Motorola-68881|MIPS-of=4u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=12u|RAM-of=64Mbyte|virtual-memory-of=256Mbyte|
+cycle-time-of=80ns|
+======*3#\/280*.z/server/Sirius.Tz/|processor-of=25-MHz-Motorola-68020|FPU-of=Motorola-68881|
+MIPS-of=4u|computer-chassis-of=computer-rackmount|computer-bus-of=VME-bus|
+slots-of=12u|RAM-of=64Mbyte|virtual-memory-of=256Mbyte|cycle-time-of=80ns|
+======*3#\/80*.z/workstation/Hydra.Tz/|processor-of=20-MHz-Motorola-68030|
+FPU-of=Motorola-68882|MIPS-of=3u|MFLOPS-of=0.16u|
+computer-chassis-of=computer-square-pizza-box|computer-bus-of=P4-bus|
+RAM-of=16Mbyte|
+virtual-memory-of=4Gbyte|cycle-time-of=100ns|
+======*3#\/460*.z//|processor-of=33-MHz-Motorola-68030|FPU-of=Motorola-68882|
+MIPS-of=7u|MFLOPS-of=0.6u|computer-bus-of=VME-bus|RAM-of=128Mbyte|virtual-memory-of=4Gbyte|
+cycle-time-of=80ns|
+======*3#\/470*.z/workstation/Pegasus.Tz/|processor-of=33-MHz-Motorola-68030|
+FPU-of=Motorola-68882|MIPS-of=7u|MFLOPS-of=0.6u|
+computer-chassis-of=computer-deskside-chassis|computer-bus-of=VME-bus|
+RAM-of=128Mbyte|virtual-memory-of=4Gbyte|cycle-time-of=80ns|
+======*3#\/480*.z/server/Pegasus.Tz/|rare|processor-of=33-MHz-Motorola-68030|
+FPU-of=Motorola-68882|MIPS-of=7u|MFLOPS-of=0.6u|
+computer-chassis-of=computer-rackmount|
+computer-bus-of=VME-bus|RAM-of=128Mbyte|virtual-memory-of=4Gbyte|
+cycle-time-of=80ns|
+======*3#\/E*.z//; board
+======*3#\/200*.z//
+;_______________________________________________________________________________
+=====*386i.®z//|OS-of=SunOS|first-OS-of=SunOS-4.0|last-OS-of=SunOS-4.0.2|
+======*386i#\/150*.z//Roadrunner.Tz/|processor-of=20-MHz-Intel-80386|
+FPU-of=20-MHz-Intel-80387|MIPS-of=3u|MFLOPS-of=0.17u|
+computer-chassis-of=computer-tower|computer-bus-of=ISA-bus|slots-of=4u|
+RAM-of=8Mbyte|
+======*386i#\/250*.z//Roadrunner.Tz/|processor-of=25-MHz-Intel-80386|
+FPU-of=25-MHz-Intel-80387|MIPS-of=5u|MFLOPS-of=0.2u|
+computer-chassis-of=computer-tower|computer-bus-of=ISA-bus|slots-of=4u|
+RAM-of=16Mbyte|
+;_______________________________________________________________________________
+=====*486i.®z//Apache.Tz/|processor-of=Intel-80486|
+;_______________________________________________________________________________
+=====*Sun#-4*.z//|OS-of=SunOS|first-OS-of=SunOS-4.0|
+;_______________________________________________________________________________
+======*4#\/260*.z/workstation/Sunrise.Tz/|processor-of=16.67-MHz-SF9010|
+MIPS-of=10u|MFLOPS-of=1.6u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=12u|RAM-of=128Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=60ns|arch-of=sun4|; first SPARC machine
+======*4#\/110*.z/workstation/|processor-of=14.28-MHz-MB86900|
+MIPS-of=7u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=3u|RAM-of=32Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=70ns|arch-of=sun4|
+======*4#\/280*.z/server/|processor-of=16.67-MHz-SF9010|
+MIPS-of=10u|MFLOPS-of=1.6u|computer-chassis-of=computer-rackmount|
+computer-bus-of=VME-bus|slots-of=12u|RAM-of=128Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=60ns|arch-of=sun4|
+======*4#\/150*.z/workstation/|processor-of=14.28-MHz-MB86900|
+MIPS-of=7u|computer-chassis-of=computer-deskside-chassis|
+computer-bus-of=VME-bus|slots-of=3u|RAM-of=32Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=70ns|arch-of=sun4|
+;_______________________________________________________________________________
+======*SPARCstation.®z//SPARCserver.®z/
+=======*SPARCstation#® 1*.®z//SPARCserver#® 1*.®z/4#\/60*.®z/Campus.Tz/
+|processor-of=20-MHz-MB86901A|MIPS-of=12.5u|MFLOPS-of=1.4u|SPECmark89-of=10u|
+computer-chassis-of=computer-square-pizza-box|computer-bus-of=SBus|slots-of=3u|
+RAM-of=64Mbyte|virtual-memory-of=512Mbyte|cycle-time-of=50ns|
+first-OS-of=SunOS-4.0.3c|arch-of=sun4c|
+=======*SPARCstation#® 330*.®z//SPARCserver#® 330*.®z/4#\/330*.®z/Stingray.Tz/
+|processor-of=25-MHz-CY7C601|MIPS-of=16u|MFLOPS-of=2.6u|SPECmark89-of=11.3u|
+computer-bus-of=VME-bus|RAM-of=72Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=40ns|arch-of=sun4|
+=======*4#\/310*.®z//
+=======*4#\/350*.®z//
+=======*4#\/360*.®z//Stingray.Tz/
+|processor-of=25-MHz-CY7C601|MIPS-of=16u|MFLOPS-of=2.6u|SPECmark89-of=11.3u|
+computer-chassis-of=computer-deskside-chassis|computer-bus-of=VME-bus|
+slots-of=12u|RAM-of=56Mbyte|virtual-memory-of=1Gbyte|cycle-time-of=40ns|
+arch-of=sun4|
+=======*SPARCstation#® 370*.®z//SPARCserver#® 370*.®z/4#\/370*.®z/Stingray.Tz/
+|processor-of=25-MHz-CY7C601|MIPS-of=16u|MFLOPS-of=2.6u|SPECmark89-of=11.3u|
+computer-bus-of=VME-bus|slots-of=12u|RAM-of=56Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=40ns|arch-of=sun4|
+=======*4#\/380*.®z//
+=======*SPARCserver#® 390*.®z//4#\/390*.®z/Stingray.Tz/
+|processor-of=25-MHz-CY7C601|MIPS-of=16u|MFLOPS-of=2.6u|SPECmark89-of=11.3u|
+computer-bus-of=VME-bus|RAM-of=56Mbyte|virtual-memory-of=1Gbyte|
+cycle-time-of=40ns|arch-of=sun4|
+=======*SPARCstation#® 470*.®z//SPARCserver#® 470*.®z/4#\/470*.®z/Sunray.Tz/
+|processor-of=33-MHz-CY7C601|MIPS-of=22u|MFLOPS-of=3.8u|SPECmark89-of=17.6u|
+computer-bus-of=VME-bus|RAM-of=96Mbyte|arch-of=sun4|
+=======*SPARCserver#® 490*.®z/server/4#\/490*.®z/Sunray.Tz/
+|processor-of=33-MHz-CY7C601|MIPS-of=22u|MFLOPS-of=3.8u|SPECmark89-of=17.6u|
+computer-bus-of=VME-bus|RAM-of=96Mbyte|arch-of=sun4|
+=======*SPARCstation#® SLC*.®z/workstation/SLC.®z/4#\/20*.®z/Off#R-Campus*.Tz/
+|processor-of=20-MHz-MB86901A|MIPS-of=12.5u|MFLOPS-of=1.2u|SPECmark89-of=8.6u|
+computer-chassis-of=computer-monitor-chassis|
+RAM-of=16Mbyte|first-OS-of=SunOS-4.0.3c|arch-of=sun4c|
+=======*SPARCstation#® IPC*.®z/workstation/IPC.®z/4#\/40*.®z/Phoenix.Tz/
+|processor-of=25-MHz-MB86901A|SPECint92-of=13.8u|SPECfp92-of=11.1u|
+SPECintRate92-of=327u|SPECfpRate92-of=263u|
+computer-chassis-of=computer-lunchbox|
+computer-bus-of=SBus|slots-of=2u|RAM-of=48Mbyte|first-OS-of=SunOS-4.0.3c|
+arch-of=sun4c|
+=======*SPARCstation#® 1#-plus*.®z//SPARCserver#® 1#-plus*.®z/4#\/65*.®z/
+Campus# B*.Tz/|processor-of=25-MHz-LSI-L64801|MIPS-of=15.8u|MFLOPS-of=1.7u|
+SPECmark89-of=12u|computer-chassis-of=computer-square-pizza-box|
+computer-bus-of=SBus|slots-of=3u|RAM-of=64Mbyte|first-OS-of=SunOS-4.0.3c|
+arch-of=sun4c|
+=======*SPARCstation#® 2*.®z//SPARCserver#® 2*.®z/4#\/75*.®z/Calvin.Tz/
+|processor-of=40-MHz-CY7C601|MIPS-of=28.5u|MFLOPS-of=4.2u|SPECint92-of=21.8u|
+SPECfp92-of=22.8u|SPECintRate92-of=517u|SPECfpRate92-of=541u|
+computer-chassis-of=computer-square-pizza-box|computer-bus-of=SBus|
+slots-of=3u|RAM-of=64Mbyte|first-OS-of=SunOS-4.1.1|arch-of=sun4c|
+=======*SPARCstation#® ELC*.®z/workstation/ELC.®z/4#\/25*.®z/Node# Warrior*.Tz/
+|processor-of=33-MHz-MB86903|MIPS-of=21u|MFLOPS-of=3u|SPECint92-of=18.2u|
+SPECfp92-of=17.9u|SPECintRate92-of=432u|SPECfpRate92-of=425u|
+computer-chassis-of=computer-monitor-chassis|RAM-of=64Mbyte|
+first-OS-of=SunOS-4.1.1c|arch-of=sun4c|
+=======*SPARCstation#® IPX*.®z/workstation/IPX.®z/4#\/50*.®z/Hobbes.Tz/
+|processor-of=40-MHz-MB86903|MIPS-of=28.5u|MFLOPS-of=4.2u|SPECint92-of=21.8u|
+SPECfp92-of=21.5u|SPECintRate92-of=517u|SPECfpRate92-of=510u|
+computer-chassis-of=computer-lunchbox|
+RAM-of=64Mbyte|first-OS-of=SunOS-4.1.1|arch-of=sun4c|
+=======*SPARCengine#® 1*.®z//4#\/E*.®z/Polaris.Tz/
+=======*SPARCserver#® 6xxMP#\/xx*.®z//Galaxy.Tz/|computer-bus-of=VME-bus|
+computer-bus-of=SBus|computer-bus-of=MBus|RAM-of=640Mbyte|arch-of=sun4m|
+processors-of=4u|
+=======*SPARCclassic.®z//SPARCclassic#® server*.z/SPARCstation#® LC*.®z/LC.®z/
+4#\/15*.®z/Sunergy.Tz/|processor-of=50-MHz-microSPARC|MIPS-of=59.1u|
+MFLOPS-of=4.6u|SPECint92-of=26.4u|
+SPECfp92-of=21.0u|SPECintRate92-of=626u|SPECfpRate92-of=498u|
+computer-chassis-of=computer-lunchbox|computer-bus-of=SBus|slots-of=2u|
+RAM-of=96Mbyte|first-OS-of=SunOS-4.1.3c|arch-of=sun4m|processors-of=1u|
+=======*SPARCclassic# X*.®z//4#\/10*.®z/|processor-of=50-MHz-microSPARC|
+RAM-of=96Mbyte|
+=======*SPARC#® Xterminal1*.®z//|processor-of=50-MHz-microSPARC|RAM-of=128Mbyte|
+=======*SPARCstation# LX*.®z//SPARCstation#® ZX*.z/LX,ZX.®z/4#\/30*.®z/
+Sunergy.Tz/|processor-of=50-MHz-microSPARC|MIPS-of=59.1u|MFLOPS-of=4.6u|
+SPECint92-of=26.4u|
+SPECfp92-of=21.0u|SPECintRate92-of=626u|SPECfpRate92-of=498u|
+computer-chassis-of=computer-lunchbox|computer-bus-of=SBus|slots-of=2u|
+RAM-of=96Mbyte|first-OS-of=SunOS-4.1.3c|arch-of=sun4m|processors-of=1u|
+=======*SPARCstation# Voyager*.®z/laptop/Voyager.®z/Gypsy.Tz/
+|processor-of=60-MHz-microSPARC-II|SPECint92-of=47.5u|SPECfp92-of=40.3u|
+SPECintRate92-of=1025u|
+SPECfpRate92-of=859u|RAM-of=80Mbyte|arch-of=sun4m|processors-of=1u|
+;_______________________________________________________________________________
+========SPARCstation#® 10*.®z//SPARCserver#® 10*.®z/SPARCstation#® 3*.®oz/
+Campus#-2*.Tz/
+|processors-of=4u|computer-chassis-of=computer-square-pizza-box|
+computer-bus-of=SBus|computer-bus-of=MBus|slots-of=6u|RAM-of=512Mbyte|
+arch-of=sun4m|
+========*10#\/20*.®z//|processor-of=33-MHz-superSPARC|SPECint92-of=39.8u|
+SPECfp92-of=46.6u|SPECintRate92-of=943u|SPECfpRate92-of=1104u|
+========*10#\/30*.®z//|processor-of=36-MHz-superSPARC|SPECint92-of=45.2u|
+SPECfp92-of=54.0u|SPECintRate92-of=1072u|SPECfpRate92-of=1282u|
+========*10#\/40*.®z//|processor-of=40-MHz-superSPARC|SPECint92-of=50.2u|
+SPECfp92-of=60.2u|SPECintRate92-of=1191u|SPECfpRate92-of=1427u|
+========*10#\/402*.®z//|processor-of=40-MHz-superSPARC|SPECintRate92-of=2112u|
+SPECfpRate92-of=2378u|
+processors-of=2u|
+========*10#\/41*.®z//|processor-of=40-MHz-superSPARC|SPECint92-of=53.2u|
+SPECfp92-of=67.8u|SPECintRate92-of=1264u|SPECfpRate92-of=1607u|
+========*10#\/412*.®z//|processor-of=40-MHz-superSPARC|SPECintRate92-of=2411u|
+SPECfpRate92-of=2854u|
+processors-of=2u|
+========*10#\/51*.®z//|processor-of=50-MHz-superSPARC|SPECint92-of=65.2u|
+SPECfp92-of=83.0u|SPECintRate92-of=1580u|SPECfpRate92-of=2008u|
+========*10#\/512*.®z//|processor-of=50-MHz-superSPARC|SPECintRate92-of=2950u|
+SPECfpRate92-of=3744u|
+processors-of=2u|
+========*10#\/514*.®z//|processor-of=50-MHz-superSPARC|SPECintRate92-of=5155u|
+SPECfpRate92-of=5809u|
+processors-of=4u|
+========*10#\/52*.®z//|processor-of=45-MHz-superSPARC|processors-of=2u|
+========*10#\/54*.®z//|processor-of=45-MHz-superSPARC|processors-of=4u|
+========*10#\/61*.®z//|processor-of=60-MHz-superSPARC-II|processors-of=1u|
+========*10#\/612*.®z//|processor-of=60-MHz-superSPARC-II|processors-of=2u|
+========*10#\/71*.®z//|processor-of=75-MHz-superSPARC-II|processors-of=1u|
+========*10#\/712*.®z//|processor-of=75-MHz-superSPARC-II|processors-of=2u|
+;_______________________________________________________________________________
+=======*SPARCcenter#® 2000*.®z//Dragon.Tz/|computer-bus-of=XDBus|
+computer-bus-of=SBus|
+computer-bus-of=MBus|slots-of=26u|RAM-of=5Gbyte|arch-of=sun4d|MIPS-of=2190u|
+MFLOPS-of=269u|
+========*2108.®z//|processor-of=40-MHz-superSPARC|processors-of=8u|
+SPECintRate92-of=8047u|SPECfpRate92-of=10600u|
+========*2216.®z//|processor-of=50-MHz-superSPARC|processors-of=16u|
+SPECintRate92-of=21196u|SPECfpRate92-of=28064u|
+;_______________________________________________________________________________
+=======*SPARCclassic#® M*.®z//|processor-of=50-MHz-microSPARC|RAM-of=96Mbyte|
+;_______________________________________________________________________________
+=======*SPARCclassic#® 10M*.®z//|processor-of=36-MHz-superSPARC|
+computer-bus-of=SBus|computer-bus-of=MBus|RAM-of=512Mbyte|
+;_______________________________________________________________________________
+=======*SPARCserver#® 1000*.®z//Scorpion.Tz/|computer-bus-of=XDBus|
+computer-bus-of=SBus|computer-bus-of=MBus|RAM-of=2Gbyte|arch-of=sun4d|
+========*1102.®z//|processor-of=50-MHz-superSPARC|processors-of=2u|
+SPECintRate92-of=2730u|SPECfpRate92-of=3681u|
+========*1104.®z//|processor-of=50-MHz-superSPARC|processors-of=4u|
+SPECintRate92-of=5318u|SPECfpRate92-of=7076u|
+========*1108.®z//|processor-of=50-MHz-superSPARC|processors-of=8u|
+SPECintRate92-of=10113u|SPECfpRate92-of=12710u|
+;_______________________________________________________________________________
+=======*SPARCcluster#® 1*.®z//|processor-of=45-MHz-microSPARC|MIPS-of=86.1u|
+computer-bus-of=SBus|RAM-of=512Mbyte|
+;_______________________________________________________________________________
+=======*SPARCstation#® 5*.®z//SPARCserver#® 5*.®z/Aurora.Tz/
+|computer-bus-of=SBus|RAM-of=256Mbyte|arch-of=sun4m|
+========*5#\/70*.®z//SPARCstation#® 5# Model# 70*.®z/
+|processor-of=70-MHz-microSPARC-II|processors-of=1u|
+========*5#\/85*.®z//SPARCstation#® 5# Model# 85*.®z/
+|processor-of=85-MHz-microSPARC-II|processors-of=1u|
+========*5#\/110*.®z//SPARCstation#® 5# Model# 110*.®z/
+|processor-of=110-MHz-microSPARC-II|processors-of=1u|
+;_______________________________________________________________________________
+=======*SPARCstation#® 20M*.®z//|processor-of=50-MHz-superSPARC|MIPS-of=86.1u|
+computer-bus-of=SBus|computer-bus-of=MBus|RAM-of=512Mbyte|
+;_______________________________________________________________________________
+=======*SPARCstation#® 20*.®z//SPARCserver#® 20*.®z/Kodiak.Tz/
+|computer-bus-of=SBus|computer-bus-of=MBus|RAM-of=512Mbyte|arch-of=sun4m|
+========*20#\/50*.®z//SPARCstation#® 20# Model# 50*.®z/
+|processor-of=50-MHz-superSPARC-II|SPECint92-of=69.2u|SPECfp92-of=78.3u|
+SPECintRate92-of=1628u|SPECfpRate92-of=1842u|processors-of=1u|
+========*20#\/502*.®z//SPARCstation#® 20# Model# 502*.®z/
+|processor-of=50-MHz-superSPARC-II|SPECintRate92-of=2833u|
+SPECfpRate92-of=2995u|processors-of=2u|
+========*20#\/51*.®z//SPARCstation#® 20# Model# 51*.®z/
+|processor-of=50-MHz-superSPARC-II|SPECint92-of=73.6u|SPECfp92-of=84.8u|
+SPECintRate92-of=1731u|SPECfpRate92-of=1995u|processors-of=1u|
+========*20#\/514*.®z//SPARCstation#® 20# Model# 514*.®z/
+|processor-of=50-MHz-superSPARC-II|SPECintRate92-of=6034u|
+SPECfpRate92-of=6752u|processors-of=4u|
+========*20#\/61*.®z//SPARCstation#® 20# Model# 61*.®z/
+|processor-of=60-MHz-superSPARC-II|SPECint92-of=88.9u|SPECfp92-of=102.8u|
+SPECintRate92-of=2092u|SPECfpRate92-of=2418u|processors-of=1u|
+========*20#\/612*.®z//SPARCstation#® 20# Model# 612*.®z/
+|processor-of=60-MHz-superSPARC-II|SPECintRate92-of=3903u|SPECfpRate92-of=4645u|
+processors-of=2u|
+========*20#\/71*.®z//SPARCstation#® 20# Model# 71*.®z/
+|processor-of=75-MHz-superSPARC-II|processors-of=1u|
+========*20#\/712*.®z//SPARCstation#® 20# Model# 712*.®z/
+|processor-of=75-MHz-superSPARC-II|processors-of=2u|
+========*SPARCstation#® 20# Model# HS11*.®z//|processor-of=100-MHz-hyperSPARC|
+processors-of=1u|
+========*SPARCstation#® 20# Model# HS14MP*.®z//
+|processor-of=100-MHz-hyperSPARC|processors-of=4u|
+========*SPARCstation#® 20# Model# HS21*.®z//
+|processor-of=125-MHz-hyperSPARC|processors-of=1u|
+========*SPARCstation#® 20# Model# HS22MP*.®z//
+|processor-of=125-MHz-hyperSPARC|processors-of=2u|
+========*SPARCstation#® 20# Model# 502MP*.®z//
+|processor-of=50-MHz-superSPARC-plus|processors-of=2u|
+========*SPARCstation#® 20# Model# 514MP*.®z//
+|processor-of=50-MHz-superSPARC-plus|processors-of=4u|
+========*SPARCstation#® 20# Model# 612MP*.®z//
+|processor-of=60-MHz-superSPARC-plus|processors-of=2u|
+========*SPARCstation#® 20# Model# 712MP*.®z//
+|processor-of=75-MHz-superSPARC-II|processors-of=2u|
+;_______________________________________________________________________________
+=======*SPARCstation#® 4*.®z//|computer-bus-of=SBus|slots-of=1u|
+========*4#\/70*.®z//SPARCstation#® 4# Model# 70*.®z/
+|processor-of=70-MHz-superSPARC-II|
+========*4#\/85*.®z//SPARCstation#® 4# Model# 85*.®z/
+|processor-of=85-MHz-superSPARC-II|
+;_______________________________________________________________________________
+===electronic#A musical#A instrument*.z/musical-instrument/
+electronic#A instrument*.z/electric#A musical#A instrument*.z/
+electric#A instrument*.z/instrument* électronique*A.@My/
+;_______________________________________________________________________________
+====clavinet.z/clavichord/clav.z/clavinet.y/
+====*Hohner#® D6#® clavinet*.®z//D6.¹®z/|product-of¤Hohner|
+====*Hohner#® E7#® clavinet*.®z//E7.¹®z/|product-of¤Hohner|
+;_______________________________________________________________________________
+====electric#A bass*.z/guitar/bass# guitar*,bass.z/basse* électrique*A.@Fy/
+basse.@Fy/
+====*Jazz# Bass*.®z//|product-of¤Fender|
+====*Precision# Bass*.®z//Precision.®z/P# Bass*.Tz/|product-of¤Fender|
+====*Steinberger#® XL#-2*.z//XL2.z/XL#-2*.¹®z/|product-of¤Steinberger|
+;_______________________________________________________________________________
+====electric#A guitar*.z/guitar/guitare* électrique*A.Fy/
+====*Stratocaster.®z//Strat.®z/|product-of¤Fender|
+====*Telecaster.®z//Tele.®z/|product-of¤Fender|
+;_______________________________________________________________________________
+====electric# piano*.z/keyboard-instrument/piano* électronique*A.@My/
+====*Rhodes.®z//|product-of¤Fender|
+====*Wurlitzer#® electric# piano*.z//|product-of¤Wurlitzer|
+;_______________________________________________________________________________
+====electronic#A piano*.z/keyboard-instrument/piano* électronique*A.My/
+;_______________________________________________________________________________
+====synthesizer.z//synth.z/synthi.Az/synthétiseur.My/synthé.TMy/
+;_______________________________________________________________________________
+====*Oberheim#® OB#-8*.z//OB8.®z/OB#-8*.¹®z/|product-of¤Oberheim|
+;_______________________________________________________________________________
+=====sound# module*.z//sound# expander*.z/sound# box*.Tz/tone# generator*.z/
+expander,module.z/
+=====*Ensoniq# ESQ# module*.®z//ESQ.¹®z/|product-of¤Ensoniq|
+=====*Yamaha#® CBX#-T3*.z//CBXT3.®z/CBX#-T3*.¹®z/|product-of¤Yamaha|
+=====*Yamaha#® EMT#-1*.z//EMT1.®z/EMT#-1*.¹®z/|product-of¤Yamaha|
+=====*Yamaha#® FB#-01*.z//FB01.®z/FB#-01*.¹®z/|product-of¤Yamaha|
+=====*Yamaha#® TG#-55*.z//TG55.®z/TG#-55*.¹®z/|product-of¤Yamaha|
+=====*Yamaha#® TG#-77*.z//TG77.®z/TG#®-77*.¹®z/|product-of¤Yamaha|
+======drum# machine*.z//drum# module*.z/drum# sound# module*.z/drum# box*.Tz/
+rhythm# box*.Tz/
+======*Alesis#® D4*®.z//D4.¹®z/|product-of¤Alesis|
+======*Alesis#® SR#-16*®.z//SR16.®z/SR#-16*.¹®z/|product-of¤Alesis|
+======*Roland#® R#-5*®.z//R5.®z/R#-5*.¹®z/|product-of¤Roland|
+;_______________________________________________________________________________
+=====analog#A synthesizer*.z//
+;_______________________________________________________________________________
+=====digital#A synthesizer*.z//
+=====*Casio#® HT#-700*.z//HT700.®z/HT#®-700*.¹®z/|product-of¤Casio|
+=====*Korg#® 01W#\/fd*.z//01W#\/fd*.¹®z/|product-of¤Korg|
+=====*Korg#® 01R#\/W*.z//01R#\/W*.¹®z/|product-of¤Korg|
+=====*Korg#® M1*®.z//M1.¹®z/|product-of¤Korg|
+=====*Korg#® T3*®.z//T3.¹®z/|product-of¤Korg|
+=====*Korg#® X2*®.z//X2.¹®z/|product-of¤Korg|
+=====*Korg#® Wavestation*®.z//Wavestation.¹®z/|product-of¤Korg|
+======*Korg#® Wavestation#® AD*.z//AD.¹®z/
+======*Korg#® Wavestation#® EX*.z//EX.¹®z/
+=====*Yamaha#® DX#®-7*.z/keyboard-instrument/DX7.®z/DX#®-7*.¹®z/
+|product-of¤Yamaha|
+======*Yamaha#® DX#®-7IIFD*.z//DX7IIFD.®z/DX#®-7IIFD*.¹®z/
+=====*Yamaha#® SY77*.z/keyboard-instrument/SY77.®z/SY#®-77*.¹®z/
+|product-of¤Yamaha|
+=====*Yamaha#® TX81Z*.z/keyboard-instrument/TX81Z.®z/TX#®-81Z*.¹®z/
+|product-of¤Yamaha|
+;_______________________________________________________________________________
+====sampler.z//échantilloneur.My/sampler.jMy/
+====*Ensoniq# Mirage*.®z/keyboard-instrument/Mirage.¹®z/|product-of¤Ensoniq|
+====*Ensoniq# EPS*.®z/keyboard-instrument/EPS.¹®z/|product-of¤Ensoniq|
+====*Ensoniq# EPS#® 16*.®z/keyboard-instrument/EPS#® 16*.¹®z/
+|product-of¤Ensoniq|
+====*Fairlight#® CMI*®.®z/keyboard-instrument/CMI.¹®z/|product-of¤Fairlight|
+=====*Fairlight#® II#\/CMI*®.®z//II.¹®z/
+====*Yamaha#® TX16W*®.z//TX16W.¹®z/|product-of¤Yamaha|
+;_______________________________________________________________________________
+====MIDI# controller*.z//controller.z/dedicated#A MIDI# keyboard# controller*.z/
+====*Akai#® MX#-73*.z//MX73.¹®z/MX#-73*.¹®z/|product-of¤Akai|
+;_______________________________________________________________________________
+====hardware# sequencer*.z//sequencer.z/
+====*Alesis#® MMT8*®.z//MMT8.¹®z/|product-of¤Alesis|
+====*Yamaha#® QX#-1*®.z//QX1.®z/QX#-1*.¹®z/|product-of¤Yamaha|
+====*Yamaha#® QY#-10*®.z//QY10.®z/QY#-10*.¹®z/|product-of¤Yamaha|
+;_______________________________________________________________________________
+===phonograph.z//phono.TMy/phonographe.My/
+;_______________________________________________________________________________
+===communications# equipment*.mz//comms# equipment*.mz/comms# gear*.mz/
+;_______________________________________________________________________________
+====communications-hub//hub.z/
+=====10BT#-hub*.z//
+;_______________________________________________________________________________
+====NIC.z//ethernet# adaptor*.z/
+;_______________________________________________________________________________
+====modem.z//
+;_______________________________________________________________________________
+=====56K# modem*.z//V#-90# modem*.z/
+=====USB# modem*.z//
+=====faxmodem*.z//fax# modem*.z/
+;_______________________________________________________________________________
+=====external# modem*.z//
+=====internal# modem*.z//
+;_______________________________________________________________________________
+====router.z//
+;_______________________________________________________________________________
+====switching# system*.z//telephone# switching# system*.z/switch.tz/switcher.az/
+commutateur.¹My/
+;_______________________________________________________________________________
+====-space#-division#-time#-division# distinction*.z//
+======space#-division# switching*.Îz//commutation* spatiale*A.ÎFy/
+======time#-division# switching*.Îz//commutation* temporelle*A.ÎFy/
+;_______________________________________________________________________________
+====-class* of#R switch#.z//
+======PBX.z//private#A-branch# exchange*.z/PABX.z/commutateur* privé*A.¹My/
+standard* privé*A.My/
+======local# switch*.z//central#A office*.¹z/telephone# exchange*,exchange.z/
+end#A office*.tz/NXX.tz/central* téléphonique*A.¹My/central.tMy/
+=======CDO.z//community# dial# office*.z/
+======toll# switch*.z//
+======tandem# switch*.z//
+======operator#-services#P switch*.z//
+;_______________________________________________________________________________
+====-switch# technology*.z//
+;_______________________________________________________________________________
+======step#-by#R-step# switch*.z/space-division-switching/SXS#A switch*.z/
+step#A switch*.z/step#-by#R-step# office*.z/Strowger# switch*.z/
+SXS,step,step#N-by#R-step#N.Az/Strowger.¹My/pas#N à#R pas#N.Ay/
+======*XY/local-switch/XY.¹®z/
+======*740E# SXS#A PBX*.z/PBX/
+======*UAX.®z//|product-of¤British-Post-Office,Strowger|
+=======*UAX# 13*.®z//
+=======*UAX# 14*.®z//
+======*SAX.®z//|product-of¤British-Post-Office,Strowger|
+;_______________________________________________________________________________
+======rotary#A switch*.z/space-division-switching/
+======*Rotary.®z//système* Rotary#.®My/
+=======*Rotary# 7# A#.®z//système* Rotary# 7# A#.®My/
+=======*Rotary# 7# B1#.®z//système* Rotary# 7# B1#.®My/
+======*L# 43*.®z//L# 43#.®My/
+======*R6.®z//R6.®My/
+=======*R6N1.®z//R6N1.®My/
+=======*R6N2.®z//R6N2.®My/
+;_______________________________________________________________________________
+======panel#A switch*.z//panel# office*.z/
+;_______________________________________________________________________________
+======crossbar#A switch*.z/space-division-switching/XB.tz/crossbar#A office*.z/
+commutateur* crossbar*A.My/
+;_______________________________________________________________________________
+======*1XB.®z/local-switch/1.z/#1XB.®z/No\.# 1# crossbar*.z/|product-of¤WE|
+======*2XB.®z/local-switch/2.z/#2XB.®z/No\.# 2# crossbar*.z/|product-of¤WE|
+======*4XB.®z/toll-switch/4.z/No\.# 4# crossbar*.z/|product-of¤WE|
+=======*4A.®z//4A# crossbar*.z/No\.# 4A# crossbar*.z/No\.# 4A# system*.z/
+4A# system*.z/4A# crossbar# system*.z/
+=======*4M.®z//4M# crossbar*.z/
+======*5XB.®z/local-switch/5.z/#5XB.®z/No\.# 5# crossbar*.z/|product-of¤WE|
+======*XBT.®z/tandem-switch,local-switch/crossbar# tandem*.z/|product-of¤WE|
+======*755A# PBX*.z/PBX/755A.¹®z/|product-of¤WE|
+;_______________________________________________________________________________
+======*crossbar-Socrate//système* Socrate#.®My/|product-of¤France-Telecom|
+======*Cupidon.®y//|product-of¤France-Telecom|
+======*Pentaconta.®z//Pentaconta.®My/|product-of¤France-Telecom|
+======*CP# 400*.®z//CP# 400#.®My/|product-of¤France-Telecom|
+======*ARM# 20*.®z//|product-of¤Ericsson|
+======*ATE# 5005*.®z//TXC1,TXK.®z/
+; Automatic Telephone and Electric Company Ltd., Liverpool
+======*CXP#-5*.®z//Common#A Control# Cross#A Point*.z/|product-of¤GTE|
+======*XPT.®z//Crosspoint# Tandem*.z/|product-of¤GTE|
+;_______________________________________________________________________________
+======electronic#A switch*.z/space-division-switching/
+======*1ESS.®z/local-switch/1E.®tz/|product-of¤WE|
+======*1AESS.®z/local-switch/1AE.®tz/|product-of¤WE|
+======*2ESS.®z/local-switch/2E.®tz/|product-of¤WE|
+======*3ESS.®z/local-switch/3E.®tz/|product-of¤WE|
+======*TSPS# switching# system*.z/operator-services-switch/TSPS.®z/
+Traffic# Service# Position# System*.®z/
+Traffic# Service# Position# System# No\.# 1*.®z/TSPS#® 1*.z/|product-of¤WE|
+======*TOPS# switching# system*.z/operator-services-switch/TOPS.®z/
+Traffic# Operator# Position# System*.z/|product-of¤Northern-Telecom|
+======*ESS-Pericles//système* Périclès#.®My/|product-of¤France-Telecom|
+; avec des points de connexion à relais à tige
+======*ESS-Aristote//système* Aristote#.®My/|product-of¤France-Telecom|
+======*E# 11*.®z//|product-of¤France-Telecom|
+======*Metaconta# 11# F*.z//Métaconta# 11# F#.®My/|product-of¤France-Telecom|
+======*TXE2.®z/local-switch/|product-of¤British-Post-Office|
+======*TXE4.®z/local-switch/|product-of¤British-Post-Office|
+======*No-1-EAX//No\.# 1# EAX*.z/|product-of¤GTE|
+;_______________________________________________________________________________
+======digital#A switch*.z/time-division-switching/commutateur* numérique*A.@My/
+commutation* numérique*A.ÎFy/
+======*E# 1*.®z//E1.®z/|product-of¤France-Telecom|
+======*Alcatel# E# 10*.®z//E# 10*,E10.®z/système* Platon#.®My/
+|product-of¤Alcatel|
+======*4ESS.®z/toll-switch/4E.®tz/|product-of¤WE|
+======*5ESS.®z/local-switch,toll-switch,operator-services-switch/5E.®tz/
+|product-of¤WE|
+=======*5ESS# PRX*.®z//
+=======*OSPS.®z//
+======*DMS#-100*.®z//Northern#A Telecom# DMS#-100*.®z/
+|product-of¤Northern-Telecom|
+======*System# X*.®z/local-switch/|product-of¤British-Post-Office,GEC-Plessey|
+======*AXE10.®z/local-switch/System# Y*.®z/|product-of¤Ericsson|
+======*UXDS.®z//|product-of¤British-Telecom|; small
+;_______________________________________________________________________________
+===operator# position*.z//
+;_______________________________________________________________________________
+===*3CL#® position*.z//|product-of¤WE|
+;_______________________________________________________________________________
+====Traffic# Service# Position*.®z//|product-of¤WE|
+====*PPCS.®z//
+====*TSP.®z//110A# Traffic# Service# Position*.z/110A# TSP*.z/110A.z/
+====*TSPS# position*.z//110B# Traffic# Service# Position*.z/110B# TSP*.z/110B.z/
+====*OSPS# position*.z//
+;_______________________________________________________________________________
+===*TOPS# position*.z//
+;_______________________________________________________________________________
+===phone-handset//handset.¹z/receiver.z/combiné.¹My/
+|part-of¤phone-transmitter,phone-receiver|
+===phone-dial//dial.¹z/cadran.¹My/
+====phone-keypad//keypad.¹z/clavier.¹My/
+====phone-rotary-dial//dial.¹z/rotary# dial*.z/cadran.¹My/
+===phone-display//display.¹z/afficheir.¹My/
+===phone-ringer//ringer,bell.z/sonnerie* téléphonique*A.Fy/
+;_______________________________________________________________________________
+===phone.z//telephone.z/telephone# set*.z/terminal,station# set*,set.tz/
+téléphone.My/poste* téléphonique*A.My/tube.oTMy/
+|part-of¤phone-handset,phone-dial,phone-display,phone-ringer|
+;_______________________________________________________________________________
+===*Jim-phone//|phone-number-of=STRING:pstn:"33148100962"|owner-of=Jim|
+===*Lucie-phone//|phone-number-of=STRING:pstn:"3369302056"|owner-of=Lucie|
+===*Martine-phone//|phone-number-of=STRING:pstn:"33144561985"|owner-of=Martine|
+;_______________________________________________________________________________
+===-single-multi-line-contrast//
+=====single#A-line# phone*.z//single#A-line# telephone*.z/single#-line#N.Az/
+=====multiline# phone*.z//multiline# telephone*.z/multiline.Az/
+multi#A-line# phone*.z/multi#A-line# telephone*.z/multi#-line#N.Az/
+======call# director# phone*.z//call# director# telephone*.z/call# director*.z/
+pupitre* dirigeur*A.My/
+;_______________________________________________________________________________
+===-phone-type-contrast//
+=====butt# set*.z//test# set*.z/
+=====cradle# set*.z//cradle# telephone*.z/
+=====desk# phone*.z//desk# telephone*.z/desk# set*.z/
+=====desk# stand*.z//candlestick.z/stick.Tz/
+=====elevator# phone*.z//elevator# telephone*.z/
+=====outdoor# phone*.z//outdoor# telephone*.z/
+=====pay# phone*.z//pay# telephone*.z/coin# phone*.z/coin# telephone*.z/
+public#A phone*.z/public#A telephone*.z/téléphone* public*A.My/
+=====videophone.z//vidéophone,visiophone.My/
+======Picturephone.®z//|product-of¤WE|
+=====wall# phone*.z//wall# telephone*.z/wall# set*.z/
+=====wireless#A phone*.z//
+=====*Bibop# phone*.z//Bibop.¹®z/|product-of¤France-Telecom|
+======cellular#A phone*.z//cell# phone*.z/cellular#A telephone*.z/
+téléphone* cellulaire*A.My/
+=======portable#A cellular#A phone*.z//portable#A cellular#A telephone*.z/
+téléphone* cellulaire*A portatif*A.My/
+======cordless#A phone*.z//poste* sans#R cordon#.My/
+======GSM# phone*.z//GSM#A telephone*.z/téléphone* GSM*A.My/
+======PCS# phone*.z//
+;_______________________________________________________________________________
+===-phone-signaling-contrast//
+=====manual# phone*.z//manual# telephone*.z/manual# set*.z/
+=====dial# phone*.z//dial# telephone*.z/dial# set*.z/
+automatic#A phone*.z/automatic#A telephone*.z/automatic#A set*.z/
+dial,automatic.Az/
+=====DTMF# phone*.z//DTMF# telephone*.z/DTMF# set*.z/touchtone# phone*.z/
+touchtone# telephone*.z/touchtone# set*.z/touch#V-tone# phone*.z/
+touch#V-tone# telephone*.z/touch#V-tone# set*.z/push#V-button# telephone*.z/
+push#V-button# phone*.z/touch#V-tone# phone*.z/
+DTMF,touchtone,touch#V-tone#,push#V-button#.Az/poste* à#R clavier#.My/
+;_______________________________________________________________________________
+===-phone-manufacturer//
+;_______________________________________________________________________________
+=====early#A Bell# telephone*.z/manual-phone/
+=====*Bell-telephone-1875//Gallows#P telephone*.z/Gallows#P phone*.z/
+poste* expérimental*A de#R Bell#.My/|@1875|create¤Bell|
+=====*Bell-telephone-1876-1//Centennial#A Transmitter*.z/|@1876|create¤Bell|
+=====*Bell-telephone-1876-2a//Liquid#A Transmitter*.z/|@18760310|create¤Bell|
+=====*Bell-telephone-1876-2b//Tuned#A Reed*.z/|@18760310|create¤Bell|
+=====*Bell-telephone-1876-3//First#A Commercial#A Telephone*.z/
+|@18761009|create¤Bell|
+=====*Blake-Transmitter//Blake# Transmitter*.z/|@1880|create¤na|
+=====*Hunnings-Transmitter//Hunnings# Transmitter*.z/|@1886|create¤na|
+=====*ironbox# receiver*.z//
+=====*telephone* de#R Gower#.My//|comment="with long elephant trunk"|
+@1878|create¤na|
+;_______________________________________________________________________________
+====*Western#A Electric# telephone*.z//Western#A Electric# phone*.z/
+|product-of¤WE|
+;_______________________________________________________________________________
+=====*WE-no-2-desk-stand/desk-stand,manual-phone/WE# number# 2# desk# stand*.z/
+2.z/|@1892|create¤na|
+=====*WE-no-3-desk-stand/desk-stand,manual-phone/
+WE# number# 3# potbelly# desk# stand*.z/3.z/|@1895|create¤na|
+=====*WE-no-9-desk-stand/desk-stand,manual-phone/
+WE# number# 9# potbelly# desk# stand*.z/9.z/|@1897|create¤na|
+=====*WE-no-10-desk-stand/desk-stand,manual-phone/
+WE# number# 10# tapered#A shaft# desk# stand*.z/10.z/|@1899|create¤na|
+;_______________________________________________________________________________
+=====*WE# 1020AK*.z/desk-stand,manual-phone/1020AK.¹z/
+=====*WE# 1020AG*.z/desk-stand,manual-phone/1020AG.¹z/
+=====*WE# 1020AH*.z/desk-stand,manual-phone/1020AH.¹z/
+=====*WE# 1020AL*.z/desk-stand,manual-phone/1020AL.¹z/|black|
+=====*WE# 1020AM*.z/desk-stand,manual-phone/1020AM.¹z/
+=====*WE# 1020B*.z/desk-stand,manual-phone/WE# 20B*.z/1020B,20B.¹z/|atom-nickel|
+=====*WE# 1020BC*.z/desk-stand,manual-phone/1020BC.¹z/
+=====*WE# 1020C*.z/desk-stand,manual-phone/1020C.¹z/
+=====*WE# 20CJ*.z/desk-stand,manual-phone/20CJ.¹z/
+=====*WE# 20CM*.z/desk-stand,manual-phone/20CM.¹z/
+=====*WE# 20CN*.z/desk-stand,manual-phone/20CN.¹z/
+=====*WE# 1020F*.z/desk-stand,manual-phone/1020F.¹z/|atom-nickel|
+=====*WE# 1020J*.z/desk-stand,manual-phone/1020J.¹z/
+=====*WE# 1020MC*.z/desk-stand,manual-phone/1020MC.¹z/
+=====*WE# 1020SC*.z/desk-stand,manual-phone/WE# 20SC*.z/1020SC,20SC.¹z/
+=====*WE# 1020PC*.z/desk-stand,manual-phone/1020PC.¹z/
+=====*WE# 20R*.z/desk-stand,manual-phone/20R.¹z/
+=====*WE# 1021*.z/desk-stand,manual-phone/1021.¹z/|@1900|create¤na|
+=====*WE# 1040AL*.z/desk-stand,manual-phone/1040AL.¹z/|black|
+=====*WE# 120AL*.z/desk-stand,manual-phone/120AL.¹z/
+=====*WE# 120CN*.z/desk-stand,manual-phone/120CN.¹z/
+=====*WE# 40AH*.z/desk-stand,manual-phone/40AH.¹z/|steel|
+=====*WE# 40AL*.z/desk-stand,manual-phone/40AL.¹z/|steel|
+=====*WE# 40CJ*.z/desk-stand,manual-phone/40CJ.¹z/|steel|
+=====*WE# 40CM*.z/desk-stand,manual-phone/40CM.¹z/|steel|
+=====*WE# 40CN*.z/desk-stand,manual-phone/40CN.¹z/|steel|
+=====*WE# 40R*.z/desk-stand,manual-phone/40R.¹z/|steel|
+=====*WE# 140AL*.z/desk-stand,manual-phone/140AL.¹z/|steel|
+=====*WE# 140CN*.z/desk-stand,manual-phone/140CN.¹z/|steel|
+;_______________________________________________________________________________
+=====*WE# 50AL*.z/desk-stand,dial-phone/50AL.¹z/|@1919|create¤na|
+=====*WE# 50C*.z/desk-stand,dial-phone/50C.¹z/
+=====*WE# 50CM*.z/desk-stand,dial-phone/50CM.¹z/
+=====*WE# 50CN*.z/desk-stand,dial-phone/50CN.¹z/
+=====*WE# 50E*.z/desk-stand,dial-phone/50E.¹z/
+=====*WE# 51AL*.z/desk-stand,dial-phone/51AL.¹z/
+=====*WE# 51C*.z/desk-stand,dial-phone/51C.¹z/
+=====*WE# 51CM*.z/desk-stand,dial-phone/51CM.¹z/
+=====*WE# 51CN*.z/desk-stand,dial-phone/51CN.¹z/
+=====*WE# 51R*.z/desk-stand,dial-phone/51R.¹z/
+=====*WE# 52AB*.z/desk-stand,dial-phone/52AB.¹z/
+=====*WE# 151AL*.z/desk-stand,dial-phone/151AL.¹z/
+=====*WE# 151C*.z/desk-stand,dial-phone/151C.¹z/
+=====*WE# 151CN*.z/desk-stand,dial-phone/151CN.¹z/
+=====*WE# 151R*.z/desk-stand,dial-phone/151R.¹z/
+=====*WE# 151S*.z/desk-stand,dial-phone/151S.¹z/
+;_______________________________________________________________________________
+=====*WE# A1*.z/single-line-phone,desk-phone,dial-phone/A1.¹z/|@1922|create¤na|
+=====*WE# 101*.z/single-line-phone,desk-phone,dial-phone/101.¹z/
+=====*WE# 102*.z/single-line-phone,desk-phone,dial-phone/102.¹z/
+=====*WE# 103*.z/single-line-phone,desk-phone,dial-phone/103.¹z/
+=====*WE# 201*.z/single-line-phone,desk-phone,dial-phone/201.¹z/
+=====*WE# 202*.z/single-line-phone,desk-phone,dial-phone/202# set*.z/202.¹®z/
+======*gray#A-green#A WE# 202*.z//|green|
+=====*WE# 203*.z/single-line-phone,desk-phone,dial-phone/203.¹z/
+=====*WE# 204*.z/single-line-phone,desk-phone,dial-phone/204.¹z/
+=====*WE# 205*.z/multiline-phone,desk-phone,dial-phone/205.¹z/; 3 lines
+=====*WE# 206*.z/single-line-phone,desk-phone,dial-phone/206.¹z/
+=====*WE# 207*.z/single-line-phone,desk-phone,dial-phone/207.¹z/
+=====*WE# 208*.z/multiline-phone,desk-phone,dial-phone/208.¹z/; 2 lines
+=====*WE# 211*.z/single-line-phone,WE-Spacesaver,dial-phone/211.¹z/
+=====*WE# 212*.z/single-line-phone,WE-Spacesaver,dial-phone/212.¹z/
+======*WE# 212L*.z//212L.¹z/
+=====*WE# 213*.z/WE-Spacesaver,dial-phone/213.¹z/
+=====*WE# 214*.z/WE-Spacesaver,dial-phone/214.¹z/
+=====*WE# 215*.z/desk-phone,dial-phone/215.¹z/
+;_______________________________________________________________________________
+=====*WE# 250*.z/single-line-phone,desk-phone,dial-phone/250.¹z/
+=====*WE# 302*.z/single-line-phone,desk-phone,dial-phone/302# set*.z/
+300,302.¹®z/300# series*.z/300# set*.z/
+======*metal#A WE# 302*.z//
+======*plastic#A WE# 302*.z//
+======*black#A WE# 302*.z//|black|
+======*blue#A WE# 302*.z//|blue|
+======*ivory#A WE# 302*.z//|ivory-colored|
+======*red#A WE# 302*.z//|red|
+======*rose#A WE# 302*.z//|pink|
+======*gray#A-green#A WE# 302*.z//|green|
+=====*WE# 303*.z/desk-phone,dial-phone/303.¹z/
+=====*WE# 304*.z/desk-phone,dial-phone/304.¹z/
+=====*WE# 305*.z/desk-phone,dial-phone/305.¹z/
+=====*WE# 306*.z/desk-phone,dial-phone/306.¹z/
+=====*WE# 307*.z/desk-phone,dial-phone/307.¹z/
+=====*WE# 309*.z/desk-phone,dial-phone/309.¹z/
+=====*WE# 320*.z/desk-phone/320.¹z/
+======*WE# 320A#-3*.z/manual-phone/320A#-3*.¹z/
+======*WE# 320C#-3*.z/dial-phone/320C#-3*.¹z/
+=====*WE# 327U*.z//WE# 327U# Interphone*.z/327U.¹z/
+=====*WE# 329*.z//329.¹z/
+=====*WE# 332*.z/desk-phone,dial-phone/332.¹z/
+=====*WE# 334*.z//334# set*.z/334.¹z/
+=====*WE# 354*.z/single-line-phone,wall-phone,dial-phone/354# set*.z/354.¹®z/
+======*black#A WE# 354*.z//|black|
+======*ivory#A WE# 354*.z//|ivory-colored|
+=====*WE# 356*.z/wall-phone,dial-phone/356.¹z/
+=====*WE# 357*.z/wall-phone,dial-phone/357.¹z/
+=====*WE# 401*.z/multiline-phone,desk-phone,dial-phone/401.¹z/
+=====*WE# 410*.z/multiline-phone,desk-phone,dial-phone/410.¹z/; 2 lines
+=====*WE# 411*.z/multiline-phone,desk-phone,dial-phone/411.¹z/
+======*WE# 411C*.z//411C.¹z/
+=====*WE# 440*.z/multiline-phone,desk-phone,dial-phone/440.¹z/
+=====*WE# 441*.z/multiline-phone,desk-phone,dial-phone/441.¹z/
+=====*WE# 444E*.z/multiline-phone,desk-phone,dial-phone/444E.¹z/; 3 lines
+=====*WE# 460*.z/multiline-phone,desk-phone,dial-phone/460.¹z/
+=====*WE# 461*.z/multiline-phone,desk-phone,dial-phone/461.¹z/
+======*WE# 461K*.z//461K.¹z/
+=====*WE# 462*.z/multiline-phone,desk-phone,dial-phone/462.¹z/
+======*WE# 462AB*.z//462AB.¹z/
+;_______________________________________________________________________________
+=====*WE# 500*.z/single-line-phone,desk-phone,dial-phone/500# set*.z/500.¹®z/
+======*WE# 500CD*.z//WE# 500C#\/D*.z/500CD,500C#\/D*.¹z/
+=======*black#A WE# 500CD*.z//|black|
+======*WE# 500D*.z//500D.¹z/
+======*WE# 500DM*.z//500DM.¹z/
+=====*WE# 526B*.z/outdoor-phone,dial-phone/526B.¹z/
+=====*WE# 534*.z//534# set*.z/534.¹z/
+=====*WE# 554*.z/single-line-phone,wall-phone,dial-phone/554# set*.z/554.¹z/
+=====*WE# 565HD*.z/multiline-phone,desk-phone,dial-phone/565HD.¹z/
+;_______________________________________________________________________________
+=====*WE# 5300*.z/single-line-phone,desk-phone,dial-phone/5300.¹z/
+======*WE# 5302*.z//5302# set*.z/5302.¹z/
+=======*WE# 5302G*.z//5302G.¹z/
+======*WE# 5304*.z//5304.¹z/
+;_______________________________________________________________________________
+=====*WE# 1500*.z/single-line-phone,desk-phone,DTMF-phone/1500# set*.z/1500.¹z/
+======*WE# 1500D*.z//1500D.¹z/
+=====*WE# 2500*.z/single-line-phone,desk-phone,DTMF-phone/2500# set*.z/2500.¹®z/
+======*WE# 2500D*.z//2500D.¹z/
+======*WE# 2500DM*.z//2500DM.¹z/
+=====*WE# 2554*.z/single-line-phone,wall-phone,DTMF-phone/2554# set*.z/2554.¹z/
+======*WE# 2554D*.z//2554D.¹z/
+======*WE# 2554DM*.z//2554DM.¹z/
+=====*WE# 2565*.z/multiline-phone,desk-phone,DTMF-phone/2565.¹z/
+======*WE# 2565HKM*.z//2565HKM.¹z/
+;_______________________________________________________________________________
+=====*WE# 701B*.z/single-line-phone,WE-Princess,desk-phone,dial-phone/
+700,701B.¹z/700# series*.z/
+=====*WE# 2702B*.z/single-line-phone,WE-Princess,desk-phone,DTMF-phone/2702B.¹z/
+;_______________________________________________________________________________
+=====*WE# Princess*®.z//Princess#® phone*.z/Princess.¹®z/
+=====*WE# Spacesaver*®.®z//Spacesaver.¹®z/
+=====*WE# Trimline*®.z//Trimline#® phone*.z/Trimline.¹®z/
+;_______________________________________________________________________________
+=====*WE# butt# set*.z/butt-set/
+;_______________________________________________________________________________
+====*Automatic#A Electric# telephone*.z//Automatic#A Electric# phone*.z/
+|product-of¤AE|
+=====*AE# 1A# dial# monophone*.z/dial-phone/1A.¹z/
+=====*AE# 34*.z//34.¹z/
+======*black#A AE# 34*.z//|black|
+=====*AE# 40*.z//40.¹®z/
+=====*AE# 182*.z//Starlight.¹®z/182.¹z/
+;_______________________________________________________________________________
+====*Ericaphone.®z/dial-phone/Erica.®z/|product-of¤Ericsson|
+;_______________________________________________________________________________
+====*France#A Telecom# telephone*.z//France#A Telecom# phone*.z/
+|product-of¤France-Telecom|
+=====*PTT24.®z/desk-phone,dial-phone/|comment="like big 202 with listen set"|
+@1924|create¤France-Telecom|
+=====*U43.®z/desk-phone,dial-phone/|comment="like 302 with listen set"|
+@1943|create¤France-Telecom|
+=====*S63.®z/desk-phone,dial-phone/|comment="like 500 set, transistorized"|
+@1963|create¤France-Telecom|
+;_______________________________________________________________________________
+====*ITT#® telephone*.z//ITT#® phone*.z/|product-of¤ITT|
+=====*ITT#® Trendline*®.z//Trendline.¹®z/
+;_______________________________________________________________________________
+====*North#A Electric# 7H6*.z//
+;_______________________________________________________________________________
+====*Stromberg# Carlson# phone*.z//Stromberg# Carlson# telephone*.z/
+|product-of¤Stromberg-Carlson|
+=====*SC# 1243*.z/desk-phone/1243.¹z/
+=====*SC# 1543*.z/desk-phone,dial-phone/1543.¹z/
+=====*SC# 1704*.z/multiline-phone/1704.¹z/
+=====*SC# 1979*.z//SC# trimline*.z/1979.¹z/
+;_______________________________________________________________________________
+===amplifier.z//amp.z/amplificateur.My/ampli.TMy/
+====bass# amplifier*.z//bass# amp*.z/
+====*Peavey# TKO# 65*.z//TKO65.®z/TKO# 65*.¹®z/|product-of¤Peavey|
+====guitar# amplifier*.z//guitar# amp*.z/
+====power# amplifier*.z//power# amp*.z/
+====PA# system*.z//PA.Tz/public#A address# system*.z/
+====*Carvin# PA# system*.z//|product-of¤Carvin|
+;_______________________________________________________________________________
+===tuner.z//tuner.My/
+===receiver.z//récepteur,poste* récepteur*.My/|part-of¤amplifier,tuner|
+;_______________________________________________________________________________
+===effects#P processor*.z//effect.z/effects#P unit*.z/
+;_______________________________________________________________________________
+===*Lexicon#® LXP15*®.z//LXP15.¹®z/|product-of¤Lexicon|
+===*Lexicon#® PCM# 60*®.z//PCM60.®z/PCM# 60*.¹®z/|product-of¤Lexicon|
+===*Lexicon#® Prime# Time# II# Model# 95*.z//Prime# Time# II*.®z/95.¹®z/
+|product-of¤Lexicon|
+;_______________________________________________________________________________
+====multi#A-effects#P processor*.z//
+====*Boss#® ME#-6*.z//ME6.z/ME#-6*.¹®z/|product-of¤Boss|
+;_______________________________________________________________________________
+====pedal# effects#P unit*.z//pedal.z/
+====*DOD#® FX#-69*.z//FX69.z/FX#-69*.¹®z/|product-of¤audio-company-DOD|
+====*Korg#® G4*®.z//G4.¹®z/|product-of¤Korg|
+;_______________________________________________________________________________
+=====guitar# pedal*.z//
+=====*Ibanez#® SM9*.z//SM9.¹®z/|product-of¤Ibanez|
+;_______________________________________________________________________________
+===sync# box*.z//
+====SMPTE# sync# box*.z//
+====*JL# Cooper#® PPS#-1# sync# box*.z/MTC-sync-box/PPS1.®z/PPS#-1*.¹®z/
+|product-of¤JL-Cooper|
+====MTC-sync-box//MIDI# Time# Code# sync# box*.z/
+;_______________________________________________________________________________
+===noise# reduction# unit*.z//noise# reduction*.z/NR.Tz/
+===*Dolby#® A*.z//A.¹®z/|product-of¤Dolby|
+===*Dolby#® B*.z//B.¹®z/|product-of¤Dolby|
+===*Dolby#® C*.z//C.¹®z/|product-of¤Dolby|
+;_______________________________________________________________________________
+===audio# recorder*.z//tape# recorder*.z/magnétophone.My/
+;_______________________________________________________________________________
+====cassette# deck*.z//platine* à#R cassettes#P.Fy/
+====cassette# player*.z//lecteur* de#R cassettes#FP.My/
+====cassette# recorder*.z//cassette.z/magnétophone* à#R cassettes#FP.My/
+=====portastudio.z//
+======4#-track# portastudio*.z//4#-track# cassette# recorder*.z/4#-track*.z/
+======*Fostex#® 160*®.z//160.¹®z/|product-of¤Fostex|
+======*Tascam#® 646*®.z//646.¹®z/|product-of¤Tascam|
+;_______________________________________________________________________________
+====reel#-to#R-reel# tape# recorder*.z//reel#-to#R-reel# tape# deck*.z/
+reel#-to#R-reel# deck*.z/reel#-to#R-reel*.Tz/open#A-reel# tape# recorder*.z/
+open#A-reel# tape# deck*.z/open#A-reel# deck*.z/open#A-reel*.Tz/
+magnétophone* à#R bobines#FP.My/
+;_______________________________________________________________________________
+=====mono#A reel#-to#R-reel# tape# recorder*.z//mono#A tape# recorder*.z/
+mono#A recorder*.z/mono#A reel#-to#R-reel*.z/
+======Wollensak.®z//
+;_______________________________________________________________________________
+=====stereo#A reel#-to#R-reel# tape# recorder*.z//stereo#A tape# recorder*.z/
+stereo#A recorder*.z/stereo#A reel#-to#R-reel*.z/
+;_______________________________________________________________________________
+=====4#-track# reel#-to#R-reel# tape# recorder*.z//4#-track# tape# recorder*.z/
+4#-track# recorder*.z/4#-track# reel#-to#R-reel*.z/4#-track*.z/
+;_______________________________________________________________________________
+=====8#-track# reel#-to#R-reel# tape# recorder*.z//8#-track# tape# recorder*.z/
+8#-track# recorder*.z/8#-track# reel#-to#R-reel*.z/8#-track*.z/
+======Tascam#® 38*.z//38.¹®z/|product-of¤Tascam|
+;_______________________________________________________________________________
+=====16#-track# reel#-to#R-reel# tape# recorder*.z//
+16#-track# tape# recorder*.z/16#-track# recorder*.z/
+16#-track# reel#-to#R-reel*.z/16#-track*.z/
+;_______________________________________________________________________________
+=====24#-track# reel#-to#R-reel# tape# recorder*.z//
+24#-track# tape# recorder*.z/24#-track# recorder*.z/
+24#-track# reel#-to#R-reel*.z/24#-track*.z/
+;_______________________________________________________________________________
+====DAT# recorder*.z//DAT.z/DAT# deck*.z/digital#A audio# tape# recorder*.z/
+DAT.Fy/
+;_______________________________________________________________________________
+===radio.z//radio# set*.oz/poste* de#R radio#F.My/radio.Fy/récepteur.My/
+|part-of¤electronic-speaker,power-switch,channel-selector,power-cord,AC-plug|
+====superheterodyne.z//super*A-hétérodyne*.My/
+;_______________________________________________________________________________
+===oscilloscope.z//oscilloscope.My/
+====oscilloscope-Electrochromics//Electrochromics.®Éz/
+;_______________________________________________________________________________
+===patent-Electrochromics//Electrochromics.®Éz/
+;_______________________________________________________________________________
+===teleprompter.z//télésouffleur.My/
+===production# video# switcher*.z//switcher.z/switching# panel*.z/
+video# switcher*.z/video# switching# panel*.z/
+aiguilleur* vidéo#A de#R production#F.My/
+;_______________________________________________________________________________
+===video# recorder*.z//magnétoscope.My/
+;_______________________________________________________________________________
+====video# cassette# recorder*.z//videocassette# recorder*.z/VCR.z/
+;_______________________________________________________________________________
+====video# tape# recorder*.z//videotape# recorder*.z/VTR.z/video# recorder*.z/
+;_______________________________________________________________________________
+=====consumer# video# tape# recorder*.z//
+======VHS# recorder*.z//
+======camcorder.z/camera/
+=======8mm# camcorder*.z//
+=======VHS#-C# camcorder*.z//
+;_______________________________________________________________________________
+=====broadcast# video# tape# recorder*.z//
+======beta# video# recorder*.z//
+======*Sony#® Betacam*.®z//Betacam.¹®z/|product-of¤Sony|
+======2#-inch# video# tape# recorder*.z//
+======*Ampex#® VR#-1000*.z//VR#-1000*.¹®z/Ampex#® VR#-1000*.My/
+|product-of¤Ampex|@1956|create¤Ampex|@1957|ap=45000$|
+======*Ampex#® VR#-1100*.z//VR#-1100*.¹®z/Ampex#® VR#-1100*.My/
+|product-of¤Ampex|
+======*Ampex#® VR#-1200*.z//VR#-1200*.¹®z/Ampex#® VR#-1200*.My/
+|product-of¤Ampex|
+======*Ampex#® VR#-2000#-B*.z//VR#-2000#-B*.¹®z/Ampex#® VR#-2000#-B*.My/
+|product-of¤Ampex|
+======*Ampex#® VR#-6000*.z//VR#-6000*.¹®z/Ampex#® VR#-6000*.My/
+|product-of¤Ampex|
+======*RCA#® TR#-4*.z//TR#-4*.¹®z/RCA#® TR#-4*.My/|product-of¤RCA|
+======*RCA#® TR#-5*.z//TR#-5*.¹®z/RCA#® TR#-5*.My/|product-of¤RCA|
+======*RCA#® TR#-22*.z//TR#-22*.¹®z/RCA#® TR#-22*.My/|product-of¤RCA|
+======*RCA#® TR#-70*.z//TR#-70*.¹®z/RCA#® TR#-70*.My/|product-of¤RCA|
+;_______________________________________________________________________________
+===TV# set*.z//television# set*.z/television.z/TV.Tz/telly.Tgz/boob# tube*.az/
+téléviseur.My/télé.TFy/petit*A écran*.kTMy/boîte* à#R images#P.kTFy/téloche.aFy/
+|part-of¤CRT,electronic-speaker,female-television-connector,power-switch,
+channel-selector,power-cord,AC-plug|
+;_______________________________________________________________________________
+====PAL# TV# set*.z//|PAL|
+====PAL#-SECAM# TV# set*.z//|SECAM|PAL|
+====*Sony#® KV#®-X2150B#® television*.z//KV#®-X2150B*.¹®z/
+|product-of¤Sony|made-in=country-ESP|fr|
+part-of¤CRT,left-speaker,right-speaker,female-television-connector,
+power-switch,channel-selector,power-cord,three-prong-French-AC-plug|
+=====*Jim-TV2//|owner-of=Jim|
+====NTSC# TV# set*.z//|NTSC|
+====*Sony#® KV#®-1953RS#® television*.z//KV#®-1953RS*.¹®z/|product-of¤Sony|
+part-of¤CRT,electronic-speaker,female-television-connector,power-switch,
+channel-selector,power-cord,two-prong-AC-plug|@198212|create¤Sony|us|
+=====*Jim-TV1//|owner-of=Jim|
+====*Sony#® TV#®-780#® television*.z//TV#®-780*.¹®z/|product-of¤Sony|BW|
+made-in=Korea|
+part-of¤CRT,electronic-speaker,female-television-connector,power-switch,
+channel-selector,power-cord,two-prong-AC-plug|us|
+;_______________________________________________________________________________
+===TV# camera*.z/camera/television# camera*.z/video# camera*.z/caméra.Fy/
+|professional-product|
+====portable# TV# camera*.z//
+====ceiling# camera*.z//skycam.Tz/caméra* sur#R le#D plafond#M.Fy/
+;_______________________________________________________________________________
+====color# TV# camera*.z//
+====*Thomson#® TV# camera*.z//caméra* Thomson#C®.Fy/|product-of¤Thomson|PAL|
+====*RCA#® TK#®-40#® TV# camera*.z//TK#-40*.¹®z/caméra* RCA#F® TK#®-40#®.Fy/
+|product-of¤RCA|NTSC|
+====*RCA#® TK#®-41#® TV# camera*.z//TK#-41*.¹®z/caméra* RCA#F® TK#®-41#®.Fy/
+|product-of¤RCA|NTSC|
+====*RCA#® TK#®-42#® TV# camera*.z//TK#-42*.¹®z/caméra* RCA#F® TK#®-42#®.Fy/
+|product-of¤RCA|NTSC|
+====*RCA#® TK#®-44A#® TV# camera*.z//TK#-44A*.¹®z/caméra* RCA#F® TK#®-44A#®.Fy/
+|product-of¤RCA|NTSC|
+====*General#® Electric#® PE#®-350#® TV# camera*.z//PE#-350*.¹®z/
+caméra* General#® Electric#® PE#®-350#®.Fy/|product-of¤GE|NTSC|
+====*Marconi#® Mark# VII#® TV# camera*.z//VII.¹®z/
+caméra* Marconi#® Mark#M VII#®.Fy/|product-of¤Marconi|NTSC|
+====*Sarkes#® Tarzian#® Series#® 88#® TV# camera*.z//Tarzian.¹®z/88.¹®z/
+caméra* Sarkes#® Tarzian#® Series#C® 88#®.Fy/|product-of¤Sarkes|NTSC|
+====*Norelco#® PC#®-70#® TV# camera*.z//PC#-70*.¹®z/
+caméra* Norelco#® PC#®-70#®.Fy/|product-of¤Norelco|NTSC|
+;_______________________________________________________________________________
+====monochrome# TV# camera*.z//
+;_______________________________________________________________________________
+=====monochrome# vidicon# camera*.z//
+=====*RCA#® TK#®-15#® TV# camera*.z//TK#-15*.¹®z/caméra* RCA#F® TK#®-15#®.Fy/
+|product-of¤RCA|NTSC|
+=====*RCA#® PK#®-330#® TV# camera*.z//PK#-330*.¹®z/caméra* RCA#F® PK#®-330#®.Fy/
+|product-of¤RCA|NTSC|
+=====*General#® Electric#® PE#®-23#® TV# camera*.z//PE#-23*.¹®z/
+caméra* General#® Electric#® PE#®-23#®.Fy/|product-of¤GE|NTSC|
+=====*Sarkes#® Tarzian#® 2500#®-L# TV# camera*.z//Tarzian.¹®z/2500#-L*.¹®z/
+caméra* Sarkes#® Tarzian#® 2500#®-L#M.Fy/|product-of¤Sarkes|NTSC|
+;_______________________________________________________________________________
+=====monochrome# three#A-inch# image#-orthicon# camera*.z//
+=====*RCA#® TK#®-11#® TV# camera*.z//TK#-11*.¹®z/
+caméra* RCA#F® TK#®-11#®.Fy/|product-of¤RCA|NTSC|
+=====*RCA#® TK#®-14#® TV# camera*.z//TK#-14*.¹®z/
+caméra* RCA#F® TK#®-14#®.Fy/|product-of¤RCA|NTSC|
+=====*General#® Electric#® PE#®-28#® TV# camera*.z//PE#-28*.¹®z/
+caméra* General#® Electric#® PE#®-28#®.Fy/|product-of¤GE|NTSC|
+=====*Sarkes#® Tarzian#® 3000#®-L# TV# camera*.z//Tarzian.¹®z/3000#-L*.¹®z/
+caméra* Sarkes#® Tarzian#® 3000#®-L#M.Fy/|product-of¤Sarkes|NTSC|
+=====*Visual#® Zoom#® Mark# 10#® TV# camera*.z//10.¹®z/
+caméra* Visual#® Zoom#® Mark#M 10#®.Fy/|product-of¤Visual-Zoom|NTSC|
+;_______________________________________________________________________________
+=====monochrome# 4\.5#A-inch#A image#-orthicon# camera*.z//
+=====*General#® Electric#® PE#®-29#® TV# camera*.z//PE#-29*.¹®z/
+caméra* General#® Electric#® PE#®-29#®.Fy/|product-of¤GE|NTSC|
+=====*RCA#® TK#®-60#® TV# camera*.z//TK#-60*.¹®z/
+caméra* RCA#F® TK#®-60#®.Fy/|product-of¤RCA|NTSC|
+=====*Marconi#® Mark# V# TV# camera*.z//V.¹®z/
+caméra* Marconi#® Mark#M V#M.Fy/|product-of¤Marconi|NTSC|
+;_______________________________________________________________________________
+=====monochrome# Plumbicon#® camera*.z//Plumbicon.¹®z/
+; actually Plumbicon is the tube
+=====*Sarkes#® Tarzian#® 2700#®-L# TV# camera*.z//2700#-L*.¹®z/
+caméra* Sarkes#® Tarzian#® 2700#®-L#M.Fy/|product-of¤Sarkes|NTSC|
+=====*Norelco-PM-40-TV-camera//Norelco#® PMÝPM#® 40#® TV# camera*.z/
+PMÝPM#-40*.¹®z/caméra* Norelco#® PM#® 40#®.Fy/|product-of¤Norelco|NTSC|
+;_______________________________________________________________________________
+===video# monitor*.z//monitor.z/écran.My/|professional-product|
+====input# monitor*.z//écran* d#R'entrée#F.My/
+====preview# monitor*.z//écran* de#R précontrôle#.My/
+====main#A preview# monitor*.z//écran* principal*A de#R précontrôle#.My/
+====digital# video# effects#P monitor*.z//écran* du#R truqueur# numérique#A.My/
+====output# monitor*.z//master# monitor*.z/line# monitor*.z/
+écran* de#R sortie#F.My/
+====network#A monitor*.z//
+====off#A-air# monitor*.z//
+====electronic# viewfinder*.z//camera# viewfinder*.z/viseur* de#R caméra#F.My/
+===*Thomson#® monitor*.z//écran* Thomson#C®.My/|PAL|
+;_______________________________________________________________________________
+==electronic#A component*.z//electrical#A component*,electronic#A part*.z/
+component,part.z/composant* electronique*A,composant.My/
+;_______________________________________________________________________________
+===battery.z//pile.Fy/
+===capacitor.z//condenser.oz/condensateur.My/
+===inductor.z//coil,induction# coil*.z/bobine.Fy/bobine* d#R'induction#.Fy/
+===vacuum# tube*.Àz//tube.Àz/valve.gz/lampe.Fy/
+===semiconductor.z//semiconducteur.My/
+====transistor.z//transistor.My/
+;_______________________________________________________________________________
+===switch.z/knob/bouton,bouton* électrique*A.My/interrupteur,commutateur.My/
+====switch-button//button.z/bouton.My/
+====on#A or#K off#A switch*.Nz//
+====single#A-pole# single#A-throw# switch*.z/on-or-off-switch/
+SPST,SPST#A switch*.z/
+=====power# switch*.z//
+====double#A-pole# double#A-throw# switch*.z//DPDT,DPDT#A switch*.z/
+====step# switch*.z//
+=====channel# selector*.z//
+;_______________________________________________________________________________
+===resistor.z//résistance.Fy/résistor.My/
+====fixed#A resistor*.z//
+====variable#A resistor*.z/knob/
+=====rheostat.z//rhéostat.My/
+=====potentiometer.z//pot.az/potentiomètre.My/pot.aMy/
+======volume# control*.z//réglage* du#R volume#.My/
+bouton* de#R réglage# du#R volume#.My/
+;_______________________________________________________________________________
+===antenna.z//aerial.oz/antenne.Fy/
+;_______________________________________________________________________________
+===transducer.z//transducteur.My/
+;_______________________________________________________________________________
+====electricity#-to#R-light# transducer*.z//
+;_______________________________________________________________________________
+=====CRT.z//cathode#-ray# tube*.z/picture# tube*.z/tube*-image#F.My/tube.Tz/
+tube* cathodique*A.My/
+=====*Sony# Trinitron#® CRT*.z//Sony# Trinitron#® tube*.z/
+Trinitron#® CRT*.z/Trinitron#® tube*.z/Trinitron.¹®z/|product-of¤Sony|
+;_______________________________________________________________________________
+=====lightbulb.z//ampoule.Fy/
+;_______________________________________________________________________________
+=====stage# light*.z//
+======footlight.z//rampe.Fy/
+======front# light*.z//projecteur.My/
+======floodlight.z//projecteur* d#R'ambiance#F.My/
+======floodlight* on#R pantograph#.z//
+projecteur* d#R'ambiance#F sur#R pantographe#.My/
+======spotlight.z//projecteur* à#R faisceau# concentré#A.My/
+;_______________________________________________________________________________
+====electricity#-to#R-sound# transducer*.z//
+;_______________________________________________________________________________
+=====electronic-speaker//speaker.z/haut#A-parleur*.My/enceinte.Fy/
+======audio# monitor*.Àz//sound# monitor*.gz/haut#A-parleur* de#R contrôle#.My/
+======talkback# speaker*.z//
+======left#A speaker*.z//
+======phone-receiver//receiver.¹z/récepteur.¹My/
+======right#A speaker*.z//
+;_______________________________________________________________________________
+=====microphone.z//mike.z/microphone.My/micro.My/
+;_______________________________________________________________________________
+=====*AKG#® D#-112#® microphone*.z//D112.®z/D#-112*.¹®z/|product-of¤AKG|
+=====*Beyer#® M#-88#® microphone*.z//M88.®z/M#-88*.¹®z/|product-of¤Beyer|
+=====*Beyer#® M#-201#® microphone*.z//M201.®z/M#-201*.¹®z/|product-of¤Beyer|
+=====*Sennheiser#® 441#® microphone*.z//441.¹®z/|product-of¤Sennheiser|
+;_______________________________________________________________________________
+======phone transmitter//transmitter.z/microphone.My/
+;_______________________________________________________________________________
+======dynamic#A microphone*.z//dynamic#A mike*.z/
+======*Electro#®-Voice#® RE20#® microphone*.z//RE20.¹®z/
+microphone* Electro#®-Voice#® RE20#®.My/|product-of¤EV|cardioid|
+;_______________________________________________________________________________
+======tube# microphone*.Àz//valve# microphone*.gz/tube# mike*.Àz/
+valve# mike*.gz/
+;_______________________________________________________________________________
+======condenser# microphone*.z//condenser# mike*.z/
+microphone* à#R condensateur#.My/micro* à#R condensateur#.My/
+======*AKG#® C#®-414#® microphone*.z//C414.®z/C#-414*.¹®z/
+microphone* AKG#® C#®-414#®.My/|product-of¤AKG|cardioid|hypercardioid|
+omnidirectional|figure-8|
+======*Beyer#® MC734#® microphone*.z/hand-microphone/MC734.¹®z/
+microphone* Beyer#® MC734#®.My/|product-of¤Beyer|cardioid|
+======*BK-4011//Brüel#® \&#K Kjaer#® 4011#® microphone*.z/4011.¹®z/
+microphone* Brüel#® \&#K Kjaer#® 4011#®.My/|product-of¤BK|
+======*Telefunken#® U47#® microphone*.z/tube-microphone/U47.¹®z/
+microphone* Telefunken#® U47#®.My/|product-of¤Telefunken|cardioid|
+======*Neumann#® U47#® microphone*.z/tube-microphone/U47.¹®z/
+microphone* Neumann#® U47#®.My/|product-of¤Neumann|cardioid|
+======*Neumann#® U47fet#® microphone*.z//U47fet.¹®z/
+microphone* Neumann#® U47fet#®.My/|product-of¤Neumann|cardioid|
+======*Neumann#® U67#® microphone*.z//U67.¹®z/microphone* Neumann#® U67#®.My/
+|product-of¤Neumann|cardioid|
+======*Neumann#® U87#® microphone*.z//U87.¹®z/microphone* Neumann#® U87#®.My/
+|product-of¤Neumann|omnidirectional|cardioid|figure-8|
+======*Neumann#® U87Ai#® microphone*.z//U87Ai.¹®z/
+microphone* Neumann#® U87Ai#®.My/
+|product-of¤Neumann|omnidirectional|cardioid|figure-8|
+======*Neumann#® U89#® microphone*.z//U89.¹®z/microphone* Neumann#® U89#®.My/
+|product-of¤Neumann|omnidirectional|cardioid|hypercardioid|figure-8|
+wide-angle-cardioid|
+======*Neumann#® U89i#® microphone*.z//U89i.¹®z/microphone* Neumann#® U89i#®.My/
+|product-of¤Neumann|omnidirectional|cardioid|hypercardioid|figure-8|
+wide-angle-cardioid|
+======*Neumann#® TLM50#® microphone*.z//TLM50.¹®z/
+microphone* Neumann#® TLM50#®.My/|product-of¤Neumann|omnidirectional|
+======*Neumann#® TLM170#® microphone*.z//TLM170.¹®z/
+microphone* Neumann#® TLM170#®.My/|product-of¤Neumann|omnidirectional|
+cardioid|hypercardioid|figure-8|wide-angle-cardioid|
+======*Microtech#® Gefell#® UM70#® microphone*.z//UM70.¹®z/
+microphone* Microtech#® Gefell#® UM70#®.My/|product-of¤Microtech-Gefell|
+omnidirectional|cardioid|figure-8|
+======*Audio#®-Technica#® AT4033#® microphone*.z//AT4033.¹®z/
+microphone* Audio#®-Technica#® AT4033#®.My/|product-of¤Audio-Technica|cardioid|
+;_______________________________________________________________________________
+======ribbon# microphone*.z//
+;_______________________________________________________________________________
+======shotgun# microphone*.z//shotgun# mike*.z/machine#-gun# mike*.Tz/
+======*Electro#®-Voice#® 643#® microphone*.z//643.¹®z/
+microphone* Electro#®-Voice#® 643#®.My/|product-of¤EV|
+;_______________________________________________________________________________
+======wireless# microphone*.z//wireless# mike*.z/FM# microphone*.z/
+microphone* sans#R fil#.My/micro* sans#R fil#.My/
+======*Vega#-Mike# wireless# microphone*.®z//|product-of¤Vega-Mike|
+======*Budelman# wireless# microphone*.®z//|product-of¤Budelman|
+======*Sony#® CR#®-6#® microphone*.z//CR6.®z/CR#-6*.¹®z/
+microphone* Sony#® CR#®-6#®.My/|product-of¤Sony|
+=======spy# microphone*.z//bug.¹z/listening# device*.z/micro* clandestin*A.My/
+;_______________________________________________________________________________
+======lavaliere# microphone*.z//lapel# microphone*.z/
+======*RCA#® BK#®-6B#® microphone*.z/dynamic-microphone/BK6B.®z/BK#-6B*.¹®z/
+microphone* RCA#F® BK#®-6B#®.My/|product-of¤RCA|omnidirectional|
+======*RCA#® BK#®-12A#® microphone*.z/dynamic-microphone/BK12A.®z/BK#-12A*.¹®z/
+microphone* RCA#F® BK#®-12A#®.My/|product-of¤RCA|omnidirectional|
+======*Electro#®-Voice#® 649A#® microphone*.z/dynamic-microphone/649A.¹®z/
+microphone* Electro#®-Voice#® 649A#®.My/|product-of¤EV|omnidirectional|
+;_______________________________________________________________________________
+======hanging# microphone*.z//
+;_______________________________________________________________________________
+======stand# microphone*.z//
+======*Shure#® 55#® Unidyne#® II#® microphone*.z/dynamic-microphone/
+Unidyne.¹®z/II.¹®z/55.¹®z/microphone* Shure#® 55#® Unidyne#® II#®.My/
+|product-of¤Shure|
+======*Shure#® 55SH#® Series#® II#® microphone*.z/dynamic-microphone/
+II.¹®z/55SH.¹®z/microphone* Shure#® 55SH#® Series#C® II#®.My/|product-of¤Shure|
+;_______________________________________________________________________________
+======desk# microphone*.z/stand-microphone/desk# mike*.z/
+======*Shure#® SM56#® Unidyne#® microphone*.z//Unidyne.¹®z/SM56.¹®z/
+microphone* Shure#® SM56#® Unidyne#®.My/|product-of¤Shure|
+======*Shure#® SM57#® microphone*.z/dynamic-microphone/57.T®z/SM57.¹®z/
+microphone* Shure#® SM57#®.My/|product-of¤Shure|cardioid|
+======*Shure#® Beta#® 57#® microphone*.z/dynamic-microphone/Beta# 57*.¹®z/
+microphone* Shure#® Beta#® 57#®.My/|product-of¤Shure|supercardioid|
+======*Shure#® 545#® microphone*.z/dynamic-microphone/Unidyne.¹®z/III.¹®z/
+545.¹®z/Shure#® Unidyne#® III#® microphone*.z/microphone* Shure#® 545#®.My/
+microphone* Shure#® Unidyne#® III#®.My/|product-of¤Shure|cardioid|
+======*RCA#® BK#®-1A#® microphone*.z/dynamic-microphone/BK1A.®z/BK#-1A*.¹®z/
+microphone* RCA#F® BK#®-1A#®.My/|product-of¤RCA|omnidirectional|
+======*RCA#® 77#®-DX#® microphone*.z/boom-microphone,ribbon-microphone/
+77DX.®z/77#-DX*.¹®z/microphone* RCA#F® 77#®-DX#®.My/|product-of¤RCA|cardioid|
+;_______________________________________________________________________________
+======hand# microphone*.z/desk-microphone/hand# mike*.z/microphone* main#F.My/
+micro* main#F.My/
+======*AKG#® D70#® S#® microphone*.z//microphone* AKG#® D70#® S#®.My/D70S.®z/
+D70#-S*.¹®z/|product-of¤AKG|
+======*Electro#®-Voice#® RE10#® microphone*.z/dynamic-microphone/RE#-10*.®z/
+RE10.¹®z/microphone* Electro#®-Voice#® RE10#®.My/|product-of¤EV|supercardioid|
+======*Electro#®-Voice#® RE15#® microphone*.z/dynamic-microphone/RE#-15*.®z/
+RE15.¹®z/microphone* Electro#®-Voice#® RE15#®.My/|product-of¤EV|supercardioid|
+======*Electro#®-Voice#® RE50#® microphone*.z/dynamic-microphone/RE#-50*.®z/
+RE50.¹®z/microphone* Electro#®-Voice#® RE50#®.My/|product-of¤EV|omnidirectional|
+======*Electro#®-Voice#® RE55#® microphone*.z/dynamic-microphone/RE#-55*.®z/
+RE55.¹®z/microphone* Electro#®-Voice#® RE55#®.My/|product-of¤EV|omnidirectional|
+======*Electro#®-Voice#® 631B#® microphone*.z/dynamic-microphone/631B.¹®z/
+microphone* Electro#®-Voice#® 631B#®.My/|product-of¤EV|omnidirectional|
+======*Electro#®-Voice#® 635A#® microphone*.z/dynamic-microphone/635A.¹®z/
+microphone* Electro#®-Voice#® 635A#®.My/|product-of¤EV|omnidirectional|
+======*Electro#®-Voice#® 655C#® microphone*.z/dynamic-microphone/655C.¹®z/
+microphone* Electro#®-Voice#® 655C#®.My/|product-of¤EV|omnidirectional|
+======*Sennheiser#® MD#® 421#® microphone*.z/dynamic-microphone/MD# 421*.®z/
+MD421.¹®z/microphone* Sennheiser#® MD#® 421#®.My/|product-of¤Sennheiser|
+cardioid|
+=======*Sennheiser#® MD#® 421U#® microphone*.z//MD# 421U*.®z/MD421U.¹®z/
+microphone* Sennheiser#® MD#® 421U#®.My/
+======*Sennheiser#® BF530#® microphone*.z/dynamic-microphone/BF# 530*.®z/
+BF530.¹®z/
+microphone* Sennheiser#® BF530#®.My/|product-of¤Sennheiser|supercardioid|
+======*Shure#® SM58#® microphone*.z/dynamic-microphone/58.T®z/SM58.¹®z/
+microphone* Shure#® SM58#®.My/|product-of¤Shure|cardioid|
+======*Shure#® Beta#® 58#® microphone*.z/dynamic-microphone/Beta# 58*.¹®z/
+microphone* Shure#® Beta#® 58#®.My/|product-of¤Shure|supercardioid|
+======*Shure#® SM60#® microphone*.z//SM60.¹®z/microphone* Shure#® SM60#®.My/
+|product-of¤Shure|
+======*Neumann#® U64#® microphone*.z//U64.¹®z/microphone* Neumann#® U64#®.My/
+|product-of¤Neumann|
+;_______________________________________________________________________________
+======boom# microphone*.z//boom# mike*.z/
+======*Electro#®-Voice#® 642#® microphone*.z/dynamic-microphone/642.¹®z/
+microphone* Electro#®-Voice#® 642#®.My/|product-of¤EV|cardioid|
+======*Electro#®-Voice#® 666#® microphone*.z/desk-microphone,dynamic-microphone/666.¹®z/
+microphone* Electro#®-Voice#® 666#®.My/|product-of¤EV|cardioid|
+======*RCA#® BK#®-5A#® microphone*.z/ribbon-microphone/BK5A.®z/BK#-5A*.¹®z/
+microphone* RCA#F® BK#®-5A#®.My/|product-of¤RCA|cardioid|
+======*Shure#® SM5#® microphone*.z/dynamic-microphone/SM5.¹®z/
+microphone* Shure#® SM5#®.My/|product-of¤Shure|cardioid|
+;_______________________________________________________________________________
+===electronic-component-contact//contact.z/plot.My/
+;_______________________________________________________________________________
+===cable.z//câble.My/
+====one#A-conductor# cable*.z//wire.z/
+====two#A-conductor# cable*.z//
+=====grounded#A two#A-conductor# cable*.z//
+======power# cord*.z//
+===electronic#A pin*.z//pin.z/broche.Fy/
+;_______________________________________________________________________________
+===electrical#A connector*.z//connector.z/
+connection# technology*,connectivity.Îz/cabling.Îz/
+connecteur* électrique*A.My/fiche,prise.Fy/connecteur.My/jack.Mqy/
+connectique.ÎFy/
+; sources on connector usage:
+; Radio Shack, Full Compass, USA: plug=male, jack=female
+; St. Quentin Radio, France: jack=female or cable-mounted male or female
+; connector. Le Nouveau Petit Robert: jack=male (wrong?)
+;_______________________________________________________________________________
+====female#A connector*.z//jack.z/fiche* femelle*A,prise* femelle*A.Fy/
+connecteur* femelle*A.My/
+=====scart# socket*.z//prise* Péritel#C®.Fy/prise* Péritel#C® femelle*A.Fy/
+=====female#A BNC# connector*.z//BNC# jack*,BNC# connector*.z/
+fiche* BNC*A femelle*A,fiche* BNC*A.Fy/connecteur* BNC*A femelle*A,connecteur* BNC*A.My/
+=====female#A F# connector*.z//F# jack*,F# connector*.z/
+fiche* "F#Mß" femelle*A,fiche* "F#M".Fy/
+connecteur* "F*" femelle*A,connecteur* "F*".My/
+=====female#A phone# connector*.z//phone# jack*,phone# connector*.z/
+fiche* femelle*A 6#\,35mm*ßA,fiche* 6#\,35mm*.Fy/
+connecteur* femelle*A 6#\,35mm*A,connecteur* 6#\,35mm*A.My/
+=====female#A RCA# connector*.z//RCA# jack*,RCA# connector*.z/
+female#A phono# connector*,phono# jack*,phono# connector*.z/
+fiche* RCA*A femelle*A,fiche* RCA*A.Fy/
+connecteur* RCA*A femelle*A,connecteur* RCA*A.My/
+=====female#A XLR# connector*.z//XLR# connector*.z/
+female#A Cannon# connector*,Cannon# connector*.z/
+fiche* XLR*Cß femelle*A,fiche* XLR*C.Fy/
+connecteur* XLR*C femelle*A,connecteur* XLR*C.My/
+fiche* Cannon#M femelle*A,fiche* XLR*C.Fy/
+connecteur* Cannon#M femelle*A,connecteur* Cannon#M.My/
+=====female#A television# connector*.z//fiche* télévision* femelle*A.Fy/
+prise* d#R'antenne#.Fy/antenna# jack*,antenna# connector*,antenna# terminal*.z/
+=====AC# outlet*.z//power# outlet*,outlet,power# socket*,socket.z/
+prise* de#R courant#M.Fy/
+======two#A-prong# AC# outlet*.z//
+fiche* femelle*A américaine*A à#R deux#A broches#P.Fy/
+prise* américaine*A à#R deux#A broches#P.Fy/|us|
+======three#A-prong# AC# outlet*.z//grounded#A AC# outlet*.z/
+fiche* femelle*A américaine*A à#R trois#A broches#P.Fy/
+prise* américaine*A à#R trois#A broches#P.Fy/|us|
+======two#A-prong# French#A AC# outlet*.z//
+fiche* femelle*A à#R deux#A broches#P.Fy/
+prise* à#R deux#A broches#P.Fy/|fr|
+======three#A-prong# French#A AC# outlet*.z//grounded#A French#A AC# outlet*.z/
+fiche* femelle*A à#R trois#A broches#P.Fy/prise* à#R trois#A broches#P.Fy/|fr|
+;_______________________________________________________________________________
+====male#A connector*.z//plug.z/fiche* mâle*A,prise* mâle*A.Fy/
+connecteur* mâle*A.My/
+=====scart# plug*.z//prise* Péritel#C®.Fy/prise* Péritel#C® mâle*A.Fy/
+=====male#A BNC# connector*.z//BNC# plug*,BNC# connector*.z/
+fiche* BNC*A mâle*A,fiche* BNC*A.Fy/
+connecteur* BNC*A mâle*A,connecteur* BNC*A.My/
+=====male#A F# connector*.z//F# plug*,F# connector*.z/
+fiche* "F#M" mâle*A,fiche* "F#M".Fy/connecteur* "F*" mâle*A,connecteur* "F*".My/
+=====male#A phone# connector*.z//phone# plug*,phone# connector*.z/
+fiche* mâle*A 6#\,35mm*A,fiche* 6#\,35mm*A.Fy/
+connecteur* mâle*A 6#\,35mm*A,connecteur* 6#\,35mm*A.My/
+=====male#A RCA# connector*.z//RCA# plug*,RCA# connector*.z/
+male#A phono# connector*,phono# plug*,phono# connector*.z/
+fiche* RCA*A mâle*A,fiche* RCA*A.Fy/
+connecteur* RCA*A mâle*A,connecteur* RCA*A.My/
+=====male#A XLR# connector*.z//XLR# connector*.z/
+male#A Cannon# connector*,Cannon# connector*.z/
+fiche* XLR*C mâle*A,fiche* XLR*C.Fy/
+connecteur* XLR*C mâle*A,connecteur* XLR*C.My/
+fiche* Cannon#M mâle*A,fiche* XLR*C.Fy/
+connecteur* Cannon#M mâle*A,connecteur* Cannon*C.My/
+=====male#A television# connector*.z//fiche* télévision* mâle*A.Fy/
+prise* d#R'antenne#.Fy/antenna# plug*,antenna# connector*,antenna# terminal*.z/
+;_______________________________________________________________________________
+=====AC# plug*.z//power# plug*,plug.z/prise* de#R courant#M.Fy/
+======two#A-prong# AC# plug*.z//
+fiche* mâle*A américaine*A à#R deux#A broches#P.Fy/|us|
+======three#A-prong# AC# plug*.z//grounded#A AC# plug*.z/
+fiche* mâle*A américaine*A à#R trois#A broches#P.Fy/|us|
+======two#A-prong# French#A AC# plug*.z//
+fiche* mâle*A à#R deux#A broches#P.Fy/|fr|
+======three#A-prong# French#A AC# plug*.z//grounded#A AC# plug*.z/
+fiche* mâle*A à#R trois#A broches#P.Fy/|fr|
+;_______________________________________________________________________________

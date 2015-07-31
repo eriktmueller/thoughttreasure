@@ -1,0 +1,1561 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=clothing.mz/personal-article/clothes.¹Pïz/apparel,wear,attire,dress.¹mz/
+fashion,style.z/garment.¹z/getup.Tz/garb.¹Tmz/gear.Tmz/threads.TPïz/
+rags.aPïz/
+wearing# apparel*.mz/dressing,garmenture,array,habit,guise,toilette,trim.qz/
+vestment,vesture.oz/investment,investiture,bedizenment.qoz/
+robing,robe,drapery.qz/
+toggery.Tqz/togs,duds.TqPïz/raiment.qtz/habiliments,feathers,linens.qPïz/
+fig.qgz/wardrobe.¹z/
+furnishings,things,accouterments,accoutrements,trappings.qPïz/
+turnout,rig.Tqz/livery,caparison.qz/vestmental.Aqz/clobber.qagmz/
+vêtement.¹My/habit,ajustement,costume,habillement.My/tenue.¹Fy/
+garde#V-robe*,toilette.Fy/mise.qFy/affaires.qFPïy/effets.oMPïy/
+équipage,accoutrement.oMy/allure.qFy/look.qjMy/
+fringues,nippes.TFPïy/frusques.ThFPïy/pelure.TmFy/sape.aFy/
+équipement,trousseau.qMy/
+vêture.otmFy/parure.oFy/|free-object|
+;_______________________________________________________________________________
+; Many clothing words found in Chapman (1992) and
+; Corbeil and Archambault (1992).
+;_______________________________________________________________________________
+=-target# wearer*.z//
+===menswear.mz//men#P's clothing*.mz/men#P's wear*.mz/vêtement* d#R'homme#.My/
+vêtement* pour#R hommes#P.¹My/sartorial.Aqz/
+===womenswear.mz//women#P's clothing*.mz/women#P's wear*.mz/
+vêtement* de#R femme#F.My/
+vêtement* pour#R femmes#FP.¹My/vêtement* pour#R dames#FP.My/chiffons.TMPïy/
+atours.otMPïy/
+===uniwear.mz//unisex#A clothing*.mz/vêtement* unisexe*A.¹My/
+===children#P's wear*.mz//children#P's clothing*.mz/baby#S clothes*.Pïz/
+layette.qz/
+vêtement* d#R'enfant#.My/vêtement* pour#R enfants#P.¹My/layette.Fy/
+====infants-wear//infants#P's wear*.mz/baby# linen*,swaddle.mz/
+swaddling#S clothes*.Pïz/
+;_______________________________________________________________________________
+=-custom#A-ready#A-to#R-wear#V distinction*.z//
+===custom#A-made#V clothing*.mz//
+tailored,custom#A-made#V,custom#A-tailored#V.Az/tailor#N-made#V.Az/
+bespoke,bespoken.gAz/vêtements* sur#R mesure#FS.¹MPïy/
+===ready#A-to#R-wear#V clothes*.Pïz//ready#A-to#R-wear#V ½.z/ready#A-made#V ½.z/
+store#S clothes*,store#S-bought#V clothes*.Pïz/
+ready#A-made#V,store#N-bought#V,ready#A-to#R-wear#V.Az/prêt*A-à#R-porter#V.¹My/
+confection.oFy/
+;_______________________________________________________________________________
+=-newness* of#R clothes#P.z//
+===new# clothes*.Pïz//
+===secondhand#A clothes*.Pïz//tatters,slops.qPïz/
+used#A clothes*,old#A clothes*,worn#A clothes*.Pïz/
+used#A clothing*.mz/
+hand#V-me#HS-down#R ½s.PTïz/reach#V-me#HS-down#R ½s.qPTïz/
+thrift#S shop#S clothes*.Pïz/
+thriftshop#S clothes*.Pïz/fripe.¹hFy/oripeaux.MPïy/vêtement* d#R'occasion#F.My/
+vêtement* usé*A.My/
+====guenilles* clinquantes*A.FPïy//flashy#A rags*,showy#A rags*.Pïz/
+oripeaux.MPïy/
+====rags.Pïz//rags* and#K tatters*.qPïz/frippery.qz/fripes.FPïy/hardes.hFPïy/
+guenilles.FPïy/frusques.ThFPïy/haillon.My/loque.hFy/nippe.hFy/défroque.Fy/
+vêtement* en#R loques#FP.My/
+;_______________________________________________________________________________
+=-formality* of#R clothes#P.z//
+===formal#A dress*.mz//evening#A dress*.¹mz/full#A dress*,regalia.mz/
+dress#A suit*,dinner# suit*.qz/evening# suit*,full#A-dress# suit*.qz/
+formals.qPïz/dinner#S clothes*.qPïz/soup*-and#K-fish*.aqz/
+court# dress*,dress#A uniform*,full#A-dress# uniform*.qmz/
+special#A full#A-dress# uniform*,social#A full#A-dress# uniform*.qmz/
+dinner# dress*.qmz/tenue* de#R soirée#.¹Fy/
+tenue* de#R cérémonie#,tenue* de#R gala#M.Fy/
+habit* de#R cérémonie#F,habit* de#R gala#,habit* de#R soirée#F.My/
+smoking.My/frac.My/
+====white#-tie#N.Az//tails.Pïz/white#A tie#S and#K tails*.¹Pïz/
+queue*-de#R-pie#.¹Fy/queue,queue*-de#R-morue#.Fy/habit.My/habillé.Ay/
+====black#-tie#N.Az//
+===best#A clothes*.Pïz//fancy#A dress*.¹mz/party# dress*.mz/
+festive#A clothes*.Pïz/finery,frippery.qz/
+fine#A feather*,full#A feather*,best#A bib* and#K tucker*.Tqz/
+Sunday# best#B.Tqz/
+Sunday#S clothes*,Sunday#S-go#V-to#R-meeting#S clothes*.TqPïz/
+Sunday#S-go#V-to#R-meetings*.TqPïz/glad#A rags*.aqPïz/full#A fig*.gz/
+===sport#S clothes*.ÀPïz//sports# clothes*.Pïz/sportswear.mz/
+tenue* de#R sport#M.Fy/sportwear,sportswear.My/vêtement* sport*ßA.My/
+====sports#P suit*.z/suit/casual#A suit*,sport# suit*.z/
+===smart#A casual#A clothes*.Pïz//smart#A casual#A dress*.mz/
+smart# casual#.Az/
+===casual#A clothes*.Pïz//casual#A dress*.mz/casual.Az/
+|clothing-top|clothing-middle|clothing-bottom|
+===come#V as#K you#H are#VP clothes*.Pïz//come#V as#K you#H are#VP.Az/
+;_______________________________________________________________________________
+=-civilian#A-military#A clothing# distinction*.z//
+===civilian#A clothes*.Pïz//mufti.z/civilian#A dress*.mz/civvies,cits.TqPïz/
+plain#A clothes*,street#S clothes*.Pïz/vêtement* civil*A.My/
+===military#A clothes*.Pïz//vêtement* militaire*A.My/
+====armor.z//harness.oz/|clothing-top|clothing-middle|clothing-bottom|
+;_______________________________________________________________________________
+=-nonstandard#A clothing*.z//
+===odd#A clothing*.mz//accoutrement.¹My/vêtement* ridicule*A.My/défroque.Fy/
+affublement.tMy/harnachement,fagotage.My/attifement.hTMy/getup.Tz/
+rig#V-out#R ½.Tgz/
+===cache-misere//cache#V-misère#F.ßMy/
+item* of#R good#A clothing# usedÝuse#V to#R cover#V worn#A clothes#P.z/
+;_______________________________________________________________________________
+=-situation* for#R clothing#.z//
+===mourning#S clothes*.Pïz//vêtement* de#R deuil#.My/
+===sportswear.mz//tenue* d#R'exercice#M.Fy/
+===wedding#S clothes*.Pïz//bridal#A outfit*.z/trousseau.z/trousseau.My/
+|clothing-top|clothing-middle|clothing-bottom|
+===work#S clothes*.Pïz//|clothing-top|clothing-middle|clothing-bottom|
+;_______________________________________________________________________________
+==spacesuit.z//combinaison* spatiale*A.Fy/
+;_______________________________________________________________________________
+==wearable.z/electronic-device/
+===wearable#A computer*.z/computer/
+;_______________________________________________________________________________
+==outfit.z//ensemble.¹My/
+;_______________________________________________________________________________
+===costume.z//character# dress*.mz/
+disguise.z/outfit,rig,masquerade.qz/getup.Tz/
+motley,cap* and#K bells#P,buskin,sock.qz/costume,déguisement.My/
+costumé,déguisé.Ay/|clothing-top|clothing-middle|clothing-bottom|
+;_______________________________________________________________________________
+===uniform.z//livery.qz/uniforme.My/
+|clothing-top|clothing-middle|clothing-bottom|
+====dress-blues//dress#A bluesÝblue*.Pïz/
+====dress#A whites*.Pïz//
+====fatigues.Pïz/military-clothes/fatigue# clothing*.mz/fatigue#S clothes*.Pïz/
+treillis.My/
+====full#A dress*.mz/military-clothes/grande*A tenue*.Fy/
+====khaki.z/military-clothes/kaki.ßMy/|khaki-color|
+====olive#A drabs*.Pïz/military-clothes/OD.z/vert* d#R'armée#F.My/
+====regimentals.Pïz/military-clothes/uniforme.My/
+====sailor# suit*.z/military-clothes/costume* marin*A.My/
+====soldier# suit*.z/military-clothes/
+====uniform-blues/military-clothes/bluesÝblue.Pïz/
+====uniform-continentals//continentals.Pïz/
+=====camouflage#S fatigues*.Pïz//tenue* de#R camouflage#M.Fy/
+====uniform-nauticals//nauticals.Pïz/
+====uniform-stripes/military-clothes/stripes.Pïz/galons.MPïy/
+====uniform-undress//undress.z/
+====uniform-whites//whites.Pïz/
+=====cricket#S whites*.Pïz//tenue* de#R cricket#M.Fy/
+=====tennis#S whites*.Pïz//tenue* de#R tennis#M.Fy/
+=====chef-whites//chef#S's whites*.Pïz/tenue* de#R chef#M-cuisinier#M.Fy/
+;_______________________________________________________________________________
+===suit.z//suit* of#R clothes#P.qz/frock,dress,costume,habit.qz/
+bib* and#K tucker*,rig.Tqz/tenue* de#R ville#.¹mFy/
+|clothing-top|clothing-middle|clothing-bottom|
+;_______________________________________________________________________________
+====bathing# suit*.z/sportswear/swim# suit*,swimsuit,swimming# suit*,swimsuit.z/
+tank# suit*.qz/maillot.qjz/wet#A suit*.z/costume* de#R bain#.oMy/
+maillot* de#R bain#.My/
+=====swimming#S trunks*.Pïz/menswear/trunks.¹Pïz/slip* de#R bain#.My/
+=====*Speedo#S® trunks*.Pïz//|product-of¤Speedo|nylon|red|
+us-size-of=clothing-size-S|made-in=country-USA|
+=====*Gotcha#S® trunks*.Pïz//|polyester=42pc|cotton=22pc|nylon=36pc|
+us-size-of=28u|made-in=country-TWN|black=40pc|yellow=30pc|white=30pc|large-stripes|
+=====bikini.z/womenswear/bikini.My/
+=====two#A-piece# swimsuit*.z//two#A-piece*.z/deux#A pièces#FP.ßMy/
+=====monokini.z/womenswear/topless#A swimsuit*.z/monokini.My/
+;_______________________________________________________________________________
+====boiler# suit*.gz/work-clothes/overall.z/
+====suit-creepers/children-s-wear/creepers.Pïz/
+====ensemble.z//
+====foul#A-weather# suit*.z//
+====jump# suit*.z//jumpsuit.z/combinaison*-pantalon#M ½.Fy/
+=====baby#'s jump# suit*.z/children-s-wear/jumpsuit.z/grenouillère.Fy/
+=====child#'s jump# suit*.z/children-s-wear/jumpsuit.z/combinaison.Fy/
+====layette.z/children-s-wear/
+====leotard.z/sportswear/justaucorps.My/body.My/
+;_______________________________________________________________________________
+====men#P's suit*.z/formal-dress,menswear/dress#A suit*,business# suit*.z/
+complet,costume.My/costard.TMy/
+=====two#A-piece# suit*.z//deux#A pièces#FP.ßMy/
+======single#A-breasted#A two#A-piece# suit*.z//costume* droit*A.My/
+======*costume* droit*A en#R laine#F De#R Fursac#C®.My//|wool|yellow=34pc|
+light-brown=33pc|dark-brown=33pc|fine-weave|
+======double#A-breasted#A two#A-piece# suit*.z//costume* croisé*A.My/
+======*costume-croise-en-laine-d-Ermenegildo-Zegna//
+costume* croisé*A en#R laine#F d#R'Ermenegildo# Zegna#®C.My/
+double#A-breasted#A two#A-piece# Ermenegildo# Zegna#®C suit*.z/
+|wool|worsted|super-100-S|black=99pc|red=1pc|fr-size-of=46u|@19930904|tp=8450F|
+======*costume-croise-en-laine-De-Fursac//
+double#A-breasted#A two#A-piece# De#Rj Fursac#®C suit*.z/
+costume* croisé*A en#R laine#F De#R Fursac#C®.My/
+|wool|black=30pc|dark-gray=70pc|
+=====three#A-piece# suit*.z//trois#A pièces#FP.ßMy/
+costume* trois#A pièces#FP.My/
+======single#A-breasted#A three#A-piece# suit*.z//costume* droit*A.My/
+======*costume* droit*A de#R Gianfranco#M Ferre#C®.My//|black|pin-stripe|wool|
+======double#A-breasted#A three#A-piece# suit*.z//costume* croisé*A.My/
+;_______________________________________________________________________________
+====mod#A suit*.z//
+====morning# suit*.z//
+====one#A-piece# suit*.z//
+====pants#P suit*.z//
+====rain# suit*.z//
+====riding# habit*.mz//
+=====women#P's riding# habit*.mz//amazone.Fy/tenue* d#R'amazone#.Fy/
+riding#-coat*.y/
+====rompers.Pïz/children-s-wear/jumpers.Pïz/barboteuse.Fy/
+====sack# suit*.z//
+====separates.Pïz//
+====shirtwaist# suit*.z//
+====ski# suit*.z//
+====suit-combination//combination.z/
+====summer# suit*.z//
+====sun# suit*.z//
+====sweat# suit*.z/sportswear/sweatsuit.z/training# suit*.z/survêtement.My/
+=====training# set*.z/children-s-wear/tenue* d#R'exercice#M.Fy/
+====tailored#A suit*.z//
+====town#-and#K-country# suit*.z//
+====track# suit*.z/sportswear/tracksuit,overgarment.z/survêtement.My/jogging.My/
+survêt.TMy/training.My/
+====tropical#A suit*.z//
+====tuxedo.Àz//tux.ÀTz/dinner# jacket*.gz/DJ.Tgz/smoking.My/smok.TMy/
+;_______________________________________________________________________________
+====women#P's suit*.z/formal-dress,womenswear/lady#'s suit*,business# suit*.z/
+tailleur.My/
+=====tailleur* Chanel*ß®.My//
+=====pant#-suit*.Àz//trouser# suit*.gz/tailleur*-pantalon*.My/
+;_______________________________________________________________________________
+====zoot# suit*.qz//
+;_______________________________________________________________________________
+==overgarment.z//cloak.¹z/manteau.oz/
+|clothing-top|clothing-middle|clothing-bottom|overlayerpost|height-of=1m|
+===academic#A gown*.z//academic#A robe*.z/academic#A hood*.z/
+===afghan.z//
+===bachelor#'s gown*.z//
+===burnoose.z//burnous.z/burnous.My/
+===cape.z//cape.Fy/
+===caftan.z//
+===cardinal.z//
+===cassock.z//
+===chlamys.oz//chlamyde.oFy/
+===dalmatic.oz//dalmatique.oFy/
+===doctor#'s gown*.z//
+===duster.z//
+===gaberdine.z//
+===haik.z//
+===himation.oz//himation.oMy/
+===houppelande.z//houppelande.Fy/
+===Iverness# cape*.z//
+===Japanese#A kimono*.z//kimono.z/kimono.My/
+===judge#'s robe*.z//judge#'s gown*.z/
+===mantelet.z//short#A cape*.z/mantelet.My/
+===mantelletta.z//
+===mantellone.z//
+===overgarment-mantilla//mantilla.z/mantille.qFy/
+===mantle.z//
+===master#'s gown*.z//
+===military#A cloak*.z//
+===monk#'s robe*.z//
+===mozzetta.z//
+===opera# cloak*.z//
+===opera# cape*.z//
+===overgarment-blouse//blouse.z/
+===overgarment-capote//capote.z/
+===overgarment-cashmere//cashmere.z/
+===overgarment-domino//domino.z/
+===overgarment-frock//frock.z/
+===overgarment-kirtle//kirtle.z/
+===overgarment-manta//manta.z/
+===overgarment-mantua//mantua.z/
+===overgarment-plaid//plaid.z/
+===overgarment-robe//robe.z/
+===overgarment-sagum//sagum.z/
+===overgarment-smock//smock.z/
+===overgarment-stole//stole.z/
+===overgarment-tabard//tabard.z/
+===overgarment-tippet//tippet.z/
+===overgarment-tunic//tunic.oz/tunique.oFy/
+===overgarment-wrap-around//wrap#V-around*R.z/wrapper,wrap#V-up#R ½.z/
+====chiton.oz//chiton.oMy/
+====bliaut.oMz//bliaud.oMy/
+===pallium.z//
+===pelerine.z/womenswear/pèlerine.Fy/
+===pelisse.z/fur-coat/pelisse.Fy/
+===peplos.oz/womenswear/peplum.z/péplos,péplum.oMy/
+===poncho.z//poncho.My/
+===roquelaure.z//
+===serape.z//
+===shawl.z//châle.My/
+====cashmere#A shawl*.z//
+===shoulderette.z//
+===slop.z//
+===smock# frock*.z//
+===soutane.z//
+===surcoat.oz//surcot.oMy/cotte.oFy/
+===talma.z//
+===toga.z//toge.Fy/
+====toga* virilis#.z//
+;_______________________________________________________________________________
+==overcoat.z//coat.z/greatcoat,surcoat.qz/pardessus.My/manteau.My/
+|clothing-top|clothing-middle|clothing-bottom|overlayer|height-of=1m|
+===anorak.z/sportswear/anorak,Anorak.My/
+===benjamin.z//
+===Burberry.z//
+===clerical#A overcoat*.z//douillette.Fy/
+===cloth#A coat*.z//
+===dreadnought.z//
+===fearnought.z//
+===fur#A coat*.z//manteau* de#R fourrure#F.My/
+====fur#-lined#A coat*.z//
+====fur#-trimmed#A coat*.z//
+===Iverness.z//
+===long#A coat*.z//
+===oilskins.Pïz//
+===paletot.z//three#A-quarter#A coat*.z/paletot.My/caban.My/
+===raglan.z/womenswear/raglan.My/
+===raincoat.z//mackintosh,mac.gz/imperméable.¹My/imper.TMy/caoutchouc.My/
+mackintosh.oMy/
+====cire//ciré.My/
+====gabardine.Fy//
+===slicker.z//
+===overcoat-slip-on//slip#V-on*R.z/
+===snowsuit.z/children-s-wear/esquimau.My/
+===sou#A'wester*.z//
+===surtout.z//
+===topcoat.z//top# coat*.z/redingote.Fy/
+===ulster.z//
+===waterproof#A coat*.z//waterproof.gz/
+===wrap#V-around*R.z//
+===wraprascal.z//
+===wet#A weathers*.Pïz//
+===men#P's overcoat*.z/menswear/
+===*Mani#® by#R Giorgio# Armani#® overcoat*.z//|made-in=country-ITA|black=80pc|
+white=20pc|splotches|
+===*pardessus* de#R Daniel#® Hechter#®.My//|fr-size-of=46u|dark-brown|
+cotton=44pc|skin-material-resin=6pc|viscose=27.5pc|acetate=22.5pc|
+====trench# coat*.z//trench#-coat*.My/trench.¹My/
+===women#P's overcoat*.z/womenswear/overcoat.¹z/manteau.¹My/
+===overcoat-capote//capote.z/
+===overcoat-chesterfield//chesterfield.z/
+===overcoat-duster//duster.z/
+===overcoat-tarpaulin//tarpaulin.z/
+;_______________________________________________________________________________
+==coat.z//manteau.My/|clothing-top|coatlayer|height-of=0.75m|
+==*Martine-coat//|owner-of=Martine|
+==*Dash#® coat*.z//|made-in=country-CAN|us-size-of=40u|black=90pc|white=10pc|
+==*Pere#® Mar#® coat*.z//|made-in=Korea|us-size-of=clothing-size-M|
+polyester=82.5pc|cotton=17.5pc|
+===bunting# bag*.z/children-s-wear/nid* d#R'ange#.My/
+===car# coat*.z/womenswear/paletot.My/caban.My/
+===claw#-hammer# coat*.z//claw#-hammer*.z/
+===coach# coat*.z//
+===coatee.z//
+===cutaway#A coat*.z//
+===cutaway.z//
+===dinner# coat*.z//
+===dolman.z//
+===dress#A coat*.z//
+===duffel# coat*.z/menswear/duffel.z/
+duffle#-coat*,duffel#-coat*.My/corvette.çFy/
+===fingertip# coat*.z//
+===fitted#A coat*.z//
+===frock.z//
+===frock# coat*.z//frac.My/frock.z/
+===kabig.My//
+===lab# coat*.z//
+===loden#A coat*.z//loden.My/
+===mackinaw# coat*.z//mackinaw.z/
+===mante.oFy/womenswear/
+===maxicoat.z//
+===midicoat.z//
+===morning# coat*.z/menswear/jaquette.Fy/
+===parka.z//parka.Fy/parka.çMy/
+===pea# jacket*.z/womenswear/peacoat.z/caban.My/vareuse.Fy/
+===pet*-en#R-l#D'air#.@oMïy/menswear/rase#V-pet*.oTMy/
+===Prince# Albert# coat*.z//Prince# Albert*.z/
+===quilted#A coat*.z/infants-wear/douillette.Fy/
+===redingote.oz//redingote.oFy/
+===reefer# jacket*.z//reefer.z/caban.My/
+===sack# coat*.z//sack.z/
+===sagum.oMy//saie.oFy/
+===service uniform blouse//blouse.qz/
+===sheepskin# jacket*.z//canadienne.Fy/
+===sleeve# waistcoat*.z//
+===spiketail.z//spiketail# coat*.z/
+===swagger# coat*.z//
+===tabard.z//
+===tail# coat*.z/menswear/swallow#-tailed#A coat*.z/swallowtail.z/tails.Pïz/
+frac.My/queue*-de#R-morue#,queue*-de#R-pie#.Fy/
+===trois#A-quarts*.MPïy//
+===watch# coat*.z//
+===white# coat*.z//|white|
+===work# coat*.Àz/work-clothes/overall.gz/
+===blouson.My//
+====windbreaker.Àz//windcheater.gz/blouson* long*A.My/
+====windcheater.gz//jacket.z/blouson* court*A.My/
+===coat-chesterfield//chesterfield.z/
+;_______________________________________________________________________________
+==jacket.z//jupe.îqz/chaqueta.jz/veste.¹Fy/|clothing-top|jacketlayer|
+height-of=.7m|
+===blazer.z//blazer.My/
+===bolero.z//boléro.My/
+===body# coat*.z//
+===bomber# jacket*.z//
+===capuchin.z//
+===dinner# jacket*.z//
+===jacket-doublet//doublet.z/
+===dressing# jacket*.z//
+===Eisenhower# jacket*.z//
+===Eton# jacket*.z//
+===jaquette.oFy//jacket.oz/
+===jean# jacket*.z//denim# jacket*.z/blouson* denim#.My/
+===jerkin.z//
+===lounging# jacket*.z//
+===Mao# jacket*.z//
+===mess# jacket*.z//
+===monkey# jacket*.z//
+===motorcycle# jacket*.z//perfecto.y/
+====black#A-leather# motorcycle# jacket*.z//|black-leather|
+=====secondhand#A black#A-leather# motorcycle# jacket*.z/secondhand-clothes/
+perfecto* de#R fripes#FP en#R cuir# noir#A.My/
+======perfecto* de#R fripes#FP en#R cuir# noir#A de#R Kili#® Watch#®.My//
+===Nehru# jacket*.z//
+===Norfolk# jacket*.z//
+===pilot# jacket*.z//
+===safari# jacket*.z//saharienne.Fy/
+===san#A benito*.z//sanbenito.z/
+===shell# jacket*.z//
+===shooting# jacket*.z//
+===ski# jacket*.z//
+===smoking# jacket*.z//
+===spencer.z//spencer.My/
+===sport#A coat*.z//
+===tuxedo# jacket*.z//tuxedo# coat*.z/
+===tweed#A jacket*.z//
+===woolly.z//woolen#A jacket*.z/
+===jacket-jumper//jumper.z/
+===men#P's sport#A jacket*.z/formal-dress,menswear/sport#A jacket*.¹z/
+sports#P jacket*.¹z/jacket,sportsjacket.z/veste* de#R sport#M.Fy/
+===*Giorgio#M Armani#C® jacket*.Fy//|olive-green=60pc|dark-brown=20pc|
+light-brown=20pc|herringbone|made-in=country-ITA|
+===*veste* droite*A d#R'Ermenegildo#M Zegna#®C.Fy//|wool|black=50pc|red=50pc|
+@19930904|tp=6190F|
+===*veste droite De Fursac B//|wool|black=34pc|dark-gray=33pc|gray=33pc|weave|
+===men#P's suit# jacket*.z/formal-dress,menswear/jacket.¹z/veston.My/
+====single#A-breasted#A jacket*.z//veste* droite*A.Fy/
+====*veste* droite*A de#R Gianfranco#M Ferre#C®.Fy//|black|pin-stripe|wool|
+part-of=costume-droit-de-Gianfranco-Ferre|
+====*veste* droite*A De#R Fursac#C®.Fy//
+=====*veste-droite-De-Fursac-A//|wool|yellow=34pc|
+light-brown=33pc|dark-brown=33pc|fine-weave|
+part-of=costume-droit-en-laine-De-Fursac|
+====double#A-breasted#A jacket*.z//veston* croisé*A.My/
+====*veston-croise-d-Ermenegildo-Zegna//
+veston* croisé*A d#R'Ermenegildo# Zegna#®C.My/
+double#A-breasted#A Ermenegildo# Zegna#®C jacket*.z/
+|wool|worsted|super-100-S|black=99pc|red=1pc|
+fr-size-of=46u|part-of=costume-croise-en-laine-d-Ermenegildo-Zegna|
+====*veston-croise-De-Fursac//veston* croisé*A De#R Fursac#C®.My/
+double#A-breasted#A De#Rj Fursac#®C jacket*.z/|wool|black=30pc|dark-gray=70pc|
+fr-size-of=46u|part-of=costume-croise-en-laine-De-Fursac|
+===women#P's jacket*.z/formal-dress,womenswear/jacket.¹z/veste.¹Fy/
+;_______________________________________________________________________________
+==vest.Àz/formal-dress,menswear/waistcoat.qz/waistcoat.gz/weskit.îz/gilet.My/
+|vestlayer|height-of=.7m|
+==*gilet* de#R Gianfranco#M Ferre#C®.My//|black|wool|
+part-of=costume-droit-de-Gianfranco-Ferre|
+;_______________________________________________________________________________
+==sweater.z//pull#V-on#R sweater*,pullover.z/pull.¹My/
+sous#R-pull*,pull#-over*.My/chandail.oMy/jersey,lainage,tricot.My/
+laine.TFy/sweater.My/gilet,cache#V-cÓur*.My/
+paletot.TMy/tricot.çMy/|clothing-top|vestlayer|height-of=.7m|
+===bulky.z//
+===cardigan.z//cardigan# jacket*.z/cardigan.My/
+===cashmere# sweater*.z//
+===crew#-neck# sweater*.z//ras*A-de#R-cou#.My/ras*A-de#R-le#D-cou#.My/
+ras*A-le#D-cou#.My/pull* ras#A de#R cou#.My/pull* ras#A du#R cou#.My/
+pull* ras#A le#D cou#.My/
+===desk# sweater*.z//
+===fisherman#'s sweater*.z//
+===hand#-knit*V.z//
+===knittie.z//
+===shell.z//
+===Shetland# pullover*.z//shetland.My/|Shetland-wool|
+====shetland-de-Faconnable//shetland# de#R Façonnable#®.My/
+pull#-over* en#R shetland# de#R Façonnable#®.My/
+===ski# sweater*.z//
+===sweater-slip-on//slip#V-on#R ½.z/
+===slipover.gz//sweater.z/débardeur.My/
+====debardeur-en-coton-chine-de-Chris-Mestdagh//
+débardeur* en#R coton# chiné#A de#R Chris#® Mestdagh#®.My/|chine-cotton|
+===sloppy#A Joe*.z//
+===sweatshirt.z/sportswear/sweat# shirt*,sweatshirt.z/
+sweat#-shirt*,sweatshirt,sweat.My/pull* d#R'entraînement#.My/
+===*Russell#® athletic#A sweatshirt*.z//|made-in=country-USA|cotton=50pc|
+polyester=50pc|light-gray|
+====hooded#A sweat# shirt*.z//hooded#A sweatshirt*.z/pull* à#R capuche#F.My/
+===topper.z//
+===turtleneck.z//turtleneck#A sweater*.z/col* roulé*A.My/pull* col* roulé*A.My/
+pull#-over* à#R col# montant#A.My/
+===twin#A-set*.z//twin#-set*.My/tandem.çMy/
+===V#-neck# cardigan*.z//V#-neck# sweater*.z/gilet* de#R laine#F.My/
+===sweater-bolero//bolero.z/
+===sweater-jersey//jersey.z/
+===sweater-shoulderette//shoulderette.z/
+==*Breffni#® Prince#® sweater*.z//|black=50pc|white=50pc|fabric-linen=52pc|
+cotton=48pc|made-in=country-IRL|us-size-of=clothing-size-M|triangles|
+==*pull* De#R Fursac#C®.My//|dark-gray=55pc|orange=10pc|red=10pc|amber=10pc|
+gray=5pc|white=5pc|violet=5pc|fr-size-of=48u|triangles|stripes|
+==*Ungaro#® Uomo#® sweater*.z//|dark-gray=70pc|gray=20pc|white=10pc|
+cotton=52pc|rayon=48pc|made-in=country-HKG|us-size-of=clothing-size-S|
+;_______________________________________________________________________________
+==shirt.z//top.z/chemise.¹Fy/limace.aFy/liquette.TFy/|clothing-top|shirtlayer|
+height-of=.7m|
+;_______________________________________________________________________________
+==*Martine-shirt//|owner-of=Martine|dark-blue|
+===baby#'s shirt*.z/children-s-wear/shirt.z/brassière.Fy/camisole.çFy/
+;_______________________________________________________________________________
+===blouse.z/womenswear/waist,shirtwaist.qz/overblouse.z/
+chemisier.My/corsage.¹My/blouse.Fy/casaquin.oMy/casaque.oFy/caraco.îMy/
+====caraco.oMy//loose#A blouse*.z/
+====middy# blouse*.Àz//middy.z/sailor# tunic*.gz/marinière.Fy/
+;_______________________________________________________________________________
+===bodice.z/womenswear/corsage,tunic,basque.z/corsage.My/
+===body# shirt*.z//corsage*-culotte#F ½.My/body# suit*.qz/
+;_______________________________________________________________________________
+===dress#A shirt*.z//
+====cotton#A dress#A shirt*.z//chemise* en#R coton#M.Fy/|cotton|
+====*chemise* en#R coton#M de#R Gianfranco#M Ferre#C®.Fy//
+====*chemise* blanche*A en#R coton#M d#R'Ermenegildo#M Zegna#®C.Fy//|cotton|
+white|fr-size-of=37u,14.5u|@19930904|tp=850F|
+====*chemise* rouge*A en#R coton#M d#R'Ermenegildo#M Zegna#®C.Fy//|cotton|red|
+fr-size-of=37u,14.5u|@19930904|tp=890F|
+====*chemise* noire*A en#R coton#M d#R'Ermenegildo#M Zegna#®C.Fy//|cotton|black|
+fr-size-of=37u,14.5u|@19930904|tp=850F|
+====*chemise* grise*A en#R coton#M d#R'Ermenegildo#M Zegna#®C.Fy//|cotton|gray|
+fr-size-of=37u,14.5u|@19930904|tp=850F|
+====*chemise* grise*A et#K blanche*A d#R'Ermenegildo#M Zegna#®C.Fy//
+|cotton|gray=70pc|white=30pc|crosshatch|fr-size-of=37u,14.5u|@19930904|tp=950F|
+====*Giorgio# Armani#® dress# shirt*.z//|white=80pc|burgundy=10pc|
+light-gray=10pc|stripes|us-size-of=14.5u,32¯33u|
+====*Austin#® Grey#® fitted#A shirt*.z//|white|cotton=70pc|polyester=30pc|
+made-in=country-HKG|us-size-of=14.5u,32¯33u|
+====*Alfani#® dress# shirt*.z//
+=====*Alfani-shirt-A//|white|cotton|made-in=country-HKG|us-size-of=15u,32¯33u|
+=====*Alfani-shirt-B//|white|cotton|made-in=country-HKG|us-size-of=14.5u,32¯33u|
+====*Cecilia#® Metheny#® shirt*.z//
+=====*Cecilia Metheny shirt A//|white=34pc|olive-green=33pc|violet=33pc|cotton|
+made-in=country-ITA|us-size-of=clothing-size-M|
+====*chemise* De#R Fursac#C®.Fy//
+=====*De-Fursac-shirt-A//|white|cotton|fr-size-of=38u|
+=====*De-Fursac-shirt-B//|blue=80pc|light-brown=20pc|cotton|crosshatch|
+fr-size-of=38u|made-in=country-FRA|
+=====*De-Fursac-shirt-C//|brown=50pc|light-brown=50pc|cotton=85pc|viscose=15pc|
+checker|fr-size-of=38u|
+=====*De-Fursac-shirt-D//|white=90pc|light-brown=5pc|brown=5pc|cotton=60pc|
+polyester=40pc|stripes|fr-size-of=38u|made-in=country-FRA|
+=====*De-Fursac-shirt-E//|light-blue|cotton|fr-size-of=38u|
+====*Perry#® Ellis#® Portfolio#® dress# shirt*.z//
+=====*Perry-Ellis-shirt-A//|white|cotton|made-in=country-USA|
+us-size-of=14.5u,32¯33u|
+=====*Perry-Ellis-shirt-B//|white|cotton|made-in=country-MNP|
+us-size-of=14.5u,32¯33u|
+=====*Perry-Ellis-shirt-C//|white|cotton|made-in=country-TWN|
+us-size-of=14.5u,32¯33u|
+=====*Perry-Ellis-shirt-D//|white|cotton|made-in=country-HKG|
+us-size-of=14.5u,32¯33u|
+=====*Perry-Ellis-shirt-E//|cotton|white=90pc|light-gray=5pc|
+light-blue=5pc|stripes|made-in=country-HKG|us-size-of=14.5u,32¯33u|
+fr-size-of=37u|
+=====*Perry-Ellis-shirt-F//|cotton|white=80pc|light-gray=15pc|red=5pc|stripes|
+made-in=country-HKG|us-size-of=15u,32¯33u|
+;_______________________________________________________________________________
+===long#A-sleeved#A casual#A shirt*.z/casual-clothes/
+===*Florenzi#® shirt*.z//|red|cotton|made-in=country-HKG|
+us-size-of=clothing-size-S|
+===*Woodhouse#® shirt*.z//|cotton|made-in=country-IND|
+us-size-of=clothing-size-M|floral|print|light-gray=30pc|pink=20pc|
+blue-green=30pc|brown=20pc|
+===*Bill#® Robinson#® shirt*.z//|cotton|made-in=country-HKG|
+us-size-of=clothing-size-S|
+gray=80pc|black=10pc|white=10pc|small-chevrons|large-crosshatch|
+;_______________________________________________________________________________
+===short#A-sleeved#A casual#A shirt*.z/casual-clothes/
+===*chemise* Lacoste#®.Fy//alligator# shirt*.z/
+====*chemise Lacoste A//|Dacron=50pc|combed-cotton=50pc|us-size-of=22u|
+===*chemise* de#R Ciao#®.Fy//|cotton|Sanforized|print|dots|
+fr-size-of=clothing-size-L|
+pink=70pc|white=10pc|cyan=10pc|dark-gray=10pc|
+===*Unionbay#® shirt*.z//
+====*Unionbay-shirt-A//|white|
+====*Unionbay-shirt-B//|cotton|print|made-in=country-IND|blue=40pc|cyan=30pc|
+red=10pc|brown=10pc|dark-gray=10pc|
+===*Sole#® shirt*.z//|yellow|polyester=65pc|cotton=35pc|
+us-size-of=clothing-size-S|
+made-in=country-TWN|
+;_______________________________________________________________________________
+===T#-shirt*.z//T# shirt*,tee#-shirt*,tee# shirt*.z/chemise* américaine*A.Fy/
+T#-shirt*.¹My/tee#-shirt*.My/maillot.çMy/
+===*T#-shirt* de#R Galfa#® Club#®.My//|viscose=67pc|cotton=33pc|
+fr-size-of=clothing-size-M|tie-dye|print|blue=50pc|yellow=15pc|violet=15pc|
+magenta=10pc|white=10pc|
+===*T#-shirt* de#R Oxbow#®.My//|cotton|made-in=country-FRA|
+fr-size-of=clothing-size-M|
+print|crosses|bars|red=50pc|light-brown=20pc|yellow=20pc|light-violet=10pc|
+===*touch#® of#R® gold#® T#-shirt*.z//|cotton=50pc|polyester=50pc|
+made-in=country-USA|us-size-of=clothing-size-M|print|white=70pc|red=10pc|
+light-blue=10pc|black=10pc|
+===*Screen#® Stars#P® T#-shirt*.z//|made-in=country-USA|
+====*Screen Stars T-shirt A//|cotton=50pc|polyester=50pc|
+us-size-of=clothing-size-XL|print|light-gray=90pc|dark-gray=10pc|
+====*Screen Stars T-shirt B//|cotton=50pc|polyester=50pc|
+us-size-of=clothing-size-M|
+print|white=70pc|red=10pc|light-blue=10pc|black=10pc|
+===*Hanes#® T#-shirt*.z//
+====*Hanes T-shirt A//|cotton|made-in=country-USA|us-size-of=42¯44u|
+print|light-gray=90pc|dark-gray=10pc|
+====*Hanes T-shirt B//|cotton|made-in=country-USA|us-size-of=38¯40u|
+print|light-gray=90pc|dark-gray=10pc|
+;_______________________________________________________________________________
+===angusticlave.oy//
+===casual#A shirt*.gz//
+===coat# shirt*.z//
+===dickey.z//
+===evening#A shirt*.z//
+===frill.z//
+===frill# front*.z//
+===gipon.z//
+===habit# shirt*.z//
+===hair# shirt*.z//
+===halter.z/womenswear/
+===hickory#A shirt*.z//
+===jupe.îz//
+===jupon.z//
+===laticlave.oy//
+===long#A-sleeved#A shirt*.z//
+===mini#A shirtdress*.Àz//overshirt.gz/liquette.Fy/
+===olive#A-drab#A shirt*.z//OD#A shirt*.z/
+===overblouse.Àz/womenswear/over#R-blouse*.Àz/tunic.gz/casaque.Fy/
+===polo# shirt*.z//polo.My/knit#A shirt*.z/
+====polo* jersey#.My//
+===pourpoint.oz//pourpoint.oMy/justaucorps.oMy/
+===sark.îz//
+===shirt-chemisette//chemisette.Fy/
+===shirt-doublet//doublet.z/
+===shirt-guimpe//guimpe.Fy/
+===shirtwaist.z//
+===short#A-sleeved#A shirt*.z//
+===smock.z/womenswear/button#V-through#R smock*.gz/tablier*-blouse#F ½.My/
+blouse.Fy/sarrau,sarrot.My/
+===sport# shirt*.z//
+===tank# top*.Àz/sportswear/sleeveless#A vest*.gz/athletic#A shirt*.z/
+gilet* athlétique*A.My/débardeur.My/
+===tunic.Àz/womenswear/smock.gz/tunique.Fy/cotte.oFy/vareuse.Fy/
+===wrap#V-over#R top*.z/womenswear/cache#V-cÓur*.My/
+;_______________________________________________________________________________
+==gown.z/womenswear/dress.¹z/frock.qz/jupe.îz/robe.¹Fy/
+|clothing-middle|clothing-bottom|shirtlayer|height-of=1.3m|
+===cheongsam.z//cheong#-sam#A ½.z/
+===circassienne.oFy//
+===coat# dress*.z//robe*-manteau#M ½.Fy/
+===cocktail# dress*.z//
+===cotehardie.z//cotardie.Fy/
+===dinner# dress*.z//dinner# gown*.z/
+===drop#V waist# dress*.z//robe* taille# basse#A.Fy/
+robe* à#R taille# basse#A.Fy/
+===evening# gown*.z//
+===farthingale.z//
+===fillebeg.z//
+===friponne.oy//
+===gown-kirtle//kirtle.z/
+===gown-mantua//mantua.z/
+===house# dress*.z//robe* de#R maison#.Fy/
+===jumper.Àz//pinafore.z/pinafore.gz/chasuble.¹Fy/robe* chasuble*.Fy/tablier.My/
+===levantine.oFy//
+===Mother# Hubbard*.z//
+===muu#-muu*.z//muumuu.z/
+===overdress.z//
+===polo# dress*.z//robe*-polo#M ½.Fy/
+===princess# dress*.z//robe* princesse#.Fy/
+===sack# dress*.z//robe* sac#M.Fy/robe*-sac#M.Fy/
+===sari.z//
+===sheath# dress*.z//sheath.z/robe* fourreau#M ½.Fy/fourreau.My/
+===shirtdress.z//
+===shirtwaist#A dress*.z//robe* chemisier#M ½.Fy/
+===sundress.z//robe* bain#M-de#R-soleil#M.Fy/robe* bain#M de#R soleil#M.Fy/
+===T#-shirt# dress*.z/children-s-wear/robe* tee#M-shirt#M ½.Fy/
+robe* t#M-shirt#M ½.Fy/
+===tea# gown*.z//
+===trapeze# dress*.z//robe* trapèze#M ½.Fy/
+===tunic# dress*.z//robe* tunique*.Fy/
+===wedding# dress*.z/wedding-clothes/wedding# gown*.z/robe* de#R mariée#NF.Fy/
+===wraparound#A dress*.Àz//wrap#V-over#R dress*.gz/wrap,wrapper.z/
+robe* enveloppe*.Fy/
+;_______________________________________________________________________________
+==skirt.z/womenswear/jupe.Fy/|clothing-middle|clothing-thigh|shirtlayer|
+height-of=.5m|
+===ballet# skirt*.z//
+===basquine.Fy//
+===skirt-crinoline//crinoline.z/crinoline.Fy/
+===culottes.Pïz//jupe*-culotte*.Fy/
+===dirndl# skirt*.z//dirndl.z/
+===full#A skirt*.z//
+===hobble# skirt*.z//
+===hoop# skirt*.z//
+===gather# skirt*.z//jupe* froncée*A.Fy/
+===gored#A skirt*.z//jupe* à#R lés#MP.Fy/
+===grass#A skirt*.z//
+===kilt.z/uniwear/kilt.My/
+===skirt-kirtle//kirtle.z/
+===maxiskirt.z//
+===microskirt.z//
+===midiskirt.z//
+===miniskirt.z//jupette.Fy/minijupe,mini#A-jupe*.Fy/mini.TAïy/
+===skirt-pannier//pannier.z/panier.My/
+===peplum.z//
+===skirt-petticoat//petticoat.z/
+===ruffled#A skirt*.z//jupe* à#R volants#MP étagés#AMP.Fy/
+===sarong.z/uniwear/paréo.My/
+===sheath# skirt*.z//jupe* fourreau#M ½.Fy/
+===slit# skirt*.z//
+===straight#A skirt*.z//jupe* droite*A.Fy/
+===suit# skirt*.z/formal-dress/skirt.¹z/jupe.¹Fy/
+===tutu.z//
+===wraparound#A skirt*.Àz//wrap#V-over#R skirt*.gz/wrap,wrapper.z/
+jupe* portefeuille#M ½.Fy/
+===yoke# skirt*.z//jupe* à#R empiècement#M.Fy/
+;_______________________________________________________________________________
+==apron.z//smock.z/tablier.jz/bib,tucker.qz/tablier.My/
+|clothing-top|vestlayer|height-of=.25m|
+;_______________________________________________________________________________
+==clothing-shorts//shorts.Pïz/short#A pants*.Pïz/short.¹My/culotte.Fy/
+|clothing-middle|clothing-thigh|shirtlayer|part-of¤left-pocket,right-pocket|
+height-of=.5m|
+==*Unionbay#S® shorts*.Pïz//|cotton|us-size-of=clothing-size-XL|
+made-in=country-TWN|print|light-blue=80pc|cyan=10pc|green=10pc|
+==*bum-equipment-shorts//b\.u\.m\.#S® equipment#S® shorts*.Pïz/|cotton|white|
+us-size-of=clothing-size-M|made-in=country-TUR|
+===army#S shorts*.Pïz//
+===*short-armee-de-Liberto//short* armée#F de#R Liberto#®.My/
+Liberto#S® army#S shorts*.Pïz/|cotton|white|fr-size-of=40u|
+===Bermuda#S shorts*.Pïz//bermuda.My/
+===gym#S shorts*.Pïz/sportswear/gym#S pants*.Pïz/flottant.My/cuissettes.îFPïz/
+cuissard.My/boxer.¹My/boxer#-short*.My/
+===*UCLA#S® Bruins#® shorts*.Pïz//|cotton|us-size-of=32¯34u|blue=70pc|
+gold=20pc|yellow=10pc|
+====Scottish#A shorts*.Pïz//boxer* écossais*A.My/
+====print#S shorts*.Pïz//boxer* imprimé*A.My/
+===Jamaica#S shorts*.Pïz//
+;_______________________________________________________________________________
+==pants.¹ÀPïz//trousers.¹gPïz/slacks.ÀPïz/slacks.oPïz/pair* of#R pants#P.Àz/
+pair* of#R trousers#P.z/breeches,pantaloons.qPïz/britches.TqPïz/
+trews,breeks.îPïz/bags.gPïz/pantalon.¹My/froc.¹TMy/culbutant.Ty/
+falzar,fendant,grimpant.qTMy/fendard,fendart.aMy/
+|clothing-middle|clothing-bottom|shirtlayer|part-of¤left-pocket,right-pocket|
+height-of=1.0m|
+===women#P's suit#S pants*.Pïz/formal-dress,menswear/
+===men#P's suit#S pants*.Pïz/formal-dress,menswear/
+===*pantalon* d#R'Ermenegildo# Zegna#®C.My//|wool|worsted|super-100-S|
+black=99pc|red=1pc|fr-size-of=46u|
+part-of=costume-croise-en-laine-d-Ermenegildo-Zegna|
+===*pantalon* en#R laine#F De#R Fursac#C®.My//|wool|black=30pc|dark-gray=70pc|
+part-of=costume-croise-en-laine-De-Fursac|
+===*pantalon* jaune*A en#R laine#F De#R Fursac#C®.My//|wool|yellow=34pc|
+light-brown=33pc|dark-brown=33pc|fine-weave|
+part-of=costume-droit-en-laine-De-Fursac|
+===brown#A pants*.Pïz//|brown|
+====brown#A tweed#A pants*.Pïz//|tweed|herringbone|
+====*pantalon-en-tweed-marron-a-chevrons-de-Kenzo//
+pantalon* en#R tweed# marron#A à#R chevrons#MP de#R Kenzo#®.My/
+Kenzo#® brown#A tweed#A pants*.Pïz/
+===men#P's dress#S pants*.Pïz/formal-dress,menswear/
+===*pantalon* noir*A de#R Gianfranco#M Ferre#C®.My//|black|wool|
+part-of=costume-droit-de-Gianfranco-Ferre|
+===*pantalon* noir*A en#R laine#F d#R'Ermenegildo# Zegna#®C.My//|black|wool|
+fr-size-of=38u|@19930904|tp=2550F|
+===*pantalon* en#R laine#F d#R'Ermenegildo# Zegna#®C.My//|dark-brown|wool|
+fr-size-of=38u|@19930904|tp=1250F|
+===men#P's casual#S pants*.Pïz/casual-clothes,menswear/
+===*INC-pants//I\.N\.C\.#S® pants*.Pïz/
+====*INC pants A//|cotton|black=50pc|dark-brown=50pc|thin-stripes|
+made-in=Korea|us-size-of=32u,30u|
+====*INC pants B//|cotton|black=50pc|dark-brown=50pc|thin-checker|
+made-in=Korea|us-size-of=32u,30u|
+===bell#S-bottoms*.Pïz//bell#S bottoms*.Pïz/
+pantalon* pattes#FP de#R éléphant#.My/pantalon* à#R pattes#FP de#R éléphant#.My/
+===*Martine bell bottoms//|owner-of=Martine|pink|
+===chausses.oFPïy//chausses.oPïz/
+===bas*-de#R-chausses#FP.oMy//
+===haut*-de#R-chausses#FP.oMy//grègues.oFPïy/culotte.oFy/breeches.oPïz/
+===corduroys.Pïz//cords.Pïz/pantalon* en#R velours# côtelé#A.My/|corduroy|
+===*pantalon* en#R coton# d#R'Ermenegildo# Zegna#®C.My//|cotton|dark-brown|
+fr-size-of=40u|@19930904|tp=1850F|
+===*pantalon* en#R coton# de#R Giorgio# Armani#C®.My//|cotton|olive-green|
+us-size-of=30u|made-in=country-ITA|
+===*Studio#S 0001#S corduroys* by#R Ferre#S®.Pïz//|cotton|dark-brown|
+us-size-of=30u|made-in=country-ITA|
+===jeans.Pïz//denims.qPïz/jean.My/|denim|blue|
+====black#A jeans*.Pïz//|black|
+====blue#A jeans*.Pïz//blue#A-jean*.My/blue#A-jeans#P.ßMy/
+jean* bleu*A.My/
+=====dungarees.ÀPïz/work-clothes/jeans.gPïz/
+=====jean* en#R denim# de#R Diesel#®.My//
+=====faded#A jeans*.Pïz//blue#-jean* délavé*A.My/
+====stonewashed#A jeans*.Pïz//
+===*Guess#S® jeans*.Pïz//
+===*Levi#S®'s jeans*.Pïz//|product-of¤Levi|
+====*Levi#S's 501#S jeans*.®Pïz//501.¹®z/copper#S riveted#A jeans*.Pïz/
+|made-in=country-USA|
+====*Levi#S's 510#S jeans*.®Pïz//510.¹®z/|blue|us-size-of=31u,32u|
+made-in=country-USA|
+===*Lee#SM®'s jeans*.Pïz//
+===*Sasson#S® jeans*.Pïz//
+===*Wrangler#S® jeans*.Pïz//
+===jodhpurs.Pïz//culotte* de#R cheval#M.Fy/jodhpur.¹My/
+===khaki#S pants*.Pïz//khakis.Pïz/pantalon* kaki#A.My/|khaki-color|
+===knickers.Pïz//knickerbockers.Pïz/knicker.¹My/knickerbockers.MPïy/
+pantalon* de#R golf#.My/
+===overalls.ÀPïz//dungarees.gPïz/salopette.¹Fy/
+combinaison.Fy/bleus.MPïy/bleu* de#R travail#.My/cotte.Fy/tablier.My/
+====high#A-back#S overalls*.Pïz/children-s-wear/
+salopette* à#R dos#M montant#AM.Fy/
+====crossover#S back#S straps# overalls*.Pïz/children-s-wear/
+salopette* à#R bretelles#P croisées#PA.Fy/
+===pedal#S-pushers*.Pïz//pedal#S pushers*.Pïz/corsaire.My/
+===plastic#A pants*.Pïz/children-s-wear/culotte* plastique*A.Fy/
+===ruffled#A rumba#S pants*.ÀPïz/children-s-wear/frilly#A pants*.gPïz/
+culotte* à#R ruchés#MP.Fy/
+===ski#S pants*.Pïz//fuseau.My/fuseau* de#R ski#.My/
+===sweat#S pants*.ÀPïz/sportswear/sweatpants.Pïz/sweat#S trousers*.gPïz/
+pantalon* molleton#.My/pantalon* jersey*.¹My/
+===*Russell#S® athletic#A sweatpants*.Pïz//|made-in=country-USA|cotton=50pc|
+polyester=49pc|rayon=1pc|light-gray|
+===chivarras.jz//
+===pants-bloomers//bloomers.Pïz/
+===buckskins.Pïz//
+===Capri#S pants*.Pïz//
+===clam#S diggers*.Pïz//
+===pants-drawers//drawers.Pïz/
+===ducks.Pïz//
+===flannels.Pïz//
+===gabardines.Pïz//
+===galligaskins.Pïz//
+===high#A-water#S pants*.Pïz//
+===hip#S-huggers*.Pïz//
+===hot#A pants*.Pïz//
+===kerseys.Pïz//
+===knee#S breeches*.Pïz//
+===knee#S pants*.Pïz//
+===long#A trousers*.Pïz//
+===pants-long-pants//long#A pants*.Pïz/
+===moleskins.Pïz//
+===pantalets.Pïz//
+===peg#S pants*.Pïz//
+===pegtops.Pïz//
+===plus#S-fours*.Pïz//
+===riding#S pants*.Pïz//
+===shintiyan.jz//
+===sacks.Pïz//
+===smallclothes.Pïz//
+===stretch#V pants*.Pïz//
+===toreador#S pants*.Pïz//
+===trews.Pïz//
+===trouserettes.Pïz//
+===trunks.Pïz//
+===tweeds.Pïz//
+===whites.Pïz//
+;_______________________________________________________________________________
+==belt.z//waistband,waistcloth,loincloth,breechcloth,breechclout,G#-string*.qz/
+loinguard,dhoti,moocha.qz/ceinture.Fy/|overlayer|clothing-middle|
+length-of=.3m|width-of=.1m|height-of=0.025m|
+===ceinture* d#R'Ermenegildo#M Zegna#®C.Fy//|black|@19930904|tp=650F|
+==*Alfani#® belt*.z//|brown|leather|us-size-of=30u|made-in=country-TWN|
+model-number-of=8024u|
+==*Bullock#®'s belt*.z//|brown|glove-leather|us-size-of=30u|
+model-number-of=7282u|@1985|tp=16.50$|
+==*belt-A//|black|made-in=country-TWN|us-size-of=30u|
+==*belt-B//|black|made-in=country-TWN|us-size-of=30u|
+===baldric.z//
+===belt-band//band.z/
+===bandolier.z//
+===bellyband.z//
+===belt-cestus//cestus.z/
+===cincture.z//
+===cummerbund.z//
+===fascia.z//
+===girt.z//
+===girth.z//
+===sash.z//
+===waist# belt*.z//
+===waistcloth.z//
+;_______________________________________________________________________________
+==dishabille.z/casual-clothes/déshabillé,négligé.jz/something# comfortable#A.z/
+negligee.z/undress,wrap.qz/bed# jacket*,boudoir# dress*,bruch# coat*.z/
+dressing# gown*,dressing# sack*,dressing# jacket*,housecoat,lounging# robe*.z/
+morning# dress*,robe,smoking# jacket*,wrapper.z/robe#-de#jR-chambre*j.jz/
+lounging#S pajamas*.Pïz/dressing# gown*.gz/déshabillé.My/négligé.oMy/
+|height-of=1.3m|
+===bathrobe.z//peignoir.jz/peignoir.My/peignoir* de#R bain#.My/
+|overlayer|
+====bathing# wrap*.Àz/children-s-wear/hooded#A towelling# robe*.gz/
+cape* de#R bain#M.Fy/
+===boxer#'s dressing# gown*.z//peignoir.My/
+===dressing# gown*.z//robe* de#R chambre#.Fy/peignoir.My/
+====padded#A dressing# gown*.z//douillette.Fy/
+===saut*-de#R-lit#.My//
+===kimono//kimono.My/
+;_______________________________________________________________________________
+==pajamas.ÀPïz//night#S clothes*.Pïz/nightdress,nightwear,nightshirt.z/
+pyjamas.gPïz/PJs.TPïz/sleepers.qPïz/pyjama.My/|shirtlayer|height-of=1.3m|
+===baby# doll*.z/womenswear/nuisette.Fy/baby#-doll*.oy/
+|clothing-top|clothing-middle|clothing-bottom|
+===bed# jacket*.z//liseuse.Fy/
+===blanket#S sleepers*.ÀPïz/children-s-wear/sleepsuit.gz/
+dormeuse*-couverture*.Fy/|clothing-top|clothing-middle|clothing-bottom|
+===grow#V sleepers*.ÀPïz/children-s-wear/babygro.gz/
+dormeuse* de#R croissance#.Fy/|clothing-top|clothing-middle|clothing-bottom|
+===nightgown.z/womenswear/nightdress,bedgown.z/nightie.¹Tz/
+chemise* de#R nuit#.Fy/|clothing-top|clothing-middle|clothing-bottom|
+===pajama# top*.Àz//pyjama# top*.gz/|clothing-top|
+===pajama# bottom*.Àz//pajama#S trousers*.qÀPïz/pyjama#S trousers*.gPïz/
+|clothing-middle|clothing-bottom|
+===polojama.z/children-s-wear/polojama.My/
+|clothing-top|clothing-middle|clothing-bottom|
+===sleepers.ÀPïz/children-s-wear/sleeping#-suit*.gz/combinaison* de#R nuit#.Fy/
+dormeuse.çFy/|clothing-top|clothing-middle|clothing-bottom|
+;_______________________________________________________________________________
+==suspenders.ÀPïz//braces.gPïz/bretelles.FPïy/|vestlayer|
+;_______________________________________________________________________________
+==cuff# link*.z//
+;_______________________________________________________________________________
+==undergarments.Pïz//underclothing.mz/underclothes.Pïz/
+bodywear,linen,underlinen,underwear.qmz/
+smallclothes,body#S clothes*,unmentionables,flannels,woolens,skivvies.qPïz/
+sous#R-vêtements*.MPïy/|underlayer|height-of=.2m|
+;_______________________________________________________________________________
+===diaper.Àz/children-s-wear/nappy.gz/dydee.qTz/
+napkins.gPïz/nappies.gTPïz/couche.Fy/|clothing-middle|
+===union# suit*.z/menswear/combinaison.Fy/|clothing-top|clothing-middle|
+;_______________________________________________________________________________
+===men#P's underpants*.Pïz/menswear/underwear.qmz/|clothing-middle|
+;_______________________________________________________________________________
+====boxer#S shorts*.Pïz//boxers.Pïz/caleçon.My/short* boxeur#.My/
+calebar,calcif,calecif.ay/
+====underpants-drawers//drawers.ÀPïz/long#A johns*.Pïz/long#A johns*.gPïz/
+caleçon* long*A.My/
+====Jockey#S shorts*.Pïz//
+====long#A underwear*.mÀz//trunks.gPïz/
+;_______________________________________________________________________________
+====men#P's briefs*.Pïz//men#P's knit#A briefs*.qPïz/briefs.¹Pïz/
+underpants,BVD#S s.Pïz/underwear.mz/pants.gPïz/slip* ouvert*A.My/
+slip* taille#F basse#AF.My/slip* à#R taille#F basse#AF.My/
+=====Christopher#S® Hayes#S® briefs*.Pïz//|us-size-of=38u|
+;_______________________________________________________________________________
+====men#P's bikini#S briefs*.qPïz//bikini#S briefs*.¹Pïz/mini#A-slip*.¹My/
+mini#A slip*.My/mini.y/
+;_______________________________________________________________________________
+====men#P's G#-string*.qz//G#-string*.¹z/string.My/cache#V-sexe*.My/
+====string#S briefs*.Pïz//
+;_______________________________________________________________________________
+===undershirt.Àz//singlet,vest.gz/short#A-sleeved#A vest*.gz/maillot.My/
+gilet* de#R peau#F,tricot* de#R peau#F,tricot* de#R corps#.My/
+maillot* de#R corps#.My/|clothing-top|
+====Christopher#® Hayes#® undershirt*.Àz//|us-size-of=38¯40u|
+====Fruit# Of#R The#D Loom# undershirt*.®Àz//|white|cotton|us-size-of=34¯36u|
+;_______________________________________________________________________________
+===string# vest*.z//|clothing-top|
+;_______________________________________________________________________________
+===women#P's undergarment*.z/womenswear/lingerie.¹mz/lingerie.Fy/dessous.MPïy/
+;_______________________________________________________________________________
+===women#P's underpants*.Pïz/womenswear/|clothing-middle|
+;_______________________________________________________________________________
+====underpants-bloomers//bloomers.Pïz/
+;_______________________________________________________________________________
+====women#P's briefs*.Pïz//panties.Pïz/briefs.¹Pïz/knickers,pants.gPïz/
+underwear.mz/underpants.Pïz/undies.¹TPïz/pantie#S briefs*.gPïz/culotte.Fy/
+====*Martine briefs//|owner-of=Martine|white|
+=====French#A-cut#A briefs*.Pïz//
+;_______________________________________________________________________________
+====women#P's bikini#S briefs*.qPïz//bikini#S briefs*.¹Pïz/bikini.¹z/
+mini#A-slip*.My/slip.My/slibard.ay/petite*A culotte*.Fy/
+=====slip* de#R Gossard#®.My//|fine-stitch|@19940509|ap=80F|
+;_______________________________________________________________________________
+====women#P's G#-string*.qz//G#-string*.z/thongs.¹Pïz/T#S-backs*.îPïz/
+string.My/cache#V-sexe*.My/
+====long#A leg#S panties*.Pïz//long#A-legged#A panties*.Pïz/
+;_______________________________________________________________________________
+===body# suit*.z/womenswear/body.My/combiné*-slip*.@çMy/
+|clothing-top|clothing-middle|underlayerpost|
+;_______________________________________________________________________________
+===camisole.z/womenswear/caraco.My/camisole.çFy/camisole.oFy/
+|clothing-top|clothing-middle|
+;_______________________________________________________________________________
+===girdle.z/womenswear/stays.qPïz/foundation# garment*.qz/undergirdle.z/
+stretch#V girdle*.z/gaine.Fy/|clothing-middle|clothing-thigh|underlayerpost|
+====panty# girdle*.z//pantie#-girdle*.gz/gaine*-culotte*.Fy/;panty.y/ ?
+====corset.z//corselet.qz/corset.My/
+;_______________________________________________________________________________
+===wasp#-waisted#A corset*.z/bra,garter-belt/guêpière.Fy/
+;_______________________________________________________________________________
+===panty# corselette*.z/bra/pantie#-corselette*.gz/combiné*-culotte#F ½.My/
+|clothing-middle|
+;_______________________________________________________________________________
+===garter# belt*.Àz/belt/suspender.gz/suspender# belt*.gz/
+porte#VS-jarretelle#SF ½s.MPïy/
+;_______________________________________________________________________________
+===clothing-slip/womenswear,bra/slip.z/chemise.z/smock.oz/sark,shift.îz/
+combinaison*-jupon#M ½.Fy/secrète.oFy/
+|clothing-top|clothing-middle|clothing-bottom|underlayerpost|
+====foundation# slip*.z//fond* de#R robe#F.My/
+;_______________________________________________________________________________
+===half#A-slip*.z/womenswear/waist# slip*.z/jupon.My/
+|clothing-middle|clothing-thigh|underlayerpost|
+;_______________________________________________________________________________
+===teddy.z/womenswear/teddy.My/combinaison*-culotte*.çFy/|clothing-top|
+clothing-middle|
+;_______________________________________________________________________________
+===bra.z/womenswear/brassiere.z/bandeau,underbodice.qz/soutien#Vj-gorge*j.jz/
+soutien*-gorge#F.My/soutien#-gorge#F.My/soutien*-gorge#F ½.My/
+|clothing-top|underlayerpre|
+====underwired#A bra*.z//soutien*-gorge#F à#R armatures#FP.My/
+soutien#-gorge#F à#R armatures#FP.My/
+soutien*-gorge#F à#R armature#F.My/soutien#-gorge#F à#R armature#F.My/
+====decollete-bra//décolleté# bra*.z/soutien*-gorge#F corbeille#F ½.My/
+soutien#-gorge#F corbeille#F ½.My/soutien*-gorge#F ½ corbeille#F ½.My/
+soutien#-gorge#F pigeonnant*A corbeille#F ½.My/
+soutien*-gorge#F ½ pigeonnant*A corbeille#F ½.My/
+corbeille* pigeonnante*A.Fy/
+====*Wonderbra#® L#D'Authentique#M.®y//Wonderbra.¹®z/|product-of¤Playtex|
+=====underwired-decollete-bra//underwired#A décolleté# bra*.z/
+soutien*-gorge#F à#R armatures#FP pigeonnant*A.My/
+====padded#A bra*.z//push#V-up#R bra*,uplift# brassiere*.qz/falsies.aPïz/
+soutien*-gorge#F balconnet*.My/soutien#-gorge#F balconnet*.My/
+soutien*-gorge#F ½ balconnet*.My/balconnet.My/balconnet* pigeonnant*A.My/
+====soutien-gorge-corselet//soutien*-gorge#F ½ corselet*.My/
+====tight#A-fitting# bra*.z//soutien*-gorge#F ½ moulé*A.My/
+====*Chantelle.®y//
+=====tight#A-fitting# underwired#A bra*.z//
+soutien*-gorge#F ½ moulé*A à#R armatures#FP.My/
+=====*DIM.®y//
+====strapless#A bra*.Àz//strapless#A brassiere*.Àz/longline#A brassière*.gz/
+longline#A bra*.gz/bustier.My/
+;_______________________________________________________________________________
+===bustle.z//tournure.jz/tournure.Fy/
+===undergarment-Balmoral//Balmoral.z/|clothing-middle|
+===body# stocking*.z//|clothing-middle|
+===crinoline.z//|clothing-middle|
+===underdrawers.Pïz//|clothing-middle|
+===scanties.Pïz//|clothing-middle|
+===step-ins//step#V-in#R ½s.Pïz/|clothing-middle|
+===long#A pants*.gPïz//|clothing-middle|
+===jockstrap.z//
+===pannier.z//|clothing-middle|
+===petticoat.z//|clothing-middle|
+===underskirt.z//|clothing-middle|
+===undervest.z//|clothing-middle|
+;_______________________________________________________________________________
+==hosiery.mz//bonneterie.Fy/|underlayer|
+;_______________________________________________________________________________
+===stockings.gPïz/womenswear/hose.¹Pïz/stockings.¹Pïz/bas.My/
+|clothing-bottom|clothing-foot|
+====net# stocking*.z//fishnet#S tights*.gPïz/bas* résille#F ½.My/
+====nylons.Pïz//nylon#A stocking*.z/bas* de#R nylon#.My/bas* nylon#.My/
+|nylon|
+====nylon#A rumba#S tights*.ÀPïz/children-s-wear/nylon#A frilly#A tights*.gPïz/
+collant* fantaisie#F.My/
+====full#A-fashioned#A stockings*.Pïz//
+====garter#S stockings*.Pïz//
+====half#A hose*.Pïz//
+====knee#S-high#A stockings*.Pïz//
+====lisle#S hose*.Pïz//
+====rayon#A stockings*.Pïz//
+====seamless#A stockings*.Pïz//
+====sheer#S stockings*.Pïz//
+====sheers.Pïz//
+====silk#A stockings*.Pïz//
+====stocking#S hose*.Pïz//
+====stretch#V stockings*.Pïz//
+;_______________________________________________________________________________
+===thigh#-high#A stocking*.z/womenswear/bas*-cuissarde#F ½.My/
+|clothing-knee|clothing-calf|clothing-ankle|clothing-foot|
+;_______________________________________________________________________________
+===panty#S hose*.ÀPïz/womenswear/tights.Pïz/tights.¹gPïz/pantyhose.ÀPïz/
+panty#S-hose*.ÀPïz/pantie#S-hose*.gPïz/collant.My/
+|clothing-middle|clothing-bottom|clothing-foot|underlayerpre|
+===*L#DSj'eggs*.®Pïz//
+;_______________________________________________________________________________
+===footless#A tights*.Pïz/sportswear/collant* sans#R pied*.My/
+|clothing-middle|clothing-bottom|underlayerpre|
+===trunk#S hose*.Pïz/womenswear/|clothing-middle|clothing-thigh|
+;_______________________________________________________________________________
+==socks.Pïz//chaussettes.FPïy/|underlayer|
+===ankle#-length# sock*.z//ankle# sock*.gz/anklet.z/mi#A-chaussette*.Fy/
+|clothing-foot|clothing-ankle|
+===*Martine sock1//|owner-of=Martine|white|
+===*Martine sock2//|owner-of=Martine|white|
+===argyle#A socks*.Pïz//argyles.Pïz/|clothing-foot|clothing-ankle|
+===bobbysocks.Pïz//bobbysox.Pïz/socquettes.FPïy/|clothing-foot|clothing-ankle|
+===boothose.Pïz//|clothing-foot|clothing-ankle|
+===boot#S socks*.Pïz//|clothing-foot|clothing-ankle|
+===crew#S socks*.Pïz//|clothing-foot|clothing-ankle|
+===executive#-length# sock*.z/menswear/mi#A-bas*.My/|clothing-foot|
+clothing-ankle|clothing-calf|
+===*chaussettes* d#R'Ermenegildo#MS Zegna#®C.FPïy//|red=50pc|black=50pc|
+@19930904|tp=165F|
+===knee#-high#A sock*.z/womenswear/knee# sock*.z/knee#-length# sock*.gz/
+mi#A-bas*.¹My/demi#-bas*.My/|clothing-foot|clothing-ankle|clothing-calf|
+===long#A sock*.gz//|clothing-foot|clothing-ankle|
+===mid#A-calf#-length# sock*.z//short#A sock*.gz/sock.z/chaussette.Fy/
+|clothing-foot|clothing-ankle|clothing-calf|
+===short#A sock*.z//socquette.Fy/|clothing-foot|
+===sweat#S socks*.Pïz/sportswear/athletic#A socks*,sweatsocks,tube#S socks*.Pïz/
+|clothing-foot|clothing-ankle|clothing-calf|clothing-knee|
+===varsity#A socks*.Pïz//|clothing-foot|clothing-ankle|
+===work#S socks*.Pïz//|clothing-foot|clothing-ankle|
+;_______________________________________________________________________________
+==legging.z//antigropelos,gaiters,galligaskins,gamashes,gambados,greaves.Pïz/
+leg# armor*.mz/puttees,putts,spats,spatterdashes.Pïz/|underlayerpost|
+===chaps.Pïz//chaparajos.jz/
+===leg#-warmer*.z/sportswear/legwarmer.z/jambière.Fy/guêtre,houseau,leggins.@y/
+|clothing-calf|clothing-knee|
+;_______________________________________________________________________________
+==gloves.Pïz//handwear.mz/gants.MPïy/|overlayer|
+;_______________________________________________________________________________
+===gants* de#R Guanti#® Restelli#®.MPïy//|black|wool|
+;_______________________________________________________________________________
+===baseball# glove*.z//baseball# mitt*.z/|clothing-hand|
+===boxing# gloves*.Pïz//gants* de#RS boxe#FS.MPïy/|clothing-hand|
+===brass#A knuckles*.Pïz//coup*-de#R-poing#M américain*A.My/|clothing-hand|
+===cesta.z//
+===glove-cestus//cestus.z/
+===driving# glove*.z//gant* de#R conduite#F.My/|clothing-hand|
+===evening# glove*.z/womenswear/gant* long*A.My/
+|clothing-hand|clothing-wrist|clothing-forearm|
+===gauntlet.z/womenswear/gant* à#R crispin#.My/
+|clothing-hand|clothing-wrist|clothing-forearm|
+===hockey#S gloves*.Pïz//|clothing-hand|
+===kid#S gloves*.Pïz//kids.TPïz/gants* en#R chevreau#M.MPïy/|clothing-hand|
+===mitt.z/womenswear/fingerless#A mitt*.gz/mitaine.Fy/
+|clothing-hand|clothing-wrist|clothing-forearm|
+===mitten.z//moufle.Fy/mitaine.çFy/mit,mitt.z/|clothing-hand|
+===mousquetaire#S gloves*.Pïz//mousquetaires.Pïz/|clothing-hand|
+===glove-muff//muff.z/manchon.My/|clothing-hand|
+===short#A glove*.z//gant* court*A.My/|clothing-hand|
+===suede-gloves//suède#A gloves*.Pïz/suèdes.Pïz/|clothing-hand|
+===wrist#-length# glove*.z//gant* saxe#.My/|clothing-hand|clothing-wrist|
+;_______________________________________________________________________________
+==neckwear.mz//
+===ascot#A tie*.Àz//ascot.Àz/cravat.gz/lavallière.Fy/
+===bib.z/children-s-wear/bavoir.My/
+===bowtie.Àz//bow# tie*.z/bow#-tie*.gz/nÓud* papillon*.My/
+===leash.z//laisse.Fy/
+;_______________________________________________________________________________
+===tie.z//necktie.z/neckcloth.oz/cravat.qz/cravate.Fy/|tielayer|
+====four#A-in#R-hand# tie*.z//four#A-in#R-hand#.z/
+====silk#A tie*.z//cravate* en#R soie*.Fy/|silk|
+====*cravate* en#R soie* de#R Gianfranco#M Ferre#C®.Fy//
+====*cravate-en-soie-numero-21-d-Ermenegildo-Zegna//
+cravate* en#R soie* numéro#M 21# d#R'Ermenegildo#M Zegna#®C.Fy/|silk|squares|
+red=70pc|green=10pc|brown=10pc|orange=10pc|@19930904|tp=550F|
+====*cravate-en-soie-numero-70-d-Ermenegildo-Zegna//
+cravate* en#R soie* numéro#M 70# d#R'Ermenegildo#M Zegna#®C.Fy/|silk|circles|
+triangles|red=30pc|black=30pc|light-gray=20pc|gray=20pc|@19930904|tp=550F|
+====*Christopher#® Hayes#® tie*.z//
+=====*Christopher-Hayes-tie-A//|silk|made-in=country-ITA|squares|red=70pc|
+blue=10pc|amber=10pc|violet=10pc|
+=====*Christopher-Hayes-tie-B//|silk|made-in=country-ITA|squares|gray=80pc|
+blue=15pc|red=5pc|
+====*Barney#®'s tie*.z//|silk|made-in=country-ITA|floral|print|
+red=50pc|green=10pc|orange-red=10pc|olive-green=10pc|brown=20pc|
+====*daniel#® craig#® tie*.z//|silk|made-in=country-ITA|small-squares|
+small-dots|black=90pc|white=10pc|
+====*Nicole#® Miller#® tie*.z//|print|black=50pc|pink=10pc|blue-green=20pc|
+orange=10pc|gray=10pc|
+====*Loris#® Azzaro#® tie*.z//|silk|ovals|made-in=country-FRA|blue=50pc|
+magenta=20pc|light-blue=20pc|green=10pc|
+====*Rykiel#® tie*.z//|silk|print|circles|made-in=country-FRA|orange=30pc|
+orange-red=70pc|
+====*Valentino#® tie*.z//|silk|print|circles|made-in=country-ITA|burgundy=80pc|
+blue=20pc|
+====*cravate* de#R Moholy#M-Nagy#M.Fy//
+=====*cravate-de-Moholy-Nagy A//|silk|triangles|made-in=country-FRA|
+blue=25pc|cyan=25pc|violet=25pc|light-brown=25pc|
+=====*cravate-de-Moholy-Nagy B//|silk|squares|dots|made-in=country-FRA|
+red=40pc|blue-green=20pc|amber=20pc|violet=20pc|
+====*cravate* De#R Fursac#C®.Fy//
+=====*cravate De Fursac A//|silk|ovals|made-in=country-FRA|
+black=75pc|blue-gray=25pc|
+=====*cravate De Fursac B//|silk|checker|made-in=country-ITA|
+black=60pc|amber=35pc|yellow=5pc|
+=====*cravate De Fursac C//|silk|circles|made-in=country-ITA|
+gray=70pc|white=10pc|blue=10pc|yellow=10pc|
+====string# tie*.z//
+====Windsor# tie*.z//
+;_______________________________________________________________________________
+===scarf.z//kerchief.z/cravat.gz/handkerchief,coverchief,cravat,neckerchief.qz/
+neckcloth.oz/écharpe.¹Fy/
+===*echarpe-en-laine-a-pois-et-a-carreaux-de-Prochownick//
+écharpe* en#R laine# à#R pois#MP et#K à#R carreaux#MP de#R Prochownick#®.Fy/
+|checker=50pc|polka-dot=50pc|
+===*Rose#® scarf*.z//|black=50pc|white=50pc|stitch-strings|
+===*Christian#® Dior#® scarf*.z//
+====*Christian-Dior-scarf-A//|acrylic|made-in=country-JPN|white=80pc|red=10pc|
+gray=10pc|stripes|
+====*Christian-Dior-scarf-B//|acrylic|made-in=country-JPN|white=50pc|
+black=50pc|checker|
+====cache#V-col*.My//
+====cache#V-nez*.Mïy//
+====foulard.My//
+====headscarf.z//fichu.My/carré.My/
+====scarf-fraise//fraise.z/fraise.Fy/
+====scarf-mantilla//mantilla.z/mantille.Fy/
+====triangular#A headscarf*.z//pointe.Fy/
+;_______________________________________________________________________________
+===bandanna.z//bandana.My/
+===bertha.z//
+===collaret.z//collerette.Fy/
+===dog# collar*.z//collier* de#R chien#M.My/
+===neckpiece.z//
+===neckwear-band//band.z/
+===neckwear-boa//boa.z/
+===neckwear-chemisette//chemisette.z/
+===neckwear-choke//choke.z/
+===neckwear-clerical-stock//stock.z/étole.Fy/
+===neckwear-comforter//comforter.z/
+===neckwear-fur//fur.z/
+===neckwear-guimpe//guimpe.z/
+===neckwear-huntsman-stock//stock.z/lavallière.Fy/
+===neckwear-muffler//muffler.z/cache#V-nez#M.My/
+===neckwear-neckband//neckband.z/
+===neckwear-stole//stole.z/étole.Fy/
+===neckwear-tippet//tippet.z/
+===plunging#A neckline*.z//décolleté* plongeant*A.My/
+===rebato.z//
+===ruff.z//collier.My/
+===tallith.z//
+===tucker.z//
+;_______________________________________________________________________________
+==hat.z//headclothes.qPïz/headdress,headgear,headwear,headtire.qmz/
+headpiece,chapeau,headcloth.qz/lid.Tz/chapeau.¹My/coiffure.Fy/|overlayer|
+===baseball# cap*.z//casquette* de#R baseball#M.Fy/
+===beany.z//
+===bearskin.z//
+===beaver.z//
+===beret.z//béret.My/
+===bicorne.z//bicorne.My/
+===billycock# hat*.z//billycock.z/
+===boater.z//canotier.My/
+===bonnet.z//bonnet.My/
+===Borsalino.z//
+===boudoir# cap*.z//
+===brass#A hat*.z//
+===busby.z//
+===calash.z//
+===campaign# hat*.z//
+;_______________________________________________________________________________
+===cap.z//casquette.Fy/
+====casquette* en#R tweed#M de#R Old#® England#®.Fz//|tweed|
+====coonskin# cap*.z//
+====dress#A cap*.z//
+====dunce# cap*.z//
+====Dutch#A cap*.z//
+====forage# cap*.z//
+====hunting# cap*.z//casquette* norvégienne*A.Fy/
+====jockey# cap*.z//
+====knit#A cap*.z//bonnet.My/
+====mobcap.z//
+====nightcap.z//
+====overseas#B cap*.z//
+====peaked#A cap*.z//
+====side#A cap*.z//
+====skullcap.z//calotte.Fy/
+====stocking# cap*.z//bonnet* pompon#.My/bonnet* à#R pompon*.My/tuque.çFy/
+;_______________________________________________________________________________
+===capote.z//
+===cartwheel# hat*.z//capeline.Fy/
+===chapeau# bras#.jz//
+===cloche.z//cloche.Fy/
+===cock*-and#K-pinch*.z//
+===cocked#A hat*.z//
+===coxcomb.z//
+===crush#A hat*.z//
+===derby.Àz//bowler.gz/melon.My/bowler.z/
+===fantail.z//
+===fedora.z//
+===felt#A hat*.z//trilby.gz/chapeau* de#R feutre#.My/feutre.My/
+===fez.z//fez.My/chéchia.Fy/
+===fore-and-after//fore#B-and#K-after#B ½,fore#B-and#K-aft*.z/
+===garrison# cap*.z//calot.My/
+===glengarry.z//
+===gob# hat*.z//bob.My/
+===hard#A hat*.z//
+===hat-astrakhan//astrakhan.z/
+===hat-Balmoral//Balmoral.z/
+===hat-castor//castor.z/
+===hat-coif//coif.z/coiffe.Fy/
+===hat-sailor//sailor.z/
+===hat-skimmer//skimmer.z/
+;_______________________________________________________________________________
+===helmet.z//casque.My/
+====balaclava.z//balaclava# helmet*.z/cagoule.Fy/
+====sun# helmet*.z//
+;_______________________________________________________________________________
+===hennin.z//hennin.My/
+===homburg.z//
+===hood.z//
+===kaffiyeh.z//
+===kelly.z//
+===kepi.z//
+===leghorn.z//
+===millinery.mz/womenswear/
+===mortarboard.z//
+===opera# hat*.z//
+===panama.z//Panama# hat*,Panama.z/panama.My/
+===picture# hat*.z//
+===pillbox# hat*.z//pillbox.z/tambourin.My/
+===pith# hat*.z//
+===pith# helmut*.z//
+===plug# hat*.z//
+===plug.z//
+===poke# bonnet*.z//poke.z/
+===porkpie.z//
+===puggree.z//
+===riding# hood*.z//
+===rumal.z//
+===Salvation# Army# bonnet*.z//
+===scraper.z//
+===shako.z//
+===shapka.z//chapka.My/
+===shovel# hat*.z//
+===silk#A hat*.z//
+===slouch# hat*.z//
+===snood.z//
+===soft#A hat*.z//
+===sola# topee*.z//
+===sombrero.z//
+===southwester.z//sou#A'wester*.z/suroît.My/
+===Stetson.®z//Stetson.®My/
+===stovepipe# hat*.z//stovepipe.z/
+===straw#A hat*.z//
+===sunbonnet.z//
+===sundown.z//
+===sun# hat*.z//
+===tam#-o#R'shanter*.z//tam.z/
+===tarboosh.z//
+===ten#A-gallon# hat*.z//
+===three#A-cornered#A hat*.z//
+===tin#A hat*.z//
+===topee.z//topi.z/
+===top#A hat*.z//topper.z/haut*-de#R-forme#F.My/
+===toque.z//toque.Fy/
+===tricorne.z//tricorne.My/
+===trilby.z//
+===turban.z//turban.My/
+===tyrolean#A hat*.z//
+===wide#A-awake#A hat*.z//
+===wide#A-awake*A,wimple.z//
+===wind#-cutter*.z//
+===yarmulka.z//
+;_______________________________________________________________________________
+==handkerchief.z//kerchief.qz/
+;_______________________________________________________________________________
+==veil.z//voile.My/
+==yashmak.z//voile* islamique*A.My/
+;_______________________________________________________________________________
+==mask.z//masque.My/
+;_______________________________________________________________________________
+==footwear.mz//footgear.qmz/gunboat,clodhopper.az/patten.z/|overlayer|
+;_______________________________________________________________________________
+===boot.z//botte.Fy/
+====ankle# boot*.z//bootee.z/bottillon.My/bottine.Fy/boots.FPïy/|clothing-foot|
+=====apres-ski//après#R-ski*.My/
+====Blucher# boots*.Pïz/menswear/|clothing-foot|clothing-ankle|
+====chukka.z/menswear/chukka# boot*.z/chukka.My/|clothing-foot|
+====combat# boots*.Pïz//|clothing-foot|clothing-ankle|
+====cowboy# boot*.z//santiag.TFy/|clothing-foot|clothing-ankle|
+====desert#S boots*.Pïz//chaussure* montante*A en#R daim#M à#R lacets#MP.Fy/
+chaussure* montante*A.Fy/|clothing-foot|clothing-ankle|
+====half#A boots*.Pïz//|clothing-foot|
+====heavy#A-duty# boot*.z//brodequin.My/|clothing-foot|
+====Hessian#A boots*.Pïz//hessians.Pïz/|clothing-foot|clothing-ankle|
+====hip#S boots*.Pïz//|clothing-foot|clothing-ankle|
+====jackboots.Pïz//|clothing-foot|clothing-ankle|
+====paratrooper# boots*.Pïz//|clothing-foot|clothing-ankle|
+====riding#S boots*.Pïz//bottes* de#R cheval#SM.FPïy/bottes.¹FPïy/
+|clothing-foot|clothing-ankle|
+=====bottes* en#R cuir#SM noir#ASM de#R Carolina#®.FPïy//|black-leather|
+====ski#S boots*.Pïz//chaussure* de#R ski#M.Fy/|clothing-foot|clothing-ankle|
+====thigh#-boot*.z//cuissarde.Fy/
+|clothing-foot|clothing-ankle|clothing-calf|clothing-knee|
+====top#A boots*.Pïz//bottes* à#R revers#SM.FPïy/|clothing-foot|clothing-ankle|
+====Wellington#S boots*.Pïz//Wellingtons.Pïz/wellies.gPïz/rubber#A boots*.ÀPïz/
+bottes* de#R caoutchouc#SM.FPïy/|clothing-foot|clothing-ankle|
+;_______________________________________________________________________________
+===shoe//shoes.Pïz/chaussure.qjz/chaussure.Fy/soulier.My/talon.TMy/
+|clothing-foot|
+;_______________________________________________________________________________
+====ankle#-strap*.gz/womenswear/sandal.¹z/sandale.Fy/
+====arctics.Pïz//
+====ballet#S shoes*.Pïz/womenswear/ballerina.z/pump.gz/ballerine.Fy/
+;_______________________________________________________________________________
+====blucher# oxford*.z/menswear/Blucher#S shoes*,bluchers.Pïz/lace#V-up#R ½.gz/
+derby.My/
+=====calfskin#-velvet# blucher# oxford*.z//derby* en#R veau# velours#.My/
+|calfskin-velvet|
+======derby* en#R veau# velours# de#R Bowen#®.My//
+;_______________________________________________________________________________
+====bootee.z/children-s-wear/petit*A chausson*.My/
+====bootikins.Pïz//
+====brogans.Pïz//
+====brogues.Pïz//
+====buskins.Pïz//
+====button#S shoes*.Pïz//
+====campus#S shoes*.Pïz//
+====casual#A shoe*.z/casual-clothes,womenswear/trotteur.My/
+====chopines.Pïz//
+====clog.z//socque.My/
+====crakow.z//soulier* à#R la#D poulaine#F.My/
+====espadrille.z/womenswear/espadrille.Fy/
+====*Martine espadrille1//|owner-of=Martine|light-blue|
+====*Martine espadrille2//|owner-of=Martine|light-blue|
+====galosh.z/menswear/rubber.z/caoutchouc.My/snow#-boot#F ½.oMy/claque.çFy/
+====loafer.Àz/menswear/slip#V-on#R ½.gz/loafer.My/flâneur.çMy/
+====moccasin.z//mocassin.My/
+====mule.z/menswear/mule.Fy/
+;_______________________________________________________________________________
+====nubuck#A shoe*.z//|nubuck|
+=====chaussure* en#R nubuck#M de#R Tod#® s.Fy//
+;_______________________________________________________________________________
+====one#A-bar# shoe*.z/womenswear/Charles# IX*.My/
+;_______________________________________________________________________________
+====Oxford# shoe*.z/menswear/oxford# shoe*.z/Oxfords.Pïz/richelieu.My/
+Richelieu.My/
+; Richelieux VH 199310 p. 128
+====*Richelieu* de#R Salamander#®.My//
+=====*Salamander A//|made-in=country-ITA|dark-brown|leather=50pc|calfskin=50pc|fr-size-of=41u|
+=====*Salamander B//|made-in=country-ITA|black|leather=50pc|calfskin=50pc|
+====*Richelieu* de#R Jean# Thiot#C®.My//|made-in=country-FRA|black|
+leather=50pc|calfskin=50pc|fr-size-of=41.5u|
+;_______________________________________________________________________________
+====platform#S shoes*.Pïz//platform#S-soled#A shoes*.Pïz/
+platforms,platform#S soles*.TPïz/chaussures* à#R semelles# compensées#A.FPïy/
+====elevator#S shoes*.Pïz//elevators.Pïz/soulier* à#R talonnette#F.My/
+====field#S shoes*.Pïz//
+====gaiters.Pïz//
+====getas.Pïz//
+====gumshoes.Pïz//
+====high#A-button#S shoes*.Pïz//
+====high#A-lows*A.Pïz//
+====high#A-topped#A shoes*.Pïz//
+====hobnailed#A shoes*.Pïz//
+====horseshoes.Pïz//
+====lace#S shoes*.Pïz//
+====Loafers.®Pïz//
+====loungers.Pïz//
+====overshoes.Pïz//
+====Oxford#S ties*.Pïz//
+====pattens.Pïz//
+====pump.z/womenswear/escarpin.My/
+====rope# shoes*.Pïz//
+;_______________________________________________________________________________
+====sandal.z//toe#-strap*.gz/nu#A-pied*.My/
+====sandalette.Fy//sandal.z/
+====scuffs.Pïz//
+====shoe-creepers//creepers.Pïz/
+====shoe-gums//gums.oPïz/
+====sling#V-back#B shoe*.z/womenswear/escarpin*-sandale#F ½.My/
+;_______________________________________________________________________________
+====slippers.Pïz//carpet#S slippers*.oPïz/pantoufle.Fy/
+=====ballet#S slippers*.Pïz/womenswear,sportswear/
+;_______________________________________________________________________________
+====sports# shoes*.Pïz/sportswear/athletic#A shoes*.Pïz/athletic#A footwear*.z/
+chaussure* de#R sport#M.Fy/
+;_______________________________________________________________________________
+=====aerobic#A shoes*.Pïz//
+;_______________________________________________________________________________
+=====basketball#S shoes*.Pïz//
+;_______________________________________________________________________________
+=====cross#R-training#S shoes*.Pïz//cross#R trainers*.Pïz/
+;_______________________________________________________________________________
+=====running#S shoes*.Pïz//chaussure* de#R sport#M.Fy/
+chaussure* de#R course#F.Fy/
+=====*Adidas#S® running#S shoes*.Pïz//Adidas.®Pïz/
+=====*Nike#S® running#S shoes*.Pïz//Nikes.®Pïz/
+=====*Reebok#S® running#S shoes*.Pïz//Reeboks.®Pïz/
+;_______________________________________________________________________________
+=====sneakers.ÀPïz//trainer.¹gz/gym#S shoes*.Pïz/gymshoe,plimsoll.gz/
+basket.¹My/tennis.çMy/
+=====*Adidas#S® sneakers*.ÀPïz//Adidas#S® trainers*.gPïz/
+=====*Nike#S® sneakers*.ÀPïz//Nike#S® trainers*.gPïz/
+=====*Reebok#S® sneakers*.ÀPïz//Reebok#S® trainers*.gPïz/
+======*Reebok#S® HardCourt#S® sneakers*.ÀPïz//
+Reebok#S® HardCourt#S® trainers*.gPïz/
+|white=80pc|blue=20pc|made-in=Korea|us-size-of=8.5u|fr-size-of=42u|
+;_______________________________________________________________________________
+=====tennis#S shoes*.Pïz//
+;_______________________________________________________________________________
+=====walking#S shoes*.Pïz//chaussures* de#RS marche#NFS.Pïy/
+;_______________________________________________________________________________
+====snowshoes.Pïz//
+====stogies.Pïz//
+====T#-strap# shoe*.z/womenswear/salomé.My/
+;_______________________________________________________________________________
+====thongs.ÀPïz//flip#V-flop#V ½s.Pïz/sandals.qPïz/tong.My/
+====*Speedo#S® thongs*.Pïz//|product-of¤Speedo|black=70pc|yellow-green=30pc|
+;_______________________________________________________________________________
+====veldschoens.Pïz//
+====wooden#A shoe*.z//sabot.z/
+====work#S shoes*.Pïz//
+====zoris.Pïz//
+;_______________________________________________________________________________
+=clothing# part*.z/physical-object/garment# part*.z/|free-object|
+==armhole.z//
+==armlet.z//
+==clothing# arm*.qz//arm.¹z/
+==clothing# bosom*.qz//bosom.¹z/
+==clothing# dart*.qz//dart.¹z/
+==clothing# fly*.qz//fly.¹z/
+==clothing# front#A panel*.qz//front#A panel*.¹z/
+==clothing# gore*.qz//gore.¹z/
+==clothing# knot*.qz//knot.¹z/tie# knot*.z/
+==clothing# lap*.qz//lap.¹z/
+==clothing# leg*.qz//leg.¹z/
+==clothing# neck*.qz//neck.¹z/
+==clothing-part-neckband//neckband.z/
+==clothing# seat*.qz//seat.¹z/
+==clothing# waist*.qz//waist.¹z/
+==clothing# wristband*.qz//wristband.¹z/
+==clothing# yoke*.qz//yoke.¹z/
+==coattail.z//
+==collar.z//
+===collarband.z//
+===button#V-down#R collar*.z//buttondown#A collar*.z/
+col* pointes#FP boutonnées#AFP.My/
+===celluloid# collar*.z//
+===clerical#A collar*.z//
+===high#A collar*.z//
+===Roman#A collar*.z//
+===spread# collar*.z//col* italien*A.My/
+===stiff#A collar*.z//
+==cuff.z//
+===French#A cuff*.z//
+==elastic#A band# garter*.Àz//garter.¹Àz/suspender.¹gz/jarretelle.Fy/
+===fixe-chaussette//fixe#V-chaussette#F ½.oMy/garter.Àz/suspender.gz/
+support*-chaussette#F ½.oMy/
+==facing.z//
+==gusset.z//
+==lapel.z//
+==pinafore.z//
+==placket.z//
+==pleat.z//gather.z/
+==pocket.z/small-container/|height-of=.25m|
+===left#A pocket*.z//
+===right#A pocket*.z//
+===small#A pocket*.z//gousset.My/
+==pocket# flap*.z//
+==shirttail.z//
+==shoulder# pad*.z//shoulderpad.z/
+==shoulder# strap*.z//
+==sleeve.z//
+==stomacher.z//
+==strap# garter*.Àz//garter.¹Àz/suspender.¹gz/jarretelle.Fy/
+==strap.z//
+==suspenders#P clip*.Àz//braces#P clip*.gz/
+==zipper.z//
+;_______________________________________________________________________________

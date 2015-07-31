@@ -1,0 +1,1597 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=food.mz/physical-object/groceries.Pïz/foodstuffs,provisions.qPïz/
+chow,grub.mTz/aliment.¹My/alimentation.Fy/cuisine,nourriture.Fy/provisions.FPïy/
+denrées.FPïy/denrées* alimentaires*A.FPïy/produits* alimentaires*A.MPïy/
+vivres.MPïy/épicerie.qFy/
+;_______________________________________________________________________________
+==beverage.z//drink.z/boisson.¹Fy/|topological-genus-of=0u|
+weight-of=2lbs|height-of=6in|width-of=4in|length-of=4in|
+used-for=eat-meal,have-drink,drink|
+;_______________________________________________________________________________
+===refreshments.Pïz//rafraîchissements.MPïy/
+;_______________________________________________________________________________
+===alcoholic# beverage*.z/soft-drug/alcohol.z/boisson* alcoolique*A.¹Fy/
+alcoolisé.Ay/
+;_______________________________________________________________________________
+====before#R-dinner# drink*.z//aperitif.z/apéritif.¹My/
+=====cocktail.z/mixed-drink/cocktail.¹My/
+======Bloody#A Mary*.z//bloody#Aj Mary#F.My/
+======Daiquiri.z//daïquiri.My/
+======kir.My//Kir.z/
+=======kir* vin# blanc#A.My//|white-wine=95pc|blackcurrant-liqueur=5pc|
+=======kir* royal*A.My//|champagne=95pc|blackcurrant-liqueur=5pc|
+======Manhattan drink//Manhattan.z/manhattan.My/
+======Margarita.z//
+======martini.z//martini* américain*A.My/dry.My/
+======cocktail-screwdriver//screwdriver.¹z/vodka*-orange*.¹Fy/
+======whisky# sour*.z//cocktail* de#R whisky# au#R citron#.My/
+;_______________________________________________________________________________
+====brew.z//brassage.¹My/
+=====ale.z//bière.Fy/
+=====beer.z//bière.Fy/
+======beer-half-and-half//half#-and#K-half*.gz/
+======lager# beer*.z//lager.z/lager.Fy/
+======biere-blonde//bière* blonde*A.Fy/
+======light#A beer*.z//
+=====malt# liquor*.z//bière.Fy/
+=====stout.z//bière* brune*A.Fy/
+======Guinness.®z//Guinness.®y/
+;_______________________________________________________________________________
+====liquor.z//spirit.z/spiritueux.¹My/alcool.My/
+=====bourbon.mz//bourbon.My/
+=====brandy.mz//cognac.My/
+=====gin.mz//gin.My/
+=====rum.mz//rhum.My/
+=====schnapps.mz//Hollands.mz/HollandsÝHollands# gin*.mz/Holland# gin*.mz/
+schnaps.¹My/petit*A schnaps*.My/
+======Slibowitz.®mz//slibowitz.®y/
+=====tequila.z//
+=====vodka.mz//vodka.Fy/
+=====whisky.mz//whisky.My/
+======malt# whiskey*.mz//pur*A malt*.My/whisky* pur*A malt*.My/
+======rye# whiskey*.mz//rye.mz/
+======Scotch# whiskey*.mz//Scotch.¹mz/scotch.My/
+=======Talisker.®mz//
+;_______________________________________________________________________________
+=====after#R-dinner# liqueur*.z//digestif.¹My/
+======liqueur.z//cordial.z/liqueur.Fy/
+=======amaretto.mz//amaretto.y/
+=======*Amaretto# di#Rj Saronno*.z//Amaretto* di#Rj Saronno#.My/
+|@1525|create¤na|
+=======anis.My//
+=======anisette.mz//anisette.Fy/
+=======banana# liqueur*.mz//crème* de#R banane#.Fy/
+======*Benedictine.®mz//bénédictine.®Fy/
+=======blackcurrant# liqueur*.mz//black#A currant# liqueur*.z/cassis.z/
+cassis.My/crème* de#R cassis#M,liqueur* de#R cassis#M.Fy/
+|distillation-of¤cassis|
+=======Calvados-liqueur//Calvados.mz/calvados.My/calva.TMy/
+=======chartreuse-liqueur//chartreuse.mz/chartreuse.Fy/
+======*Cointreau.®mz//
+=======curacao//curaçao.mz/curaçao.My/
+=======kummel//kümmel.mz/kummel.My/
+=======lemon# liqueur*.mz//citronnelle.Fy/
+=======maraschino.mz//marasquin.My/
+=======peppermint# cordial*.z//menthe.Fy/
+=======raki.z//raki.My/
+=======raspberry# liqueur*.mz//framboise.Fy/
+=======ratafia.z//ratafia.My/
+======*Triple-Sec//Triple#A Sec#A ½.mz/
+=======fruit# brandy*.mz//brandy.mz/eau#j de#Rj vie*j.zj/eau*-de#R-vie#.Fy/
+gnôle,gnaule,gniôle,niôle.TFy/
+========armagnac.y//
+========marcs.y//
+========apple# brandy*.mz//eau*-de#R-vie# de#R pommes#P.Fy/
+========cherry# brandy*.mz//cherry,cherry# brandy*.My/
+========plum# brandy*.mz//mirabelle.My/
+========prunelle.Fy//plum# brandy*.mz/
+;_______________________________________________________________________________
+====mixed#A drink*.z//cocktail.¹My/boisson* gazeuse*A.qFy/
+=====alcoholic#A eggnog*.mz//eggnog.¹mz/eggflip,flip.%My/
+=====gin# fizz*.z//
+=====gin# and#K tonic*.z//gin*-tonic*.My/
+=====highball.z//
+=====Tom# Collins*.z//collins.z/
+=====vodka# tonic*.z//
+;_______________________________________________________________________________
+====wine.mz//vin.¹My/
+=====sherry.mz//xérès.¹My/sherry.My/
+;_______________________________________________________________________________
+====-wine-taste//
+======vin* aigre*A.My//
+======vin-pique//vin* piqué*A.My/
+======vin-tourne//vin* tourné*A.My/
+======vin-maderise//vin* madérisé*A.My/
+;_______________________________________________________________________________
+====-wine-sugar-content//
+======vin-aromatise//vin* aromatisé*A.My/
+=======vermouth.z/before-dinner-drink/vermouth,vermout.My/
+========red#A vermouth*.z//vermouth* rouge*A.My/
+========white#A vermouth*.z//vermouth* blanc*A.My/
+======vin* cuit*A.My//
+======vin* sec*A.My//
+======vin* doux*A.My//
+======vin-sucre//vin* sucré*A.My/
+======vin-fruite//vin* fruité*A.My/
+=======vin* d#R'orange#F.My//
+========sangria.z//sangria.¹Fy/
+;_______________________________________________________________________________
+====-wine-age//
+======vin* vieux*A.My//
+;_______________________________________________________________________________
+====-wine quality//
+======bon*A vin*.My//
+======mauvais*A vin*.My//piccolo,picrate,pinard,piquette,vinasse.Ty/
+;_______________________________________________________________________________
+====-wine-caliber//
+======vin* courant*A.My//
+======vin* de#R consommation#NF courante#AF.My//
+======vin* de#R coupage#.My//
+======vin* fin*A.My//
+======vin* ordinaire*A.My//
+======vin* table*A.My//
+======vin* de#R pays#.My//
+======gros*A vin*.My//
+======petit*A vin*.My//
+======vin* du#R cru#.My//
+=======grand*A vin*.My//
+;_______________________________________________________________________________
+====-wine-newness//
+======vin* nouveau*A.My//
+======vin* trop#B jeune*A.My//
+;_______________________________________________________________________________
+====-wine-origin1//
+;_______________________________________________________________________________
+======Algerian#A wine*.z//vin* d#R'Algérie#F.¹My/
+======California# wine*.z//
+;_______________________________________________________________________________
+======French#A wine*.z//vin* de#R France#F.¹My/
+;_______________________________________________________________________________
+=======bordeaux.My//Bordelais.My/bordelais.Ay/bordeaux.z/
+=======-bordeaux1//
+=========graves.My//
+=======-bordeaux2//
+=========bordeaux* rouge*A.My/red-wine/
+==========medoc//médoc.My/
+==========moulis.y//
+===========Biston-Brillette-moulis-1990//
+==========pauillac.y//
+===========Haut-Batailley-pauillac-1989//
+==========pomerol.My//
+===========Moulinet-pomerol-1989//
+==========saint-emilion//saint*A-émilion*.My/
+===========Fonplegade-saint-emilion-1989//
+=========bordeaux* blanc*A.My/white-wine/
+==========sauternes.My/vin-sucre,vin-fruite/
+;_______________________________________________________________________________
+=======bourgogne.My//
+=======-bourgogne1//
+=========beaujolais.y//
+=========macon.y//
+=========meursault.My//
+==========meursault* blanc*A.My/bourgogne-blanc/
+===========Michelot-meursault-1990//
+==========meursault* rouge*A.My/bourgogne-rouge/
+=======-bourgogne2//
+=========bourgogne* blanc*A.My/white-wine/
+==========chablis.My/vin-sec/
+===========Droin-chablis-1992//
+=========bourgogne* rouge*A.My/red-wine/
+==========pommard.My//
+===========Pothier-Rieusset-pommard-1989//
+;_______________________________________________________________________________
+=======vin* du#R Rhin#.My//
+;_______________________________________________________________________________
+======Italian#A wine*.z//vin* d#R'Italie#F.¹My/
+======Spanish#A wine*.z//vin* d#R'Espagne#F.¹My/
+;_______________________________________________________________________________
+====-wine-origin2//
+======vin-AOCA//vin* A\.O\.C\.#A.My/
+vin* d#R'appellation#F d#R'origine#F contrôlée#AF.My/
+======vin-VDQSA//vin* V\.D\.Q\.S\.#A.My/
+vin* délimité*A de#R qualité#F supérieure#AF.My/
+;_______________________________________________________________________________
+====-wine-sparklingness//
+======nonsparkling#A wine*.z//
+======sparkling#A wine*.z//vin* mousseux*A,vin* pétillant*A.¹My/
+=======champagne.z/white-wine,French-wine/champagne.¹My/
+=======blanquette.Fy/white-wine/sparkling#A white#A wine*.¹z/
+;_______________________________________________________________________________
+====-wine-color//
+======vin* jaune*A.My//
+======vin* de#R paille#F.My//
+======vin* pelure#F d#R'oignon#.My//
+======vin-resine//vin* resiné*A.My/
+======red#A wine*.z//vin* rouge*A.¹My/rouge.TMy/
+=======gros*A rouge*.My/mauvais-vin/
+=======vin-rose//vin* rosé*A.My/rosé.¹My/
+======white#A wine*.z//vin* blanc*A.¹My/blanc.TMy/
+;_______________________________________________________________________________
+===coffee.z//café.¹My/
+====American#A coffee*.qz//coffee.¹z/filtered#A coffee*.qz/café* filtre*.My/
+café*-filtre*.My/
+====cappucino.z//cappucino.My/
+=====mocha# cappucino*.z//mocaccino.My/
+====decaf.z//decaffeinated#A coffee*.z/café* décaféiné*A.My/déca.TMy/
+====espresso.z//café.¹My/petit*A café*.¹TMy/express.¹ßMy/
+café* noir*A,café* express*A.My/espresso.My/
+=====extra#B-strong#A espresso*.z//café* serré*A.My/
+=====double#A espresso*.z//double*A express*.My/doppio.qMy/
+=====weak#A espresso*.z//café* allongé*A,café* long*A.My/
+café* américain*A.My/jus* de#R chaussette#F.ñhTMy/lungo.qMy/
+=====espresso* with#R hot# milk#.z//café* au#R lait#.My/
+=====espresso* with#R steamed#A milk#.z//café* crème*A.My/crème.My/
+======small#A espresso* with#R steamed#A milk#.z//petit*A crème*.My/
+======large#A espresso* with#R steamed#A milk#.z//grand*A crème*.My/
+caffè#j latte#j.qMy/
+====iced#A coffee*.z//café* glacé*A.My/
+====Irish#A coffee*.z//café* irlandais*A.My/irish#Aj coffee*.My/
+====moka.My//
+;_______________________________________________________________________________
+===food-tea//tea.z/thé.My/
+====herb# tea*.z//infusion.Fy/
+====plain# tea*.z//thé* nature*A.My/
+====tea* with#R lemon#.z//thé* citron*.My/
+====tea* with#R milk#.z//thé* au#R lait#.My/
+====iced#A tea*.z//thé* glacé*A.My/
+====*Lipton#® Iced#A Tea*.z//Lipton#® Ice#j Tea#j.ß®y/
+;_______________________________________________________________________________
+===milk.mz/dairy-product/lait.My/
+;_______________________________________________________________________________
+====goat#'s milk*.mz//
+;_______________________________________________________________________________
+====cow#'s milk*.mz//milk.mz/
+;_______________________________________________________________________________
+=====skim#A milk*.mz//skimmed#A milk*.mz/lait* écrémé*A.My/
+=====lowfat#A milk*.mz//lait* demi#B-écrémé*A.My/
+=====enriched#A milk*.mz//lait* enrichi*A.My/
+=====whole#A milk*.mz//lait* entier*A.My/
+=====sterilized#A milk*.mz//lait* stérilisé*A longue#AF conservation#NF.My/
+=====UHT# milk*.z//lait* UHT*A.My/lait* ultra#ßAF-haute#AF température#F.My/
+long#A life# milk*.z/
+======lait* Lactel#®.My//
+;_______________________________________________________________________________
+=====cream.mz//crème.Fy/
+======cream-half-and-half//half#-and#K-half*.Àz/
+======creme-fraiche//crème#j fraîche*j.z/crème* fraîche*A.Fy/
+======*Danette.®y//
+======*Fjord.®y//
+======single#A cream*.gz//cream.Àz/crème* liquide*A.Fy/
+crème* fraîche*A liquide*A.Fy/
+=======low#A-fat# single#A cream*.gz//low#A-fat# cream*.Àz/
+crème* fraîche*A allégée*.Fy/
+======double#A cream*.gz//thick#A cream*.Àz/crème* fraîche*A épaisse*.Fy/
+======Chantilly# cream*.z//crème* Chantilly#C.Fy/Chantilly.y/
+======whipped#A cream*.z//crème* fouettée*A.Fy/
+======whipping# cream*.z//crème* fleurette*A.Fy/
+=====condensed#A milk*.mz//evaporated#A milk*.z/lait* concentré*A.My/
+=====frothy#A milk*.mz//
+=====hot#A milk*.mz//
+======hot#A chocolate*.z//chocolat* chaud*A.My/
+=====steamed#A milk*.mz//
+;_______________________________________________________________________________
+=====chocolate#A milk*.z//
+=====*Bosco.®z//
+=====*Nestle-s-chocolate-milk//Nestlé#'s chocolate#A milk*.z/
+=====*Ovaltine.®z//Ovomaltine.®y/
+;_______________________________________________________________________________
+=====strawberry# milk*.z//pink#A milk*.Tîz/
+======Nestle-s-strawberry-milk//Nestlé#'s strawberry#A milk*.z/
+;_______________________________________________________________________________
+=====nonalcoholic#A eggnog*.mz//eggnog.¹mz/lait* de#R poule#F.¹My/
+;_______________________________________________________________________________
+===fruit# drink*.z//
+;_______________________________________________________________________________
+===juice.z//jus.My/
+;_______________________________________________________________________________
+====fruit# juice*.z//
+;_______________________________________________________________________________
+=====apple# juice*.z//
+=====*Tropicana#® apple# juice*.z//Tropicana* pomme#F.®y/
+;_______________________________________________________________________________
+=====grapefruit# juice*.z//jus* de#R pamplemousse#.My/
+=====*Tropicana#® grapefruit# juice*.z//Tropicana* pamplemousse#M.®y/
+;_______________________________________________________________________________
+=====lemon# juice*.z//jus* de#R citron#.My/
+======lemonade.Àz//lemon# juice*.gz/citronnade.Fy/
+=======fresh#A-squeezed#A lemonade*.Àz//freshly#B-squeezed#A lemonade*.Àz/
+freshly#B-squeezed#A lemon# juice*.gz/citron* pressé*A.My/
+;_______________________________________________________________________________
+=====orange# juice*.z//jus* d#R'orange#F.My/
+======fresh#A-squeezed#A orange# juice*.z//freshly#B-squeezed#A orange# juice*.z/
+orange* pressée*A.Fy/
+======Tropicana#® orange# juice*.z//Tropicana* orange#F.®y/
+======orange# drink*.z//orangeade.z/
+======*Banga.®y//
+======*Oasis.®y//
+======*Tang.®z//
+;_______________________________________________________________________________
+===soda.¹z//soft#A drink*.z/fizzy#A drink*.gz/carbonated#A soft#A drink*.z/
+pop,soda# pop*,coke.îz/tonic.oîz/soda.¹My/
+;_______________________________________________________________________________
+====lemon# soda*.Àz//lemonade.gz/limonade.Fy/
+====*Limonade.®z//Limonade.®Fy/
+====*Sprite.®z//Sprite.®My/
+====*7-Up//7#-Up#B ½.®z/7#-Up#Bj.®y/
+=====diabolo.My//
+======diabolo* citron#.My//lemon# soda* with#R lemon#.Àz/
+lemonade* with#R lemon#.gz/
+======diabolo* fraise#F.My//lemon# soda* with#R strawberry# syrup#.Àz/
+lemonade* with#R strawberry# syrup#.gz/
+======diabolo* grenadine#F.My//Shirley# Temple*.¹Àz/
+grenadine# and#K lemon# soda*.gÀz/
+grenadine# and#K lemonade*.gz/
+======diabolo* menthe#F.My//Peppermint# soda*.¹Àz/
+mint# cordial# and#K lemon# soda*.Àz/mint# cordial# and#K lemonade*.¹gz/
+;_______________________________________________________________________________
+====orange# soda*.z//soda* orange*A.@¹My/
+====*orange#A Fanta*®.z//Fanta.®z/Fanta# orange*A.®y/Fanta.®y/
+====*Orangina.®z//Orangina.®My/Orangina.®Fy/
+;_______________________________________________________________________________
+====cola.z//cola,kola.My/cola,kola.Fy/
+====*Coke.®z//Coca#® Cola*®.®z/coca*-cola# ½.®My/coca.My/
+=====*Diet#A Coke*.®z//coca*-cola# ½ light#Aj.®My/
+=====*Cherry#A Coke*.®z//
+====*Pepsi.®z//Pepsi#® Cola*®.®z/Pepsi.®y/
+;_______________________________________________________________________________
+===drinking# water*.z/H20/water.z/eau,eau* potable*A.Fy/
+====flat#A water*.z//eau* plate*A.Fy/
+====*Evian.®z//Evian.®My/
+=====tap# water*.z//eau* du#R robinet#M.Fy/carafe* d#R'eau#.qFy/
+=====ice# water*.z//iced#A water*.z/eau* glacée*A.Fy/
+====carbonated#A water*.z//seltzer,seltzer# water*,sparkling#A water*.z/
+carbonated,fizzy.Az/eau* gazeuse*A.Fy/soda.qMy/eau* de#R Seltz#C.qFy/
+=====sparkling#A mineral# water*.z/mineral-water/eau* minérale*A gazeuse*A.Fy/
+=====*Badoit.®My//
+=====*Perrier.®z//Perrier.®My/
+=====tonic# water*.z//quinine# water*.z/tonic.My/
+=====*Schweppes.@®z//
+====mineral# water*.z//bottled#A water*.z/eau* minérale*A.Fy/
+;_______________________________________________________________________________
+==kosher# food*.z//
+==halal.z/meat/
+;_______________________________________________________________________________
+==cereal.mz//breakfast# cereal*.z/céréales.¹FPïy/
+céréales* pour#RS le#DS petit#AMS déjeuner#MS.FPïy/
+==*Cheerios.®mz//Cheerios.®Pïz/
+==*Cocoa# Krispies#P.®mz//Cocoa#S Krispies*.®Pïz/Chocopop#'s.®y/
+==*Cocoa# Puffs#P.®mz//Cocoa#S Puffs*.®Pïz/
+==*Corn# Flakes#P.mz//Corn#S Flakes*.Pïz/
+===*Kellogg#®'s Corn# Flakes#P.®mz//Kellogg#®S's Corn#S Flakes*.®Pïz/
+==*Corn# Pops#P.®mz//Corn#S Pops*.®Pïz/
+==*Froot# Loops#P.®mz//Froot#S Loops*.®Pïz/
+==*Sugar# Pops#P.mz//Sugar#S Pops*.Pïz/
+==*cereal-Trix//Trix.®mz/Trix.®Pïz/
+==*Lucky#A Charms#P.®mz//Lucky#A Charms*.®Pïz/Lucky#Aj Charms#Pj.®my/
+;_______________________________________________________________________________
+==bread.mz//pain.My/
+===English#A muffin*.Àz//muffin.gz/muffin.My/
+===corn# bread*.mz//
+===soda# bread*.mz//pain* au#R lait#N.My/
+====Irish#A soda# bread*.mz//
+===challah.mz//
+===matzo.mz//pain* azyme*A.My/
+===pita.z//
+===pretzel.z//bretzel.My/
+===pain-fantaisie//pain* fantaisie#F ½.My/pain* de#R fantaisie#F.My/
+===petit*A pain*.My//small#A bread*.z/
+====bagel.z//bagel.My/petit*A pain* en#R forme#F d#R'anneau#.My/
+petit*A pain* en#R couronne#F.My/
+===quick#A bread*.qz//biscuit.Àz/
+====scone.z//baking# powder# biscuit*.Àz/scone.My/petit*A pain* rond*A.My/
+;_______________________________________________________________________________
+===appetizer.z//
+====small#A appetizer*.z//amuse#V-gueule#F,amuse#V-bouche#F.My/
+====starter.z//hors#R d#R'Óuvre#F.My/
+;_______________________________________________________________________________
+===pizza.z//pizza.Fy/
+;_______________________________________________________________________________
+===pain* long*A.My//long#A loaf* of#R bread#.z/
+====baguette.Fy//French#A bread*.z/baguette.z/
+=====baguette* de#R campagne#.Fy//
+=====baguette-a-l-ancienne//baguette* à#R l#DF'ancienne#.Fy/
+=====baguette* au#RM levain#M.Fy//sourdough# baguette*.z/
+=====baguette* paysanne*A.Fy//
+====*Belle-Epoque//Belle*A Époque*.®Fy/
+====*Banette.®Fy//
+=====pain-batard//bâtard.My/short#A baguette*.z/
+=====demi*A-baguette*.Fy//half* a#D baguette#.z/
+====pain* au#R son#.My//French#A bran# bread*.z/
+====pain-flute//flûte.Fy/
+====pain-parisien//parisien.My/
+====pain-ficelle//ficelle.Fy/thin#A crusty#A baguette*.z/
+====pain-saucisson//saucisson.My/
+;_______________________________________________________________________________
+===pain* rond*A.My//round#A loaf* of#R bread#.z/
+====boule* de#R pain#M.qFy//boule.¹Fy/round#A French#A loaf* of#R bread#.z/
+====fer-a-cheval//fer* à#R cheval#.My/horseshoe#-shaped#A baguette*.z/
+====miche.Fy//round#A loaf*.z/cob# loaf*.z/
+large#A country#-style# French#A loaf* of#R bread#.z/
+====pain-chapeau//chapeau.My/
+small#A round#A French#A loaf* of#R bread# topped#A with#R a#D hat#.z/
+====pain-couronne//couronne.Fy/ring#-shaped#A baguette*.z/
+====pain* de#R campagne#F.My//country#-style# French#A loaf* of#R bread#.z/
+====pumpernickel.z//pumpernickel#A bread*.z/pumpernickel.My/
+pain* de#R seigle#F noir*A.My/
+====rye#A bread*.z//pain* de#R seigle#F.My/
+====white#A bread*.z//pain* de#R mie#F.My/
+=====American#A white# bread*.qz//pain* de#R mie#F américain*A.My/
+=====*Wonder# Bread*.®z//
+=====pain* de#R mie#F.My//French#A white#A bread*.z/
+====whole#A-wheat# bread*.z//pain* complet*A.My/
+=====Pepperidge#® Farm#® whole#A-wheat# bread*.z//
+====cracked#A-wheat# bread*.z//
+;_______________________________________________________________________________
+===tartine.Fy//slice* of#R bread#.z/
+====tartine* de#R beurre#M.Fy//tartine* de#R pain#M beurré#AM.Fy/
+buttered#A bread*.¹z/bread* and#K butter*.z/
+====tartine* de#R confiture#.Fy//bread* and#K jam*.z/
+====food-toast//toast.My/pain* grillé*A.My/tartine* grillée*A.Fy/rôtie.îFy/
+rôtie.oFy/toast.z/
+=====melba# toast*.Àz//Melba# toast*.Àz/rusk.gz/continental#A toast*.gz/
+biscotte.Fy/
+=====*Heudebert.®y//
+======*biscotte* Heudebert#C.Fy//biscotte* d#R'Heudebert#C.Fy/
+======*Tartine* d#R'Heudebert#C.Fy//
+;_______________________________________________________________________________
+==confection.z//candy,sweet.z/yumyum,yum# yum#.az/bonbon.My/
+;_______________________________________________________________________________
+===confection-mint//mint.z/bonbon* à#R la#D menthe#F.My/
+====berlingot.My//twisted#A hard#A mint*.z/
+;_______________________________________________________________________________
+===chocolate.z//chocolat.My/
+====chocolate# chip*.z//pépites* de#RS chocolat#MS.FPïy/
+;_______________________________________________________________________________
+===chewing-gum//gum.¹z/chewing# gum*.z/chewing#j-gum*j.¹My/
+====bubble# gum*.z//
+====*Bazooka.®z//
+====*El#Dj Bubble*.®z//
+====*Double#A-Bubble*.®z//
+===*Chiclets.®Pïz//; Warner-Lambert
+====*Chiclets#P Tiny#A Size# Gum*.z//
+===*Hollywood#® chewing#j-gum*j.®My//
+===*Wrigley#'s Gum*.®z//
+====*Wrigley#'s Spearmint#A Gum*.®z//
+====*Juicy#A Fruit*.®z//
+;_______________________________________________________________________________
+==patisseries//pâtisseries.FPïy/gâteaux.MPïy/cakes,pastries.Pïz/
+===amandine.Fy//almond# tart*.z/
+===baklava.My//baklava.z/
+===barquette.Fy//
+===bavarois.My//
+===buche//bûche.yF/
+===charlotte.Fy//
+===chausson.My//
+===chouquette.Fy//
+===clafoutis.My//
+===cramique.îMy//
+===croquembouche.My//
+===cupcake.z//petite*A génoise* individuelle*A.Fy/
+===diplomate.My//
+===doughnut.z//donut.z/beignet.My/
+===eclair//éclair.My/
+===far.My//
+===feuillete//feuilleté.My/
+===flan.My//
+===foret-noire//forêt*-noire*A.Fy/
+===fraisier.My//strawberry# gateau*.z/
+===framboisier.My//
+===friand.y//puff.z/
+===galette.Fy//plain#A round#A flat#A cake*.z/
+===gateau-au-chocolat//gâteau* au#RM chocolat#.My/
+===gateau-aux-amandes//gâteau* aux#RFP amandes#FP.My/
+===gateau-des-rois//gâteau* des#RP rois#P.My/
+===gateau-individuel//gâteau* individuel*A.My/
+;_______________________________________________________________________________
+===cake.z//gâteau.My/
+====birthday# cake*.z//gâteau* d#R'anniversaire#.My/
+====fruit# cake*.z//cake.My/plum#-cake*.oMy/
+====wedding# cake*.z//
+;_______________________________________________________________________________
+===petit-gateau-sec//petit*A gâteau* sec*A.My/gâteau* sec*A.My/
+petit*A gâteau*.My/
+====boudoir.My//ladyfinger.z/sponge# finger*.gz/
+====congolais.My//coconut# cake*.z/
+;_______________________________________________________________________________
+====biscuit.My//biscuit.gz/biscuit.My/
+;_______________________________________________________________________________
+=====plain#A biscuit*.z//
+======cracker.z//cracker.My/biscuit* salé*A.My/
+======*Ritz#® cracker*.z//
+======*Crackers* Belin#®C.®MPïy//
+=======*Feuillete//Feuilleté.®y/
+=======*Snacky.®y//
+=======*Miniquich#'.®y//
+=======*Minizza.®y//
+=======*cracker Monaco//Monaco.®y/
+=======*P#'tipain#.®y//
+=======*Tart#'oignon#.®y//
+=======*Tele//Télé.®y/
+=======*Terrinette.®y//
+=======*Triangolini.®Pïy//
+=======saltine.z//
+=======*Premium#A Crackers*.®Pïz//
+=======cream# cracker*.z//
+=======soda# cracker*.z//
+;_______________________________________________________________________________
+=====semi#B-sweet#A biscuit*.z//
+======wafer.z//gaufrette.Fy/
+;_______________________________________________________________________________
+=====sweet#A biscuit*.gz//cookie.Àz/cookie.My/cooky.qMy/biscuit* sec*A.My/
+gâteau* sec*A.My/petit*A gâteau* sucré*A.My/
+;_______________________________________________________________________________
+=====-sweet#A biscuit# type*.gz//cookie# type*.Àz/
+=======chocolate# cookie*.z//
+=======*biscuit-Pepito-Belin//biscuit* Pépito#®C Belin#®C.My/
+=======chocolate# chip# cookie*.z//
+biscuit* truffé#V de#R pépites#FP de#R chocolat#.My/
+=======*Chips# Ahoy#.®z//
+=======chocolate# chocolate# chip# cookie*.z//
+biscuit* chocolat# truffé#V de#R pépites#FP de#R chocolat#.My/
+=======peanut# butter# cookie*.Àz//
+=======sweet-biscuit-sable//sablé.My/shortbread# biscuit*.gz/cookie.Àz/
+=======social# tea# cookie*.Àz//
+=======tuile.Fy//
+========tuile* aux#RP amandes#P.Fy//almond# biscuit*.z/
+;_______________________________________________________________________________
+=====-sweet#A biscuit# brand*.gz//cookie# brand*.Àz/
+======*Oreo.®z//Oreo# cookie*.®z/
+======*Pepperidge# Farm# cookie*.®z//
+======*Hello#Uj cookies#P.®My//; is really Hello!
+=======*Hello-cookies1/chocolate-chocolate-chip-cookie/
+Hello#Uj cookies#P chocolat# truffé#V de#R pépites#FP de#R chocolat#.®My/
+;_______________________________________________________________________________
+====financier.y//
+====gaufre.Fy//waffle.z/
+====macaron.My//macaroon.z/
+====madeleine.Fy//madeleine.z/
+====massepain.My//marzipan# cake*.z/
+====nonnette.Fy//small#A iced#A gingerbread*.z/
+====palmier.My//large#A pastry# biscuit*.z/
+====petit*A-beurre*.My//
+===genoise//génoise.y/sponge# cake*.z/
+===kouglof.My//kugelhopf.z/
+===manque//manqué.My/iced# cake*.z/
+===meringue.Fy//meringue.z/
+===millefeuille.My//millefeuille.z/
+====millefeuille-sucre//millefeuille* sucré*A.My/
+====millefeuille-glace//millefeuille* glacé*A.My/
+===patisseries-baba//baba.My/baba.z/
+====baba* au#R rhum#.My//rum# baba*.z/
+===patisseries-moka//moka.My/mocha#A cake*.z/
+===patisseries-chou//chou.My/
+===patisseries-conversation//conversation.Fy/
+===mont*-blanc*A.My//
+===muffin.Àz//small#A sweetened# cake*.gz/petite*A génoise* individuelle*A.Fy/
+====blueberry# muffin*.Àz//
+====bran# muffin*.Àz//
+====chocolate# chip# muffin*.Àz//
+===pancake.z//galette.Fy/crêpe.Fy/
+===paris#-brest#.My//
+pastry* with#R praline# filling# sprinkled#V with#R almonds#P.z/
+===piece-montee//pièce* montée*A.Fy/layer# cake*.z/
+===petit*A four*.My//
+===pithiviers.My//puff# pastry* with#R almond# paste# filling#.z/
+===polonaise.Fy//pastry* with#R meringue# topping# flavored#V with#R Kirsch#.z/
+===profiterole.Fy//profiterole.z/
+====profiteroles* au#RMS chocolat#MS.FPïy//chocolate#A profiteroles*.Pïz/
+===pudding.My//heavy# fruit# sponge*.z/
+===puits* d#R'amour#.My//
+===quatre#A-quarts#P.ßMy//pound# cake*.z/
+===religieuse.Fy//
+====religieuse-au-cafe//religieuse* au#RM café#NM.Fy/
+====religieuse* au#RM chocolat#NM.Fy//
+===saint-honore//saint*A-honoré*.My/
+===savarin.My//rum# baba*.z/
+===sponge# cake*.z//biscuit.My/
+===strudel.My//strudel.z/
+===tarte.Fy//tart.z/
+====tarte* aux#RP fraises#P.Fy//strawberry# tart*.z/
+====tarte-a-la-rhubarbe//tarte* à#R la#D rhubarbe#.Fy/rhubarb# tart*.z/
+====tarte* Tatin#C.Fy//apple# tart*.z/
+===tartelette.Fy//tart.z/
+===vacherin.y//
+;_______________________________________________________________________________
+==seafood.mz//fruit* de#R mer#F.My/
+===coquillage.My//
+;_______________________________________________________________________________
+==condiment.z//condiment.¹My/
+===food-butter//butter.mz/beurre.My/
+===mustard.mz//moutarde.¹Fy/
+===condiment-relish//relish.mz/hot#A dog# relish*.z/
+sauce* pour#R hot#AM dog#Mj.¹Fy/
+;_______________________________________________________________________________
+==food-sugar/compound-sugar/sugar.z/sucre.My/
+===white#A sugar*.z//
+====powdered#A sugar*.z//
+====crystalline#A sugar*.z//sugar.¹z/
+===brown#A sugar*.z//cassonade.Fy/
+;_______________________________________________________________________________
+==spice.z//épice.¹Fy/
+===food-salt/NaCl/salt.¹mz/table# salt*.z/sel.¹My/sel* fin*A.My/
+sel* de#R table#F.My/
+===pepper.mz//poivre.¹My/
+;_______________________________________________________________________________
+==fruit.mz//fruit.My/
+;_______________________________________________________________________________
+===fruit* sec*A.My//dry#A fruit*.z/
+====anis-etoile//anis* étoilé*A.My/star# anise*.z/
+|part-of¤plant-follicle,plant-small-seed,plant-suture|
+====mustard-plant//moutarde.Fy/mustard.z/|part-of¤plant-style,plant-septum|
+part-of¤plant-valve,plant-small-seed|
+====poppy-capsule/plant-capsule/poppy.z/pavot.My/|part-of¤plant-pore,poppy-seed|
+====poppy-seed/plant-small-seed/poppy# seed*.z/graine* de#R pavot#M.Fy/
+;_______________________________________________________________________________
+====noix.Fy//nut.z/
+=====amande.Fy//almond.z/
+=====cacahuete//cacahuète.Fy/arachide.Fy/peanut.z/
+=====marron.My//chestnut.z/
+=====noisette.Fy//hazelnut.z/
+|part-of¤cupule,bract,plant-small-seed,pericarp,achene,plant-stigma|
+=====noix-de-Bresil//noix* de#R Brésil#M.Fy/Brazil# nut*.z/
+=====noix* de#R cajou#M.Fy//cashew.z/
+=====noix* de#R coco#M.Fy//coconut.z/
+=====noix* de#R pacane#.Fy//pecan# nut*.z/pecan.¹z/
+=====pignon.My//pine# nut*.¹z/pine# kernel*.z/
+=====pistachio.z//pistachio# nut*.z/pistache.Fy/
+=====walnut.z//noix.Fy/|part-of¤plant-shell,cerneau,plant-partition|
+;_______________________________________________________________________________
+===fruit* tropical*A.My//tropical#A fruit*.z/
+====ananas.My//pineapple.z/
+====avocado.z//avocat.My/
+====banane.Fy//banana.z/
+====cherimole//chérimole.Fy/cherimoya.z/
+====figue* de#R Barbarie#.Fy//Indian#A fig*.z/
+====goyave.Fy//guava.z/
+====kaki.My//Japanese# persimmon*.z/
+====kiwi.My//kiwi.z/
+====litchi.My//litchi.z/
+====papaye.Fy//papaya.z/
+====pomegranate.z//grenade.Fy/
+;_______________________________________________________________________________
+===fruit* charnu*A.My//fleshy#A fruit*.z/
+;_______________________________________________________________________________
+====baie.Fy//berry.z/
+=====airelle.Fy//huckleberry.z/
+=====cassis.My//blackcurrant.z/black#A currant*.z/|fruit-of¤blackcurrant-bush|
+=====canneberge.Fy//cranberry.z/
+=====currant.z//groseille* à#R grappes#P.Fy/gadelle.çFy/
+raisin* de#R Corinthe#C.My/
+=====framboise.Fy//raspberry.z/
+|part-of¤drupelet,sepal,pedicel,plant-small-seed,plant-receptacle|
+=====baie-fraise//fraise.Fy/strawberry.z/
+|part-of¤achene,mesocarp,calyx,epicalyx,pedicel,plant-receptacle|
+=====groseille.Fy//
+======groseille* rouge*A.Fy/currant/groseille.Fy/redcurrant.z/
+======groseille* blanche*A.Fy/currant/white#A currant*.z/
+======groseille-a-maquereau//groseille* à#R maquereau#M.Fy/gooseberry.z/
+=====myrtille.Fy//bleuet.çMy/blueberry.z/
+=====raisin.My//grape.z/
+|part-of¤plant-style,exocarp,plant-small-seed,mesocarp,funiculus,pedicel|
+======raisin* sec*A.My//raisin.z/
+;_______________________________________________________________________________
+====fruit-a-noyau//fruit* à#R noyau#.My/stone# fruit*.z/drupe.z/drupaceous.Az/
+=====abricot.My//apricot.z/
+=====cerise.Fy//cherry.z/
+=====datte.Fy//date.z/
+=====mangue.Fy//mango.z/
+=====nectarine.Fy//nectarine.z/
+=====olive.Fy//olive.z/
+=====peche//pêche.Fy/peach.z/
+|part-of¤pedicel,exocarp,mesocarp,endocarp,plant-large-seed,plant-style|
+=====prune.Fy//plum.z/
+=====pruneau.My//prune.z/
+;_______________________________________________________________________________
+====fruit-a-pepins//fruit* à#R pépins#P.My/pome# fruit*.z/pome.z/
+=====Japan#A plum*.z//nèfle* du#R Japon#M.Fy/
+=====pomme.Fy//apple.z/
+|part-of¤pedicel,loculus,mesocarp,plant-small-seed,plant-core|
+part-of¤exocarp,plant-style,stamen,sepal|
+=====poire.Fy//pear.z/
+=====quince.z//coing.My/
+;_______________________________________________________________________________
+====agrume.My//citrus# fruit*.z/
+=====citron.My//lemon.z/
+=====fruit-orange//orange.Fy/orange.z/|part-of¤plant-wall,plant-small-seed|
+part-of¤plant-juice-sac,mesocarp,pericarp,plant-zest,plant-segment|
+=====kumquat.My//kumquat.z/
+=====mandarine.Fy//mandarin.z/
+=====pamplemousse.My//grapefruit.z/
+;_______________________________________________________________________________
+==vegetable.z/plant/légume.¹My/végétal.My/végétal.Ay/
+;_______________________________________________________________________________
+===pates-alimentaires//pâtes* alimentaires*.FPïy/pâtes.¹FPïy/pasta.¹z/
+; Italian pasta ontology/words based on Walter (1994, pp. 157-160).
+; We assume French follows Italian gender, based on Italian
+; gender/number heuristic:
+;   -o = MS, -i = MP/FP, -a = MS/FS, -e = FP/FS/MS,
+; or by consulting Bantam New College Italian & English Dictionary.
+; In French according to Rey-Debove and Rey (1993), Italian plurals
+; such as "macaroni" and "tagliatelle" are plural in French also,
+; but spelled "macaronis" and "tagliatelles". However, "Faites cuire
+; les Torti" on Panzani package. In English these become singular
+; mass nouns: "some macaroni", "some tagliatelle".
+;_______________________________________________________________________________
+====pates-longues//pâtes* longues*A.FPïy/long#A pasta*.z/
+;_______________________________________________________________________________
+=====pates-plates//pâtes* plates*A.FPïy/flat#A pasta*.z/
+======lasagnes.PFïy//lasagna.mz/
+=======lasagnes* ricce*Aj.FPïy//lasagnes* à#RS bord#MS ondulé#AMS.FPïy/
+=======lasagnettes.FPïy//petites*A lasagnes*.FPïy/lasagnette.mz/
+======pappardelles.FPïy//pappardelle.mz/
+======fettuccines.FPïy//fettuccine,fettucine,fettuccini.mz/
+======picagges* verdi*Aj genovesi*Aj.FPïy//
+======paglia-e-fieno//paglia#F ½ e#Kj fieno*.My/paille#F ½ et#K foin*.My/
+======raganelles* lucane*Aj.FPïy//
+======tagliatelles.FPïy//tagliatelle.mz/
+=======tagliatelles* corte*Aj.FPïy//
+======laganes.FPïy//lagane.mz/
+======nouilles.FPïy//noodles.Pïz/
+======taglierinis.FPïy//taglierini.mz/
+======tagliolinis.Pïy//tagliolini.mz/
+======tajarin.y//tajarin.mz/
+======mafaldines.FPïy//mafaldine.mz/
+======trenettes.FPïy//trenette.mz/
+======bavettes.FPïy//bavette.mz/
+======linguines.FPïy//linguine.mz/
+======fili* d#RS'angelo#MS.MPïy//
+======matassa.y//matassa.mz/
+======nido.My//nids.MPïy/nido.mz/nests.Pïz/
+;_______________________________________________________________________________
+=====pates-tubulaires//pâtes* tubulaires*A.FPïy/tubular#A pasta*.z/
+;_______________________________________________________________________________
+======pates-tubulaires-pleines//pâtes* tubulaires*A pleines*A.FPïy/
+=======capellinis.MPïy//capellini.mz/
+=======spaghettis.MPïy//spaghetti.mz/
+=======spaghettinis.MPïy//spaghettini.mz/
+=======vermicellonis.MPïy//vermicelloni.mz/
+=======vermicelle.My//vermicellis.MPïy/vermicelli.mz/
+========cheveux* d#RS'ange#S.MPïz//angel# hair# pasta*.z/
+; even finer than vermicelli
+;_______________________________________________________________________________
+======pates-tubulaires-creuses//pâtes* tubulaires*A creuses*A.FPïy/
+=======bucatinis.MPïy//bucatini.mz/
+=======diavolinis* lisci*Aj.MPïy//
+=======mezzanis.MPïy//mezzani.mz/
+=======mezzanellis.MPïy//mezzanelli.mz/
+=======macaronis.MPïy//maccheronis.qMPïy/macaroni.¹mz/maccheroni.qmz/
+=======maccheroncinis.MPïy//maccheroncini.mz/
+=======maccaroncellis.MPïy//maccaroncelli.mz/
+=======spirettes.FPïy//
+=======serpentinis.MPïy//
+=======perciatellis.MPïy//perciatelli.mz/
+=======zitonis.MPïy//zitoni.mz/
+=======zitis.MPïy//zites.MPïy/zite,ziti.mz/
+;_______________________________________________________________________________
+====pates-courtes//pâtes* courtes*A.FPïy/short#A pasta*.z/
+=====anellis.MPïy//anelli.mz/
+=====anellis* ricci*Aj.MPïy//
+=====brichettis.MPïy//brichetti.mz/
+=====cannaronis* ricci*Aj.MPïy//
+=====chifferis.MPïy//chifferi.mz/
+=====chifferinis.MPïy//chifferini.mz/
+=====dentis* di#Rj elefante#S.MPïy//
+=====ditalis.MPïy//ditali.mz/
+=====ditalis* rigati*Aj.MPïy//
+=====ditalonis* lisci*Aj.MPïy//
+=====ditalonis* quadri*Aj.MPïy//
+=====fischiettis.MPïy//fischietti.mz/
+=====fischiettis* rigati*Aj.MPïy//
+=====gentilis* rigati*Aj.MPïy//
+=====gramignas.FPïy//gramigna.mz/
+=====maccheronis* lisci*Aj.MPïy//
+=====maccheronis* quadri*Aj.MPïy//
+=====millerighes.FPïy//millerighe.mz/
+=====mostacciolis.MPïy//mostaccioli.mz/
+=====noccioles* grosses*A.FPïy//
+=====occhis* di#Rj lupo#S.MPïy//
+=====ottorighes.FPïy//ottorighe.mz/
+=====pennes.FPïy//penne.mz/
+======pennes* rigate*Aj.FPïy//
+=====pennettes.FPïy//pennette.mz/
+=====rigatonis.MPïy//rigatoni.mz/
+=====rotellonis.MPïy//rotelloni.mz/
+=====sedanis.MPïy//sedani.mz/
+=====tortiglionis.MPïy//tortiglioni.mz/
+;_______________________________________________________________________________
+====pates-fantaisie//pâtes* fantaisie#S.FPïy/pasta* in#R various#A shapes#NP.z/
+=====avions.MPïy//
+=====cavatappis.MPïy//cavatappi.mz/
+=====cavatellis.MPïy//cavatelli.mz/
+=====conchiglies.FPïy//conchiglie.mz/
+=====coquillettes.FPïy//tiny#A shells*.Pïz/
+=====collerettes.FPïy//
+=====coudes-rayes//coudes* rayés*A.MPïy/
+=====cravattes.FPïy//cravatte.mz/
+=====farfalles.FPïy//farfalle.mz/
+=====farfallonis.MPïy//farfalloni.mz/
+=====faveurs.FPïy//
+=====fusillis.MPïy//fusilli.¹mz/
+=====tortis.MPïy//torsades.¹FPïy/fusillis.MPïy/èliche.FPïyj/
+spirales,hélices.qFPïy/torti.¹mz/fusilli.mz/spirals.Pïz/
+pasta#S twists*,twists.Pïz/helixes.qmPïz/
+; These spirals or helixes are called "fusilli" in the Campanie region of Italy
+; and are not to be confused with the more string-like "fusilli".
+======eliche-de-Buitoni//èliche* de#R Buitoni#SC®.FPïyj/
+======torsettes.¹FPïy//small#A spirals*.Pïz/
+=====gemellis.MPïy//gemelli.mz/
+=====gnocchis.MPïy//gnocchi.mz/
+=====lumaches.FPïy//lumache.mz/
+=====maltagliatis.MPïy//maltagliati.mz/
+=====orecchiettes.FPïy//orecchiette.mz/
+=====pipes* rigate*Aj.FPïy//
+=====quadruccis.MPïy//quadrucci.mz/
+=====radiatoris.MPïy//radiatori.mz/
+=====rotinis.MPïy//rotini.mz/
+=====ruotes.FPïy//wagon#S wheels*.¹mPïz/ruote.mz/
+=====tagliardis.MPïy//tagliardi.mz/
+=====trofies.FPïy//trofie.mz/
+;_______________________________________________________________________________
+=====petites-pates-fantaisie//petites*A pâtes* fantaisie#S.FPïy/
+tiny#A pasta* in#R various#A shapes#NP.z/
+======acinis* pepe#MS.MPïy//
+======alfabeto.My//alfabeto.mz/
+======anellinis.MPïy//anellini.mz/
+======anellinis* ricci*Aj.MPïy//
+======anellonis.MPïy//anelloni.mz/
+======armelettes.FPïy//armelette.mz/
+======avemaria.Fy//avemaria.mz/
+======corsettis.MPïy//corsetti.mz/
+======dentellates.FPïy//dentellate.mz/
+======ditalinis.MPïy//ditalini.mz/
+======farfallines.FPïy//farfalline.mz/
+======lancettes.FPïy//lancette.mz/
+======lenticchies.FPïy//lenticchie.mz/
+======occhialinis.MPïy//occhialini.mz/
+======occhis* di#RSj pernice#FS.MPïy//
+======orzo.My//orzo.mz/
+======passatellis* umbri*Aj.MPïy//
+======pater* noster*Aj.My//
+======peperinis.MPïy//peperini.mz/
+======pisellis.MPïy//piselli.mz/
+======pisellinis.MPïy//pisellini.mz/
+======puntettes.FPïy//puntette.mz/
+======puntes* d#R'ago#MS.FPïy//
+======puntines.FPïy//puntine.mz/
+======quadrettis.MPïy//quadretti.mz/
+======risetto.My//risetto.mz/
+======risones.FPïy//risone.mz/
+======rosmarino.My//rosmarino.mz/
+======semes* cicoria#FS.FPïy//
+======semes* melone#S.FPïy//
+======semes* peperoni#M.FPïy//
+======semenzes.FPïy//semenze.mz/
+======semis.MPïy//semi.mz/
+======semis* di#RSj grano#S.MPïy//
+======sorpresines.FPïy//sorpresine.mz/
+======stelles.FPïy//stelle.mz/
+======stellettes.FPïy//stellette.mz/
+======stellines.FPïy//stelline.mz/
+======stivalettis.MPïy//stivaletti.mz/
+======stivalettinis.MPïy//stivalettini.mz/
+======tempesta.Fy//tempesta.mz/
+======trebuchis.MPïy//trebuchi.mz/
+======tubettis.MPïy//tubetti.mz/
+======tubettinis.MPïy//tubettini.mz/
+======viandina.Fy//viandina.mz/
+;_______________________________________________________________________________
+====pates-farcies//pâtes* farcies*A.FPïy/stuffed#A pasta*.z/
+=====agnolottis.MPïy//agnolotti.mz/
+=====anolinis.MPïy//anolini.mz/
+=====agnolis.MPïy//agnoli.mz/
+=====bomboninis.MPïy//bombonini.mz/
+=====cannellonis.MPïy//cannelloni.mz/
+=====cappellettis.MPïy//cappelletti.mz/
+=====casonseis.Pïy//casonsei.mz/
+=====malfattis.MPïy//malfatti.mz/
+=====manicottis.MPïy//manicotti.mz/
+=====pansotis.MPïy//pansoti.mz/
+=====raviolis.MPïy//ravioli.mz/
+=====tortellinis.MPïy//tortellini.mz/
+=====tortellis.MPïy//tortellonis.MPïy/tortelli.mz/tortelloni.mz/
+=====tortellis* de#RS Mantoue#CS.MPïy//
+;_______________________________________________________________________________
+===champignon* comestible*A.My/champignon/edible#A mushroom*.z/|brown|
+====cepe//cèpe.My/boletus.z/
+====champignon* de#R couche#F.My//cultivated#A mushroom*.z/
+====chanterelle* commune*A.Fy//chanterelle.z/
+====lactaire-delicieux//lactaire* délicieux*A.My/delicious#A lactarius*.z/
+====morille.Fy//morel.z/
+====pleurote-en-huitre//pleurote* en#R huître#F.My/oyster# mushroom*.z/
+====russule* verdoyante*A.Fy//green#A russula*.z/
+====truffe.Fy//truffle.z/
+====oronge* vraie*A.Fy//royal#A agaric*.z/
+;_______________________________________________________________________________
+===green# vegetable*.z//légume* vert*A.My/|green|
+===salad# vegetable*.z//légume* pour# salade#F.My/
+;_______________________________________________________________________________
+===herb.z//fine*A herbe*A.Fy/
+====basil.z//basilic.My/|green|
+====borage.z//bourrache.Fy/
+====chervil.z//cerfeuil.My/
+====coriander.z//coriandre.Fy/|green|
+====dill.z//aneth.My/
+====hyssop.z//hysope.Fy/
+====lovage.z//livèche.Fy/
+====herb-mint//mint.z/menthe.Fy/|green|
+====oregano.z//origan.My/|green|
+====parsley.z//persil.My/|green|
+====rosemary.z//romarin.My/
+====savory.z//sarriette.Fy/
+====sage.z//sauge.Fy/
+====sweet#A bay*.z//laurier.My/
+====tarragon.z//estragon.My/
+====thyme.z//thym.My/
+;_______________________________________________________________________________
+===leaf# vegetable*.z//légume* feuille#F ½.My/
+;_______________________________________________________________________________
+====Brussels#S sprouts*.Pïz/green-vegetable/sprouts.gPïz/
+choux* de#R Bruxelles#SC.MPïy/
+====corn# salad*.z//mâche.Fy/
+;_______________________________________________________________________________
+====cabbage.z/green-vegetable/chou.My/
+=====green#A cabbage*.z//chou* pommé*A vert*A.My/|green|
+=====Chinese#A cabbage*.z//chou* chinois*A.My/
+=====white#A cabbage*.z//chou* pommé*A blanc*A.My/|white|
+;_______________________________________________________________________________
+====Cichorium# endivia*.tz//endive.z/Cichorium# endivia*.ty/
+chicorée* endive*.Fy/
+=====curled#A endive*.z//chicorée.¹Fy/chicorée* frisée*A.Fy/frisée.Fy/
+=====broad#A-leaved#A endive*.z//scarole.Fy/
+;_______________________________________________________________________________
+====Cichorium# intybus*.tz//chicory.z/Cichorium# intybus*.ty/endive.Fy/
+chicorée* de#R Bruxelles#C.Fy/
+=====blanched#A chicory*.qz//chicory.¹mgz/endive.¹Àz/endive.¹Fy/
+=====radicchio.z//trévise.Fy/
+;_______________________________________________________________________________
+====curled#A kale*.z//chou* frisé*A.My/
+====dandelion# leaf*.z//dandelion.z/pissenlit.My/
+====garden# sorrel*.z//oseille.Fy/
+====grape# leaf*.z//feuille* de#R vigne#.Fy/
+;_______________________________________________________________________________
+====Lactuca.tz/salad-vegetable/Lactuca# sativa*.tz/lettuce.¹z/laitue.¹Fy/
+salade.Fy/
+====-Lactuca1//
+======red#A lettuce*.z//laitue* rouge*A.Fy/|red|
+======green#A lettuce*.z//laitue* verte*A.Fy/|green|diameter-of=5in|
+=====Lactuca2//
+======batavia.z//batavia.Fy/
+======butterhead# lettuce*.z//; unknown in Europe?
+=======Boston# lettuce*.z//
+=======bibb# lettuce*.z//
+======cabbage# lettuce*.z//laitue* pommée*A.Fy/
+======Iceberg#A lettuce*.z//laitue* croquante*A.Fy/|green|diameter-of=6in|
+======greenhouse# lettuce*.@z//laitue* de#R serre#.Fy/
+======oak#-leaf# lettuce*.z//feuille* de#R chêne#M.¹Fy/feuille.Fy/
+======open#A-country# lettuce*.@z//laitue* de#R plein#AM champ#M.Fy/
+======romaine# lettuce*.Àz//romaine.Àz/cos# lettuce*.gz/romaine.Fy/
+;_______________________________________________________________________________
+====roquette.Fy//; not in Robert & Collins or Hachette-Oxford
+====spinach.z/green-vegetable/épinard.My/|green|diameter-of=4in|
+====cress.z/salad-vegetable/cresson.¹My/
+====watercress.z/salad-vegetable/cresson* de#R fontaine#F.¹My/cresson.My/
+;_______________________________________________________________________________
+===root# vegetable*.z//légume* racine#F ½.My/racine* comestible*A.Fy/
+====black#A salsify*.z//scorsonère.Fy/
+====carrot.z//carotte.Fy/|orange|cone|diameter-of=1in|
+====celeriac.z//céleri*-rave#F ½.My/
+====beet.Àz/salad-vegetable/beetroot.gz/betterave.Fy/|red|
+====horseradish.z//raifort.My/
+====kohlrabi.z//chou*-rave#F ½.My/
+====parsnip.z//panais.My/
+====radish.z/salad-vegetable/radis.ßMy/|red|sphere|diameter-of=1in|
+=====black#A radish*.z//radis* noir*A.My/
+====rutabaga.Àz//swede.gz/rutabaga.My/
+====salsify.z//salsifis.My/
+====turnip.z//navet.My/
+;_______________________________________________________________________________
+===stalk# vegetable*.z//légume* tige#F ½.My/
+====asparagus.z/green-vegetable/asperge.Fy/|green|cylinder|diameter-of=.5in|
+====cardoon.z//cardon.My/
+====celery.z/salad-vegetable/céleri.My/|diameter-of=.6in|
+====fennel.z//fenouil.My/
+====rhubarb.z//rhubarbe.Fy/
+====Swiss#A chard*.z//bette* à#R carde#.Fy/
+;_______________________________________________________________________________
+===seed# vegetable*.z//légume* graine#F ½.My/
+====bean# sprout*.z/salad-vegetable/beansprout.gz/germe* de#R soja#.My/
+;_______________________________________________________________________________
+====bean.z//haricot.My/|ellipsoid|diameter-of=.375in|
+=====broad#A bean*.z/green-vegetable/fava# bean*.Àz/fève.¹Fy/
+=====butter# bean*.z//butterbean.z/haricot* beurre*.¹My/
+======lima# bean*.z//Phaseolus# limensis*.tz/haricot* de#R lima#C.¹My/
+haricot* de#R Lima#C.My/pois* de#R sept#AMP ans#P.My/
+=====kidney# bean*.z//Phaseolus# vulgaris*.tz/
+======red#A kidney# bean*.z//haricot* rouge*A.My/|red|
+======wax# bean*.Àz/butter-bean/
+=====dried#A bean*.z//haricot* sec*A.My/
+=====green#A bean*.Àz/green-vegetable/French#A bean*.gz/haricot* vert*A.¹My/
+haricot* mange#V-tout#.My/|green|
+=====haricot# bean*.z//haricot* blanc*A.My/
+=====string# bean*.Àz/green-vegetable/runner# bean*.gz/
+haricot* à#R écosser#V.¹My/haricot* à#R rames#FP.My/haricot* d#R'Espagne#F.My/
+|green|diameter-of=.5in|
+;_______________________________________________________________________________
+====chickpea.z//chick# pea*.z/garbanzo.z/garbanzo# bean*.z/Cicer# arietinum*.tz/
+pois* chiche*A.My/|sphere|diameter-of=.5in|
+====corn.Àz//sweet#A corn*.gz/sweetcorn.gz/maize.gz/maïs.My/|yellow|cylinder|
+diameter-of=2.5in|
+=====popcorn.z//pop# corn*.z/pop#j-corn*.My/|diameter-of=.5in|
+====green#A pea*.z/green-vegetable/pea.z/petit*A pois*.My/pois.My/|green|
+sphere|diameter-of=.25in|
+====lentil.z//lentille.Fy/|diameter-of=.2in|
+====pod-of-peas//pois.My/pea.z/|green|cylinder|diameter-of=.375in|
+part-of¤calyx,green-pea,plant-hull,funiculus,midrib|
+part-of¤plant-suture,plant-style|
+====soybean.z//grain* de#R soja#.@My/|ellipsoid|diameter-of=.2in|
+====sweet#A pea*.z/green-vegetable/pois* mange#V-tout#.My/
+;_______________________________________________________________________________
+===inflorescent# vegetable*.z//légume* fleur#F ½.My/
+====broccoli.z/green-vegetable/brocoli.My/|green|diameter-of=1.5in|
+====cauliflower.z//chou*-fleur#F ½.My/|white|diameter-of=1.5in|
+====artichoke.z//globe# artichoke*.gz/artichaut.My/|green|diameter-of=4in|
+;_______________________________________________________________________________
+===bulb# vegetable*.z//légume* bulbe*.My/
+====chives.Pïz//ciboulette.Fy/
+====garlic.z//ail.My/|white|diameter-of=2in|
+====leek.z//poireau.My/
+====onion.z//oignon.My/|white|sphere|diameter-of=3in|
+=====pickling# onion*.z//oignon.My/
+=====Yellow#A onion*.z//oignon* jaune*A.My/|yellow|
+====shallot.z//échalote.Fy/
+====scallion.Àz/salad-vegetable/spring# onion*.gz/échalote* nouvelle*A.Fy/
+|green|cylinder|diameter-of=.25in|
+;_______________________________________________________________________________
+===tuber# vegetable*.z//légume* tubercule*.My/
+====Jerusalem# artichoke*.z//topinambour.My/
+====potato.z//pomme* de#R terre#.Fy/patate.TFy/|diameter-of=2.75in|
+=====sweet#A potato*.z//patate* douce*A.Fy/patate.Fy/
+;_______________________________________________________________________________
+===fruit# vegetable*.z//légume* fruit*.My/
+====eggplant.z//aubergine.gz/aubergine.Fy/
+====tomato.z/salad-vegetable/tomate.Fy/|red|sphere|diameter-of=3in|
+====green# pepper*.z//sweet# pepper*.z/poivron.My/|green|sphere|
+diameter-of=4in|
+====hot# pepper*.Àz//chilli.gz/piment.My/|red|cone|diameter-of=.25in|
+====okra.z//gombo.My/
+;_______________________________________________________________________________
+====gourd.z//gourd# family*.¹kz/cucurbit.z/cucurbitaceae.tz/cucurbitaceous.Az/
+cucurbitacée.Fy/
+=====potimarron.@y//
+=====Citrullus# colocynthis#.tz//
+======colocynth.z//coloquinte.Fy/
+=====Citrullus# lanatus*.tz//Citrullus# lanatus#.ty/
+======watermelon.z//water# melon*.z/pastèque.Fy/|green|red|diameter-of=9in|
+=====Cucumis# sativus*.tz//Cucumis# sativus#.ty/
+======cucumber.z/salad-vegetable/concombre.My/|green|diameter-of=2.5in|
+======gherkin.z//cornichon.My/|diameter-of=.375in|
+=====Cucumis# melo*.tz//Cucumis# melo#.ty/
+======melon.z//melon.My/|sphere|diameter-of=8in|
+=======honeydew# melon*.z//honeydew.¹z/melon* d#R'Espagne#F.My/
+=======muskmelon.z//melon* brodé*A.My/
+=======cantaloupe.z//melon* cantaloup*.My/cantaloup.My/|diameter-of=7in|
+;_______________________________________________________________________________
+=====Cucurbita# pepo*.tz//Cucurbita# pepo#.ty/
+======pumpkin.z//citrouille.Fy/pompon.oMy/|orange|sphere|diameter-of=10in|
+======pumpkin# seed*.z//|diameter-of=.1in|
+======spaghetti# squash*.Àz//
+======Cucurbita# pepo# ovifera*.tz//
+======Cucurbita# pepo# melopepo*.tz//Cucurbita# pepo# melopepo#.ty/
+=======summer# squash*.Àz//
+========zucchini.Àz//baby# marrow*,courgette.¹gz/courgette.¹Fy/
+=====Cucurbita# moschata*.tz//pumpkin.gz/Cucurbita# moschata#.ty/
+=====Cucurbita# maxima#P.tz//Cucurbita# maxima#P.ty/
+======winter# squash*.Àz//pumpkin.gz/autumn# squash*.z/potiron.My/
+======squash.Àz//marrow,vegetable# marrow*.gz/courge.Fy/
+======giraumon.My//giraumont.¹My/courge* d#R'Amérique#.Fy/
+courge* potiron#M ½.Fy/
+;_______________________________________________________________________________
+===vegetable# dish*.z//
+;_______________________________________________________________________________
+====pasta# dish*.z//
+=====Vincisgrassi.y//
+;_______________________________________________________________________________
+====baked#A beans*.Pïz//Boston#S baked#A beans*.Pïz/
+haricots* blancs*A à#R la#DFS sauce#NFS tomate#AFS.MPïy/
+;_______________________________________________________________________________
+====French#A fries*.ÀPïz//fries.ÀPïz/chips.gPïz/frites.FPïy/
+pommes* frites*A.FPïy/
+pommes* de#RS terre#S frites*A.FPïy/|frying-of=potato|
+;_______________________________________________________________________________
+====corn* on#R the#D cob#.z//épi* de#R maïs#.My/
+;_______________________________________________________________________________
+====salad.z//salade.Fy/
+=====bean# salad*.z//salade* de#R haricots#MP.Fy/
+======haricots* verts*A en#R salade#FS.MPïy//French#A bean# salad*.z/
+=====chef#'s salad*.z//salade* du#R chef#M.Fy/
+=====fruit#A salad*.z//salade* de#R fruits#MP.Fy/
+=====green#A salad*.z//salad.z/salade* verte*A.Fy/salade.Fy/
+=====ham# salad*.z//salade* au#R jambon#M.Fy/
+assiette* de#R jambon#M-crudités#P.Fy/
+=====macedoine//macédoine.Fy/macedoine.z/
+salad* of#R cooked#A diced#A vegetables#P.z/
+=====mixed#A salad*.z//green#A salad* with#R tomatoes#P.z/salade* composée*A.Fy/
+salade* mixte*A.Fy/
+=====potato# salad*.z//salade* de#R pommes#P de#R terre#.Fy/
+=====rice#A salad*.z//salade* de#R riz#M.Fy/
+=====Russian#A salad*.z//salade* russe*A.Fy/
+; LNPR: légumes cuits coupés, haricots, pois, mêlés à une mayonnaise
+=====salade* de#R betteraves#P.Fy//beet# salad*.@Àz/beetroot# salad*.@gz/
+=====salade-de-crudites//salade* de#R crudités#P.Fy/
+=====salade* de#R museau#M.Fy//
+=====salade-nicoise//salade* niçoise*A.Fy/salade#j niçoise#Aj ½.z/
+salad* with#R olives#P\, tomatoes#P\, and#K anchovies#P.z/
+=====salade-tiede//salade* tiède*A.Fy/green#A salad* with#R warm#A garnish#.z/
+=====tomato#A salad*.z//salade* de#R tomates#P.Fy/
+;_______________________________________________________________________________
+====salad# dressing*.z//sauce* pour#R salade#.Fy/
+;_______________________________________________________________________________
+==dairy# product*.z//dairy# produce*.z/produit* laitier*A.My/
+;_______________________________________________________________________________
+===cheese.z//fromage.My/fromegi,frometon.TMy/
+====full#A-fat# cheese*.z//fromage* gras*A.My/
+====low#A-fat# cheese*.z//fromage* maigre*A.My/
+====cream# cheese*.z//fromage* à#R la#D crème#F.My/
+;_______________________________________________________________________________
+====soft#A white#A cheese*.z//fromage* frais*A.My/
+=====salted#A soft#A white#A cheese*.z//fromage* frais*A salé*.My/
+=====unsalted#A soft#A white#A cheese*.z//fromage* frais*A non#B-salé*.My/
+=====milk# cheese*.z//fromage* frais*A obtenu*V à#R partir#V de#R lait#.My/
+======cottage# cheese*.z//cottage.My/
+======feta# cheese*.z//feta,féta.Fy/
+======goat#'s milk# cheese*.z//fromage* de#R chèvre#F.My/
+;_______________________________________________________________________________
+====white#A cheese*.z//fromage* blanc*A.My/
+=====mozzarella.z//mozzarella.Fy/
+=====ricotta.z//ricotta.Fy/
+=====yogurt.z//yaourt.¹My/yogourt.My/
+======plain#A yogurt*.z//yaourt* nature*A.My/
+======fruit# yogurt*.z//yaourt* aux#RP fruits#P.My/
+======*Yoplait.®y//Yoplait.®z/
+======*Danon.®z//
+======*yogurt-Danone//Danone.®y/
+======*Chambourcy.®y//
+======drinkable#A yogurt*.z//
+======*Yop.®y//
+;_______________________________________________________________________________
+====fermented#A cheese*.z//fromage* fermenté*A.My/
+;_______________________________________________________________________________
+=====fromage-a-pate-persillee//fromage* à#R pâte#F persillée#AF.My/
+======blue#A cheese*.z//bleu.My/
+=======fourme.Fy//
+======*Roquefort.®z//Roquefort#® cheese*.z/roquefort.My/
+=====*Gorgonzola.z//gorgonzola.My/
+;_______________________________________________________________________________
+=====hard#A cheese*.z//fromage* à#R pâte#F dure#AF.My/
+fromage* à#R pâte#F pressée#AF.My/
+;_______________________________________________________________________________
+======baked#A hard#A cheese*.z//fromage* à#R pâte#F pressée#AF cuite#AF.My/
+=======Swiss#A cheese*.z//gruyère,gruyère# cheese*.gz/gruyère.My/
+=======Emmentaler.z//Emmentaler# cheese*.z/emmenthal.My/
+=======Parmesan.z//Parmesan# cheese*.z/parmesan.My/
+;_______________________________________________________________________________
+======nonbaked#A hard#A cheese*.z//
+fromage* à#R pâte#F pressée#AF non#B-cuite#AF.My/
+=======Cantal# cheese*.z//French#A cheddar# cheese*.z/Cantal.z/cantal.My/
+=======cheddar.z//cheddar# cheese*.z/cheddar.My/fromage* cheddar*.My/
+=======Dutch#A cheese*.z//hollande.My/
+=======Gouda.z//Gouda# cheese*.z/gouda.My/
+=======Mimolette# cheese*.z//Dutch#A cheddar# cheese*.z/mimolette.Fy/
+=======provolone.z//provolone.My/
+=======raclette.z//raclette.Fy/
+=======Reblochon# cheese*.z//reblochon.My/
+=======saint#A-paulin*.My//
+;_______________________________________________________________________________
+=====soft#A cheese*.z//fromage* à#R pâte#F molle#AF.My/
+;_______________________________________________________________________________
+======fromage-a-croute-fleurie//fromage* à#R croûte#F fleurie#AF.My/
+=======Brie.z//Brie# cheese*,brie,brie# cheese*.z/brie.My/
+=======Camembert.z//Camembert# cheese*.z/camembert.My/
+========Coeur-de-lion//CÓur* de#R lion#.®My/
+=======Coulommiers# cheese*.z//coulommiers.My/
+;_______________________________________________________________________________
+======fromage-a-croute-lavee//fromage* à#R croûte#F lavée#AF.My/
+=======Livarot# cheese*.z//livarot.My/
+=======Munster.z//Munster# cheese*.z/munster.My/
+=======vacherin# cheese*.z//vacherin.My/
+;_______________________________________________________________________________
+====processed#A cheese*.z//cheese# spread*.z/fromage* fondu*A.My/crèmes.FPïy/
+fromage* à#R tartiner#V.My/
+====*Boursin.®z//Boursin.®y/
+====*La-Vache-Qui-Rit//La#Dj Vache#j Qui#H Rit#Vj ½.®z/
+La#D Vache# Qui#H Rit#V.®Fy/
+;_______________________________________________________________________________
+====grated#A cheese*.z//fromage* rapé*A.My/
+;_______________________________________________________________________________
+==egg.z//Óuf.My/
+;_______________________________________________________________________________
+===chicken#S eggs*.Pïz//Óufs* de#R poule#FS.MPïy/
+===*Lustucru-eggs//Óufs* Lustucru#CS.MPïy/
+===duck# egg*.mz//Óuf* de#R cane#F.My/
+===quail# egg*.mz//Óuf* de#R caille#F.My/
+;_______________________________________________________________________________
+===egg# dish*.z//
+====fried#A eggs*.Pïz//Óuf* au#R plat#.My/
+=====eggs* sunny#A side#S up#A.ÀPïz//sunny#A-side#S up#A ½.Àz/
+Óuf* sur#R le#D plat#.My/
+=====fried#A eggs* over#A.Pïz//eggs* over#A.Pïz/
+======fried#A eggs* easy#A over#A.Pïz//eggs* easy#A over#A.Pïz/
+fried#A eggs* over#A light#A.Pïz/eggs* over#A light#A.Pïz/
+====hard#A-boiled#A egg*.z//Óuf* dur*A.My/
+====omelet.z//omelette.z/omelette.Fy/
+====poached#A egg*.mz//Óuf* poché*A.My/
+=====eggs* Benedict#S.Pïz//
+====scrambled#A egg*.mz//scrambled#A eggs*.Pïz/Óufs* brouillés*A.MPïy/
+====soft#A-boiled#A egg*.z//Óuf* à#R la#D coque#F.My/
+;_______________________________________________________________________________
+==sandwich.z//sandwich.My/
+===submarine# sandwich*.z//submarine.z/sub.Tz/hero,hero# sandwich*.îz/
+hoagie,grinder,wedge.îz/sandwich.My/
+;_______________________________________________________________________________
+==meat.mz//viande.Fy/
+;_______________________________________________________________________________
+===charcuterie.Fy//cochonnaille.TFy/cooked#A pork#S meats*.Pïz/deli# food*.Àz/
+deli# meat*.Àz/
+;_______________________________________________________________________________
+====charcuteries-variees//charcuteries* variées*A.FPïy/
+assorted#A cooked#A pork#S meats*.Pïz/
+;_______________________________________________________________________________
+====andouille.Fy//andouille.z/cold#A smoked#A chitterling# sausage*.¹z/
+cold#A smoked#A tripe# sausage*.z/
+====andouillette.Fy//andouillette.z/thin#A chitterling# sausage*.¹z/
+thin#A tripe# sausage*.z/
+;_______________________________________________________________________________
+====bacon.My//Canadian#A bacon*.Àz/smoked#A back# bacon*.¹gz/
+bacon* with#R little#B fat#N in#R it#H.gz/
+====lard.My//bacon.Àz/fat#A streaky#A bacon*.gz/
+=====lardons.MPïy//chopped#A bacon*.Àz/cubes* of#RS bacon#S.ÀPïz/
+=====lard* maigre*A.My//streaky# bacon*.z/
+=====lard-fume//lard* fumé*A.My/smoked#A bacon*.z/
+=====poitrine-fumee//poitrine* fumée*A.Fy/smoked#A bacon*.z/
+;_______________________________________________________________________________
+====ballotine.y//stuffed#A rolled#A boned#A poultry*.z/
+====boudin.My//
+=====boudin* blanc*A.My//white#A sausage*.z/
+=====boudin* noir*A.My//pork#A blood# sausage*.z/blood# sausage*.z/
+black# pudding*.gz/
+====confit.My//confit.z/
+=====confit* de#R canard#.My//
+duck* cooked#A and#K preserved#A in#R its#D own#A fat#.z/
+confit#j de#Rj canard*j.z/
+=====confit* d#R'oie#F.@My//
+goose* cooked#A and#K preserved#A in#R its#D own#A fat#.z/
+=====confit* de#R porc#.@My//
+pork* cooked#A and#K preserved#A in#R its#D own#A fat#.z/
+====coppa.y//
+====fritons.Pïy//coarse#A pork# minced#A spread* with#R organ# meats#P.z/
+====galantine.Fy//galantine.z/
+gelatin#-glazed#A stuffed#V rolled#V cooked#V boned#V meat*.z/
+====grattons.MPïy//greubons.îMPïy/cracklings.Pïz/
+crisply#B fried#V pieces* of#R animal#S skin#S.Pïz/
+;_______________________________________________________________________________
+====headcheese.Àz//brawn.gz/
+=====fromage-de-tete//fromage* de#R tête#F.My/
+=====hure.Fy//
+======hure* de#R porc#M.Fy//pig# headcheese*.Àz/pig# brawn*.gz/
+======hure* de#R marcassin#M.Fy//boar# headcheese*.Àz/boar# brawn*.gz/
+=====museau.My//
+======museau* de#R porc#.My//vinegared#V pork# muzzle*.z/
+;_______________________________________________________________________________
+====jambon.My//ham.mz/
+=====jambon-a-l-os//jambon* à#R l#D'os#.My/ham* with#R the#D bone# in#R.mz/
+=====jambon* d#R'Auvergne#C.My//salt#-cured#V ham*.mz/
+=====jambon* de#R Bayonne#C.My//raw#A dried#V salt#-cured#V ham*.mz/
+=====jambon* de#R Bourgogne#C.My//persillé.y/
+parsleyed#V-gelatin#-preserved#V cubed#V cold#A cooked#V ham*.mz/
+=====jambon* de#R montagne#F.My//mountain#A ham*.mz/
+=====jambon* de#R Paris#C.My//jambon* blanc*A.My/cooked#A ham*.mz/
+pale#A lightly#B salted#V cooked#V ham*.mz/
+=====jambon* de#R Parme#C.My//prosciutto.¹z/Parma# ham*.mz/
+=====jambon* de#R pays#.My//cured#A ham*.z/country#A ham*.mz/
+=====jambon* de#R Westphalie#C.My//German#A Westphalian#A ham*.mz/
+raw#A-cured#V smoked#V ham*.mz/
+=====jambon* d#R'York#C.My//York# ham*.mz/smoked#V English#A-style# ham*.mz/
+=====jambon* cuit*A.My//cooked#A ham*.mz/
+=====jambon* cru*A.My//raw#A cured#V ham*.mz/
+=====jambon-fume//jambon* fumé*A.My/smoked#A ham*.mz/
+=====jambon-sale//jambon* salé*A.My/salted#A ham*.mz/
+=====jambon* sec*A.My//dried#A ham*.mz/
+;_______________________________________________________________________________
+====jambonneau.My//knuckle* of#R ham#.z/pork# knuckle*.z/cured#V ham# shank*.z/
+====mortadelle.Fy//mortadella.z/
+;_______________________________________________________________________________
+====pate//pâté.My/pâté.¹mz/moulded#V baked#V seasoned#V chopped#V meat*.mz/
+=====pate-de-campagne//pâté* de#R campagne#F.My/
+coarse#A country#-style# pâté*.mz/
+=====pate-de-canard//pâté* de#R canard#.My/duck# pâté*.mz/
+=====pate-de-chevreuil//pâté* de#R chevreuil#.My/venison# pâté*.mz/
+=====pate-de-foie//pâté* de#R foie#.My/liver# pâté*.mz/
+=====pate-de-grive//pâté* de#R grive#F.My/pâté* de#R grives#FP.My/
+thrush# pâté*.mz/songbird# pâté*.mz/
+=====pate-de-lapin//pâté* de#R lapin#.My/rabbit# pâté*.mz/
+=====pate-de-lievre//pâté* de#R lièvre#.My/wild#A hare# pâté*.mz/
+=====pate-d-oie//pâté* d#R'oie#F.My/goose# pâté*.z/goose#-liver# pâté*.mz/
+=====pate-en-croute//pâté* en#R croûte#F.My/pâté* baked#V in#R pastry#.mz/
+=====pate-maison//pâté* maison#F.My/house# pâté*.mz/
+;_______________________________________________________________________________
+====charcuterie-pied//pied.My/foot.z/
+=====pieds* de#RS porc#MS.MPïy//pieds* de#RS cochon#MS.MPïy/
+pig#S's trotters*.Pïz/pig#'s foot*.z/
+=====pieds* de#RS mouton#MS.MPïy//sheep#S's trotters*.Pïz/sheep#'s foot*.z/
+;_______________________________________________________________________________
+====poitrine-d-oie-fumee//poitrine* d#R'oie# fumée*A.Fy/
+smoked#A goose# breast*.z/
+;_______________________________________________________________________________
+====rillettes.FPïy//potted#A meat*.z/
+=====rillettes* de#RS canard#MS.@FPïy//potted#A duck*.z/
+minced#V spread* of#R duck#.z/
+=====rillettes* de#RS lapin#MS.@FPïy//potted#A rabbit*.z/
+minced#V spread* of#R rabbit#.z/
+=====rillettes* de#RS poisson#MS.@FPïy//potted#A fish*.z/
+minced#V spread* of#R fish#.z/
+=====rillettes* de#RS porc#MS.FPïy//potted#A pork*.z/
+minced#V spread* of#R pork#.z/
+=====rillettes* d#RS'oie#S.FPïy//potted#A goose*.z/
+minced#V spread* of#R goose#.z/
+;_______________________________________________________________________________
+====rillons.MPïy//grattons.MPïy/sautéed#A morsels*.Pïz/
+=====rillons* de#RS porc#S.@MPïy//sautéed#A pork#S morsels*.Pïz/
+=====rillons* de#RS canard#S.@MPïy//sautéed#A duck#S morsels*.Pïz/
+=====rillons* de#RS lapin#S.@MPïy//sautéed#A rabbit#S morsels*.Pïz/
+=====rillons* d#RS'oie#FS.@MPïy//sautéed#A goose#S morsels*.Pïz/
+;_______________________________________________________________________________
+====sale//salé.My/streaky# salted# pork*.z/
+;_______________________________________________________________________________
+====saucisse.Fy//sausage.z/; thin, eaten warm
+=====Bierwurst.y//
+=====bratwurst.z/saucisse-piquante/
+=====breakfast# sausage*.z//pork# sausage*.z/
+=====chair-a-saucisse//chair* à#R saucisse#.Fy/sausage# meat*.z/
+=====chipolata.Fy//chipolata.z/
+=====cou* d#R'oie#F farci*A.My//stuffed#A goose# neck# skin# sausage*.z/
+=====crepinette//crépinette.y/
+small#A sausage# patty* wrapped#V in#R caul# fat#.z/
+=====figatelli.y//
+=====kosher#A hot# dog*.z/kosher-food/
+======Hebrew# National#A hot# dog*.®z//
+=====liverwurst.Àz//liver# sausage*.gz/saucisse* au#R pâté#M de#R foie#M.Fy/
+=====Mettwurst.y//
+=====Montbeliard//Montbéliard.y/
+=====Nuremberg.y//
+=====pepperoni.Àz/saucisse-piquante/pepperoni.y/
+; attested on French pizza delivery menus
+=====Plockwurst.y//
+=====saucisse* chaude*A.Fy//warm#A sausage*.z/
+=====saucisse* de#R foie#M.Fy//liver# sausage*.@z/
+=====saucisse* de#R Francfort#C.Fy//hot#A dog*.¹z/frankfurter.z/frank.Tz/
+wiener.ÀTz/
+=====saucisse* de#R jambon#M.Fy//ham# sausage*.@z/
+=====saucisse* de#R Morteau#C.Fy//
+smoked#A pork# sausage* from#R the#D Franche#-Comté#.z/
+=====saucisse* de#R Strasbourg#C.Fy//knack.y/knackwurst.mz/
+red#A-skinned#A hot#A dog*.z/
+=====saucisse* de#R Toulouse#C.Fy//coarse#A pork#A sausage*.z/
+mild#A country#-style# pork# sausage*.z/
+======saucisse* de#R Toulouse#C classique*A.Fy//
+======saucisse* de#R Toulouse#C aux#RP herbes#P.Fy//
+=====saucisse-pimentee-d-Afrique-du-Nord//
+saucisse* pimentée*A d#R'Afrique# du#R Nord#M.Fy/
+======merguez.ßFy/saucisse-piquante/small#A spicy#A sausage*.z/merguez.qz/
+=====saucisse* piquante*A.Fy//spicy#A sausage*.z/
+=====saucisse-seche//saucisse* sèche*A.Fy/dried#A sausage*.z/
+======gendarme.My//
+=====Schinkenwurst.y//
+;_______________________________________________________________________________
+====saucisson.My//sauciflard.Ty/slicing#A sausage*.z/cold#A cut*.Àz/
+; thick, pork and beef, eaten cold
+=====bologna.Àz//bologna# sausage*,baloney,boloney.Àz/; beef veal pork
+=====cervelas.My//saveloy.z/garlicky#A cured#A pork# sausage*.z/
+=====Coppa.y//
+=====galet* des#RP Alpes#FP au#R poivre#.My//
+=====saucisson-jesus//jésus.My/coarse#A salami*.z/
+smoked#V pork# sausage* from#R the#D Franche#-Comté#.z/
+=====rosette* de#R Lyon#C.Fy//rosette.Fy/rosette.z/dried#V pork# sausage*.z/
+=====rosette-de-boeuf//rosette* de#R bÓuf#M.Fy/dried#V beef# sausage*.z/
+;_______________________________________________________________________________
+=====salami.My//salami.z/
+======saucisson* d#R'Arles#C.My//dried#A salami#-type# sausage*.z/
+======salami-fume//salami* fumé*A.z/smoked#A salami*.z/
+======salami-non-fume//salami* non#B fumé*A.z/nonsmoked#A salami*.@z/
+=======salami* hongrois*A.My//Hungarian#A salami*.@z/
+=======salami* danois*A.My//Danish#A salami*.@z/
+=======salami* de#R Strasbourg#C.My//saucisson* d#R'Alsace#C.My/
+=======saucisson* d#R'Italie#C.My//
+========Genoa# salami*.z//
+========salami* de#R Milan#C.My//
+;_______________________________________________________________________________
+=====saucisson-a-l-ail//saucisson* à#R l#D'ail#.My/garlic# sausage*.z/
+; eaten warm
+=====saucisson* chaud*A.My//hot#A sausage*.z/fresh# slicing#A sausage*.z/
+=====saucisson* corse*A.My//
+=====saucisson* de#R langue#C.My//tongue# sausage*.@z/
+=====saucisson* de#R Lyon#C.My//air#-dried#V pork# sausage*.z/
+=====saucisson-d-Ardeche//saucisson* d#R'Ardèche#C.My/
+=====saucisson* d#R'Espagne#C.My//
+======chorizo.y/saucisson-piquant/
+=====saucisson* de#R foie#.My//
+=====saucisson-de-menage//saucisson* de#R ménage#.My/
+=====saucisson* de#R Suisse#C.My//
+======boutefas.y//
+=====saucisson-en-croute//saucisson* en#R croûte#F.My/
+sausage* cooked#V in#R pastry# crust#.z/
+=====saucisson* piquant*A.My//spicy#A slicing#A sausage*.z/
+=====saucisson* sec*A.My//summer# sausage*.Àz/salami.gz/
+pork# and#K beef# sausage*.z/dry#A pork# and#K beef# sausage*.z/
+dried#V sausage*.z/
+;_______________________________________________________________________________
+====saumon-fume//saumon* fumé*A.My/smoked#A salmon*.mz/
+=====lox.mÀz//
+=====Nova# Scotia# smoked#A salmon*.mÀz//Nova# smoked#A salmon*.mÀz/Nova.mTÀz/
+;_______________________________________________________________________________
+====terrine.Fy//terrine.z/
+=====terrine* d#R'anguille#.Fy//eel# terrine*.z/
+=====terrine* de#R caille#.Fy//quail# terrine*.z/
+=====terrine* de#R campagne#.Fy//country#-style# terrine*.z/
+=====terrine* de#R canard#M.Fy//duck# terrine*.z/
+=====terrine* de#R chef#M.Fy//chef#'s terrine*.z/
+=====terrine* de#R faisan#M.Fy//pheasant# terrine*.z/
+=====terrine* de#R foie#M.Fy//liver# terrine*.z/
+======terrine* de#R foies#MP de#R volaille#.Fy//chicken#-liver# terrine*.z/
+=====terrine* de#R grives#P.Fy//thrush# terrine*.z/songbird# terrine*.z/
+=====terrine* maison#.Fy//house# terrine*.z/
+=====terrine* de#R perdreau#M.Fy//partridge# terrine*.z/
+=====terrine* de#R saumon#M.Fy//salmon# terrine*.z/
+=====terrine* de#R volaille#.Fy//chicken# terrine*.z/
+;_______________________________________________________________________________
+===goose-food//goose.z/oie.Fy/
+====goose# cut*.z//
+=====foie* gras*A.My//foie# gras*.z/fattened#A goose# liver*.z/
+====goose# dish*.z//
+;_______________________________________________________________________________
+===chicken-food//chicken.mz/poultry.mz/poulet.My/poule.Fy/poulette.Fy/coq.My/
+volaille.Fy/
+;_______________________________________________________________________________
+====chicken# cut*.z//morceau* de#R poulet#.My/
+=====abattis.MPïy//giblets.Pïz/
+=====aile* de#R poulet#M.Fy//aile.Fy/chicken# wing*.z/
+=====blanc* de#R poulet#.My//blanc.My/white,white# meat*.z/
+breast* of#R chicken#.z/breast,chicken# breast*.z/
+=====cuisse* de#R poulet#M.Fy//chicken# leg*,drumstick.z/
+=====croupion.My//pope#'s nose*.Àz/parson#'s nose*.gz/
+=====sot#-le#H y#H-laisse#V.My//
+=====foie* de#R volaille#F.My//chicken# liver*.z/
+;_______________________________________________________________________________
+====chicken# dish*.z//
+=====poulet* marengo#F.My//poulet* à#R la#D marengo#F.My/chicken# marengo*.z/
+=====poulet-roti//poulet* rôti*A.My/roast# chicken*.z/
+=====poulet-saute//poulet* sauté*A.My/sauté* of#R chicken#.z/
+=====poulet-a-l-estragon//poulet* à#R l#D'estragon#.My/
+tarragon# chicken*.z/
+=====poulet* basquaise#F.My//basquaise#A chicken*.z/
+=====poulet* froid*A.My//cold#A chicken*.z/
+=====bouillon* de#R poulet#.My//
+chicken# stock*,chicken# broth*,chicken# bouillon*.z/
+;_______________________________________________________________________________
+===food-sheep//sheep.z/mouton.My/
+====sheep# cut*.z//morceau* de#R mouton#.My/
+=====pied* de#R mouton#M.My//sheep# trotter*,sheep#'s foot*.z/
+=====cuisse* de#R mouton#M.Fy//leg* of#R mutton#.z/leg* of#R lamb#.z/
+;_______________________________________________________________________________
+===food-lamb//lamb.z/agneau.My/
+====lamb# cut*.z//morceau* d#R'agneau#.My/
+=====cote-de-agneau//côte* d#R'agneau#M.Fy/lamb# chop*.z/
+=====ris* d#R'agneau#.My//lamb#S sweetbreads*.Pïz/
+====lamb# dish*.z//
+=====blanquette* d#R'agneau#M.Fy//lamb* in#R white#A sauce#.z/
+blanquette* of#R lamb#.z/
+;_______________________________________________________________________________
+===pork.z//porc.My/
+====pork# cut*.z//morceau* de#R porc#.My/
+=====cote-de-porc//côte* de#R porc#M.Fy/pork# chop*.z/
+=====pied* de#R porc#M.My//pig# trotter*,pig#'s foot*.z/
+=====tete-de-porc//tête* de#R porc#M.Fy/head* of#R pork#.z/
+=====tripes* de#RS porc#MS.FPïy//tripes.FPïy/chitterlings.¹Pïz/
+tripe,pork# tripe*.z/
+; pig small intestines/stomach
+====pork# dish*.z//
+=====hot#A dog*.z//hot*Aß-dog*j.¹My/hot*Aß dog*j.My/chien* chaud*A.¹çMy/
+=====bacon# and#K eggs#P.mz//Óufs* au#RS bacon#S.MPïy/
+=====petit-sale//petit*A salé*.My/streaky# salted# pork# dish*.z/
+=====oreilles* de#RS porc#MS.FPïy//
+grilled#V coated#V cooked#V pig#S's ears*.Pïz/
+;_______________________________________________________________________________
+===beef.z//bÓuf.My/
+;_______________________________________________________________________________
+====ground#A beef*.z//hamburg.îz/minced#A beef*.gz/mince.gz/
+;_______________________________________________________________________________
+====veal# cut*.z//cut* of#R veal#.z/morceau* de#R veau#.My/
+=====bajoues.FPïy//chops,veal#S chops*.Pïz/
+=====collet.My//veal# neck*.z/
+=====cote-de-veau//côte* de#R veau#M.Fy/veal# cutlet*,veal# chop*.z/
+=====flanchet.My//flanchet* de#R veau#.My/flank.z/flank* of#R veal#.z/
+=====fraise* de#R veau#M.Fy//fraise.Fy/calf#'s caul*.z/
+=====jarret.My//jarret* de#R veau#.My/veal# shin*.z/veal# knuckle*.z/
+veal# shank*.z/
+=====longe.Fy//loin.z/
+=====noix* de#R veau#M.Fy//cushion* of#R veal#.z/
+=====quasi.My//upper#A leg# cut* of#R veal#.z/
+=====ris* de#R veau#.My//calf#S sweetbreads*.Pïz/
+=====rouelle* de#R veau#M.Fy//rouelle.Fy/slice* of#R calf#'s leg#.z/
+=====tendron* de#R veau#.My//tendron.My/tendron* of#R veal#.z/
+;_______________________________________________________________________________
+====veal# dish*.z//
+=====blanquette* de#R veau#M.Fy//veal* in#R white#A sauce#.z/
+blanquette* of#R veal#.z/
+=====escalope* de#R veau#M.Fy//escalope* of#R veal#.z/
+=====foie* de#R veau#.My//calf#'s liver*.z/
+=====grenadin.My//small#A veal# scallop*.z/
+=====jarret* de#R veau#.My//veal# shin# stew*.z/
+=====paupiette* de#R veau#M.Fy//veal# olive*.z/
+=====pied* de#R veau#M.My//veal# trotter*,veal#'s foot*.z/
+=====saute-de-veau//sauté* de#R veau#.My/sauté* of#R veal#.z/
+=====roti-de-veau//rôti* de#R veau#.My/roast# veal*.z/
+=====tete-de-veau//tête* de#R veau#M.Fy/head* of#R veal#.z/
+=====veau* marengo#F.My//veau* à#R la#D marengo#F.My/veal# marengo*.z/
+;_______________________________________________________________________________
+====beef# cut*.z//cut* of#R beef#.z/morceau* de#R bÓuf#.My/
+=====aloyau.My//loin# area* of#R beef#.z/
+=====araignee//araignée.Fy/
+=====bavette.Fy//skirt# steak*.z/undercut.z/
+=====cote-de-boeuf//côte* de#R bÓuf#M.Fy/
+rib,rib# roast*,beef# blade*,rib# steak*.z/
+=====cote-premiere//côte* première*A.Fy/loin# chop*.z/
+=====culotte.Fy//beef# rump*.z/rump.¹z/
+=====entrecote//entrecôte.Fy/beef# rib# steak*.z/rib# steak*.¹z/
+entrecôte#j steak*.z/
+=====faux*A-filet*.My//sirloin# steak*.z/sirloin.z/
+=====filet.My//filet# mignon*.z/
+=====hampe.Fy//beef# flank# steak*.z/flank.z/
+=====onglet.My//prime#A cut* of#R beef*.z/
+=====gite//gîte.My/gîte* à#R la#D noix#F.My/bottom# round# steak*.Àz/topside.gz/
+=====gite-gite//gîte*-gîte*.My/shank.z/shin.gz/
+=====macreuse.Fy//beef# shoulder*.z/
+=====paleron.My//chuck.z/
+=====plates-cotes//plates*A côtes*.FPïy/plat* de#R côtes#FP.My/best#A rib*.z/
+middle#A rib*.z/
+=====queue-de-boeuf//queue* de#R bÓuf#M.Fy/queue.Fy/oxtail.z/tail.z/
+=====romsteck.My//rumpsteak.z/
+=====tranche-de-boeuf//tranche* de#R bÓuf#M.Fy/beefsteak.z/
+;_______________________________________________________________________________
+====beef# dish*.z//
+=====pot*-au#R-feu#.My//beef# stew*.z/stew.z/
+=====boeuf-grille//bÓuf* grillé*A.My/grilled#A beef*.z/
+=====boeuf-roti//bÓuf* rôti*A.My/roast# beef*.z/rosbif.My/
+=====bifteck.My//steak.z/
+=====chateaubriand.My//chateaubriand.z/
+=====tournedos.My//tournedos.z/
+=====boeuf-a-la-ficelle//bÓuf* à#R la#D ficelle#F.My/
+beef* tied#V with#R a#D string#.z/
+=====boeuf-gros-sel//bÓuf* gros#A sel#.My/
+boiled#A beef* with#R vegetables#P and#K coarse#A salt#.z/
+=====miroton.My//bÓuf* miroton*.My/boiled#A beef* in#R onion# sauce#.z/
+=====boeuf-a-la-mode//bÓuf* à#R la#D mode#F.My/bÓuf* mode#F.My/
+stewed#A beef* with#R carrots#P.z/
+=====boeuf-bourguignon//bÓuf* bourguignon*A.My/
+beef# bourguignon*,beef# burgundy*.z/beef* stewed#V in#R red#A wine#.z/
+=====boeuf-braise//bÓuf* braisé*A.My/braised#A beef*.z/
+=====museau-de-boeuf-vinaigrette//museau* de#R bÓuf# vinaigrette#F ½.My/
+museau* de#R bÓuf#,museau.My/headcheese* with#R vinaigrette# sauce#.Àz/
+brawn* with#R vinaigrette# sauce#.gz/
+=====conserves-de-boeuf//conserves* de#RS bÓuf#MS.FPïy/canned#A beef*.z/
+tinned#A beef*.gz/
+=====corned#Aj-beef*j.My//singe.TMy/corned#A beef*.z/
+=====meatball.z//boulette* de#R viande#.Fy/
+;_______________________________________________________________________________
+==junk#A food*.z//nourriture* industrielle*A.Fy/
+;_______________________________________________________________________________
+==food-snack//snack.z/casse#V-croûte#NF.My/
+;_______________________________________________________________________________
+===munchies.ÀPïz//cocktail# snack*.gz/nibbles.gPïz/amuse#V-gueule#F.My/
+amuse#V-bouche#F.My/
+====potato#S chips*.ÀPïz/junk-food/potato#S crisps*.gPïz/chips.FPïy/
+====corn#S chips*.Pïz/junk-food/
+;_______________________________________________________________________________

@@ -1,0 +1,103 @@
+
+; Patapouf
+===Anglo-American-surname//
+====aasn-Patapouf//Patapouf.z/Patapouf.My/
+
+; César
+====aasn-C-sar//César.z/César.My/
+
+; Amigo
+====aasn-Amigo//Amigo.z/Amigo.My/
+
+; Daffy Duck
+====aasn-Duck//Duck.z/Duck.My/
+
+; Geoffrey Chaucer
+====aasn-Chaucer//Chaucer.z/Chaucer.My/
+
+; Edward Epstein
+====aasn-Epstein//Epstein.z/Epstein.My/
+
+; Lee Hockstader
+====aasn-Hockstader//Hockstader.z/Hockstader.My/
+
+; Marc Sandalow
+====aasn-Sandalow//Sandalow.z/Sandalow.My/
+
+; Jaxon Van Derbeken
+====aasn-Derbeken//Derbeken.z/Derbeken.My/
+
+; Ray Delgado
+====aasn-Delgado//Delgado.z/Delgado.My/
+
+; Malcolm Glover
+====aasn-Glover//Glover.z/Glover.My/
+
+; Rachel Gordon
+====aasn-Gordon//Gordon.z/Gordon.My/
+
+; Tyche Hendricks
+====aasn-Hendricks//Hendricks.z/Hendricks.My/
+
+; Scott Winokur
+====aasn-Winokur//Winokur.z/Winokur.My/
+
+; Frédéric Saint-Geours
+====aasn-Saint//Saint.z/Saint.My/
+
+; Lisa Malone
+====aasn-Malone//Malone.z/Malone.My/
+
+; Wilhelm Gottfried Leibniz
+====aasn-Leibniz//Leibniz.z/Leibniz.My/
+
+; Wilhelm Gottfried Leibnitz
+====aasn-Leibnitz//Leibnitz.z/Leibnitz.My/
+
+; Carla Huls
+====aasn-Huls//Huls.z/Huls.My/
+
+; Wim Claassen
+====aasn-Claassen//Claassen.z/Claassen.My/
+
+; Edwin Bos
+====aasn-Bos//Bos.z/Bos.My/
+
+; Otto Jespersen
+====aasn-Jespersen//Jespersen.z/Jespersen.My/
+
+; Alexei Starobinsky
+====aasn-Starobinsky//Starobinsky.z/Starobinsky.My/
+
+; Tenzin Gyatso
+====aasn-Gyatso//Gyatso.z/Gyatso.My/
+
+; Kundun
+====aasn-Kundun//Kundun.z/Kundun.My/
+
+; Thomas Tiberius
+====aasn-Tiberius//Tiberius.z/Tiberius.My/
+
+; Eric Rohmer
+====aasn-Rohmer//Rohmer.z/Rohmer.My/
+
+; Clara Bellar
+====aasn-Bellar//Bellar.z/Bellar.My/
+
+; Antoine Basler
+====aasn-Basler//Basler.z/Basler.My/
+
+; Mathias Megard
+====aasn-Megard//Megard.z/Megard.My/
+
+; Aurore Rauscher
+====aasn-Rauscher//Rauscher.z/Rauscher.My/
+
+; Pierre Giacometti
+====aasn-Giacometti//Giacometti.z/Giacometti.My/
+
+; States? Who is the President of France? What is the country code of the UK?
+
+; States? Who is the President of France? What is the country code of the UK?
+====aasn-States//States.z/States.My/
+

@@ -1,0 +1,1258 @@
+> Hi there.
+SEMANTIC PARSE CONCEPTS:
+[interjection-of-greeting Jim TT]
+[adverb-there
+ [interjection-of-greeting Jim TT]]
+ANAPHORIC PARSE CONCEPT:
+[interjection-of-greeting Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[adverb-there
+ [interjection-of-greeting Jim TT]]
+UNDERSTANDING TREE:
+[Z [U <Hi there.Uz:hi there>]]
+UNDERSTANDING CONCEPT:
+@na:na#22|[interjection-of-greeting Jim TT]
+Hello.
+> How are you?
+SEMANTIC PARSE CONCEPTS:
+[how-are-you Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[how-are-you Jim TT]
+UNDERSTANDING TREE:
+[Z [x <How are you.xzQ:how are you>]]
+UNDERSTANDING CONCEPT:
+@na:na#211|[how-are-you Jim TT]
+Very well, thank you.
+> What is your name?
+SEMANTIC PARSE CONCEPTS:
+[name-request Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[name-request Jim TT]
+UNDERSTANDING TREE:
+[Z [x <What is your name.xzQ:what is your name>]]
+UNDERSTANDING CONCEPT:
+@na:na#2111|[name-request Jim TT]
+Thomas.
+> What is your address?
+SEMANTIC PARSE CONCEPTS:
+0.900:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [residence-of na]]]]
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [mailing-address-of na]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [mailing-address-of na]]]]
+0.810:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [residence-of na]]]]
+0.750:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [email-address-of na]]]]
+0.675:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [email-address-of na]]]]
+> How big are you?
+SEMANTIC PARSE CONCEPTS:
+0.900:[degree-interrogative-adverb
+ [big subject-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[degree-interrogative-adverb
+ [big TT]]
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <big.Az¸>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [H <you.2Hz¸:he>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#21111|[degree-interrogative-adverb
+ [big TT]]
+4738120 bytes is my storage size. 0.1 meters is the width of human. 0.3 meters
+is the length of human. 1.7 meters is the height of human.
+> What is my name?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [name na]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [name na]]]]
+0.900:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [name-of na]]]]
+0.900:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [first-name-of na]]]]
+0.810:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [name-of na]]]]
+0.810:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [first-name-of na]]]]
+> What is my first surname?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [first-surname-of na]]]]
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   [possessive-determiner
+    [surname-of na]]
+   [first
+    [surname-of na]]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [first-surname-of na]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   [possessive-determiner
+    [surname-of na]]
+   [first
+    [surname-of na]]]]]
+> How tall am I?
+SEMANTIC PARSE CONCEPTS:
+0.810:[degree-interrogative-adverb
+ [human-tall subject-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[degree-interrogative-adverb
+ [human-tall Jim]]
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <tall.Az>]]]
+ [W
+  [W [V <am.p1SVz¸:be>]]
+  [X [H <I.1SHz¸:he>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#211111|[degree-interrogative-adverb
+ [human-tall Jim]]
+> Why?
+SEMANTIC PARSE CONCEPTS:
+interjection-why
+[explanation-request Jim TT]
+ANAPHORIC PARSE CONCEPT:
+interjection-why
+ANAPHORIC PARSE CONCEPT:
+[explanation-request Jim TT]
+UNDERSTANDING TREE:
+[Z [U <Why.·Uz¸:why>]]
+UNDERSTANDING CONCEPT:
+@na:na#2111112|[explanation-request Jim TT]
+> Exactly how tall am I?
+SEMANTIC PARSE CONCEPTS:
+0.810:[adverb-exactly
+ [degree-interrogative-adverb
+  [human-tall subject-pronoun]]]
+0.729:[adverb-of-agreement
+ [degree-interrogative-adverb
+  [human-tall subject-pronoun]]]
+ANAPHORIC PARSE CONCEPT:
+[adverb-exactly
+ [degree-interrogative-adverb
+  [human-tall Jim]]]
+ANAPHORIC PARSE CONCEPT:
+[adverb-of-agreement
+ [degree-interrogative-adverb
+  [human-tall Jim]]]
+UNDERSTANDING TREE:
+[Z
+ [B <Exactly.Bz:exactly>]
+ [Z
+  [E
+   [B <how.·Bz¸>]
+   [E [A <tall.Az>]]]
+  [W
+   [W [V <am.p1SVz¸:be>]]
+   [H <I.1SHz¸:he>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#21111122|[adverb-of-agreement
+ [degree-interrogative-adverb
+  [human-tall Jim]]]
+> What is my height?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [height-of na]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [height-of na]]]]
+0.900:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [possessive-determiner
+   [altitude-of na]]]]
+0.810:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [possessive-determiner
+   [altitude-of na]]]]
+> What is today's date?
+SEMANTIC PARSE CONCEPTS:
+[current-date-request Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[current-date-request Jim TT]
+UNDERSTANDING TREE:
+[Z [x <What is today s date.xzQ:what is today s date>]]
+UNDERSTANDING CONCEPT:
+@na:na#211111221|[current-date-request Jim TT]
+It is Friday July 31, 2015.
+> What time is it?
+SEMANTIC PARSE CONCEPTS:
+[current-time-request Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[current-time-request Jim TT]
+UNDERSTANDING TREE:
+[Z [x <What time is it.xzQ:what time is it>]]
+UNDERSTANDING CONCEPT:
+@na:na#2111112211|[current-time-request Jim TT]
+It is quarter past five pm.
+> Exactly what time is it?
+SEMANTIC PARSE CONCEPTS:
+[adverb-exactly
+ [current-time-request Jim TT]]
+0.900:[adverb-of-agreement
+ [current-time-request Jim TT]]
+ANAPHORIC PARSE CONCEPT:
+[adverb-exactly
+ [current-time-request Jim TT]]
+ANAPHORIC PARSE CONCEPT:
+[adverb-of-agreement
+ [current-time-request Jim TT]]
+UNDERSTANDING TREE:
+[Z
+ [B <Exactly.Bz:exactly>]
+ [Z [x <what time is it.xzQ>]]]
+UNDERSTANDING CONCEPT:
+@na:na#21111122111|[adverb-exactly
+ [current-time-request Jim TT]]
+It is 17:10.
+> Is Irish soda bread a drink?
+SEMANTIC PARSE CONCEPTS:
+0.810:[standard-copula
+ [Irish-soda-bread na]
+ [indefinite-article
+  [beverage na]]]
+0.900:[isa
+ [Irish-soda-bread na]
+ [indefinite-article
+  [beverage na]]]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula
+ [Irish-soda-bread na]
+ [beverage na]]
+ANAPHORIC PARSE CONCEPT:
+[isa
+ [Irish-soda-bread na]
+ [beverage na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Is.p3SVz¸:be>]]
+   [X [N <Irish soda bread.SNz>]]]
+  [X
+   [D <a.S·Dz¸>]
+   [X [N <drink.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#211111221112|[isa
+ [Irish-soda-bread na]
+ [beverage na]]
+> Is bread food?
+SEMANTIC PARSE CONCEPTS:
+0.900:[standard-copula
+ [bread na]
+ [food na]]
+[isa
+ [bread na]
+ [food na]]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula
+ [bread na]
+ [food na]]
+ANAPHORIC PARSE CONCEPT:
+[isa
+ [bread na]
+ [food na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Is.p3SVz¸:be>]]
+   [X [N <bread.SNz¸>]]]
+  [X [N <food.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#2111112211122|[isa
+ [bread na]
+ [food na]]
+> Is food bread?
+SEMANTIC PARSE CONCEPTS:
+0.900:[standard-copula
+ [food na]
+ [bread na]]
+[isa
+ [food na]
+ [bread na]]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula
+ [food na]
+ [bread na]]
+ANAPHORIC PARSE CONCEPT:
+[isa
+ [food na]
+ [bread na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Is.p3SVz¸:be>]]
+   [X [N <food.SNz¸>]]]
+  [X [N <bread.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#21111122111222|[isa
+ [food na]
+ [bread na]]
+> What is bread?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [bread na]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [bread na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [bread na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [bread na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [N <bread.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#211111221112222|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [bread na]]]
+> How many breads are there?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-location]]
+[present-indicative
+ [isa
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+0.900:[present-indicative
+ [standard-copula
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-location]]
+0.900:[present-indicative
+ [standard-copula
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <How many.Dz:how many>]
+  [X [N <breads.PNz¸:bread>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [H <there.·Hz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#2111112211122222|[present-indicative
+ [standard-copula
+  [question-element
+   [bread na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+There is X-bar.
+> How many foods are there?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-location]]
+[present-indicative
+ [isa
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+0.900:[present-indicative
+ [standard-copula
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-location]]
+0.900:[present-indicative
+ [standard-copula
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <How many.Dz:how many>]
+  [X [N <foods.PNz¸:food>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [H <there.·Hz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#21111122111222222|[present-indicative
+ [standard-copula
+  [question-element
+   [food na]
+   interrogative-quantity-determiner]
+  pronoun-there-expletive]]
+There is X-bar.
+> Are elephants purple?
+SEMANTIC PARSE CONCEPTS:
+0.900:[standard-copula
+ [elephant na]
+ [purple na]]
+[isa
+ [elephant na]
+ [purple na]]
+[purple
+ [elephant na]]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula
+ [elephant na]
+ [purple na]]
+ANAPHORIC PARSE CONCEPT:
+[isa
+ [elephant na]
+ [purple na]]
+ANAPHORIC PARSE CONCEPT:
+[purple
+ [elephant na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <elephants.PNz:elephant>]]]
+  [E [A <purple.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#211111221112222223|[purple
+ [elephant na]]
+No that something is not vertebrate is not purple.
+> Are elephants grey?
+SEMANTIC PARSE CONCEPTS:
+0.900:[standard-copula
+ [elephant na]
+ [gray na]]
+[isa
+ [elephant na]
+ [gray na]]
+[gray
+ [elephant na]]
+ANAPHORIC PARSE CONCEPT:
+[standard-copula
+ [elephant na]
+ [gray na]]
+ANAPHORIC PARSE CONCEPT:
+[isa
+ [elephant na]
+ [gray na]]
+ANAPHORIC PARSE CONCEPT:
+[gray
+ [elephant na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <elephants.PNz:elephant>]]]
+  [E [A <grey.6Az¸:gray>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#2111112211122222233|[gray
+ [elephant na]]
+No that something is not vertebrate is not grey.
+> What color are elephants?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  [question-element
+   [color na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+0.900:[present-indicative
+ [standard-copula
+  [question-element
+   [color na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+0.900:[present-indicative
+ [isa
+  [question-element
+   [color-quantum-number-of na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+0.810:[present-indicative
+ [standard-copula
+  [question-element
+   [color-quantum-number-of na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [question-element
+   [color na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  [question-element
+   [color na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [question-element
+   [color-quantum-number-of na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  [question-element
+   [color-quantum-number-of na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <What.·Dz¸:what>]
+  [X [N <color.ÀSNz¸>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <elephants.PNz:elephant>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#2664378037512670718|[present-indicative
+ [standard-copula
+  [question-element
+   [color-quantum-number-of na]
+   interrogative-identification-determiner]
+  [elephant na]]]
+> Are elephants dumb?
+SEMANTIC PARSE CONCEPTS:
+[unintelligent
+ [elephant na]]
+ANAPHORIC PARSE CONCEPT:
+[unintelligent
+ [elephant na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <elephants.PNz:elephant>]]]
+  [E [A <dumb.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#8197036301417155565|[unintelligent
+ [elephant na]]
+No that something is not vertebrate is not stupid.
+> How tall are elephants?
+SEMANTIC PARSE CONCEPTS:
+0.810:[degree-interrogative-adverb
+ [human-tall
+  [elephant na]]]
+ANAPHORIC PARSE CONCEPT:
+[degree-interrogative-adverb
+ [human-tall
+  [elephant na]]]
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <tall.Az>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <elephants.PNz:elephant>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#8183386719333349187|[degree-interrogative-adverb
+ [human-tall
+  [elephant na]]]
+> Why?
+SEMANTIC PARSE CONCEPTS:
+interjection-why
+[explanation-request Jim TT]
+ANAPHORIC PARSE CONCEPT:
+interjection-why
+ANAPHORIC PARSE CONCEPT:
+[explanation-request Jim TT]
+UNDERSTANDING TREE:
+[Z [U <Why.·Uz¸:why>]]
+UNDERSTANDING CONCEPT:
+@na:na#8046890898495285408|[explanation-request Jim TT]
+> How big are elephants?
+SEMANTIC PARSE CONCEPTS:
+0.900:[degree-interrogative-adverb
+ [big
+  [elephant na]]]
+ANAPHORIC PARSE CONCEPT:
+[degree-interrogative-adverb
+ [big
+  [elephant na]]]
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <big.Az¸>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <elephants.PNz:elephant>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#6681932690114647617|[degree-interrogative-adverb
+ [big
+  [elephant na]]]
+> Are ants intelligent?
+SEMANTIC PARSE CONCEPTS:
+[intelligent
+ [ant na]]
+ANAPHORIC PARSE CONCEPT:
+[intelligent
+ [ant na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <ants.PNz:ant>]]]
+  [E [A <intelligent.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-6967649393691730293|[intelligent
+ [ant na]]
+No that something is not animal is not intelligent.
+> Are human beings intelligent?
+SEMANTIC PARSE CONCEPTS:
+0.562:[intelligent
+ [human na]]
+ANAPHORIC PARSE CONCEPT:
+[intelligent
+ [human na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <human beings.PNz:human being>]]]
+  [E [A <intelligent.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#4110482357920903535|[intelligent
+ [human na]]
+No that something is not human is not intelligent.
+> What is the most dense atom?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   [atom na]
+   [dense
+    [atom na]
+    maximal]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   [atom na]
+   [dense
+    [atom na]
+    maximal]]]]
+> What is the least dense atom?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [such-that
+   [atom na]
+   [dense
+    [atom na]
+    minimal]]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   [atom na]
+   [dense
+    [atom na]
+    minimal]]]]
+> What is the circumference of the Earth?
+SEMANTIC PARSE CONCEPTS:
+> What is the capital of New Jersey?
+SEMANTIC PARSE CONCEPTS:
+> Who assassinated Henri IV?
+SEMANTIC PARSE CONCEPTS:
+[past-participle
+ [assassinate
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Henri IV"]]]]
+[preterit-indicative
+ [assassinate
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Henri IV"]]]]
+0.900:[past-participle
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-France na]]]
+0.900:[past-participle
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-England na]]]
+0.900:[preterit-indicative
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-France na]]]
+0.900:[preterit-indicative
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-England na]]]
+0.630:[past-participle
+ [assassinate
+  [rock-group-the-Who na]
+  [such-that
+   human
+   [NAME-of human NAME:"Henri IV"]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [assassinate human-interrogative-pronoun Henri-Bidault]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [assassinate human-interrogative-pronoun Henri-Verneuil]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [assassinate human-interrogative-pronoun Henri-Bidault]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [assassinate human-interrogative-pronoun Henri-Verneuil]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-France na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-England na]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-France na]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [assassinate
+  human-interrogative-pronoun
+  [Henry-IV-England na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [assassinate
+  [rock-group-the-Who na]
+  Henri-Bidault]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [assassinate
+  [rock-group-the-Who na]
+  Henri-Verneuil]]
+UNDERSTANDING TREE:
+[Z
+ [X [N <Who.SNz>]]
+ [W
+  [W [V <assassinated.dVz:assassinate>]]
+  [X [NAME Henri IV]]]]
+UNDERSTANDING CONCEPT:
+@na:na#4211335431789932128|[past-participle
+ [assassinate
+  [rock-group-the-Who na]
+  Henri-Verneuil]]
+> Who created Bugs Bunny?
+SEMANTIC PARSE CONCEPTS:
+[past-participle
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny na]]]
+[preterit-indicative
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny na]]]
+0.900:[past-participle
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny-cartoon na]]]
+0.900:[preterit-indicative
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny-cartoon na]]]
+0.630:[past-participle
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny na]]]
+0.630:[preterit-indicative
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny na]]]
+0.567:[past-participle
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny-cartoon na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny na]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny-cartoon na]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [create
+  human-interrogative-pronoun
+  [Bugs-Bunny-cartoon na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny na]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny-cartoon na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [N <Who.SNz>]]
+ [W
+  [W [V <created.iVz:create>]]
+  [X [N <Bugs Bunny.SMNz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#5219866170480218054|[preterit-indicative
+ [create
+  [rock-group-the-Who na]
+  [Bugs-Bunny na]]]
+No that something is not human does not create that something is not vertebrate.
+> Who painted _Le Déjeuner sur l'herbe_?
+SEMANTIC PARSE CONCEPTS:
+> Who is the President of the United States?
+SEMANTIC PARSE CONCEPTS:
+> Who is the President of France?
+SEMANTIC PARSE CONCEPTS:
+> What is the country code of the UK?
+SEMANTIC PARSE CONCEPTS:
+> What are jeans?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [jean na]]]
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [jeans na]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [jean na]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [jeans na]]]
+0.900:[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [dungarees na]]]
+0.810:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [dungarees na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [jean na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [jeans na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [jean na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [jeans na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [dungarees na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [dungarees na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <jeans.PNz¸:jean>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-3141570516326474302|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [dungarees na]]]
+> What is amaretto?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [amaretto na]]]
+0.900:[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [amaretto na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  object-interrogative-pronoun
+  [amaretto na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [amaretto na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [N <amaretto.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#5477782984154360214|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [amaretto na]]]
+> Who is Noam Chomsky?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Noam Chomsky"]]]]
+0.900:[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Noam Chomsky"]]]]
+0.900:[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [Noam-Chomsky na]]]
+0.810:[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [Noam-Chomsky na]]]
+0.630:[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  [such-that
+   human
+   [NAME-of human NAME:"Noam Chomsky"]]]]
+0.567:[present-indicative
+ [standard-copula
+  [rock-group-the-Who na]
+  [such-that
+   human
+   [NAME-of human NAME:"Noam Chomsky"]]]]
+0.567:[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  [Noam-Chomsky na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa human-interrogative-pronoun Noam-Chomsky]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula human-interrogative-pronoun Noam-Chomsky]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [Noam-Chomsky na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [Noam-Chomsky na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  Noam-Chomsky]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  [rock-group-the-Who na]
+  Noam-Chomsky]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  [Noam-Chomsky na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [NAME Noam Chomsky]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-562402379585052706|[present-indicative
+ [standard-copula human-interrogative-pronoun Noam-Chomsky]]
+ENG Noam Chomsky M;
+ANT: ENG Noam Chomsky M;
+
+
+Noam Chomsky is the author of Syntactic Structures, a linguistics book, Aspects
+of the Theory of Syntax, a linguistics book, Lectures on Government and
+Binding, Some Concepts and Consequences of the Theory of Government and
+Binding, and a linguistics book. Noam is his first name. Chomsky is his first
+family name. He is male. Noam Chomsky created generative grammar, an early
+transformational theory, and the standard theory. He created government-binding
+theory in 1981. He created X-bar theory in 1970.
+
+                                creation                                          
+_______________ _______________ __________________________________________________
+                                the standard theory early transformational theory 
+19700101T000000 19700101T000001 X-bar theory                                      
+19810101T000000 19810101T000001 government-binding theory                         
+
+He is the author of Syntactic Structures. Mouton published Syntactic Structures.
+
+
+Noam Chomsky. Lectures on Government and Binding. MIT Press. Semantic
+Interpretation in Generative Grammar. Ray Jackendoff. A lexical conceptual
+structure. A semantic representation. The CCITT. A X.500. A CCITT protocol. A
+V32.
+
+> Who is Jacques Chirac?
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]]]
+0.900:[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]]]
+0.900:[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [Jacques-Chirac na]]]
+0.810:[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [Jacques-Chirac na]]]
+0.630:[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]]]
+0.567:[present-indicative
+ [standard-copula
+  [rock-group-the-Who na]
+  [such-that
+   human
+   [NAME-of human NAME:"Jacques Chirac"]]]]
+0.567:[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  [Jacques-Chirac na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa human-interrogative-pronoun Jacques-Chirac]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula human-interrogative-pronoun Jacques-Chirac]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  human-interrogative-pronoun
+  [Jacques-Chirac na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  human-interrogative-pronoun
+  [Jacques-Chirac na]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  Jacques-Chirac]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [standard-copula
+  [rock-group-the-Who na]
+  Jacques-Chirac]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [isa
+  [rock-group-the-Who na]
+  [Jacques-Chirac na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [NAME Jacques Chirac]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-5624023795850527058|[present-indicative
+ [standard-copula human-interrogative-pronoun Jacques-Chirac]]
+ENG Jacques Chirac M;
+ANT: ENG Jacques Chirac M;
+
+A Jacques Chirac is a human.
+
+Jacques Chirac is the president of France since May 1995. Jacque is his first
+name. Chirac is his first family name. He is male. France is the nationality of
+Jacques Chirac. He holds an admission to the ENA from the French grande école.
+
+Jacques Chirac is the president of France. France is the nationality of Antoine
+Caune. Antoine Caune and Jérôme Bonaldi were some hosts of some Nowhere Else.
+Jérôme is the first name of Jérôme Bonaldi and Jérôme Monod. Jérôme Monod holds
+an admission to the ENA from the French grande école. Jacques Calvet holds an
+admission to the ENA from the French grande école. Jacque is the first name of
+him and Jacques Friedmann. Friedmann is the first family name of Jacques
+Friedmann.
+
+
+Jacques Chirac. France. Arlette Laguiller. Arlette. Anglo-American female given
+name. The Oxford Dictionary of English Christian Names. Oxford University Press.
+The Anthropic Cosmological Principle. An universal computer simulation theory.
+Pi in the Sky. John Barrow. The United Kingdom. Anguilla. English. Sri Lanka.
+Asia. Kashmir. Kashmiri. Human. England. Manchester. The city. A residence. A
+logical connective of disjunction. A dated word. A phrase. A frequent word. A
+word. An infrequent word. A linguistic frequency. TRANSONLY.
+

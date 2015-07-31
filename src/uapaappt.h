@@ -1,0 +1,20 @@
+/* uapaappt.c */
+void AppointmentGetRoles(Obj *appointment, Obj **dest, Obj **location, Obj **goal, TsRange *tsr);
+Bool AppointmentMatches(Obj *dest1, Obj *location1, Obj *goal1, TsRange *tsr1, Obj *dest2, Obj *location2, Obj *goal2, TsRange *tsr2);
+Float AppointmentMakesSense(Obj *appointment);
+void AppointmentNoShow(Context *cx, Subgoal *sg, Obj *noshow_actor);
+Subgoal *AppointmentAdd(Actor *ac, Ts *ts, Obj *a, Obj *dest, Obj *location, Obj *goal, TsRange *tsr);
+void AppointmentCancel(Actor *ac, Ts *ts, Obj *a, Subgoal *sg, Obj *cancel_action);
+void AppointmentMod(Actor *ac, Obj *appointment, Obj *in_value, Obj *sg_value, int theta_role_i);
+void PA_Appointment_LeaveTs(Subgoal *sg, Obj *a, Obj *counter, Obj *to, Ts *ts, TsRange *appointment_tsr, Ts *tsleave_at, Ts *tsleave_before);
+void UA_Appointment_Spatial(Actor *ac, Ts *ts, Obj *a, Obj *from, Obj *to);
+Bool UA_Appointment_IsProposalAccepted(Actor *ac, Ts *ts, Obj *a, Obj *in, ObjList **reasons_for_decision);
+void UA_AppointmentMake(Actor *ac, Ts *ts, Obj *a, Obj *in, Obj *in_counter, Obj *in_location, Obj *in_goal, TsRange *in_tsr);
+void UA_AppointmentAsker(Actor *ac, Obj *appointment);
+void UA_AppointmentCancel(Actor *ac, Ts *ts, Obj *a, Obj *in, Obj *in_counter, Obj *in_location, Obj *in_goal, TsRange *in_tsr);
+void UA_Appointment(Actor *ac, Ts *ts, Obj *a, Obj *in);
+ObjList *UA_AppointmentGetList(Context *cx, Obj *a);
+Bool UA_AppointmentQuestionIsListCommand(Obj *question, TsRange *tsr0, Obj **actor, TsRange **tsr);
+Answer *UA_AppointmentQuestionList(Obj *question, Context *cx, Obj *actor, TsRange *tsr, Answer *an, Discourse *dc);
+Answer *UA_AppointmentQuestion(Obj *question, Context *cx, TsRange *tsr0, Answer *an, Discourse *dc);
+void PA_Appointment(Context *cx, Subgoal *sg, Ts *ts, Obj *a, Obj *o);

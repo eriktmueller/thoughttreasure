@@ -1,0 +1,262 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=part* of#R theory#.z/media-object/
+==axiom.¹z//axiome.¹My/
+==hypothesis.z//hypothèse.Fy/
+===Katz#-Postal# hypothesis*.z//
+|comment="Transformations preserve meaning. Meaning is in deep structure."|
+==theorem.¹z//théorème.¹My/
+===corollary.¹z//corollaire.¹My/
+==theory-criterion//criterion.¹z/critère.¹My/
+===theta#-criterion*.z/theta-theory/thêta*Aß-critère*.¹My/
+==theory-condition//condition.¹z/condition.¹Fy/
+==theory-constraint//constraint.¹z/contrainte.¹Fy/
+===constraint-NIC/theory-of-binding/Nominative#A Island# Constraint*.z/NIC.tz/
+contrainte* des#RP ‹lots#MP Nominatifs#AMP.¹Fy/NIC.tFy/
+===constraint-SSC/theory-of-binding/Specified#A Subject# Constraint*.z/SSC.tz/
+contrainte* du#R Sujet#M spécifié#AM.¹Fy/SSC.tFy/
+===constraint-subjacency/bounding-theory/subjacency# constraint*.z/
+contrainte* de#R Sous#R-Jacence#.¹Fy/
+===rule-filter//filter.z/filtering# rule*.z/f#-rule*.qz/filtre.¹My/
+; In GB, causes sentences to be ruled out (starred).
+====case# filter*.z/theory-of-case/Filtre* sur#R le#D Cas#.¹My/
+==principle.¹z//principe.¹My/
+===principle-ECP/theory-of-government/
+Principe* des#RP Catégories#FP Vides#AFP.¹My/ECP.tMy/
+==theory-proposition//proposition.z/proposition.¹Fy/
+;_______________________________________________________________________________
+=theory.z/media-object/théorie.Fy/
+;_______________________________________________________________________________
+==philosophy.z//philosophie.Fy/
+;_______________________________________________________________________________
+; todo: Implement "name that philosophy":
+;   "I believe a priori propositions are tautologies and that empirical
+;    propositions are derived from sense-experience. What am I?"
+;   "A logical positivist!"
+;_______________________________________________________________________________
+===metaphysics.z//metaphysical.Az/métaphysique.Fy/métaphysique.Ay/
+;_______________________________________________________________________________
+===ethics.z//éthique.Fy/morale.Fy/
+====subjectivism.z//subjectivist.Az/subjectivisme.My/subjectiviste.Ay/
+====utilitarianism.z//utilitarian.Az/utilitarisme.My/utilitariste.Ay/
+;_______________________________________________________________________________
+===essentialism.z//essentialist.Az/essentialisme.My/essentialiste.Ay/
+;_______________________________________________________________________________
+===nominalism.z//nominalist.Az/nominalisme.My/nominaliste.Ay/
+====Hobbes-system/materialism/|believe¤Hobbes|
+part-of¤word,langage|
+;_______________________________________________________________________________
+==-rationalist#-empiricist# opposition*.z//
+;_______________________________________________________________________________
+====rationalism.z//intellectualism.z/rationalist.Az/rationalisme.My/
+rationaliste.Ay/|believe=[equiv true exist-absolute]|
+believe=[leadto [intuit human] [know human [exist-absolute concept]]]|
+=====Cartesian#A rationalism*.z//rationalisme* de#R Descartes#.My/
+|believe¤Descartes|
+=====Hegelian#A rationalism*.z//rationalisme* de#R Hegel#.My/|believe¤Hegel|
+;_______________________________________________________________________________
+====empiricism.z/empiricism-idealist-opposition/empiricist.Az/empirisme.My/
+empiriste.Ay/
+;_______________________________________________________________________________
+=====British#A empiricism*.z//empirisme* anglais*A.My/
+======Locke-system//Locke#'s philosophy*.z/philosophie* de#R Locke#M.Fy/
+|believe¤John-Locke|
+======Hume-system//Hume#'s philosophy*.z/philosophie* de#R Hume#M.Fy/
+|believe¤David-Hume|
+======JS-Mill-system//Mill#'s philosophy*.z/philosophie* d#R'Mill#M.Fy/
+|believe¤JS-Mill|
+;_______________________________________________________________________________
+=====positivism.z//positivist.Az/positivisme.My/positiviste.Ay/
+;_______________________________________________________________________________
+======logical#A positivism*.z//logical#A empiricism*.z/
+positivisme* logique*A.My/logicopositivisme.My/empirisme* logique*A.My/
+néo*Aß-positivisme*.My/néopositivisme.My/
+;_______________________________________________________________________________
+=======Schlick-system//Schlick#'s philosophy*.z/philosophie* de#R Schlick#M.Fy/
+|believe¤Moritz-Schlick|
+=======Carnap-system//Carnap#'s philosophy*.z/philosophie* de#R Carnap#M.Fy/
+|believe¤Rudolf-Carnap|
+=======Neurath-system//Neurath#'s philosophy*.z/philosophie* de#R Neurath#M.Fy/
+|believe¤Otto-Neurath|
+=======Tarski-system//Tarski#'s philosophy*.z/philosophie* de#R Tarski#M.Fy/
+|believe¤Alfred-Tarski|
+=======Morris-system//Morris#'s philosophy*.z/philosophie* de#R Morris#M.Fy/
+|believe¤Charles-Morris|
+;_______________________________________________________________________________
+=======Ayer-system//Ayer#'s philosophy*.z/philosophie* d#R'Ayer#M.Fy/
+|@193507:194601|believe¤Ayer|
+part-of¤sense-contents,a-priori-proposition,empirical-proposition|
+believe=[true a-priori-proposition]|
+believe=[probable empirical-proposition]|
+believe=[equiv a-priori-proposition tautology]|
+believe=[equiv a-priori-proposition analytic-proposition]|
+believe=[equiv empirical-proposition synthetic-proposition]|
+believe=[leadto-deduce a-priori-proposition a-priori-proposition]|
+believe=[leadto-induce sense-contents empirical-proposition]|
+believe=[meaningful metaphysics -1.0u]|
+believe=[meaningful exist-absolute -1.0u]|
+believe=[meaningful exist-mental -1.0u]|
+believe=[meaningful [exist God] -1.0u]|
+;_______________________________________________________________________________
+==-realist#-idealist# opposition*.z//
+;_______________________________________________________________________________
+====idealism.z/materialist-idealist-opposition,empiricism-idealist-opposition/
+idealist.Az/idéalisme.My/idéaliste.Ay/
+;_______________________________________________________________________________
+=====Platonic#A idealism*.z//idéalisme* platonicien*A.My/|believe¤Plato|
+======Platonism.z/essentialism/Platonist.Az/platonisme.My/platoniste.Ay/
+;_______________________________________________________________________________
+=====transcendental#A idealism*.z//idéalisme* transcendantal*A.My/
+|believe¤Kant|
+;_______________________________________________________________________________
+=====dialectic#A idealism*.z//dialectic.z/idéalisme* dialectique*A.My/
+|believe¤Hegel|
+;_______________________________________________________________________________
+=====Berkeley-system//Berkeley#'s philosophy*.z/
+philosophie* de#R Berkeley#M.Fy/|believe¤George-Berkeley|
+part-of¤God,human,nonhuman,exist,exist-mental,exist-perceived-by-God|
+believe=[equiv [exist nonhuman] [perceive [or human God] nonhuman]]|
+believe=[equiv exist [or exist-mental exist-perceived-by-God]]|
+;_______________________________________________________________________________
+====realism.z//realist.Az/réaliste.Ay/réalisme.My/
+;_______________________________________________________________________________
+=====neo#A-realism*.z//neo#A-realist*.Az/néo*Aß-réaliste*.Ay/
+néo*Aß-réalisme*.My/
+;_______________________________________________________________________________
+======logical#A atomism*.z//atomisme* logique*A.My/
+;_______________________________________________________________________________
+=======Russell-system//Russell#'s philosophy*.z/philosophie* de#R Russell#M.Fy/
+|believe¤Bertrand-Russell|
+part-of¤logical-atom,a-priori-proposition,empirical-proposition|
+;believe=[derives-from a-priori logical-atom]|
+;_______________________________________________________________________________
+=======Wittgenstein-Tractatus-system//Wittgenstein#'s philosophy*.z/
+philosophie* de#R Wittgenstein#M.Fy/
+|believe¤Ludwig-Wittgenstein|part-of¤Tatsache,Sachverhalt|
+;_______________________________________________________________________________
+==-monism#-dualism#-pluralism# opposition*.z//
+;_______________________________________________________________________________
+====monism.z//monist.Az/monisme.My/moniste.Ay/|believe=[one real]|
+=====spiritual#A monism*.z//spiritual#A monist*.Az/monisme* spirituel*A.My/
+moniste* spirituel*A.Ay/
+;_______________________________________________________________________________
+====dualism.z//dualist.Az/dualisme.My/dualiste.Ay/
+|believe=[part-of mind universe]|believe=[part-of matter universe]|
+;_______________________________________________________________________________
+====pluralism.z//pluralist.Az/pluralisme.My/pluraliste.Ay/
+;_______________________________________________________________________________
+==-empiricism#-idealist# opposition*.z//
+;_______________________________________________________________________________
+==-materialist#-idealist# opposition*.z//
+====materialism.z/monism,atheism/materialist.Az/matérialisme.My/
+matérialiste.Ay/
+;_______________________________________________________________________________
+==scientific#A theory*.z//théorie* scientifique*A.Fy/
+;_______________________________________________________________________________
+===theory* of#R cognition#.z//noologique.qAy/
+====anthropological#A model*.z//
+=====Universal#A People*.Pïz/ontology,cliche-similarity-across-cultures/UP.tz/
+; Anthropologist Donald E. Brown cited in
+; (Pinker, 1994, p. 143).
+====connectionist#A AI# model*.z//
+====quantum#A computing# model*.z//|create¤Roger-Penrose|
+=====weak#A quantum# consciousness# theory*.z//
+|href="http://www.aimnet.com/hia/pcr/home.html"|
+====symbolic#A AI# model*.z//|create¤Marvin-Minsky,Herbert-Simon,Allen-Newell|
+;_______________________________________________________________________________
+===theory* of#R language#.z//
+;_______________________________________________________________________________
+====structural#A linguistics*.z//linguistique* structuraliste*A.Fy/
+structuralisme.ÎMy/
+;_______________________________________________________________________________
+====Universal#A Grammar*.z//UG.tz/Grammaire* Universelle*A.Fy/GU.tFy/
+;_______________________________________________________________________________
+=====generative#A grammar*.Éz//transformational#A grammar*.Éz/
+generative#A-transformational#A grammar*.Éz/grammaire* générative*A.¹Fy/
+grammaire* générative*A.¹Fy/grammaire* transformationnelle*A.¹Fy/
+modèle* chomskyen*.My/linguistique* chomskyenne*A.Fy/
+linguistique* générative*A.Fy/chomskyen.Ay/générativisme.ÎMy/
+|@1957|create¤Noam-Chomsky|
+======early#A transformational#A theory*.z//
+|@1957|create¤Noam-Chomsky|
+======standard#A theory*.kz//ST.tÉz/modèle* standard*Aß.My/
+|@1965|create¤Noam-Chomsky|
+======extended#A standard#A theory*.kz//EST.tÉz/
+théorie* standard*Aß étendue*A.Fy/TSE.tFy/
+======revised#A extended#A standard#A theory*.kz//trace# theory*.z/REST.tÉz/
+======lexical#A-functional# grammar*.Éz/unification-grammar/LFG.tÉz/
+|@1976|create¤Joan-Bresnan|
+======generative#A semantics*.Éz//|@1970|create¤George-Lakoff|
+======lexical#A conceptual#A structure# theory*.Éz//LCS,LCS# theory*.tÉz/
+|@1983|create¤Jackendoff|
+======GB.tÉz//GB# theory*.tÉz/government#-binding# theory*.¹Éz/
+théorie* du#R Gouvernement#M et#K du#R Liage#M.¹Fy/
+modèle* du#R Gouvernement#M et#K du#R Liage#M.My/
+modèle* GB#C.My/|@1981|create¤Noam-Chomsky|
+=======principles#P and#K parameters#P theory*.z//
+=======theory* of#R binding#.¹z//théorie* du#R Liage#M.¹Fy/
+=======bounding#A theory*.¹z//théorie* des#RP Barrières#P.¹Fy/
+théorie* des#RP Bornes#P.Fy/
+=======theory* of#R movement#.¹z//théorie* du#R déplacement#M.¹Fy/
+=======theory* of#R government#.¹z//théorie* du#R Gouvernement#M.¹Fy/
+=======theory* of#R government# proper#A.¹z//
+théorie* du#R Gouvernement#M Propre#AM.¹Fy/
+=======theory* of#R case#.¹z//théorie* du#R Cas#M.¹Fy/
+=======theory* of#R control#.¹z//théorie* du#R Contrôle#.¹Fy/
+=======theta#-theory*.¹z//thêta*Aß-théorie*.¹Fy/théorie* thématique*A.Fy/
+========theta#-marking*.¹z//theta#N-mark*.¹Vz/thêta*Aß-marquage*.¹My/
+thêta#NM-marquer*.¹Vy/marquage* thématique*A.My/
+=======X#-bar# theory*.Éz//X#N-bar#N.Az/théorie* X#C-barre#.¹Fy/
+système* X#C-barre#F.My/X#NC-barre#NF.ßAy/|@1970|create¤Noam-Chomsky|
+;_______________________________________________________________________________
+====case# grammar*.Éz//grammaire* des#RP cas#MP.¹Fy/
+|@1968|create¤Charles-Fillmore|
+;_______________________________________________________________________________
+====Montague# Grammar*.Éz//Montague# Semantics*.z/|@1969|create¤Montague|
+;_______________________________________________________________________________
+====systemic#A functional#A grammar*.Éz//SFG.tz/; Halliday
+;_______________________________________________________________________________
+====generalized#A phrase#-structure# grammar*.z//GPSG.tz/
+=====immediate#A dominance#\/linear#A precedence# grammar*.z//ID#\/LP*.tz/
+====head#-driven#V phrase#-structure# grammar*.z//HPSG.tz/
+====definite#A clause# grammar*.z//DCG.tz/
+====CCG.tz//combinatory#A categorial#A grammar*.z/
+====DG.z//dependency# grammar*.z/
+====unification# grammar*.z//
+=====DUG.z/DG/dependency# unification# grammar*.z/
+=====chart# parser*.z//
+=====link# grammar*.z//
+=====TAG.tz//tree# adjoining# grammar*.z/tree#-adjoining# grammar*.z/
+======DTG.tz//D#-tree# grammar*.z/
+=====STAG.tz//synchronous#A tree# adjoining# grammar*.z/
+=====LTAG.tz//lexicalized#A tree# adjoining# grammar*.z/
+======FB#-LTAG*.tz//feature#-based#A lexicalized#A tree# adjoining# grammar*.z/
+;_______________________________________________________________________________
+===theory* of#R life#.z//
+;_______________________________________________________________________________
+====artificial#A life*.z//
+=====cellular#A automata*.Pïz//
+======Conway-Life//Conway#'s Life# game*.z/Life.®Éz/Game* of#R Life#.z/
+|create¤John-Conway|
+=====genetic#A algorithms*.Pïz//simulated#A evolution*.z/
+;_______________________________________________________________________________
+===theory* of#R everything#.z//TOE.z/théorie* du#RM grand#AM tout#HM.Fy/
+;_______________________________________________________________________________
+====cosmological#A theory*.z//théorie* cosmologique*A.Fy/
+;_______________________________________________________________________________
+====quantum# theory*.z//quantum# physics*,quantum# mechanics*.z/
+théorie* des#RP quanta#MP.Fy/théorie* quantique*A.Fy/
+;_______________________________________________________________________________
+====theory* of#R relativity#.z//théorie* de#R la#D relativité#.Fy/
+=====special#A relativity*.z//
+=====general#A relativity*.z//
+;_______________________________________________________________________________
+====QCD.z//quantum# chromodynamics# theory*.z/
+====QED.z//quantum# electrodynamics# theory*.z/
+====supersymmetry.z//supersymétrie.Fy/
+====theory-strings//strings.Pïz/cordes.FPïy/
+=====superstrings.Pïz//supercordes.FPïy/
+;_______________________________________________________________________________

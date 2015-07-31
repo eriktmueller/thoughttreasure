@@ -1,0 +1,18 @@
+Here are some country code modifications
+to be added:
+
+  Australia  this          61        
+  Cameroon   is           237
+  Canada     another        1
+  Guyana     field        592
+  India      with          91
+  Italy      nothing      390
+  Jordan     of           959
+  Kenya      real         254
+  Mars       use         9999
+  Monaco     inside        33
+  Oman       this         968
+  Peru       very         510
+  Zaire      field        243
+
+That is all for now.

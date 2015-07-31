@@ -1,0 +1,63 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=live-performance/media-object,performing-arts/live#A performance*.z/
+performance.z/représentation.Fy/spectacle.My/
+;_______________________________________________________________________________
+==music# performance*.z//musical#A performance*.z/
+===classical#A concert*.z//concert.z/
+===*concert1//|@19940126T203000|cost-of=60¯240F|
+musical-conductor-of=HUMAN:Djansug Kakhidze|
+performance-of=MUSIC::Weber,MUSIC::Sibelius,MUSIC::Rachmaninov|
+violinist-of=HUMAN:Maxim Vengerov|musical-group-of=GROUP:Orchestre de Paris|
+===rock#A concert*.z//
+===*rock-concert1//
+|@19940129T193000|musical-group-of=GROUP:Cocteau Twins|cost-of=148F|
+location-of=BUILDING:Zénith.y:211:avenue Jean-Jaurès:75019:Paris::country-FRA|
+===jam# session*.z//jam#-session*.Fy/jam.TFy/bÓuf.aMy/
+===gig.z//
+;_______________________________________________________________________________
+==media-object-play/literature/play.z/theater.Îz/
+pièce* de#R théâtre#M.¹Fy/
+;_______________________________________________________________________________
+===drama.z//drame.My/
+===musical-play//musical.z/
+==*play1//|@19940128:Inf:tue¯sat:204500:na,19940128:na:sun:150000:na|
+cost-of=60¯230F|
+performance-of=PLAY:Ce qui arrive et ce que on attend:Jean-Marie Besset:|
+location-of=BUILDING:Mathurins.y:36:rue des Mathurins:75008:Paris::country-FRA|
+director-of=MALE:Patrice Kerbrat|
+actor-of=FEMALE:Judith Magre,HUMAN:Sabine Haudepin,MALE:Patrice Kerbrat,
+MALE:Samuel Labarthe,MALE:Emmanuel Patron,MALE:Jacques Connort,
+MALE:Philippe Etesse|
+;_______________________________________________________________________________
+==dance# performance*.z/dance/live#A dance*.z/
+===ballet.z//
+===modern# dance*.z//
+==*dance1//|@19940126:19940128:mer¯ven:193000:na|cost-of=30¯370F|
+location-of=Opera-Garnier|performance-of=DANCE:Casse-Noisette::|
+dance-group-of=GROUP:Ballet de le Opéra de Paris|
+choreographer-of=MALE:John Neumeier|
+;_______________________________________________________________________________
+==opera.z/music/opéra.My/
+==*opera1//|@19940129T203000|performance-of=OPERA:Cosi Fan Tutte:Mozart:|
+cost-of=160¯180F|
+location-of=BUILDING:Théâtre* du#R Vésinet#.My:59:boulevard Carnot:78:Le Vésinet::country-FRA|
+director-of=HUMAN:Ruszard Peryt|
+musical-conductor-of=HUMAN:Mierczyslaw Nowakowski|
+theatrical-group-of=GROUP:Opéra de Chambre de Varsovie|
+musical-group-of=GROUP:Warsaw Sinfonietta|
+==*Don-Pasquale-run1//
+|@19940525:19940605:jeu+mar:1930:na,19940525:19940605:dim:1630:na|
+performance-of=OPERA:Don Pasquale:Donizetti:|cost-of=50¯490F|
+phone-number-of=STRING:pstn:"33142868883"|
+location-of=Opera-Comique|director-of=MALE:Alain Marcel|
+musical-conductor-of=HUMAN:Maurizio Barbacini,FEMALE:Françoise Macciochi|
+theatrical-group-of=GROUP:Opéra de Chambre de Varsovie|
+musical-group-of=GROUP:Ensemble Instrumental Jean-Walter Audoli|
+musical-group-of=GROUP:ChÓur de le Opéra Comique|
+singer-of=MALE:Gabriel Bacquier,HUMAN:Leontina Vaduva,HUMAN:Alessandro Corbelli|
+singer-of=HUMAN:Raul Gimenez,HUMAN:Ken Chester|
+;_______________________________________________________________________________

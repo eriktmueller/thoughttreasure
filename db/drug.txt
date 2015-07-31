@@ -1,0 +1,74 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=drug.z/physical-object/pharmaceutical.z/médicament.¹My/
+;_______________________________________________________________________________
+==pill.z//cachet.My/
+==tablet.z//comprimé.My/
+==capsule.z//gélule.Fy/
+;_______________________________________________________________________________
+==anesthetic.Àz//anaesthetic.gz/anesthésique.My/
+===novocaine.®z//novocaïne.®Fy/
+;_______________________________________________________________________________
+==medication.z//médicament.My/
+===aspirin.z//aspirine.Fy/
+;_______________________________________________________________________________
+==birth# control# device*.z//contraceptive#A device*.z/contraceptive.z/
+dispositif* contraceptif*A.My/contraceptif.My/
+===female#A birth# control# device*.z//dispositif* contraceptif*A féminin*A.My/
+====birth# control# pill*.z//pill.kz/pilule.kFy/
+====birth control diaphragm//diaphragm.z/diaphragme.My/
+====IUD.Àz//intra#B-uterine#A device*.Àz/coil.z/stérilet.My/
+===male#A birth# control# device*.z//dispositif* contraceptif*A masculin*A.My/
+====condom.z//rubber.ÀTz/préservatif.My/capote.TFy/
+;_______________________________________________________________________________
+==tobacco.z//tabac.My/
+===cigar.z//cigare.My/
+===cigarette.z//cigarette.Fy/
+;_______________________________________________________________________________
+==sedative.z//sédatif.¹My/calmant.My/
+===nitrous#A oxide*.z//
+===lactucarium.My//opium* de#R laitue#F.My/
+;_______________________________________________________________________________
+==narcotic.z//illegal#A drug*.z/illegal#A substance*.z/drug# abuse*.Îmz/
+drogue.Fy/
+;_______________________________________________________________________________
+===hard#A drug*.z//drogue* dure*A.Fy/
+====cocaine.z//cocaïne.Fy/
+====narcotic ecstasy//ecstasy.z/
+====heroin.z//scag.aÀz/héroïne.Fy/
+====lysergic#A acid# amide*.z//
+====LSD.z//lysergic#A acid# diethylamide*.z/acid.Tz/
+====mescaline.z//
+====opium.z//opium.My/
+;_______________________________________________________________________________
+===soft#A drug*.z//drogue* douce*A.Fy/
+====marijuana.z//cannabis.z/grass,pot.Tz/tea.ÀTz/marijuana.Fy/
+====hashish.z//haschisch.My/shit.TMy/
+;_______________________________________________________________________________
+==vitamin.z//vitamine.Fy/
+===vitamine* liposoluble*A.Fy//
+====vitamin# A*.z//vitamine* A#M.Fy/rétinol.My/
+====beta# carotene*.z//bêta*Aß carotène*.My/
+====vitamin# E*.z//vitamine* E#M.Fy/tocophérol.My/
+===vitamine* hydrosoluble*A.Fy//
+====vitamin# B1*.z//thiamine.z/vitamine* B1#C.Fy/thiamine.Fy/
+====vitamin# B2*.z//riboflavin.z/vitamine* B2#C.Fy/riboflavine.Fy/
+====vitamin# B3*.z//vitamine* B3#C.Fy/vitamine* PP#C.Fy/acide* nicotinique*A.My/
+====vitamin# B5*.z//pantothenic#A acid*.z/vitamine* B5#C.Fy/
+acide* pantothénique*A.My/
+====vitamin# B6*.z//vitamine* B6#C.Fy/pyridoxine.Fy/
+====vitamin# B8*.z//vitamine* B8#C.Fy/vitamine* H#M.Fy/biotine.Fy/
+====vitamin# B9*.z//folic#A acid*.z/vitamine* B9#C.Fy/acide* folique*A.My/
+====vitamin# B12*.z//vitamine* B12#.Fy/cobalamine.Fy/
+====vitamin# C*.z//ascorbic#A acid*.z/vitamine* C#M.Fy/acide* ascorbique*A.My/
+;_______________________________________________________________________________
+===multiple# vitamin*.z//
+====vitamines* 1# par#R jour#MS juvamine#®.®FPïy/capsule/
+|vitamin-A=.0008g|vitamin-C=.060g|vitamin-E=.010g|vitamin-B3=.018g|
+vitamin-B1=.0014g|
+vitamin-B2=.0016g|vitamin-B5=.006g|vitamin-B6=.002g|vitamin-B12=.000001g|
+vitamin-B9=.0002g|iron=.014g|iodine=.00015g|
+;_______________________________________________________________________________

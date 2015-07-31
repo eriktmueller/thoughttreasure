@@ -1,0 +1,409 @@
+==============================
+ThoughtTreasure shell commands
+==============================
+adverbial -dir <dirname>
+adverbial -file <filename>
+  Find potential adverbials.
+algmorph
+  Run algorithmic morphology tool.
+anamorph
+  Run analogical morphology tool.
+cfe -w <word>
+  Find in English corpus.
+cff -w <word>
+  Find in French corpus.
+chateng
+chateng -speaker Jim -listener TT
+  Run English chatterbot. Indicate end of input with a blank line.
+  Indicate end of chat session with 'quit'.
+chatfr
+  Run French chatterbot.
+corpusfind
+  Find in corpus.
+cl -lang z -dir <dirname>
+corpusload -lang z -dir <dirname>
+  Load corpus.
+corpusvalagainst
+  Validate against corpus.
+covcheckeng
+  Check English coverage.
+covcheckfr
+  Check French coverage.
+covcheckengm
+  Check English coverage and print missing.
+covcheckfrm
+  Check French coverage and print missing.
+daydream
+  Run daydreamer.
+db
+  Run database tool.
+dbg -flags syn/sem/synsem/all -level off/bad/ok/detail/hyper
+  Set the debugging flags and level. Affects log file output.
+  Default is "all" flags and "detail" level.
+dict
+dict0
+  Run dictionary tool.
+exit
+  Exit ThoughtTreasure.
+filtfeat
+  Run filter tool.
+genhtml
+help
+  Print this list of commands.
+html
+inflscan
+  Run inflection scanner.
+learnnames
+  Learn names.
+legal
+  Print legal notice.
+lexentry
+  Run lexical entry tool.
+lexentryjuxt
+  Run lexical entry juxtaposition tool.
+lexentryscan
+  Run lexical entry scanner.
+loadbegin
+  Issue this command before issuing the loadinf, loadisa, and loadpolity
+  commands.
+loadend
+  Issue this command after issuing the loadinf, loadisa, and loadpolity
+  commands.
+loadinf
+  Load an inflection file.
+loadisa
+  Load an ISA file. (All files except db/geog.txt are currently ISA files.)
+loadpolity
+  Load a polity file. (db/geog.txt is currently the only polity file.)
+logclear
+lc
+  Truncate the log file.
+obj
+  Run object tool.
+objhref
+parse -dcin <infn> -outsyn 1 -outsem 1 -outana 1 -outund 1 -dcout <outfn>
+  Parse a file. (See the detailed description of the arguments
+  below.)
+pcn -dcin STDIN -dcout
+pcn -dcin <infn> -dcout <outfn>
+  Parse compound nouns.
+polysem
+  Print polysemous lexical entries.
+pop
+  Pop up a level.
+posambig
+  Print entries with ambiguous part of speech.
+prover
+  Run theorem prover tool.
+quit
+  Exit ThoughtTreasure or pop up a level.
+report
+  Run report tool.
+server
+server -port <port>
+  Run the ThoughtTreasure socket-based server. Control returns to the
+  ThoughtTreasure shell when a client issues the 'Bringdown' command.
+simul
+  Run sample simulations.
+sortbyline
+  Sort by line.
+sortbytree 
+  Sort by tree (note last line must be === */).
+stop
+  Call the function Debugger(). When running ThoughtTreasure from
+  a debugger, a breakpoint should be set on this function, so
+  that the stop command will cause the program to break in the
+  debugger.
+suffgender
+  Study French gender suffixes.
+test
+  Take ThoughtTreasure shell commands from ../examples/test.tts.
+testcomptense
+  Test generation of compound tenses.
+testgenattr
+  Test generation of attributes.
+testgenrel
+  Test generation of relations.
+testgentemp
+testgentempdb
+  Test generation of temporal relations.
+testsa 
+  Test generation of speech acts.
+testtrip
+  Test trip finding.
+testts
+  Test timestamp range generation.
+tt -file <filename>
+  Invoke the ThoughtTreasure shell recursively on the specified
+  filename.
+up
+  Pop up a level.
+validate -old <filename> -new <filename>
+  Run Unix 'diff' to compare two files and report whether they differ.
+  Used to validate test suite runs against previous runs.
+wf1fill
+  Fill in words.
+wf1train
+  Train word formation.
+wf2e
+  Test English word formation.
+wf2f
+  Test French word formation.
+!!
+  Rerun the last command (not including stop).
+==============================
+Command arguments
+==============================
+-dcin <filename>
+  Filename of the input channel. Its language is specified by -lang.
+-dcout <filename>
+  Filename of an output channel, of which there may be several.
+  Attributes of the channel are specified by -lang, -dialect, -style,
+  -parain, -echoin, -outsyn, -outsem, -outana, and -outund.
+-dialect À/g/ç/î/o
+  Dialect of the input or output channel:
+    À = American (default)
+    g = British
+    ç = Canadian
+    î = other
+    o = old.
+-dir <dirname>
+-echoin 1/0
+  Whether to echo the input verbatim to the output. (Echo output
+  is indicated by "" at the start of each line.) Default is 1.
+-f <filename>
+-file <filename>
+-flags syn/sem/synsem/all
+-lang z/y
+  Language of the input or output channel:
+    z = English (default)
+    y = French.
+  The -lang, -dialect, -style, -parain, -echoin, -outsyn, -outsem,
+  -outana, and -outund options apply to later -dcout (and -dcin)
+  options until modified by another occurrence of -lang, -dialect,
+  and so on.
+-level off/bad/ok/detail/hyper
+-listener <object>
+  The listener ThoughtTreasure object to be pushed onto the deictic
+  stack before starting to parse the input file (or participate
+  in a chat). Default is TT (ThoughtTreasure).
+-new
+-obj
+-o
+-old
+-outana 0/1
+  Whether to output all anaphoric parse list objects to the file.
+  Default is 0.
+-outsem 0/1
+  Whether to output all semantic parse list objects to the file.
+  Default is 0.
+-outsyn 0/1
+  Whether to output all syntactic parse trees to the file. Default
+  is 0.
+-outund 0/1
+  Whether to output the single best syntactic parse tree and
+  semantic parse list object as determined by the understanding
+  agency. Default is 0.
+-parain 0/1
+  Whether to regenerate a paraphrase of the input on the output
+  channel. This may be used to produce an interlingual translation
+  of the input. (Paraphrase output is indicated by ")" at the
+  start of each line.) Default is 0.
+-port <port>
+  The listen port of the ThoughtTreasure server.
+-runana 1/0
+  Whether to run the anaphoric parser. If the anaphoric parser is
+  not run, then the understanding agency is not run. Default is 1.
+-runsem 1/0
+  Whether to run the semantic parser. If the semantic parser is
+  not run, then anaphoric parser, and understanding agency are
+  not run. Default is 1.
+-runsyn 1/0
+  Whether to run the syntactic parser. If the syntactic parser is
+  not run, then the text agency is run and the semantic parser,
+  anaphoric parser, and understanding agency are not run. "1/0"
+  indicates that either 1 or 0 may be specified. Default is 1.
+-runund 1/0
+  Whether to run the understanding agency. Default is 1.
+-speaker <object>
+  The speaker ThoughtTreasure object to be pushed onto the deictic
+  stack before starting to parse the input file (or participate
+  in a chat). Default is Jim.
+-style ?/t/T/a
+  Style of the input or output channel:
+    ? = standard (default)
+    t = literary, technical
+    T = informal
+    a = slang
+-translate 0/1
+  Whether to produce a transfer-based translation of the input
+  to the file outtrans.txt. The translation is French if
+  the input is English and vice versa. Default is 0.
+-word
+-w
+==============================
+ThoughtTreasure manual page
+==============================
+tt(1)                     User Commands                     tt(1)
+
+NAME
+     tt - run ThoughtTreasure
+
+SYNOPSIS
+     tt [-a] [-l] [-c cmd] [-f file] [-g langs] [-d dialects]
+
+OPTIONS
+     -a          Use the more memory-intensive analogical morphology
+                 instead of the default algorithmic morphology.
+
+     -l          Do not load the ThoughtTreasure database.
+
+     -c cmd      After the database is loaded (if it is loaded), execute
+                 the specified ThoughtTreasure shell command.
+
+     -f file     After the database is loaded (if it is loaded), execute
+                 ThoughtTreasure shell commands in the specified file.
+
+     -g langs    Start ThoughtTreasure for the specified languages.
+
+     -d dialects Start ThoughtTreasure for the specified dialects.
+
+                 (By default ThoughtTreasure is started for English only.
+                 This means it does not load any French lexical entries.
+                 To start ThoughtTreasure for English and French, do:
+                 tt -g zy -d ?Àgç)
+
+FILES
+     ./log         Program trace and debugging log.
+     ./in*.txt     Program input files.
+     ./out*.txt    Program output files.
+     ttlegal.txt   Copyright and other legal information.
+     help.txt      List of ThoughtTreasure shell commands.
+     src/*         Source code.
+     db/*          Database.
+     htm/*         Documentation in HTML format.
+     examples/*    Example program input and output.
+     bin/*         Executables.
+
+ENVIRONMENT VARIABLES
+     TTROOT        Location of root of ThoughtTreasure tree.
+
+The output files of ThoughtTreasure are as follows:
+
+outadv.txt                English adverbial
+outdicte.txt              English dictionary tool output
+outdictf.txt              French dictionary tool output
+outeinfl.txt              learned English inflections
+outfinfl.txt              learned French inflections
+outfname.txt              learned given names
+outhuman.txt              learned humans
+outtrans.txt              output from transfer-based translation
+outlrn.txt                various learning output
+outlname.txt              learned family names
+==============================
+ThoughtTreasure database file format
+==============================
+atomic-object-definition -
+  ==...==lexentry0/parent,parent,.../lexentry/lexentry/.../
+  |item|item|...|
+
+indent ISA format     polity format
+====== ========== =================
+     =        ISA          cpart-of
+     *   concrete           capital
+     -   contrast multilevel polity
+
+polity format:
+=continent
+==country
+===U.S. state, France region, territories
+====U.S. county, France département
+=====city
+======U.S. borough, France arrondissement
+=======city-subsubdivision (neighborhood)
+========city-subsubsubdivision
+=========city-subsubsubsubdivision
+==========city-subsubsubsubsubdivision)
+
+lexentry0 - lexentry OR atomic-object
+
+item - @tsrange,tsrange,... OR
+       atomic-object OR                  (predicate)
+       atomic-object=value,value,... OR  (relation)
+       atomic-object¤value,value,... OR  (relation)
+       list-object OR                    (assertion)
+       GS=griddef
+
+tsrange - ts{:ts{:days{:tod{:dur}}}}{Ð}
+  {} indicate optional
+
+ts - tsnumber OR na
+tsnumber - yyyymmddThhmmssZ OR yyyymmddThhmmss OR
+           yyyymmddThhmmss-hhmm OR yyyymmddThhmmss+hhmm OR
+           yyyymmdd OR yyyymm OR yyyy OR na OR
+           -Inf OR +Inf OR Inf 
+days - day+day+... OR day¯day OR na
+day - mon OR tue OR wed OR thu OR fri OR sat OR sun OR
+       lun OR mar OR mer OR jeu OR ven OR sam OR dim
+tod - todnumber OR na
+todnumber - hh OR hhmm OR hhmmss
+dur - number dur-stem OR na
+dur-stem - hrs OR min OR sec OR hhmm OR hhmmss
+
+value - atomic-object OR
+        #atomic-object OR   (create instance)
+        constant-object OR
+        quick-object
+
+list-object - [list-object1 list-object1 ...]
+list-object1 - value OR list-object
+
+griddef - gridsnap gridkey
+gridsnap - character character ...
+gridkey - gridkey1 OR gridkey1 gridkey
+gridkey1 - character {. character character ...} :
+            {&} atomic-object
+  {} indicate optional
+
+constant-object - "string" OR
+                   string misc-stem OR
+                   number stem OR
+                   STRING:atomic-object:"string" OR
+                   NUMBER:atomic-object:number
+
+stem - unitless-stem OR length-stem OR
+       velocity-stem OR frequency-stem OR
+       mass-stem OR bytes-stem OR
+       currency-stem
+
+unitless-stem - u OR pc
+length-stem - m OR km OR ft OR mi
+velocity-stem - mps OR mph OR kmph
+frequency-stem - hz OR khz OR mhz OR ghz OR ang
+mass-stem - g OR lbs
+bytes-stem - byte OR Kbyte OR Mbyte OR Gbyte OR Tbyte
+currency-stem - $ OR F
+misc-stem - usch OR frch OR usca OR frca OR dbw OR
+             coor OR km2 OR mi2
+
+quick-object -
+  HUMAN:lexentry
+  MALE:lexentry
+  FEMALE:lexentry
+  GROUP:lexentry
+  BUILDING:lexentry:street-number:street-name:postal-code:
+    city:state:country
+  FLOOR:lexentry:level:street-number:street-name:postal-code:
+    city:state:country
+  APARTMENT:lexentry:apt:level:street-number:street-name:
+    postal-code:city:state:country
+  ROOM:lexentry:room:apt:level:street-number:street-name:
+    postal-code:city:state:country
+  PLAY:lexentry:playwright:composer
+  OPERA:lexentry:composer:librettist
+  DANCE:lexentry:choreographer:composer
+  MUSIC:lexentry:composer
+==============================
+Example commands are in examples/test.tts.
+This document is available as the file help.txt
+==============================

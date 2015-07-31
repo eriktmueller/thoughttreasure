@@ -1,0 +1,777 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=international#A organization*.z/organization/
+=*CCITT.kz//CCITT.¹kMy/
+Comité* Consultatif*A International*A pour#R le#D Télégraphe# et#K le#D Téléphone#.kMy/
+=*IMF.z//
+International#A Monetary# Fund*.z/FMI.¹My/Fonds* monétaire*A international*A.My/
+=*OECD.kz//Organization* for#R Economic#A Cooperation# and#K Development#.kz/
+OCDE.k¹Fy/
+Organisation* de#R coopération# et#K de#R développement#M économiques#AMP.kFy/
+|@1961|founded|@1961:na|member-of=country-USA,country-CAN|
+@1964:na|member-of=country-JPN|
+=*United#A Nations*.kPïz//United#A Nations#P Organization*.kz/UN.kz/
+Organization* des#RP Nations#P unies#AP.kFy/ONU.kFy/
+;_______________________________________________________________________________
+=company.z/organization/firm,concern.z/société.¹Fy/société* commerciale*A.Fy/
+compagnie.Fy/Cie.Fy/entreprise.Fy/
+;_______________________________________________________________________________
+=-industry.z//sector.z/
+;_______________________________________________________________________________
+===agrofoods#P firm*.z//|manufacturer-of¤food|
+===*company-Perrier/French-SA/Perrier.®Éy/Perrier.®Éz/|owner-of=Nestle|
+===*company-Danone/French-SA/Danone.Éy/
+===*Beghin-Say/French-SA/Béghin#-Say*.Éy/
+===*LVMH/French-SA/Louis# Vuitton#-Moët#-Hennessy#.¹®Éy/LVMH.Éy/
+Moët#-Hennessy#.®Éy/LVMH.®Éz/
+===*Marks-and-Spencer/UK-public-limited-company,supermarket,department-store/
+Marks# &#K Spencer# plc#A.z/Marks# &#K Sparks#P.Tz/
+===*Nestle/Swiss-company/Nestlé*.®Éy/Nestlé.®Éz/
+===*Nestle-France/French-SA/Nestlé* France*.Éy/|owner-of=Nestle|
+;_______________________________________________________________________________
+===train# company*.z//
+===*Amtrak.®Éz//
+===*NJ# Transit*.®Éz//
+===*Conrail.®Éz//
+===*SNCF.®kFy/French-service-public/
+Société* nationale*A des#RP chemins#MP de#R fer#M français#AM.kFy/
+French#A national#A railroad# company* SNCF#.¹kz/French# Railways*.z/SNCF.®kz/
+;_______________________________________________________________________________
+===airline#A company*.z//compagnie* aérienne*A.¹Fy/
+===*ALM# Antillean#A Airlines#P.®Éz//
+===*Adria# Airways#P.®Éz//
+===*Aeroflot.®Éz//
+===*Aeromexico.®Éz//
+===*Aeroperu.®Éz//
+===*Air# Afrique*.®Éz//
+===*Air# Aruba*.®Éz//
+===*Air# Canada*.®Éz//
+===*Air# Fiji*.®Éz//
+===*Air-France/French-government-owned-company/Air# France#F ½.®MÉy/
+Air# France*.®Éz/|@1933|founded|official-residence-of=Paris|
+phone-number-of=STRING:pstn:"33144082222",STRING:pstn:"33144082424"|
+minitel-number-of=STRING:minitel:"3615AF",STRING:minitel:"3616AF"|
+===*Air# India*.®Éz//
+===*Air# Jamaica*.®Éz//
+===*Air# Lanka*.®Éz//
+===*Air# Lithuania*.®Éz//
+===*Air# Malawi*.®Éz//
+===*Air# Malta*.®Éz//
+===*Air# Mauritius*.®Éz//
+===*Air# Moldova*.®Éz//
+===*Air# Nauru*.®Éz//
+===*Air# New#A Zealand*.®Éz//
+===*Air# Tanzania*.®Éz//
+===*Alaska# Airlines#P.®Éz//
+===*Alitalia.®Éz//
+===*Aloha#U Airlines#P.®Éz//
+===*America# West#A Airlines#P.®Éz//
+===*American#A Airlines#P.®Éz/US-corporation/American.®Éz/
+===*American#A Trans# Air*.®Éz//
+===*Austrian#A Airlines#P.®Éz//
+===*Avensa.®Éz//
+===*BWIA.®Éz//
+===*British#A Airways#P.®Éz//
+===*Cayman#A Airways#P.®Éz//
+===*Comair.®Éz//
+===*Condor.®Éz//
+===*Continental#A Airlines#P.®Éz/US-corporation/Continental.®Éz/
+===*Corsair.®Éz//
+===*Czech#A Airlines#P.®Éz//
+===*Delta#A Air# Lines#P.®Éz/US-corporation/Delta.®Éz/
+===*El#D Al*.®Éz//
+===*Far#A Eastern#A Air# Transport*.®Éz//
+===*Finnair.®Éz//
+===*Frontier# Airlines#P.®Éz//
+===*Garuda# Indonesia*.®Éz//
+===*Gulf# Air*.®Éz//
+===*Guyana# Airways#P.®Éz//
+===*Hawaiian#A Airlines#P.®Éz//
+===*Horizon# Air*.®Éz//
+===*Iberia# Airlines#P.®Éz//
+===*KLM.®Éz//
+===*Korean#A Air*.®Éz//
+===*LOT# Polish#A Airlines#P.®Éz//
+===*Lauda# Air*.®Éz//
+===*Lufthansa.®Éz//
+===*Midwest#A Express# Airlines#P.®Éz//Midwest#A Express*.®Éz/
+===*Northwest#A Airlines#P.®Éz//Northwest.®Éz/
+===*Olympic#A Airways#P.®Éz//
+===*Portugalia#A Airlines#P.®Éz//
+===*Qantas# Airways#P.®Éz//Qantas.®Éz/
+===*Reno# Air*.®Éz//
+===*Rio#-Sul*.®Éz//
+===*Royal#A Jordanian#A Airline*.®Éz//
+===*SAS.®Éz//
+===*Sabena.®Éz//
+===*Singapore# Airlines#P.®Éz//
+===*Skywest# Airlines#P.®Éz//
+===*South#A African#A Airways#P.®Éz//
+===*Southwest#A Airlines#P.®Éz//
+===*Swissair.®Éz//
+===*TWA.®Éz//
+===*Tam# Airlines#P.®Éz//
+===*Thai#A Airways#P.®Éz//
+===*Tower# Air*.®Éz//
+===*Turkish#A Airlines#P.®Éz//
+===*United#A Airlines#P.®Éz/US-corporation/United.®Éz/
+===*Varig.®Éz//
+===*Vasp.®Éz//
+===*Virgin# Atlantic*.®Éz//Virgin.®Éz/
+===*World# Airways#P.®Éz//
+===*Yemen# Airways#P.®Éz//
+===*Zimbabwe# Express# Airlines#P.®Éz//
+;_______________________________________________________________________________
+===chemical# firm*.z//
+===*Rhone-Poulenc/French-government-owned-company/Rhône#M-Poulenc#.@ß®Éy/
+Rhône#-Poulenc*.®Éz/|@1994:na|headcount-of=89051u|
+;_______________________________________________________________________________
+===law# firm*.z//
+===*Paul# Hastings#.z//
+===*Paul# Weiss#.z//
+===*Skadden# Arps#.z//Skadden.z/
+;_______________________________________________________________________________
+===pharmaceuticals#P firm*.z//|manufacturer-of¤drug|
+;_______________________________________________________________________________
+===cosmetics#P firm*.z//|manufacturer-of¤personal-article|
+===*Oreal/French-SA/Oréal.®ky/l#Dj'Oréal*.®Éz/
+;_______________________________________________________________________________
+===plastics#P firm*.z//
+;_______________________________________________________________________________
+===electronics# firm*.z//|manufacturer-of¤electronic-device|
+===*Alcatel.®Éy/French-SA/Alcatel.®Éz/
+===*Ampex.®Éz/US-corporation/Ampex#® Corporation*.kz/Ampex.®Éy/
+===*ATT/US-corporation/AT&T.®Éz/
+American#A Telephone# and#K Telegraph# Company*.®z/ATT.®Éy/AT&T.®Éy/
+===*AE/US-corporation/Automatic#A Electric*.®Éz/AE.ÉTz/|owner-of=GTE|
+====Baby#S Bells*.kPïz/US-corporation/BOCs.Pïz/Baby#Sj Bells*.kFPïy/
+Baby#j Bell* américaine*A.kFy/
+====*AirTouch# Communications#P.®Éz//PacTel# Corporation*.o®Éz/
+|spinoff-of=Pacific-Telesis|
+headquarters-of=BUILDING::425:Market Street:94105:San Francisco:California:country-USA|
+@19940321:na|chair-of=MALE:Sam Ginn|ceo-of=MALE:Sam Ginn|
+president-of=MALE:C\. Lee Cox|coo-of=MALE:C\. Lee Cox|
+executive-vice-president-of=MALE:Lydell L\. Christensen|
+cfo-of=MALE:Lydell L\. Christensen|
+senior-vice-president-of=FEMALE:Margaret G\. Gill|
+secretary-officer-of=FEMALE:Margaret G\. Gill|
+senior-vice-president-of=MALE:Arun Sarin|
+vice-president-of=MALE:Tony F\. Distefano|
+vice-president-of=MALE:F\. Craig Farrill|
+vice-president-of=HUMAN:Mohan S\. Gyani|
+vice-president-of=FEMALE:Susan G\. Swenson|
+general-counsel-of=MALE:Paul H\. White|
+@19940321|founded|
+====*Bell#® Atlantic*.®Éz//
+====*Bell#® South*.®Éz//Bell#® South*.®Éy/
+====*NYNEX.®Éz//Nynex.®Éz/Nynex.®Éy/|phone-number-of=STRING:pstn:"19146447600"|
+headquarters-of=BUILDING::1113:Westchester Avenue:10604:White Plains:New York:country-USA|
+@1987:na|ceo-of=MALE:William C\. Ferguson|chair-of=MALE:William C\. Ferguson|
+@1994:na|president-of=MALE:Ivan G\. Seidenberg|coo-of=MALE:Ivan G\. Seidenberg|
+@1994:na|board-member-of=MALE:John Brademas,MALE:Randolph W\. Bromery|
+board-member-of=MALE:John J\. Creedon,MALE:William C\. Ferguson|
+board-member-of=MALE:Stanley P\. Goldstein,FEMALE:Helene L\. Kaplan|
+board-member-of=FEMALE:Elizabeth T\. Kennan,MALE:David J\. Mahoney|
+board-member-of=MALE:Edward E\. Phillips,MALE:Frederic V\. Salerno|
+board-member-of=MALE:Ivan G\. Seidenberg,MALE:Walter V\. Shipley|
+board-member-of=MALE:John R\. Stafford|
+executive-committee-member-of=MALE:William C\. Ferguson|
+executive-committee-member-of=MALE:Frederic V\. Salerno|
+executive-committee-member-of=MALE:Walter V\. Shipley,MALE:John J\. Creedon|
+executive-committee-member-of=MALE:David J\. Mahoney,MALE:Edward E\. Phillips|
+vice-chair-of=MALE:Ivan G\. Seidenberg,MALE:Frederic V\. Salerno|
+executive-vice-president-of=MALE:Raymond F\. Burke|
+general-counsel-of=MALE:Raymond F\. Burke|
+secretary-officer-of=MALE:Raymond F\. Burke|
+executive-vice-president-of=MALE:Jeffrey S\. Rubin|
+cfo-of=MALE:Jeffrey S\. Rubin|
+vice-president-of=MALE:Peter M\. Ciccone|comptroller-of=MALE:Peter M\. Ciccone|
+vice-president-of=MALE:Saul Fisher|
+vice-president-of=MALE:Patrick F\. X\. Mulhearn|
+vice-president-of=MALE:Donald J\. Sacco|vice-president-of=MALE:Thomas J\. Tauke|
+vice-president-of=MALE:Colson P\. Turner|treasurer-of=MALE:Colson P\. Turner|
+====*Pacific#A Bell*.®Éz//|owner-of=Pacific-Telesis|
+====*Pacific#A Telesis*.®Éz//Pacific#A Telesis# Group*.®Éz/|
+headquarters-of=BUILDING::130:Kearny Street:94108:San Francisco:California:country-USA|
+@19940321:na|chair-of=MALE:Philip J\. Quigley|ceo-of=MALE:Philip J\. Quigley|
+president-of=MALE:Philip J\. Quigley|cfo-of=MALE:William E\. Downing|
+treasurer-of=MALE:William E\. Downing|
+executive-vice-president-of=MALE:Jim R\. Moberg|
+executive-vice-president-of=MALE:Richard W\. Odgers|
+general-counsel-of=MALE:Richard W\. Odgers|
+secretary-officer-of=MALE:Richard W\. Odgers|
+vice-president-of=MALE:Lee G\. Camp III|vice-president-of=MALE:Ross K\. Ireland|
+vice-president-of=MALE:Forrest E\. Miller|
+vice-president-of=MALE:Thomas O\. Moulton Jr\.|
+vice-president-of=MALE:Ronald F\. Stowe|
+====*US# West*.®Éz//US# West*.®Éy/
+===*Bell#S Labs*.®ÉPïz/US-corporation/AT&T#S Bell#S Labs*.®Pïz/Labs.®TkPïz/
+|owner-of=ATT|
+===*Bellcore.®Éz/US-corporation/|owner-of=NYNEX,Bell-Atlantic,Pacific-Telesis|
+===*British#A Post# Office*.®Éz/UK-company/BPO.®Éz/
+===*British#A Telecom*.®Éz/UK-company/
+===*Ericsson.z//Ericsson#® Telecommunications#P.z/Ericsson.y/
+; L.M. Ericsson, Sweden
+===*France-Telecom/French-service-public/France#F Télécom*.®Éy/
+France#F Telecom*.®Éy/PTT.okFy/France# Telecom*.®Éz/
+===*GE.®Éz/US-corporation,aeronautics-industry/General#® Electric#®.Éz/
+===*GEC# Plessey*.®Éz//GEC# Plessey# Telecommunications#P.z/
+===*GTE.®Éz/US-corporation/
+===*Holobeam.®Éz//
+===*ITT.®Éz//
+===*Magnavox.®Éz//Magnavox.y/
+===*Marconi.®Éz//
+===*Northern#A Telecom*.®Éz//
+===*Norelco.®Éz/US-corporation/|owner-of=Philips|
+===*Philips.®y/Dutch-company/Philips.®z/
+===*Philips# France#F.®y/French-SA/|owner-of=Philips|
+===*Poste.kFy/French-service-public/French# Post# Office*.z/
+===*RCA.®Éz//
+; but the RCA brand name is now owned by Thomson for TVs, BMG for records...
+====*RCA#® Astro#®.z//
+===*Thomson.®Éy/French-government-owned-company/Thomson.®Éz/
+|@1994:na|headcount-of=75228u|
+===*Sarkes.®Éz//
+===*Siemens.®Éz//Siemens.y/
+===*Sony.®Éz/Japanese-company/Sony.®y/
+géant* japonais*A de#R l#D'électronique#F.My/
+|@1960:na|chair-of=Akio-Morita|
+===*Stromberg# Carlson*.®Éz/US-corporation/
+===*Strowger.z//Strowger.y/
+===*Visual#A Zoom*.z//
+===*WE/US-corporation/AT&T#® Technologies#P.®Éz/Western#A Electric*.®Éz/
+WE,Western.Tz/|owner-of=ATT|
+;_______________________________________________________________________________
+; early French phone manufacturers
+;_______________________________________________________________________________
+===*Ader.y/French-SA/
+====*Bailleux# Ader#.y/Bailleux/
+====*Berthon#-Ader#.y//
+===*Bailleux.y/French-SA/
+===*Berliner# mobile*.y/French-SA/
+===*Deckert.y/French-SA/
+===*Duchatel.y/French-SA/
+===*Grammont.y/French-SA/
+===*Marty.y/French-SA/
+===*Milde/French-SA/Mildé.y/
+===*Montillot.y/French-SA/
+===*Pasquet.y/French-SA/Louis# Pasquet#.y/
+===*SIT.Fy/French-SA/Société* Industrielle*A des#RP Téléphones#MP.Fy/
+;_______________________________________________________________________________
+====Internet# provider*.z//Internet# service# provider*.z/
+prestataire* Internet#.My/
+====*FranceNet.®Éy//
+====*Panix.®Éz//
+====*Pipeline.®Éz/US-corporation/
+====*UUNET.®Éz/US-corporation/
+;_______________________________________________________________________________
+====computer# company*.z//computer# manufacturer*.z/
+|manufacturer-of¤computer-equipment|
+====*Apple-Computers/US-corporation/Apple# Computers#P.¹®Éz/Apple.®Éz/
+Apple# Computers#P.®y/Apple.®y/constructeur* à#R la#D pomme#F.kTMy/
+====*Apple# France*.®Éy/French-SA/|owner-of=Apple-Computers|
+====*Atari.®Éz//
+====*Compaq.Éz/US-corporation/
+====*DEC/US-corporation/Digital# Equipment# Corporation*.Éz/Digital.TÉz/
+====*Hewlett#-Packard*.Éz/US-corporation/
+====*IBM/US-corporation/IBM.¹®Éz/Big#A Blue#A.ÉTz/
+International#A Business# Machines#P.®z/IBM.¹®y/
+====*IBM# France#F.y/French-SA/IBM# France*.z/|owner-of=IBM|
+====*IMSAI.Éz/US-corporation/
+====*Intel.Éz/US-corporation/
+====*MITS.Éz/US-corporation/
+====*Motorola.Éz/US-corporation/
+====*Novell.®Éz/US-corporation/
+====*SGI.®Éz/US-corporation/Silicon# Graphics*.®Éz/
+====*Sun# Microsystems#P.É®z/US-corporation/Sun.É®z/
+Stanford# University# Network*.oz/
+====*SunSoft.®Éz//|owner-of=Sun-Microsystems|
+;_______________________________________________________________________
+====*Virtual# Computers#P.®Éz//Virtual# Computers#P.®Pïy/
+====*Zilog.Éz/US-corporation/
+;_______________________________________________________________________________
+====audio# manufacturer*.z//
+====*Akai.®Éz/Japanese-company/
+====*Alesis.®Éz/US-corporation/
+====*Ampeg.®Éz//
+====*API.®Éz//
+====*AR.®Éz/US-corporation/Acoustic# Research*.®Éz/
+====*ART.®Éz//
+====*Audio# Alchemy*.®Éz//
+====*Beogram.®Éz//
+====*Boss.®Éz//
+====*B-and-W//B&W.®Éz/
+====*Carver.®Éz//
+====*Carvin.®Éz//
+====*dbx.®Éz//
+====*Denon.®Éz//
+====*audio-company-DOD//DOD.®Éz/
+====*Dolby.®Éz/US-corporation/
+====*Fisher.®Éz//
+====*Fostex.®Éz//
+====*JL# Cooper*.®Éz//Cooper.®Éz/
+====*Harman# Kardon*.®Éz//
+====*HK# Citation*.®Éz//
+====*Krell.®Éz//
+====*Kustom.®Éz//
+====*Laney.®Éz//
+====*Lexicon.®Éz//
+====*Mackie.®Éz//
+====*Marantz.®Éz//
+====*Marshall.®Éz//
+====*McIntosh.®Éz//
+====*Mitsubishi.®Éz/automobile-industry,Japanese-company/
+====*Panamax.®Éz//
+====*Pioneer.®Éz//
+====*Pultec.®Éz//
+====*Scholz.®Éz//
+====*Sound# Workshop*.®Éz//
+====*Spectral.®Éz//
+====*Studiomaster.®Éz//
+====*Tascam.®Éz/Japanese-company/|owner-of=Teac|
+====*Teac.®Éz/Japanese-company/
+====*TOA.®Éz//
+====*Universal#A Audio*.®Éz//
+====*Valley# People*.®Éz//
+;_______________________________________________________________________________
+=====microphone# manufacturer*.z//
+=====*AKG.®Éz//
+=====*Audio#-Technica*.®Éz//
+=====*Beyer.®Éz//
+=====*BK//Brüel# \&#K Kjaer*.®z/
+=====*Budelman.®Éz//
+=====*EV/US-corporation/Electro#-Voice*.¹®Éz/ElectroVoice.®Éz/EV.T®Éz/
+=====*Microtech# Gefell*.®Éz//
+=====*Neumann.®Éz//
+=====*Sennheiser.®Éz//
+=====*Schoeps.®Éz//
+=====*Shure.®Éz/US-corporation/
+=====*Telefunken.®Éz//
+=====*Vega#-Mike*.®Éz//
+;_______________________________________________________________________________
+=====speaker# manufacturer*.z//
+=====*Bose.®Éz//
+=====*Velodyne.®Éz//
+=====*company-Yorkville//Yorkville.®Éz/
+;_______________________________________________________________________________
+====electronic#A musical#A instrument# manufacturer*.z//
+|manufacturer-of¤electronic-musical-instrument|
+;_______________________________________________________________________________
+====*Hohner.®Éz//
+====*Yamaha.®Éz/Japanese-company/
+;_______________________________________________________________________________
+=====synthesizer# manufacturer*.z//
+=====*ARP.®Éz//
+=====*Casio.®Éz/Japanese-company/
+=====*Emu.®Éz//EMU.q®z/
+=====*Ensoniq.®Éz/US-corporation/
+=====*Fairlight.®Éz//
+=====*Group# 360*.®Éz//
+=====*Kawai.®Éz/Japanese-company/
+=====*Korg.®Éz/Japanese-company/
+=====*Kurzweil.®Éz//
+=====*Moog.®Éz//
+=====*Oberheim.®Éz//
+=====*Roland.®Éz//
+=====*Sequential#A Circuits#P.®Éz//
+=====*Simmons.®Éz//
+=====*Wurlitzer.®Éz//
+;_______________________________________________________________________________
+=====electronic#A stringed#A instrument# manufacturer*.z//
+=====*Alembic.®Éz//
+=====*Aria.®Éz//
+=====*BC# Rich*.®Éz//
+=====*Fender.®Éz/US-corporation/
+=====*Focus.®Éz//
+=====*Ibanez.®Éz//
+=====*Ovation.®Éz//
+=====*Peavey.®Éz//
+=====*Steinberger.®Éz//
+=====*Westone.®Éz//
+;_______________________________________________________________________________
+===musical#A instrument# manufacturer*.z//|manufacturer-of¤musical-instrument|
+===*Baldwin.®Éz//
+===*Conn.®Éz//
+===*Jean# Barre*.®Éz//
+===*company-King//King.®Éz/
+===*Miraphone.®Éz//
+===*Selmer.®Éz//
+===*Steinway.®Éz//
+;_______________________________________________________________________________
+===metallurgy# firm*.z//
+;_______________________________________________________________________________
+===clothing#m industry*.z//fashion# industry*.z/habillement.My/
+prêt*A-à#R-porter#V.¹My/confection,couture.Fy/|manufacturer-of¤clothing|
+===*Cacharel.®y/French-SA/
+===*Jockey.®Éz/US-corporation/|@196308|founded|
+===*Levi.®Éz/US-corporation/Levi# Strauss# &#K Co\.*.®Éz/|@1850|founded|
+===*Playtex.®Éz/US-corporation/
+===*Speedo.®Éz/UK-limited-company/Speedo#® Knitting# Mills# Pty\.#\, Ltd\.#.z/
+;_______________________________________________________________________________
+===transportation# industry*.z//
+====transit# agency*.z//
+====*company-RATP/French-government-owned-company/RATP.®kFy/RATP.®kz/
+====*company-MBTA//MBTA.Éz/MTA.Éoz/
+====*company-BART//BART.Éz/
+====*SF-Muni//San#Aj Francisco# Municipal#A Railway*.z/Municipal#A Railway*.z/
+Muni.Tz/
+;_______________________________________________________________________________
+====aeronautics# industry*.z//|manufacturer-of¤flying-machine|
+====*Aerospatiale/French-SA/Aérospatiale.®y/
+====*Airbus.®y/French-SA/
+====*Boeing.®Éz/US-corporation/
+====*Dassault.®y/French-SA/
+====*Lockheed.®Éz/US-corporation/Lockheed#® Aeronautical#A Systems#P Co\.#.z/
+====*Matra.®y/French-SA/
+====*McDonnell# Douglas#.®Éz/US-corporation/
+====*SNECMA.®y/French-SA/
+;_______________________________________________________________________________
+====rollerblade# manufacturer*.z//roller# blade# manufacturer*.z/
+|manufacturer-of¤rollerblades|
+====*Bauer.®Éz/US-corporation/
+====*CCM.®Éz/US-corporation/
+====*K2# Exotech*.®Éz/US-corporation/
+====*company-Oxygen/US-corporation/Oxygen.®Éz/
+====*RollerBlade.®Éz/US-corporation/
+;_______________________________________________________________________________
+====tire# manufacturer*.z//|manufacturer-of¤tire|
+====*Bridgestone.®Éz//
+====*Dunlop.®Éz//
+====*Perelli.®Éz//Pirelli.@®Éz/
+;_______________________________________________________________________________
+====automobile# industry*.z//|manufacturer-of¤motor-vehicle|
+====*Acura.®Éz//|owner-of=Honda|
+====*Alfa# Romeo*.®Éz/Italian-company/AR.TÉz/Alfa.®TÉz/Alfa# Romeo*.®Éy/
+====*American#R Motors#P Corporation*.®Éz//|@1987:na|owner-of=Chrysler|
+====*Audi.®Éz//|owner-of=Volkswagen|
+====*Bertone.®Éz//Bert,Berto.ÉTz/
+====*BMW.®Éz//
+====*Buick.®Éz//|owner-of=GM|
+====*Bultaco.®Éz//
+====*Cadillac.®Éz//|owner-of=GM|
+====*Chevrolet.®Éz//|@1918:na|owner-of=GM|
+====*Chrysler.®Éz//Chrysler.®Éy/|@1998:na|owner-of=DaimlerChrysler|
+====*Citroen/French-SA/Citroën.®Éy/Citroën.®Éz/|owner-of=PSA|
+====*DeTomaso.®Éz//
+====*Daewoo.®Éz//
+====*DaimlerChrysler.®Éz//
+====*Dodge.®Éz//Dodge.®Éy/|owner-of=Chrysler|
+====*Ducati.®Éz//
+====*Eagle.®Éz//|owner-of=Chrysler|
+====*Ferrari.®Éz//Ferr.ÉTz/
+====*Fiat.®Éz/Italian-company/Fiat.®Éy/
+====*Folbot.®Éz//
+====*Ford.®Éz/US-corporation/Ford# Motor# Company*.®Éz/Ford.®Éy/
+====*Geo.®Éz//|@1989:na|owner-of=GM|
+====*Gilera.®Éz//Sears#\/Gilera*.®Éz/
+====*Ginetta.®Éz//
+====*GM.®Éz/US-corporation/General#A Motors#P.®Éz/GM.®Éy/
+====*GMC.®Éz//|@1996:na|owner-of=Pontiac|
+====*Harley#-Davidson*.®Éz//Harley.®TÉz/
+====*Honda.®Éz/Japanese-company/Honda.®Éy/
+====*Hyundai.®Éz//
+====*Infiniti.®Éz//|owner-of=Nissan|
+====*Isuzu.®Éz//
+====*Jaguar.®Éz//|owner-of=Ford|
+====*Jeep.®Éz//Jeep.®Éy/|owner-of=Chrysler|
+====*Kia.®Éz//Kia# Motors#P.®Éz/|@1998:na|owner-of=Hyundai|
+====*Lancia.®Éz//Lanc.TÉz/
+====*Land# Rover*.®Éz//|owner-of=BMW|
+====*company-Lincoln//Lincoln.®Éz/|owner-of=Ford|
+====*Lincoln-Mercury//Lincoln#-Mercury*.®Éz/|owner-of=Ford|
+====*Lexus.®Éz//|owner-of=Toyota|
+====*Maser.®Éz//
+====*Maxwell# Motor# Company*.®Éz//
+====*Mazda.®Éz//
+====*Mercedes.®Éz//D#-Benz*.z/Mercedes# Benz*.Éz/Mercedes.®Éy/
+|@1998:na|owner-of=DaimlerChrysler|
+====*company-Mercury//Mercury.®Éz/Mercury.®Éy/|owner-of=Ford|
+====*MG.®Éz//
+====*Nissan.®Éz/Japanese-company/Datsun.o®Éz/Nissan.®Éy/
+====*Oldsmobile.®Éz//|owner-of=GM|
+====*Opel.®Éz//
+====*Peugeot.®Éz/French-SA/Peugeot.®Éy/|owner-of=PSA|
+====*Plymouth.®Éz//|owner-of=Chrysler|
+====*Pontiac.®Éz//|owner-of=GM|
+====*Porsche.®Éz/German-company/Porsche.®Éy/
+====*PSA.Éy/French-SA/Peugeot# SA#.®Éy/Peugeot#-Citroën#.®Éy/
+Peugeot#-Citroën#.®Éz/
+====*Renault/French-government-owned-company/Renault.®Éz/
+Renault.¹®Éy/Régie* Renault#C.kFy/
+====*Saab.®Éz//Saab.®Éy/
+====*company-Saturn//Saturn.®Éz/|owner-of=Chrysler|
+====*Subaru.®Éz/Japanese-company/;owned by Fuji
+====*Suzuki.®Éz//
+====*Toyota.®Éz/Japanese-company/Toyota.®Éy/
+====*Triumph.®Éz//
+====*Volvo.®Éz//Volvo.®Éy/
+====*Volkswagen.®Éz/German-company/VW.®ÉTz/Volkswagen.®Éy/
+;_______________________________________________________________________________
+===civil# engineering# industry*.z//
+===*Lyonnaise* des#RP Eaux#P.Fy/French-SA/Dumez.y/
+===*Generale-des-Eaux/French-SA/Générale* des#RP Eaux#P.Fy/
+Compagnie* Générale* des#RP Eaux#P.Fy/
+===*Severud# Associates#P.z/US-corporation/
+;_______________________________________________________________________________
+===tourism# industry*.z//
+;_______________________________________________________________________________
+===financial#A institution*.z//établissement* financier*A.¹My/
+société* financière*A.Fy/|manufacturer-of¤financial-instrument|
+;_______________________________________________________________________________
+====CheckFree.®Éz//
+;_______________________________________________________________________________
+====credit# card# company*.z//|manufacturer-of¤credit-card|
+====*American#A Express*.®Éz/US-corporation/Amex.®Éz/
+====*VISA.®Éz/US-corporation/Visa.®Éz/
+====*MasterCard.®Éz/US-corporation/Mastercard.®Éz/MasterCharge.o®Éz/
+Mastercharge.o®Éz/Master#A Card*.q®Éz/Master#A Charge*.qo®Éz/
+;_______________________________________________________________________________
+====bank.z//banque.¹Fy/établissement* bancaire*A.My/société* de#R crédit#M.Fy/
+établissement* de#R crédit#M.¹My/
+====*BNP.®kFy/French-government-owned-company,French-SA/
+====*Chase# Manhattan*.®Éz/US-corporation/Chase#C Manhattan#C.®kFy/
+====*Chemical# Banking# Corporation*.®z/US-corporation/
+|@1994:na|ceo-of=MALE:Walter V\. Shipley|chair-of=MALE:Walter V\. Shipley|
+====*Credit-lyonnais/French-government-owned-company,French-SA/
+Crédit* lyonnais*A.®kMy/Lyonnais.T®kMy/Crédit# Lyonnais#Aj.ß®Éz/
+====*Societe-generale/French-SA/Société* générale*A.®kFy/
+Société# générale#Aj.ß®Éz/
+;_______________________________________________________________________________
+====investment# bank*.z//securities#P firm*.z/banque* d#R'affaires#P.¹Fy/
+banque* d#R'investissement#M.¹Fy/
+====*MSSA/French-SA/Morgan# Stanley# S\.A\.*.Éz/Morgan# Stanley# S\.A\.#.Éy/
+|owner-of=Morgan-Stanley|
+====*MS-and-Co/US-corporation/Morgan# Stanley# &#K Co\.*.®Éz/
+banque* d#R'affaires#P Morgan#C Stanley#C.¹kFy/
+grande*A banque* d#R'affaires#P Morgan#C Stanley#C.kFy/|owner-of=Morgan-Stanley|
+====*Morgan# Stanley*.¹®Éz/US-corporation/Morgan# Stanley# Group# Inc\.#.®Éz/
+grande*A banque* d#R'affaires#P Morgan#C Stanley#C.kFy/
+banque* d#R'affaires#P Morgan#C Stanley#C.¹kFy/
+|headquarters-of=Exxon-building|@1934|founded|
+====*Salomon.®Éz/US-corporation/Salomon# Brothers#P.®Éz/
+====*UBS.®Éz/US-corporation/
+;_______________________________________________________________________________
+====mutual#A fund*.z//fonds* commun*A de#R placement#.¹My/
+====*Fidelity.®Éz/US-corporation/
+====*Vanguard#® Group*.z/US-corporation/Vanguard.®Éz/
+;_______________________________________________________________________________
+===insurance#A company*.z//compagnie* d#R'assurance#.¹Fy/
+société* d#R'assurance#.¹Fy/
+===*UAP.®Éy/French-SA/
+====mutuelle.y//
+;_______________________________________________________________________________
+===grocery# trade*.mz//épicerie.Fy/
+;_______________________________________________________________________________
+===mail# order*.z//mail# order# house*.z/V\.P\.C\..Fy/
+vente* par#R correspondance#.Fy/vépéciste.§y/
+;_______________________________________________________________________________
+===market# research# firm*.z//
+===*ACNielsen/US-corporation/A\.C\.#® Nielsen*®.z/Nielsen.®Éz/
+===*Dunn-and-Bradstreet/US-corporation/Dunn# &#K Bradstreet*.®Éz/
+===*Eric# Marder# Associates#P.Éz/US-corporation/
+===*Nielsen#® Media#® Research*®.Éz/US-corporation/
+===*Mediamat-Mediametrie/French-SA/Médiamat#-Médiamétrie#F ½.kMy/
+;_______________________________________________________________________________
+====polling# agency*.z//
+====*BVA.Éy/French-SA/|pdg-of=MALE:Pierre Giacometti|
+====*Cevipof.kMy/French-SA/
+Centre* d#R'étude#F de#R la#D vie#F politique#AF française#AF.kMy/
+====*Gallup.Éz/US-corporation/
+====*SOFRES.kFy/French-SA/Sofres.kFy/
+Société* française*A d#R'enquêtes#P par#R sondage#M.kFy/
+|pdg-of=MALE:Jérôme Jaffré|
+====*Ifop.y/French-SA/|pdg-of=FEMALE:Laurence Parisot|
+====*Ipsos.y/French-SA/|pdg-of=MALE:Jean-Marc Lech|
+====*polling-agency-CSA/French-SA/CSA.y/; Different from CSA government agency?
+;_______________________________________________________________________________
+===perfume# industry*.z//
+;_______________________________________________________________________________
+===retail# industry*.z//retailer.z/store.z/retail.Az/
+;_______________________________________________________________________________
+===publisher.z//éditeur.¹My/|manufacturer-of¤media-object-book|
+===*Ablex.z/US-corporation/Ablex# Publishing*.z/
+|headquarters-of=BUILDING::355:Chestnut Street:07648:Norwood:New Jersey:country-USA|
+===*Belin.y//Éditions* Belin#M.FPïy/Belin.z/
+|headquarters-of=BUILDING::8:rue Férou:75006:Paris::country-FRA|
+===*CUP//Cambridge# University# Press*.z/CUP.Tz/
+|headquarters-of=BUILDING:::Trumpington Street:CB2 1RP:Cambridge::United Kingdom|
+===*Dictionnaires* Le#DS Robert#MS.MPïy//
+|headquarters-of=BUILDING::12:avenue d'Italie:75013:Paris::country-FRA|
+===*Editions-Quebec-Amerique//Éditions* Québec#MS\/Amérique#S.FPïy/
+===*Editions* Jean#MS-Paul#MS Gisserot#MS.FPïy//
+|headquarters-of=BUILDING:::::Paris::country-FRA|
+===*Elsevier.z//
+===*Fayard.y//
+===*Funk-Wagnalls/US-corporation/Funk# &#K Wagnalls#.Éz/
+|headquarters-of=BUILDING::1:International Boulevard:07495:Mahwah:New Jersey:country-USA|
+===*Hachette.y//Hachette# Livre#.y/
+|headquarters-of=BUILDING::79:boulevard Saint-Germain:75006:Paris::country-FRA|
+===*HarperCollins.Éz//
+===*InterEditions//InterÉditions*.®FPïy/
+|headquarters-of=BUILDING::87:avenue du Maine:75014:Paris::country-FRA|
+===*John# Wiley*.Éz/US-corporation/John# Wiley# &#K Sons#P.Éz/
+|headquarters-of=BUILDING::605:Third Avenue:10158:New York City:New York:country-USA|
+===*LEA.TÉz//Lawrence# Erlbaum# Publishers#P.Éz/Lawrence# Erlbaum*.¹Éz/
+|headquarters-of=BUILDING::365:Broadway:07642:Hillsdale:New Jersey:country-USA|
+===*Longman.®Éz/UK-limited-company/Longman# Group# UK# Limited*.®z/
+===*MIT# Press*.Éz//MIT# Press*.kz/
+|owner-of=MIT|
+headquarters-of=BUILDING::::02142:Cambridge:Massachusetts:country-USA|
+===*Morgan# Kaufmann*.Éz/US-corporation/Morgan# Kaufmann# Publishers#P.Éz/
+|headquarters-of=BUILDING::95:First Street:94022:Los Altos:California:country-USA|
+===*Mouton.Éz//; Le Haye
+===*NTC# Publishing# Group*.kz//
+|headquarters-of=BUILDING::4255:West Touhy Avenue:60646:Lincolnwood:Illinois:country-USA|
+===*Oxford-Press//Oxford# University# Press*.Éz/
+|headquarters-of=BUILDING:::Walton Street::Oxford::United Kingdom|
+===*Passport# Books#P.Éz//|owner-of=NTC-Publishing-Group|
+===*Plon.Éy//
+===*Prentice# Hall*.Éz//|owner-of=Simon-and-Schuster|
+headquarters-of=BUILDING::15:Columbus Circle:10023:New York City:New York:country-USA|
+===*Seuil.®kMy//Seuil.®ÉMz/Éditions* du#RS Seuil#MS.k®FPïz/
+===*Simon-and-Schuster/US-corporation/Simon# &#K Schuster#.Éz/
+;_______________________________________________________________________________
+===entertainment# industry*.z//|manufacturer-of¤film,TV-show|
+===*Capital-Cities-ABC-Inc/US-corporation/Capital# Cities#P-ABC# Inc\.#.®Éz/
+ABC.®Éz/|phone-number-of=STRING:pstn:"12124567777"|
+headquarters-of=BUILDING::77:West 66 Street:10019:New York City:New York:country-USA|
+===*CBS-Inc/US-corporation/CBS# Inc\.#.®Éz/|headquarters-of=Black-Rock|
+phone-number-of=STRING:pstn:"12129754321"|
+===*Disney.®Éz/US-corporation/
+===*France-Television/French-service-public/France#® Télévision#®.y/
+|@19940606:na|president-of=MALE:Pierre Elkabbach|
+===*Time#® Warner*®.z/US-corporation/
+===*Viacom#-Paramount*.®Éz/US-corporation/Viacom#-Paramount#.®Éy/
+===*Warner-Bros/US-corporation/Warner#® Bros\.#®.z/Warner.Tz/
+|owner-of=Time-Warner|
+;_______________________________________________________________________________
+===software# industry*.z//|manufacturer-of¤computer-program|
+===*Corel.®Éz//
+===*Lotus.®Éz/US-corporation/
+===*Microsoft.®Éz/US-corporation/
+===*MOTU.®Éz/US-corporation/Mark# of#R the#D Unicorn*.®Éz/
+===*Opcode.®Éz/US-corporation/
+===*Quicken.®Éz/US-corporation/
+===*SCO.®Éz/US-corporation/
+===*Softronics-NJ//Softronics.®Éz/Softronics*® of#R New#A Jersey#.z/
+===*Signiform.®Éz//
+;_______________________________________________________________________________
+=-company# structure*.z//
+===cartel.z//cartel.My/
+===conglomerate.z//conglomérat.¹My/
+===government#-owned#V company*.z//state#-owned#V company*.z/
+state#-owned#V firm*.z/government# company*.z/
+government#-owned#V,state#-owned#V.¹Az/state#-run#V.Az/
+public.Az/société* nationale*A.¹Fy/société* nationalisée*A.Fy/
+entreprise* publique*A.Fy/public.Ay/
+===groupe.My//group.z/
+===holding# company*.z//holding.¹My/holding.Fy/
+===multinational.z//multinational#A company*.z/multinational.Az/
+multinationale.¹Fy/société* multinationale*A.¹Fy/multinational.Ay/
+===company-structure-trust//trust.z/trust.My/
+===partenariat.My//alliance.¹z/partnership.z/
+====joint#A venture*.z//joint#ßAj venture*.¹My/joint#ßAj-venture*.My/
+coentreprise.Fy/
+===PME.Fy//petites*A et#K moyennes*A entreprises*.PFïy/
+small#A and#K medium#A enterprises*.Pïz/SME.qz/; < 50 employees
+===privately#B-held#V company*.z//privately#B-owned#Vd company*.z/
+société* privée*A.¹Fy/privé.Ay/
+===publicly#B-held#V company*.z//publicly#B-traded#Vd company*.z/
+public#A company*.z/publicly#B-held#V,publicly#B-traded#V,public.Az/
+société* anonyme*A par#R actions#P.¹Fy/coté* en#R Bourse#NF.Ay/
+;_______________________________________________________________________________
+==Dutch#A company*.z//|incorporated-in=country-NLD|
+;_______________________________________________________________________________
+==Swiss#A company*.z//|incorporated-in=country-CHE|
+;_______________________________________________________________________________
+==French#A company*.z//|official-residence-of=country-FRA|
+;_______________________________________________________________________________
+===regie-d-Etat//régie* d#R'État#M.Fy/
+===regie-communale//régie* communale*A.Fy/
+===regie-simple//régie* simple*A.Fy/régie* directe*A.Fy/
+===regie-interessee//régie* intéressée*A.Fy/
+===SCP.Fy//société* civile*A professionnelle*A.Fy/
+===SCPI.Fy//société* civile*A de#R placement#M immobilier#AM.Fy/
+===societe-civile-immobiliere//société* civile*A immobilière*A.Fy/
+===societe-d-ingenierie//société* d#R'ingénierie#.Fy/
+===societe-de-personnes//société* de#R personnes#P.Fy/
+société* par#R intérêt#M.Fy/
+===societe-de-bourse//société* de#R bourse#.Fy/
+===societe-de-services//société* de#R services#MP.Fy/
+===SAFER.Fy//
+société* d#R'aménagement#M foncier#M et#K d#R'établissement#M rural#AM.Fy/
+;_______________________________________________________________________________
+===societe-d-investissement/mutual-fund/société* d#R'investissement#M.Fy/
+====sicav.ßFy//société* d#R'investissement#M à#R capital#M variable#AM.Fy/
+;_______________________________________________________________________________
+===SARL.Fy//société* à#R responsabilité# limitée#A.Fy/
+French#A limited#A liability# company*.¹z/French#A limited#A company*.z/
+====EURL.Fy//entreprise*A unipersonnelle*A à#R responsabilité# limitée#A.Fy/
+;_______________________________________________________________________________
+===SNC.Fy//société* en#R nom#M collectif#AM.Fy/
+French#A general#A partnership*.¹z/
+;_______________________________________________________________________________
+===SCA.Fy//société* en#R commandite# par#R actions#P.Fy/
+French#A limited#A partnership* with#R shares#P.¹z/
+French#A partnership* limited#A by#R shares#P.z/
+;_______________________________________________________________________________
+===SCS.@Fy//société* en#R commandite# simple#A.¹Fy/
+société* en#R commandite#.Fy/French#A limited#A partnership*.z/
+French#A special#A partnership*.z/
+;_______________________________________________________________________________
+===French-government-owned-company/government-owned-company/
+compagnie* nationale*A.¹Fy/French#A state#-owned#V firm*.z/
+====French-service-public//service* public*A.My/public#A service*.z/
+====*EDF.®y//
+====*GDF.®y//
+;_______________________________________________________________________________
+===French-SA//SA.Fy/société* anonyme*A.Fy/French#A corporation*.¹z/
+===*AGF.®kPïy//
+===*Alsthom.®Éy//Alsthom.®Éz/
+===*AXA.®Éy//AXA.®Éz/
+===*BSN.®Éy//BSN.®Éz/
+===*Caisse-d-epargne//Caisse* d#R'épargne#F.®kFy/Caisse#j d#Rj'épargne*j.®z/
+===*Caisse-des-depots//Caisse* des#RP dépôts#MP.®kFy/
+Caisse#j des#RPj dépôts#Pj.®z/
+===*Casino.®Éy//Casino.®Éz/
+===*centres* Leclerc#CS.®kMPïy//
+===*CGIP.®y//
+===*Credit-agricole//Crédit* agricole*A.®kMy/Crédit# Agricole#Aj.ß®Éz/
+===*Dior.®Éy//Dior.®Éz/
+===*Drouot# Richelieu#.y//
+|phone-number-of=STRING:pstn:"33148002020",STRING:pstn:"33148002017"|
+headquarters-of=Hotel-des-ventes|
+===*Elf#-Aquitaine#.@ß®Éy//Elf#-Aquitaine*.®Éz/
+===*Gallimard.®Éy//Gallimard.®Éz/
+===*groupe* Accor#CS.®kMy//
+===*groupe* Hachette#CS.®kMy//
+===*Havas.®Éy//Havas.®Éz/
+===*Mammouth.®Éy//Mammouth.®Éz/
+===*Paribas.®Éy//Paribas.®Éz/
+===*Pechiney//Péchiney.®Éy/Péchiney.®Éz/
+===*Saint#A Laurent#.®Éy//Saint# Laurent*.®Éz/
+===*Suez.®Éy//
+;_______________________________________________________________________________
+==German#A company*.z//|incorporated-in=country-DEU|
+;_______________________________________________________________________________
+==Italian#A company*.z//|incorporated-in=country-ITA|
+;_______________________________________________________________________________
+==Japanese#A company*.z//|incorporated-in=country-JPN|
+;_______________________________________________________________________________
+==UK#A company*.z//British#A company*.z/|incorporated-in=country-GBR|
+===UK#A limited#A company*.z//limited#A company*.z/
+limited#A liability# company*.z/Ltd\..bAz/Ltd.bAz/Limited.bAz/
+===UK#A public#A limited#A company*.z//public#A limited#A company*.z/plc.bAz/
+PLC.bAz/
+;_______________________________________________________________________________
+==US#A company*.z//|incorporated-in=state-DE-USA|
+;_______________________________________________________________________________
+===US#A sole#A proprietorship*.z//sole#A proprietorship*.z/
+===US#A partnership*.z//partnership.z/association.¹Fy/
+====US#A general#A partnership*.z//general#A partnership*.z/
+====US#A limited#A partnership*.z//limited#A partnership*.z/
+===US#A corporation*.z//corporation.z/Inc\..bAz/Inc.bAz/
+;_______________________________________________________________________________

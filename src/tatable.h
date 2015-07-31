@@ -1,0 +1,21 @@
+/* tatable.c */
+Table *TableCreate(Field *flds, int num_flds);
+void TableFieldFreeContents(Field *fld);
+void TableFreeFields(Field *flds, int num_flds);
+void TablePrintField(FILE *stream, Field *fld, int fieldnum, int num_flds);
+void TablePrint(FILE *stream, Field *flds, int num_flds);
+Bool TA_TableFindFields1(char *in, int tabsize, char **table_end, char **nextp, char *fields);
+Bool TA_TableFindFields(char *in, int tabsize, char **table_end, char **nextp, Field *flds, int *num_flds);
+Obj *TA_TableClassDetermine(ObjList *objs, int *count);
+void TA_TableParseField(char *in, int tabsize, char *table_end, Discourse *dc, Field *fld);
+void TA_TableParseFields(char *in, int tabsize, char *table_end, Field *flds, int num_flds, Discourse *dc);
+Obj *TA_TableRelationsDetermine1(Field *flds, int elem1_i, int elem2_i);
+void TA_TableRelationsDetermine(Field *flds, int num_flds);
+void TA_ObjStringPromote(Obj *rel, Obj *obj, int slotnum);
+void TA_TableLearnRels2(Ts *ts, Obj *rel, Obj *elem1_obj, Obj *elem2_obj, Discourse *dc);
+void TA_TableLearnRels1(Field *fld2, int obji, Obj *rel, Obj *elem1_obj, Discourse *dc);
+void TA_TableLearnRels(Field *fld, int fieldnum, Obj *obj, int obji, Field *flds, int num_flds, Discourse *dc);
+void TA_TableFieldLearn(Field *fld, int fieldnum, Field *flds, int num_flds, Discourse *dc);
+void TA_TableLearn(Field *flds, int num_flds, Discourse *dc);
+Bool TA_TableParse(char *in, int tabsize, Discourse *dc, Channel *ch, char **nextp);
+void TA_TableProc(char *in, Field *flds, int num_flds, int tabsize, Discourse *dc);

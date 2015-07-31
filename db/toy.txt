@@ -1,0 +1,54 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=toy.z/physical-object/jouet.My/|humanmade|
+;_______________________________________________________________________________
+==character# toy*.z//
+===action# figure*.z//
+===doll.z//
+===*Barbie# doll*.z//
+===beanie# baby*.z//
+===cabbage# patch# kid*.z//
+===stuffed#A animal*.z//
+===toy# soldier*.z//
+===virtual#A pet*.z/automaton/
+;_______________________________________________________________________________
+==sports#P toy*.z//
+===kite.z//
+==*Nerf#® toy*.z//
+===toy-ball//ball.z/
+====toy-large-ball//ballon.My/
+====toy-small-ball//balle.Fy/
+=====toy-marble//marble.z/
+===toy-balloon//balloon.z/ballon.My/baudruche.Fy/
+====helium# balloon*.z//|lighter-than-air|
+===toy# car*.z//car.z/
+===*Hot#A Wheels*.Pïz//
+===yo#-yo*.z//yoyo.z/
+;_______________________________________________________________________________
+==building# toy*.z//
+==*Lego.®z//
+;_______________________________________________________________________________
+==mind# toy*.z//
+===puzzle.z//
+;_______________________________________________________________________________
+=physical-object-game/physical-object/game.z/jeu.My/
+;_______________________________________________________________________________
+==board# game*.z//jeu* de#R société#NF.My/
+==*Monopoly-game//Monopoly.®Éz/Monopoly.®My/
+==chess# board*.z//échiquier.My/
+;_______________________________________________________________________________
+==chess# piece*.z//chesspiece.z/piece.qz/pièce* de#R jeu#NM d#R'échecs#NMP.Fy/
+pièce.Fy/
+===chess-king//king.z/roi.My/
+===chess-queen//queen.z/reine.Fy/
+===chess-bishop//bishop.z/fou.My/
+===chess-knight//knight.z/cavalier.My/
+===chess-rook//rook.z/castle.Tz/tour.Fy/
+===chess-pawn//pawn.z/pion.My/
+;_______________________________________________________________________________
+==chess# set*.z//jeu* d#R'échecs#NMP.My/|part-of¤chess-board,chess-king,
+chess-queen,chess-bishop,chess-knight,chess-rook,chess-pawn|
+;_______________________________________________________________________________

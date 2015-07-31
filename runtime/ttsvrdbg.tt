@@ -1,0 +1,11 @@
+;loadbegin
+;loadinf -f db/eninfl.txt
+;loadisa -f db/action.txt
+;loadpolity -f db/geog.txt
+;loadisa -f db/absobj.txt
+;loadisa -f db/attr.txt
+;loadisa -f db/enum.txt
+;loadisa -f db/relation.txt
+;loadend
+dbg -flags sem -level detail
+server

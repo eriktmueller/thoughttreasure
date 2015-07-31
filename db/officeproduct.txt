@@ -1,0 +1,144 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=office# product*.z/physical-object/
+;_______________________________________________________________________________
+==cash# register*.z/small-container/till.gz/caisse* enregistreuse*A.Fy/
+==*Opera-Comique-cash-register//
+==vending# machine*.z//vendor.ÀTz/distributeur* automatique*A.Fy/
+;_______________________________________________________________________________
+==writing# instrument*.z//instrument* d#R'écriture#F.My/
+;_______________________________________________________________________________
+===pen.z//stylo.My/
+====ballpoint# pen*.z//stylo*-bille#F ½.My/
+====*Bic.®z//BiC.®z/
+=====*Bic# round#A stic# medium#A pen*.®z//
+====cane# pen*.z//plume* creuse*A de#R roseau#M.Fy/
+====Egyptian#A reed# pen*.z//calame.My/
+====fountain# pen*.z//stylo*-plume#F ½.My/
+====highlighter# pen*.z//highlighter.z/surligneur.My/
+====refill.z//recharge.Fy/
+====Roman#A metal#A pen*.z//plume* métallique*A romaine*A.Fy/
+====steel#A pen*.z//plume* métallique*A.Fy/
+====ball# bearing*.z//bille.Fy/
+;_______________________________________________________________________________
+===pencil.z//crayon.My/
+====lead# pencil*.z//crayon* en#R plomb#.My/
+====mechanical#A pencil*.z//porte#V-mine#F ½.My/
+====graphite# pencil*.z//
+====*Dixon# Ticonderoga# pencil*.®z//
+=====*Dixon# Ticonderoga# 1388#-1# extra#B-soft#A pencil*.®z//
+;_______________________________________________________________________________
+===ink.z//encre.Fy/
+===marker.z//Magic#A Marker*.®z/marqueur.My/
+===quill.z//plume* d#R'oie#F.Fy/
+===stylus.z//stylet.My/
+===typewriter.z//machine* à#R écrire#V.Fy/
+|part-of¤typewriter-keyboard,typewriter-ribbon|
+===typewriter-keyboard//keyboard.¹z/clavier.My/|part-of¤typewriter-key|
+===typewriter-key//key.¹z/touche.Fy/
+===typewriter-ribbon//ribbon.¹z/
+===writing# brush*.z//pinceau.My/
+;_______________________________________________________________________________
+==stationery.mz//article* de#R bureau#.My/
+===bill#-file*.Àz//spike# file*.gz/pique#V-notes#FP.My/
+===bookend.z//book# end*.z/serre#VS-livres#P.ßMy/
+===dater.z//timbre* dateur*A.My/dateur.My/
+===desk# tray*.z//boîte* à#R courrier#M.Fy/
+===eraser.Àz//rubber.gz/gomme.Fy/
+====stick# eraser*.z//crayon* gomme#F ½.My/
+====eraser# holder*.z//porte#V-gomme#F ½.My/
+===correction# fluid*.z//correcteur* liquide*A.My/
+====Liquid#A Paper*.®z//
+===correction# paper*.z//ruban* correcteur*A.My/
+===clip.z//pince#V-notes#FP.My/
+===physical-file//file.z/classeur.My/
+====expanding#A file*.z//pochette* de#R classement#M.Fy/
+====filing# box*.z//boîte*-classeur#M ½.Fy/
+====rotary# file*.z//fichier* rotatif*A.My/
+====multileaf# file*.z//
+=====Acme# file*.®z//ACME# file*.®z/
+====index# card# drawer*.z//tiroir* de#R fichier#.My/
+====index# card# cabinet*.z//fichier.My/
+====telephone# index*.z//répertoire* téléphonique*A.My/
+===glue.z//colle.Fy/
+====glue# stick*.z//bâtonnet* de#R colle#F.My/
+===label# maker*.z//labeler.z/pince* à#R étiqueter#V.Fy/
+===letter# opener*.z//coupe#V-papier*.My/
+===letter# scale*.z//scale.z/pèse#V-lettres#FP.ßMy/
+===moistener.z//mouilleur.My/
+===numbering# machine*.z//numéroteur.My/
+===paper# clip*.z//trombone.My/
+====colored#A paper# clip*.z//
+===paper# fastener*.z//attache* parisienne*A.Fy/
+===paper# punch*.z//perforatrice.Fy/
+===pencil# sharpener*.z//taille#V-crayon*.My/
+====electric#A pencil# sharpener*.z//
+===rubber#A stamp*.z//timbre* caoutchouc*.My/
+===stamp# pad*.z//tampon* encreur*A.My/
+===stamp# rack*.z//porte#V-timbres#P.ßMy/
+===stapler.z//agrafeuse.Fy/
+===staple# remover*.z//dégrafeuse.Fy/
+===staples.Pïz//agrafes.Pïy/
+===tape# dispenser*.z//dévidoir* de#R ruban# adhésif#A.My/
+===thumb# tack*.z//tack.z/punaise.Fy/
+;_______________________________________________________________________________
+==cardboard.mz/material/carton.My/
+;_______________________________________________________________________________
+==transparency.z//overhead.z/foil.z/slide.z/chart.z/acetate.z/
+viewgraph,vuegraph,vugraph,view# graph*,view#-graph*,vue#-graph*,vu#-graph*.z/
+view# foil*,skin,OHP,OHP# foil*,OHP# transparency*.z/
+;_______________________________________________________________________________
+==paper.mz/material/papier.My/
+===account# book*.z//ledger.z/general#A ledger*.z/
+registre* de#R comptabilité#F.My/
+===binder.z//reliure.Fy/
+====clamp# binder*.z//reliure* à#R pince#.Fy/
+====fastener# binder*.z//reliure* à#R glissière#.Fy/
+====post# binder*.z//reliure* à#R vis#.Fy/
+====ring# binder*.z//classeur.My/reliure* à#R anneaux#MP.çFy/
+====spiral# binding*.z//reliure* spirale*.Fy/
+====spring# binder*.z//reliure* à#R ressort#M.Fy/
+====Velo# binding*.®z//
+===calendar.z//calendrier.My/
+===*Jim-calendar//|owner-of=Jim|
+====appointment# book*.z//calendar# book*.z/list* of#R appointments#P.z/
+agenda.z/agenda.My/; cf "on one's plate"
+====calendar# pad*.z//bloc*-éphéméride#F ½.My/
+====tear#V-off#R calendar*.z//calendrier*-mémorandum*.My/
+===confetti.mz//confettis.MPïy/
+===divider.z//feuillet* intercalaire*A.My/
+===envelope.z//enveloppe.Fy/
+===file# guide*.z//guide* de#R classement#.My/
+===folder.z//chemise.¹Fy/dossier.My/
+====manila# folder*.z//
+====document# folder*.z//pochette* d#R'information#.Fy/
+===hanging# file*.z//dossier* suspendu*A.My/
+===map.z//carte.Fy/plan.My/
+====neighborhood# map*.z//plan* du#R quartier#.My/
+====subway# map*.Àz//underground# map*.gz/carte* de#R réseau#M.Fy/
+===memo# pad*.z//pad,notepad.z/bloc*-notes#FP.My/
+===notebook.z//carnet.My/
+====calepin.My//pocket#A notebook*.z/pocket#-sized#A notebook*.z/
+===paper-menu//menu.z/carte.Fy/
+====daily#A specials*.Pïz//specials.Pïz/plat* du#R jour#M.My/
+====wine# list*.z//carte* des#RP vins#NMP.Fy/
+====chef#'s special*.z//spécialité* du#R chef#M.Fy/
+===paper-bill//bill.z/facture.Fy/
+====restaurant-bill//check.z/addition.Fy/
+===planchette.Fy//board.z/
+====archboard.z//planchette* à#R arches#P.Fy/
+====clipboard.z//planchette* à#R pince#.Fy/
+===paper-page//page.z/page.Fy/
+===paper-sign//sign.z/panneau.My/
+====billboard.z/advertisement/panneau* d#R'affichage#.My/
+====advertising# panel*.z//panneau* publicitaire*A.My/
+===index# card*.z//fiche.Fy/
+====3x5# card*.z//
+===self#B-adhesive#A label*.z//address# label*.z/étiquette* autocollante*A.Fy/
+===sheet* of#R paper#.z//piece* of#R paper#.z/sheet.z/feuille.Fy/
+===tab.z//onglet.My/
+====window# tab*.z//onglet* à#R fenêtre#F.My/
+;_______________________________________________________________________________

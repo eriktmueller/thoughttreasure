@@ -1,0 +1,188 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=media-object-book/media-object-text/book.¹z/work.z/livre.¹My/Óuvre.Fy/
+ouvrage.My/|part-of¤cover,paper-page|
+;_______________________________________________________________________________
+==used#A book*.z//
+==out#A-of#R-print# book*.z//
+;_______________________________________________________________________________
+==literature.mz//littérature.¹Fy/
+;_______________________________________________________________________________
+===religious#A text*.z//
+====Bible.kz//Bible.kFy/
+;_______________________________________________________________________________
+===fiction.mz//fiction.Fy/romans.MPïy/
+littérature* romanesque*A.Fy/
+====fiction-novel//novel.¹z/roman.¹My/
+====*Moby# Dick*.Éz//Moby# Dick# or#K the#D White#A Whale*.Éz/Moby# Dick#.¹Éy/
+Moby#M Dick#M ou#K la#D Baleine#NF blanche#AF.Éy/
+|@1851|create¤Herman-Melville|
+====*Billy# Budd*.Éz//Billy# Budd#.Éy/|@1891|create¤Herman-Melville|
+====novella.z//nouvelle.Fy/
+====media-object-story//story.z/histoire.Fy/
+=====short-story//short#A storyÝstory*.z/story.z/nouvelle.Fy/
+;_______________________________________________________________________________
+==non#B-fiction#N work*.z//non#B-fiction#N.Az/essai.My/
+;_______________________________________________________________________________
+==*Le-Fil-de-l-epee//Le#D Fil#M de#R l#D'épée#F.Éy/|@1932|create¤de-Gaulle|
+==*Vers-l-armee-de-metier//Vers#R l#D'armée#F de#R métier#M.Éy/
+|@1934|create¤de-Gaulle|
+;_______________________________________________________________________________
+==*Minsky-SOM//The#D Society* of#R Mind#.z/SOM.z/|isbn-of="0-671-60740-5"|
+unique-author-of=Marvin-Minsky|topic-of=society-of-mind
+|@1986|publish¤Simon-and-Schuster|
+==*Minsky-SOM-French//La#D société# de#R l#D'esprit#M.Fy/
+|isbn-of="2-7296-0188-0"|
+translation-of¤Minsky-SOM|
+unique-author-of=Marvin-Minsky|topic-of=society-of-mind|
+@1988|publish¤InterEditions|
+==*Kahn-TCPQRNC//Tout#H change#V parce#B que#K rien#H ne#B change#V.y/
+|isbn-of="2-213-02967-9"|unique-author-of=Jean-Francois-Kahn|@1994|
+publish¤Fayard|
+==*Couliano-Eliade-DR//dictionnaire* des#RP religions#FP.My/
+|isbn-of="2-259-02030-5"|
+first-author-of=HUMAN:Ioan Couliano|second-author-of=MALE:Mircea Eliade|
+@1990|publish¤Plon|
+;_______________________________________________________________________________
+===essay.z//essai.My/
+;_______________________________________________________________________________
+===history.z//histoire.Fy/
+;_______________________________________________________________________________
+===technical#A book*.z//
+;_______________________________________________________________________________
+====science#A book*.z//
+====*Barrow-Tipler-ACP//The#D Anthropic#A Cosmological#A Principle*.z/
+|first-author-of=John-Barrow|second-author-of=Frank-Tipler
+|@1986|publish¤Oxford-Press|
+====*Barrow-PITS//Pi# in#R the#D Sky#.z/|unique-author-of=John-Barrow|
+@1992|publish¤Oxford-Press|
+;_______________________________________________________________________________
+====philosophy#A book*.z//
+====*Ayer-LTL//Language#\, Truth# and#K Logic#.z/|unique-author-of=Ayer|
+====*Russell-HWP//A#D History#N of#R Western#A Philosophy#.z/
+|unique-author-of=Bertrand-Russell|
+;_______________________________________________________________________________
+====linguistics#S book*.z//
+====*ter-Meulen-Time//Representing# Time* in#R Natural#A Language*.z/
+====*Lyons-Semantics//Semantics.z/|unique-author-of=John-Lyons|
+topic-of=semantics|@1977|publish¤CUP|
+====*Jackendoff-SIGG//
+Semantic#A Interpretation# in#R Generative#A Grammar#.z/
+|unique-author-of=Jackendoff|topic-of=semantics,generative-grammar|
+@1972|publish¤MIT-Press|
+====*Benveniste-PLG//Problèmes#P de#R linguistique#F générale#AF.My/
+|unique-author-of=Benveniste|
+====*Syntactic#A Structures#P.z//
+|unique-author-of=Noam-Chomsky|topic-of=generative-grammar|@1957|publish¤Mouton|
+====*Structures#FP syntaxiques#FP.y//
+|unique-author-of=Noam-Chomsky|translation-of¤Syntactic-Structures|
+topic-of=generative-grammar|@1969|publish¤Seuil|
+====*Chomsky-Aspects//Aspects.Tz/Aspects#P of#R the#D Theory# of#R Syntax#.z/
+|unique-author-of=Noam-Chomsky|topic-of=generative-grammar|@1965|
+publish¤MIT-Press|
+====*Chomsky-Aspects-French//
+Aspects#MP de#R la#D théorie#F syntaxique#AF.y/Aspects.Ty/
+|unique-author-of=Noam-Chomsky|translation-of¤Chomsky-Aspects|
+topic-of=generative-grammar|@1971|publish¤Seuil|
+====*LGB.tz//Lectures* on#R Government#S and#K Binding#S.Pïz/LGB.ÉMy/
+|unique-author-of=Noam-Chomsky|topic-of=GB|@1981|publish¤MIT-Press|
+====*SCC.tz//SCC.ÉMy/
+Some#D Concepts#P and#K Consequences#P of#R the#D Theory# of#R Government# and#K Binding#.z/
+|unique-author-of=Noam-Chomsky|topic-of=GB|@1982|publish¤MIT-Press|
+====*La#D nouvelle#A syntaxe#.Éy//
+|translation-of¤SCC|unique-author-of=Noam-Chomsky|
+topic-of=GB|unique-translator-of=FEMALE:Lélia Picabia|@198701|publish¤Seuil|
+;_______________________________________________________________________________
+====computer# science# book*.z//
+====*Internet# Business# Book*.kz//|topic-of=Internet|
+first-author-of=FEMALE:Jill H\. Ellsworth|
+second-author-of=MALE:Matthew V\. Ellsworth|
+@1994|publish¤John-Wiley|
+====*Microsoft#® Word#® Guide* de#R l#D'utilisateur#.My//
+|topic-of=Microsoft-Word|@1992|publish¤Microsoft|
+====*Natural#A Language# Processing*.z//|topic-of=NLP-program|
+first-editor-of=MALE:Fernando C\. Pereira|
+second-editor-of=FEMALE:Barbara J. Grosz|
+@1994|publish¤MIT-Press|
+====*Principles#P of#R Artificial#A Intelligence*.z//|topic-of=AI-program|
+unique-author-of=MALE:Nils J\. Nilsson|@1980|publish¤Morgan-Kaufmann|
+====*Strategies#P for#R Natural#A Language# Processing*.z//
+|topic-of=NLP-program|
+first-editor-of=FEMALE:Wendy G. Lehnert|second-editor-of=MALE:Martin H\. Ringle|
+@1982|publish¤LEA|
+====*Thinking# between#R the#D Lines#P.z//|topic-of=AI-program|
+unique-author-of=MALE:Gary C\. Borchardt|@1994|publish¤MIT-Press|
+;_______________________________________________________________________________
+===reference# work*.z//reference.z/reference# book*.z/
+ouvrage* de#R référence#F.¹My/
+;_______________________________________________________________________________
+====encyclopedia.z/ontology/encyclopédie.¹Fy/
+====*Petit*A Robert* 2#A.kMy//
+|@1993|publish¤Dictionnaires-Le-Robert|
+====*World# Almanac# and#K Book# of#R Facts#P 1995#.kz//
+|@1994|publish¤Funk-Wagnalls|
+;_______________________________________________________________________________
+====telephone# book*.z//telephone# directory*.z/annuaire.¹My/
+;_______________________________________________________________________________
+====thesaurus.z/ontology/dictionnaire* analogique*A.¹My/thésaurus.My/
+====*Roget#'s Thesaurus*.z/three-level-semantic-net/Roget#'s.z/
+=====*Roget-1852//Roget#'s Thesaurus# First#A Edition*.z/
+Roget#'s 1852# Thesaurus*.z/Roget#'s Thesaurus# 1852# Edition*.z/
+|unique-author-of=Roget|@1852|publish¤na|
+=====*Roget-1911//Roget#'s Thesaurus# 1911# Edition*.z/
+Roget#'s 1911# Thesaurus*.z/
+|href="ftp://clr.nmsu.edu/CLR/lexica/roget-1911"|
+href="ftp://mrcnext.cso.uiuc.edu/pub/etext/"|
+href="ftp://src.doc.ic.ac.uk/literary/collections/project_gutenberg/"|
+@1911|publish¤na|
+=====*Roget#'s International#A Thesaurus*.z//
+======*Roget-Intl-1992//
+Roget#'s International#A Thesaurus# Fifth#A Edition*.z/
+|unique-editor-of=MALE:Robert L\. Chapman|isbn-of="0-06-270046-4"|
+@1992|publish¤HarperCollins|
+;_______________________________________________________________________________
+====synonym# dictionary*.z/ontology/dictionnaire* des#RP synonymes#P.¹My/
+;_______________________________________________________________________________
+====activator.qz/ontology,three-level-semantic-net/
+====*Longman# Language# Activator*.®z//Language# Activator*.®z/
+|isbn-of="0-582-04093-0"|@1993|publish¤Longman|
+;_______________________________________________________________________________
+====dictionary.z/ontology/dictionnaire.¹My/
+;_______________________________________________________________________________
+=====visual#A dictionary*.z//
+=====*Le#Dj Visuel*.z/three-level-semantic-net/Visuel.kMy/
+|isbn-of="2-7619-1083-4"|@1993|publish¤Editions-Quebec-Amerique|
+;_______________________________________________________________________________
+=====specialty# dictionary*.z//
+=====*Cambridge# Word# Routes#P.z//|topic-of=F122,F121|
+@1994|publish¤CUP|
+=====*Oxford# Dictionary* of#R English#A Christian#A Names#P.kz//
+|topic-of=Anglo-American-male-given-name,Anglo-American-female-given-name|
+edition-of=3u|unique-author-of=HUMAN:E\. G\. Withycombe|
+@1977|publish¤Oxford-Press|
+=====*Tous-les-prenoms//Tous*A les#DP prénoms#MP.y/
+|topic-of=French-male-given-name,French-female-given-name|
+unique-author-of=MALE:Jean-Maurice Barbé|
+@1994|publish¤Editions-Jean-Paul-Gisserot|
+=====*British#A\/American#A Language# Dictionary*.z//|topic-of=F103,F203|
+unique-author-of=MALE:Norman Moss|@1991|publish¤Passport-Books|
+=====*Collection-le-francais-retrouve//
+Collection* le#D français#M retrouvé#A.kFy/
+======*Tresors-des-noms-de-familles//
+Trésors* des#R noms#M de#RS familles#FP.MPïy/|topic-of=French-surname|
+unique-author-of=MALE:Jacques Cellard|@1983|publish¤Belin|
+;_______________________________________________________________________________
+=====bilingual#A dictionary*.z//
+=====*Dictionnaire* Hachette#-Oxford#.kMy//|topic-of=F122,F121|
+@1994|publish¤Oxford-Press,Hachette|
+;_______________________________________________________________________________
+=====monolingual#A dictionary*.z//unilingual#A dictionary*.z/
+=====*Nouveau*A Petit*A Robert* 1#A.kMy/thesaurus/|topic-of=F121|
+@1993|publish¤Dictionnaires-Le-Robert|
+=====*Webster#'s New#A World# Dictionary*.kz//|topic-of=F122|
+======*Webster#'s New#A World# Dictionary# Third#A College# Edition*.kz//
+|edition-of=3u|@1994|publish¤Prentice-Hall|
+;_______________________________________________________________________________

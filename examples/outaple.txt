@@ -1,0 +1,432 @@
+> I have an appointment with Ruth Norville at eleven pm.
+SEMANTIC PARSE CONCEPTS:
+[infinitive
+ @230000tod:230000tod|[appointment
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Ruth Norville"]]
+  na
+  na
+  na]]
+[present-indicative
+ @230000tod:230000tod|[appointment
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Ruth Norville"]]
+  na
+  na
+  na]]
+0.810:[present-indicative
+ @230000tod:230000tod|[cpart-of
+  [indefinite-article
+   [appointment
+    [such-that
+     human
+     [NAME-of human NAME:"Ruth Norville"]]
+    na
+    na
+    na]]
+  subject-pronoun]]
+0.810:[infinitive
+ @230000tod:230000tod|[cpart-of
+  [indefinite-article
+   [appointment
+    [such-that
+     human
+     [NAME-of human NAME:"Ruth Norville"]]
+    na
+    na
+    na]]
+  subject-pronoun]]
+0.729:[infinitive
+ @230000tod:230000tod|[prep-accompaniment-with
+  [cpart-of
+   [indefinite-article
+    [appointment na na na na]]
+   subject-pronoun]
+  [such-that
+   human
+   [NAME-of human NAME:"Ruth Norville"]]]]
+0.729:[present-indicative
+ @230000tod:230000tod|[prep-accompaniment-with
+  [cpart-of
+   [indefinite-article
+    [appointment na na na na]]
+   subject-pronoun]
+  [such-that
+   human
+   [NAME-of human NAME:"Ruth Norville"]]]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ @19960226230000#1:19960226230000#1|[appointment Jim Ruth-Norville na na na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ @19960226230000#1:19960226230000#1|[appointment Jim Ruth-Norville na na na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ @19960226230000#1:19960226230000#1|[cpart-of
+  [appointment
+   [such-that
+    human
+    [NAME-of human NAME:"Ruth Norville"]]
+   na
+   na
+   na]
+  Jim]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ @19960226230000#1:19960226230000#1|[cpart-of
+  [appointment
+   [such-that
+    human
+    [NAME-of human NAME:"Ruth Norville"]]
+   na
+   na
+   na]
+  Jim]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ @19960226230000#1:19960226230000#1|[prep-accompaniment-with
+  [cpart-of
+   [appointment na na na na]
+   Jim]
+  Ruth-Norville]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ @19960226230000#1:19960226230000#1|[prep-accompaniment-with
+  [cpart-of
+   [appointment na na na na]
+   Jim]
+  Ruth-Norville]]
+UNDERSTANDING TREE:
+[Z
+ [Z
+  [X [H <I.1SHz¸:he>]]
+  [W
+   [W
+    [W [V <have.fVz¸>]]
+    [0 <an appointment.0z>]]
+   [Y
+    [R <with.Rz¸>]
+    [X [NAME Ruth Norville]]]]]
+ [TSRANGE @230000tod:230000tod]]
+UNDERSTANDING CONCEPT:
+@na:na#12|[infinitive
+ @19960226230000#-805306367:19960226230000#-805306367|[appointment Jim Ruth-Norville na na na]]
+Where?
+> What?
+SEMANTIC PARSE CONCEPTS:
+[interjection-of-noncomprehension Jim TT]
+ANAPHORIC PARSE CONCEPT:
+[interjection-of-noncomprehension Jim TT]
+UNDERSTANDING TREE:
+[Z [U <What.·Uz¸:what>]]
+UNDERSTANDING CONCEPT:
+@na:na#121|[interjection-of-noncomprehension Jim TT]
+You have an appointment with her where in one hour?
+> The Four Seasons.
+SEMANTIC PARSE CONCEPTS:
+Four-Seasons
+ANAPHORIC PARSE CONCEPT:
+Four-Seasons
+UNDERSTANDING TREE:
+[X
+ [D <The.Dz¸:the>]
+ [X [N <Four Seasons.Nz>]]]
+UNDERSTANDING CONCEPT:
+@na:na#1211|[appointment Jim Ruth-Norville Four-Seasons na @19960226230000:19960226230000#-1744830452]
+> Display my calendar.
+SEMANTIC PARSE CONCEPTS:
+[program-output
+ TT
+ [possessive-determiner calendar]]
+[program-output
+ na
+ [possessive-determiner calendar]]
+ANAPHORIC PARSE CONCEPT:
+[program-output
+ TT
+ [such-that
+  calendar
+  [of calendar Jim]]]
+ANAPHORIC PARSE CONCEPT:
+[program-output TT Jim-calendar]
+ANAPHORIC PARSE CONCEPT:
+[program-output
+ na
+ [such-that
+  calendar
+  [of calendar Jim]]]
+ANAPHORIC PARSE CONCEPT:
+[program-output na Jim-calendar]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W [V <Display.fVz:display>]]
+  [X
+   [D <my.1S·Dz¸:his>]
+   [X [N <calendar.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1610624850|[program-output TT Jim-calendar]
+You have an appointment with Ruth Norville at the Four Seasons in one hour.
+> I have an appointment with Amy Newton on March 21, 1996 at eight pm.
+SEMANTIC PARSE CONCEPTS:
+[infinitive
+ @19960321200000:na|[appointment
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Amy Newton"]]
+  na
+  na
+  na]]
+[present-indicative
+ @19960321200000:na|[appointment
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Amy Newton"]]
+  na
+  na
+  na]]
+0.810:[present-indicative
+ @19960321200000:na|[cpart-of
+  [indefinite-article
+   [appointment
+    [such-that
+     human
+     [NAME-of human NAME:"Amy Newton"]]
+    na
+    na
+    na]]
+  subject-pronoun]]
+0.810:[infinitive
+ @19960321200000:na|[cpart-of
+  [indefinite-article
+   [appointment
+    [such-that
+     human
+     [NAME-of human NAME:"Amy Newton"]]
+    na
+    na
+    na]]
+  subject-pronoun]]
+0.729:[infinitive
+ @19960321200000:na|[prep-accompaniment-with
+  [cpart-of
+   [indefinite-article
+    [appointment na na na na]]
+   subject-pronoun]
+  [such-that
+   human
+   [NAME-of human NAME:"Amy Newton"]]]]
+0.729:[present-indicative
+ @19960321200000:na|[prep-accompaniment-with
+  [cpart-of
+   [indefinite-article
+    [appointment na na na na]]
+   subject-pronoun]
+  [such-that
+   human
+   [NAME-of human NAME:"Amy Newton"]]]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ @19960321200000:na|[appointment Jim Amy-Newton na na na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ @19960321200000:na|[appointment Jim Amy-Newton na na na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ @19960321200000:na|[cpart-of
+  [appointment
+   [such-that
+    human
+    [NAME-of human NAME:"Amy Newton"]]
+   na
+   na
+   na]
+  Jim]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ @19960321200000:na|[cpart-of
+  [appointment
+   [such-that
+    human
+    [NAME-of human NAME:"Amy Newton"]]
+   na
+   na
+   na]
+  Jim]]
+ANAPHORIC PARSE CONCEPT:
+[infinitive
+ @19960321200000:na|[prep-accompaniment-with
+  [cpart-of
+   [appointment na na na na]
+   Jim]
+  Amy-Newton]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ @19960321200000:na|[prep-accompaniment-with
+  [cpart-of
+   [appointment na na na na]
+   Jim]
+  Amy-Newton]]
+UNDERSTANDING TREE:
+[Z
+ [Z
+  [X [H <I.1SHz¸:he>]]
+  [W
+   [W
+    [W [V <have.p1SVz¸>]]
+    [0 <an appointment.0z>]]
+   [Y
+    [R <with.Rz¸>]
+    [X [NAME Amy Newton]]]]]
+ [TSRANGE @19960321200000:na]]
+UNDERSTANDING CONCEPT:
+@na:na#121134|[present-indicative
+ @19960321200000:na|[appointment Jim Amy-Newton na na na]]
+Where?
+> List my appointments.
+SEMANTIC PARSE CONCEPTS:
+0.810:[program-output
+ TT
+ [possessive-determiner
+  [appointment na na na na]]]
+0.810:[program-output
+ na
+ [possessive-determiner
+  [appointment na na na na]]]
+ANAPHORIC PARSE CONCEPT:
+[program-output
+ TT
+ [appointment Jim na na na]]
+ANAPHORIC PARSE CONCEPT:
+[program-output
+ na
+ [appointment Jim na na na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W [V <List.fVz:list>]]
+  [X
+   [D <my.1S·Dz¸:his>]
+   [X [N <appointments.PNz:appointment>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-2146272306|[program-output
+ TT
+ [appointment Jim na na na]]
+You have an appointment with Ruth Norville at the Four Seasons in one hour. You
+have an appointment with Amy Newton on Thursday March 21, 1996 at eight pm.
+> I canceled the appointment with Amy.
+SEMANTIC PARSE CONCEPTS:
+[past-participle
+ [cancel-appointment
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Amy."]]
+  na
+  na
+  na]]
+[preterit-indicative
+ [cancel-appointment
+  subject-pronoun
+  [such-that
+   human
+   [NAME-of human NAME:"Amy."]]
+  na
+  na
+  na]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [cancel-appointment Jim Amy-Newton na na na]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [cancel-appointment Jim Amy-Newton na na na]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <I.1SHz¸:he>]]
+ [W
+  [W
+   [W [V <canceled.dÀVz:cancel>]]
+   [0 <the appointment.0z>]]
+  [Y
+   [R <with.Rz¸>]
+   [X [NAME Amy.]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12113412|[past-participle
+ [cancel-appointment Jim Amy-Newton na na na]]
+> List my appointments.
+SEMANTIC PARSE CONCEPTS:
+0.810:[program-output
+ TT
+ [possessive-determiner
+  [appointment na na na na]]]
+0.810:[program-output
+ na
+ [possessive-determiner
+  [appointment na na na na]]]
+ANAPHORIC PARSE CONCEPT:
+[program-output
+ TT
+ [appointment Jim na na na]]
+ANAPHORIC PARSE CONCEPT:
+[program-output
+ na
+ [appointment Jim na na na]]
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W [V <List.fVz:list>]]
+  [X
+   [D <my.1S·Dz¸:his>]
+   [X [N <appointments.PNz:appointment>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1070048214|[program-output
+ TT
+ [appointment Jim na na na]]
+You have an appointment with Ruth Norville at the Four Seasons in one hour.
+> Amy is mad at me.
+SEMANTIC PARSE CONCEPTS:
+0.750:[present-indicative
+ [anger
+  [such-that
+   human
+   [NAME-of human NAME:"Amy"]]
+  disjunctive-pronoun
+  na]]
+0.750:[present-indicative
+ [anger
+  [such-that
+   human
+   [NAME-of human NAME:"Amy"]]
+  indirect-object-pronoun
+  na]]
+0.750:[present-indicative
+ [anger
+  [such-that
+   human
+   [NAME-of human NAME:"Amy"]]
+  direct-object-pronoun
+  na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [anger Amy-Newton Jim na]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Amy]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [E
+   [E [A <mad.Az¸>]]
+   [Y
+    [R <at.Rz¸>]
+    [X [H <me.1S·Hz¸:him>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1211341212|[present-indicative
+ [anger Amy-Newton Jim na]]
+Right, you cancel the appointment with her and she will fail at having an
+appointment with you on Thursday March 21, 1996 at eight pm.

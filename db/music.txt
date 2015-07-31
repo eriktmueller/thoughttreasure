@@ -1,0 +1,455 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=music.mz/sound/musique.m¹Fy/
+;_______________________________________________________________________________
+=-music-type-of-movement//movement.z/mouvement.My/
+===overture.z//ouverture.Fy/
+===prelude.z//prélude.My/
+===first#A movement*.z//premier*A mouvement*.My/
+===*Beethoven-S1M1//first#A movement* of#R Beethoven#'s First#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S2M1//first#A movement* of#R Beethoven#'s Second#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S3M1//first#A movement* of#R Beethoven#'s Third#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S4M1//first#A movement* of#R Beethoven#'s Fourth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S5M1//first#A movement* of#R Beethoven#'s Fifth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S6M1//first#A movement* of#R Beethoven#'s Sixth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S7M1//first#A movement* of#R Beethoven#'s Seventh#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S8M1//first#A movement* of#R Beethoven#'s Eighth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S9M1//first#A movement* of#R Beethoven#'s Ninth#A Symphony#.z/
+|create¤Beethoven|
+===second#A movement*.z//deuxième*A mouvement*.My/
+===*Beethoven-S1M2//second#A movement* of#R Beethoven#'s First#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S2M2//second#A movement* of#R Beethoven#'s Second#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S3M2//second#A movement* of#R Beethoven#'s Third#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S4M2//second#A movement* of#R Beethoven#'s Fourth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S5M2//second#A movement* of#R Beethoven#'s Fifth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S6M2//second#A movement* of#R Beethoven#'s Sixth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S7M2//second#A movement* of#R Beethoven#'s Seventh#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S8M2//second#A movement* of#R Beethoven#'s Eighth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S9M2//second#A movement* of#R Beethoven#'s Ninth#A Symphony#.z/
+|create¤Beethoven|
+===third#A movement*.z//troisième*A mouvement*.My/
+===*Beethoven-S1M3/minuet/
+third#A movement* of#R Beethoven#'s First#A Symphony#.z/|create¤Beethoven|
+===*Beethoven-S2M3/minuet/
+third#A movement* of#R Beethoven#'s Second#A Symphony#.z/|create¤Beethoven|
+===*Beethoven-S3M3/minuet/
+third#A movement* of#R Beethoven#'s Third#A Symphony#.z/|create¤Beethoven|
+===*Beethoven-S4M3/minuet/
+third#A movement* of#R Beethoven#'s Fourth#A Symphony#.z/|create¤Beethoven|
+===*Beethoven-S5M3/minuet/
+third#A movement* of#R Beethoven#'s Fifth#A Symphony#.z/|create¤Beethoven|
+===*Beethoven-S6M3//third#A movement* of#R Beethoven#'s Sixth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S7M3//third#A movement* of#R Beethoven#'s Seventh#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S8M3/minuet/
+third#A movement* of#R Beethoven#'s Eighth#A Symphony#.z/|create¤Beethoven|
+===*Beethoven-S9M3//third#A movement* of#R Beethoven#'s Ninth#A Symphony#.z/
+|create¤Beethoven|
+===fourth#A movement*.z//quatrième*A mouvement*.My/
+===*Beethoven-S1M4//fourth#A movement* of#R Beethoven#'s First#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S2M4//fourth#A movement* of#R Beethoven#'s Second#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S3M4//fourth#A movement* of#R Beethoven#'s Third#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S4M4//fourth#A movement* of#R Beethoven#'s Fourth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S5M4//fourth#A movement* of#R Beethoven#'s Fifth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S6M4//fourth#A movement* of#R Beethoven#'s Sixth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S7M4//fourth#A movement* of#R Beethoven#'s Seventh#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S8M4//fourth#A movement* of#R Beethoven#'s Eighth#A Symphony#.z/
+|create¤Beethoven|
+===*Beethoven-S9M4//fourth#A movement* of#R Beethoven#'s Ninth#A Symphony#.z/
+|create¤Beethoven|
+===fast#A movement*.z//
+===slow#A movement*.z//
+;_______________________________________________________________________________
+=-music-form//form.z/structure.z/forme,structure.Fy/
+;_______________________________________________________________________________
+; todo: Need a better way of representing sequences.
+==-music-form-of-piece//work.z/piece.z/morceau.My/pièce.Fy/
+====nocturne.z//nocturne.My/
+====music-form-prelude//prelude.z/prélude.My/
+====sonata.z//sonata# form*.z/multi#A-movement# sonata*.z/
+multimovement#A sonata*.z/sonate.Fy/
+=====violin# sonata*.z//sonate* pour#R violon#M.Fy/
+=====concerto.z//concerto.My/
+======piano# concerto*.z//concerto* pour#R piano#.My/
+======violin# concerto*.z//concerto* pour#R violon#.My/
+=====concerto# grosso*.z//
+=====symphony.z//symphonie.Fy/
+======symphonie#j concertante*j.zj//sinfonia#j concertante*j.zj/
+=====*Beethoven#'s First#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S1M1,Beethoven-S1M2,Beethoven-S1M3,Beethoven-S1M4|
+=====*Beethoven#'s Second#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S2M1,Beethoven-S2M2,Beethoven-S2M3,Beethoven-S2M4|
+=====*Beethoven#'s Third#A Symphony#.z/classic-music/Eroica# Symphony*.z/
+|create¤Beethoven|
+part-of¤Beethoven-S3M1,Beethoven-S3M2,Beethoven-S3M3,Beethoven-S3M4|
+=====*Beethoven#'s Fourth#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S4M1,Beethoven-S4M2,Beethoven-S4M3,Beethoven-S4M4|
+=====*Beethoven#'s Fifth#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S5M1,Beethoven-S5M2,Beethoven-S5M3,Beethoven-S5M4|
+=====*Beethoven#'s Sixth#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S6M1,Beethoven-S6M2,Beethoven-S6M3,Beethoven-S6M4|
+=====*Beethoven#'s Seventh#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S7M1,Beethoven-S7M2,Beethoven-S7M3,Beethoven-S7M4|
+=====*Beethoven#'s Eighth#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S8M1,Beethoven-S8M2,Beethoven-S8M3,Beethoven-S8M4|
+=====*Beethoven#'s Ninth#A Symphony#.z/classic-music/|create¤Beethoven|
+part-of¤Beethoven-S9M1,Beethoven-S9M2,Beethoven-S9M3,Beethoven-S9M4|
+=====unaccompanied.Az//
+======for#R solo#A piano#.Az//pour#R piano#NM solo#AM.Ay/
+======for#R solo#A voice#.Az//pour#R voix#NF seule#AF.Ay/
+======for#R unaccompanied#A flute#.Az//
+pour#R flûte#NF sans#R accompagnement#NM.Ay/
+=====duo.z//duet.z/duo.My/
+======guitar# duet*.z//duo* pour#R guitare#F.My/
+======piano# duet*.z//duo* pour#R piano#.My/
+=====trio.z//trio.My/
+=====quartet.z//quatuor.My/
+======string# quartet*.z//quatuor* à#R cordes#FP.My/
+=====quintet.z//quintette.My/
+=====sextet.z//sextuor.My/
+====song.z//tune.z/chanson.¹Fy/
+=====lovesong.z//love# song*.z/chanson* d#R'amour#M.@Fy/
+=====jazz# song# performance*.z//cut.Tz/morceau.My/|part-of¤head,solo|
+=====national#A song*.z//national#A anthem*.z/hymne* national*A.My/
+====partita.z//partita.Fy/
+====suite.z//suite.Fy/
+=====baroque#A suite*.z//|part-of¤allemande,courante,sarabande,gigue|
+=====later#B suite*.z//
+=====*Nutcracker# suite*.z//|create¤Tchaikovsky|
+=====variation# suite*.z//
+====tone# poem*.z/program-music/poème* symphonique*A.My/
+;_______________________________________________________________________________
+==-music-form-of-movement//
+====accumulative#A form*.z//ABCDEF# form*.z/
+====movement-air//air.z/air.My/
+====aria.z//aria.Fy/
+====arietta.z//ariette.z/ariette.Fy/
+====binary# form*.z//two#A-part# form*.z/AB# form*.z/structure* binaire*A.Fy/
+|part-of¤enlarged-period,codetta|
+====incipient#A binary# form*.z//
+====incipient#A ternary# form*.z//rounded#A binary#A form*.z/
+====fugue.z//fugue.Fy/|part-of¤stretto|
+=====double#A fugue*.z//
+====music-invention//invention.z/
+====canon.z//canon.My/
+=====double#A canon*.z//
+=====canon* in#R augmentation#.z//
+=====canon* in#R diminution#.z//
+=====mirror# canon*.z//
+=====enigma# canon*.z//riddle# canon*.z/puzzle# canon*.z/
+=====retrograde# canon*.z//crab# canon*.z/canon* cancrizans#Aj.z/
+=====free#A canon*.z//
+======rhythmically#B free#A canon*.z//
+======intervallically#B free#A canon*.z//rhythmic#A canon*.z/
+=====infinite#A canon*.z//round.z/
+======spiral# canon*.z//
+=====*Row#V Row#V Row#V Your#D Boat*.z//
+====ostinato.z//
+=====chaconne.z//
+=====passacaglia.z//
+====scherzo.z//scherzo.My/
+====sequential#A form*.z//ABACA# form*.z/
+=====rondo.z//rondeau.z/rondo.My/
+====single#A-movement# sonata# form*.z//sonata# allegro*.z/
+sonata# allegro# form*.z/sonata#-allegro# form*.z/sonata.z/sonata# form*.z/
+first#A-movement# form*.z/forme* sonate#.Fy/
+|part-of¤exposition,music-development,recapitulation|
+====sonatina.z//sonatina# form*.z/sonatine.Fy/
+====sonata#-rondo*.z//
+====ternary# form*.z//three#A-part# form*.z/ABA# form*.z/
+structure* ternaire*A.Fy/
+=====simple#A ternary# form*.z//
+=====compound#A ternary# form*.z//
+====variations.Pïz//theme* and#K variations#P.z/theme* with#R variations#P.z/
+variation.Fy/thème* et#K variations#FP.@My/
+=====ground# bass*.z//
+=====strophic# song*.z//
+====verse#-bridge# structure*.z//verse#-bridge# form*.z/AABA# form*.z/
+|part-of¤verse,music-bridge|
+====*Just-the-Way-You-Are/song,rock-music/
+Just#B the#D Way#N YouÝhe#HP Are#VP.Éz/|create¤Billy-Joel|
+====*Yesterday.Éz/song,rock-music/|create¤John-Lennon,Paul-McCartney|
+====verse#-chorus# structure*.z//verse#-chorus# form*.z/
+====*I-Never-Promised-You-a-Rose-Garden/song,popular-music/
+I#H Never#B Promised#V YouÝhim#H a#D Rose# Garden#.Éz/|create¤Joe-South|
+====*I#H Write#V the#D Songs#P.Éz/song,popular-music/|create¤Bruce-Johnson|
+====*Margaritaville.z/song,popular-music/|create¤Jimmy-Buffett|
+=====verse#-chorus# structure* with#R bridge#.z//
+verse#-chorus# form* with#R bridge#.z/
+ABABCB# form*.z/|part-of¤verse,chorus,music-bridge|
+=====verse#-chorus# structure* without#R bridge#.z//
+verse#-chorus# form* without#R bridge#.z/ABAB# form*.z/|part-of¤verse,chorus|
+;_______________________________________________________________________________
+==-music-part-of-movement//
+====music-bridge//bridge.z/couplet.My/
+=====middle# 8*.z//middle# eight*.z/
+====cadenza.z//cadence.Fy/
+====chorus.z//refrain.z/refrain.My/chorus.qMy/
+====coda.z//coda.Fy/
+====codetta.z//
+====exposition.z//exposition.Fy/
+====music-development//development.z/développement.My/
+====music-head//head.z/
+====introduction.z//intro.Tz/prologue.My/intro.TFy/
+====outroduction.z//outro.Tz/
+====recapitulation.z//récapitulation.Fy/
+====ritornello.z//
+====solo.z//improv.z/improvisation.z/ad#-lib*.z/solo.My/improvisation.Fy/
+=====drum# solo*.z//
+=====piano# solo*.z//
+=====sax# solo*.z//
+=====bass* solo*.z//
+=====trumpet* solo*.z//solo* de#R trompette#F.My/
+====stretto.z//
+====verse.z//couplet.My/
+=====first#A verse*.z//
+=====second#A verse*.z//
+=====third#A verse*.z//
+=====fourth#A verse*.z//
+;_______________________________________________________________________________
+==-music-form-of-part//fragment.z/musical#A fragment*.z/
+====cadence.z//cadence.Fy/
+=====authentic#A cadence*.z//
+======perfect#A authentic#A cadence*.z//P\.A\.C\..tz/
+======imperfect#A authentic#A cadence*.z//I\.A\.C\..tz/
+=====avoided#A cadence*.z//
+=====deceptive#A cadence*.z//
+=====elided#A cadence*.z//
+=====half#A-cadence*.z//H\.C\..tz/
+=====plagal#A cadence*.z//
+====fugato.z//
+====fughetta.z//
+====musical#A figure*.qz//figure.¹z/
+=====episodic#A figure*.z//
+====musical#A theme*.qz//theme.¹z/
+=====principal#A theme*.z//principal#A subject*.z/
+=====subordinate#A theme*.z//subordinate#A subject*.z/
+====musical#A motive*.qz//motive.¹z/motif.z/cell.z/cellule.Fy/motif.My/
+====musical#A phrase*.qz//phrase.¹z/|part-of¤musical-motive,cadence|
+=====antecedent#A phrase*.z//antecedent.z/
+=====consequent#A phrase*.z//consequent.z/
+====musical#A period*.qz//period.¹z/
+|part-of¤antecedent-phrase,consequent-phrase|
+=====enlarged#A period*.z//
+====double#A period*.z//
+====phrase# group*.z//group* of#R phrases#P.z/|part-of¤musical-phrase|
+====music-subject//subject.z/
+====music-answer//answer.z/
+;_______________________________________________________________________________
+=-musical transformation//
+===cancrizans.z//
+===imitation.z//
+===inversion.z//
+===modulation.z//
+;_______________________________________________________________________________
+=-music-function//
+===absolute# music*.mz//
+===program-music//programÝprogramme# music*.mz/
+;_______________________________________________________________________________
+=-music-situation//
+===background# music*.mz//musique* de#R fond#M.mFy/
+====elevator# music*.mz//Muzak.m®z/piped#A music*.mz/
+musique* d#R'ambiance#.mFy/
+musique* d#R'ambiance# enregistrée*A.mFy/
+===ball# music*.mz//musique* de#R bal#M.mFy/
+===ballet# music*.mz//musique* de#R ballet#M.mFy/
+===beach# music*.mz//
+===circus# music*.mz//musique* de#R cirque#M.mFy/
+===dance# music*.mz//musique* de#R danse#.mFy/
+===ensemble# music*.mz//
+===fair# music*.mz//musique* de#R foire#.mFy/
+===film# music*.mz//musique* de#R film#M.mFy/
+===military#A music*.mz//martial#A music*.mz/musique* militaire*A.mFy/
+===religious#A music*.mz//
+====cathedral# music*.mz//
+====church# music*.mz//
+====sacred#A music*.mz//musique* sacrée*A,musique* spirituelle*A.mFy/
+===theater# music*.mz//musique* de#R théâtre#M.mFy/musique* de#R scène#.mFy/
+;_______________________________________________________________________________
+=-music-source//
+===acoustic#A music*.mz//musique* acoustique*A.mFy/
+===electroacoustic#A music*.mz//musique* éléctroacoustique*A.mFy/
+===electronic#A music*.mz//synthesized#A music*.mz/musique* éléctronique*A.mFy/
+;_______________________________________________________________________________
+=-music-instrumentation//
+===instrumental# music*.mz//musique* instrumentale*A.mFy/
+====chamber# music*.mz//musique* de#R chambre#.mFy/
+====orchestral#A music*.mz//symphonic#A music*.mz/musique* d#R'orchestre#M.mFy/
+musique* orchestrale*A.mFy/musique* symphonique*A.mFy/
+====piano# music*.mz//musique* pour#R piano#M.mFy/
+====wind# music*.mz//
+===vocal# music*.mz//musique* vocale*A.mFy/
+;_______________________________________________________________________________
+=-music-tonality//
+===atonal#A music*.mz//atonalism,atonality.mz/atonal.Az/musique* atonale*A.mFy/
+atonal.Ay/atonalité.mFy/
+===tonal#A music*.mz//tonal.Az/musique* tonale*A.mFy/tonal.Ay/
+====modal#A music*.mz//modal.Az/musique* modale*A.mFy/modal.Ay/
+===polytonal#A music*.mz//polytonal.Az/musique* polytonale*A.mFy/polytonal.Ay/
+;_______________________________________________________________________________
+=-music-phony//; todo
+===polyphonic.Az//polyphony.Îz/polyphonie.ÎFy/
+===homophonic.Az//homophony.Îz/homophonic.z/homophonie.ÎFy/
+;_______________________________________________________________________________
+=-music-style//
+;_______________________________________________________________________________
+===classical#A music*.mz//art# music*,serious# music*.mz/classical.Az/
+musique* classique*A.mFy/classique.Ay/grande* musique*.¹TFy/
+====early#A music*.mz//musique* ancienne*A.mFy/
+=====Gregorian#A chant*.z//plain#A-song*.z/chant* grégorien*A.My/grégorien.My/
+plain*A-chant*.My/
+====baroque.qz/tonal-music/baroque#A music*.¹mz/baroque.Az/
+musique* baroque*A.mFy/baroque.mMy/baroque.Ay/
+====rococo# music*.mz/tonal-music/
+====classic# music*.mz/tonal-music/classic.Az/classical#A music*.mz/
+classical.Az/musique* classique*A.mFy/classique.Ay/
+====semiclassical#A music*.mz/tonal-music/
+====romantic# music*.mz/tonal-music/romanticism.mz/romantic.Az/romantisme.mMy/
+====aleatory#A music*.mz/atonal-music/aleatoric#A music*.mz/
+====serialism.mz/atonal-music/twelve#A-tone# music*.mz/serial.Az/sérialisme.mMy/
+sériel.Ay/musique* sérielle*A.mFy/musique* dodécaphonique*A.mFy/
+dodécaphonique.Ay/
+====musique-concrete//musique# concrète*.mz/musique* concrète*A.mFy/
+====through#R-composed#A music*.mz//through#R-composition*.Îmz/
+====contemporary#A music*.mz//modern#A music*.mz/musique* contemporaine*A.mFy/
+=====experimental#A music*.mz//avant#Rj-garde#j music*.mz/
+musique* expérimentale*A.mFy/musique* d#R'avant#R-garde#M.mFy/
+=====minimalist#A music*.mz/tonal-music/minimalism.mz/minimalist.Az/
+minimalisme.mMy/minimaliste.Ay/
+=====spectral#A music*.mz//musique* spectrale*A.mFy/
+;_______________________________________________________________________________
+===popular#A music*.mz/tonal-music/pop.mz/pop# music*.mz/
+musique* populaire*A.m¹Fy/pop.Az/pop.mFy/pop*ßA music*j.mFy/
+musique* légère*A.mFy/pop.ßAy/
+;_______________________________________________________________________________
+====Afro#A-beat*.mz//
+====bluegrass.mz//blue#A grass*.mMy/
+====country# music*.mz//country.mz/country.mFy/country.mßMy/
+country*ßA music*j.mFy/country.ßAy/de#R country#NM,de#R country#A music#NFj.Ay/
+====country# and#K western*.mz//country# and#K western# music*.mz/
+country# and#K western*.Az/musique* country#NF et#K western#NM.mFy/
+de#R musique#NF country#NF et#K western#NM.Ay/
+====easy#A listening# music*.mz//easy#A listening*.mz/musique* légère*A.mFy/
+====funk.mz//funk.mMy/
+====funky.mMy//funky.ßAy/funk.mz/
+====gospel# music*.mz/religious-music/gospel.mz/
+====hillbilly# music*.mz//
+====inspirational#A music*.mz/religious-music/
+====Motown.m®z//Motown.m®Az/Motown.m®My/Motown.m®ßAy/
+====New#A Age# music*.mz//New#A Age*.mz/New#A Age#N.Az/New#Aj Age*j.mMy/
+New#Aj Age#NMj.Ay/
+=====ambient.z//ambient.¹Fy/
+====rai//raï.mMy/
+=====rai-traditionnel//raï* traditionnel*A.mMy/
+=====pop-rai//pop*A raï*.mMy/pop#F ½-raï*.mMy/
+====ragtime.mz//ragtime#A music*.mz/ragtime.Az/ragtime.mMy/
+====reggae.mz//reggae.mMy/
+=====Jamaican#A instrumental#A dub# music*.z//instrumental#A dub*.z/dub.z/
+dub# music*.z/
+====rhythm-and-blues//rhythm# and#K bluesÝblues#NP.mz/
+rhythm* and#Kj bluesÝblues*.mMy/R# and#K B*.mz/
+====salsa.mz//salsa.mFy/
+====ska.mz//ska.mMy/
+====soul.mz//soul# music*.mz/soul.mMy/musique* soul#M ½.mFy/
+====zouk.mz//zouk.mMy/
+====zydeco.mz//
+;_______________________________________________________________________________
+====jazz.mz//jazz,jazzy.Ay/jazz#A music*.mz/jazz.mMy/de#R jazz#NM.Ay/jazzy.ßAy/
+=====bebop.mz//bop.mz/be#ßAj-bop*,bebop,bop.mMy/
+======hard#A bop*.mz//hard#®Aj bop*.mMy/
+=====big#A band# music*.mz//big#A band*.m¹z/big#ßAj band*.mMy/
+=====cool#A jazz*.mz//jazz* cool*ßA.mMy/
+=====hot#A jazz*.mz//hot.ßAy/style* hot*A.mMy/jazz* hot*A.mMy/hot.mMy/
+=====free#A jazz*.mz//free*ßAj jazz*.mMy/
+=====fusion.mz//jazz#-rock*,jazz# rock*.mz/fusion.mFz/jazz* rock*.mMy/
+=====harmolodics.Pïz//harmolodic# jazz*.mz/harmolodic.Az/
+=====loft# jazz*.mz//
+=====straight#B-ahead#B jazz*.mz//
+=====swing#A music*.mz//swing.mz/swing.Az/swing.mMy/
+=====thirdstream# music*.mz//third#A stream*.mz/third#A stream# music*.mz/
+third#-stream#.Az/
+=====blues//bluesÝblues.mz/bluesÝblues# music*.mz/blues.mMy/
+======blues-in-F//bluesÝblues* in#R F#.mz/
+======Delta-blues//Delta# bluesÝblues*.mz/
+======minor-blues//minor#A bluesÝblues*.mz/
+======slow-blues//slow#A bluesÝblues*.mz/blues* lent*A.mMy/
+======boogie#-woogie*.mz//blues* rapide*A.mMy/boogie#-woogie*.mMy/
+;_______________________________________________________________________________
+====modern#A folk# music*.mz//folk.m¹z/folk# music*.mqz/folk.Az/
+folk* moderne*A.@¹mMy/folk.mMy/folk.ßAy/de#R musique#NF folk#A.Ay/
+;_______________________________________________________________________________
+====traditional#A folk# music*.mz//folk# music*.m¹z/folk.mz/folk.mMy/
+folklorique.Ay/
+;_______________________________________________________________________________
+====rock# music*.mz//rock.m¹z/rock.Az/rock.mMy/rock,du#R rock#NM.Ay/
+=====AOR.mz//adult#-oriented#A rock*.mz/
+=====art# rock*.mz//
+=====music-disco//disco.mz/disco.mMy/
+=====folk# rock*.mz/modern-folk-music/folk*-rock*.mMy/
+=====glitter# rock*.mz//deca#-rock*.mz/
+=====hard# rock*.mz//hard* rock*.mMy/hard.mMy/
+=====heavy# metal*.mz//heavy# rock*.mqz/hard* rock*.mMy/
+======proto# heavy# metal*.mz//
+=====hip#-hop*.mz//hip# hop*.mz/hip#j hop*.mMy/
+======trip#-hop*.mz//abstract#A hip#-hop*.mz/trip#j-hop*.mMy/
+abstract#Aj hip#j-hop*.mMy/
+=====house# music*.mqz//house.¹mz/House.mz/house.¹mFyj/house#j music*j.mFy/
+======acid# house*.mz//
+======ragga#-rave*.mz//
+======rare#A groove*.mz//
+=====jungle# music*.mz//jungle.¹mz/
+=====Latin#A rock*.mz//
+=====new#A wave# music*.mz//new# wave*.m¹z/nouvelle*A vague*.mFy/
+nouvelle#AF vague#NF.ßAy/
+=====political#A rock*.mz//
+=====pop#-rock*.mz//
+=====progressive#A rock*.mz//prog#A rock*.mz/rock* progressiste*A.mMy/
+=====music-alternative//alternative.mz/alternative# rock*.mz/
+=====music-glam//glam.mz/glam#-rock*.mz/
+=====music-goth//goth.mz/gothic.mz/gothic#A rock*.mz/
+=====music-grunge//grunge.mz/grunge.mMy/
+=====music-rap//rap.mz/rap# music*.mz/rap.mMy/
+=====music-industrial//industrial.mz/
+=====rock# and#K roll*.mz//rock#-and#K-roll*.mz/rock# 'n#K' roll*.mz/
+rock* and#Kj roll*.mMy/du#R rock#NM and#Kj roll#NM.Ay/
+de#R rock#NM and#Kj roll#NM.Ay/
+======rockabilly.mz//
+=====scratch.mz//
+=====techno.mz//technopop.moz/techno.mFy/techno.mßAy/
+======hardcore#A techno*.mz//
+;_______________________________________________________________________________
+=====punk.mz//punk#A rock*.mz/punk.Az/punk.mMy/punk.ßAy/
+======gloom.mz//
+======hardcore.mz//thrash.mz/hardcore.Az/thrash.Az/hardcore.mMy/hardcore.ßAy/
+speed# metal*.z/
+======postpunk.mz//postpunk.Az/
+======proto# punk*.mz//
+======punkabilly.mz//
+;_______________________________________________________________________________

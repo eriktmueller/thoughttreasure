@@ -1,0 +1,347 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=celestial#A object*.z/physical-object/|part-of=our-universe|
+;_______________________________________________________________________________
+==galaxy.z//galaxie.Fy/
+;_______________________________________________________________________________
+===spiral#A galaxy*.z//spiral#A nebula*.z/galaxie* spirale*A.Fy/
+;_______________________________________________________________________________
+====ordinary#A spiral#A galaxy*.z//galaxie* spirale*A ordinaire*A.Fy/
+;_______________________________________________________________________________
+====barred#A spiral#A galaxy*.z//galaxie* spirale*A barrée*A.Fy/
+====*Milky#A Way*.kz//Our#A Galaxy*.ÉTz/Voie* Lactée*A.¹kFy/
+Notre*D Galaxie*.ÉFy/|cpart-of=our-universe|
+====*NGC# 224*.z//M# 31*.z/Andromeda.¹Éz/Andromède.y/|cpart-of=our-universe|
+;_______________________________________________________________________________
+===elliptical#A galaxy*.z//galaxie* elliptique*A.Fy/
+===lenticular#A galaxy*.z//galaxie* lenticulaire*A.Fy/
+===irregular#A galaxy*.z//galaxie* irrégulière*A.Fy/
+;_______________________________________________________________________________
+==constellation.z//constellation.Fy/
+==*Andromeda.Éz//
+==*Antlia.Éz//
+==*Apus.Éz//
+==*Aquarius.Éz//
+==*Aries.Éz//
+==*Cancer.Éz//
+==*Capricornus.Éz//Capricorni.Éz/
+==*Centaurus.Éz//Centauri.Éz/
+==*Cetus.Éz//
+==*Cygnus.Éz//
+==*Gemini.Éz//
+==*Hercules.Éz//
+==*Hydra.Éz//
+==*Hydrus.Éz//
+==*Leo.Éz//
+==*Libra.Éz//
+==*Lynx.Éz//
+==*Orion.Éz//
+==*Pegasus.Éz//
+==*constellation-Phoenix//Phoenix.Éz/
+==*Pisces.Éz//
+==*Reticulum.Éz//Reticuli.Éz/
+==*Sagittarius.Éz//
+==*Scorpius.Éz//
+==*Taurus.Éz//
+==*Ursa# Major*.Éz//big#A dipper*.kz/
+==*Ursa# Minor*.Éz//little#A dipper*.kz/
+==*Virgo.Éz//
+;_______________________________________________________________________________
+==black#A hole*.z//trou* noir*A.My/
+==pulsar.z//pulsar.y/
+==nova.z//nova.y/
+==supernova.z//supernova.y/
+==nebula.z//nébuleuse.Fy/
+;_______________________________________________________________________________
+==star.z//sun.z/étoile.Fy/soleil.My/
+;_______________________________________________________________________________
+==-spectral#A class*.z//type* spectral*A.My/
+;_______________________________________________________________________________
+====spectral-class-O//spectral#A class# O# star*.¹z/O.Az/
+;_______________________________________________________________________________
+====spectral-class-B//spectral#A class# B# star*.¹z/B.Az/
+=====spectral-class-B0//spectral#A class# B0# star*.¹z/B0.Az/
+=====spectral-class-B1//spectral#A class# B1# star*.¹z/B1.Az/
+=====spectral-class-B2//spectral#A class# B2# star*.¹z/B2.Az/
+=====spectral-class-B5//spectral#A class# B5# star*.¹z/B5.Az/
+=====spectral-class-B8//spectral#A class# B8# star*.¹z/B8.Az/
+=====*Beta# Orionis*.Éz//Rigel.¹Éz/
+;_______________________________________________________________________________
+====spectral-class-A//spectral#A class# A# star*.¹z/A.Az/
+=====spectral-class-A0//spectral#A class# A0# star*.¹z/A0.Az/
+=====*Alpha# Lyrae*.Éz//Vega.¹Éz/
+=====spectral-class-A1//spectral#A class# A1# star*.¹z/A1.Az/
+=====*Alpha# Canis# Majoris*.Éz//Sirius# A*.Éz/Sirius.¹Éz/
+=====spectral-class-A2//spectral#A class# A2# star*.¹z/A2.Az/
+=====*Alpha# Cygni*.Éz//Deneb.¹Éz/
+=====spectral-class-A7//spectral#A class# A7# star*.¹z/A7.Az/
+=====*Alpha# Aquilae*.z//Altair.¹Éz/
+;_______________________________________________________________________________
+====spectral-class-F//spectral#A class# F# star*.¹z/F.Az/
+=====spectral-class-F0//spectral#A class# F0# star*.¹z/F0.Az/
+=====*Alpha# Carinae*.Éz//Canopus.¹Éz/
+=====spectral-class-F5//spectral#A class# F5# star*.¹z/F5.Az/
+;_______________________________________________________________________________
+====spectral-class-G//spectral#A class# G# star*.¹z/G.Az/
+====*Sun.kz//sun.kz/solar.Az/soleil.kMy/solaire.Ay/
+=====spectral-class-G2//spectral#A class# G2# star*.¹z/G2.Az/
+=====*Alpha# Centauri# A*.Éz//Alpha# Centauri*.¹Éz/Rigel# Kentarus*.z/
+;_______________________________________________________________________________
+====spectral-class-K//spectral#A class# K# star*.¹z/K.Az/
+=====spectral-class-K2//spectral#A class# K2# star*.¹z/K2.Az/
+=====*Epsilon# Eridani*.Éz//
+=====spectral-class-K5//spectral#A class# K5# star*.¹z/K5.Az/
+=====*Alpha# Centauri# B*.Éz//
+;_______________________________________________________________________________
+====spectral-class-M//spectral#A class# M# star*.¹z/M.Az/
+=====spectral-class-M1//spectral#A class# M1# star*.¹z/M1.Az/
+=====spectral-class-M2//spectral#A class# M2# star*.¹z/M2.Az/
+=====*Alpha# Orionis*.Éz//Betelgeuse.¹Éz/Bételgeuse.¹y/
+=====spectral-class-M4//spectral#A class# M4# star*.¹z/M4.Az/
+=====spectral-class-M5//spectral#A class# M5# star*.¹z/M5.Az/
+=====*Barnard#'s Star*.Éz//
+=====*Proxima# Centauri*.Éz//
+=====spectral-class-M6//spectral#A class# M6# star*.¹z/M6.Az/
+=====spectral-class-M7//spectral#A class# M7# star*.¹z/M7.Az/
+=====spectral-class-M8//spectral#A class# M8# star*.¹z/M8.Az/
+;_______________________________________________________________________________
+====white#A dwarf*.z//naine* blanche*A.Fy/
+====*Sirius# B*.Éz//
+;_______________________________________________________________________________
+==solar#A system*.z//système* solaire*A.My/
+===our#DP solar#A system*.Éz//notre*DP système* solaire*A.ÉMy/
+|cpart-of=Milky-Way|
+;_______________________________________________________________________________
+==planet.z/polity/globe.z/planète.Fy/
+===planet-Mercury//Mercury.Éz/Mercurian.Az/Mercure.ÉFy/
+===planet-Venus//Venus.Éz/Venusian.Az/Vénus.ÉFy/Vénusien.Ay/
+; [if [country ?c] [part-of ?c Earth]]
+===Earth.kz//earth.¹kz/world.kz/globe.kz/monde.kMy/
+terra.Éz/terrian.Az/terre.¹kFy/monde.kMy/Terrien.§NAy/
+|radius-of=6366.713km|circumference-of=40003.236km|blue|
+cpart-of¤Africa,Antarctica,Asia,Europe,North-America,South-America|
+cpart-of=our-solar-system|
+===Mars.Éz//Martian.Az/Mars.ÉFy/Martien.Ay/|red|
+===Jupiter.Éz//Jupiterian.Az/Jupiter.ÉFy/
+===Saturn.Éz//Saturnian.Az/Saturne.ÉFy/
+===Neptune.Éz//Neptunian.Az/Neptune.ÉFy/
+===Uranus.Éz//Uranusian.Az/Uranus.ÉFy/
+===Pluto.Éz//Plutonian.Az/Pluton.ÉFy/
+;_______________________________________________________________________________
+==satellite.z//satellite.My/
+;_______________________________________________________________________________
+===Earth# satellite*.z//
+;_______________________________________________________________________________
+====Moon.kz//moon.¹kz/lunar.Az/lune.¹kFy/
+;_______________________________________________________________________________
+====artificial#A Earth# satellite*.z/RF-broadcast/
+;_______________________________________________________________________________
+=====Anik.®z//
+======Anik#® C1*®.z//
+======Anik#® C3*®.z//Telesat#®-5*®.®z/
+======Anik#® D1*®.z//Telesat#®-6*®.®z/
+======Anik#® D2*®.z//Anik#® F4*®.z/
+======Anik#® E1*®.z//
+======Anik#® E2*®.z//
+;_______________________________________________________________________________
+=====Arabsat.®z//
+======Arabsat#® 1*®.z//
+======Arabsat#® 1B*®.z//
+======Arabsat#® 1C*®.z//
+======Arabsat#® 1D*®.z//
+;_______________________________________________________________________________
+=====ASC#® 1*®.z//
+=====Asiasat#® 1*®.z//
+;_______________________________________________________________________________
+=====Astra.®z//
+======Astra#® 1A*®.z//
+======Astra#® 1B*®.z//
+======Astra#® 1C*®.z//
+;_______________________________________________________________________________
+=====Aurora#® 2*®.z//
+;_______________________________________________________________________________
+=====Aussat.®z//
+======Aussat#® 1*®.z//
+======Aussat#® 2*®.z//
+======Aussat#® B1*®.z//
+======Aussat#® K3*®.z//
+;_______________________________________________________________________________
+=====BSB.®z//
+======BSB#® R#®-1*®.z//
+======BSB#® R#®-2*®.z//
+;_______________________________________________________________________________
+=====BS#®-3B*®.®z//
+;_______________________________________________________________________________
+=====Comstar.®z//
+======Comstar#® 2*®.z//
+======Comstar#® 4*®.z//
+;_______________________________________________________________________________
+=====DBS#® 1*®.z//
+;_______________________________________________________________________________
+=====DFS.®z//
+======DFS#® Kopernicus#® 1#® FM#® 3*®.z//
+======DFS#® 1*®.z//
+======DFS#® 2*®.z//
+======DFS#® 3*®.z//
+;_______________________________________________________________________________
+=====Early#A-bird*.®z//
+;_______________________________________________________________________________
+=====Eutelsat.®z//
+======Eutelsat# 1# F4*.®z//Eutelsat# 1F4*.®z/
+======Eutelsat# 1# F5*.®z//Eutelsat# 1F5*.®z/
+======Eutelsat# 2# F1*.®z//Eutelsat# 2F1*.®z/Eutelsat# II#-F1#.®y/
+======Eutelsat# 2# F2*.®z//Eutelsat# 2F2*.®z/
+======Eutelsat# 2# F3*.®z//Eutelsat# 2F3*.®z/
+======Eutelsat# 2# F4*.®z//Eutelsat# 2F4*.®z/
+======Eutelsat# 2#.z//
+;_______________________________________________________________________________
+=====Galaxy.®z//
+======Galaxy#® 1*®.z//
+======Galaxy#® 2*®.z//
+======Galaxy#® 3*®.z//
+======Galaxy#® 4*®.z//
+======Galaxy#® 5*®.z//
+======Galaxy#® 6*®.z//
+======Galaxy#® 7*®.z//
+;_______________________________________________________________________________
+=====Gorizont.®z//
+======Gorizont#® 10*®.z//
+======Gorizont#® 11*®.z//
+======Gorizont#® 14*®.z//
+======Gorizont#® 15*®.z//
+======Gorizont#® 17*®.z//
+======Gorizont#® 19*®.z//
+======Gorizont#® 20*®.z//
+======Gorizont#® 22*®.z//
+======Gorizont#® 26*®.z//
+;_______________________________________________________________________________
+=====GSTAR.®z//
+======GSTAR#® 1*®.z//
+======GSTAR#® 2*®.z//
+======GSTAR#® 3*®.z//
+======GSTAR#® 4*®.z//
+;_______________________________________________________________________________
+=====Hispasat.®z//
+======Hispasat#® 1A#®.z//
+======Hispasat#® 1B#®.z//
+;_______________________________________________________________________________
+=====Hot# Bird#.y//
+======Hot# Bird# 1#.y//
+======Hot# Bird# 2#.y//
+======Hot# Bird# 3#.y//
+;_______________________________________________________________________________
+=====Insat#® 1D*®.z//
+;_______________________________________________________________________________
+=====Intelsat.®z//
+======Intelsat#® 5#® F#®-2*®.z//Intelsat#® 502*®.z/
+======Intelsat#® 5#® F#®-3*®.z//
+======Intelsat#® 5#® F#®-4*®.z//
+======Intelsat#® 505*®.z//
+======Intelsat#® 506*®.z//Intelsat#® 5#® F#®-6*®.z/
+======Intelsat#® 507*®.z//
+======Intelsat#® 5#® F#®-8*®.z//
+======Intelsat#® 5A#® F#®-11*®.z//
+======Intelsat#® 5A#® F#®-12*®.z//Intelsat#® 512*®.z/
+======Intelsat#® 5A#® F#®-13*®.z//Intelsat#® 513*®.z/
+======Intelsat#® 5A#® F#®-15*®.z//Intelsat#® 515*®.z/
+======Intelsat#® 6#® F#®-1*®.z//Intelsat#® 601*®.z/
+======Intelsat#® 6#® F#®-2*®.z//Intelsat#® 602*®.z/
+======Intelsat#® 6#® F#®-3*®.z//Intelsat#® 603*®.z/
+======Intelsat#® 6#® F#®-4*®.z//
+======Intelsat#® 6#® F#®-5*®.z//
+======Intelsat#® K*®.z//
+;_______________________________________________________________________________
+=====JCSAT.®z//
+======JCSAT#® 1*®.z//
+======JCSAT#® 2*®.z//
+;_______________________________________________________________________________
+=====Morelos.®z//
+======Morelos#® A*®.z//
+======Morelos#® B*®.z//
+;_______________________________________________________________________________
+=====Olympus.®z//
+=====Palapa#® 2*®.z//
+=====Panamsat.®z//
+=====PAS#® 1*®.z//
+;_______________________________________________________________________________
+=====RCA#®\/Satcom*®.®z//
+======RCA#®\/Satcom#® 3R*®.z//RCA#®\/Satcom#® F3R*®.z/
+======RCA#®\/Satcom#® 4*®.z//RCA#®\/Satcom#® F4*®.z/
+======RCA#®\/Satcom#® 5*®.z//
+======RCA#®\/Satcom#® 6*®.z//RCA#®\/Satcom#® F1R*®.z/
+;_______________________________________________________________________________
+=====Satcom.®z//
+======Satcom#® 1*®.z//Satcom#® C1*®.z/
+======Satcom#® 7*®.z//RCA#®\/Satcom#® F2R*®.z/
+======Satcom#® KU#®-1*®.z//
+======Satcom#® KU#®-2*®.z//
+======Satcom#® C3*®.z//
+======Satcom#® C4*®.z//
+;_______________________________________________________________________________
+=====SBS.®z//
+======SBS#® 2*®.z//
+======SBS#® 3*®.z//
+======SBS#® 4*®.z//
+======SBS#® 5*®.z//
+======SBS#® 6*®.z//
+;_______________________________________________________________________________
+=====Solidaridad.®z//
+;_______________________________________________________________________________
+=====Spacenet.®z//
+======Spacenet#® 1*®.z//
+======Spacenet#® 2*®.z//
+======Spacenet#® 3R*®.z//
+======Spacenet#® 4*®.z//ASC#® 2*®.z/
+;_______________________________________________________________________________
+=====Superbird.®z//
+======Superbird#® A*®.z//
+======Superbird#® A1*®.z//
+======Superbird#® B1*®.z//
+;_______________________________________________________________________________
+=====Telecom.®z//Télécom.®y/
+======Telecom#® 1C*®.z//Télécom#® 1C#®.y/; used for data
+======Telecom#® 2A*®.z//Télécom#® 2A#®.y/
+=======Canal-Plus-sat-feed-1//|frequency-of=12.648ghz,6.6mhz,7.02mhz,7.2mhz|
+vertical-polarization|power-of=52dbw|SECAM|Nagravision|stereo|Panda1|
+======Telecom#® 2B*®.z//Télécom#® 2B#®.y/
+=======TF1-sat-feed-1//|frequency-of=12.690ghz,5.8mhz|vertical-polarization|
+power-of=52dbw|SECAM|nonencrypted|Ceefax|mono|J17|
+=======France-2-sat-feed-1//|frequency-of=12.564ghz,5.8mhz|
+vertical-polarization|power-of=52dbw|SECAM|nonencrypted|Ceefax|mono|J17|
+=======Arte-sat-feed-1//|@19940101:na:lun¯dim:1700:8hrsÐ|
+frequency-of=12.606ghz,5.8mhz|vertical-polarization|power-of=52dbw|SECAM|
+nonencrypted|mono|J17|
+=======M6-sat-feed-1//|frequency-of=12.522ghz,5.8mhz|vertical-polarization|
+power-of=52dbw|SECAM|nonencrypted|mono|J17|
+======Telecom#® 2C*®.z//Télécom#® 2C#®.y/; planned for data
+;_______________________________________________________________________________
+=====Telstar.®z//
+======Telstar#® 3A*®.z//Telstar#® T#®-1*®.z/
+======Telstar#® 3C*®.z//Telstar#® T#®-2*®.z/
+======Telstar#® 3D*®.z//Telstar#® T#®-3*®.z/
+======Telstar#® 401*®.z//
+;_______________________________________________________________________________
+=====Tele#® X*®.z//
+;_______________________________________________________________________________
+=====TDF.®z//
+======TDF#® 1*®.z//
+======TDF#® 2*®.z//
+;_______________________________________________________________________________
+=====TDRS.®z//
+======TDRS#® 3*®.z//
+======TDRS#® 4*®.z//
+======TDRS#® F6*®.z//
+;_______________________________________________________________________________
+=====Thaicom.®z//
+=====Thor.®z//
+=====TV#® SAT#® 2*®.z//TVSAT#® 2*®.z/
+;_______________________________________________________________________________
+=====Westar.®z//
+======Westar#® 4*®.z//
+======Westar#® 5*®.z//
+=====1989#®-077A*®.®z//
+=====1993#®-066A*®.®z//
+;_______________________________________________________________________________

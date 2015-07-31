@@ -1,0 +1,101 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=musical#A instrument*.z/physical-object/instrument.z/instrument.My/
+instrument* de#R musique#F.My/|free-object|
+;_______________________________________________________________________________
+==voice.z//voix.Fy/
+===soprano.z//soprano.My/
+===mezzo#Aj-soprano*.z//mezzo#Aj-soprano# ½.·My/mezzo.My/
+===contralto.z//contralto.My/
+===alto.z//alto.My/
+===counter#A-tenor*.z//haute*A-contre#R ½.·Fy/contre#R-ténor#M ½.Fy/
+===tenor.z//ténor.My/
+===baritone.z//baryton.My/
+===bass#-baritone*.z//baryton*-basse#F ½.My/
+===bass.z//basse.Fy/
+;_______________________________________________________________________________
+==wind# instrument*.z//instrument* à#R vent#.My/|humanmade|
+===instrument organ//organ.z/orgue.My/
+;_______________________________________________________________________________
+===woodwind.z//woodwind# instrument*,woodwind# family*.z/bois.MPïy/
+famille* des#RP bois#MP.Fy/
+====bassoon.z//basson.My/
+====bombardon.z//bombarde.Fy/
+====clarinet.z//clarinette.Fy/
+====bass# clarinet*.z//clarinette* basse*A.Fy/
+====English# horn*.Àz//cor#j anglais#Aj.gz/cor* anglais*A.My/
+====flute.z//flûte.Fy/flûte* traversière*A.Fy/
+====oboe.z//hautbois.My/
+====piccolo.z//piccolo.My/
+====saxophone.z//saxophone.My/
+;_______________________________________________________________________________
+===brass# instrument*.z//brass,brass# family*.z/cuivres.MPïy/
+famille* des#RP cuivres#MP.Fy/
+====bugle.z//clairon.My/
+====cornet.z//cornet* à#R pistons#P.My/
+====horn.z//French#A horn*.z/cor* de#R harmonie#F.My/
+====saxhorn.z//saxhorn.My/
+====trombone.z//trombone.My/
+====trumpet.z//trompette.Fy/
+====tuba.z//tuba.My/
+;_______________________________________________________________________________
+==keyboard# instrument*.z//keyboard.z/instrument* à#R clavier#.My/|humanmade|
+;_______________________________________________________________________________
+==percussion# instrument*.z//instrument* à#R percussion#F.My/
+===castanets.Pïz//castagnettes.FPïy/
+===clavichord.z/keyboard-instrument/clavicorde.My/
+===drum.z//batterie.Fy/
+====cymbal.z//cymbale.Fy/
+=====crash# cymbal*.z//cymbale* suspendue*A.Fy/
+=====Charleston# cymbal*.z//cymbale* charleston#.Fy/
+=====high#A-hat*.z//cymbale* double*A à#R coulisse#F.Fy/
+====kettledrum.z//timbale.Fy/
+====kick# drum*.z//kick.Tz/bass# drum*.z/grosse*A caisse*.Fy/
+====snare# drum*.z//caisse* claire*A.Fy/
+====tenor#A drum*.z//caisse* roulante*A.Fy/
+====tom#-tom*.z//tam#-tam*.ßMy/
+===gong.z//gong.My/
+===piano.z/keyboard-instrument/piano.My/
+====upright# piano*.z//piano* droit*A.My/
+===tambourine.z//tambour* de#R basque#.My/
+===tubular#A bells*.Pïz//carillon* tubulaire*A.My/
+===instrument-triangle//triangle.z/triangle.My/
+===xylophone.z//xylophone.My/
+;_______________________________________________________________________________
+==stringed#A instrument*.z//instrument* à#R cordes#FP.My/|humanmade|
+===cello//celloÝcello.z/violoncello.z/violoncelle.My/
+===double# bass*.z//bass# fiddle*.Tz/bass.z/string# bass*.z/contrebasse.Fy/
+===guitar.z//guitare.Fy/
+====acoustic#A guitar*.z//guitare* acoustique*A.Fy/
+===harp.z//harpe.Fy/
+===harpsichord.z/keyboard-instrument/clavecin.My/
+===viol.z//viole.Fy/
+===viola.z//alto.My/
+===violin.z//fiddle.Tz/violon.My/
+====first# violin*.z//premier*A violon*.My/
+====second# violin*.z//second*A violon*.My/
+;_______________________________________________________________________________
+==traditional#A musical#A instrument*.z//instrument* traditionnel*A.My/
+|humanmade|
+===accordion.z//accordéon.My/
+===bagpipes.Pïz//cornemuse.Fy/
+===balalaika.z//balalaïka.Fy/
+===banjo.z//banjo.My/
+===harmonica.z//harmonica.My/
+===jew#'s harp*.z//jew# s-harp*.z/jews#P's harp*.z/jews#P s-harp*.z/
+guimbarde.Fy/
+===lyre.z//lyre.Fy/
+===mandolin.z//mandoline.Fy/
+===panpipe.z//flûte* de#R Pan#.Fy/
+===zither.z//cithare.Fy/
+;_______________________________________________________________________________
+=musical#A accessory*.z/physical-object/accessoire.My/|humanmade|
+==music# stand*.z//pupitre* à#R musique#F.My/
+==tuning# fork*.z//diapason.My/
+==metronome.z//métronome.My/
+===mechanical#A metronome*.z//métronome* mécanique*A.My/
+===quartz#A metronome*.z/electronic-device/métronome* à#R quartz#.My/
+;_______________________________________________________________________________

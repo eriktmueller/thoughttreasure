@@ -1,0 +1,112 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=appliance.z/physical-object/|humanmade|
+;_______________________________________________________________________________
+==appliance-dishwasher//dishwasher.z/lave#V-vaisselle#F.My/
+==washing# machine*.z//lave#V-linge#M.My/machine* à#R laver#V.Fy/
+;_______________________________________________________________________________
+==cooling# device*.z//|fixed-object|
+===air# conditioner*.z//AC.z/air# conditioning*.Îz/climatiseur.¹My/
+climatisation.ÎFy/
+===fan.z//éventail.My/
+====electric# fan*.z//fan.z/ventilateur.My/
+===refrigerator.Àz//fridge.z/refrigerator.tgz/icebox.oÀz/réfrigérateur.¹My/
+frigidaire.My/
+====refrigerator#-freezer*.Àz//fridge#-freezer*.gz/refrigerator#-freezer*.tgz/
+====minibar.z//mini#-bar*.z/mini*Aß-bar*.My/
+====store-refrigerator//
+===freezer.z//congélateur.My/
+;_______________________________________________________________________________
+==heat# production# device*.z/heat-source/heating# device*.z/|fixed-object|
+===candle.z/light-source/bougie.Fy/
+===lantern.z/light-source/lanterne.Fy/
+===heater.z//radiateur.My/
+===radiator.z//radiateur.My/
+===VMC//V\.M\.C\..Fy/
+ventilation* mécanique*A contrôlée*A.Fy/ventilation# system*.z/
+;_______________________________________________________________________________
+==timing# device*.z//
+===alarm.z//alarme.Fy/
+===clock.z//horloge.Fy/
+====alarm# clock*.z//réveil.My/|part-of¤alarm|
+===stopwatch.z//chronomètre.My/
+===timer.z//minuteur.My/minuterie.Fy/
+;_______________________________________________________________________________
+==thermometer.z//thermomètre.My/
+;_______________________________________________________________________________
+==cookware.z/tool/cooking# utensil*.z/kitchen# utensil*.z/dishware,dinnerware.z/
+ustensile* de#R cuisine#F.My/
+;_______________________________________________________________________________
+===pot.z/container/casserole.Fy/marmite.Fy/
+===saucepan.z/container/pan.z/casserole.Fy/
+===frying# pan*.z/container/pan.z/poêle.Fy/
+;_______________________________________________________________________________
+===blender.z//
+===bread# machine*.z//
+===broiler.z/heat-production-device/
+===cocktail# maker*.z//
+===coffee# grinder*.z//
+===coffeemaker.z/heat-production-device/coffee# maker*.z/
+====espresso# maker*.z//espresso# machine*.z/
+===food# processor*.z//
+===food# steamer*.z//steamer.z/
+===juicer.z//juice# maker*.z/
+====electric#A juicer*.z//
+===kettle.z/container/bouilloire.Fy/
+====teakettle.z//
+===microwave# oven*.z/heat-production-device/microwave.z/
+four* à#R micro#A-ondes#FP.My/
+===cooking-mixer//mixer.z/
+====hand# mixer*.z//
+====stand# mixer*.z//
+===toaster.z/heat-production-device/grille#V-pain*.My/
+====toaster# oven*.z//
+=====convection# toaster# oven*.z//
+===oven.z/heat-production-device/four.My/
+====baking# oven*.z//
+===salad# shaker*.z//panier* à#R salade#F.My/
+===salad# spinner*.z//essoreuse* à#R salade#F.Fy/
+===stove.z/heat-production-device/fourneau.My/réchaud.My/
+===waffle# maker*.z/heat-production-device/waffler.z/waffle# iron*.z/
+;_______________________________________________________________________________
+==cutlery.z//eating# utensil*.z/
+;_______________________________________________________________________________
+===fork.z//fourchette.Fy/
+===cutting# device*.z/arms/
+====knife.z//couteau.My/
+===spoon.z/container/cuiller.Fy/cuillère.Fy/
+====utensil-teaspoon//teaspoon.z/petite*A cuillère*.Fy/cuillère* à#R café#NM.Fy/
+====utensil-tablespoon//tablespoon.z/cuillère* de#R service#NM.Fy/
+;_______________________________________________________________________________
+===can# opener*.z//
+;_______________________________________________________________________________
+===container-cup//cup.z/tasse.Fy/
+===mug.z/container/grande*A tasse*.Fy/chope.Fy/
+====beer# mug*.z//chope.Fy/
+===glass.z/container/verre.My/
+====liquor# glass*.z//verre* à#R liqueur#F.My/
+===plate.z//dish.z/assiette.Fy/
+====dirty#A dishes*.Pïz//assiettes* sales*A.FPïy/
+===bowl.z/container/bol.My/
+====cereal# bowl*.z//
+====salad# bowl*.z//saladier.My/
+===saltshaker.z/container/salt# shaker*.z/salière.Fy/
+===pepper# shaker*.z/container/peppershaker.z/
+;_______________________________________________________________________________
+=cloth.mz/material/tissu.My/étoffe.Fy/
+==blanket.z//couverture.Fy/
+===electric#A blanket*.z/electronic-appliance/couverture* chauffante*A.Fy/
+==comforter.Àz//duvet,continental#A quilt*.gz/couette.Fy/
+==cloth-linen//linen.z/linge* de#R maison#F.My/
+===bed-sheet//sheet.z/drap.My/
+===duvet# cover*.gz//housse* de#R couette#F.Fy/
+===pillowcase.z//pillow# case*.z/taie* d#R'oreiller#M.Fy/
+===tablecloth.z//nappe.Fy/
+===table# linen*.z//
+==towel.z//serviette.Fy/serviette* de#R toilette#.Fy/
+===beach# towel*.z//
+==washcloth.Àz//wash# cloth*.Àz/flannel.gz/gant* de#R toilette#F.My/
+;_______________________________________________________________________________

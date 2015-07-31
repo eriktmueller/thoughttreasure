@@ -1,0 +1,851 @@
+> Jim Garnier was sleeping.
+SEMANTIC PARSE CONCEPTS:
+0.900:[past-progressive
+ [asleep
+  [such-that
+   human
+   [NAME-of human NAME:"Jim Garnier"]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-progressive
+ [asleep Jim]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim Garnier]]
+ [W
+  [W [V <was.iG1SVz¸:be>]]
+  [V <sleeping.e·Vz¸:sleep>]]]
+UNDERSTANDING CONCEPT:
+@na:na#12|[past-progressive
+ [asleep Jim]]
+> He woke up.
+SEMANTIC PARSE CONCEPTS:
+0.900:[preterit-indicative
+ [awake subject-pronoun]]
+0.675:[preterit-indicative
+ [awake helium]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [awake Jim]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [awake helium]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <He.3SMHz¸:he>]]
+ [W
+  [W [V <woke.iVz¸:wake>]]
+  [0 <up.0z>]]]
+UNDERSTANDING CONCEPT:
+@na:na#122|[preterit-indicative
+ [awake Jim]]
+> He poured Aquavital on his hair.
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [possessive-determiner hair]]]
+0.810:[past-participle
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [possessive-determiner hair]]]
+0.729:[preterit-indicative
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [possessive-determiner body-hair]]]
+0.729:[past-participle
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [possessive-determiner body-hair]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [pour
+  Jim-left-hand
+  Aquavital
+  [such-that
+   hair
+   [of hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [such-that
+   hair
+   [of hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [pour Jim-left-hand Aquavital Jim-head-hair]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  Jim-head-hair]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [pour
+  Jim-left-hand
+  Aquavital
+  [such-that
+   hair
+   [of hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [such-that
+   hair
+   [of hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [pour Jim-left-hand Aquavital Jim-head-hair]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  Jim-head-hair]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [such-that
+   body-hair
+   [of body-hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [pour
+  Jim-left-hand
+  Aquavital
+  [such-that
+   body-hair
+   [of body-hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [pour
+  [such-that
+   grasper
+   [of grasper subject-pronoun]]
+  Aquavital
+  [such-that
+   body-hair
+   [of body-hair Jim]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [pour
+  Jim-left-hand
+  Aquavital
+  [such-that
+   body-hair
+   [of body-hair Jim]]]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <He.3SMHz¸:he>]]
+ [W
+  [W
+   [W [V <poured.iVz:pour>]]
+   [X [N <Aquavital.SNz>]]]
+  [Y
+   [R <on.·Rz¸>]
+   [X
+    [D <his.3SM·Dz¸>]
+    [X [N <hair.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1226|[preterit-indicative
+ [pour Jim-left-hand Aquavital Jim-head-hair]]
+> Jim lay down on his bed when?
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [lie
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bed]]]]
+0.900:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [lie
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bed]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [lie
+   Jim
+   [such-that
+    bed
+    [of bed Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [lie Jim Jim-bed]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [lie
+   Jim
+   [such-that
+    bed
+    [of bed Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [lie Jim Jim-bed]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W
+   [W
+    [W [V <lay.i·Vz¸:lain>]]
+    [0 <down.0z>]]
+   [Y
+    [R <on.·Rz¸>]
+    [X
+     [D <his.3SM·Dz¸>]
+     [X [N <bed.SNz¸>]]]]]
+  [B <when.·Bz¸>]]]
+UNDERSTANDING CONCEPT:
+@na:na#12262|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [lie Jim Jim-bed]]]
+He lay down on his bed on Monday February 5, 1996 at midnight.
+> Jim was asleep when?
+SEMANTIC PARSE CONCEPTS:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [asleep
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]]]]
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [asleep
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [asleep Jim]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [asleep Jim]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W [V <was.iG1SVz¸:be>]]
+  [E
+   [E [A <asleep.Az¸>]]
+   [B <when.·Bz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#122621|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [asleep Jim]]]
+He was asleep between Monday February 5, 1996 at midnight and Monday February
+5, 1996 at seven am.
+> Jim stood up when?
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [stand
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   na]]]
+0.900:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [stand
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   na]]]
+0.900:[absolute-time-interrogative-adverb
+ [past-participle
+  [stand
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   na]]]
+0.810:[past-participle
+ [absolute-time-interrogative-adverb
+  [stand
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   na]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [stand Jim na]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [stand Jim na]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [past-participle
+  [stand Jim na]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [absolute-time-interrogative-adverb
+  [stand Jim na]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W
+   [W [V <stood.iVz¸:stand>]]
+   [0 <up.0z>]]
+  [B <when.·Bz¸>]]]
+UNDERSTANDING CONCEPT:
+@na:na#1226211|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [stand Jim na]]]
+He stood up on Monday February 5, 1996 at seven am. He stood up on Monday
+February 5, 1996 at midnight.
+> Jim was awake when?
+SEMANTIC PARSE CONCEPTS:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [awake
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]]]]
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [awake
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [awake Jim]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [awake Jim]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W [V <was.iG1SVz¸:be>]]
+  [E
+   [E [A <awake.Az¸>]]
+   [B <when.·Bz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#12262111|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [awake Jim]]]
+He was awake on Monday February 5, 1996 at seven am. He was awake on Monday
+February 5, 1996 at midnight.
+> Jim was in his foyer when?
+SEMANTIC PARSE CONCEPTS:
+0.729:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner foyer]]]]
+0.810:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner foyer]]]]
+0.750:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner foyer]]]]]]
+0.750:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner foyer]]]]]]
+0.750:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner foyer]]]]]]
+0.750:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner foyer]]]]]]
+0.675:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner foyer]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of
+   Jim
+   [such-that
+    foyer
+    [of foyer Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of Jim Jim-foyer]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of
+   Jim
+   [such-that
+    foyer
+    [of foyer Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of Jim Jim-foyer]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   Jim
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner foyer]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   Jim
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner foyer]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   Jim
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner foyer]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   Jim
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner foyer]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv
+   Jim
+   [such-that
+    foyer
+    [of foyer Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv Jim Jim-foyer]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W
+   [W [V <was.iG3SVz¸:be>]]
+   [Y
+    [R <in.·Rz¸>]
+    [X
+     [D <his.3SM·Dz¸>]
+     [X [N <foyer.SNz¸>]]]]]
+  [B <when.·Bz¸>]]]
+UNDERSTANDING CONCEPT:
+@na:na#122621112|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of Jim Jim-foyer]]]
+He was in his foyer on Monday February 5, 1996 at midnight.
+> Jim was in his bedroom when?
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bedroom]]]]
+0.900:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bedroom]]]]
+0.750:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bedroom]]]]]]
+0.750:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bedroom]]]]]]
+0.750:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bedroom]]]]]]
+0.750:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bedroom]]]]]]
+0.675:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bedroom]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of
+   Jim
+   [such-that
+    bedroom
+    [of bedroom Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of Jim Jim-bedroom]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of
+   Jim
+   [such-that
+    bedroom
+    [of bedroom Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of Jim Jim-bedroom]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   Jim
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bedroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   Jim
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bedroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   Jim
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bedroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   Jim
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bedroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv
+   Jim
+   [such-that
+    bedroom
+    [of bedroom Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv Jim Jim-bedroom]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W
+   [W [V <was.iG3SVz¸:be>]]
+   [Y
+    [R <in.·Rz¸>]
+    [X
+     [D <his.3SM·Dz¸>]
+     [X [N <bedroom.SNz¸>]]]]]
+  [B <when.·Bz¸>]]]
+UNDERSTANDING CONCEPT:
+@na:na#1226211122|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of Jim Jim-bedroom]]]
+He was in his bedroom between Monday February 5, 1996 at midnight and Monday
+February 5, 1996 at seven am.
+> Jim was in his bathroom when?
+SEMANTIC PARSE CONCEPTS:
+0.810:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bathroom]]]]
+0.900:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bathroom]]]]
+0.750:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bathroom]]]]]]
+0.750:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bathroom]]]]]]
+0.750:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bathroom]]]]]]
+0.750:[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bathroom]]]]]]
+0.675:[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv
+   [such-that
+    human
+    [NAME-of human NAME:"Jim"]]
+   [possessive-determiner bathroom]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of
+   Jim
+   [such-that
+    bathroom
+    [of bathroom Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of Jim Jim-bathroom]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of
+   Jim
+   [such-that
+    bathroom
+    [of bathroom Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [location-of Jim Jim-bathroom]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   Jim
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bathroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [isa
+   Jim
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bathroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   Jim
+   [such-that
+    indium
+    [equiv
+     indium
+     [possessive-determiner bathroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [isa
+   Jim
+   [such-that
+    inch
+    [equiv
+     inch
+     [possessive-determiner bathroom]]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv
+   Jim
+   [such-that
+    bathroom
+    [of bathroom Jim]]]]]
+ANAPHORIC PARSE CONCEPT:
+[absolute-time-interrogative-adverb
+ [preterit-indicative
+  [equiv Jim Jim-bathroom]]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Jim]]
+ [W
+  [W
+   [W [V <was.iG3SVz¸:be>]]
+   [Y
+    [R <in.·Rz¸>]
+    [X
+     [D <his.3SM·Dz¸>]
+     [X [N <bathroom.SNz¸>]]]]]
+  [B <when.·Bz¸>]]]
+UNDERSTANDING CONCEPT:
+@na:na#-622790666|[preterit-indicative
+ [absolute-time-interrogative-adverb
+  [location-of Jim Jim-bathroom]]]
+He was in his bathroom on Monday February 5, 1996 at seven am.

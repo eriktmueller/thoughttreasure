@@ -1,0 +1,122 @@
+20150731T164346: !!!! opening display
+________________________________________________________________________________
+ThoughtTreasure version 0.00023 of 20150731 (gcc)
+Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+All Rights Reserved.
+ThoughtTreasure comes with ABSOLUTELY NO WARRANTY.
+By using ThoughtTreasure, you are agreeing to be bound by the terms of
+the License Agreement. (Type 'legal' to view.)
+For a list of commands type 'help'.
+________________________________________________________________________________
+20150731T164346: !!!! opening outtrans.txt
+20150731T164346: !!!! opening outlname.txt
+20150731T164346: !!!! opening outfname.txt
+20150731T164346: !!!! opening outhuman.txt
+20150731T164346: !!!! opening outlrn.txt
+20150731T164346: !!!! reading /Users/erik/Data/signiform/tt/latest/db/baserule.txt
+________________________________________________________________________________
+Base rules:
+E -> A    (18)
+W -> B W  (6)
+Y -> B Y  (1)
+Z -> B Z  (2)
+E -> B E  (3)
+X -> D X  (40)
+E -> D E  (1)
+X -> N    (67)
+Y -> R B  (1)
+W -> R W  (1)
+Y -> R X  (26)
+Z -> U    (1)
+W -> V    (46)
+Z -> W    (2)
+W -> W B  (4)
+W -> W V  (6)
+W -> W X  (19)
+W -> W Y  (19)
+W -> W H  (2)
+W -> W E  (4)
+W -> W 0  (1)
+X -> X W  (2)
+Z -> X W  (40)
+X -> X X  (2)
+X -> X Y  (1)
+X -> X Z  (4)
+Z -> X Z  (3)
+X -> X E  (2)
+Z -> X E  (1)
+X -> X 9  (1)
+Y -> Y Y  (1)
+Z -> Y Z  (3)
+X -> Z    (3)
+Z -> Z B  (2)
+Z -> Z Z  (2)
+X -> H    (27)
+W -> H W  (4)
+Z -> H X  (1)
+X -> K X  (1)
+Y -> K Y  (1)
+Z -> K Z  (4)
+E -> K E  (1)
+E -> E B  (1)
+Z -> E W  (1)
+X -> E X  (6)
+E -> E Y  (1)
+Z -> E Z  (1)
+E -> E E  (1)
+Z -> x    (1)
+________________________________________________________________________________
+20150731T164346: !!!! reading /Users/erik/Data/signiform/tt/latest/db/frinfl.txt
+20150731T164346: !!!! reading /Users/erik/Data/signiform/tt/latest/db/eninfl.txt
+20150731T164346: !!!! reading /Users/erik/Data/signiform/tt/latest/db/name.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/food.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/drug.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/geog.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/absobj.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/street.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/grid.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/all.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/physics.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/chem.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/trans.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/celest.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/physobj.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/photo.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/furniture.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/personalarticle.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/officeproduct.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/appliance.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/hardware.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/toy.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/musicinstrument.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/ling.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/relation.txt
+20150731T164347: !!!! reading /Users/erik/Data/signiform/tt/latest/db/action.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/attr.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/enum.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/living.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/human.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/clothing.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/mediaobj.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/software.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/book.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/homeentertain.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/liveentertain.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/film.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/theory.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/sound.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/music.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/musicconcept.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/tv.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/company.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/elec.txt
+20150731T164348: !!!! reading /Users/erik/Data/signiform/tt/latest/db/net.txt
+20150731T164348: !!!! Load time = 00:02.
+20150731T164349: !!!! reading grind.tt
+20150731T164349: !!!! opening /Users/erik/Data/signiform/tt/latest/ttkb/obj.txt.unsorted
+20150731T164349: !!!! no retrieval hash
+20150731T164349: !!!! no retrieval hash
+20150731T164349: !!!! no retrieval hash
+20150731T164349: !!!! opening /Users/erik/Data/signiform/tt/latest/ttkb/le.txt.unsorted
+20150731T164350: !!!! opening /Users/erik/Data/signiform/tt/latest/ttkb/infl.txt.unsorted
+Time spent on command = 1 seconds

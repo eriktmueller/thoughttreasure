@@ -1,0 +1,504 @@
+<HTML>
+<HEAD>
+<TITLE>Adding Common Sense to Applications using ThoughtTreasure's Java-based client API</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<H2>Adding Common Sense to Applications using ThoughtTreasure's Java-based client API</H2>
+by Erik T. Mueller
+<P>
+November 30, 1999
+<HR>
+ThoughtTreasure is a treasure-house of pieces of common sense such as:
+<BLOCKQUOTE>
+Soda is a drink.<BR>
+People have fingernails.<BR>
+The sky is blue.<BR>
+Dogs bark.<BR>
+Someone who is 16 years old is called a teenager.<BR>
+Rough synonyms for food are <em>foodstuffs</em>, <em>groceries</em>,
+<em>chow</em>, and <em>grub</em>.<BR>
+<em>Cassette</em> means cassette tape or cassette recorder.<BR>
+Gold hair is called <em>blond</em> hair.
+</BLOCKQUOTE>
+Though ThoughtTreasure's 100,000 items capture only a small portion
+of human commonsense knowledge (probably on the order of 100,000,000
+items!), a small amount of common sense can be useful in applications.
+<P>
+Previously ThoughtTreasure had to be linked into the application,
+which was cumbersome. Starting with version 0.00021, ThoughtTreasure
+can be run as a server. Now any application written in any language
+can communicate with ThoughtTreasure over a TCP socket
+connection. Multiple application instances can use a single server,
+which can run on the same machine or any machine accessible over the
+network.
+<P>
+This article describes how to use ThoughtTreasure in a calendar
+manager application. We'll examine two programs written in Java using
+ThoughtTreasure's Java-based client API. The first program guesses how
+long an appointment will last, as a default initial value the user can
+override. The second program determines where an object is typically
+found, to provide a default location for an appointment or todo item.
+<P>
+To compile and run these programs, you'll first need to obtain
+ThoughtTreasure and the Java-based client API. To compile and run
+the server, you'll need a Unix box.
+<H3>Guessing the length of an appointment</H3>
+<P>
+Listing One (located at the end of this article) shows the first
+program, HowManyMinutesIs.java, which guesses the length of an
+appointment in minutes. The program takes a single command-line
+argument containing the natural language subject of the appointment as
+entered by the user. Here are some sample runs of the program:
+<BLOCKQUOTE><PRE>
+$ java HowManyMinutesIs "shave"
+1.0
+$ java HowManyMinutesIs "breakfast"
+30.0
+$ java HowManyMinutesIs "dog training course"
+60.0
+$ java HowManyMinutesIs "tennis w/Susanna"
+150.0
+$ java HowManyMinutesIs "surf the web"
+60.0
+$ java HowManyMinutesIs "dinner with Alex and Chris"
+120.0
+$ java HowManyMinutesIs "zzzz"
+unknown
+$
+</PRE></BLOCKQUOTE>
+<P>
+The <I>main</I> function starts by opening a connection to the
+ThoughtTreasure server running on a machine called somehost and
+listening on port 1832. To start the ThoughtTreasure server, you first
+start ThoughtTreasure and then issue the server command:
+<BLOCKQUOTE><PRE>
+$ ../bin/tt
+ThoughtTreasure (gcc)
+...
+19990227T144310: reading ../db/elec.txt
+19990227T144312: reading ../db/relation.txt
+19990227T144313: Load time = 00:40.
+* server -port 1832
+19990227T144414: starting ThoughtTreasure server
+19990227T144414: server started; port = 1832
+</PRE></BLOCKQUOTE>
+<P>
+The <I>guessEventLength</I> function first invokes the <I>tag</I> API
+function to map lexical entries to objects.
+<P>
+A lexical entry is a word or phrase such as <I>surf</I> or <I>surf the
+web</I>. An object represents a meaning of a lexical item. A lexical entry
+may have several meanings. For example, <I>tag</I> maps the <I>surf the
+web</I> lexical item to the <TT>surf-web</TT> meaning, and maps the
+ambiguous <I>surf</I> to both <TT>surf-web</TT> and <TT>surf-waves</TT>.
+<P>
+A meaning may be expressed several ways. The <TT>surf-web</TT> object can
+be expressed with <I>surf</I> and <I>surf the web</I> in English, as well
+as <I>surfer</I> in French. ThoughtTreasure also includes lexical entries
+for different dialects (American, British, Canadian, regional) and styles
+(literary, standard, informal, slang).
+<P>
+The <I>guessEventLength</I> function continues by looping over each of
+the meanings returned by <I>tag</I>, for lexical entries found
+anywhere in the summary description of the calendar event. It
+retrieves the typical durations of those meanings, and takes the
+average. (No attempt is made to disambiguate the lexical entries.)
+<P>
+Here is how a typical duration is found: The <I>retrieve</I> API
+function is invoked on the retrieval pattern:
+<BLOCKQUOTE><PRE>
+duration-of surf-web ?
+</PRE></BLOCKQUOTE>
+where <TT>surf-web</TT> is one of the meanings of a lexical entry
+found in the input text. The question mark <TT>?</TT> is a wild card
+that matches anything. In this case, the wild card will match the
+duration value.
+<P>
+The fourth argument to <I>retrieve</I> is "anc", which specifies that
+the function should move up ThoughtTreasure's object hierarchy on the
+index 1, as specified by the second argument to <I>retrieve</I>. If
+the duration of <TT>surf-web</TT> is not found, the duration of its
+parent <TT>leisure-activity</TT> will be returned. If this is not
+found, the duration of <TT>script</TT>, the parent of
+<TT>leisure-activity</TT>, will be returned.
+<P>
+The first argument to <I>retrieve</I> is 2, which specifies that index
+2 of the retrieved assertion should be returned, in this case the
+duration. -1 can be used here if the entire assertion should be
+returned.
+<P>
+The result of <I>retrieve</I> is something like:
+<BLOCKQUOTE><PRE>
+[NUMBER 3600 secs]
+</PRE></BLOCKQUOTE>
+represented as a Java Object made up of Vector, String, and
+Double. The <I>getMinutes</I> function is used to pick out the
+duration from this Object and return it as a double in minutes.
+<P>
+In taking the average of the various retrieved duration values, any
+duration greater than or equal to 720 minutes is thrown out since it
+probably doesn't apply to a calendar appointment.
+<P>
+The <I>main</I> function prints out the result (or "unknown" if
+nothing was found) and closes the connection to the ThoughtTreasure
+server.
+<H3>Determining where an object is typically found</H3>
+<P>
+Listing Two (located at the end of this article) shows the second
+program, WhereDoIFind.java, which determines where a physical object
+is typically found. The program takes a single command-line argument
+containing natural language text describing a physical object. Here
+are some sample runs of the program:
+<BLOCKQUOTE><PRE>
+$ java WhereDoIFind "Tropicana orange juice"
+A small city food store.
+$ java WhereDoIFind "lettuce"
+A small city food store.
+$ java WhereDoIFind "minibar"
+A hotel room.
+$ java WhereDoIFind "runway"
+A John F. Kennedy international terminal.
+$
+</PRE></BLOCKQUOTE>
+<P>
+The <I>main</I> function opens a connection to ThoughtTreasure and
+then invokes <I>whereDoIFind</I>, which invokes the <I>tag</I> API
+function to convert the input text into ThoughtTreasure objects. The
+<I>whereDoIFindObj</I> function is invoked on each object.
+<P>
+ThoughtTreasure contains a number of ASCII grids that represent
+stereotypical locations such as a hotel room:
+<BLOCKQUOTE><PRE>
+==Park-Plaza-1E//
+wwwwwwwwwwww    b:bed
+wbbbbb    mw    d:lockable-door
+wbbbbb     w    m:minibar
+wx        Zw    w:wall
+wwwwwwdddwww    x:phone
+w               x:night-table
+wwwwwwwwwwww    Z.wd:hotel-room
+</PRE></BLOCKQUOTE>
+<P>
+This grid can be taken literally as a particular room in the Park
+Plaza Hotel, or used to guess how any hotel room might be
+arranged.
+<P>
+The key on the right specifies which objects are associated with which
+characters: "w" represents a wall and "b" represents a bed. Contiguous
+characters in the grid represent single objects. So there is only one
+bed, which occupies all the cells containing a "b".
+<P>
+The hotel room is defined by filling a region of the grid. "Z.wd"
+specifies to fill all cells reachable from the "Z" character without
+going through a "w" (wall) or a "d" (door).
+<P>
+The <I>whereDoIFindObj</I> function starts by determining what grids
+contain the given object. The <I>retrieve</I> API function is invoked
+with the pattern:
+<BLOCKQUOTE><PRE>
+at-grid minibar
+</PRE></BLOCKQUOTE>
+where any descendants of <TT>minibar</TT> (types or instances of
+minibar) are allowed to match. Assertions such as the following are
+returned:
+<BLOCKQUOTE><PRE>
+[at-grid minibar1934
+         Park-Plaza-1E
+         [GRIDSUBSPACE [NUMBER 1 u] [NUMBER 10 u]]]
+</PRE></BLOCKQUOTE>
+So far we know that a particular minibar (<TT>minibar1934</TT>) is
+located in a particular grid (<TT>Park-Plaza-1E</TT>) in a particular
+cell location (row 1, column 10). The <I>whatIsInGridAt</I> function
+is invoked on that grid and cell location to determine what, if any,
+other objects in the grid are present in the cell location.
+<P>
+The <I>whatIsInGridAt</I> function starts by retrieving all objects in
+the given grid. Among them are <TT>lamp1924</TT> and
+<TT>hotel-room1952</TT>. It invokes <I>isContainedIn</I> on each
+object.
+<P>
+The <I>isContainedIn</I> function first retrieves the location of a
+candidate enclosing object. For <TT>hotel-room1952</TT> the following
+assertion is retrieved:
+<BLOCKQUOTE><PRE>
+[at-grid hotel-room1952 Park-Plaza-1E [GRIDSUBSPACE ...]]
+</PRE></BLOCKQUOTE>
+where <TT>GRIDSUBSPACE ...</TT> includes all of the cells that
+constitute the hotel room area. The function then tests whether any of
+these cells is the same as the cell of the minibar. If so, it returns
+true and <I>whatIsInGridAt</I> prints out the name of the enclosing
+object. It invokes the <I>generate</I> API function to convert the
+object name into English.
+<H3>Other API functions</H3>
+<P>
+In this article I've shown how to use the <I>tag</I>, <I>retrieve</I>,
+<I>generate</I>, and <I>close</I> methods of the TTConnection
+class. The following other methods are provided:
+<UL>
+<LI><I>ancestors</I>: Returns the ancestors of an object.
+<LI><I>bringdown</I>: Forces ThoughtTreasure to break out of the
+server select loop, so that it can process further ThoughtTreasure
+shell commands.
+<LI><I>chatterbot</I>: Sends natural language input text to the
+chatterbot and returns the natural language response.
+<LI><I>children</I>: Returns the children of an object.
+<LI><I>clearCache</I>: Clears the cache.
+<LI><I>clearContext</I>: Clears the discourse context.
+<LI><I>conceptToLexEntries</I>: Returns the lexical entries associated
+with an object.
+<LI><I>descendants</I>: Returns the descendants of an object.
+<LI><I>ISA</I>: Tests whether an object is of a specified class.
+<LI><I>isPartOf</I>: Tests whether an object is a part of another object.
+<LI><I>parents</I>: Returns the parents of an object.
+<LI><I>phraseToConcepts</I>: Returns the objects for a lexical entry.
+<LI><I>semanticParse</I>: Semantically parses natural language text.
+<LI><I>status</I>: Returns the status of the ThoughtTreasure server: "up"
+or "down".
+<LI><I>syntacticParse</I>: Syntactically parses natural language text.
+</UL>
+<P>
+For information on how to use these other methods, see the complete
+<A HREF="../java/doc/index.html">Java-based client API documentation</A>.
+<H3>Summing up</H3>
+<P>
+As computing becomes more ubiquitous with the advent of the Internet,
+it becomes more and more important for computers to understand the
+human world. ThoughtTreasure presents a picture of this world to
+computer programs. Using the Java-based client API or the socket
+protocol, it is easy to make use of ThoughtTreasure's knowledge
+base in applications.
+<HR>
+<H3>Listing One</H3>
+<PRE>
+/*
+ * HowManyMinutesIs.java
+ *
+ * Uses ThoughtTreasure to guess the length of a calendar event
+ * in minutes.
+ *
+ * Usage: java HowManyMinutesIs "summary of calendar event"
+ * 
+ */
+
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+import net.erikmueller.tt.*;
+
+public class HowManyMinutesIs {
+
+protected static final double NA = (double)-999999999.0;
+protected static boolean DEBUG = false;
+
+public static void main(String args[])
+{
+  if (args.length != 1) {
+    System.err.println("Usage: java HowManyMinutesIs \"summary\"");
+    System.exit(1);
+  }
+  String summary = args[0];
+  try {
+    TTConnection tt = new TTConnection("somehost", 1832);
+    TTConnection.DEBUG = DEBUG;
+    double length = guessEventLength(summary, tt);
+    if (length != NA) {
+      System.out.println(length);
+    } else {
+      System.out.println("unknown");
+    }
+    tt.close();
+  } catch (Exception e) {
+    System.err.println("Trouble processing \""+summary+"\":");
+    e.printStackTrace(System.out);
+    System.exit(1);
+  }
+}
+
+protected static double guessEventLength(String summary, TTConnection tt)
+throws IOException
+{
+  Vector parseNodes = tt.tag(String.valueOf(TT.F_ENGLISH), summary);
+  double sum = 0.0, count = 0.0;
+  for (Enumeration e1 = parseNodes.elements(); e1.hasMoreElements(); ) {
+    TTPNode parseNode = (TTPNode)e1.nextElement();
+    if (parseNode.leo == null || parseNode.leo.objname == null) continue;
+    String objname = parseNode.leo.objname;
+    Vector objects = tt.retrieve(2, 1, -1, "anc", "duration-of "+objname+" ?");
+    for (Enumeration e2 = objects.elements(); e2.hasMoreElements(); ) {
+      double minutes = getMinutes(e2.nextElement());
+      if (minutes != NA) {
+        if (DEBUG) System.err.println(objname+": "+minutes);
+        if (minutes &lt; 720.0) {
+          sum += minutes;
+          count += 1.0;
+        }
+      }
+    }
+  }
+  if (count == 0.0) return NA;
+  return sum/count;
+}
+
+protected static double getMinutes(Object o)
+{
+  try {
+    return (((Double)((Vector)o).elementAt(1)).doubleValue())/60.0;
+  } catch (Exception e) {
+    return NA;
+  }
+}
+
+}
+</PRE>
+<HR>
+<H3>Listing Two</H3>
+<PRE>
+/*
+ * WhereDoIFind.java
+ *
+ * Uses ThoughtTreasure to determine where a physical object is
+ * typically found.
+ *
+ * Usage: java WhereDoIFind "name of a physical object"
+ */
+
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+import net.erikmueller.tt.*;
+
+public class WhereDoIFind {
+
+protected static final double NA = (double)-999999999.0;
+protected static boolean DEBUG = false;
+
+public static void main(String args[])
+{
+  if (args.length != 1) {
+    System.err.println("Usage: java WhereDoIFind \"physical object\"");
+    System.exit(1);
+  }
+  String physobj = args[0];
+  try {
+    TTConnection tt = new TTConnection("somehost", 1832);
+    whereDoIFind(physobj, tt);
+    tt.close();
+  } catch (Exception e) {
+    System.err.println("Trouble processing \""+physobj+"\":");
+    e.printStackTrace(System.out);
+    System.exit(1);
+  }
+}
+
+protected static void whereDoIFind(String physobj, TTConnection tt)
+throws IOException
+{
+  Vector parseNodes = tt.tag(String.valueOf(TT.F_ENGLISH), physobj);
+  for (Enumeration e = parseNodes.elements(); e.hasMoreElements(); ) {
+    TTPNode parseNode = (TTPNode)e.nextElement();
+    if (parseNode.leo == null || parseNode.leo.objname == null) continue;
+    whereDoIFindObj(parseNode.leo.objname, tt);
+  }
+}
+
+protected static void whereDoIFindObj(String enclosed0, TTConnection tt)
+throws IOException
+{
+  Vector objects = tt.retrieve(-1, -1, 1, "desc", "at-grid "+enclosed0);
+  for (Enumeration e = objects.elements(); e.hasMoreElements(); ) {
+    try {
+      Vector assertion = (Vector)e.nextElement();
+      String enclosed = (String)assertion.elementAt(1);
+      String grid = (String)assertion.elementAt(2);
+      Vector gss = (Vector)assertion.elementAt(3);
+      int x = getCoord((Vector)gss.elementAt(1));
+      int y = getCoord((Vector)gss.elementAt(2));
+      whatIsInGridAt(grid, x, y, enclosed, tt);
+    } catch (Exception f) {
+      f.printStackTrace(System.out);
+    }
+  }
+}
+
+protected static void whatIsInGridAt(String grid, int x, int y, String enclosed,
+                                     TTConnection tt)
+throws IOException
+{
+  Vector objects = tt.retrieve(1, -1, -1, "exact", "at-grid ? "+grid);
+  for (Enumeration e = objects.elements(); e.hasMoreElements(); ) {
+    try {
+      String enclosing = (String)e.nextElement();
+      if (enclosing.equals(enclosed)) continue;
+      if (isContainedIn(grid, x, y, enclosing, tt)) {
+        if (DEBUG) System.out.print(enclosed+" in "+enclosing+": ");
+        System.out.println(tt.generate(String.valueOf(TT.F_ENGLISH),
+                                       enclosing));
+      }
+    } catch (Exception f) {
+      f.printStackTrace(System.out);
+    }
+  }
+}
+
+protected static boolean isContainedIn(String grid, int x0, int y0,
+                                       String enclosing, TTConnection tt)
+throws IOException
+{
+  Vector objects =
+    tt.retrieve(-1, -1, 1, "desc", "at-grid "+enclosing+" "+grid);
+  for (Enumeration e = objects.elements(); e.hasMoreElements(); ) {
+    try {
+      Vector assertion = (Vector)e.nextElement();
+      Vector gss = (Vector)assertion.elementAt(3);
+      int size = gss.size();
+      if (size &lt; 4) continue;
+      for (int i = 1; i &lt; size; i += 2) {
+        int x1 = getCoord((Vector)gss.elementAt(i));
+        int y1 = getCoord((Vector)gss.elementAt(i+1));
+        if (x0 == x1 &amp;&amp; y0 == y1) return true;
+      }
+    } catch (Exception f) {
+      f.printStackTrace(System.out);
+    }
+  }
+  return false;
+}
+
+protected static int getCoord(Vector number)
+{
+  try {
+    return ((Double)number.elementAt(1)).intValue();
+  } catch (Exception e) {
+    e.printStackTrace(System.out);
+    return -1;
+  }
+}
+
+}
+</PRE>
+<HR>
+<H3>The ThoughtTreasure commonsense platform</H3>
+The ThoughtTreasure natural language and commonsense platform has been
+under development since 1994. It includes:
+<UL>
+<LI>a database of concepts and assertions,
+<LI>an English and French lexicon,
+<LI>text agents for recognizing words, phrases, names, and phone numbers,
+<LI>mechanisms for learning new words,
+<LI>a syntactic parser,
+<LI>a natural language generator,
+<LI>a semantic parser for producing a surface-level understanding of a
+sentence,
+<LI>an anaphoric parser for resolving pronouns,
+<LI>planning agents for achieving goals on behalf of simulated actors, and
+<LI>understanding agents for producing a more detailed understanding
+of a discourse.
+</UL>
+<P>
+Applications of ThoughtTreasure include information extraction, story
+understanding, story generation, and personal information management.
+<P>
+-E.T.M.
+<HR>
+</BODY>
+</HTML>

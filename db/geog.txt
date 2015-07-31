@@ -1,0 +1,2602 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+; Standard objnames:
+; country-XXX where XXX is 3-letter uppercase ISO 3166 country code
+; state-XX-USA where XX is 2-letter U.S. Postal Service state abbreviation
+; city-NAME-XX-USA, city-NAME-XXX
+; USA-zip-XXXXX where XXXXX is a U.S. Postal Service 5-digit zip code
+;_______________________________________________________________________________
+=Africa.z//Afrique.¹Fy/|coordinates-of=10.00N22.00Ecoor|
+==country-DZA//Algeria.¹z/Algérie.¹Fy/|coordinates-of=28.00N3.00Ecoor|
+phone-prefix-of=STRING:cc:"213"|
+=====city-Algiers-DZA//Algiers.z/
+==country-AGO//Angola.¹z/Angola.¹My/République* populaire*A d#R'Angola#M.Fy/
+|phone-prefix-of=STRING:cc:"244"|official-language-of=Portuguese|
+==country-BEN//Benin.¹z/Bénin.¹My/|phone-prefix-of=STRING:cc:"229"|
+official-language-of=F121|
+==country-BWA//Botswana.¹z/Botswana.¹My/|phone-prefix-of=STRING:cc:"267"|
+official-language-of=F122|
+==country-BVT/island/Bouvet# Island*.¹z/
+==country-BFA//Burkina# Faso*.¹z/Burkina.¹My/Burkina# Faso#.My/
+Burkina#-Faso#.My/|official-language-of=F121|phone-prefix-of=STRING:cc:"226"|
+=*===city-Ouagadougou-BFA//Ouagadougou.z/Ouagadougou.y/
+==country-BDI//Burundi.¹z/Burundi.¹My/Urundi.oy/
+|phone-prefix-of=STRING:cc:"257"|official-language-of=F121|
+==country-CMR//Cameroon.¹z/Cameroun.¹My/|phone-prefix-of=STRING:cc:"237"|
+official-language-of=F121|
+==country-CPV//Cape# Verde*.¹z/
+==country-CAF//Central#A African#A Republic*.¹z/
+République* centrafricaine*A.¹Fy/
+|phone-prefix-of=STRING:cc:"236"|official-language-of=F121|
+==country-TCD//Chad.¹z/
+==country-COM/island/Comoros.¹Pïz/Comoro#S Islands*.Pïz/
+==country-COG//Congo.¹z/Congo.¹My/|phone-prefix-of=STRING:cc:"242"|
+official-language-of=F121|
+==country-COD//Democratic#A Republic* of#R the#D Congo#.¹z/Congo,DROC.z/
+Belgian#A Congo*,Kinshasa,Zaire,Leopoldville.oz/Zaïre.oMy/
+|phone-prefix-of=STRING:cc:"243"|official-language-of=F121|
+=====city-Kinshasa-COD//Kinshasa.z/
+==country-DJI//Djibouti.¹z/Djibouti.¹My/|phone-prefix-of=STRING:cc:"253"|
+official-language-of=F121|
+==country-EGY//Egypt.¹z/Égypte.¹Fy/Egypte.Fy/|phone-prefix-of=STRING:cc:"20"|
+other-language-of=F122|
+=====city-Alexandria-EGY//Alexandria.z/
+=====city-Cairo-EGY//Cairo.z/
+==country-GNQ//Equatorial#A Guinea*.¹z/
+==country-ERI//Eritrea.¹z/
+==country-ETH//Ethiopia.¹z/Éthiopie.¹Fy/Ethiopie.Fy/
+|phone-prefix-of=STRING:cc:"251"|
+=====city-Adis-Abeba-ETH//Adis# Abeba*.z/
+==country-GAB//Gabon.¹z/Gabon.¹My/|phone-prefix-of=STRING:cc:"241"|
+official-language-of=F121|
+==Senegambia.z//; region
+==country-GMB//Gambia.¹z/Gambie.¹Fy/|phone-prefix-of=STRING:cc:"220"|
+official-language-of=F122|
+==country-GHA//Ghana.¹z/Ghana.¹My/|phone-prefix-of=STRING:cc:"233"|
+==country-ISR//Israel.¹z/Israël.¹My/|phone-prefix-of=STRING:cc:"972"|
+other-language-of=F122|
+=====city-Haifa-ISR//Haifa.z/
+=====city-Jerusalem-ISR//Jerusalem.z/
+=====city-Tel-Aviv-ISR//Tel# Aviv*.z/
+==country-WE//West#A Bank*.kz/
+==country-GZ//Gaza# Strip*.kz/
+=====Gaza# City*.z//
+==country-GIN//Guinea.¹z/
+==country-GNB//Guinea#-Bissau*.¹z/
+==country-CIV//Ivory# Coast*.¹z/Cote# d#'Ivoire*.z/Côte*-d#R'Ivoire#M.¹Fy/
+|phone-prefix-of=STRING:cc:"225"|official-language-of=F121|
+=====city-Abidjan-CIV//Abidjan.z/
+==country-KEN//Kenya.¹z/Kenya.¹My/|phone-prefix-of=STRING:cc:"254"|
+official-language-of=F122|
+=====city-Nairobi-KEN//Nairobi.z/
+==country-LSO//Lesotho.¹z/Lesotho.¹My/|phone-prefix-of=STRING:cc:"266"|
+official-language-of=F122|
+==country-LBR//Liberia.¹z/Libéria.¹My/Liberia.My/
+|phone-prefix-of=STRING:cc:"231"|official-language-of=F122|
+=====city-Monrovia-LBR//Monrovia.z/
+==country-LBY//Libya.¹z/Libyan#A Arab#A Jamahiriya*.z/Libye.¹Fy/
+|phone-prefix-of=STRING:cc:"218"|
+=====city-Tripoli-LBY//Tripoli.z/
+==country-MDG//Madagascar.¹z/Madagascar.¹y/|phone-prefix-of=STRING:cc:"261"|
+official-language-of=F121|
+=====city-Antananarivo-MDG//Antananarivo.z/
+==Madeira.z//Madère.y/|phone-prefix-of=STRING:cc:"351"|
+==country-MWI//Malawi.¹z/Malawi.¹My/|phone-prefix-of=STRING:cc:"265"|
+official-language-of=F122|
+==country-MLI//Mali.¹z/Mali.¹y/|phone-prefix-of=STRING:cc:"223"|
+official-language-of=F121|
+==country-MRT//Mauritania.¹z/Mauritanie.¹Fy/|phone-prefix-of=STRING:cc:"222"|
+official-language-of=F121|
+==country-MAR//Morocco.¹z/Maroc.¹My/|phone-prefix-of=STRING:cc:"212"|
+=====city-Casablanca-MAR//Casablanca.z/
+=====city-Rabat-MAR//Rabat.z/
+==country-MOZ//Mozambique.¹z/Mozambique.¹My/|phone-prefix-of=STRING:cc:"258"|
+official-language-of=Portuguese|
+==country-NAM//Namibia.¹z/Namibie.¹Fy/|phone-prefix-of=STRING:cc:"264"|
+official-language-of=F122|
+==country-NER//Niger.¹z/Niger.¹My/|phone-prefix-of=STRING:cc:"227"|
+==country-NGA//Nigeria.¹z/Nigeria.¹My/Nigeria.¹Fy/
+|phone-prefix-of=STRING:cc:"234"|
+=====city-Lagos-NGA//Lagos.z/
+==country-RWA//Rwanda.¹z/Rwanda.¹y/Ruanda.y/|phone-prefix-of=STRING:cc:"250"|
+official-language-of=F121|
+==country-SHN//Saint# Helena*.¹z/St\.#A Helena*.z/
+==country-STP//Sao# Tome# and#K Principe*.¹z/Sao# Tome*,Principe.z/
+==country-SEN//Senegal.¹z/Sénégal.¹My/|phone-prefix-of=STRING:cc:"221"|
+official-language-of=F121|
+=====city-Dakar-SEN//Dakar.z/
+==country-SLE//Sierra# Leone*.¹z/Sierra# Leone#.¹Fy/
+|phone-prefix-of=STRING:cc:"232"|official-language-of=F122|
+==country-SOM//Somalia.¹z/Somalie.¹Fy/|phone-prefix-of=STRING:cc:"252"|
+==country-ZAF//South#A Africa*.¹z/Afrique* du#R Sud#M.¹Fy/
+|phone-prefix-of=STRING:cc:"27"|official-language-of=F122|
+=====city-Cape-Town-ZAF//Cape# Town*.z/
+=====city-Johannesburg-ZAF//Johannesburg.z/
+=====city-Pretoria-ZAF//Pretoria.z/
+==country-SDN//Sudan.¹z/Soudan.¹My/|phone-prefix-of=STRING:cc:"249"|
+other-language-of=F122|
+=====city-Khartoum-SDN//Khartoum.z/
+==country-SWZ//Swaziland.¹z/Ngwane.¹My/Swaziland.My/
+|phone-prefix-of=STRING:cc:"268"|official-language-of=F122|
+==country-TZA//Tanzania.¹z/United#A Republic* of#R Tanzania#.z/
+Tanzanie.¹Fy/|phone-prefix-of=STRING:cc:"255"|
+official-language-of=F122|
+=====city-Dar-es-Salaam-TZA//Dar# es# Salaam*.z/
+==country-TGO//Togo.¹z/Togo.¹y/|phone-prefix-of=STRING:cc:"228"|
+official-language-of=F121|
+==country-TUN//Tunisia.¹z/Tunisian.Az/Tunisie.¹Fy/
+|phone-prefix-of=STRING:cc:"216"|
+=====city-Tunis-TUN//Tunis.z/
+==country-UGA//Uganda.¹z/Ouganda.¹My/|phone-prefix-of=STRING:cc:"256"|
+official-language-of=F122|
+=====city-Kampala-UGA//Kampala.z/
+==country-ESH//Western#A Sahara*.¹z/
+==country-ZMB//Zambia.¹z/Zambie.¹Fy/|phone-prefix-of=STRING:cc:"260"|
+official-language-of=F122|
+==country-ZWE//Zimbabwe.¹z/Zimbabwe.¹y/|phone-prefix-of=STRING:cc:"263"|
+official-language-of=F122|
+=====city-Harare-ZWE//Harare.z/
+;_______________________________________________________________________________
+=Antarctica.z//Antarctic.kz/antarctic.Az/Antarctique.kMy/
+|coordinates-of=87.00S60.00Ecoor|
+==country-ATA//Antarctica.¹z/Antarctique.kMy/
+;_______________________________________________________________________________
+=Asia.z//Asie.Fy/|coordinates-of=50.00N100.00Ecoor|
+==country-AFG//Afghanistan.¹z/Afg.z/Afghan.z/Afghanistan.¹My/
+==country-AT/island/Ashmore#S and#K Cartier#S Islands*.Pïz/
+Ashmore# Island*,Cartier# Island*.z/Ashmore,Cartier.z/
+==country-AUS//Australia.¹z/Australie.¹Fy/|phone-prefix-of=STRING:cc:"61"|
+official-language-of=F122|
+===country-CR/island/Coral#A Sea#S Islands*.Pïz/
+=====city-Adelaide-AUS//Adelaide.z/
+=====city-Brisbane-AUS//Brisbane.z/
+=====city-Broken-Hill-AUS//Broken#V Hill*.z/
+=====city-Canberra-AUS//Canberra.z/
+=====city-Darwin-AUS//Darwin.z/
+=====city-Hobart-AUS//Hobart.z/
+=====city-Lord-Howe-Island-AUS//Lord# Howe# Island*.z/
+=====city-Melbourne-AUS//Melbourne.z/
+=====city-Perth-AUS//Perth.z/
+=====city-Sydney-AUS//Sydney.z/
+===country-CXR/island/Christmas# Island*.¹z/|phone-prefix-of=STRING:cc:"672"|
+=====city-Christmas-Island-AUS//Christmas# Island*.z/
+===country-CCK/island/Cocos# Islands*.Pïz/Keeling# Islands*.Pïz/Cocos.¹y/
+Keeling.y/|phone-prefix-of=STRING:cc:"672"|
+===country-HMD/island/Heard#S and#K McDonald#S Islands*.¹Pïz/
+Heard# Island*,McDonald# Island*.z/
+===country-NFK/island/Norfolk# Island*.¹z/Norfolk.¹y/
+|phone-prefix-of=STRING:cc:"672"|
+==country-BHR//Bahrain.¹z/Bahrein.z/Bahreïn.¹My/
+|phone-prefix-of=STRING:cc:"973"|
+==country-BGD//Bangladesh.¹z/Bangladesh.¹My/|phone-prefix-of=STRING:cc:"880"|
+other-language-of=F122|
+=====city-Dhaka-BGD//Dhaka.z/
+==country-BRN//Brunei.¹z/Brunei# Darussalam*.z/Brunei.My/Brunei# Darussalam#.My/
+|phone-prefix-of=STRING:cc:"673"|other-language-of=F122|
+==country-BTN//Bhutan.¹z/
+==country-KHM//Cambodia.¹z/
+==country-CHN//China.¹z/People#P's Republic# of#R China*,PRC.z/
+Chine.¹Fy/Chine* R\.# P\.#.Fy/République* populaire*A de#R Chine#.Fy/|
+phone-prefix-of=STRING:cc:"86"|official-language-of=mandarin|
+other-language-of=cantonais|
+=====city-Beijing-CHN//Beijing.z/
+=====city-Chengdu-CHN//Chengdu.z/
+=====city-Chongqing-CHN//Chongqing.z/
+=====city-Guangzhou-CHN//Guangzhou.z/
+=====city-Harbin-CHN//Harbin.z/
+=====city-Hong-Kong-CHN//Hong# Kong*.z/Hongkong.z/
+=====city-Mukden-CHN//Mukden.z/
+=====city-Nanjing-CHN//Nanjing.z/
+=====city-Peking-CHN//Peking.z/
+=====city-Shanghai-CHN//Shanghai.z/
+=====city-Tientsin-CHN//Tientsin.z/
+=====city-Urumqi-CHN//Urumqi.z/
+=====city-Wuhan-CHN//Wuhan.z/
+=====city-Xian-CHN//Xian.z/
+==country-CYP//Cyprus.¹z/Chypre.¹y/|phone-prefix-of=STRING:cc:"357"|
+==country-TMP//East#A Timor*.¹z/
+==country-FJI/island/Fiji#S Islands*.Pïz/Fiji.z/îles* Fidji#S.¹FPïy/
+îles* Fiji#S.¹FPïy/Fiji.Fy/Fidji.Fy/|phone-prefix-of=STRING:cc:"679"|
+official-language-of=F122|
+==country-HKG//Hong#j Kong*j.¹z/Hongkong.z/Hong#j Kong*j.Fy/Hong#j-Kong*j.Fy/
+|phone-prefix-of=STRING:cc:"852"|official-language-of=F122|
+==country-IND//India.¹z/Inde.¹Fy/|phone-prefix-of=STRING:cc:"91"|
+other-language-of=F122|
+=====city-Bangalore-IND//Bangalore.z/
+=====city-Bombay-IND//Bombay.z/
+=====city-Calcutta-IND//Calcutta.z/
+=====city-Delhi-IND//Delhi.z/
+=====city-Madras-IND//Madras.z/
+==Kashmir//Kashmir.z/|part-of=country-IND,country-PAK|
+==country-IDN//Indonesia.¹z/Indonésie.¹Fy/|phone-prefix-of=STRING:cc:"62"|
+=====city-Jakarta-IDN//Jakarta.z/
+==country-IRN//Iran.¹z/Islamic#A Republic* of#R Iran#.z/Iran.¹My/
+|phone-prefix-of=STRING:cc:"98"|
+=====city-Tehran-IRN//Tehran.z/
+==country-IRQ//Iraq.¹z/Irak.¹My/|phone-prefix-of=STRING:cc:"964"|
+=====city-Baghdad-IRQ/urban/Baghdad.z/
+==country-JPN//Japan.¹z/Japon.My/Empire* du#R Soleil#-Levant#V.kMy/
+|phone-prefix-of=STRING:cc:"81"|official-language-of=japonais|
+=====city-Nagoya-JPN//Nagoya.z/
+=====city-Osaka-JPN//Osaka.z/
+=====city-Sapporo-JPN//Sapporo.z/
+=====city-Tokyo-JPN/urban/Tokyo.z/Tokyo.y/|@1993:naÐ|population-of=8386030u|
+==country-JOR//Jordan.¹z/Jordanie.¹Fy/|phone-prefix-of=STRING:cc:"962"|
+=====city-Amman-JOR//Amman.z/
+==country-KIR//Kiribati.¹z/Kiribati.¹y/|phone-prefix-of=STRING:cc:"686"|
+official-language-of=F122|
+==Korea.z//Corée.¹Fy/
+===country-PRK//North#A Korea*.¹z/
+Democratic#A People#S's Republic* of#R Korea#.z/
+Corée* du#R Nord#M.¹Fy/Corée* RPD#.Fy/
+République* populaire*A démocratique*A de#R Corée#.Fy/
+|phone-prefix-of=STRING:cc:"850"|
+===country-KOR//South#A Korea*.¹z/Republic# of#R Korea*.z/Corée* du#R Sud#M.¹Fy/
+République* de#R Corée#.Fy/|phone-prefix-of=STRING:cc:"82"|
+=====city-Seoul-KOR//Seoul.z/
+==country-KWT//Kuwait.¹z/Koweït.¹My/Kuwayt.My/|phone-prefix-of=STRING:cc:"965"|
+=====city-Al-Kuwayt-KWT//Al#-Kuwayt*.z/
+==country-LAO//Lao# People#P's Democratic#A Republic*.¹z/Laos.z/
+==country-LBN//Lebanon.¹z/Lebanon.ky/Liban.¹My/Liban.kMy/
+|phone-prefix-of=STRING:cc:"961"|
+=====city-Beirut-LBN//Beirut.z/
+==country-MAC//Macau.¹z/Macao.¹y/|phone-prefix-of=STRING:cc:"853"|
+==country-MYS//Malaysia.¹z/Malaysia.¹Fy/Malaisie.Fy/
+|phone-prefix-of=STRING:cc:"60"|other-language-of=F122|
+==country-MDV//Maldives.¹z/Maldives.¹y/îles* Maldives#CS.FPïy/
+|phone-prefix-of=STRING:cc:"960"|official-language-of=F122|
+==country-MUS//Mauritius.¹z/Maurice.¹Fy/|phone-prefix-of=STRING:cc:"230"|
+official-language-of=F121,F122|
+==country-MNG//Mongolian# People#P's Republic*.¹z/Mongolia.¹z/Mongolie.¹Fy/
+République* populaire*A mongole*A.¹Fy/|phone-prefix-of=STRING:cc:"976"|
+=====city-Ulaanbaatar-MNG//Ulaanbaatar.z/
+==Inner#A Mongolia*.z//Mongolie*-Intérieure*A.¹Fy/
+==country-MMR//Myanmar.¹z/Union* of#R Myanmar#.z/Burma.¹z/Birmanie.¹Fy/
+Union* de#R Myanma#C.tFy/|phone-prefix-of=STRING:cc:"95"|other-language-of=F122|
+=====city-Yangon-MMR//Yangon.z/
+==country-NRU//Nauru.¹z/Nauru.¹y/|phone-prefix-of=STRING:cc:"674"|
+official-language-of=F122|
+==country-NPL//Nepal.¹z/Népal.¹My/Nepal.My/|phone-prefix-of=STRING:cc:"977"|
+==country-NZL//New#A Zealand*.¹z/Nouvelle*A-Zélande*.¹Fy/
+|phone-prefix-of=STRING:cc:"64"|official-language-of=F122|
+=====city-Auckland-NZL//Auckland.z/
+=====city-Wellington-NZL//Wellington.z/
+===country-NIU//Niue.¹z/
+===country-COK/island/Cook#S Islands*.¹Pïz/Cook.¹y/îles* Cook#CS.FPïy/
+|phone-prefix-of=STRING:cc:"682"|
+===country-TKL//Tokelau.¹z/
+==country-OMN//Oman.¹z/Oman.¹y/|phone-prefix-of=STRING:cc:"968"|
+==country-PAK//Pakistan.¹z/Pakistan.¹My/|phone-prefix-of=STRING:cc:"92"|
+other-language-of=F122|
+=====city-Karachi-PAK//Karachi.z/
+=====city-Lahore-PAK//Lahore.z/
+==country-PF//Paracel# Islands*.Pïz/
+==country-PG//Spratly# Islands*.Pïz/
+==country-PNG//Papua# New#A Guinea*.¹z/Papouasie* Nouvelle*A Guinée*.¹Fy/
+|phone-prefix-of=STRING:cc:"675"|
+=====city-Port-Moresby-PNG//Port# Moresby*.z/
+==country-PHL//Philippines.kPïz/Philippines.FPïy/
+|phone-prefix-of=STRING:cc:"63"|
+=====city-Manila-PHL//Manila.z/
+==country-QAT//Qatar.¹z/Qatar.¹y/|phone-prefix-of=STRING:cc:"974"|
+==country-SAU//Saudi# Arabia*.¹z/Arabie*F Saoudite*A.¹y/
+|phone-prefix-of=STRING:cc:"966"|
+=====city-Ar-Riyad-SAU//Ar#-Riyad*.z/
+=====city-Jiddah-SAU//Jiddah.z/
+=====city-Makkah-SAU//Makkah.z/
+==country-SYC//Seychelles.¹z/Seychelles.¹FPïy/|phone-prefix-of=STRING:cc:"248"|
+official-language-of=F121,F122|
+==country-SGP//Singapore.¹z/Singapour.¹y/|phone-prefix-of=STRING:cc:"65"|
+official-language-of=F122|
+=====city-Singapore-SGP//Singapore.z/
+==country-SLB/island/Solomon#S Islands*.Pïz/îles* Salomon#MS.¹FPïy/
+|phone-prefix-of=STRING:cc:"677"|official-language-of=F122|
+==country-LKA//Sri# Lanka*.¹z/Ceylan.¹y/Sri# Lanka#.y/
+|phone-prefix-of=STRING:cc:"94"|official-language-of=F122|
+==country-SYR//Syria.¹z/Syrian#A Arab#A Republic*.z/Syrie.¹Fy/
+|phone-prefix-of=STRING:cc:"963"|
+=====city-Damascus-SYR//Damascus.z/
+=====city-Halab-SYR//Halab.z/
+==country-TWN//Taiwan.¹z/Republic# of#R China*,ROC.z/
+Province* of#R China#.z/Taiwan.¹My/Formose.y/
+|phone-prefix-of=STRING:cc:"886"|
+=*===city-Taipei-TWN/urban/Taipei.z/Taipei.y/
+==country-THA//Thailand.¹z/Thaïlande.¹Fy/|phone-prefix-of=STRING:cc:"66"|
+=====city-Bangkok-THA//Bangkok.z/
+==country-TON/island/Tonga.¹z/Friendly#A Islands*.Pïy/Tonga.¹y/
+îles* des#R Amis#M.FPïy/|phone-prefix-of=STRING:cc:"676"|
+==country-TUV//Tuvalu.¹z/
+==country-ARE//United#A Arab#A Emirates*.¹Pïz/UAE.z/
+Émirats* arabes*A unis*A.¹MPïy/Emirats* arabes*A unis*A.¹MPïy/
+|phone-prefix-of=STRING:cc:"971"|
+==country-VIT//Vanuatu.¹z/Vanuatu.¹y/|phone-prefix-of=STRING:cc:"678"|
+official-language-of=F121|
+==country-VNM//Viet# Nam*.¹z/Vietnam.z/
+=====city-Hanoi-VNM//Hanoi.z/
+=====city-Saigon-VNM//Saigon.z/
+==country-WSM//Western#A Samoa*.¹z/Samoa.z/Samoa* Occidental*A.¹My/
+|phone-prefix-of=STRING:cc:"685"|
+==country-YEM//Yemen.¹z/Republic# of#R Yemen*.z/Yémen.¹My/
+République* yéménite*A.Fy/|phone-prefix-of=STRING:cc:"967",STRING:cc:"969"|
+;_______________________________________________________________________________
+=Europe.z//Continent.@kTz/Europe.Fy/Vieux*A Continent*.kTMy/
+|coordinates-of=50.00N20.00Ecoor|
+==country-AND//Andorra.¹z/Andorre.¹Fy/|phone-prefix-of=STRING:cc:"33628"|@1993|
+spinoff-of=country-FRA|@1994:naÐ|population-of=49000u|
+==country-BGR//Bulgaria.¹z/Bulgarie.¹Fy/|phone-prefix-of=STRING:cc:"359"|
+=====city-Burgas-BGR//Burgas.z/
+=====city-Sofia-BGR//Sofia.z/
+;_______________________________________________________________________________
+==country-GBR//United#A Kingdom*.¹kz/UK.kz/Royaume*-Uni*A.My/
+|phone-prefix-of=STRING:cc:"44"|coordinates-of=54.00N2.00Wcoor|
+official-language-of=F122|
+other-language-of=gallois,F121,scots,Scottish-Gaelic,Irish-Gaelic|
+other-language-of=manxois,cornique,jersiais|
+===country-AIA/UK-dependency/Anguilla.¹z/Anguilla.¹y/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=F122|
+===Ascension# Islands*.Pïz/island/Ascension.¹Fy/île* de#R l#D'Ascension#.Fy/
+|phone-prefix-of=STRING:cc:"247"|
+===country-BMU//Bermuda.¹z/Bermudes.¹kFPïy/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+===country-CYM/island/Cayman# Islands*.kPïz/Caïmans.¹FPïy/îles* Caïmans#.FPïy/
+Caymans.¹FPïy/îles* Caymans#.FPïy/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+===country-FLK/island/Falkland#S Islands*.¹kPïz/Malvinas.kPïz/
+Islas*Pj Malvinas*.kPïz/Falklands.kPïz/îles* Falkland#CS.¹FPïy/
+îles* Malouines#.oFPïy/|phone-prefix-of=STRING:cc:"500"|
+official-language-of=F122|
+===country-GK//Guernsey.z/
+===country-GIB//Gibraltar.¹z/Gibraltar.¹y/|phone-prefix-of=STRING:cc:"350"|
+official-language-of=F122|
+===country-IOT//British#A Indian#A Ocean# Territory*.¹z/
+===country-IM//Isle* of#R Man#.z/
+===country-JE//Jersey.z/
+===country-PCN//Pitcairn.¹z/Pitcairn#S Islands*.Pïz/
+===country-TCA/island/Turks# and#K Caicos# Islands*.Pïz/
+Turks# Islands*,Caicos# Islands*.Pïz/Turques# et#K Caïques#.¹Pïy/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=F122|
+===country-VGB/island/UK#S Virgin#S Islands*.¹Pïz/
+British#A Virgin#S Islands*.¹Pïz/Virgin#S Islands*.Pïz/
+îles* Vierges# Britanniques#A.¹FPïy/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=F122|
+;_______________________________________________________________________________
+===Great#A Britain*.z//Britain.z/Grande*A-Bretagne*.Fy/
+|part-of¤England,Scotland,Wales|
+;_______________________________________________________________________________
+===Northern#A Ireland*.z//Irlande* du#R Nord#M.Fy/
+=====city-Belfast-GBR//Belfast.z/
+;_______________________________________________________________________________
+===England.z//English.¹Az/Anglo.Az/|@1399:1413|king-of=Henry-IV-England|
+=====city-Birmingham-GBR//Birmingham.z/
+=====city-Cambridge-GBR//Cambridge.z/
+=====city-Lancaster-GBR//Lancaster.z/
+=====city-Liverpool-GBR//Liverpool.z/|other-language-of=Scouse|
+=====city-London-GBR/urban/London.Éz/Londres.My/
+======East#A End*.kz//East#A End* of#R London#.kz/
+=======Docklands.kPïz//
+========Canary# Wharf*.Éz//Canary# Wharf*.Éy/
+======Westminster.Éz//Westminster.y/
+======Winchester.Éz//Winchester.y/
+======City.kTz//Cité* de#R Londres#.kFy/
+=====city-Manchester-GBR//Manchester.z/
+=====city-Nottingham-GBR//Nottingham.z/
+=====city-Oxford-GBR//Oxford.z/
+;_______________________________________________________________________________
+===Scotland.z//Scottish.Az/Écosse.¹Fy/Ecosse.Fy/
+|other-language-of=Scottish-Gaelic|
+=====city-Aberdeen-GBR//Aberdeen.z/
+=====city-Edinburgh-GBR//Edinburgh.z/Edimbourg.y/
+|coordinates-of=55.57N3.13Wcoor|
+=====city-Glasgow-GBR//Glasgow.z/
+;_______________________________________________________________________________
+===Wales.z//Welsh.Az/pays* de#R Galles#FP.My/|other-language-of=gallois|
+=====city-Cardiff-GBR//Cardiff.z/
+=====city-Llanfairpwllgwyngyll-GBR//Llanfairpwllgwyngyll.z/
+|coordinates-of=53.13N4.12Wcoor|
+;_______________________________________________________________________________
+==country-IRL//Ireland.¹z/Republic* of#R Ireland#.z/Irish#A Republic*.z/
+Eire.zj/Irlande.¹Fy/République* d#R'Irlande#.Fy/Eire.yj/
+|official-language-of=Irish-Gaelic,F122|
+phone-prefix-of=STRING:cc:"353"|coordinates-of=53.00N8.00Wcoor|
+=====city-Cork-IRL//Cork.z/
+=*===city-Dublin-IRL/urban/Dublin.z/
+;_______________________________________________________________________________
+==country-VAT//Vatican# City*.¹z/Vatican# City# State*.z/
+Holy#A See*.z/Vatican.¹My/
+|phone-prefix-of=STRING:cc:"39"|
+;_______________________________________________________________________________
+==country-ITA//Italy.¹z/Italie.¹Fy/
+|coordinates-of=42.50N12.50Ecoor|phone-prefix-of=STRING:cc:"39"|
+official-language-of=italien|other-language-of=F121,allemand|
+other-language-of=sarde,Piedmontese,lombard,genois,Venetian-dialect,
+Emilian,marchois,ombrien,toscan,romanesco,abruzzain,napolitain,salentin,
+calabrais,sicilien,Bolzano,Slovenian,croate,albanais,grec,tsigane|
+=====city-Bologna-ITA//Bologna.z/
+=====city-Cagliari-ITA//Cagliari.z/
+=====city-Genoa-ITA//Genoa.z/Genova.jz/Gênes.¹y/Genova.jy/
+=====city-Milan-ITA//Milan.z/
+=====city-Milano-ITA//Milano.z/
+=====city-Naples-ITA//Naples.z/
+=====city-Palermo-ITA//Palermo.z/
+=====city-Rome-ITA//Rome.z/Roma.jz/Rome.Fy/Roma.jFy/
+;_______________________________________________________________________________
+==country-ESP//Spain.¹z/Espagne.¹Fy/
+|phone-prefix-of=STRING:cc:"34"|coordinates-of=40.00N4.00Wcoor|
+official-language-of=castillan|other-language-of=catalan,galicien,basque,
+aranais|
+other-language-of=andalou,aragonais,asturo-leonais,Portuguese,calo|
+=====city-Barcelona-ESP//Barcelona.z/
+=====city-Bilbao-ESP//Bilbao.z/
+=====city-Madrid-ESP//Madrid.z/
+=====city-Malaga-ESP//Malaga.z/
+=====city-Sevilla-ESP//Sevilla.z/
+=====city-Zaragoza-ESP//Zaragoza.z/
+===Canary#S Islands*.kPïz/island/Canaries.kPïz/Canaries.¹FPïy/
+îles* Canaries#.FPïy/|phone-prefix-of=STRING:cc:"34"|
+;_______________________________________________________________________________
+==country-BEL//Belgium.¹z/Belgique.¹Fy/|coordinates-of=50.50N4.00Ecoor|
+phone-prefix-of=STRING:cc:"32"|official-language-of=flamand,F121,allemand|
+other-language-of=wallon,picard,champenois|
+other-language-of=gaumais,luxembourgeois,limbourgeois,brabancon|
+=====city-Anvers-BEL//Anvers.z/
+=*===city-Brussels-BEL/urban/Brussels.z/Bruxelles.y/
+|@1985:naÐ|population-of=980196u|
+;_______________________________________________________________________________
+==country-LIE//Liechtenstein.¹z/Liechtenstein.¹My/
+|phone-prefix-of=STRING:cc:"41"|
+;_______________________________________________________________________________
+==country-LUX//Luxembourg.¹Éz/Luxembourg.¹My/|phone-prefix-of=STRING:cc:"352"|
+official-language-of=F121,luxembourgeois,allemand|
+;_______________________________________________________________________________
+==country-MLT//Malta.¹z/Malte.¹y/île* de#R Malte#C.Fy/
+|phone-prefix-of=STRING:cc:"356"|official-language-of=F122|
+;_______________________________________________________________________________
+==country-PRT//Portugal.¹Éz/Portugal.¹My/|phone-prefix-of=STRING:cc:"351"|
+official-language-of=Portuguese|other-language-of=leonais,calo|
+=====city-Azores-PRT//Azores.kPïz/Açores.kFPïy/|phone-prefix-of=STRING:cc:"351"|
+=====city-Lisboa-PRT//Lisboa.z/
+=====city-Lisbon-PRT//Lisbon.z/
+=====city-Porto-PRT//Porto.z/
+;_______________________________________________________________________________
+==country-SMR//San#j Marino*.¹z/Saint*A-Marin*.¹My/
+|phone-prefix-of=STRING:cc:"39"|
+;_______________________________________________________________________________
+==country-CHE//Switzerland.¹Éz/Suisse.¹kFy/
+|phone-prefix-of=STRING:cc:"41"|official-language-of=F121|
+=====city-Berne-CHE//Berne.z/
+=====city-Geneva-CHE/urban/Geneva.z/Genève.y/|coordinates-of=46.12N6.09Ecoor|
+@1993:naÐ|population-of=164400u|
+=====city-Zurich-CHE//Zurich.z/
+;_______________________________________________________________________________
+==country-NLD//Netherlands.¹kPïz/Pays*-Bas*.MPïy/
+|phone-prefix-of=STRING:cc:"31"|
+official-language-of=Dutch|other-language-of=frison,tsigane|
+=====city-Amsterdam-NLD//Amsterdam.z/
+=====city-Lent-NLD//Lent.z/
+=====city-Nijmegen-NLD//Nijmegen.z/
+=====city-Rotterdam-NLD//Rotterdam.z/
+===country-ANT//Netherlands# Antilles*.¹Pïz/Antilles* Néerlandaises*A.¹FPïy/
+|phone-prefix-of=STRING:cc:"599"|
+===country-ABW//Aruba.¹z/Aruba.¹y/|phone-prefix-of=STRING:cc:"297"|
+===Holland.Éz//Hollande.Fy/
+;_______________________________________________________________________________
+==country-DEU//Germany.¹Éz/Allemagne.¹Fy/|phone-prefix-of=STRING:cc:"49"|
+official-language-of=allemand|
+other-language-of=Danish,alemanique,austro-bavarois|
+other-language-of=francique,bas-saxon,haut-saxon,frison,sorabe|
+=====city-Bonn-DEU//Bonn.z/|phone-prefix-of=STRING:cc-city-code:"49228"|
+=====city-Dusseldorf-DEU//Dusseldorf.z/
+|phone-prefix-of=STRING:cc-city-code:"49211"|
+=====city-Frankfurt-DEU//Frankfurt.z/
+=====city-Hamburg-DEU//Hamburg.z/Hambourg.z/
+|phone-prefix-of=STRING:cc-city-code:"4940"|
+=====city-Berlin-DEU//Berlin.z/|phone-prefix-of=STRING:cc-city-code:"4930"|
+=====city-Leipzig-DEU//Leipzig.z/|phone-prefix-of=STRING:cc-city-code:"49341"|
+=====city-Munich-DEU//Munich.z/
+=====city-Nuremberg-DEU//Nuremberg.z/
+=====city-Rostock-DEU//Rostock.z/|phone-prefix-of=STRING:cc-city-code:"49381"|
+===East#A Germany*.Éz//RDA.Fy/République* démocratique*A allemande*A.Fy/
+Allemagne* de#R l#DM'Est#M.Fy/German#A Democratic#A Republic*.z/DDR.z/
+===West#A Germany*.Éz//RFA.Fy/République* fédérale*A de#R Allemagne#.Fy/
+Allemagne* de#R l#D'Ouest#M.Fy/Federal#A Republic# of#R Germany*.z/BRD.y/
+==country-NOR//Norway.¹Éz/Norvège.¹Fy/|phone-prefix-of=STRING:cc:"47"|
+=====city-Bergen-NOR//Bergen.z/
+=====city-Oslo-NOR//Oslo.z/
+=====city-Trondheim-NOR//Trondheim.z/
+==country-SJM/island/Svalbard#S and#K Jan#S Mayen#S Islands*.¹Pïz/
+Svalbard.z/Svalbard#S Islands*,Jan#S Mayen#S Islands*.¹Pïz/
+Svalbard,Jan# Mayen*.z/
+==country-SWE//Sweden.¹Éz/Suède.¹kFy/|phone-prefix-of=STRING:cc:"46"|
+=====city-Gothenburg-SWE//Gothenburg.z/
+=====city-Stockholm-SWE//Stockholm.z/
+==country-FIN//Finland.¹Éz/Finlande.¹kFy/|phone-prefix-of=STRING:cc:"358"|
+=====city-Helsinki-FIN//Helsinki.z/
+=====city-Rovaniemi-FIN//Rovaniemi.z/
+==country-DNK//Denmark.¹Éz/Danemark.¹My/|phone-prefix-of=STRING:cc:"45"|
+official-language-of=Danish|other-language-of=allemand,Faroese,inuktitut,frison|
+=====city-Alborg-DNK//Alborg.z/
+=====city-Copenhhagen-DNK//Copenhhagen.z/
+===country-FRO/island/Faroe# Islands*.Pïz/îles* Féroé#S.¹FPïy/
+îles* Faeroe#S.FPïy/|phone-prefix-of=STRING:cc:"298"|
+==country-POL//Poland.¹Éz/Pologne.¹Fy/|phone-prefix-of=STRING:cc:"48"|
+=====city-Danzig-POL//Danzig.z/
+=====city-Krakow-POL//Krakow.z/
+=====city-Poznan-POL//Poznan.z/
+=====city-Warsaw-POL//Warsaw.z/
+==Czechoslovakia.Éz//Tchécoslovaquie.Fy/|phone-prefix-of=STRING:cc:"42"|
+@19930101|dissolved|
+==country-SVK//Slovakia.¹Éz/Slovak#A Republic*.kz/Slovaquie.¹Fy/
+|phone-prefix-of=STRING:cc:"42"|@19930101|founded|
+==country-CZE//Czech#A Republic*.kz/République* Tchèque*A.kFy/
+|phone-prefix-of=STRING:cc:"42"|@19930101|founded|
+=====city-Brno-CZE//Brno.z/
+=====city-Prague-CZE//Prague.z/
+==country-AUT//Austria.¹Éz/Autriche.¹kFy/|phone-prefix-of=STRING:cc:"43"|
+=====city-Innsbruck-AUT//Innsbruck.z/
+=====city-Salzburg-AUT//Salzburg.z/Salzbourg.z/|@1993:naÐ|population-of=143970u|
+=====city-Vienna-AUT//Vienna.z/Wien.jz/Vienne.y/Wien.jy/
+==country-SVN//Slovenia.¹Éz/
+==country-YUG//Yugoslavia.¹Éz/Yougoslavie.¹Fy/|phone-prefix-of=STRING:cc:"381"|
+=====city-Belgrade-YUG//Belgrade.z/
+==country-BIH//Bosnia# and#K Hercegovina*.¹Éz/Bosnia# and#K Hercegowina*.Éz/
+Bosnia# and#K Herzegowina*.Éz/Bosnia# and#K Herzegovina*.Éz/
+Bosnia#-Hercegovina*.¹Éz/Bosnia#-Hercegowina*.¹Éz/
+Bosnia#-Herzegowina*.Éz/Bosnia#-Herzegovina*.Éz/Bosnia.Éz/
+Hercegovina,Hercegowina,Herzegowina,Herzegovina.Éz/
+Bosnie*-Herzégovine*.Fy/
+|phone-prefix-of=STRING:cc:"387"|
+==Bosnia.Éz//Bosnie.¹Fy/ex*ßA-Yougoslavie*.Fy/
+=*===city-Sarajevo-Bosnia//Sarajevo.z/
+==country-Kosovo//Kosovo.z/
+==country-SR//Serbia.z/
+==country-MW//Montenegro.z/
+==country-HRV//Croatia.¹Éz/Hrvatska.z/Croatie.Fy/ex*ßA-Yougoslavie*.Fy/
+==country-ALB//Albania.¹z/
+==country-MKD//Macedonia.z/Former#A Yugoslav#A Republic* of#R Macedonia#.z/
+=====city-Skopje-MKD//Skopje.z/
+==country-GRC//Greece.¹z/Grèce.¹Fy/|phone-prefix-of=STRING:cc:"30"|
+official-language-of=Modern-Greek|
+other-language-of=tsaconien,pontique,aroumain,Megleno-Rumanian,
+slavo-macedonien,pomaque|
+other-language-of=arvanitika,turc,Armenian,tsigane|
+=====city-Athens-GRC//Athens.z/
+=====city-Salonika-GRC//Salonika.z/
+==country-TUR//Turkey.¹z/Turquie.¹Fy/|phone-prefix-of=STRING:cc:"90"|
+=====city-Adana-TUR//Adana.z/
+=====city-Ankara-TUR//Ankara.z/
+=====city-Istanbul-TUR//Istanbul.z/
+=====city-Rodosto-TUR//Rodosto.z/; not in Atlas
+=====city-Smyrne-TUR//Smyrne.z/
+==country-ROM//Romania.¹z/Rumania.z/Roumanie.¹Fy/
+|phone-prefix-of=STRING:cc:"40"|
+=====city-Brasov-ROM//Brasov.z/
+=====city-Bucharest-ROM//Bucharest.z/
+==country-HUN//Hungary.¹z/Hongrie.¹Fy/|phone-prefix-of=STRING:cc:"36"|
+=*===city-Budapest-HUN/urban/Budapest.z/
+=====city-Hodmezovasarhely-HUN//Hodmezovasarhely.z/
+==country-BLR//Belarus.¹z/
+=====city-Minsk-BLR//Minsk.z/
+==country-LTU//Lithuania.¹z/
+=====city-Kaunus-LTU//Kaunus.z/
+=====city-Vilnius-LTU//Vilnius.z/
+==country-LVA//Latvia.¹z/
+=====city-Riga-LVA//Riga.z/
+==country-EST//Estonia.z/
+=====city-Tallin-EST//Tallin.z/
+=====city-Tartu-EST//Tartu.z/
+==USSR.z//Soviet#A Union*.z/URSS.¹kFy/Union* soviétique*A.¹kFy/
+|phone-prefix-of=STRING:cc:"7"|@1991|dissolved|
+==country-RUS//Russia.¹z/Russian#A Federation*.z/Russie.¹Fy/
+Fédération* de#R Russie#.Fy/|phone-prefix-of=STRING:cc:"7"|
+=====city-Bransk-RUS//Bransk.z/
+=====city-Chita-RUS//Chita.z/
+=====city-Irkutsk-RUS//Irkutsk.z/
+=====city-Jakutsk-RUS//Jakutsk.z/
+=====city-Jaroslavl-RUS//Jaroslavl.z/
+=====city-Jekaterinburg-RUS//Jekaterinburg.z/
+=====city-Kaliningrad-RUS//Kaliningrad.z/
+=====city-Krasnojarsk-RUS//Krasnojarsk.z/
+=====city-Moscow-RUS//Moskow.z/Moskow.jz/
+=====city-Novgorod-RUS//Novgorod.z/
+=====city-Novosibirsk-RUS//Novosibirsk.z/
+=====city-Omsk-RUS//Omsk.z/
+=====city-Perm-RUS//Perm.z/
+=====city-Samara-RUS//Samara.z/
+=====city-St-Petersburg-RUS//St\.#A Petersburg*.z/
+=====city-Tomsk-RUS//Tomsk.z/
+=====city-Tula-RUS//Tula.z/
+=====city-Tver-RUS//Tver.z/
+===Tchetchenie//Tchétchénie.Fy/
+==country-GEO//Georgia.¹z/country* of#R Georgia#.qz/Géorgie.¹Fy/
+|phone-prefix-of=STRING:cc:"7"|
+=====city-Tbilisi-GEO//Tbilisi.z/
+==country-ARM//Armenia.¹z/Arménie.¹Fy/|phone-prefix-of=STRING:cc:"7"|
+=====city-Jerevan-ARM//Jerevan.z/
+==country-AZE//Azerbaijan.¹z/Azerbaïdjan.¹My/République*A Azerbaïdjanaise*A.Fy/
+|phone-prefix-of=STRING:cc:"994"|
+=====city-Baku-AZE//Baku.z/
+==country-KAZ//Kazakhstan.¹z/Kazakstan.z/Kazakhstan.¹My/Kazakhie.Fy/
+|phone-prefix-of=STRING:cc:"7"|
+=====city-Alma-Ata-KAZ//Alma#-Ata*.z/
+=====city-Celinograd-KAZ//Celinograd.z/
+=====city-Semipalatinsk-KAZ//Semipalatinsk.z/
+==country-KGZ//Kyrgyzstan.¹z/
+==Byelorussia.z//Biélorussie.Fy/
+==Kirghizstan.z//Kirghizia.z/Kirghizistan.¹My/|phone-prefix-of=STRING:cc:"7"|
+==country-MDA//Moldova.¹z/Republic* of#R Moldova#.z/Moldavie.¹Fy/
+|phone-prefix-of=STRING:cc:"373"|
+==country-UZB//Uzbekistan.¹z/Ouzbékistan.My/|phone-prefix-of=STRING:cc:"7"|
+=====city-Taskent-UZB//Taskent.z/
+==country-TJK//Tajikistan.¹z/Tadjikistan.¹My/|phone-prefix-of=STRING:cc:"7"|
+==country-TKM//Turkmenistan.¹z/Turkménistan.My/|phone-prefix-of=STRING:cc:"7"|
+==country-UKR//Ukraine.Éz/Ukraine.okz/Ukraine.¹kFy/
+|phone-prefix-of=STRING:cc:"7"|
+=====city-Kharkiv-UKR//Kharkiv.z/
+=====city-Kharkov-UKR//Kharkov.z/
+=====city-Kiev-UKR//Kiev.z/
+=====city-Kyyiv-UKR//Kyyiv.z/
+=====city-Odesa-UKR//Odesa.z/
+==country-ISL/island/Iceland.¹z/Islande.¹Fy/|phone-prefix-of=STRING:cc:"354"|
+=====city-Reykjavik-ISL//Reykjavik.z/
+==country-MCO//Monaco.¹z/Monaco.¹y/principauté* de#R Monaco#C.Fy/
+|phone-prefix-of=STRING:cc:"3393"|official-language-of=F121|
+===Monte*-Carlo*.y//
+;_______________________________________________________________________________
+==country-FRA//France.¹Éz/Republic# of#R France#.kz/French#A Republic*.kz/
+Republic.kz/Fifth#A Republic*.qkz/France.¹kFy/Hexagone.kTMy/
+République* française*A.kFy/République.kTFy/|phone-prefix-of=STRING:cc:"33"|
+coordinates-of=46.00N2.00Ecoor|
+surface-area-of=543965km2|official-language-of=F121|
+other-language-of=picard,wallon,haut-normand,lorrain-romain,bourguignon,
+franc-comtois,francien,orleanais,berrichon,champenois,bas-normand,anglo-normand,
+gallo,mayennais,manceau,poitevin,tourangeau,saintongeais,Franco-Provencal,
+limousin,auvergnat,provencal-alpin,languedocien,provencal-maritime,
+nicart,gascon,bearnais,catalan,corse,flamand,alsacien,lorrain-francique,
+breton,basque,tsigane|
+@1589:1610|king-of=Henry-IV-France|
+@1940:19440820|head-of-state-of=Philippe-Petain|
+@19440820:194511|head-of-state-of=de-Gaulle|
+@194511:19460120|President-of=de-Gaulle|
+@19460120:194606|President-of=Felix-Gouin|
+@194606:194611|President-of=Georges-Bidault|
+@194611:194701|President-of=Leon-Blum|
+@1947:1954|President-of=Vincent-Auriol|
+@1954:1958|President-of=Rene-Coty|
+@1958:1969|President-of=de-Gaulle|
+@1969:1974|President-of=Georges-Pompidou|
+@1974:1981|President-of=Giscard|
+@1981:199505|President-of=Francois-Mitterrand|
+@199303:199505|prime-minister-of=Edouard-Balladur|
+@199505:na|President-of=Jacques-Chirac|
+===country-BS//Bassas#j da#Rj India*.z/
+===country-IP/island/Clipperton# Island*.z/
+===country-EU/island/Europa# Island*.z/
+===country-GO/island/Glorioso#S Islands*.Pïz/
+===country-FXX//Metropolitan#A France*.¹z/
+===country-GLP/DOM/Guadeloupe.¹z/Guadeloupe.¹Fy/
+|phone-prefix-of=STRING:cc:"590"|official-language-of=F121|
+===country-GUF/DOM/French#A Guiana*.z/Guyane* Française*A.Fy/
+|phone-prefix-of=STRING:cc:"594"|
+official-language-of=F121|
+===country-JU//Juan# de#Rj Nova#A Island*.z/
+===country-MTQ/DOM/Martinique.¹z/Martinique.¹Fy/
+|coordinates-of=14.40N61.00Wcoor|
+phone-prefix-of=STRING:cc:"596"|official-language-of=F121|@1993:naÐ|
+population-of=359572u|
+===country-MYT/coll-terr/Mayotte.¹z/Mayotte.¹Fy/
+|phone-prefix-of=STRING:cc:"269"|official-language-of=F121|
+@1994:naÐ|population-of=68000u|
+===country-NCL/TOM/New#A Caledonia*.¹z/Nouvelle*A-Calédone*.¹Fy/
+|phone-prefix-of=STRING:cc:"687"|official-language-of=F121|
+@1946:na|merger-of=country-FRA|@1994:naÐ|population-of=145000u|
+===country-PYF/TOM/French#A Polynesia*.z/Polynésie* Française*.Fy/
+|phone-prefix-of=STRING:cc:"689"|
+===country-REU/DOM/Reunion.¹z/Réunion.Fy/île* de#R la#D Réunion#.Fy/
+île* Bourbon#C.oFy/|phone-prefix-of=STRING:cc:"262"|
+@1946:naÐ|merger-of=country-FRA|
+===country-TE//Tromelin# Island*.z/
+===country-ATF//French#A Southern#A Territories*.¹Pïz/
+French#A Southern#A Lands*.¹Pïz/French#A Antarctic#A Lands*.¹Pïz/
+French#A Southern#A and#K Antarctic#A Lands*.¹Pïz/
+===country-SPM/coll-terr/Saint#A Pierre# and#K Miquelon*.¹z/
+St\.#A Pierre# and#K Miquelon*.z/St\.#A Pierre*,Saint#A Pierre*,Miquelon.z/
+St#A-Pierre#M-et#K-Miquelon#C.Fy/
+|phone-prefix-of=STRING:cc:"508"|official-language-of=F121|
+@1946:naÐ|merger-of=country-FRA|
+===country-WLF/TOM/Wallis*-et#K-Futuna*.y/Wallis* et#K Futuna*.y/
+Wallis# and#K Futuna*.z/Wallis,Futuna.z/
+|phone-prefix-of=STRING:cc:"681"|official-language-of=F121|
+@1959:naÐ|merger-of=country-FRA|@1994:naÐ|population-of=12000u|
+====Wallis#S Islands*.Pïz/island/
+====Futuna#S Islands*.Pïz/island/
+===Alsace.Fy//Alsace.z/
+====Bas*A-Rhin*.My//|postal-code-of=STRING:zip:"67"|
+==**=Strasbourg.My//|coordinates-of=48.35N7.45Ecoor|
+====Haut*A-Rhin*.My//|postal-code-of=STRING:zip:"68"|
+===*=Colmar.y//
+=====Mulhouse.y//|coordinates-of=47.45N7.20Ecoor|
+@1993:naÐ|population-of=109905u|
+===Aquitaine.y//
+====Dordogne.y//|postal-code-of=STRING:zip:"24"|
+===*=Perigueux//Périgueux.y/
+=====Cendrieux.y//
+====Gironde.y//|postal-code-of=STRING:zip:"33"|
+==**=Bordeaux.My//|coordinates-of=44.51N0.34Wcoor|
+====Landes.Pïy//Landes.kPïz/|postal-code-of=STRING:zip:"40"|
+===*=Mont*-de#R-Marsan#.My//
+====Lot*-et#K-Garonne*.y//|postal-code-of=STRING:zip:"47"|
+===*=Agen.y//
+====Pyrenees-Atlantiques//Pyrénées*-Atlantiques*A.FPy/
+|postal-code-of=STRING:zip:"64"|
+===*=Pau.z//Pau.y/
+=====Bayonne.y//
+=====Biarritz.y//|coordinates-of=43.29N1.33Wcoor|
+@1993:naÐ|population-of=28887u|
+=====Oloron*-Sainte*AF-Marie*F.y//
+===Auvergne.y//
+====Allier.y//|postal-code-of=STRING:zip:"03"|
+===*=Moulins.y//
+=====Montlucon//Montluçon.y/
+=====Vichy.y//|coordinates-of=46.08N3.26Ecoor|
+====Cantal.y//|postal-code-of=STRING:zip:"15"|
+===*=Aurillac.y//
+====Haute*A-Loire*.Fy//|postal-code-of=STRING:zip:"43"|
+===*=Le*D Puy*-en#R-Velay#.y//
+====Puy-de-Dome//Puy*-de#R-Dôme#.y/|postal-code-of=STRING:zip:"63"|
+==**=Clermont*-Ferrand*.y//|coordinates-of=45.47N3.05Ecoor|@1993:naÐ|
+population-of=140167u|
+===Bourgogne.Fy//Burgundy.z/
+====Cote-d-Or//Côte*-d#R'Or#M.Fy/|postal-code-of=STRING:zip:"21"|
+==**=Dijon.y//|coordinates-of=47.19N5.01Ecoor|
+====Nievre//Nièvre.y/|postal-code-of=STRING:zip:"58"|
+===*=Nevers.y//
+====Saone-Et-Loire//Saône*-Et#K-Loire*F.y/|postal-code-of=STRING:zip:"71"|
+===*=Macon//Mâcon.y/
+====Yonne.y//|postal-code-of=STRING:zip:"89"|
+===*=Auxerre.y//
+===Bretagne.y//Brittany.z/|other-language-of=breton|
+====Cotes-d-Armor//Côtes*-d#RS'Armor#S.FPy/|postal-code-of=STRING:zip:"22"|
+other-language-of=cornouaillais,tregorrois|
+===*=Saint*A-Brieuc*.My//
+=====Paimpol.y//|@1993:naÐ|population-of=8521u|
+====Finistere//Finistère.y/|postal-code-of=STRING:zip:"29"|
+other-language-of=leonard,cornouaillais|
+===*=Quimper.y//
+=====Brest.y//|coordinates-of=48.23N4.29Wcoor|
+=====Chateaulin//Châteaulin.y/
+=====Morlaix.y//
+=====Douarnenez.y//|coordinates-of=48.06N4.20Wcoor|
+@1993:naÐ|population-of=16701u|
+====Ille*-Et#K-Vilaine*.y//|postal-code-of=STRING:zip:"35"|@1993:naÐ|
+population-of=798718u|
+==**=Rennes.y/urban/|coordinates-of=48.07N1.41Wcoor|
+=====Fougeres//Fougères.y/
+=====Redon.y//
+=====Saint*A-Malo*.My//
+====Morbihan.y//|postal-code-of=STRING:zip:"56"|
+other-language-of=cornouaillais|
+=====Vannes.y//|other-language-of=vannetais|
+===Centre.y//
+====Cher.y//|postal-code-of=STRING:zip:"18"|
+===*=Bourges.y//Bourges.z/
+====Eure*-Et#K-Loir*.y//|postal-code-of=STRING:zip:"28"|
+===*=Chartres.y//
+====Indre.y//|postal-code-of=STRING:zip:"36"|
+===*=Chateauroux//Châteauroux.y/
+====Indre*-et#K-Lore*.y//|postal-code-of=STRING:zip:"37"|
+===*=Tours.y//|coordinates-of=47.23N0.41Ecoor|
+====Loir*-et#K-Cher*.My//Loir#-et#Kj-Cher*.kz/|postal-code-of=STRING:zip:"41"|
+===*=Blois.y//
+====Loiret.My//Loiret.z/|postal-code-of=STRING:zip:"45"|
+==**=Orleans//Orléans.Fy/
+===Champagne-Ardenne//Champagne*-Ardenne#F ½.My/
+====Ardennes.y//|postal-code-of=STRING:zip:"08"|
+===*=Charleville-Mezieres//Charleville*-Mézières*.y/
+====Aube.y//|postal-code-of=STRING:zip:"10"|
+===*=Troyes.y//
+====Marne.Fy//|postal-code-of=STRING:zip:"51"|
+==**=Chalons-sur-Marne//Châlons*-sur#R-Marne*F.y/
+=====Reims.y//|coordinates-of=49.15N4.02Ecoor|@1993:naÐ|population-of=185164u|
+====Haute*A-Marne*.Fy//|postal-code-of=STRING:zip:"52"|
+===Corse.y//
+====Corse*-du#R-Sud#M.y//|postal-code-of=STRING:zip:"2A"|
+==**=Ajaccio.y//
+====Haute*A-Corse*.Fy//|postal-code-of=STRING:zip:"2B"|
+===*=Bastia.y//
+===Franche-Comte//Franche*A-Comté*.Fy/
+====Doubs.y//|postal-code-of=STRING:zip:"25"|
+==**=Besancon//Besançon.y/
+=====Colombier-Chatelot//Colombier*-Châtelot*.y/
+====Jura.y//|postal-code-of=STRING:zip:"39"|
+===*=Lons*-le#D-Saunier*.y//
+====Haute-Saone//Haute*A-Saône*.Fy/|postal-code-of=STRING:zip:"70"|
+===*=Vesoul.y//
+====Territoire* de#R Belfort#.My//|postal-code-of=STRING:zip:"90"|
+===*=Belfort.y//
+===Ile-de-France//Île*-de#R-France#.Fy/couronne.kFy/petite*A couronne*.kFy/
+grande*A couronne*.kFy/|coordinates-of=49.00N2.20Ecoor|
+=***-Paris.My/urban/Paris.z/City* of#R Light#.Tz/
+ville* des#RP Lumières#P.kTFy/Ville* lumière*.kTFy/
+|coordinates-of=48.52N2.20Ecoor|surface-area-of=105km2|
+postal-code-of=STRING:zip:"75"|phone-prefix-of=STRING:cc:"331"|
+@-052|founded|@1817:naÐ|population-of=714000u|@1900:naÐ|population-of=2714000u|
+@1962:naÐ|population-of=2790000u|@1990:naÐ|population-of=2152423u|
+======1arr/urban/premier*A arrondissement*.kMy/premier.TkMy/
+first#A arrondissement*.kz/first.Tkz/|postal-code-of=STRING:zip:"75001"|
+======2arr/urban/deuxième#A arrondissement*.kMy/deuxième.TkMy/
+second#A arrondissement*.kz/second.Tkz/|postal-code-of=STRING:zip:"75002"|
+======3arr/urban/troisième#A arrondissement*.kMy/troisième.TkMy/
+third#A arrondissement*.kz/third.Tkz/|postal-code-of=STRING:zip:"75003"|
+======4arr/urban/quatrième#A arrondissement*.kMy/quatrième.TkMy/
+fourth#A arrondissement*.kz/fourth.Tkz/|postal-code-of=STRING:zip:"75004"|
+======5arr/urban/cinquième#A arrondissement*.kMy/cinquième.TkMy/
+fifth#A arrondissement*.kz/fifth.Tkz/|postal-code-of=STRING:zip:"75005"|
+======6arr/urban/sixième#A arrondissement*.kMy/sixième.TkMy/
+sixth#A arrondissement*.kz/sixth.Tkz/|postal-code-of=STRING:zip:"75006"|
+======7arr/urban/septième#A arrondissement*.kMy/septième.TkMy/
+seventh#A arrondissement*.kz/seventh.Tkz/|postal-code-of=STRING:zip:"75007"|
+======8arr/urban/huitième#A arrondissement*.kMy/huitième.TkMy/
+eighth#A arrondissement*.kz/eighth.Tkz/|postal-code-of=STRING:zip:"75008"|
+======9arr/urban/neuvième#A arrondissement*.kMy/neuvième.TkMy/
+ninth#A arrondissement*.kz/ninth.Tkz/|postal-code-of=STRING:zip:"75009"|
+======10arr/urban/dixième#A arrondissement*.kMy/dixième.TkMy/
+tenth#A arrondissement*.kz/tenth.Tkz/|postal-code-of=STRING:zip:"75010"|
+======11arr/urban/onzième#A arrondissement*.kMy/onzième.TkMy/
+eleventh#A arrondissement*.kz/eleventh.Tkz/|postal-code-of=STRING:zip:"75011"|
+======12arr/urban/douzième#A arrondissement*.kMy/douzième.TkMy/
+twelfth#A arrondissement*.kz/twelfth.Tkz/|postal-code-of=STRING:zip:"75012"|
+======13arr/urban/treizième#A arrondissement*.kMy/treizième.TkMy/
+thirteenth#A arrondissement*.kz/thirteenth.Tkz/
+|postal-code-of=STRING:zip:"75013"|
+======14arr/urban/quatorzième#A arrondissement*.kMy/quatorzième.TkMy/
+fourteenth#A arrondissement*.kz/fourteenth.Tkz/
+|postal-code-of=STRING:zip:"75014"|
+======15arr/urban/quinzième#A arrondissement*.kMy/quinzième.TkMy/
+fifteenth#A arrondissement*.kz/fifteenth.Tkz/|postal-code-of=STRING:zip:"75015"|
+======16arr/urban/seizième#A arrondissement*.kMy/seizième.TkMy/
+sixteenth#A arrondissement*.kz/sixteenth.Tkz/|postal-code-of=STRING:zip:"75016"|
+======17arr/urban/dix#A-septième#A arrondissement*.kMy/dix#A-septième#N.TkMy/
+seventeenth#A arrondissement*.kz/seventeenth.Tkz/
+|postal-code-of=STRING:zip:"75017"|
+======18arr/urban/dix#A-huitième#A arrondissement*.kMy/dix#A-huitième#N.TkMy/
+eighteenth#A arrondissement*.kz/eighteenth.Tkz/
+|postal-code-of=STRING:zip:"75018"|
+======19arr/urban/dix#A-neuvième#A arrondissement*.kMy/dix#A-neuvième#N.TkMy/
+nineteenth#A arrondissement*.kz/nineteenth.Tkz/
+|postal-code-of=STRING:zip:"75019"|
+======20arr/urban/vingtième#A arrondissement*.kMy/vingtième.TkMy/
+twentieth#A arrondissement*.kz/twentieth.Tkz/|postal-code-of=STRING:zip:"75020"|
+====Seine*-et#K-Marne*.Fy//|postal-code-of=STRING:zip:"77"|
+===*=Melun.y//
+=====Meaux.y//
+=====Provins.y//
+=====Fontainebleau.y//
+====Yvelines.y//|postal-code-of=STRING:zip:"78"|
+===*=Versailles.y//
+====Essonne.y//|postal-code-of=STRING:zip:"91"|
+===*=Evry.y//
+=====Orsay.y//
+=====Etampes//Étampes.y/
+=====Palaiseau.y//
+====Hauts*-de#RS-Seine#S.Py//|postal-code-of=STRING:zip:"92"|
+===*=Nanterre.y//
+=====Neuilly*-sur#R-Seine#F.y//Neuilly.y/|@1993:naÐ|
+population-of=62033u|
+=====Boulogne.y//Boulogne*-Billancourt*.y/
+====Seine*-Saint*A-Denis*M.y//|postal-code-of=STRING:zip:"93"|
+=====Saint*A-Ouen*.My//|@1993:naÐ|population-of=42611u|
+===*=Bobigny.y//
+====Val*-de#R-Marne#F.My//|postal-code-of=STRING:zip:"94"|
+===*=Creteil//Créteil.y/
+====Val*-de#R Oise#.My//|postal-code-of=STRING:zip:"95"|
+===*=Pontoise.y//
+=====Roissy*-en#R-France#F.y//|coordinates-of=49.00N2.31Ecoor|
+@1993:naÐ|population-of=2149u|
+===Languedoc*-Roussillon*.y//
+====Aude.y//|postal-code-of=STRING:zip:"11"|
+===*=Carcassonne.y//
+====Gard.y//|postal-code-of=STRING:zip:"30"|
+===*=Nimes//Nîmes.y/
+====Herault//Hérault.y/|postal-code-of=STRING:zip:"34"|
+==**=Montpellier.y//|coordinates-of=43.36N3.53Ecoor|
+=====Saint-Gely-du-Fesc//Saint*A-Gély*-du#R-Fesc#.My/
+|coordinates-of=43.42N3.48Ecoor|
+=====Sete//Sète.y/
+====Lozere//Lozère.y/|postal-code-of=STRING:zip:"48"|
+===*=Mende.y//
+====Pyrenees-Orientales//Pyrénées*-Orientales*A.FPy/
+|postal-code-of=STRING:zip:"66"|
+===*=Perpignan.y//|coordinates-of=42.42N2.54Ecoor|
+=====Prades.y//|coordinates-of=42.37N2.25Ecoor|@1993:naÐ|population-of=6445u|
+===Limousin.My//Limousin.kz/
+====Correze//Corrèze.y/|postal-code-of=STRING:zip:"19"|
+===*=Tulle.y//
+====Creuse.y//|postal-code-of=STRING:zip:"23"|
+===*=Gueret//Guéret.y/
+====Haute*A-Vienne*.Fy//|postal-code-of=STRING:zip:"87"|
+==**=Limoges.y//|coordinates-of=45.50N1.16Ecoor|
+===Pays* de#R la#D Loire#F.My//Loire.Fy/
+====Loire*-Atlantique*A.Fy//|postal-code-of=STRING:zip:"44"|
+==**=Nantes.y//|coordinates-of=47.13N1.33Wcoor|
+====Maine*-et#K-Loire*F.y//Maine#-et#Kj-Loire*.z/
+|postal-code-of=STRING:zip:"49"|
+===*=Angers.y//|coordinates-of=47.28N0.33Wcoor|
+=====Saumur.y//Saumur.z/
+====Mayenne.y//|postal-code-of=STRING:zip:"53"|
+===*=Laval.y//
+====Sarthe.y//|postal-code-of=STRING:zip:"72"|
+===*=Le*D Mans*.My//
+====Vendee//Vendée.y/|postal-code-of=STRING:zip:"85"|
+===*=La*D Roche*F-sur#R-Yon#.y//
+===Lorraine.y//
+====Meurthe*-et#K-Moselle*.y//|postal-code-of=STRING:zip:"54"|
+===*=Nancy.y//|coordinates-of=48.41N6.12Ecoor|
+====Meuse.y//|postal-code-of=STRING:zip:"55"|
+===*=Bar*-le#D-Duc#M.y//
+====Moselle.y//|postal-code-of=STRING:zip:"57"|
+==**=Metz.y//|coordinates-of=49.08N6.10Ecoor|
+====Vosges.y//|postal-code-of=STRING:zip:"88"|
+===*=Epinal//Épinal.y/
+===Midi-Pyrenees//Midi*-Pyrénées#FP.My/
+====Ariege//Ariège.y/|postal-code-of=STRING:zip:"09"|
+===*=Foix.y//|coordinates-of=42.58N1.37Ecoor|
+=====Mirepoix.y/rural/|coordinates-of=43.05N1.53Ecoor|
+====Aveyron.y//|postal-code-of=STRING:zip:"12"|
+===*=Rodez.y//
+====Haute*A-Garonne*.Fy//|postal-code-of=STRING:zip:"31"|
+==**=Toulouse.Fy//|coordinates-of=43.36N1.27Ecoor|
+====Gers.y//|postal-code-of=STRING:zip:"32"|
+===*=Auch.y//
+====Lot.y//|postal-code-of=STRING:zip:"46"|
+===*=Cahors.y//
+====Hautes-Pyrenees//Hautes*A-Pyrénées*.FPy/|postal-code-of=STRING:zip:"65"|
+===*=Tarbes.y//
+====Tarn.y//|postal-code-of=STRING:zip:"81"|
+===*=Albi.y//
+====Tarn*-et#K-Garonne*.y//|postal-code-of=STRING:zip:"82"|
+===*=Montauban.y//
+===Nord*-Pas*-de#R-Calais#.My//
+====Nord.y//|postal-code-of=STRING:zip:"59"|
+==**=Lille.y/urban/|coordinates-of=50.38N3.04Ecoor|
+====Pas*-de#R-Calais#.My//|postal-code-of=STRING:zip:"62"|
+===*=Arras.y//
+=====Bethune//Béthune.y/
+=====Boulogne*-sur#R-Mer#F.y//
+=====Calais.y//|coordinates-of=50.57N1.50Ecoor|
+=====Lens.y//
+=====Montreuil.y//
+=====Saint*A-Omer*.My//|coordinates-of=50.45N2.15Ecoor|
+===Haute*A-Normandie*.Fy//Normandie.Fy/
+====Eure.y//|postal-code-of=STRING:zip:"27"|
+===*=Evreux//Évreux.y/
+====Seine*-Maritime*A.y//|postal-code-of=STRING:zip:"76"|
+==**=Rouen.y//|coordinates-of=49.26N1.05Ecoor|
+=====Le*D Havre*.My//|coordinates-of=49.30N0.08Ecoor|@1993:naÐ|
+population-of=197219u|
+===Basse*A-Normandie*.Fy//Normandie.Fy/
+====Calvados.y//|postal-code-of=STRING:zip:"14"|
+==**=Caen.y//
+====Manche.y//|postal-code-of=STRING:zip:"50"|
+===*=Saint-Lo//Saint*A-Lô*.My/
+=====Cherbourg.y//|coordinates-of=49.39N1.38Wcoor|@1993:naÐ|
+population-of=28773u|
+====Orne.y//|postal-code-of=STRING:zip:"61"|
+===*=Alencon//Alençon.y/
+===Picardie.y//
+====Aisne.y//|postal-code-of=STRING:zip:"02"|
+===*=Laon.y//
+====Oise.y//|postal-code-of=STRING:zip:"60"|
+===*=Beauvais.y//
+====Somme.y//|postal-code-of=STRING:zip:"80"|
+==**=Amiens.y//|coordinates-of=49.54N2.18Ecoor|
+===Poitou*-Charentes#FP.kMy//Poitou.kMy/Poitou#-Charentes#P.¹kz/
+Poitou# region*.kz/
+====Charente.kFy//Charente.Éz/|postal-code-of=STRING:zip:"16"|
+===*=Angouleme//Angoulême.y/
+=====former-Touvre//Touvre.Fy/
+====Charente*-Maritime*A.kFy//Charente#-Maritime*.Éz/
+|postal-code-of=STRING:zip:"17"|
+===*=La*D Rochelle*.Fy//
+====Deux-Sevres//Deux*A-Sèvres*.Py/|postal-code-of=STRING:zip:"79"|
+===*=Niort.y//
+====Vienne.y//|postal-code-of=STRING:zip:"86"|
+==**=Poitiers.y//
+===Provence-Alpes-Cote-d-Azur//Provence*F-Alpes*F-Côte*F-d#R'Azur#M.Fy/
+====Alpes*F-de#R-Haute#A-Provence#F.y//|postal-code-of=STRING:zip:"04"|
+===*=Digne#A-les#DP-Bains#MP.y//
+====Hautes*A-Alpes*.FPy//|postal-code-of=STRING:zip:"05"|
+===*=Gap.y//
+====Alpes*-Maritimes*A.FPïy//Alps*-Maritimes*Aj.kPïz/
+|postal-code-of=STRING:zip:"06"|
+=====Menton.y//Menton.z/|@1993:naÐ|population-of=25314u|
+===*=Nice.y//Nice.z/|coordinates-of=43.42N7.15Ecoor|
+=====Cannes.y//Cannes.z/|coordinates-of=43.33N7.01Ecoor|
+====Bouches-du-Rhone//Bouches*-du#RMS-Rhône#M.FPy/
+|postal-code-of=STRING:zip:"13"|
+==**=Marseille.Fy/urban/|coordinates-of=43.18N5.24Ecoor|
+=====Aix*-en#R-Provence#.y//
+=====Arles.y//
+=====Istres.y//
+====Var.My//Var.kz/|postal-code-of=STRING:zip:"83"|
+===*=Toulon.y//
+=====Saint*A-Tropez*.My//|coordinates-of=43.16N6.38Ecoor|@1993:naÐ|
+population-of=5790u|
+====Vaucluse.y//|postal-code-of=STRING:zip:"84"|
+===*=Avignon.y//
+===Rhone-Alpes//Rhône*-Alpes#FP.My/
+====Ain.y//|postal-code-of=STRING:zip:"01"|
+===*=Bourg*-en#R-Bresse#.y//
+====Ardeche//Ardèche.y/Ardèche.kz/|postal-code-of=STRING:zip:"07"|
+===*=Privas.y//
+====Drome//Drôme.y/|postal-code-of=STRING:zip:"26"|
+===*=Valence.y//
+====Isere//Isère.y/|postal-code-of=STRING:zip:"38"|
+===*=Grenoble.y//|coordinates-of=45.10N5.43Ecoor|
+====Loire.y//|postal-code-of=STRING:zip:"42"|
+===*=Saint-Etienne//Saint*A-Étienne*.My/|coordinates-of=45.27N4.23Ecoor|
+====Rhone//Rhône.My/Rhône.kz/|postal-code-of=STRING:zip:"69"|
+==**=Lyon.My/urban/|coordinates-of=45.45N4.51Ecoor|
+====Savoie.y//|postal-code-of=STRING:zip:"73"|
+===*=Chambery//Chambéry.y/
+====Haute*A-Savoie*.Fy//|postal-code-of=STRING:zip:"74"|
+===*=Annecy.y//
+;_______________________________________________________________________________
+=North#A America*.z//Amérique* du#R Nord#M.Fy/|coordinates-of=45.00N100.00Wcoor|
+==country-ATG//Antigua# and#K Barbuda*.¹z/Antigua,Barbuda.z/
+Antigua# et#K Barbuda#.¹y/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+==country-BHS//Bahamas.¹kPïz/Bahamas.¹kFPïy/îles* Lucayes#CS.oFPïy/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=F122|
+=====city-Nassau-BHS//Nassau.z/
+==country-BLZ//Belize.¹z/Belize.¹My/|phone-prefix-of=STRING:cc:"501"|
+official-language-of=espagnol,F122|
+==Bequia.z//Bequia.y/|phone-prefix-of=STRING:cc:"1809"|
+==country-CRI//Costa# Rica*.¹z/Costa# Rica#.¹y/|phone-prefix-of=STRING:cc:"506"|
+official-language-of=espagnol|
+=====city-San-Jose-CRI//San#j Jose*.z/
+==country-CUB//Cuba.¹z/Cuba.¹My/|phone-prefix-of=STRING:cc:"53"|
+official-language-of=espagnol|
+=====city-Havana-CUB//Havana.z/
+==country-DMA//Dominica.¹z/
+==country-DOM//Dominican#A Republic*.¹z/République* dominicaine*A.¹Fy/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=espagnol|
+=====city-Santo-Domingo-DOM//Santo#j Domingo*.z/
+==country-SLV//El#Dj Salvador*.¹z/El#Dj Salvador#.¹y/
+|phone-prefix-of=STRING:cc:"503"|official-language-of=espagnol|
+=====city-San-Salvador-SLV//San#j Salvador*.z/
+==country-GRL//Greenland.¹z/Groenland.¹My/|phone-prefix-of=STRING:cc:"299"|
+==country-GRD//Grenada.¹z/Grenade.¹y/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+==country-GTM//Guatemala.¹z/Guatemala.¹y/|phone-prefix-of=STRING:cc:"502"|
+official-language-of=espagnol|
+=====city-Guatemala-GTM//Guatemala.z/
+==country-HTI//Haiti.¹z/Haïti.¹My/|phone-prefix-of=STRING:cc:"509"|
+official-language-of=F121|
+=====city-Port-au-Prince-HTI//Port#-au#Rj-Prince*.z/
+==country-HND//Honduras.¹z/Honduras.¹My/|phone-prefix-of=STRING:cc:"504"|
+official-language-of=espagnol|
+=====city-Tegucigalpa-HND//Tegucigalpa.z/
+==country-MEX//Mexico.¹z/Mexique.¹My/|phone-prefix-of=STRING:cc:"52"|
+official-language-of=espagnol|
+=====city-Acapulco-MEX//Acapulco.z/
+=====city-Cancun-MEX//Cancun.z/
+=====city-Chihuahua-MEX//Chihuahua.z/
+=====city-Ciudad-Juarez-MEX//Ciudad# Juarez*.z/
+=====city-Culiacan-MEX//Culiacan.z/
+=====city-Durango-MEX//Durango.z/
+=====city-Ensenada-MEX//Ensenada.z/
+=====city-Guadalajara-MEX//Guadalajara.z/
+=====city-Hermosillo-MEX//Hermosillo.z/
+=====city-Leon-MEX//Leon.z/
+=====city-Matamoros-MEX//Matamoros.z/
+=====city-Mazatlan-MEX//Mazatlan.z/
+=====city-Merida-MEX//Merida.z/
+=====city-Mexicali-MEX//Mexicali.z/
+=====city-Mexico-City-MEX//Mexico# City*.z/
+=====city-Monterrey-MEX//Monterrey.z/
+=====city-Nogales-MEX//Nogales.z/
+=====city-Nuevo Laredo-MEX//Nuevo#Aj Laredo*.z/
+=====city-Puebla-MEX//Puebla.z/
+=====city-San-Luis-Potosi-MEX//San#j Luis# Potosi*.z/
+=====city-Tampico-MEX//Tampico.z/
+=====city-Tijuana-MEX//Tijuana.z/
+=====city-Torreon-MEX//Torreon.z/
+=====city-Veracruz-MEX//Veracruz.z/
+==country-MSR//Montseratt.¹z/Montserrat.z/Montseratt.¹y/
+|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+==country-NIC//Nicaragua.¹z/Nicaragua.¹My/|phone-prefix-of=STRING:cc:"505"|
+official-language-of=espagnol|
+=====city-Managua-NIC//Managua.z/
+=====city-Tipitapa-NIC//Tipitapa.z/
+==country-PAN//Panama.¹z/Panama.¹y/|phone-prefix-of=STRING:cc:"507"|
+official-language-of=espagnol|
+=====city-Panama-PAN//Panama.z/
+==country-KNA//Saint#Aj Kitts* and#K Nevis*.¹z/St\.#Aj Kitts* and#K Nevis*.z/
+Saint#Aj Kitts*,St\.#Aj Kitts*.z/Nevis.z/Saint*A Kitts*.¹My/
+|phone-prefix-of=STRING:cc:"1809"|
+==country-LCA//Saint#Aj Lucia*.¹z/St\.#Aj Lucia*.z/Sainte*A Lucie*.¹Fy/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=F122|
+==country-VCT//Saint#Aj Vincent#S and#K the#DS Grenadines*.¹Pïz/
+St\.#Aj Vincent#S and#K the#DS Grenadines*.¹Pïz/
+Saint#Aj Vincent*,St\.#Aj Vincent*.z/Grenadines.kPïz/
+Saint*A Vincent*.¹My/
+|phone-prefix-of=STRING:cc:"1809"|official-language-of=F122|
+==Saipan.z//Saipan.¹y/|phone-prefix-of=STRING:cc:"670"|
+;_______________________________________________________________________________
+==country-CAN//Canada.¹z/Canada.¹My/
+|phone-prefix-of=STRING:cc:"1"|official-language-of=F122|
+===Alberta.z//
+=====city-Calgary-CAN//Calgary.z/
+==*==city-Edmonton-CAN//Edmonton.z/
+===British#A Columbia*.z//
+=====city-Vancouver-CAN//Vancouver.z/
+===Manitoba.z//
+==*==city-Winnipeg-CAN//Winnipeg.z/
+===Newfoundland.z//
+===New-Brunswick-Canada//New#A Brunswick*.z/Nouveau*A-Brunswick*.My/
+|official-language-of=F121|
+===Northwest#A Territories*.Pïz//
+===Nova# Scotia*.z//
+===Ontario.z//
+=*===city-Ottawa-CAN//Ottawa.z/
+==*==city-Toronto-CAN//Toronto.z/
+===Prince# Edward# Island*.z/island/
+===Quebec.z//Québec.My/|official-language-of=F121|
+=====city-Montreal-CAN//Montreal.z/Montréal.y/
+==*==city-Quebec-CAN//Quebec.z/Québec.My/
+===Saskatchewan.z//
+===Yukon# Territory*.z//
+;_______________________________________________________________________________
+==country-USA//United#A States#.¹kPïz/United#A States#P of#R America*.kz/
+US,USA.kz/Union,Republic.kz/States.kTPïz/americanism.Îz/stateside.Az/
+États#-Unis#A.¹kMPïy/Etats#-Unis#A.¹kMPïy/États#-Unis#A d#RS'Amérique#FS.kMPïy/
+Etats#-Unis#A d#RS'Amérique#FS.kMPïy/EU,USA.qkMPïy/américanisme.ÎMy/
+|coordinates-of=38.00N97.00Wcoor|surface-area-of=9363124km2|
+phone-prefix-of=STRING:cc:"1"|
+official-language-of=F122|other-language-of=espagnol|
+;postal-code-of="USA"|
+@17760704|founded|@1990:na|population-of=248710000u|
+@19610120:1963|President-of=Kennedy|
+@1963:19690120|President-of=LBJ|
+@19690120:1974|President-of=Nixon|
+@1974:19770120|President-of=Gerald-Ford|
+@19770120:19810120|President-of=Jimmy-Carter|
+@19810120:19890120|President-of=Reagan|
+@19890120:19930120|President-of=George-Bush|
+@19930120:na|President-of=Bill-Clinton|
+;_______________________________________________________________________________
+; territories
+===country-ASM//American#A Samoa*.¹z/US# Samoa*.z/Samoa* Américain*A.¹My/
+|phone-prefix-of=STRING:cc:"684"|
+===country-BQ//Navassa# Island*.z/
+===country-DQ//Jarvis# Island*.z/
+===country-FQ/island/Baker# Island*.z/
+===country-FSM//Micronesia.¹z/Federated#A States* of#R Micronesia#S.Pïz/
+Micronésie.¹Fy/
+===country-GUM//Guam.¹z/Guam.¹y/Guaham.y/|phone-prefix-of=STRING:cc:"671"|
+===country-HQ//Howland# Island*.z/
+===country-JQ//Johnston# Atoll*.z/
+===country-KQ//Kingman# Reef*.z/
+===country-LQ//Palmyra# Atoll*.z/
+===country-MQ//Midway#S Islands*.Pïz/
+===country-MNP/island/Northern#A Marianas*.¹Pïz/North#A Mariana#S Islands*.Pïz/
+Northern#A Mariana#S Islands*.Pïz/Mariannes.¹y/îles* Mariannes#C.Pïy/
+|part-of=country-USA|
+===country-PLW//Palau.¹z/
+===country-PRI/US-commonwealth/Puerto# Rico*.¹z/Porto# Rico*.oz/Porto# Rico#.Fy/
+Puerto# Rico#.Fy/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=espagnol|
+=====city-Bayamon-PRI//Bayamon.z/|coordinates-of=18.23N66.10Wcoor|
+population-of=202103u|
+=====city-Caguas-PRI//Caguas.z/|coordinates-of=18.14N66.02Wcoor|
+population-of=92429u|
+=====city-Carolina-PRI//Carolina.z/|coordinates-of=18.25N65.59Wcoor|
+population-of=162404u|
+=====city-Guaynabo-PRI//Guaynabo.z/|coordinates-of=18.23N66.07Wcoor|
+population-of=73385u|
+=====city-Mayaguez-PRI//Mayagüez.z/|coordinates-of=18.12N67.09Wcoor|
+population-of=83010u|
+=====city-Ponce-PRI//Ponce.z/|coordinates-of=17.59N66.37Wcoor|
+population-of=159151u|
+=====city-San-Juan-PRI//San#j Juan*.z/|coordinates-of=18.25N66.04Wcoor|
+population-of=426832u|
+===country-VIR/island/US#S Virgin#S Islands*.¹Pïz/Virgin#S Islands*.Pïz/
+îles* Vierges# Américaines#A.¹FPïy/
+|phone-prefix-of=STRING:cc-city-code:"1809"|official-language-of=F122|
+===country-UMI/island/United#A States# Minor#A Outlying#A Islands*.¹Pïz/
+===country-WQ/island/Wake# Atoll*.z/Wake# Island*.z/
+===country-MHL/island/Marshall#S Islands*.¹Pïz/
+;_______________________________________________________________________________
+===state-DC-USA//District* of#R Columbia#.z/
+=**==city-Washington-DC-USA/urban/City* of#R Washington#.z/Washington.z/
+Washington#\, DC*.z/DC.Tz/|coordinates-of=38.54N77.01Wcoor|
+population-of=606900u|
+;_______________________________________________________________________________
+; states
+;_______________________________________________________________________________
+===state-AK-USA//Alaska.z/Alaska.My/
+=====city-Anchorage-AK-USA//Anchorage.z/|coordinates-of=61.11N149.11Wcoor|
+population-of=226338u|
+==*==city-Juneau-AK-USA//Juneau.z/
+;_______________________________________________________________________________
+===state-AL-USA//Alabama.z/Alabama.y/
+=====city-Birmingham-AL-USA//Birmingham.z/|coordinates-of=33.32N86.48Wcoor|
+population-of=265968u|
+=====city-Dothan-AL-USA//Dothan.z/|coordinates-of=31.14N85.24Wcoor|
+population-of=53589u|
+=====city-Huntsville-AL-USA//Huntsville.z/|coordinates-of=34.42N86.38Wcoor|
+population-of=159789u|
+=====city-Mobile-AL-USA//Mobile.z/|coordinates-of=30.41N88.05Wcoor|
+population-of=196278u|
+==*==city-Montgomery-AL-USA//Montgomery.z/|coordinates-of=32.21N86.17Wcoor|
+population-of=187106u|
+=====city-Tuscaloosa-AL-USA//Tuscaloosa.z/|coordinates-of=33.14N87.32Wcoor|
+population-of=77759u|
+;_______________________________________________________________________________
+===state-AR-USA//Arkansas.z/Arkansas.y/
+=====city-Fort-Smith-AR-USA//Fort# Smith*.z/
+|coordinates-of=35.22N94.23Wcoor|population-of=72798u|
+=====city-Hope-AR-USA//Hope.z/
+==*==city-Little-Rock-AR-USA//Little#A Rock*.z/
+|coordinates-of=34.43N92.21Wcoor|population-of=175795u|
+=====city-North-Little-Rock-AR-USA//North#A Little#A Rock*.z/
+|coordinates-of=34.47N92.15Wcoor|population-of=61741u|
+=====city-Pine-Bluff-AR-USA//Pine# Bluff*.z/|coordinates-of=34.13N92.01Wcoor|
+population-of=57140u|
+;_______________________________________________________________________________
+===state-AZ-USA//Arizona.z/Arizona.y/
+=====city-Chandler-AZ-USA//Chandler.z/|coordinates-of=33.18N111.52Wcoor|
+population-of=90533u|
+=====city-Glendale-AZ-USA//Glendale.z/|coordinates-of=33.35N112.12Wcoor|
+population-of=148134u|
+=====city-Mesa-AZ-USA//Mesa.z/|coordinates-of=33.25N111.44Wcoor|
+population-of=288091u|
+=====city-Peoria-AZ-USA//Peoria.z/|coordinates-of=33.41N112.15Wcoor|
+population-of=50618u|
+==*==city-Phoenix-AZ-USA//Phoenix.z/|coordinates-of=33.33N112.04Wcoor|
+population-of=983403u|
+=====city-Scottsdale-AZ-USA//Scottsdale.z/|coordinates-of=33.41N111.52Wcoor|
+population-of=130069u|
+=====city-Tempe-AZ-USA//Tempe.z/|coordinates-of=33.23N111.56Wcoor|
+population-of=141865u|
+=====city-Tucson-AZ-USA//Tucson.z/|coordinates-of=32.12N110.54Wcoor|
+population-of=405390u|
+=====city-Yuma-AZ-USA//Yuma.z/|coordinates-of=32.41N114.37Wcoor|
+population-of=54923u|
+;_______________________________________________________________________________
+===state-CA-USA//California.z/Californie.Fy/
+=====city-Alameda-CA-USA//Alameda.z/|coordinates-of=37.45N122.17Wcoor|
+population-of=76459u|
+=====city-Alhambra-CA-USA//Alhambra.z/|coordinates-of=34.05N118.08Wcoor|
+population-of=82106u|
+=====city-Anaheim-CA-USA//Anaheim.z/|coordinates-of=33.50N117.52Wcoor|
+population-of=266406u|
+=====city-Antioch-CA-USA//Antioch.z/|coordinates-of=37.59N121.48Wcoor|
+population-of=62195u|
+=====city-Arden-Arcade-CA-USA//Arden#-Arcade*.z/
+|coordinates-of=38.36N121.23Wcoor|population-of=92040u|
+=====city-Bakersfield-CA-USA//Bakersfield.z/|coordinates-of=35.21N119.00Wcoor|
+population-of=174820u|
+=====city-Baldwin-Park-CA-USA//Baldwin# Park*.z/
+|coordinates-of=34.05N117.58Wcoor|population-of=69330u|
+=====city-Bellflower-CA-USA//Bellflower.z/|coordinates-of=33.53N118.08Wcoor|
+population-of=61815u|
+=====city-Berkeley-CA-USA/urban/Berkeley.z/|coordinates-of=37.52N122.16Wcoor|
+population-of=102724u|
+=====city-Buena-Park-CA-USA//Buena# Park*.z/|coordinates-of=33.51N118.00Wcoor|
+population-of=68784u|
+=====city-Burbank-CA-USA//Burbank.z/|coordinates-of=34.11N118.20Wcoor|
+population-of=93643u|
+=====city-Camarillo-CA-USA//Camarillo.z/|coordinates-of=34.13N119.02Wcoor|
+population-of=52303u|
+=====city-Carlsbad-CA-USA//Carlsbad.z/|coordinates-of=33.07N117.17Wcoor|
+population-of=63126u|
+=====city-Carson-CA-USA//Carson.z/|coordinates-of=33.50N118.15Wcoor|
+population-of=83995u|
+=====city-Cerritos-CA-USA//Cerritos.z/|coordinates-of=33.52N118.04Wcoor|
+population-of=53240u|
+=====city-Chino-CA-USA//Chino.z/|coordinates-of=34.00N117.41Wcoor|
+population-of=59682u|
+=====city-Chula-Vista-CA-USA//Chula# Vista*.z/|coordinates-of=32.38N117.03Wcoor|
+population-of=135163u|
+=====city-Citrus-Heights-CA-USA//Citrus# Heights*.z/
+|coordinates-of=38.41N121.17Wcoor|population-of=107439u|
+=====city-Clovis-CA-USA//Clovis.z/|coordinates-of=36.49N119.42Wcoor|
+population-of=50323u|
+=====city-Compton-CA-USA//Compton.z/|coordinates-of=33.54N118.14Wcoor|
+population-of=90454u|
+=====city-Concord-CA-USA//Concord.z/|coordinates-of=37.58N121.60Wcoor|
+population-of=111348u|
+=====city-Corona-CA-USA//Corona.z/|coordinates-of=33.52N117.34Wcoor|
+population-of=76095u|
+=====city-Costa-Mesa-CA-USA//Costa# Mesa*.z/|coordinates-of=33.40N117.55Wcoor|
+population-of=96357u|
+=====city-Daly-City-CA-USA//Daly# City*.z/|coordinates-of=37.41N122.28Wcoor|
+population-of=92311u|
+=====city-Davis-CA-USA//Davis.z/|coordinates-of=38.32N121.44Wcoor|
+=====city-Diamond-Bar-CA-USA//Diamond# Bar*.z/|coordinates-of=33.60N117.49Wcoor|
+population-of=53672u|
+=====city-Downey-CA-USA//Downey.z/|coordinates-of=33.56N118.08Wcoor|
+population-of=91444u|
+=====city-East-Los-Angeles-CA-USA//East#A Los#Dj Angeles*.z/
+|coordinates-of=34.02N118.10Wcoor|population-of=126379u|
+=====city-El-Cajon-CA-USA//El#Dj Cajon*.z/|coordinates-of=32.48N116.58Wcoor|
+population-of=88693u|
+=====city-El-Monte-CA-USA//El#Dj Monte*.z/|coordinates-of=34.04N118.02Wcoor|
+population-of=106209u|
+=====city-El-Toro-CA-USA//El#Dj Toro*.z/|coordinates-of=33.39N117.41Wcoor|
+population-of=62685u|
+=====city-Encinitas-CA-USA//Encinitas.z/|coordinates-of=33.03N117.16Wcoor|
+population-of=55386u|
+=====city-Escondido-CA-USA//Escondido.z/|coordinates-of=33.08N117.04Wcoor|
+population-of=108635u|
+=====city-Fairfield-CA-USA//Fairfield.z/|coordinates-of=38.15N122.02Wcoor|
+population-of=77211u|
+=====city-Florence-Graham-CA-USA//Florence#-Graham*.z/
+|coordinates-of=33.58N118.15Wcoor|population-of=57147u|
+=====city-Fontana-CA-USA//Fontana.z/|coordinates-of=34.06N117.27Wcoor|
+population-of=87535u|
+=====city-Fountain-Valley-CA-USA//Fountain# Valley*.z/
+|coordinates-of=33.43N117.57Wcoor|population-of=53691u|
+=====city-Fremont-CA-USA//Fremont.z/|coordinates-of=37.32N121.60Wcoor|
+population-of=173339u|
+=====city-Fresno-CA-USA//Fresno.z/|coordinates-of=36.47N119.48Wcoor|
+population-of=354202u|
+=====city-Fullerton-CA-USA//Fullerton.z/|coordinates-of=33.53N117.56Wcoor|
+population-of=114144u|
+=====city-Garden-Grove-CA-USA//Garden# Grove*.z/
+|coordinates-of=33.47N117.58Wcoor|population-of=143050u|
+=====city-Glendale-CA-USA//Glendale.z/|coordinates-of=34.11N118.15Wcoor|
+population-of=180038u|
+=====city-Hacienda-Heights-CA-USA//Hacienda# Heights*.z/
+|coordinates-of=33.60N117.58Wcoor|population-of=52354u|
+=====city-Hawthorne-CA-USA//Hawthorne.z/
+|coordinates-of=33.55N118.21Wcoor|population-of=71349u|
+=====city-Hayward-CA-USA//Hayward.z/|coordinates-of=37.38N122.06Wcoor|
+population-of=111498u|
+=====city-Hesperia-CA-USA//Hesperia.z/|coordinates-of=34.25N117.18Wcoor|
+population-of=50418u|
+=====city-Huntington-Beach-CA-USA//Huntington# Beach*.z/
+|coordinates-of=33.42N118.00Wcoor|population-of=181519u|
+=====city-Huntington-Park-CA-USA//Huntington# Park*.z/
+|coordinates-of=33.59N118.13Wcoor|population-of=56065u|
+=====city-Inglewood-CA-USA//Inglewood.z/|coordinates-of=33.57N118.21Wcoor|
+population-of=109602u|
+=====city-Irvine-CA-USA//Irvine.z/|coordinates-of=33.40N117.48Wcoor|
+population-of=110330u|
+=====city-La-Habra-CA-USA//La#Dj Habra*.z/|coordinates-of=33.56N117.57Wcoor|
+population-of=51266u|
+=====city-La-Mesa-CA-USA//La#Dj Mesa*.z/|coordinates-of=32.46N117.01Wcoor|
+population-of=52931u|
+=====city-Lakewood-CA-USA//Lakewood.z/|coordinates-of=33.51N118.07Wcoor|
+population-of=73557u|
+=====city-Lancaster-CA-USA//Lancaster.z/|coordinates-of=34.42N118.11Wcoor|
+population-of=97291u|
+=====city-Livermore-CA-USA//Livermore.z/|coordinates-of=37.42N121.46Wcoor|
+population-of=56741u|
+=====city-Lodi-CA-USA//Lodi.z/|coordinates-of=38.07N121.18Wcoor|
+population-of=51874u|
+=====city-Long-Beach-CA-USA//Long#A Beach*.z/|coordinates-of=33.47N118.10Wcoor|
+population-of=429433u|
+=====city-Los-Angeles-CA-USA/urban/Los#jD Angeles*.z/Los#jD Angeles*.My/
+|coordinates-of=34.07N118.25Wcoor|population-of=3485398u|
+=====city-Lynwood-CA-USA//Lynwood.z/|coordinates-of=33.55N118.12Wcoor|
+population-of=61945u|
+=====city-Merced-CA-USA//Merced.z/|coordinates-of=37.18N120.29Wcoor|
+population-of=56216u|
+=====city-Milpitas-CA-USA//Milpitas.z/|coordinates-of=37.26N121.54Wcoor|
+population-of=50686u|
+=====city-Mission-Viejo-CA-USA//Mission# Viejo*.z/
+|coordinates-of=33.37N117.39Wcoor|population-of=72820u|
+=====city-Modesto-CA-USA//Modesto.z/|coordinates-of=37.40N120.60Wcoor|
+population-of=164730u|
+=====city-Montebello-CA-USA//Montebello.z/|coordinates-of=34.01N118.07Wcoor|
+population-of=59564u|
+=====city-Monterey-Park-CA-USA//Monterey# Park*.z/
+|coordinates-of=34.03N118.08Wcoor|population-of=60738u|
+=====city-Moreno-Valley-CA-USA//Moreno# Valley*.z/
+|coordinates-of=33.56N117.13Wcoor|population-of=118779u|
+=====city-Mountain-View-CA-USA//Mountain# View*.z/
+|coordinates-of=37.24N122.05Wcoor|population-of=67460u|
+=====city-Napa-CA-USA//Napa.z/
+|coordinates-of=38.18N122.18Wcoor|population-of=61842u|
+=====city-National-City-CA-USA//National#A City*.z/
+|coordinates-of=32.40N117.06Wcoor|population-of=54249u|
+=====city-Newport-Beach-CA-USA//Newport# Beach*.z/
+|coordinates-of=33.37N117.55Wcoor|population-of=66643u|
+=====city-Norwalk-CA-USA//Norwalk.z/|coordinates-of=33.54N118.05Wcoor|
+population-of=94279u|
+=====city-Oakland-CA-USA//Oakland.z/|coordinates-of=37.46N122.13Wcoor|
+population-of=372242u|
+=====city-Oceanside-CA-USA//Oceanside.z/|coordinates-of=33.14N117.19Wcoor|
+population-of=128398u|
+=====city-Ontario-CA-USA//Ontario.z/|coordinates-of=34.03N117.36Wcoor|
+population-of=133179u|
+=====city-Orange-CA-USA//Orange.z/|coordinates-of=33.48N117.49Wcoor|
+population-of=110658u|
+=====city-Oxnard-CA-USA//Oxnard.z/|coordinates-of=34.12N119.13Wcoor|
+population-of=142216u|
+=====city-Palmdale-CA-USA//Palmdale.z/|coordinates-of=34.36N118.05Wcoor|
+population-of=68842u|
+=====city-Palo-Alto-CA-USA//Palo# Alto*.z/|coordinates-of=37.24N122.08Wcoor|
+population-of=55900u|
+=====city-Pasadena-CA-USA//Pasadena.z/|coordinates-of=34.10N118.08Wcoor|
+population-of=131591u|
+=====city-Pico-Rivera-CA-USA//Pico# Rivera*.z/|coordinates-of=33.59N118.05Wcoor|
+population-of=59177u|
+=====city-Pleasanton-CA-USA//Pleasanton.z/|coordinates-of=37.40N121.53Wcoor|
+population-of=50553u|
+=====city-Pomona-CA-USA//Pomona.z/|coordinates-of=34.04N117.46Wcoor|
+population-of=131723u|
+=====city-Rancho-Cucamonga-CA-USA//Rancho# Cucamonga*.z/
+|coordinates-of=34.07N117.34Wcoor|population-of=101409u|
+=====city-Redding-CA-USA//Redding.z/|coordinates-of=40.34N122.22Wcoor|
+population-of=66462u|
+=====city-Redlands-CA-USA//Redlands.z/|coordinates-of=34.03N117.10Wcoor|
+population-of=60394u|
+=====city-Redondo-Beach-CA-USA//Redondo# Beach*.z/
+|coordinates-of=33.51N118.23Wcoor|population-of=60167u|
+=====city-Redwood-City-CA-USA//Redwood# City*.z/
+|coordinates-of=37.31N122.12Wcoor|population-of=66072u|
+=====city-Rialto-CA-USA//Rialto.z/|coordinates-of=34.07N117.23Wcoor|
+population-of=72388u|
+=====city-Richmond-CA-USA//Richmond.z/|coordinates-of=37.57N122.22Wcoor|
+population-of=87425u|
+=====city-Riverside-CA-USA//Riverside.z/|coordinates-of=33.56N117.24Wcoor|
+population-of=226505u|
+=====city-Rosemead-CA-USA//Rosemead.z/|coordinates-of=34.04N118.05Wcoor|
+population-of=51638u|
+==*==city-Sacramento-CA-USA//Sacramento.z/|coordinates-of=38.34N121.28Wcoor|
+population-of=369365u|
+=====city-Salinas-CA-USA//Salinas.z/|coordinates-of=36.41N121.38Wcoor|
+population-of=108777u|
+=====city-San-Bernardino-CA-USA//San#j Bernardino*.z/
+|coordinates-of=34.08N117.18Wcoor|population-of=164164u|
+=====city-San-Diego-CA-USA//San#j Diego*.z/|coordinates-of=32.49N117.08Wcoor|
+population-of=1110549u|
+=====city-San-Francisco-CA-USA//San#j Francisco*.z/
+|coordinates-of=37.48N122.33Wcoor|population-of=723959u|
+=======SF-Richmond//Richmond.kz/
+=======SF-Sunset//Sunset.kz/
+=======SF-Fillmore//Fillmore.kz/
+=======SF-Haight//Haight.kz/
+=======SF-Marina//Marina.kz/
+=======SF-St-Francis-Woods//St\.#A Francis# Woods#P.z/
+=======SF-Seacliff//Seacliff.z/
+=======SF-Mission//Mission.z/
+=======SF-Tenderloin//Tenderloin.kz/
+=======SF-Chinatown//Chinatown.z/
+=======SF-North-Beach//North#A Beach*.z/
+=======SF-Hunter-s-Point//Hunter#'s Point*.z/
+=======SF-Castro//Castro.z/
+=======SF-Nob-Hill//Nob# Hill*.z/
+=======SF-Potrero//Potrero.z/
+=======SF-Bayview//Bayview.z/
+=======SF-Downtown//Downtown.z/
+=======SF-SOMA//SOMA.z/
+=====city-San-Jose-CA-USA//San#j Jose*.z/|coordinates-of=37.18N121.51Wcoor|
+population-of=782248u|
+=====city-San-Leandro-CA-USA//San#j Leandro*.z/
+|coordinates-of=37.42N122.10Wcoor|population-of=68223u|
+=====city-San-Mateo-CA-USA//San#j Mateo*.z/
+|coordinates-of=37.34N122.19Wcoor|population-of=85486u|
+=====city-Santa-Ana-CA-USA//Santa#j Ana*.z/
+|coordinates-of=33.44N117.53Wcoor|population-of=293742u|
+=====city-Santa-Barbara-CA-USA//Santa#j Barbara*.z/
+|coordinates-of=34.26N119.43Wcoor|population-of=85571u|
+=====city-Santa-Clara-CA-USA//Santa#j Clara*.z/
+|coordinates-of=37.22N121.58Wcoor|population-of=93613u|
+=====city-Santa-Clarita-CA-USA//Santa#j Clarita*.z/
+|coordinates-of=34.25N118.31Wcoor|population-of=110642u|
+=====city-Santa-Cruz-CA-USA//Santa#j Cruz*.z/|coordinates-of=36.58N122.01Wcoor|
+=====city-Santa-Maria-CA-USA//Santa#j Maria*.z/
+|coordinates-of=34.56N120.26Wcoor|population-of=61284u|
+=====city-Santa-Monica-CA-USA//Santa#j Monica*.z/
+|coordinates-of=34.01N118.30Wcoor|population-of=86905u|
+=====city-Santa-Rosa-CA-USA//Santa#j Rosa*.z/
+|coordinates-of=38.27N122.42Wcoor|population-of=113313u|
+=====city-Santee-CA-USA//Santee.z/|coordinates-of=32.51N116.59Wcoor|
+population-of=52902u|
+=====city-Simi-Valley-CA-USA//Simi# Valley*.z/
+|coordinates-of=34.16N118.45Wcoor|population-of=100217u|
+=====city-South-Gate-CA-USA//South#A Gate*.z/
+|coordinates-of=33.57N118.12Wcoor|population-of=86284u|
+=====city-South-San-Francisco-CA-USA//South#A San#j Francisco*.z/
+|coordinates-of=37.40N122.19Wcoor|population-of=54312u|
+=====city-Spring-Valley-CA-USA//Spring# Valley*.z/
+|coordinates-of=32.43N116.59Wcoor|population-of=55331u|
+=====city-Stockton-CA-USA//Stockton.z/|coordinates-of=37.58N121.18Wcoor|
+population-of=210943u|
+=====city-Sunnyvale-CA-USA//Sunnyvale.z/|coordinates-of=37.23N122.02Wcoor|
+population-of=117229u|
+=====city-Thousand-Oaks-CA-USA//Thousand# Oaks*.z/
+|coordinates-of=34.12N118.52Wcoor|population-of=104352u|
+=====city-Torrance-CA-USA//Torrance.z/|coordinates-of=33.50N118.20Wcoor|
+population-of=133107u|
+=====city-Tustin-CA-USA//Tustin.z/|coordinates-of=33.44N117.49Wcoor|
+population-of=50689u|
+=====city-Union-City-CA-USA//Union# City*.z/
+|coordinates-of=37.36N122.01Wcoor|population-of=53762u|
+=====city-Upland-CA-USA//Upland.z/|coordinates-of=34.07N117.39Wcoor|
+population-of=63374u|
+=====city-Vacaville-CA-USA//Vacaville.z/|coordinates-of=38.22N121.58Wcoor|
+population-of=71479u|
+=====city-Vallejo-CA-USA//Vallejo.z/|coordinates-of=38.06N122.16Wcoor|
+population-of=109199u|
+=====city-Ventura-CA-USA//Ventura.¹z/San#j Buenaventura*.z/
+|coordinates-of=34.16N119.16Wcoor|population-of=92575u|
+=====city-Visalia-CA-USA//Visalia.z/|coordinates-of=36.20N119.19Wcoor|
+population-of=75636u|
+=====city-Vista-CA-USA//Vista.z/|coordinates-of=33.11N117.14Wcoor|
+population-of=71872u|
+=====city-Walnut-Creek-CA-USA//Walnut# Creek*.z/
+|coordinates-of=37.54N122.02Wcoor|population-of=60569u|
+=====city-West-Covina-CA-USA//West#A Covina*.z/
+|coordinates-of=34.03N117.55Wcoor|population-of=96086u|
+=====city-Westminster-CA-USA//Westminster.z/|coordinates-of=33.45N117.60Wcoor|
+population-of=78118u|
+=====city-Whittier-CA-USA//Whittier.z/|coordinates-of=33.58N118.01Wcoor|
+population-of=77671u|
+=====city-Yorba-Linda-CA-USA//Yorba# Linda*.z/
+|coordinates-of=33.53N117.46Wcoor|population-of=52422u|
+;_______________________________________________________________________________
+===state-CO-USA//Colorado.z/Colorado.y/
+=====city-Arvada-CO-USA//Arvada.z/|coordinates-of=39.49N105.06Wcoor|
+population-of=89235u|
+=====city-Aurora-CO-USA//Aurora.z/|coordinates-of=39.43N104.44Wcoor|
+population-of=222103u|
+=====city-Boulder-CO-USA//Boulder.z/|coordinates-of=40.02N105.15Wcoor|
+population-of=83312u|
+=====city-Colorado-Springs-CO-USA//Colorado# Springs*.z/
+|coordinates-of=38.52N104.46Wcoor|population-of=281140u|
+==*==city-Denver-CO-USA//Denver.z/|coordinates-of=39.46N104.52Wcoor|
+population-of=467610u|
+=====city-Fort-Collins-CO-USA//Fort# Collins*.z/
+|coordinates-of=40.33N105.04Wcoor|population-of=87758u|
+=====city-Greeley-CO-USA//Greeley.z/|coordinates-of=40.25N104.45Wcoor|
+population-of=60536u|
+=====city-Lakewood-CO-USA//Lakewood.z/|coordinates-of=39.42N105.07Wcoor|
+population-of=126481u|
+=====city-Longmont-CO-USA//Longmont.z/|coordinates-of=40.10N105.07Wcoor|
+population-of=51555u|
+=====city-Pueblo-CO-USA//Pueblo.z/|coordinates-of=38.16N104.37Wcoor|
+population-of=98640u|
+=====city-Thornton-CO-USA//Thornton.z/|coordinates-of=39.54N104.57Wcoor|
+population-of=55031u|
+=====city-Westminster-CO-USA//Westminster.z/|coordinates-of=39.53N105.03Wcoor|
+population-of=74625u|
+;_______________________________________________________________________________
+===state-CT-USA//Connecticut.z/Connecticut.My/
+=====city-Bridgeport-CT-USA//Bridgeport.z/|coordinates-of=41.11N73.12Wcoor|
+population-of=141686u|
+=====city-Bristol-CT-USA//Bristol.z/|coordinates-of=41.41N72.56Wcoor|
+population-of=60640u|
+=====city-Danbury-CT-USA//Danbury.z/|coordinates-of=41.24N73.28Wcoor|
+population-of=65585u|
+=====city-East-Hartford-CT-USA//East#A Hartford*.z/
+|coordinates-of=41.46N72.37Wcoor|population-of=50452u|
+==*==city-Hartford-CT-USA/urban/Hartford.z/|coordinates-of=41.46N72.41Wcoor|
+population-of=139739u|
+=====city-Meriden-CT-USA//Meriden.z/|coordinates-of=41.32N72.48Wcoor|
+population-of=59479u|
+=====city-New-Britain-CT-USA//New#A Britain*.z/|coordinates-of=41.41N72.47Wcoor|
+population-of=75491u|
+=====city-New-Haven-CT-USA//New#A Haven*.z/|coordinates-of=41.19N72.55Wcoor|
+population-of=130474u|
+=====city-Norwalk-CT-USA//Norwalk.z/|coordinates-of=41.06N73.25Wcoor|
+population-of=78331u|
+=====city-Stamford-CT-USA//Stamford.z/|coordinates-of=41.06N73.33Wcoor|
+population-of=108056u|
+=====city-Waterbury-CT-USA//Waterbury.z/|coordinates-of=41.34N73.02Wcoor|
+population-of=108961u|
+=====city-West-Hartford-CT-USA//West#A Hartford*.z/
+|coordinates-of=41.46N72.45Wcoor|population-of=60110u|
+=====city-West-Haven-CT-USA//West#A Haven*.z/|coordinates-of=41.16N72.58Wcoor|
+population-of=54021u|
+;_______________________________________________________________________________
+===state-DE-USA//Delaware.z/Delaware.My/
+==*==city-Dover-DE-USA//Dover.z/
+=====city-Wilmington-DE-USA//Wilmington.z/|coordinates-of=39.44N75.32Wcoor|
+population-of=71529u|
+;_______________________________________________________________________________
+===state-FL-USA//Florida.z/Floride.y/
+=====city-Boca-Raton-FL-USA//Boca# Raton*.z/|coordinates-of=26.22N80.06Wcoor|
+population-of=61492u|
+=====city-Brandon-FL-USA//Brandon.z/|coordinates-of=27.56N82.17Wcoor|
+population-of=57985u|
+=====city-Cape-Canaveral-FL-USA//Cape# Canaveral*.Éz/Cap# Canaveral*.Éy/
+=====city-Cape-Coral-FL-USA//Cape# Coral*.z/|coordinates-of=26.38N81.60Wcoor|
+population-of=74991u|
+=====city-Carol-City-FL-USA//Carol# City*.z/|coordinates-of=25.57N80.16Wcoor|
+population-of=53331u|
+=====city-Clearwater-FL-USA//Clearwater.z/|coordinates-of=27.59N82.46Wcoor|
+population-of=98784u|
+=====city-Coral-Springs-FL-USA//Coral# Springs*.z/
+|coordinates-of=26.16N80.16Wcoor|population-of=79443u|
+=====city-Daytona-Beach-FL-USA//Daytona# Beach*.z/
+|coordinates-of=29.12N81.03Wcoor|population-of=61921u|
+=====city-Deltona-FL-USA//Deltona.z/|coordinates-of=28.55N81.13Wcoor|
+population-of=50828u|
+=====city-Fort-Lauderdale-FL-USA//Fort# Lauderdale*.z/
+|coordinates-of=26.09N80.08Wcoor|population-of=149377u|
+=====city-Gainesville-FL-USA//Gainesville.z/|coordinates-of=29.40N82.20Wcoor|
+population-of=84770u|
+=====city-Hialeah-FL-USA//Hialeah.z/|coordinates-of=25.52N80.18Wcoor|
+population-of=188004u|
+=====city-Hollywood-FL-USA//Hollywood.z/|coordinates-of=26.02N80.10Wcoor|
+population-of=121697u|
+=====city-Jacksonville-City-FL-USA//Jacksonville# City*.z/
+|coordinates-of=30.20N81.39Wcoor|population-of=635230u|
+=====city-Kendall-FL-USA//Kendall.z/|coordinates-of=25.40N80.20Wcoor|
+population-of=87271u|
+=====city-Lakeland-FL-USA//Lakeland.z/|coordinates-of=28.02N81.58Wcoor|
+population-of=70576u|
+=====city-Largo-FL-USA//Largo.z/|coordinates-of=27.55N82.47Wcoor|
+population-of=65674u|
+=====city-Melbourne-FL-USA//Melbourne.z/|coordinates-of=28.07N80.38Wcoor|
+population-of=59646u|
+=====city-Miami-Beach-FL-USA//Miami# Beach*.z/|coordinates-of=25.49N80.08Wcoor|
+population-of=92639u|
+=====city-Miami-FL-USA//Miami.z/|coordinates-of=25.47N80.13Wcoor|
+population-of=358548u|
+=====city-Orlando-FL-USA//Orlando.z/|coordinates-of=28.30N81.22Wcoor|
+population-of=164693u|
+=====city-Palm-Bay-FL-USA//Palm# Bay*.z/|coordinates-of=27.59N80.40Wcoor|
+population-of=62632u|
+=====city-Palm-Harbor-FL-USA//Palm# Harbor*.z/|coordinates-of=28.05N82.46Wcoor|
+population-of=50256u|
+=====city-Pembroke-Pines-FL-USA//Pembroke# Pines*.z/
+|coordinates-of=26.01N80.20Wcoor|population-of=65452u|
+=====city-Pensacola-FL-USA//Pensacola.z/|coordinates-of=30.27N87.11Wcoor|
+population-of=58165u|
+=====city-Plantation-FL-USA//Plantation.z/|coordinates-of=26.08N80.16Wcoor|
+population-of=66692u|
+=====city-Pompano-Beach-FL-USA//Pompano# Beach*.z/
+|coordinates-of=26.14N80.08Wcoor|population-of=72411u|
+=====city-Port-St-Lucie-FL-USA//Port# St\.#A Lucie*.z/
+|coordinates-of=27.17N80.21Wcoor|population-of=55866u|
+=====city-Sarasota-FL-USA//Sarasota.z/
+|coordinates-of=27.20N82.33Wcoor|population-of=50961u|
+=====city-St-Petersburg-FL-USA//St\.#A Petersburg*.z/
+|coordinates-of=27.45N82.39Wcoor|population-of=238629u|
+=====city-Sunrise-FL-USA//Sunrise.z/|coordinates-of=26.09N80.18Wcoor|
+population-of=64407u|
+==*==city-Tallahassee-FL-USA//Tallahassee.Éz/Tallahassee.Éy/
+|coordinates-of=30.27N84.17Wcoor|population-of=124773u|
+=====city-Tampa-FL-USA//Tampa.z/|coordinates-of=27.58N82.29Wcoor|
+population-of=280015u|
+=====city-Town-n-Country-FL-USA//Town# n#K Country*.z/
+|coordinates-of=28.01N82.35Wcoor|population-of=60946u|
+=====city-West-Palm-Beach-FL-USA//West#A Palm# Beach*.z/
+|coordinates-of=26.45N80.08Wcoor|population-of=67643u|
+;_______________________________________________________________________________
+===state-GA-USA//Georgia.z/Géorgie.Fy/
+=====city-Albany-GA-USA//Albany.z/|coordinates-of=31.35N84.11Wcoor|
+population-of=78122u|
+==*==city-Atlanta-GA-USA/urban/Atlanta.z/|coordinates-of=33.46N84.25Wcoor|
+population-of=394017u|
+=====city-Columbus-City-GA-USA//Columbus# City*.z/
+|coordinates-of=32.31N84.52Wcoor|population-of=178681u|
+=====city-Macon-GA-USA//Macon.z/|coordinates-of=32.50N83.39Wcoor|
+population-of=106612u|
+=====city-Sandy-Springs-GA-USA//Sandy#A Springs*.z/
+|coordinates-of=33.56N84.22Wcoor|population-of=67842u|
+=====city-Savannah-GA-USA//Savannah.z/|coordinates-of=32.01N81.08Wcoor|
+population-of=137560u|
+=====city-South-Augusta-GA-USA//South#A Augusta*.z/
+|coordinates-of=33.25N82.03Wcoor|population-of=55998u|
+;_______________________________________________________________________________
+===state-HI-USA//Hawaii.z/Hawaii.y/
+==*==city-Honolulu-HI-USA//Honolulu.z/Honolulu.y/
+|coordinates-of=21.19N157.48Wcoor|population-of=365272u|
+;_______________________________________________________________________________
+===state-ID-USA//Idaho.z/Idaho.y/
+==*==city-Boise-City-ID-USA//Boise# City*.z/|coordinates-of=43.36N116.14Wcoor|
+population-of=125738u|
+=====city-Cedar-Rapids-IA-USA//Cedar# Rapids*.z/
+|coordinates-of=41.58N91.40Wcoor|population-of=108751u|
+=====city-Council-Bluffs-IA-USA//Council# Bluffs*.z/
+|coordinates-of=41.14N95.52Wcoor|population-of=54315u|
+=====city-Davenport-IA-USA//Davenport.z/
+|coordinates-of=41.33N90.36Wcoor|population-of=95333u|
+=====city-Dubuque-IA-USA//Dubuque.z/
+|coordinates-of=42.30N90.41Wcoor|population-of=57546u|
+=====city-Iowa-City-IA-USA//Iowa# City*.z/
+|coordinates-of=41.39N91.32Wcoor|population-of=59738u|
+=====city-Sioux-City-IA-USA//Sioux# City*.z/
+|coordinates-of=42.30N96.24Wcoor|population-of=80505u|
+=====city-Waterloo-IA-USA//Waterloo.z/|coordinates-of=42.29N92.21Wcoor|
+population-of=66467u|
+;_______________________________________________________________________________
+===state-IL-USA//Illinois.z/Illinois.y/
+=====city-Arlington-Heights-IL-USA//Arlington# Heights*.z/
+|coordinates-of=42.06N87.59Wcoor|population-of=75460u|
+=====city-Aurora-IL-USA//Aurora.z/|coordinates-of=41.46N88.18Wcoor|
+population-of=99581u|
+=====city-Bloomington-IL-USA//Bloomington.z/|coordinates-of=40.29N88.58Wcoor|
+population-of=51972u|
+=====city-Champaign-IL-USA//Champaign.z/|coordinates-of=40.07N88.16Wcoor|
+population-of=63502u|
+=====city-Chicago-IL-USA//Chicago.z/|coordinates-of=41.50N87.41Wcoor|
+population-of=2783726u|
+=====city-Cicero-IL-USA//Cicero.z/|coordinates-of=41.51N87.46Wcoor|
+population-of=67436u|
+=====city-Decatur-IL-USA//Decatur.z/|coordinates-of=39.51N88.56Wcoor|
+population-of=83885u|
+=====city-Des-Plaines-IL-USA//Des#DPj Plaines*.z/
+|coordinates-of=42.02N87.54Wcoor|population-of=53223u|
+=====city-Elgin-IL-USA//Elgin.z/|coordinates-of=42.02N88.17Wcoor|
+population-of=77010u|
+=====city-Evanston-IL-USA//Evanston.z/|coordinates-of=42.03N87.42Wcoor|
+population-of=73233u|
+=====city-Joliet-IL-USA//Joliet.z/|coordinates-of=41.32N88.07Wcoor|
+population-of=76836u|
+=====city-Mount-Prospect-IL-USA//Mount# Prospect*.z/
+|coordinates-of=42.04N87.56Wcoor|population-of=53170u|
+=====city-Naperville-IL-USA//Naperville.z/|coordinates-of=41.46N88.09Wcoor|
+population-of=85351u|
+=====city-Oak-Lawn-IL-USA//Oak#A Lawn*.z/|coordinates-of=41.43N87.45Wcoor|
+population-of=56182u|
+=====city-Oak-Park-IL-USA//Oak#A Park*.z/|coordinates-of=41.53N87.47Wcoor|
+population-of=53648u|
+=====city-Peoria-IL-USA//Peoria.z/|coordinates-of=40.45N89.37Wcoor|
+population-of=113504u|
+=====city-Rockford-IL-USA//Rockford.z/|coordinates-of=42.16N89.04Wcoor|
+population-of=139426u|
+=====city-Schaumburg-IL-USA//Schaumburg.z/|coordinates-of=42.02N88.05Wcoor|
+population-of=68586u|
+=====city-Skokie-IL-USA//Skokie.z/|coordinates-of=42.02N87.44Wcoor|
+population-of=59432u|
+==*==city-Springfield-IL-USA//Springfield.z/|coordinates-of=39.47N89.39Wcoor|
+population-of=105227u|
+=====city-Waukegan-IL-USA//Waukegan.z/|coordinates-of=42.22N87.52Wcoor|
+population-of=69392u|
+=====city-Wheaton-IL-USA//Wheaton.z/|coordinates-of=41.51N88.06Wcoor|
+population-of=51464u|
+;_______________________________________________________________________________
+===state-IN-USA//Indiana.z/Indiana.y/
+=====city-Anderson-IN-USA//Anderson.z/|coordinates-of=40.06N85.41Wcoor|
+population-of=59459u|
+=====city-Bloomington-IN-USA//Bloomington.z/|coordinates-of=39.10N86.31Wcoor|
+population-of=60633u|
+=====city-Evansville-IN-USA//Evansville.z/|coordinates-of=37.59N87.33Wcoor|
+population-of=126272u|
+=====city-Fort-Wayne-IN-USA//Fort# Wayne*.z/
+|coordinates-of=41.04N85.08Wcoor|population-of=173072u|
+=====city-Gary-IN-USA//Gary.z/|coordinates-of=41.36N87.21Wcoor|
+population-of=116646u|
+=====city-Hammond-IN-USA//Hammond.z/|coordinates-of=41.37N87.29Wcoor|
+population-of=84236u|
+==*==city-Indianapolis-IN-USA//Indianapolis.z/
+|coordinates-of=39.47N86.09Wcoor|population-of=731327u|
+=====city-Muncie-IN-USA//Muncie.z/|coordinates-of=40.12N85.23Wcoor|
+population-of=71035u|
+=====city-South-Bend-IN-USA//South#A Bend*.z/
+|coordinates-of=41.41N86.16Wcoor|population-of=105511u|
+=====city-Terre-Haute-IN-USA//Terre# Haute*.z/
+|coordinates-of=39.28N87.23Wcoor|population-of=57483u|
+;_______________________________________________________________________________
+===state-IA-USA//Iowa.z/Iowa.y/
+==*==city-Des-Moines-IA-USA//Des#DPj Moines*.z/
+|coordinates-of=41.35N93.37Wcoor|population-of=193187u|
+;_______________________________________________________________________________
+===state-KS-USA//Kansas.z/Kansas.y/
+=====city-Kansas-City-KS-USA//Kansas# City*.z/|coordinates-of=39.07N94.44Wcoor|
+population-of=149767u|
+=====city-Lawrence-KS-USA//Lawrence.z/|coordinates-of=38.58N95.15Wcoor|
+population-of=65608u|
+=====city-Olathe-KS-USA//Olathe.z/|coordinates-of=38.53N94.49Wcoor|
+population-of=63352u|
+=====city-Overland-Park-KS-USA//Overland# Park*.z/
+|coordinates-of=38.55N94.41Wcoor|population-of=111790u|
+==*==city-Topeka-KS-USA//Topeka.z/|coordinates-of=39.02N95.42Wcoor|
+population-of=119883u|
+=====city-Wichita-KS-USA//Wichita.z/|coordinates-of=37.41N97.21Wcoor|
+population-of=304011u|
+;_______________________________________________________________________________
+===state-KY-USA//Kentucky.z/Kentucky.y/
+==*==city-Frankfort-KY-USA//Frankfort.z/
+=====city-Lexington-Fayette-KY-USA//Lexington#-Fayette*.z/
+|coordinates-of=38.03N84.28Wcoor|population-of=225366u|
+=====city-Louisville-KY-USA//Louisville.z/|coordinates-of=38.13N85.44Wcoor|
+population-of=269063u|
+=====city-Owensboro-KY-USA//Owensboro.z/|coordinates-of=37.46N87.07Wcoor|
+population-of=53549u|
+;_______________________________________________________________________________
+===state-LA-USA//Louisiana.z/Louisiane.y/|official-language-of=F121|
+==*==city-Baton-Rouge-LA-USA//Baton# Rouge*.z/|coordinates-of=30.27N91.08Wcoor|
+population-of=219531u|
+=====city-Bossier-City-LA-USA//Bossier# City*.z/
+|coordinates-of=32.31N93.40Wcoor|population-of=52721u|
+=====city-Kenner-LA-USA//Kenner.z/|coordinates-of=30.08N90.14Wcoor|
+population-of=72033u|
+=====city-Lafayette-LA-USA//Lafayette.z/|coordinates-of=30.13N92.02Wcoor|
+population-of=94440u|
+=====city-Lake-Charles-LA-USA//Lake# Charles*.z/
+|coordinates-of=30.13N93.12Wcoor|population-of=70580u|
+=====city-Metairie-LA-USA//Metairie.z/|coordinates-of=29.60N90.11Wcoor|
+population-of=149428u|
+=====city-Monroe-LA-USA//Monroe.z/|coordinates-of=32.31N92.05Wcoor|
+population-of=54909u|
+=====city-New-Orleans-LA-USA//New#A Orleans*.z/
+|coordinates-of=30.04N89.56Wcoor|population-of=496938u|
+=====city-Shreveport-LA-USA//Shreveport.z/|coordinates-of=32.28N93.48Wcoor|
+population-of=198525u|
+;_______________________________________________________________________________
+===state-MA-USA//Massachusetts.z/Massachusetts.My/
+==*==city-Boston-MA-USA/urban/Boston.z/Boston.My/
+|coordinates-of=42.20N71.01Wcoor|population-of=574283u|
+=====city-Brockton-MA-USA//Brockton.z/|coordinates-of=42.05N71.02Wcoor|
+population-of=92788u|
+=====city-Brookline-MA-USA//Brookline.z/|coordinates-of=42.19N71.09Wcoor|
+population-of=54718u|
+=====city-Cambridge-MA-USA/urban/Cambridge.z/|coordinates-of=42.23N71.07Wcoor|
+population-of=95802u|
+=====city-Chicopee-MA-USA//Chicopee.z/|coordinates-of=42.11N72.34Wcoor|
+population-of=56632u|
+=====city-Fall-River-MA-USA//Fall# River*.z/
+|coordinates-of=41.43N71.06Wcoor|population-of=92703u|
+=====city-Framingham-MA-USA//Framingham.z/|coordinates-of=42.18N71.26Wcoor|
+population-of=64994u|
+=====city-Haverhill-MA-USA//Haverhill.z/|coordinates-of=42.47N71.05Wcoor|
+population-of=51418u|
+=====city-Lawrence-MA-USA//Lawrence.z/|coordinates-of=42.42N71.10Wcoor|
+population-of=70207u|
+=====city-Lowell-MA-USA//Lowell.z/|coordinates-of=42.38N71.19Wcoor|
+population-of=103439u|
+=====city-Lynn-MA-USA//Lynn.z/|coordinates-of=42.28N70.58Wcoor|
+population-of=81245u|
+=====city-Malden-MA-USA//Malden.z/|coordinates-of=42.26N71.04Wcoor|
+population-of=53884u|
+=====city-Medford-MA-USA//Medford.z/|coordinates-of=42.25N71.07Wcoor|
+population-of=57407u|
+=====city-New-Bedford-MA-USA//New#A Bedford*.z/
+|coordinates-of=41.40N70.56Wcoor|population-of=99922u|
+=====city-Newton-MA-USA//Newton.z/|coordinates-of=42.20N71.12Wcoor|
+population-of=82585u|
+=====city-Quincy-MA-USA//Quincy.z/|coordinates-of=42.16N71.00Wcoor|
+population-of=84985u|
+=====city-Somerville-MA-USA//Somerville.z/|coordinates-of=42.23N71.06Wcoor|
+population-of=76210u|
+=====city-Springfield-MA-USA//Springfield.z/|coordinates-of=42.07N72.32Wcoor|
+population-of=156983u|
+=====city-Waltham-MA-USA//Waltham.z/|coordinates-of=42.23N71.15Wcoor|
+population-of=57878u|
+=====city-Weymouth-MA-USA//Weymouth.z/|coordinates-of=42.12N70.57Wcoor|
+population-of=54063u|
+=====city-Worcester-MA-USA//Worcester.z/|coordinates-of=42.16N71.49Wcoor|
+population-of=169759u|
+;_______________________________________________________________________________
+===state-MD-USA//Maryland.z/Maryland.y/
+==*==city-Annapolis-MD-USA//Annapolis.z/
+=====city-Baltimore-MD-USA//Baltimore.z/|coordinates-of=39.18N76.37Wcoor|
+population-of=736014u|
+=====city-Bethesda-MD-USA//Bethesda.z/|coordinates-of=38.59N77.07Wcoor|
+population-of=62936u|
+=====city-Columbia-MD-USA//Columbia.z/|coordinates-of=39.12N76.51Wcoor|
+population-of=75883u|
+=====city-Dundalk-MD-USA//Dundalk.z/|coordinates-of=39.16N76.30Wcoor|
+population-of=65800u|
+=====city-Silver-Spring-MD-USA//Silver#A Spring*.z/
+|coordinates-of=39.01N77.01Wcoor|population-of=76046u|
+=====city-Wheaton-Glenmont-MD-USA//Wheaton#-Glenmont*.z/
+|coordinates-of=39.03N77.03Wcoor|population-of=53720u|
+;_______________________________________________________________________________
+===state-ME-USA//Maine.z/Maine.y/
+==*==city-Augusta-ME-USA//Augusta.z/
+=====city-Portland-ME-USA//Portland.z/|coordinates-of=43.40N70.12Wcoor|
+population-of=64358u|
+;_______________________________________________________________________________
+===state-MI-USA//Michigan.z/Michigan.My/
+=====city-Ann-Arbor-MI-USA//Ann# Arbor*.z/|coordinates-of=42.17N83.44Wcoor|
+population-of=109592u|
+=====city-Battle-Creek-MI-USA//Battle# Creek*.z/
+|coordinates-of=42.18N85.14Wcoor|population-of=53540u|
+=====city-Canton-MI-USA//Canton.z/|coordinates-of=42.19N83.29Wcoor|
+population-of=57047u|
+=====city-Clinton-MI-USA//Clinton.z/|coordinates-of=42.35N82.55Wcoor|
+population-of=85866u|
+=====city-Dearborn-Heights-MI-USA//Dearborn# Heights*.z/
+|coordinates-of=42.20N83.16Wcoor|population-of=60838u|
+=====city-Dearborn-MI-USA//Dearborn.z/|coordinates-of=42.19N83.13Wcoor|
+population-of=89286u|
+=====city-Detroit-MI-USA//Detroit.z/|coordinates-of=42.23N83.06Wcoor|
+population-of=1027974u|
+=====city-East-Lansing-MI-USA//East#A Lansing*.z/
+|coordinates-of=42.44N84.29Wcoor|population-of=50677u|
+=====city-Farmington-Hills-MI-USA//Farmington# Hills*.z/
+|coordinates-of=42.29N83.23Wcoor|population-of=74652u|
+=====city-Flint-MI-USA//Flint.z/
+|coordinates-of=43.01N83.42Wcoor|population-of=140761u|
+=====city-Grand-Rapids-MI-USA//Grand#A Rapids*.z/
+|coordinates-of=42.58N85.39Wcoor|population-of=189126u|
+=====city-Kalamazoo-MI-USA//Kalamazoo.z/
+|coordinates-of=42.16N85.35Wcoor|population-of=80277u|
+==*==city-Lansing-MI-USA//Lansing.z/|coordinates-of=42.43N84.33Wcoor|
+population-of=127321u|
+=====city-Livonia-MI-USA//Livonia.z/|coordinates-of=42.24N83.22Wcoor|
+population-of=100850u|
+=====city-Pontiac-MI-USA//Pontiac.z/|coordinates-of=42.39N83.17Wcoor|
+population-of=71166u|
+=====city-Redford-MI-USA//Redford.z/|coordinates-of=42.24N83.18Wcoor|
+population-of=54387u|
+=====city-Rochester-Hills-MI-USA//Rochester# Hills*.z/
+|coordinates-of=42.40N83.09Wcoor|population-of=61766u|
+=====city-Roseville-MI-USA//Roseville.z/|coordinates-of=42.30N82.56Wcoor|
+population-of=51412u|
+=====city-Royal-Oak-MI-USA//Royal#A Oak*.z/|coordinates-of=42.31N83.09Wcoor|
+population-of=65410u|
+=====city-Saginaw-MI-USA//Saginaw.z/|coordinates-of=43.25N83.57Wcoor|
+population-of=69512u|
+=====city-Southfield-MI-USA//Southfield.z/|coordinates-of=42.29N83.16Wcoor|
+population-of=75728u|
+=====city-St-Clair-Shores-MI-USA//St\.#A Clair# Shores*.z/
+|coordinates-of=42.30N82.53Wcoor|population-of=68107u|
+=====city-Sterling-Heights-MI-USA//Sterling#A Heights*.z/
+|coordinates-of=42.35N83.02Wcoor|population-of=117810u|
+=====city-Taylor-MI-USA//Taylor.z/|coordinates-of=42.14N83.16Wcoor|
+population-of=70811u|
+=====city-Troy-MI-USA//Troy.z/|coordinates-of=42.35N83.09Wcoor|
+population-of=72884u|
+=====city-Warren-MI-USA//Warren.z/|coordinates-of=42.30N83.02Wcoor|
+population-of=144864u|
+=====city-Waterford-MI-USA//Waterford.z/|coordinates-of=42.40N83.23Wcoor|
+population-of=66692u|
+=====city-West-Bloomfield-Township-MI-USA//West#A Bloomfield# Township*.z/
+|coordinates-of=42.34N83.23Wcoor|population-of=54843u|
+=====city-Westland-MI-USA//Westland.z/|coordinates-of=42.19N83.23Wcoor|
+population-of=84724u|
+=====city-Wyoming-MI-USA//Wyoming.z/|coordinates-of=42.54N85.42Wcoor|
+population-of=63891u|
+;_______________________________________________________________________________
+===state-MN-USA//Minnesota.z/Minnesota.y/
+=====city-Bloomington-MN-USA//Bloomington.z/|coordinates-of=44.50N93.19Wcoor|
+population-of=86335u|
+=====city-Brooklyn-Park-MN-USA//Brooklyn# Park*.z/
+|coordinates-of=45.07N93.21Wcoor|population-of=56381u|
+=====city-Burnsville-MN-USA//Burnsville.z/
+|coordinates-of=44.46N93.17Wcoor|population-of=51288u|
+=====city-Coon-Rapids-MN-USA//Coon# Rapids*.z/
+|coordinates-of=45.10N93.19Wcoor|population-of=52978u|
+=====city-Duluth-MN-USA//Duluth.z/
+|coordinates-of=46.47N92.07Wcoor|population-of=85493u|
+=====city-Minneapolis-MN-USA//Minneapolis.z/|coordinates-of=44.58N93.16Wcoor|
+population-of=368383u|
+=====city-Plymouth-MN-USA//Plymouth.z/|coordinates-of=45.01N93.28Wcoor|
+population-of=50889u|
+=====city-Rochester-MN-USA//Rochester.z/|coordinates-of=44.01N92.29Wcoor|
+population-of=70745u|
+==*==city-Saint-Paul-MN-USA//Saint# Paul*.z/|coordinates-of=44.57N93.06Wcoor|
+population-of=272235u|
+;_______________________________________________________________________________
+===state-MO-USA//Missouri.z/Missouri.y/
+=====city-Columbia-MO-USA//Columbia.z/|coordinates-of=38.57N92.20Wcoor|
+population-of=69101u|
+=====city-Florissant-MO-USA//Florissant.z/|coordinates-of=38.48N90.19Wcoor|
+population-of=51206u|
+=====city-Independence-MO-USA//Independence.z/|coordinates-of=39.05N94.21Wcoor|
+population-of=112301u|
+==*==city-Jefferson-City-MO-USA//Jefferson# City*.z/
+=====city-Kansas-City-MO-USA//Kansas# City*.z/|coordinates-of=39.07N94.33Wcoor|
+population-of=435146u|
+=====city-Springfield-MO-USA//Springfield.z/|coordinates-of=37.12N93.17Wcoor|
+population-of=140494u|
+=====city-St-Charles-MO-USA//St\.#A Charles*.z/|coordinates-of=38.47N90.31Wcoor|
+population-of=54555u|
+=====city-St-Joseph-MO-USA//St\.#A Joseph*.z/|coordinates-of=39.46N94.49Wcoor|
+population-of=71852u|
+=====city-Saint-Louis-MO-USA//Saint# Louis*.z/|coordinates-of=38.37N90.11Wcoor|
+population-of=396685u|
+;_______________________________________________________________________________
+===state-MS-USA//Mississippi.z/Mississippi.y/
+==*==city-Jackson-MS-USA//Jackson.z/|coordinates-of=32.19N90.12Wcoor|
+population-of=196637u|
+;_______________________________________________________________________________
+===state-MT-USA//Montana.z/Montana.y/
+=====city-Billings-MT-USA//Billings.z/|coordinates-of=45.47N108.32Wcoor|
+population-of=81151u|
+=====city-Great-Falls-MT-USA//Great# Falls*.z/
+|coordinates-of=47.30N111.17Wcoor|population-of=55097u|
+==*==city-Helena-MT-USA//Helena.z/
+;_______________________________________________________________________________
+===state-NC-USA//North#A Carolina*.z/Caroline* du#R Nord#M.Fy/
+=====city-Asheville-NC-USA//Asheville.z/|coordinates-of=35.34N82.33Wcoor|
+population-of=61607u|
+=====city-Charlotte-NC-USA//Charlotte.z/|coordinates-of=35.12N80.50Wcoor|
+population-of=395934u|
+=====city-Durham-NC-USA//Durham.z/|coordinates-of=35.59N78.55Wcoor|
+population-of=136611u|
+=====city-Fayetteville-NC-USA//Fayetteville.z/|coordinates-of=35.04N78.54Wcoor|
+population-of=75695u|
+=====city-Gastonia-NC-USA//Gastonia.z/|coordinates-of=35.15N81.10Wcoor|
+population-of=54732u|
+=====city-Greensboro-NC-USA//Greensboro.z/|coordinates-of=36.05N79.50Wcoor|
+population-of=183521u|
+=====city-High-Point-NC-USA//High#A Point*.z/|coordinates-of=35.59N79.60Wcoor|
+population-of=69496u|
+==*==city-Raleigh-NC-USA//Raleigh.z/|coordinates-of=35.49N78.40Wcoor|
+population-of=207951u|
+=====city-Wilmington-NC-USA//Wilmington.z/|coordinates-of=34.13N77.55Wcoor|
+population-of=55530u|
+=====city-Winston-Salem-NC-USA//Winston#-Salem*.z/
+|coordinates-of=36.06N80.16Wcoor|population-of=143485u|
+;_______________________________________________________________________________
+===state-ND-USA//North#A Dakota*.z/Dakota# du#R Nord#M.y/
+==*==city-Bismarck-ND-USA//Bismarck.z/
+=====city-Fargo-ND-USA//Fargo.z/|coordinates-of=46.53N96.49Wcoor|
+population-of=74111u|
+;_______________________________________________________________________________
+===state-NE-USA//Nebraska.z/Nebraska.y/
+==*==city-Lincoln-NE-USA//Lincoln.z/|coordinates-of=40.49N96.41Wcoor|
+population-of=191972u|
+=====city-Omaha-NE-USA//Omaha.z/|coordinates-of=41.16N96.01Wcoor|
+population-of=335795u|
+;_______________________________________________________________________________
+===state-NH-USA//New#A Hampshire*.z/New#Aj Hampshire*.My/
+==*==city-Concord-NH-USA//Concord.z/
+=====city-Manchester-NH-USA//Manchester.z/|coordinates-of=42.59N71.27Wcoor|
+population-of=99567u|
+=====city-Nashua-NH-USA//Nashua.z/|coordinates-of=42.45N71.30Wcoor|
+population-of=79662u|
+;_______________________________________________________________________________
+===state-NJ-USA//New#A Jersey*.z/New#Aj Jersey*.¹My/état* de#R New# Jersey#.kMy/
+;_______________________________________________________________________________
+=====city-Bayonne-NJ-USA//Bayonne.z/|coordinates-of=40.40N74.07Wcoor|
+population-of=61444u|
+=====city-Brick-Township-NJ-USA//Brick#A Township*.z/
+|coordinates-of=40.03N74.07Wcoor|population-of=66473u|
+=====city-Camden-NJ-USA/urban/Camden.z/|coordinates-of=39.56N75.07Wcoor|
+population-of=87492u|
+=====city-Cherry-Hill-NJ-USA//Cherry# Hill*.z/|coordinates-of=39.54N74.60Wcoor|
+population-of=69319u|
+=====city-Clifton-NJ-USA//Clifton.z/|coordinates-of=40.52N74.09Wcoor|
+population-of=71742u|
+=====city-East-Orange-NJ-USA//East#A Orange*.z/
+|coordinates-of=40.46N74.13Wcoor|population-of=73552u|
+=====city-Edison-NJ-USA//Edison.z/|coordinates-of=40.32N74.22Wcoor|
+population-of=88680u|
+=====city-Elizabeth-NJ-USA//Elizabeth.z/|coordinates-of=40.40N74.12Wcoor|
+population-of=110002u|
+=====city-Hoboken-NJ-USA/urban/Hoboken.z/
+=====city-Holmdel-NJ-USA//Holmdel.z/
+=====city-Irvington-NJ-USA//Irvington.z/|coordinates-of=40.43N74.14Wcoor|
+population-of=59774u|
+=====city-Jersey-City-NJ-USA/urban/Jersey# City*.z/
+|coordinates-of=40.43N74.04Wcoor|population-of=228537u|
+=====city-Newark-NJ-USA/urban/Newark.z/|coordinates-of=40.43N74.10Wcoor|
+population-of=275221u|
+=====city-New-Brunswick-NJ-USA//New#A Brunswick*.z/
+=====city-Passaic-NJ-USA//Passaic.z/|coordinates-of=40.51N74.08Wcoor|
+population-of=58041u|
+=====city-Paterson-NJ-USA//Paterson.z/|coordinates-of=40.55N74.10Wcoor|
+population-of=140891u|
+=====city-Union-City-NJ-USA//Union# City*.z/|coordinates-of=40.46N74.02Wcoor|
+population-of=58012u|
+=====city-Union-NJ-USA//Union.z/|coordinates-of=40.42N74.16Wcoor|
+population-of=50024u|
+=====city-Vineland-NJ-USA//Vineland.z/|coordinates-of=39.28N74.60Wcoor|
+population-of=54780u|
+;_______________________________________________________________________________
+====Mercer# County*.z//
+=====city-Princeton-NJ-USA/suburban/Princeton.z/Princeton.My/
+==*==city-Trenton-NJ-USA/urban/Trenton.z/|coordinates-of=40.13N74.46Wcoor|
+population-of=88675u|
+;_______________________________________________________________________________
+===state-NM-USA//New#A Mexico*.z/Nouveau#A-Mexique*.My/
+=====city-Albuquerque-NM-USA//Albuquerque.z/|coordinates-of=35.07N106.37Wcoor|
+population-of=384736u|
+=====city-Las-Cruces-NM-USA//Las#Dj Cruces*.z/
+|coordinates-of=32.20N106.45Wcoor|population-of=62126u|
+==*==city-Santa-Fe-NM-USA//Santa#j Fe*.z/|coordinates-of=35.41N105.57Wcoor|
+population-of=55859u|
+;_______________________________________________________________________________
+===state-NV-USA//Nevada.z/Nevada.y/
+==*==city-Carson-City-NV-USA//Carson# City*.z/
+=====city-Henderson-NV-USA//Henderson.z/|coordinates-of=36.02N115.00Wcoor|
+population-of=64942u|
+=====city-Las-Vegas-NV-USA//Las#jD Vegas*.z/Vegas.Tz/
+|coordinates-of=36.12N115.13Wcoor|population-of=258295u|
+=====city-Paradise-NV-USA//Paradise.z/|coordinates-of=36.05N115.08Wcoor|
+population-of=124682u|
+=====city-Reno-NV-USA//Reno.z/|coordinates-of=39.32N119.49Wcoor|
+population-of=133850u|
+=====city-Sparks-NV-USA//Sparks.z/|coordinates-of=39.33N119.44Wcoor|
+population-of=53367u|
+=====city-Spring-Valley-NV-USA//Spring# Valley*.z/
+|coordinates-of=36.06N115.15Wcoor|population-of=51726u|
+=====city-Sunrise-Manor-NV-USA//Sunrise# Manor*.z/
+|coordinates-of=36.11N115.03Wcoor|population-of=95362u|
+;_______________________________________________________________________________
+===state-NY-USA//New#A York*.z/New#A York# State*.¹z/New#A York*.·y/
+état* de#R New# York#.¹kMy/
+|coordinates-of=43.00N75.00Wcoor|surface-area-of=49576mi2|
+==*==city-Albany-NY-USA//Albany.z/|coordinates-of=42.40N73.48Wcoor|
+population-of=101082u|
+=====city-Annandale-on-Hudson-NY-USA//Annandale*-on#R-Hudson#.z/
+=====city-Binghamton-NY-USA//Binghamton.z/|coordinates-of=42.06N75.55Wcoor|
+population-of=53008u|
+=====city-Buffalo-NY-USA//Buffalo.z/|coordinates-of=42.53N78.52Wcoor|
+population-of=328123u|
+=====city-Cheektowaga-NY-USA//Cheektowaga.z/|coordinates-of=42.55N78.45Wcoor|
+population-of=84387u|
+=====city-Irondequoit-NY-USA//Irondequoit.z/|coordinates-of=43.13N77.34Wcoor|
+population-of=52322u|
+=====city-Levittown-NY-USA//Levittown.z/|coordinates-of=40.43N73.31Wcoor|
+population-of=53286u|
+=====city-Mount-Vernon-NY-USA//Mount# Vernon*.z/
+|coordinates-of=40.55N73.50Wcoor|population-of=67153u|
+=====city-New-Rochelle-NY-USA//New#A Rochelle*.z/
+|coordinates-of=40.55N73.47Wcoor|population-of=67265u|
+====-city-New-York-NY-USA/urban/New#A York# City*.z/New#A York*.z/NYC.z/
+Big#A Apple*.kTz/City.kTz/New#A York*.·My/New#A-York*.·My/Grande*A Pomme*.akFy/
+|coordinates-of=40.43N74.01Wcoor|surface-area-of=365mi2|
+@1626|founded|@1760:naÐ|population-of=15000u|@1850:naÐ|population-of=600000u|
+@1990:naÐ|population-of=7322564u|
+======Staten# Island*.Éz/island/
+======Queens.Éz//
+======Brooklyn.Éz//
+======Bronx.kz//
+======Manhattan.Éz/island/Manhattan.Éy/
+=======Upper#A Manhattan*.Éz//
+========Washington# Heights#P.Éz//
+========Inwood.Éz//
+========Marble# Hill*.Éz//
+=======Heights#P and#K the#D Harlems#P.kPz//
+========Morningside# Heights#P.Éz//
+========Hamilton# Heights#P.Éz//
+========Harlem.Éz//
+========East#A Harlem*.Éz//
+=======Upper#A West#A Side*.kz//
+========Lincoln# Center*.Éz//
+========Manhattan# Valley*.Éz//
+========West#A Side# #A Renewal# Area*.kz//
+=======Upper#A East#A Side*.kz//
+========Gold#A Coast*.kz//
+========Metropolitan#A Museum# Area*.kz//
+========Carnegie# Hill*.Éz//
+========East#A of#R Eden*.Éz//
+========Hospital# Row*.Éz//
+========NYC-Yorkville//Yorkville.Éz/
+========Gracie# Square# Area*.kz//
+=======mid#A Manhattan*.Éz//midtown.Éz/
+========NYC-Chelsea//Chelsea.Éz/
+========Four#A Squares#P.Éz//
+========Herald# Square# Area*.Éz//
+========Murray# Hill*.Éz//
+========NYC-Clinton//Clinton.Éz/
+========Times#P Square# Area*.kz//
+========Bryant# Park# Area*.kz//
+========Grand#A Central# Area*.kz//
+========United#A Nations#P Area*.kz//
+========Turtle# Bay*.Éz//
+========Rockefeller# Center# Area*.kz//
+========Plaza# Suite*.kz//
+========East# 57# Street# Area*.kz//
+=======Village.kz//
+========Greenwich# Village*.Éz//
+========West#A Village*.kz//
+========South#A Village*.kz//
+========Astor# Place# Area*.kz//
+========East#A Village*.kz//
+=======Lower#A Manhattan*.Éz//
+========NYC-Financial-District//Financial#A District*.kz/
+========NYC-Water-Street-Corridor//Water# Street# Corridor*.kz/
+========South#A Street# Seaport*.kz//
+========Broadway#-Nassau*.Éz//
+========Battery# Park# City*.Éz//
+========Tribeca.Éz//
+========Lower#A West#A Side*.kz//
+========NYC-Civic-Center//Civic#A Center*.kz/
+========NYC-Chinatown//Chinatown.Éz/
+========Little#A Italy*.Éz//
+========Lower#A East#A Side*.kz//
+========NYC-Noho//Noho.Éz/
+========NYC-Soho//Soho.Éz/
+========NYC-Silicon-Alley//Silicon# Alley*.Éz/
+=====city-Niagara-Falls-NY-USA//Niagara# Falls*.z/
+|coordinates-of=43.05N79.01Wcoor|population-of=61840u|
+=====city-Rochester-NY-USA//Rochester.z/|coordinates-of=43.10N77.37Wcoor|
+population-of=231636u|
+=====city-Schenectady-NY-USA//Schenectady.z/|coordinates-of=42.48N73.56Wcoor|
+population-of=65566u|
+=====city-Syracuse-NY-USA//Syracuse.z/|coordinates-of=43.02N76.09Wcoor|
+population-of=163860u|
+=====city-Tonawanda-NY-USA//Tonawanda.z/|coordinates-of=42.59N78.53Wcoor|
+population-of=65284u|
+=====city-Troy-NY-USA//Troy.z/|coordinates-of=42.44N73.41Wcoor|
+population-of=54269u|
+=====city-Utica-NY-USA//Utica.z/|coordinates-of=43.06N75.14Wcoor|
+population-of=68637u|
+=====city-Yonkers-NY-USA//Yonkers.z/|coordinates-of=40.57N73.52Wcoor|
+population-of=188082u|
+;_______________________________________________________________________________
+===state-OH-USA//Ohio.z/Ohio.y/
+=====city-Akron-OH-USA//Akron.z/|coordinates-of=41.05N81.31Wcoor|
+population-of=223019u|
+=====city-Canton-OH-USA//Canton.z/|coordinates-of=40.49N81.22Wcoor|
+population-of=84161u|
+=====city-Cincinnati-OH-USA//Cincinnati.z/|coordinates-of=39.08N84.30Wcoor|
+population-of=364040u|
+=====city-Cleveland-Heights-OH-USA//Cleveland# Heights*.z/
+|coordinates-of=41.31N81.34Wcoor|population-of=54052u|
+=====city-Cleveland-OH-USA//Cleveland.z/|coordinates-of=41.29N81.41Wcoor|
+population-of=505616u|
+==*==city-Columbus-OH-USA/urban/Columbus.z/|coordinates-of=39.59N82.59Wcoor|
+population-of=632910u|
+=====city-Dayton-OH-USA//Dayton.z/|coordinates-of=39.47N84.12Wcoor|
+population-of=182044u|
+=====city-Elyria-OH-USA//Elyria.z/|coordinates-of=41.23N82.06Wcoor|
+population-of=56746u|
+=====city-Euclid-OH-USA//Euclid.z/|coordinates-of=41.36N81.31Wcoor|
+population-of=54875u|
+=====city-Hamilton-OH-USA//Hamilton.z/|coordinates-of=39.23N84.34Wcoor|
+population-of=61368u|
+=====city-Kettering-OH-USA//Kettering.z/|coordinates-of=39.42N84.09Wcoor|
+population-of=60569u|
+=====city-Lakewood-OH-USA//Lakewood.z/|coordinates-of=41.29N81.48Wcoor|
+population-of=59718u|
+=====city-Lorain-OH-USA//Lorain.z/|coordinates-of=41.26N82.11Wcoor|
+population-of=71245u|
+=====city-Mansfield-OH-USA//Mansfield.z/|coordinates-of=40.46N82.32Wcoor|
+population-of=50627u|
+=====city-Oberlin-OH-USA//Oberlin.z/|coordinates-of=41.17N82.13Wcoor|
+=====city-Parma-OH-USA//Parma.z/|coordinates-of=41.23N81.44Wcoor|
+population-of=87876u|
+=====city-Springfield-OH-USA//Springfield.z/|coordinates-of=39.56N83.48Wcoor|
+population-of=70487u|
+=====city-Toledo-OH-USA//Toledo.z/|coordinates-of=41.40N83.35Wcoor|
+population-of=332943u|
+=====city-Warren-OH-USA//Warren.z/|coordinates-of=41.14N80.49Wcoor|
+population-of=50793u|
+=====city-Youngstown-OH-USA//Youngstown.z/|coordinates-of=41.06N80.39Wcoor|
+population-of=95732u|
+;_______________________________________________________________________________
+===state-OK-USA//Oklahoma.z/Oklahoma.y/
+=====city-Broken-Arrow-OK-USA//Broken#V Arrow*.z/
+|coordinates-of=36.02N95.47Wcoor|population-of=58043u|
+=====city-Edmond-OK-USA//Edmond.z/|coordinates-of=35.40N97.25Wcoor|
+population-of=52315u|
+=====city-Lawton-OK-USA//Lawton.z/|coordinates-of=34.36N98.25Wcoor|
+population-of=80561u|
+=====city-Midwest-City-OK-USA//Midwest#A City*.z/
+|coordinates-of=35.28N97.22Wcoor|population-of=52267u|
+=====city-Norman-OK-USA//Norman.z/|coordinates-of=35.14N97.21Wcoor|
+population-of=80071u|
+==*==city-Oklahoma-City-OK-USA//Oklahoma# City*.z/
+|coordinates-of=35.28N97.31Wcoor|population-of=444719u|
+=====city-Tulsa-OK-USA//Tulsa.z/|coordinates-of=36.08N95.55Wcoor|
+population-of=367302u|
+;_______________________________________________________________________________
+===state-OR-USA//Oregon.z/Oregon.y/
+=====city-Beaverton-OR-USA//Beaverton.z/|coordinates-of=45.29N122.49Wcoor|
+population-of=53310u|
+=====city-Eugene-OR-USA//Eugene.z/|coordinates-of=44.03N123.07Wcoor|
+population-of=112669u|
+=====city-Gresham-OR-USA//Gresham.z/|coordinates-of=45.30N122.26Wcoor|
+population-of=68235u|
+=====city-Portland-OR-USA//Portland.z/|coordinates-of=45.32N122.39Wcoor|
+population-of=437319u|
+==*==city-Salem-OR-USA//Salem.z/|coordinates-of=44.55N123.01Wcoor|
+population-of=107786u|
+;_______________________________________________________________________________
+===state-PA-USA//Pennsylvania.z/Pennsylvanie.y/
+=====city-Allentown-PA-USA//Allentown.z/|coordinates-of=40.36N75.29Wcoor|
+population-of=105090u|
+=====city-Altoona-PA-USA//Altoona.z/|coordinates-of=40.30N78.24Wcoor|
+population-of=51881u|
+=====city-Bethlehem-PA-USA//Bethlehem.z/|coordinates-of=40.38N75.22Wcoor|
+population-of=71428u|
+=====city-Erie-PA-USA//Erie.z/|coordinates-of=42.08N80.05Wcoor|
+population-of=108718u|
+==*==city-Harrisburg-PA-USA//Harrisburg.z/|coordinates-of=40.17N76.53Wcoor|
+population-of=52376u|
+=====city-Lancaster-PA-USA//Lancaster.z/|coordinates-of=40.03N76.18Wcoor|
+population-of=55551u|
+=====city-Levittown-PA-USA//Levittown.z/|coordinates-of=40.09N74.51Wcoor|
+population-of=55362u|
+=====city-Penn-Hills-PA-USA//Penn# Hills*.z/|coordinates-of=40.29N79.50Wcoor|
+population-of=51430u|
+=====city-Philadelphia-PA-USA//Philadelphia.z/|coordinates-of=40.00N75.08Wcoor|
+population-of=1585577u|
+=====city-Pittsburgh-PA-USA//Pittsburgh.z/|coordinates-of=40.26N79.59Wcoor|
+population-of=369879u|
+=====city-Reading-PA-USA//Reading.z/|coordinates-of=40.20N75.56Wcoor|
+population-of=78380u|
+=====city-Scranton-PA-USA//Scranton.z/|coordinates-of=41.24N75.40Wcoor|
+population-of=81805u|
+;_______________________________________________________________________________
+===state-RI-USA//Rhode# Island*.z/Rhode# Island*.y/
+=====city-Cranston-RI-USA//Cranston.z/|coordinates-of=41.46N71.29Wcoor|
+population-of=76060u|
+=====city-East-Providence-RI-USA//East#A Providence*.z/
+|coordinates-of=41.48N71.22Wcoor|population-of=50380u|
+=====city-Pawtucket-RI-USA//Pawtucket.z/|coordinates-of=41.52N71.22Wcoor|
+population-of=72644u|
+==*==city-Providence-RI-USA//Providence.z/|coordinates-of=41.49N71.25Wcoor|
+population-of=160728u|
+=====city-Warwick-RI-USA//Warwick.z/|coordinates-of=41.42N71.25Wcoor|
+population-of=85427u|
+;_______________________________________________________________________________
+===state-SC-USA//South#A Carolina*.z/Caroline* du#R Sud#M.Fy/|@1993:naÐ|
+population-of=3487000u|
+=====city-Charleston-SC-USA//Charleston.z/|coordinates-of=32.47N79.60Wcoor|
+population-of=80414u|
+==*==city-Columbia-SC-USA//Columbia.z/|coordinates-of=34.02N80.53Wcoor|
+population-of=98052u|
+=====city-Greenville-SC-USA//Greenville.z/|coordinates-of=34.50N82.22Wcoor|
+population-of=58282u|
+=====city-North-Charleston-SC-USA//North#A Charleston*.z/
+|coordinates-of=32.54N80.02Wcoor|population-of=70218u|
+;_______________________________________________________________________________
+===state-SD-USA//South#A Dakota*.z/Dakota# du#R Sud#M.y/
+==*==city-Pierre-SD-USA//Pierre.z/Pierre.My/
+=====city-Rapid-City-SD-USA//Rapid#A City*.z/
+|coordinates-of=44.05N103.14Wcoor|population-of=54523u|
+=====city-Sioux-Falls-SD-USA//Sioux# Falls*.z/
+|coordinates-of=43.33N96.44Wcoor|population-of=100814u|
+;_______________________________________________________________________________
+===state-TN-USA//Tennessee.z/Tennessee.y/
+=====city-Chattanooga-TN-USA//Chattanooga.z/|coordinates-of=35.04N85.15Wcoor|
+population-of=152466u|
+=====city-Clarksville-TN-USA//Clarksville.z/|coordinates-of=36.34N87.21Wcoor|
+population-of=75494u|
+=====city-Knoxville-TN-USA//Knoxville.z/|coordinates-of=35.58N83.57Wcoor|
+population-of=165121u|
+=====city-Memphis-TN-USA//Memphis.z/|coordinates-of=35.06N90.00Wcoor|
+population-of=610337u|
+==*==city-Nashville-Davidson-TN-USA//Nashville#-Davidson*.z/
+|coordinates-of=36.10N86.47Wcoor|population-of=488374u|
+;_______________________________________________________________________________
+===state-TX-USA//Texas.z/Texas.My/
+=====city-Abilene-TX-USA//Abilene.z/|coordinates-of=32.27N99.44Wcoor|
+population-of=106654u|
+=====city-Amarillo-TX-USA//Amarillo.z/|coordinates-of=35.12N101.49Wcoor|
+population-of=157615u|
+=====city-Arlington-TX-USA//Arlington.z/|coordinates-of=32.42N97.08Wcoor|
+population-of=261721u|
+==*==city-Austin-TX-USA//Austin.z/|coordinates-of=30.18N97.45Wcoor|
+population-of=465622u|
+=====city-Baytown-TX-USA//Baytown.z/|coordinates-of=29.45N94.58Wcoor|
+population-of=63850u|
+=====city-Beaumont-TX-USA//Beaumont.z/|coordinates-of=30.05N94.09Wcoor|
+population-of=114323u|
+=====city-Brownsville-TX-USA//Brownsville.z/|coordinates-of=25.56N97.29Wcoor|
+population-of=98962u|
+=====city-Bryan-TX-USA//Bryan.z/|coordinates-of=30.40N96.22Wcoor|
+population-of=55002u|
+=====city-Carrollton-TX-USA//Carrollton.z/|coordinates-of=32.59N96.54Wcoor|
+population-of=82169u|
+=====city-College-Station-TX-USA//College# Station*.z/
+|coordinates-of=30.36N96.19Wcoor|population-of=52456u|
+=====city-Corpus-Christi-TX-USA//Corpus# Christi*.z/
+|coordinates-of=27.42N97.18Wcoor|population-of=257453u|
+=====city-Dallas-TX-USA//Dallas.z/|coordinates-of=32.48N96.46Wcoor|
+population-of=1006877u|
+=====city-Denton-TX-USA//Denton.z/|coordinates-of=33.13N97.08Wcoor|
+population-of=66270u|
+=====city-El-Paso-TX-USA//El#Dj Paso*.z/
+|coordinates-of=31.51N106.26Wcoor|population-of=515342u|
+=====city-Fort-Worth-TX-USA//Fort# Worth*.z/
+|coordinates-of=32.45N97.20Wcoor|population-of=447619u|
+=====city-Galveston-TX-USA//Galveston.z/|coordinates-of=29.14N94.54Wcoor|
+population-of=59070u|
+=====city-Garland-TX-USA//Garland.z/|coordinates-of=32.55N96.38Wcoor|
+population-of=180650u|
+=====city-Grand-Prairie-TX-USA//Grand#A Prairie*.z/
+|coordinates-of=32.42N97.01Wcoor|population-of=99616u|
+=====city-Houston-TX-USA//Houston.z/|coordinates-of=29.46N95.23Wcoor|
+population-of=1630553u|
+=====city-Irving-TX-USA//Irving.z/|coordinates-of=32.51N96.58Wcoor|
+population-of=155037u|
+=====city-Killeen-TX-USA//Killeen.z/|coordinates-of=31.06N97.43Wcoor|
+population-of=63535u|
+=====city-Laredo-TX-USA//Laredo.z/|coordinates-of=27.32N99.29Wcoor|
+population-of=122899u|
+=====city-Longview-TX-USA//Longview.z/|coordinates-of=32.31N94.46Wcoor|
+population-of=70311u|
+=====city-Lubbock-TX-USA//Lubbock.z/|coordinates-of=33.35N101.53Wcoor|
+population-of=186206u|
+=====city-McAllen-TX-USA//McAllen.z/|coordinates-of=26.13N98.14Wcoor|
+population-of=84021u|
+=====city-Mesquite-TX-USA//Mesquite.z/|coordinates-of=32.46N96.36Wcoor|
+population-of=101484u|
+=====city-Midland-TX-USA//Midland.z/|coordinates-of=32.02N102.06Wcoor|
+population-of=89443u|
+=====city-Odessa-TX-USA//Odessa.z/|coordinates-of=31.52N102.21Wcoor|
+population-of=89699u|
+=====city-Pasadena-TX-USA//Pasadena.z/|coordinates-of=29.40N95.09Wcoor|
+population-of=119363u|
+=====city-Plano-TX-USA//Plano.z/|coordinates-of=33.03N96.45Wcoor|
+population-of=128713u|
+=====city-Port-Arthur-TX-USA//Port# Arthur*.z/
+|coordinates-of=29.50N93.56Wcoor|population-of=58724u|
+=====city-Richardson-TX-USA//Richardson.z/|coordinates-of=32.58N96.43Wcoor|
+population-of=74840u|
+=====city-San-Angelo-TX-USA//San#j Angelo*.z/
+|coordinates-of=31.27N100.27Wcoor|population-of=84474u|
+=====city-San-Antonio-TX-USA//San#j Antonio*.z/
+|coordinates-of=29.27N98.30Wcoor|population-of=935933u|
+=====city-Tyler-TX-USA//Tyler.z/|coordinates-of=32.20N95.18Wcoor|
+population-of=75450u|
+=====city-Victoria-TX-USA//Victoria.z/|coordinates-of=28.49N96.59Wcoor|
+population-of=55076u|
+=====city-Waco-TX-USA//Waco.z/|coordinates-of=31.34N97.11Wcoor|
+population-of=103590u|
+=====city-Wichita-Falls-TX-USA//Wichita# Falls*.z/
+|coordinates-of=33.54N98.31Wcoor|population-of=96259u|
+;_______________________________________________________________________________
+===state-UT-USA//Utah.z/Utah.y/
+=====city-Ogden-UT-USA//Ogden.z/|coordinates-of=41.14N111.58Wcoor|
+population-of=63909u|
+=====city-Orem-UT-USA//Orem.z/|coordinates-of=40.18N111.42Wcoor|
+population-of=67561u|
+=====city-Provo-UT-USA//Provo.z/|coordinates-of=40.15N111.39Wcoor|
+population-of=86835u|
+==*==city-Salt-Lake-City-UT-USA//Salt# Lake# City*.z/
+|coordinates-of=40.47N111.56Wcoor|population-of=159936u|
+=====city-Sandy-UT-USA//Sandy.z/|coordinates-of=40.34N111.51Wcoor|
+population-of=75058u|
+=====city-Taylorsville-Bennion-UT-USA//Taylorsville#-Bennion*.z/
+|coordinates-of=40.39N111.57Wcoor|population-of=52351u|
+=====city-West-Valley-City-UT-USA//West#A Valley# City*.z/
+|coordinates-of=40.41N112.01Wcoor|population-of=86976u|
+;_______________________________________________________________________________
+===state-VA-USA//Virginia.z/Virginie.y/
+=====city-Alexandria-VA-USA//Alexandria.z/|coordinates-of=38.49N77.05Wcoor|
+population-of=111183u|
+=====city-Annandale-VA-USA//Annandale.z/|coordinates-of=38.50N77.13Wcoor|
+population-of=50975u|
+=====city-Arlington-VA-USA//Arlington.z/|coordinates-of=38.53N77.06Wcoor|
+population-of=170936u|
+=====city-Burke-VA-USA//Burke.z/|coordinates-of=38.47N77.16Wcoor|
+population-of=57734u|
+=====city-Chesapeake-VA-USA//Chesapeake.z/|coordinates-of=36.41N76.19Wcoor|
+population-of=151976u|
+=====city-Danville-VA-USA//Danville.z/|coordinates-of=36.35N79.24Wcoor|
+population-of=53056u|
+=====city-Hampton-VA-USA//Hampton.z/|coordinates-of=37.03N76.18Wcoor|
+population-of=133793u|
+=====city-Lynchburg-VA-USA//Lynchburg.z/|coordinates-of=37.24N79.11Wcoor|
+population-of=66049u|
+=====city-Newport-News-VA-USA//Newport# News*.z/
+|coordinates-of=37.05N76.31Wcoor|population-of=170045u|
+=====city-Norfolk-VA-USA//Norfolk.z/|coordinates-of=36.55N76.15Wcoor|
+population-of=261229u|
+=====city-Portsmouth-VA-USA//Portsmouth.z/|coordinates-of=36.51N76.21Wcoor|
+population-of=103907u|
+==*==city-Richmond-VA-USA//Richmond.z/|coordinates-of=37.32N77.28Wcoor|
+population-of=203056u|
+=====city-Roanoke-VA-USA//Roanoke.z/|coordinates-of=37.17N79.58Wcoor|
+population-of=96397u|
+=====city-Suffolk-VA-USA//Suffolk.z/|coordinates-of=36.42N76.38Wcoor|
+population-of=52141u|
+=====city-Virginia-Beach-VA-USA//Virginia# Beach*.z/
+|coordinates-of=36.44N76.03Wcoor|population-of=393069u|
+;_______________________________________________________________________________
+===state-VT-USA//Vermont.z/Vermont.y/
+==*==city-Montpelier-VT-USA//Montpelier.z/
+;_______________________________________________________________________________
+===state-WA-USA//Washington.z/Washington# State*.z/Washington.y/
+=====city-Bellevue-WA-USA//Bellevue.z/|coordinates-of=47.36N122.09Wcoor|
+population-of=86874u|
+=====city-Bellingham-WA-USA//Bellingham.z/|coordinates-of=48.45N122.28Wcoor|
+population-of=52179u|
+=====city-Everett-WA-USA//Everett.z/|coordinates-of=47.58N122.12Wcoor|
+population-of=69961u|
+=====city-Federal-Way-WA-USA//Federal#A Way*.z/
+|coordinates-of=47.19N122.20Wcoor|population-of=67554u|
+=====city-Lakewood-WA-USA//Lakewood.z/|coordinates-of=47.10N122.32Wcoor|
+population-of=58412u|
+==*==city-Olympia-WA-USA//Olympia.z/
+=====city-Seattle-WA-USA//Seattle.z/|coordinates-of=47.37N122.21Wcoor|
+population-of=516259u|
+=====city-Spokane-WA-USA//Spokane.z/|coordinates-of=47.40N117.25Wcoor|
+population-of=177196u|
+=====city-Tacoma-WA-USA//Tacoma.z/|coordinates-of=47.15N122.28Wcoor|
+population-of=176664u|
+=====city-Yakima-WA-USA//Yakima.z/|coordinates-of=46.36N120.32Wcoor|
+population-of=54827u|
+;_______________________________________________________________________________
+===state-WI-USA//Wisconsin.z/Wisconsin.y/
+=====city-Appleton-WI-USA//Appleton.z/|coordinates-of=44.16N88.24Wcoor|
+population-of=65695u|
+=====city-Eau-Claire-WI-USA//Eau# Claire*.z/|coordinates-of=44.49N91.30Wcoor|
+population-of=56856u|
+=====city-Green-Bay-WI-USA//Green#A Bay*.z/|coordinates-of=44.31N87.59Wcoor|
+population-of=96466u|
+=====city-Janesville-WI-USA//Janesville.z/|coordinates-of=42.41N89.01Wcoor|
+population-of=52133u|
+=====city-Kenosha-WI-USA//Kenosha.z/|coordinates-of=42.35N87.51Wcoor|
+population-of=80352u|
+=====city-La-Crosse-WI-USA//La#Dj Crosse*.z/|coordinates-of=43.50N91.14Wcoor|
+population-of=51003u|
+==*==city-Madison-WI-USA//Madison.z/|coordinates-of=43.05N89.23Wcoor|
+population-of=191262u|
+=====city-Milwaukee-WI-USA//Milwaukee.z/|coordinates-of=43.04N87.58Wcoor|
+population-of=628088u|
+=====city-Oshkosh-WI-USA//Oshkosh.z/|coordinates-of=44.01N88.33Wcoor|
+population-of=55006u|
+=====city-Racine-WI-USA//Racine.z/|coordinates-of=42.44N87.48Wcoor|
+population-of=84298u|
+=====city-Waukesha-WI-USA//Waukesha.z/|coordinates-of=43.01N88.14Wcoor|
+population-of=56958u|
+=====city-West-Allis-WI-USA//West#A Allis*.z/|coordinates-of=43.00N88.02Wcoor|
+population-of=63221u|
+;_______________________________________________________________________________
+===state-WV-USA//West#A Virginia*.z/Virginie*-Occidentale*A.Fy/
+==*==city-Charleston-WV-USA//Charleston.z/|coordinates-of=38.21N81.38Wcoor|
+population-of=57287u|
+=====city-Huntington-WV-USA//Huntington.z/|coordinates-of=38.25N82.26Wcoor|
+population-of=54844u|
+;_______________________________________________________________________________
+===state-WY-USA//Wyoming.z/Wyoming.y/
+==*==city-Cheyenne-WY-USA//Cheyenne.z/|coordinates-of=41.09N104.48Wcoor|
+population-of=50008u|
+;_______________________________________________________________________________
+=South#A America*.z//Amérique* du#R Sud#M.Fy/|coordinates-of=15.00S60.00Wcoor|
+;_______________________________________________________________________________
+==country-ARG//Argentina.¹z/Argentine.¹Fy/|phone-prefix-of=STRING:cc:"54"|
+official-language-of=espagnol|
+=====city-Buenos-Aires-ARG//Buenos#Aj Aires*.z/
+=====city-Cordoba-ARG//Cordoba.z/
+==country-BRB//Barbados.¹z/Barbade.¹kFy/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+==country-BOL//Bolivia.¹z/Bolivie.¹Fy/|phone-prefix-of=STRING:cc:"591"|
+official-language-of=espagnol|
+=====city-La-Paz-BOL//La#Dj Paz*.z/
+==country-BRA//Brazil.¹z/Brésil.¹My/|phone-prefix-of=STRING:cc:"55"|
+official-language-of=Portuguese|
+=====city-Belem-BRA//Belem.z/
+=====city-Belo-Horizonte-BRA//Belo#Aj Horizonte*.z/
+=====city-Brazilia-BRA//Brazilia.z/
+=====city-Fortaleza-BRA//Fortaleza.z/
+=====city-Porto-Alegre-BRA//Porto# Alegre*.z/
+=====city-Rio-de-Janeiro-BRA//Rio# de#Rj Janeiro*.z/
+=====city-Salvador-BRA//Salvador.z/
+=====city-Sao-Paulo-BRA//Sao# Paulo*.z/
+==country-CHL//Chile.¹z/Chili.¹My/|phone-prefix-of=STRING:cc:"56"|
+official-language-of=espagnol|
+=====city-Santiago-CHL//Santiago.z/
+==country-COL//Colombia.¹z/Colombie.¹Fy/|phone-prefix-of=STRING:cc:"57"|
+official-language-of=espagnol|
+=====city-Barranquilla-COL//Barranquilla.z/
+=====city-Medellin-COL//Medellin.z/
+=====city-Santa-Fe-de-Bogota-COL//Santa#j Fe# de#R Bogota*.z/
+==country-ECU//Ecuador.¹z/Équateur.¹My/Equateur.My/
+|phone-prefix-of=STRING:cc:"593"|official-language-of=espagnol|
+=====city-Guayaquil-ECU//Guayaquil.z/
+=====city-Quito-ECU//Quito.z/
+==country-GUY//Guyana.¹z/Guyana.¹Fy/République* coopérative*A de#R Guyana#.Fy/
+|phone-prefix-of=STRING:cc:"592"|official-language-of=F122|
+==country-JAM//Jamaica.¹z/Jamaïque.¹Fy/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+=====city-Kingston-JAM//Kingston.z/
+==country-PRY//Paraguay.¹z/Paraguay.¹y/|phone-prefix-of=STRING:cc:"595"|
+official-language-of=espagnol|
+==country-PER//Peru.¹z/Pérou.¹My/|phone-prefix-of=STRING:cc:"51"|
+official-language-of=espagnol|@1994:naÐ|population-of=17000000u|
+=====city-Lima-PER//Lima.z/
+==country-SGS//South#A Georgia#S and#K the#DS South#A Sandwich#S Islands*.Pïz/
+South#A Georgia*.z/South#A Sandwich#S Islands*.Pïz/
+==country-SUR//Suriname.¹z/Surinam.oz/Surinam.¹My/
+|phone-prefix-of=STRING:cc:"597"|
+==country-TTO//Trinidad# and#K Tobago*.¹z/Trinidad,Tobago.z/
+Trinité#-et#K-Tobago#.¹Fy/|phone-prefix-of=STRING:cc:"1809"|
+official-language-of=F122|
+===Trinidad.z//Trinité.¹Fy/île* de#R la#D Trinité#.¹Fy/
+==country-URY//Uruguay.¹z/Uruguay.¹My/|phone-prefix-of=STRING:cc:"598"|
+official-language-of=espagnol|
+=====city-Montevideo-URY//Montevideo.z/
+==country-VEN//Venezuela.¹z/Venezuela.¹My/|phone-prefix-of=STRING:cc:"58"|
+official-language-of=espagnol|
+=====city-Caracas-VEN//Caracas.z/
+=====city-Maracaibo-VEN//Maracaibo.z/
+;_______________________________________________________________________________
+;=country-NM//No#H Man#'s Land*.z/No#H Mans#P Land*.z/
+=country-OS//Oceans.Pïz/
+=country-UF//Undersea#A Features*.Pïz/
+;_______________________________________________________________________________

@@ -1,0 +1,111 @@
+
+; Daffy Duck
+===Anglo-American-male-given-name//
+====aamgn-Daffy//Daffy.Mz/Daffy.My/
+
+; Jaxon Van Derbeken
+===other-unknown-gender-given-name//
+====otugn-Jaxon//Jaxon.z/Jaxon.y/
+
+; Tyche Hendricks
+====otugn-Tyche//Tyche.z/Tyche.y/
+
+; Arlette Laguiller
+===Anglo-American-female-given-name//
+====aafgn-Arlette//Arlette.Fz/Arlette.Fy/
+
+; Jean-Yves Haberer
+===Anglo-American-male-given-name//
+====aamgn-Yves//Yves.Mz/Yves.My/
+
+; Lionel Jospin
+====aamgn-Lionel//Lionel.Mz/Lionel.My/
+
+; Antoine Seillière de Laborde
+====aamgn-Seilli-re//Seillière.Mz/Seillière.My/
+
+; Gérard Longuet
+====aamgn-G-rard//Gérard.Mz/Gérard.My/
+
+; Pascal Lamy
+====aamgn-Pascal//Pascal.Mz/Pascal.My/
+
+; Ségolène Royal
+===Anglo-American-female-given-name//
+====aafgn-S-gol-ne//Ségolène.Fz/Ségolène.Fy/
+
+; Renaud Donnedieu de Vabres
+===Anglo-American-male-given-name//
+====aamgn-Renaud//Renaud.Mz/Renaud.My/
+====aamgn-Donnedieu//Donnedieu.Mz/Donnedieu.My/
+
+; Georg Wilhelm Friedrich
+====aamgn-Wilhelm//Wilhelm.Mz/Wilhelm.My/
+
+; Otto Neurath
+====aamgn-Otto//Otto.Mz/Otto.My/
+
+; John Langshaw Austin
+====aamgn-Langshaw//Langshaw.Mz/Langshaw.My/
+
+; Benoît Mandelbrot
+====aamgn-Beno-t//Benoît.Mz/Benoît.My/
+
+; Wilhelm Gottfried Leibniz
+====aamgn-Gottfried//Gottfried.Mz/Gottfried.My/
+
+; Wietske Bazick
+====aamgn-Wietske//Wietske.Mz/Wietske.My/
+
+; Koen Bearse
+====aamgn-Koen//Koen.Mz/Koen.My/
+
+; Bos Becker
+====aamgn-Bos//Bos.Mz/Bos.My/
+
+; Hanneke Bolduc
+===Anglo-American-female-given-name//
+====aafgn-Hanneke//Hanneke.Fz/Hanneke.Fy/
+
+; Wim Claassen
+===Anglo-American-male-given-name//
+====aamgn-Wim//Wim.Mz/Wim.My/
+
+; Ferdinand de Saussure
+====aamgn-Ferdinand//Ferdinand.Mz/Ferdinand.My/
+
+; Émile Benveniste
+====aamgn--mile//Émile.Mz/Émile.My/
+
+; Alexei Starobinsky
+====aamgn-Alexei//Alexei.Mz/Alexei.My/
+
+; Andrei Linde
+====aamgn-Andrei//Andrei.Mz/Andrei.My/
+
+; Tenzin Gyatso
+====aamgn-Tenzin//Tenzin.Mz/Tenzin.My/
+
+; Ioan Couliano
+===other-unknown-gender-given-name//
+====otugn-Ioan//Ioan.z/Ioan.y/
+
+; Mircea Eliade
+===Anglo-American-male-given-name//
+====aamgn-Mircea//Mircea.Mz/Mircea.My/
+
+; Lélia Picabia
+===Anglo-American-female-given-name//
+====aafgn-L-lia//Lélia.Fz/Lélia.Fy/
+
+; Clara Bellar
+====aafgn-Clara//Clara.Fz/Clara.Fy/
+
+; Mathias Megard
+===Anglo-American-male-given-name//
+====aamgn-Mathias//Mathias.Mz/Mathias.My/
+
+; Aurore Rauscher
+===Anglo-American-female-given-name//
+====aafgn-Aurore//Aurore.Fz/Aurore.Fy/
+

@@ -1,0 +1,1938 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=color.z/EM-light,attribute,normal-luminance,normal-saturation/hue.z/
+colored.¹Az/tinted.Az/couleur.¹Fy/teinte.Fy/tonalité.Fy/coloré.¹Ay/
+de#R couleur#NF,en#R couleur#NF.Ay/teinté.Ay/
+;_______________________________________________________________________________
+==white.NAz//blanc.NAMy/
+;_______________________________________________________________________________
+==off#R-white#.NAz//blanc# cassé#.ßAy/
+===ivory#N-colored#.Az//ivory.Az/creamy#A-white#.NAz/
+ivoire.ßAy/d#R'ivoire#NM.ßAy/éburné.tAy/éburnéen.qAy/
+;_______________________________________________________________________________
+==black.NAz/zero-luminance/noir.NAMy/
+;_______________________________________________________________________________
+==gray.NAz/white,low-luminance,cold-color/gris.NAMy/
+===blue#-gray*.NAz//
+===dark#A gray*.NAz//dark#A grey*.NAz/
+===light#A gray*.NAz//light#A grey*.NAz/
+===sand#N-colored*.Az/high-luminance/sandy.Ay/sable.Ay/
+;_______________________________________________________________________________
+==brown.NAz/low-luminance/brun.NAMy/marron.qßAy/|red=50pc|yellow=50pc|
+===light#A brown*.NAz//
+===dark#A brown*.NAz//
+====brunet.MAz//brunette.FAz/|r1=hair|
+===sepia.NAz//sépia.Fy/
+===beige.NAz/low-saturation,high-luminance/grayish#-tan#.Az/grayish#A tan*.z/
+beige.NAMy/
+===yellowish#A brown*.qz/low-saturation,high-luminance/tan.¹NAz/
+yellowish#-brown#.Az/brownish#A yellow*.z/brownish#A-yellow#.Az/
+fauve.My/fauve.Ay/
+====tawny.NAz//
+====khaki-color//khaki.NAz/kaki.ßAy/kaki.ßMy/
+===bright#A brown*.z/high-luminance/châtain.NAMy/
+====tanne//tanné.oAy/
+;_______________________________________________________________________________
+==purplish#A red*.z//purplish#-red#.Az/rose.z/|frequency-of=780ang|
+===crimson.NAz/deep/pourpre.NAMy/amarante.Aßy/pourpré.Ay/purpurin.Aty/
+===garnet.NAz/deep/grenat.ßAy/grenat.My/couleur* grenat#M.Fy/
+couleur#NF grenat#NM.Ay/
+===carmine.NAz/brilliant/carmin.ßAy/carmin.My/
+===fuchsia.NAz//fuchsia.My/rose* fuchsia#.My/
+==warm#A color*.z//warm.Ay/chaud.Ay/|frequency-of=780¯578ang|
+==cold#A color*.z//cold.Ay/froid.Ay/|frequency-of=578¯464ang|
+;_______________________________________________________________________________
+==red.mNAz//rouge.NAMy/de#R rubis#NM.tAy/|frequency-of=780¯620ang|
+===burgundy.NAz//
+===gules.oz//gueules.oMy/
+===pale#A red*.z/pale/salmon.NAz/
+===pinkish#A red*.z/pale/pinkish#-red#.Az/rose.z/rose.NAMy/
+===pink.NAz/pale/rose.NAMy/rosé.Ay/
+===oxblood.NAz/deep/
+===rubis.Ay/high-luminance/
+===ruby#N-red#.NAz/deep/ruby.NAz/deep#A red*.z/
+===reddish#A brown*.z/low-luminance/reddish#-brown#.Az/chestnut.z/marron.ßAy/
+====bronze-color//bronze.NAz/bronze.qMy/bronzé.Ay/
+====hazel.NAz//noisette.ßAy/noisette.Fy/couleur* noisette#.Fy/
+couleur#NF noisette#NF.Ay/couleur* de#R noisette#.Fy/
+couleur#NF de#R noisette#NF.Ay/
+==scarlet.NAz/high-luminance/écarlate.NAFy/|frequency-of=650ang|
+===vermilion.NAz//vermillon.ßAy/vermillon.My/rouge* vermillon#.NAMy/
+==yellowish#A pink*.z/pale/yellowish#-pink#.Az/|frequency-of=640ang|
+===white-flesh-color//flesh.z/flesh#N-colored#.Az/chair.ßAy/couleur* chair#N.Fy/
+couleur#NF chair#NF.Ay/
+===salmon# pink*.z//salmon#N-pink#.Az/salmon.NAz/rose* saumon#ß.My/
+rose#NM saumon#NM.Ay/saumon.ßAy/
+==orange#-red*.NAz//orange*-rouge*.My/|frequency-of=620.8ang|
+;_______________________________________________________________________________
+==orange.NAz//orange# orange*.Tz/orange.My/orangé.tNMy/orangé.TAy/orange.ßAy/
+|frequency-of=620¯592ang|
+===aurore.oFy//
+==yellow#-orange*.NAz//jaune*-orange*.My/|frequency-of=587.9ang|
+===peach-color//peach.z/peachy.qAz/pêche.ßAy/couleur* pêche#.Fy/
+couleur#NF pêche#NF.Ay/
+===amber.NAz//ambre.My/ambré.Ay/
+===gold.NAz//jaune* d#R'or#.My/couleur* d#R'or#NM.Fy/couleur#NF d#R'or#NM.Ay/
+doré.Ay/d#R'or#NM.qAy/
+====blond.Az//blond.Ay/|r1=hair|
+===ochre.NAz//ocher.NAz/ocre.ßAy/ocre.My/ocre.Fy/
+;_______________________________________________________________________________
+==yellow.NAz//jaune.NAMy/|frequency-of=592¯578ang|
+===saffron#N-colored#.Az//saffron.NAz/saffron#A yellow*.z/safrané.Ay/
+safran.NAMy/
+===lemon# yellow*.z//citron.ßAy/jaune* citron#NM.My/jaune#NM citron#NM.Ay/
+couleur* jaune#NM citron#NM.Fy/couleur#NF jaune#NM citron#NM.Ay/
+====drab.NAz//terne.Ay/
+==yellow#-green*.NAz//yellowish#A green*.z/yellowish#-green#.Az/
+|frequency-of=570ang|
+===reseda.NAz/pale/mignonette.NAz/rédéda.ßAy/rédéda.My/
+===chartreuse.z/pale/
+===bright#A yellow#-green*.NAz/high-luminance/mousse.Fy/
+===olive#N-green*.NAz/low-luminance/olive.NAz/olive.ßAy/couleur* olive#NF.Fy/
+couleur#NF olive#NF.Ay/vert#NM olive#NF.ßAy/verdâtre.qAy/
+;_______________________________________________________________________________
+==green.NAz//vert.NAMy/|frequency-of=578¯513ang|
+===sinople.oy//
+===bright#A green*.z/high-luminance/bright#-green#.Az/emerald.NAz/émeraude.ßAy/
+vert* émeraude#NF.My/vert#NM émeraude#NF.Ay/
+==blue#-green*.NAz//bleu*-vert*.My/|frequency-of=492.6ang|
+===dull#A blue#-green*.NAz/low-luminance/glauque.Ay/
+==cyan.NAz//cyan.My/|frequency-of=513¯500ang|
+==turquoise.NAz//turquois.NAz/greenish#A blue*.z/greenish#-blue#.Az/
+turquoise.ßAy/bleu* turquoise#NF.My/bleu#NM turquoise#NF.Ay/
+couleur* bleu#NM turquoise#NF.Fy/couleur#NF bleu#NM turquoise#NF.Ay/
+|frequency-of=500ang|
+==blue#-cyan*.NAz//cyanine# blue*.z/bleu* cyané*A.My/|frequency-of=496ang|
+==sapphire# green*.NAz//sapphire.NAz/saphir.ßAy/saphir.tMy/|frequency-of=480ang|
+;_______________________________________________________________________________
+==blue.NAz//bleu.NAMy/|frequency-of=500¯464ang|
+===dark#A blue*.NAz//
+===light#A blue*.NAz//
+===sky# blue*.NAz//azure.NAz/bleu* ciel#M.My/bleu* de#R ciel#M.My/azur.tMy/
+azuré.tAy/
+===sea# blue*.NAz//marine#N blue*.NAz/
+===steel# blue*.NAz//
+===pale#A blue*.NAz/pale/bleu* pâle*A.My/
+===deep#A blue*.NAz/deep/ultramarine.NAz/outremer.Aty/outremer.My/
+ultramarin.Aty/
+==purplish#A blue*.z//purplish#-blue#.Az/|frequency-of=478.5ang|
+===navy# blue*.NAz//navy.NAz/marine.Ay/bleu* marineÝmarine*AC.My/
+bleu# marineÝmarine*.Ay/
+==indigo.NAz//indigo.ßAy/indigo.My/|frequency-of=464¯446ang|
+==magenta.NAz//magenta.My/
+;_______________________________________________________________________________
+==violet.NAz//violet.NAMy/|frequency-of=446¯380ang|
+===purple.NAz//violet.NAMy/
+===amethyst.NAz//améthyste.ßAy/violet* améthyste#F.My/
+violet* d#R'améthyste#F.My/
+===light#A violet*.NAz//light#A purple*.NAz/
+===mauve.NAz/pale/mauve.My/violet* pâle*A.My/
+===lavender.NAz/pale/pale#A purple*.z/pale#-purple#.Az/lavande.qßAy/
+couleur* lavande#NF.qFy/couleur#NF lavande#NF.qAy/
+==reddish#A purple*.z//reddish#-purple#.Az/|frequency-of=380ang|
+===plum-color/low-luminance/plum.NAz/plum#N-colored#.Az/prune.ßAy/
+;_______________________________________________________________________________
+=luminance.z/attribute/brightness.z/luminance.¹Fy/luminosité.Fy/brillance.Fy/
+=-luminance* of#R source#.z//luminance* de#R source#.Fy/
+===high#A luminance*.qz//light.¹Az/clair.¹Ay/clarté.ÎFy/leucie.ty/
+|luminance-of=100pc|
+====high-luminance-LIGHT//light.¹Az/|r1=[not physical-object]|
+===normal#A luminance*.qz//|luminance-of=80pc|
+===medium#A luminance*.qz//|luminance-of=50pc|
+===low#A luminance*.qz//dark.¹Az/foncé.Ay/sombre.Ay/|luminance-of=30pc|
+===zero#A luminance*.qz//|luminance-of=0pc|
+=-luminance* of#R object#.z//luminance* d#R'objet#M.Fy/
+===bright.Az//intense.Ay/brillance.ÎFy/éclat.ÎMy/phanie.tFy/
+éclatant.Ay/|luminance-of=100pc|
+===dim.Az//dull.Az/faible.Ay/fade.Ay/fadasse.hTAy/fadeur.Fy/terne.Ay/
+|luminance-of=30pc|
+;_______________________________________________________________________________
+=saturation.z/attribute/chroma.z/saturation.Fy/
+==high#A saturation*.qz//pure.Az/pur.Ay/saturé.Ay/pureté.ÎFy/
+|saturation-of=100pc|
+==normal#A saturation*.qz//|saturation-of=80pc|
+==low#A saturation*.qz//washed#-out#R.Az/lavé.Ay/lavé* de#R blanc#M.Ay/
+délavé.Ay/|saturation-of=30pc|
+;_______________________________________________________________________________
+=luminance* and#K saturation*.z/attribute/luminance* et#K saturation*.Fy/
+==brilliant.Az/high-luminance,high-saturation/vif.Ay/
+==pale.Az/high-luminance,low-saturation/pâle.Ay/
+==deep.Az/low-luminance,high-saturation/profond.Ay/
+==subdued.Az/low-luminance,low-saturation/rabattu.Ay/doux.Ay/
+;_______________________________________________________________________________
+=shiny.Az/attribute/glossy.Az/brillant.Az/shine.z/shininess,glossiness,luster.z/
+|antonym-of=dull|
+=dull.Az/attribute/matte,matt,mat.Az/mat.Ay/
+;_______________________________________________________________________________
+=texture.z/attribute/texture.Fy/grain.My/
+==smooth.Az//lisse.Ay/|antonym-of=rough|
+==rough.Az//rêche,rugueux.Ay/
+;_______________________________________________________________________________
+=shape.z/attribute,physical-object/forme.Fy/
+;_______________________________________________________________________________
+==line.z//ligne.Fy/
+;_______________________________________________________________________________
+==conic#A section*.z//conics.Îz/section* conique*A.@Fy/
+===hyperbola.z//hyperbolic.Az/hyperbole.Fy/hyperbolique.Ay/
+===parabola.z//parabolic.Az/parabole.Fy/parabolique.Ay/
+===ellipse.tz//elliptic,elliptical.tAz/oval.z/oval.Az/
+ovale.My/ovale.Ay/ellipse.tFy/elliptique.tAy/
+====circle.z//perfect#A circle*.z/circular.Az/cercle.My/circulaire.Ay/
+;_______________________________________________________________________________
+==plane# figure*.z//closed#A plane# figure*.z/figure* plane*A.Fy/
+;_______________________________________________________________________________
+===plane-figure-triangle//triangle.z/triangular.Az/triangle.My/triangulaire.Ay/
+====right#A triangle*.z//right#A-angled#A triangle*.z/triangle* rectangle*A.My/
+====equilateral#A triangle*.z//equilateral.Az/triangle* équilatéral*A.@My/
+équilatéral.Ay/
+====isosceles#A triangle*.z//isosceles.Az/triangle* isocèle*A.@My/isocèle.Ay/
+====scalene#A triangle*.z//scalene.Az/triangle* scalène*A.My/scalène.Ay/
+;_______________________________________________________________________________
+===quadrilateral.z//quadrilateral.Az/quadrilatère.My/quadrilatéral.Ay/
+====trapezoid.Àz//trapezium.gz/trapezoidal.Az/trapèze.My/trapézoïde.Ay/
+=====right#A trapezoid*.z//trapèze* rectangle*A.My/
+====trapezium.Àz//
+====rectangle.z//rectanglar.Az/rectangle.My/rectangulaire,rectangle.Ay/
+=====oblong.z//oblong.Az/
+=====rectangle-square//square.z/square.Az/carré.My/carré.Ay/
+====parallelogram.z//parallélogramme.My/
+=====rhombus.z//rhomb.z/rhombic.Az/losange.My/rhombe.oMy/rhombique.Ay/
+=====rhomboid.z//rhomboid.Az/rhomboïde.oMy/rhomboïdal.Ay/
+;_______________________________________________________________________________
+===polygon.z//polygonal.Az/polygone.My/polygonal.Ay/
+====pentagon.z//pentagonal.Az/pentagone.My/pentagonal.Ay/
+====hexagon.z//hexagonal.Az/hexagone.My/hexgonal.Ay/
+====octagon.z//octagonal.Az/octogone.My/octogonal.Ay/
+;_______________________________________________________________________________
+==solid#A figure*.z//figure* à#R trois#AP dimensions#P.Fy/
+===polyhedron.z//polyhedral.Az/polyèdre.My/polyédrique.Ay/
+====tetrahedron.z//tétraèdre.My/
+====hexahedron.z//
+====octahedron.z//
+====dodecahedron.z//dodécaèdre.My/
+===cone.z//conical.Az/cône.My/conique.Ay/
+===cylinder.z//cylindrical.Az/cylindre.My/cylindrique.Ay/
+===pyramid.z//pyramidal.¹Az/pyramidic,pyramidical.Az/pyramide.Fy/pyramidal.Ay/
+===sphere.z//globe,ball.z/spherical.Az/ball#N-shaped#,globe#N-shaped#.Az/
+sphère.Fy/sphérique.Ay/
+===ellipsoid.z//ellipsoid,ellipsoidal.Az/ellipsoïde.My/ellipsoïde.Ay/
+====pear#N-shaped#.Az//en#R forme#NF de#R poire#NF.Ay/piriforme.Ay/
+===fish#N-shaped#.Az//pisciforme.Ay/
+===parallelepiped.z//parallélépipède.My/
+====right#A parallelepiped*.z//parallélépipède* rectangle*A.My/
+=====cube.z//cube.My/
+;_______________________________________________________________________________
+=visual-pattern/attribute,abstract-object/visual#A pattern*.z/dessin,motif.My/
+==test# pattern*.z//mire* de#R réglage#M.Fy/mire.Fy/
+==bars.Pïz//bande.Fy/
+==plaid#A pattern*.z//plaid.NAz/en#R tissu#NM écossais#AM.Ay/
+tissu* écossais*A.My/
+==checker.NAz//check,square.NAz/carreaux.MPïy/
+===thin#A checker*.NAz//
+==floral.Az//floral#A pattern*.z/à#R ramages#NMP,à#R motifs#NMP floraux#AMP.Ay/
+motif* de#R fleurs#FP,motif* floral*A.Ny/
+==paisley.NAz//Paisley.NAz/motif* cachemire*,dessin* cachemire*.My/
+==splotches.ÀPïz//splodges.gPïz/éclaboussure,tache.Fy/
+==dots.Pïz//pois.ßMy/
+===small#A dots*.Pïz//
+===polka# dot*.NAz//dot,spot.z/dotted,spotted.Az/polka#-dot#.Az/pois.ßMy/
+==print.NAz//imprimé.Ay/en#R tissu#NM imprimé#AM,en#R imprimé#AM.Ay/
+==tie#-dye*.NAz//tiedye.NAz/tie#-and#K-dye*.NAz/
+méthode* nouer#V-lier#V-teindre#V.Fy/
+==chevrons.Pïz//chevron.My/
+===small#A chevrons*.Pïz//
+==crosses.Pïz//croix.Fy/
+==crosshatch.z//hachure* croisée*A.Fy/
+===large#A crosshatch*.z//
+==squares.Pïz//carré.My/
+===small#A squares*.Pïz//
+==circles.Pïz//cercle.My/
+==ovals.Pïz//ovale.My/
+==triangles.Pïz//triangle.My/
+==pin# stripe*.NAz//rayé.Ay/
+==stripes.Pïz//striped.Az/raie,rayure.Fy/rayé,à#R raies#FP,à#R rayures#FP.Ay/
+===thin#A stripes*.Pïz//
+===large#A stripes*.Pïz//
+;_______________________________________________________________________________
+=stitch.z/attribute/maille.Fy/
+==fine#A stitch*.z//maille* fine*A.Fy/
+==weave.z//tissage.My/
+===English#A weave*.z//tissé* en#R Angleterre#N.Ay/
+===loose#A weave*.z//tissage* lâche*A.My/
+===tight#A weave*.z//tissage* serré*A.My/
+===fine#A weave*.NAz//High#® Twist#®.y/
+==stitch-strings//strings.Pïz/ficelle.Fy/
+;_______________________________________________________________________________
+=area-attribute/attribute/
+==rural.Az//country.Az/rustic.hAz/bucolic,pastoral.qAz/
+rural.Ay/agreste.tAy/agreste.oAy/
+==suburban.Az//de#R banlieue#NF.Ay/suburbain.Ay/
+==urban.Az//city.Az/urbain.Ay/
+;_______________________________________________________________________________
+=nationality-residence-attribute/attribute/
+==attr-Afghan//Afghan.Az/
+==attr-African//African.¹Az/Afro.Az/africain.Ay/
+==attr-American//American.Az/Yankee.Ahz/américain.¹Ay/étasunien,etasunien.qAy/
+états#MP-unien*§,etats#MP-unien*§.qAy/yankee.qAy/amerloque.ahAy/ricain.aAy/
+==attr-Asian//Asian.Az/asiatique.Ay/
+==attr-Biarritz//biarrot.Ay/
+==attr-British//British.Az/britannique.Ay/
+==attr-Burgundian//Burgundian.Az/bourguignon.Ay/
+==attr-Californian//Californian.Az/californien.Ay/
+==attr-Canadian//Canadian.Az/canadien.Ay/
+==attr-Chinese//Chinese.¹Az/Sino.Az/chinois.Ay/
+==attr-Czech//Czech.Az/tchèque.Ay/
+==attr-Czechoslovakian//Czechoslovak,Czechoslovakian.Az/tchécoslovaque.Ay/
+==attr-Danish//Danish.Az/danois.Ay/
+==attr-Douarnenez//douarneniste.Ay/
+==attr-Dutch//Dutch.Az/néerlandais.Ay/
+==attr-East-Ender//
+==attr-English//English.¹Az/Anglo.Az/anglais.Ay/
+==attr-European//European.¹Az/Euro.Az/européen.Ay/
+==attr-Finnish//Finnish.Az/finnois.Ay/finlandais.Ay/
+==attr-French//French.¹Az/Franco.Az/français.Ay/
+==attr-German//German.Az/allemand.Ay/
+==attr-Hongkong//hongkongais.Ay/
+==attr-Ile-de-France//francilien.Ay/
+==attr-Indian//Indian.¹Az/Indo.Az/indien.Ay/
+==attr-Irish//Irish.Az/irlandais.Ay/
+==attr-Italian//Italian.¹Az/Italo.Az/italien.Ay/
+==attr-Japanese//Japanese.Az/japonais.Ay/
+==attr-Kashmiri//Kashmiri.Az/
+==attr-Korean//Korean.Az/coréen.Ay/
+===attr-North-Korean//North#A Korean*.Az/nord*-coréen*.Ay/
+===attr-South-Korean//South#A Korean*.Az/sud*-coréen*.Ay/
+==attr-Liverpudlian//Liverpudlian.Az/Scouser.TAz/
+==attr-Londoner//londonien.Ay/
+==attr-Martinique//martiniquais.Ay/
+==attr-Menton//mentonnais.Ay/
+==attr-Neuilly//nocéen.Ay/
+==attr-New-Jersey//New# Jersey#,New# Jerseyan#,New#A Jerseyite#.Az/
+==attr-New-York//New# York#.Az/new#A yorkais*.Ay/
+==attr-Northern-Irish//Northern#A Irish*.Az/de#R l#D'Irlande#NF du#R Nord#NM.Ay/
+irlandais* du#RM nord#NM.Ay/
+==attr-Parisian//Parisian.Az/parisien.Ay/parigot.TAy/
+==attr-Polish//Polish.Az/polonais.Ay/
+==attr-Scottish//Scottish.Az/écossais.Ay/
+==attr-Slovakian//Slovakian.Az/slovaque.Ay/
+==attr-Spanish//Spanish.Az/espagnol.Ay/
+==attr-Swedish//Swedish.Az/suédois.Ay/
+==attr-Swiss//Swiss.Az/suisse.Ay/
+==attr-Taiwanese//Taiwanese.¹Az/Taiwanian.Az/taiwanais.Ay/
+==attr-Thai//Thai.Az/Siamese.oAz/thaïlandais.Ay/siamois.oAy/
+==attr-Tokyoite//Tokyoite.Az/tokyoïte.Ay/
+==attr-Welsh//Welsh.Az/gallois.Ay/
+;_______________________________________________________________________________
+=school-attribute/attribute/
+==attr-ENS//normalien.Ay/
+==attr-ENA//énarquien.Ay/énarchique.ñAy/
+==attr-X//polytechnicien.Ay/
+==attr-Sorbonne//sorbonnard.ohAy/
+;_______________________________________________________________________________
+=politics-attribute/attribute/
+;_______________________________________________________________________________
+==politically-radical//radical.Az/
+===politically-extremist//extremist,extremistic.Az/
+===politically-yippie//yippie.Az/
+;_______________________________________________________________________________
+==politically-revolutionary//revolutionary.Az/revolutionist.Az/
+révolutionnaire.Ay/
+==politically-subversive//subversive.Az/
+==politically-anarchist//anarchistic.Az/anarchiste.Ay/anar.TAy/
+==politically-nihilist//nihilistic.Az/nihiliste.Ay/
+==politically-syndicalist//syndicalist.Az/
+===politically-anarcho-syndicalist//anarcho#A-syndicalist*.Az/
+anarchosyndicaliste.Ay/
+;_______________________________________________________________________________
+==politically-right-wing//right#A-wing#N.¹Az/right.Az/rightist.Az/
+on#R the#D right#N,right#A of#R center#.Az/droitier.¹Ay/droitiste.Ay/
+===politically-nonprogressive//unprogressive,nonprogressive.Az/
+===politically-royalist//royalist.Az/monarchist.Az/monarchiste.Ay/
+===politically-imperialist//imperialist.Az/
+===politically-reactionary//reactionary.hAz/réactionnaire.hAy/réac.hAy/
+;_______________________________________________________________________________
+===politically-ultraconservative/politically-radical/ultraconservative.Az/
+extreme# right# wing#N,extreme# right#,radical# right#.Az/
+néo*A-conservateur*.Ay/
+====politically-fascist//fascist.Az/fasciste.Ay/
+====politically-nazi//nazi.Ay/hitlérien.Ay/
+=====politically-neonazi//neonazi.Az/néonazi.Ay/
+====politically-nationalist//nationalist.Az/nationaliste.Ay/
+;_______________________________________________________________________________
+===politically-conservative//conservative.Az/conservateur.Ay/
+;_______________________________________________________________________________
+===politically-capitalist//capitalist.¹Az/capitalistic.Az/
+bourgeois,nonsocialistic.Az/capitaliste.¹Ay/
+====politically-free-enterprise//free#A-enterprise#N.Az/
+private#A-enterprise#N.Az/
+====politically-individualistic//individualistic.Az/individualiste.Ay/
+;_______________________________________________________________________________
+===politically-Republican//Republican.Az/républicain.Ay/|us|
+===politically-Tory//Tory.Az/
+;_______________________________________________________________________________
+==politically-moderate//moderate.¹Az/centrist.Az/center.Az/moderatist.qAz/
+moderationist,moderantist.qAz/middle# of#R the#D road#.Az/
+middle#N-of#R-the#D-road#N.Az/centriste.¹Ay/modéré.oAy/
+;_______________________________________________________________________________
+==politically-left-wing//left#A-wing#N.¹Az/left.Az/leftist.Az/
+on#R the#D left#N,left#N of#R center#N.Az/gauchiste.¹Ay/
+;_______________________________________________________________________________
+===politically-anticapitalist//anticapitalist.Az/anticapitaliste.Ay/
+;_______________________________________________________________________________
+===politically-progressive//progressive.¹Az/progressivistic.Az/
+====politically-liberal//liberal.¹Az/liberalist.Az/liberalistic.Az/
+====politically-Democratic//Democratic.¹Az/Democrat.Az/démocrate.Ay/|us|
+====politically-Ecologistes//écolo.Ay/
+====politically-Verts//vert.Ay/
+;_______________________________________________________________________________
+===politically-socialist//socialist.Az/socialistic.Az/socialiste.Ay/
+====politically-collectivist//collectivist.Az/
+====politically-state-socialist//state#N socialist#A.Az/
+====politically-Fabian//Fabian.Az/
+====politically-phalansterian//phalansterian,Fourierist.Az/
+====politically-Owenite//Owenite.Az/
+====politically-Saint-Simonian//Saint#N-Simonian#A.Az/
+====politically-Social-Democratic//Social#A Democratic#A.Az/
+social#AM-démocrate*.Ay/
+;_______________________________________________________________________________
+===politically-communist//communist.Az/Communist.Az/Red,red.TAz/
+communistic.Az/communiste.Ay/rouge.oTAy/
+====politically-Bolshevist//Bolshevist,Bolshevik.Az/Bolshie.aAz/
+====politically-Marxist//Marxist.Az/marxien,marxiste.Ay/
+====politically-Marxist-Leninist//Marxist#-Leninist#.Az/marxiste*-léniniste*.Ay/
+====politically-Leninist//Leninist.Az/léniniste.Ay/
+====politically-Trotskyite//Trotskyite,Trotskyist.Az/
+====politically-Stalinist//Stalinist.Az/
+====politically-Maoist//Maoist.Az/
+====politically-Titoist//Titoist.Az/
+====politically-Castroite//Castroite.Az/
+====politically-Marxist-revisionist//revisionist.Az/
+;_______________________________________________________________________________
+===politically-left-wing-radical/politically-radical/left#A-wing#N radical#.Az/
+extreme#A left#A wing#N,extreme# left#.Az/
+====politically-progressiste//progressiste.Ay/
+====politically-radical-socialiste//radical*-socialiste*.Ay/rad#A-soc#.TAy/
+;_______________________________________________________________________________
+===politically-worker//travailliste.Ay/
+;_______________________________________________________________________________
+=personality# trait*.z/attribute/trait,trait* de#R caractère#.My/|r1=animal|
+;_______________________________________________________________________________
+==abstinent.Az//tempéré,modéré,raisonnable,sage,tempérant.¹Ay/
+abstinent,équilibré,mesuré,modérateur,pondéré,posé,réfléchi.Ay/
+ascétique,austère,discret,économe,frugal.qAy/
+modeste,patient,prudent,retenu,simple.qAy/
+sobre.qAy/pondérateur.tAy/Philosophe.TAy/médiocre.oAy/maître# de#R soi#H.Ay/
+tempérance,modération.¹y/abstinence,équilibre,mesure,pondération,sagesse.y/
+ascétisme,circonspection,continence,diète,économie,frugalité,modestie.qy/
+chasteté.qFy/
+régime,simplicité,discrétion,patience.qy/juste#A milieu#.kMy/
+assagissement,prudence,renoncement,réserve,retenue,sobriété.qy/
+self#-control*.jy/maîtrise# de#R soi#H.qFy/philosophie.Ty/
+médiocrité,tempérament.oy/aurea# mediocritas#.jy/
+société# de#R tempérance#.Îoy/
+modérément,raisonnablement.¹By/philosophiquement.TBy/
+mesurément,modestement,sagement.By/
+discrètement,frugalement,patiemment,posément,prudemment.qBy/
+simplement,sobrement.qBy/|antonym-of=indulgent|
+==indulgent.Az//indulgent.Ay/
+;_______________________________________________________________________________
+==arrogant.Az//arrogant,condescendant,dédaigneux,fier,supérieur.Ay/
+;_______________________________________________________________________________
+==artistic.Az//art.Îz/artistique.Ay/art.ÎMy/
+|[attr-rel-value artistic isa 0.9u artist]|
+[attr-rel-value artistic isa 0.8u musician]|
+[attr-rel-value artistic skill-of 0.7u musical-instrument]|
+;_______________________________________________________________________________
+==authoritative.Az//autoritaire.Ay/
+==bantering.Az//plaisantin,badin.Ay/
+==boastful.Az//fanfaron,vantard.Ay/
+;_______________________________________________________________________________
+==bullying.Az//bully.Vz/tyrannique,brutal.Ay/
+tyranniser,persécuter,malmener,brutaliser,brimer,rudoyer,intimider.Véy/
+;_______________________________________________________________________________
+==careful.Az//carefully.Bz/soigneux,prudent.Ay/prudemment.By/
+;_______________________________________________________________________________
+==charming.Az//irresistable.Az/charmant,charmeur,séduisant.Ay/exquis.Ay/
+divin.oAy/irrésistible.Ay/
+;_______________________________________________________________________________
+==chaste.Az//pure.Az/chaste,pur.Ay/|antonym-of=unchaste|
+==unchaste.Az//impure.Az/non#B chaste*,lascif.Ay/
+;_______________________________________________________________________________
+==cheerful.Az//cheery.Az/cheerfully.Bz/
+joyeux,gai,enjoué,plein# d#R'entrain#NM.Ay/
+gaiement,joyeusement,avec#R entrain#NM.By/|antonym-of=solemn|
+==solemn.Az//sérieux,grave.Ay/solennel.hAy/
+;_______________________________________________________________________________
+==clumsy.Az//gormless.gAz/maladroit.Ay/empoté.TAy/
+==compulsive.Az//compulsif.Ay/
+==consistent-constant//consistent.Az/consistently.Bz/constant.Ay/
+==consistent-logical//consistent.Az/consistently.Bz/cohérent.Ay/
+;_______________________________________________________________________________
+==courageous.Az//daring.Az/gutsy.TAz/have* guts#NP.Vz/take* risks#NP.Vz/
+courage.mz/balls.ÉTPïz/daringly.Bz/courageux.Ay/gonflé.TAy/|antonym-of=cowardly|
+==cowardly.Az//lâche,poltron.Ay/
+;_______________________________________________________________________________
+==creative.Az//creativity,creativeness.z/créatif,créateur.Ay/
+;_______________________________________________________________________________
+==curious.Az//inquisitive.Az/nosy.hTAz/curieux.Ay/avec#R curiosité#A.By/
+|antonym-of=incurious|
+==incurious.Az//sans#R curiosité#.Ay/incurieux.tAy/
+;_______________________________________________________________________________
+==domineering.Az//dominateur,impérieux,autoritaire.Ay/|antonym-of=submissive|
+==submissive.Az//soumis,docile.Ay/
+;_______________________________________________________________________________
+==attr-doer//efficace,dynamique.Ay/|antonym-of=nondoer|
+==nondoer//recreation.z/récréation,détente.Fy/délassement.My/
+;_______________________________________________________________________________
+==unsuccessful.Az//
+;_______________________________________________________________________________
+==easygoing.Az//accommodant,facile# à#R vivre#V.Ay/|antonym-of=hot-tempered|
+==hot-tempered//hot#-tempered#.Az/emporté,colérique.Ay/
+;_______________________________________________________________________________
+==eccentric.Az//excentrique,extravagant,extraordinaire,farfelu,insolite.Ay/
+;_______________________________________________________________________________
+==elite.Az//society.z/élite.ÎFy/gotha.ÎMy/gratin.ÎTMy/fine*A fleur*.ÎFy/
+dessus* du#R panier#.ÎMy/sélect.oTAy/select.ßoTAy/crème.Fy/
+|[attr-rel-value elite diploma-of 0.9u admission-to-the-ENA]|
+;_______________________________________________________________________________
+==energetic.Az//actif,énergique,plein# de#R énergie#NF.Ay/|antonym-of=lazy|
+==lazy.Az//lethargic.TAz/apathique.Ay/
+;_______________________________________________________________________________
+==enjoyable.Az//fun.Az/amusant.Ay/marrant.TAy/divertissant.qAy/
+;_______________________________________________________________________________
+==enthusiastic.Az//enthousiaste.Ay/
+;_______________________________________________________________________________
+==experienced.Az//have* been#V around#B.Vz/|antonym-of=inexperienced|
+==inexperienced.Az//green.TAz/
+;_______________________________________________________________________________
+==extroverted.Az//outgoing.Az/extraverti,extroverti.Ay/
+|antonym-of=introverted|
+==introverted.Az//shy,timid.Az/fermé,introverti,timide.Ay/
+;_______________________________________________________________________________
+==faithful.Az//faith.¹z/fidèle.¹Ay/foi.¹Fy/
+==fastidious.Az//méticuleux,minutieux,tatillon,pointilleux.Ay/
+==fasting//|antonym-of=gluttonous|
+==gluttonous.Az//glouton,gourmand,goulu.Ay/
+==flashy.Az//tapageur.Ay/
+;_______________________________________________________________________________
+==forgiving.Az//indulgent,clément.Ay/|antonym-of=unforgiving|
+==unforgiving.Az//implacable,impitoyable.Ay/
+;_______________________________________________________________________________
+==formal.Az//formaliste,soigné.Ay/compassé,guindé,ampoulé.hAy/
+|antonym-of=informal|
+==informal.Az//simple,familier,sans#R façon#NF.Ay/
+===sport.Az//|r1=clothing|
+;_______________________________________________________________________________
+==friendly.Az//amical,gentil,bienveillant,aimable.Ay/|antonym-of=unfriendly|
+===friendly-warm//warm.Az/warmth.z/chaleureux.Ay/chaleur.Fy/
+===friendly-fraternal//fraternal,brotherly.Ay/fraternel.Ay/
+==unfriendly.Az//cold.Az/coldly.Bz/froid,inamical,hostile.Ay/
+;_______________________________________________________________________________
+==attr-good-Samaritan//good#A will*.z/|antonym-of=attr-wrongdoing|
+==attr-wrongdoing//wrongdoing.mz/méfaits.MPïy/
+;_______________________________________________________________________________
+==greedy.Az//avide.¹Ay/gourmand.Ay/
+==handicapped.Az//handicapé.Ay/
+;_______________________________________________________________________________
+==crude.Az//crudely.Bz/grossier.Ay/
+;_______________________________________________________________________________
+==honest.Az/style-disjunct,reformulatory-contrastive-conjunct/
+trustworthy,frank.Az/honesty.z/honestly,frankly.Bz/in#R all#D honesty#N.Bz/
+to#R be#V blunt#A about#R it#H,to#R put#V itÝhim#H bluntly#.Bz/
+to#R be#V frank#A,putting#V itÝhim#H bluntly#.Bz/
+considered#Vd candidly#,candidly,truthfully.Bz/
+to#R tell#V you#HP the#D truth#N.Bz/
+to#R tell#V the#D truth#N,to#R be#V perfectly#B honest#A.Bz/
+if#K I#H may#V say#V so#B.Bz/
+if#K I#H may#V say#V so#B without#R giving#V you#H offense#N.Bz/
+briefly#,to#R put#V it#H briefly#B.qBz/
+honnête,probe,intègre.Ay/honnêteté,probité,intégrité.Fy/
+franchement.By/à#R vrai#A dire#V,à#R dire#V vrai#A.By/|antonym-of=dishonest|
+==dishonest.Az//malhonnête,déloyal,de#R mauvaise#AF foi#NF.Az/
+;_______________________________________________________________________________
+==honored.Az//honorable.Ay/
+==loved.Az//aimé.Ay/|antonym-of=hated|
+==hated.¹Az//detested.Az/anathema.Az/anathema.z/
+; todo: Connect this to like relation.
+==humble.Az//modest.Az/humble,modeste.Ay/|antonym-of=proud|
+==proud.Az//fier,orgueilleux,hautain.Ay/
+;_______________________________________________________________________________
+==hyperactive.Az//hyperactif.Ay/agité.Ay/speedé.TAy/
+;_______________________________________________________________________________
+==intelligent.Az//smart,wise.Az/brains.ÎPïz/intellectual#A capacity*.Îz/
+gray# matter*.ÎTz/wisely.Az/intelligent.¹Ay/clued,clueful.aAz/
+génial.Ay/judicieusement.@By/|antonym-of=unintelligent|
+;_______________________________________________________________________________
+==unintelligent.Az//dumb,stupid.¹Az/idiotic,dim#-witted#.Az/
+doofy,soft#A in#R the#D head#N,not#B all#B there#H.TAz/
+;_______________________________________________________________________________
+thick,brain#N dead#,clueless.TAz/not#B all#B there#H,ninny,scatterbrained.TAz/
+out#A to#R lunch#N,at#R sea#N.TAz/bozoic.aîAz/
+;_______________________________________________________________________________
+bête,stupide.¹Ay/crétin,idiot,imbécile,inintelligent,naïf,niais,nigaud.Ay/
+;_______________________________________________________________________________
+bébête,cinglé,corniaud,frappé,godiche,jeté,nunuche,toqué,sot.TAy/con.TAy/
+foufou.TAy/niaiseux.Açy/andouille.TFy/bÓuf.ßîTAy/fou.qAy/débile.TAy/
+;_______________________________________________________________________________
+===unintelligent-film//sappy.TAz/|r1=film|
+;_______________________________________________________________________________
+==kind.Az//agreeable,nice,sweet.Az/
+aimable,bon,gentil,sympathique.Ay/agréable.qAy/chouette.TAy/|antonym-of=unkind|
+==unkind.Az//mean,rotten.Az/méchant.Ay/dégueulasse,vache.TAy/cruel,unkind.Az/
+;_______________________________________________________________________________
+==litigious.Az//litigant.Az/chicaneur.Ay/
+==misanthropic.Az//misanthrope.Ay/
+==mischievous.Az//coquin,espiègle,méchant.Ay/
+==modest.Az//modeste,effacé,réservé.Ay/|antonym-of=immodest|
+==immodest.Az//conceited,vain.Az/vaniteux.Ay/
+;_______________________________________________________________________________
+==moral.Az//ethical.Az/virtuous.Az/right.Az/virtue,benevolence.¹Îz/
+virtuousness.Îz/moral.Ay/morale,éthique.Fy/|antonym-of=wicked|
+==wicked.Az//bad.Az/wrong,vice,sin.z/péché,vice.My/mal.Ay/
+;_______________________________________________________________________________
+==musical.Az//musicien.Ay/
+;_______________________________________________________________________________
+==nerdy.TAz//nurdy.TAz/bookish.qAz/geeky,nerdly,nurdly.TAz/studieux.qAy/
+;_______________________________________________________________________________
+==noble.Az//gentil.oAy/|antonym-of=common|
+==common.Az//commun,vulgaire.Ay/
+;_______________________________________________________________________________
+==obedient.Az//compliant.Az/obéissant,docile,soumis.Ay/
+|antonym-of=resistant|
+==resistant.Az//rebellious.Az/disobedient.Az/désobéissant,rebelle,indocile.Ay/
+indiscipliné,insubordonné.qAy/
+;_______________________________________________________________________________
+==open#-minded#.Az//à#R l#DM'esprit#NM ouvert#AM,à#R l#DM'esprit#NM large#AM.Ay/
+sans#R parti#NM pris#V,sans#R préjugés#NMP.Ay/|antonym-of=narrow-minded|
+==narrow#-minded#.Az//aux#RMP vues#NFP étroites#AFP.Ay/
+à#R l#DM'esprit#NM étroit#AM,à#R l#DM'esprit#NM borné#AM.Ay/
+étroit,restreint,borné.qAy/
+;_______________________________________________________________________________
+==optimistic.Az//optimiste.Ay/
+==attr-patient//patient.Az/patient.Ay/|antonym-of=impatient|
+==impatient.Az//impatient.Ay/
+==patriotic.Az//patriotique.Ay/
+==persevering.Az//persévérant.Ay/
+==polite.Az//poli.Ay/|antonym-of=rude|
+==rude.Az//impolite.Az/impoli.Ay/
+;_______________________________________________________________________________
+==political.Az//militant.Ay/politique.Ay/|antonym-of=apolitical|
+==apolitical.Az//apolitisme.My/apolitique.Ay/non#B-alignement*.My/
+non#B-engagement*.My/
+;_______________________________________________________________________________
+==powerful.Az//influential.Az/puissant.Ay/
+;_______________________________________________________________________________
+==preppy.Az//Ivy#N League#N.Az/BCBG,B\.C\.B\.G\..ßAy/
+bon#A genre#NM,bon#A chic#NM bon#A genre#NM.Ay/NAP.ßAy/
+;_______________________________________________________________________________
+==prejudiced.Az//plein* de#R préjugés#NMP.Ay/
+===bigoted.Az//
+====racist.Az//raciste.Ay/
+===sexist.Az//sexiste.¹Ay/
+====male# chauvinist*.Az//chauvinist.Az/male# chauvinism*.Îz/
+chauvin,phallocrate.Ay/phallocratie.ÎFy/
+;_______________________________________________________________________________
+==pretentious.Az//affected.Az/precious.Az/précieux.Ay/
+==puritanical.Az//puritain.Ay/
+;_______________________________________________________________________________
+==reckless.Az//foolish,silly.Az/dangereux,fou,hasardé,hasardeux,téméraire.Ay/
+follement.By/|antonym-of=cautious|
+==cautious.Az//circumspect.Az/sage.Ay/tranquille,gentil.qAy/fin.îAy/
+circonspect.Ay/
+;_______________________________________________________________________________
+==reclusive.Az//solitaire.Ay/
+;_______________________________________________________________________________
+==nonreligious.Az//non#B-religious#A.Az/sans#R religion#NF.Ay/mécréant.hAy/
+===attr-agnostic//agnostic.Az/agnostique.Ay/
+===attr-atheist//atheist.Az/athée.Ay/incroyant,non#B-croyant*.Ay/
+====attr-materialist//materialist.Az/matérialiste.Ay/
+====attr-anti-religious//anti#B-religious#A.Az/areligieux.Ay/
+irréligieux.Ay/impie.hAy/
+=====attr-libertine//libertine.z/libertin.Ay/
+;_______________________________________________________________________________
+==religious.Az//religieux.Ay/|antonym-of=nonreligious|
+===attr-pantheist//pantheist.Az/pantheistic,pantheistical.Az/pantheistically.Bz/
+panthéiste.Ay/
+===attr-occultist//occultist.Az/occultly.Bz/
+===attr-witch//sorcerous.Az/sorcerously.Bz/
+===attr-polytheist//polytheist.¹Az/polytheistic,polytheistical.Az/
+polytheistically.Bz/
+====attr-animist//animist.¹Az/animistic.Az/
+====attr-shamanist//shamanist.¹Az/shamanistic.Az/
+===attr-Zoroastrian//Zoroastrian.¹Az/
+===attr-Shintoist//Shintoist.¹Az/Shintoistic.Az/
+===attr-Taoist//Taoist.¹Az/Taoistic.Az/
+===attr-Confucianist//Confucianist.¹Az/
+===attr-Vedaic//Vedaic.¹Az/
+====attr-Jaina//Jaina,Jainist.Az/
+====attr-Buddhist//Buddhist.¹Az/Buddhistic.Az/
+=====attr-Zen-Buddhist//Zen#A Buddhist#.Az/Zen.Az/
+====attr-Hindu//Hindu.Az/
+====attr-Sikh/attr-monotheist/Sikh.Az/
+;_______________________________________________________________________________
+===attr-monotheist//monotheist.¹Az/monotheistic,monotheistical.Az/
+monotheistically.Bz/monothéiste.Ay/
+;_______________________________________________________________________________
+====attr-Muslem//Muslem.¹Az/Muslemic.Az/Islamic,Islamitic.Az/Islamite.Az/
+islamique.Ay/musulman.Ay/
+=====attr-Sunnite//Sunnite.Az/sunnite.Ay/
+======attr-malekite//malékite.Ay/
+======attr-chafiite//chafiite.Ay/
+======attr-hanafite//hanafite.Ay/
+=====attr-Shiite//Shiite.¹Az/Shiitic.Az/chiite.Ay/
+=====attr-kharidjite//kharidjite.Ay/
+;_______________________________________________________________________________
+====attr-Jewish//Jewish.¹Az/Judaistic.Az/Jewishly.Bz/juif.Ay/
+;_______________________________________________________________________________
+====attr-Christian//Christian.Az/chrétien.Ay/
+;_______________________________________________________________________________
+=====attr-Protestant//Protestant.Az/
+======attr-Calvinist//Calvinist.¹Az/Calvinistic,Calvinistical.Az/
+Calvinistically.Bz/
+======attr-Lutheran//Lutheran.Az/
+======attr-Episcopal//Episcopal.Az/
+=======attr-Anglican//Anglican.Az/anglican.Ay/
+========attr-Anglo-Catholic//Anglo#-Catholic#.Az/
+=======attr-Episcopalian//Episcopalian.Az/
+======attr-Mennonite//Mennonite.Az/
+======attr-Baptist//Baptist.Az/
+======attr-Methodist//Methodist.¹Az/Methodistic.Az/méthodiste.Ay/
+======attr-Quaker//Quaker.Az/
+======attr-Adventist//Adventist.Az/
+=======attr-Seventh-Day-Adventist//Seventh#A-Day# Adventist*.Az/
+======attr-Mormon//Mormon.Az/
+======attr-Christian-Scientist//Christian#A Scientist*.Az/
+;_______________________________________________________________________________
+=====attr-Catholic//Catholic.Az/catholically.Bz/catholique.Ay/catho.TAy/
+======attr-Roman-Catholic//Roman#A Catholic*.Az/Rom\.#A Cath\.#A.Az/
+;_______________________________________________________________________________
+=====attr-Orthodox-Eastern-Church//Orthodox.Az/orthodoxe.Ay/
+======attr-Russian-Orthodox//Russian#A Orthodox*.Az/orthodoxe* russe*.Ay/
+======attr-Greek-Orthodox//Greek#A Orthodox*.Az/orthodoxe* grecque*.Ay/
+;_______________________________________________________________________________
+==reputable.Az//estimable,honorable,recommandable,respectable.Ay/
+|antonym-of=disreputable|
+==disreputable.Az//peu#B recommandable*.Ay/
+;_______________________________________________________________________________
+==rich.Az//wealthy.¹Az/well#B-off#.Az/privileged.Az/comfortably#B off#.gAz/
+well#B-to#R-do#V.TAz/loaded.TAz/in#R the#D money#N.qAz/wealth.z/
+privileged#A class*.z/riche.¹Ay/aisé.Ay/privilégié.Ay/
+privilégiés.kMPïy/richesses.FPïy/avoir* de#R quoi#H.TVy/de#R quoi#H.·aîMy/
+|antonym-of=poor|
+;_______________________________________________________________________________
+==poor.Az//poor.¹kNAAz/underprivileged.kNAz/disadvantaged.kNAz/poverty.z/
+living#V below#R the#D poverty#N line#N.Az/impoverished,penniless.Az/
+down#B-at#R-heel#N,deprived.qAz/
+needy,in#R need#N.Az/pauvre.Ay/défavorisé.Ay/pauvreté.Fy/
+===destitute.Az//poverty#N-stricken#V.¹Az/destitution.¹z/extreme#A poverty*.z/
+misère.¹Fy/indigent.¹Ay/sans#R ressources#NFP.Ay/
+;_______________________________________________________________________________
+==sacred.Az//sacré.Ay/|antonym-of=unsacred|
+==unsacred.Az//
+==sanctimonious.Az//supérieur.ñAy/
+;_______________________________________________________________________________
+==sane.Az//sain* d#R'esprit#NM.Ay/|antonym-of=insane|
+==insane.Az//crazy.Az/stark#B raving#B mad#,stark#B mad#.Az/mad.gAz/
+mad.qAz/bonkers,cuckoo,coocoo,nuts,whacky.TAz/fou,déséquilibré,hystérique.Ay/
+dérangé,désaxé,détraqué.Ay/
+aliéné,atteint,azimuté,barjo,branque,braque,brindezingue,cinglé,déjanté.TAy/
+dément,dingo,dingue,fada,fêlé,foldingue,folingue,fondu,frappé,givré.TAy/
+jeté,loufoque,maboul,marteau,pété,piqué,sinoque,siphonné,sonné,tapé,timbré.TAy/
+toqué,tordu,zinzin.TAy/démence.ÎFy/
+aberration,délire,égarement,folie,inconscience.@Îy/
+===kookie.Az//kooky.Az/a#D little# bit#N crazy#.Az/
+insensé,écervelé,étourneau,foufou.@Ay/
+;_______________________________________________________________________________
+==educated.Az//scholarly.Az/well#B-read#V.Az/lettré.Ay/
+|antonym-of=uneducated|
+[attr-rel-value educated diploma-of 0.8u Doctorate]|
+[attr-rel-value educated diploma-of 0.6u Masters-degree]|
+[attr-rel-value educated diploma-of 0.4u Bachelors-degree]|
+[attr-rel-value educated diploma-of 0.2u bac]|
+[attr-rel-value educated diploma-of 0.0u high-school-level-diploma]|
+==uneducated.Az//ignorant.Az/
+;_______________________________________________________________________________
+==screwed.Az//fucked.aAz/fichu.Ay/cuit,foutu,frit.TAy/
+;_______________________________________________________________________________
+==selfish.Az//égoïste.Ay/|antonym-of=unselfish|
+==unselfish.Az//;qui pense aux autres.Ay/
+==sensual.Az//sensuel.Ay/
+==servile.Az//servile.Ay/
+;_______________________________________________________________________________
+==skeptical.Az//cynical.Az/sceptique.¹Ay/|antonym-of=gullible|
+==gullible.Az//credulous.Az/superstitious.qAz/jobard.Ay/crédule.¹Ay/
+innocent,niais,nigaud.Ay/
+;_______________________________________________________________________________
+==snobby.Az//snobinard.TAy/
+;_______________________________________________________________________________
+==sociable.Az//sociable.Ay/|antonym-of=inhibited|
+==inhibited.Az//unsociable.Az/coincé.Ay/
+;_______________________________________________________________________________
+==strict.Az//strict,sévère.Ay/|antonym-of=lax|
+==lax.Az//laxiste.Ay/
+;_______________________________________________________________________________
+==stubborn.Az//obstinate.Az/têtu,obstiné,opiniâtre.Ay/
+==sympathetic.Az//amical,favorable.Ay/sympathique.oAy/|antonym-of=unsympathetic|
+==unsympathetic.Az//peu#B compatissant*.Ay/
+==talkative.Az//verbal.Az/bavard,loquace,causant.Ay/
+;_______________________________________________________________________________
+==tasteful.Az//refined.Az/
+délicat,élégant,exquis,raffiné.Ay/gentil.Ay/choisi.qAy/artistement.By/
+extra*-fin*,fin,super*-fin*,superfin,surfin.qAy/|antonym-of=vulgar|
+==vulgar.Az//grossier,vulgaire.Ay/
+;_______________________________________________________________________________
+==technical.Az//techie.Az/technique.Ay/
+;_______________________________________________________________________________
+==titular.Az//nominal,titulaire.Ay/
+==witty.Az//spirituel.Ay/plein* d#R'esprit#NM.Ay/
+==shy.Az//timide.Ay/coincé.TAy/
+==spaced#V-out#R.TAz//spacy.Az/cinglé.Ay/planer* complètement#B.Vy/
+;_______________________________________________________________________________
+==unexpected#A star*.z//steal* the#D screen#N.Vz/steal* the#D show#N.Vz/
+star* of#R the#D show#.z/éclipser* tout#A le#D monde#NM.Vy/
+==well#B cast#.Az//perfectly#B cast#.Az/|antonym-of=miscast|
+==miscast.Az//
+;_______________________________________________________________________________
+=truth# value*.z/enum,attribute/
+==true.Az//truth.Îz/T.tAz/vrai.Ay/V.tAy/vérité.ÎFy/
+===real.Az//reality.Îz/réel.Ay/réalité.ÎFy/
+==false.Az//F.tAz/faux.Ay/F.tAy/
+;_______________________________________________________________________________
+=exist.Vz/attribute/exister.Vy/
+==exist-absolute//
+exist* in#R an#D independent#A realm#N of#R immutable#A forms#NP.Vz/
+==exist-mental//exist* as#R ideas#NP in#R the#D human#A mind#N.Vz/
+==exist-perceived-by-God//exist* perceived#Vd by#R God#N.Vz/
+;_______________________________________________________________________________
+=nonmodal.Az/attribute/réel.Ay/
+;_______________________________________________________________________________
+=modal.z/attribute/modal.Az/modality.Îz/modal.My/modal.Ay/modalité.ÎFy/
+|antonym-of=nonmodal|
+; todo: parsing and generating these
+==hypothetical#A condition*.z//irréel.My/
+===past#A hypothetical#A condition*.z//irréel* du#R passé#.My/
+===present#A hypothetical#A condition*.z//irréel* du#R présent#.My/
+==apparent.Az//apparently.Bz/apparent.Ay/apparemment.By/
+==possible.Az//possible.Ay/possibly.Bz/maybe,perhaps.¹Bz/who#H knows#V.Bz/
+possibility.z/éventuel.Ay/éventuellement.By/peut#V-être#V.By/possibilité.Fy/
+|antonym-of=impossible|
+==impossible.Az//impossible.Ay/
+==certain//certain.Az/certainly,undoubtedly.Bz/certain.Ay/certainement.By/
+==plausible//plausible.Az/plausible.Ay/
+==probable//probable,likely.¹Az/likely# to#R be#V true#.Az/probably.¹Bz/
+chances#NP are#VP.Bz/
+probable,vraisemblable.¹Ay/probablement,vraisemblablement.¹By/
+|antonym-of=improbable|
+==improbable.Az//unlikely.Az/improbable.Ay/
+==likely-to-happen//likely# to#R happen#V.Az/|antonym-of=unlikely-to-happen|
+==unlikely-to-happen//unlikely.Az/improbable.Ay/
+==modal-conditional//conditional.z/condition.Fy/
+==necessary.Az//nécessaire.Ay/
+==forbidden.Az//interdit.Ay/
+==contingent.Az//contingent.Ay/
+==rumored.Az//rumor.z/rumeur.¹Fy/bruit.My/on#H-dit#V.ßMy/
+;_______________________________________________________________________________
+=object-trait/attribute/
+;_______________________________________________________________________________
+==absurd.Az//crazy,ludicrous,silly,ridiculous.Az/absurde.¹Ay/
+déraisonnable,insane,insensé.Ay/
+irrationnel.Ay/délirant,dément,dingue,farfelu,fou.TAy/godiche.TAy/
+;_______________________________________________________________________________
+==advanced.Az//sophisticated,hi#-tech#N,high#-tech#N,high# tech#N.Az/
+high# technology#N.oAz/state#-of#R-the#D-art#N.Az/
+leading#-edge#N,cutting#-edge#N.Az/
+leading#A edge*,cutting#A edge*.z/be* ahead#A of#R its#D time#N.Vz/
+high#A technology*.Îmz/de#R pointe#NF.¹Ay/
+à#R la#D pointe#NF de#R la#D technologie#NF.Ay/
+ultramoderne.Ay/high#ßj-tech#Nj.qAy/technologie* de#R pointe#.ÎFy/
+perfectionné.Ay/
+poussé,avancé.qAy/
+===advanced-polity//advanced,developed.Az/|r1=polity|
+;_______________________________________________________________________________
+==ambitious.Az//ambitieux.¹Ay/
+==annoying.Az//bummer.z/emmerdant.TAy/chiant.aAy/poisse.TFy/
+==appropriate.Az//right.Az/approprié,convenable.Ay/|antonym-of=inappropriate|
+==inappropriate.Az//wrong.Az/ne pas convenir*.Vy/
+==correctly#B chosen#V.Az//right.Az/bon.¹Ay/|antonym-of=incorrectly-chosen|
+==incorrectly#B chosen#V.Az//wrong.Az/mauvais.¹Ay/
+==audible.Az//audible.Ay/|antonym-of=inaudible|
+==inaudible.Az//inaudible.Ay/
+===silent.Az//silencieux.Ay/
+====silent-film//muet.Ay/|r1=film|
+;_______________________________________________________________________________
+==balanced.Az//équilibré.Ay/
+==bearable.Az//supportable.Ay/|antonym-of=unbearable|
+==unbearable.Az//insupportable.Ay/
+;_______________________________________________________________________________
+==beautiful.Az//pretty,lovely.Az/cute.Az/irresistible.Az/beau.¹Ay/admirable.qAy/
+agréable.qAy/beauté.Fy/chouette.TAy/
+irrésistible,joli,ravissant,séduisant,splendide,superbe.Ay/
+mignon.Ay/craquant.TAy/|antonym-of=ugly|
+===handsome.Az//beau.Ay/
+==ugly.Az//moche.Ay/
+;_______________________________________________________________________________
+==big.Az//large,huge,monstrous.Az/humongous,monster.TAz/
+hyper,maxi,mega,super,ultra.«z/
+astronomique,colossal,énorme,exorbitant,extraordinaire,formidable,fou.Ay/
+géant,gigantesque,grand,immense,imposant,prohibitif,terrible.Ay/monstre.TAy/
+bÓuf.ßTAy/hyper,maxi,méga,super,ultra.«y/|antonym-of=small|
+[attr-rel-proportional big height-of]|
+[attr-rel-proportional big length-of]|
+[attr-rel-proportional big width-of]|
+[attr-rel-proportional big circumference-of]|
+[attr-rel-proportional big diameter-of]|
+[attr-rel-proportional big radius-of]|
+[attr-rel-proportional big uncompressed-size-of]|
+===human-big//gros.Ay/|r1=human|
+===nonhuman-big//grand.Ay/|r1=nonhuman|
+==small.Az//tiny.Az/mini,micro.«z/ette,let,ling.»z/petit.¹Ay/mini.«y/
+;_______________________________________________________________________________
+; todo
+==microscopic.Az//microscopique.Ay/
+==can-hold//
+==can-lift//
+==too-big-to-lift//
+;_______________________________________________________________________________
+==attribute-clean//clean.Az/spotless.Az/propre.¹Ay/net,impeccable.Ay/
+|antonym-of=unclean|
+==unclean.Az//dirty.Az/sale,crasseux,malpropre.Ay/cracra.ßTAy/
+craspec.ßaAy/crade,cradingue,crado,cradoque.TAy/
+;_______________________________________________________________________________
+==close-ipr//close.Az/proche.Ay/
+;_______________________________________________________________________________
+==clear.Az//clearcut.Az/clair.Ay/clearly.Bz/clairement.Ay/
+|antonym-of=idea-confused|
+==idea-confused//confused.Az/embrouillé.Ay/
+;_______________________________________________________________________________
+==good#A condition*.z//|antonym-of=bad-condition|
+===body-part-intact//intact.Az/intact.Ay/|r1=part-of-human|
+===body-part-healed//healed.Az/guéri.¹Ay/|r1=part-of-human|
+===electronic-device-working//working,functional.Az/work,function.Vz/
+fonctionner.Vy/marcher.TVy/|r1=electronic-device|
+;_______________________________________________________________________________
+==not-good-condition//
+===electronic-device-trouble//have* trouble#N.Vz/|r1=electronic-device|
+===electronic-device-on-the-blink//on#R the#D blink#N.TAz/détraqué.Ay/
+|r1=electronic-device|
+===faint.AÚz//|r1=animal|
+===injured.Az//blessé.Ay/|r1=animal|
+;_______________________________________________________________________________
+==bad#A condition*.z//
+===electronic-device-broken//broken.¹Az/brain#N dead#,fried.aAz/
+burnt#A out#R.Az/en#R panne#NF.¹Ay/grillé.Ay/|r1=electronic-device|
+===phone-broken//out#R of#R order#N.Az/en#R dérangement#NM.Az/|r1=phone|
+===economy-broken//crisis.z/crise.Fy/|r1=economy|
+===body-part-broken//broken.Az/cassé.Ay/|r1=part-of-human|
+===destroyed.Az//détruit.Ay/
+;_______________________________________________________________________________
+==healthy.Az/good-condition/fine,well.AÚz/en#R bonne#AF santé#NF.Ay/|r1=animal|
+antonym-of=sick|
+;_______________________________________________________________________________
+==sick.ÀAz/bad-condition/ill.Az/unwell.AÚz/illness.¹z/sickness.z/malade.Ay/
+maladie.Fy/|r1=animal|
+===AIDS.mz//have* AIDS#N.Vz/Sida.My/avoir* le#D Sida#NM.Vy/
+===arthritis.mz//have* arthritis#N.Vz/arthrite.Fy/
+avoir* de#R l#DF'arthrite#NF.Vy/
+===asthma.mz//asthmatic.Az/have* asthma#N.Vz/asthmatique.Ay/asthme.My/
+avoir* de#R l#DM'asthme#NM.Vy/
+===backache.Àz//backache.gmz/have* a#D backache#N.ÀVz/have* backache#N.gVz/
+mal* au#RM dos#.My/avoir* mal#NM au#RM dos#NM.Vy/
+===bronchitis.mz//bronchitic.Az/have* bronchitis#N.Vz/bronchite.Fy/
+avoir* une#D bronchite#NF.Vy/
+===cancer.z//have* cancer#N.Vz/cancer.My/avoir* un#D cancer#NM.Vy/
+====liver#A cancer*.z//cancer* of#R the#D liver#.z/have* liver#A cancer#N.Vz/
+have* cancer#N of#R the#D liver#N.Vz/cancer* du#R foie#.My/
+avoir* un#D cancer#NM du#R foie#NM.Vy/
+===cirrhosis.mz//have* cirrhosis#N.Vz/cirrhose.Fy/avoir* une#D cirrhose#NF.Vy/
+===ill-cold//have* a#D cold#N.Vz/cold.z/rhume.My/avoir* un#D rhume#NM.Vy/
+===earache.Àz//earache.gmz/have* an#D earache#N.ÀVz/have* earache#N.gVz/
+douleurs* aux#RFP oreilles#FP.FPïy/avoir* mal#NM aux#RFP oreilles#FP.Vy/
+====earache-in-right-ear//
+====earache-in-left-ear//
+===emphysema.mz//have* emphysema#N.Vz/emphysème.My/
+avoir* de#R l#DM'emphysème#NM.Vy/
+===epilepsy.mz//epileptic.Az/have* epilepsy#N.Vz/épileptique.Ay/épilepsie.Fy/
+===flu.Àz//flu.gmz/influenza.mz/have* the#D flu#N.ÀVz/have* flu#N.gVz/grippe.Fy/
+avoir* la#D grippe#NF.Vy/
+===hay# fever*.mz//have* hay#N fever#N.Vz/rhume* des#RP foins#P.My/
+avoir* le#D rhume#NM des#RP foins#NMP.Vy/
+===headache.Àz//headache.gmz/have* a#D headache#N.¹ÀVz/
+have* a#D splitting#A headache#N.ÀVz/have* headache#N.gVz/mal* de#R tête#F.My/
+avoir* mal#NM à#R la#D tête#F.Vy/
+===hepatitis.mz//have* hepatitis#N.Vz/hépatite.Fy/avoir* une#D hépatite#NF.Vy/
+====hepatitis# A*.mz//
+====hepatitis# B*.mz//
+===HIV# positive*.Az//HIV,HIV1,HIV2.z/séropositif.¹Ay/séropo.TAy/VIH,HIV.My/
+LAV.ßMy/séropositif* au#RM virus#NM VIH#NM.Ay/
+===malaria.mz//have* malaria#N.Vz/malaria.Fy/avoir* la#D malaria#NF.Vy/
+===measles.Àz//measles.gmz/have* the#D measles#N.ÀVz/have* measles#N.gVz/
+rougeole.Fy/avoir* la#D rougeole#NF.Vy/
+===mumps.ÀPïz//mumps.gmPïz/have* the#D mumps#NP.ÀVz/have* mumps#NP.gVz/
+oreillons.MPïy/
+===pneumonia.mz//have* pneumonia#N.Vz/pneumonie.Fy/avoir* une#D pneumonie#NF.Vy/
+===rheumatism.z//have* rheumatism#N.Vz/rhumatisme.My/
+avoir* des#RP rhumatismes#NMP.Vy/
+===stomach# ulcer*.z//have* a#D stomach#N ulcer#N.Vz/ulcère.My/
+avoir* un#D ulcère#NM à#R l#DM'estomac#NM.Vy/
+===stomachache.Àz//stomach# ache*.Àz/stomachache.gmz/stomach# ache*.gmz/
+have* a#D stomachache#N.ÀVz/have* stomachache#N.gVz/
+have* a#D stomach#N ache#N.ÀVz/
+have* stomach#N ache#N.gVz/mal* au#R ventre#,mal* à#R l#DM'estomac#.My/
+avoir* mal#NM au#R ventre#NM,avoir* mal#NM à#R l#DM'estomac#NM.Vy/
+===toothache.Àz//toothache.gmz/have* a#D toothache#N.ÀVz/have* toothache#N.gVz/
+mal* de#R dents#FP.My/avoir* mal#NM aux#RFP dents#FP.Vy/
+===psychiatric#A illness*.z//mental#A illness*,mental#A disorder*.z/
+maladie* mentale*A.Fy/; todo: DSM3
+====illness-depression//depression.z/depressed.Az/dépression.Fy/
+====enuresis.z//énurésie.Fy/
+====neurosis.z//neurotic.Az/névrosé.Ay/névrose.Fy/
+====psychosis.z//psychotic.Az/psychose.Fy/
+====schizophrenia.z//schizophrenic.Az/schizophrène.Ay/schizophrénie.Fy/
+====temporary#A disturbance*.z//brainstorm.gz/coup* de#R folie#F.My/
+;_______________________________________________________________________________
+==coincidental.Az//coincidence.z/coincidentally.Bz/funnily# enough#.Bz/
+fortuit.Ay/coïncidence.Fy/hasard.My/tout#B à#R fait#NM par#R hasard#NM.By/
+;_______________________________________________________________________________
+==correct.Az//true.Az/juste.¹Ay/correct,exact.Ay/avoir* raison#F.Vy/
+|antonym-of=incorrect|
+===correct-RIGHT//right.Az/|r1=[not right-left-part-of-human]|
+==incorrect.Az//mistaken,wrong.Az/incorrect,inexact.Ay/
+;_______________________________________________________________________________
+==dissonant.Az//dissonance.Îz/dissonant.Ay/dissonance.ÎFy/
+;_______________________________________________________________________________
+==easy.Az//be* easy#A.VéÏz/facile.Ay/fastoche.TAy/
+|antonym-of=difficult|
+==difficult.Az//difficile.Ay/dur.TAy/
+===hard.TAz//|r1=[not physical-object]|
+;_______________________________________________________________________________
+==effective.Az//efficace.¹Ay/
+==efficient.Az//on#R the#D ball#N.Az/efficace.¹Ay/efficient.qAy/
+;_______________________________________________________________________________
+==elegant.Ay//élégant.Ay/chic.ßAy/chicos.ßTAy/classe,super*-classe*.TAy/
+sélect.oTAy/select,smart.ßoTAy/
+;_______________________________________________________________________________
+==entertaining.Az//entertainment.Îz/have* entertainment# value#.Vz/amusant.¹Ay/
+distrayant.Ay/distraction.ÎFy/divertissement,amusement.ÎMy/
+;_______________________________________________________________________________
+==ex-ipr//ex.Az/ancien,ex.Ay/
+;_______________________________________________________________________________
+==excellent.Az//excellence,quality,fineness,superiority,first#A-rateness*.¹Îz/
+flawless.Az/doozy,doozie,doozer.ÀTz/
+excellent.¹Ay/extra.ßAy/fameux.qAy/fini.hAy/terrible.TAy/
+accompli,achevé,admirable,exceptionnel,exemplaire,extraordinaire.Ay/
+fabuleux,hors#R-concours#NM,impeccable,incomparable,irréprochable.Ay/
+sans#R bavure#NF.TAy/
+optimum,parfait,sans#R-faute#NF,supérieur.Ay/super#B-fin#,superfin,surfin.Ay/
+remarquable,superbe,suprême.qAy/surchoix.oAy/infaillible.qAy/grand.qAz/
+haut# de#R gamme#NF,hors#R classe#NF,hors#R ligne#NF,hors#R pair#NM.Ay/
+le#D moule#NM en#H est#V cassé#V.xy/ne pas avoir* son#DM pareil#NM.Vy/
+on#H ne#B en#H fait#V plus#B.xy/
+choisi.Ay/de#R la#D plus#B belle#A eau#N,de#R premier#A ordre#NM.Ay/
+divin.Ay/exquis.oAy/divinement,parfaitement,à#R perfection#NF.By/
+à#R ravir#V.qBy/comme#R un#D ange#NM.By/excellence,perfection.ÎFy/
+crème* de#R la#D crème#.Fy/top* du#R top#.TMy/|antonym-of=mediocre|
+===excellent-food//quality.ÓAz/fin.Ay/|r1=food|
+;_______________________________________________________________________________
+==mediocre.Az//poor,inferior,low#A-quality#N.Az/cheesy,shabby.Az/
+not#B so#B great#.Az/not#B so#B hot#.TAz/
+médiocre.¹Ay/pas#B terrible*.TAy/craindre.aVy/
+;_______________________________________________________________________________
+==exciting.Az//thrilling,nailbiting.Az/action#-packed#.Az/passionnant.Ay/
+;_______________________________________________________________________________
+==expected.Az//as#K expected#A,wouldn#V't#B you#H know#V it#H.Bz/
+attendu.@Ay/|antonym-of=unexpected|
+==unexpected.Az//inattendu,imprévu.Ay/
+;_______________________________________________________________________________
+==expensive.Az//cher,coûteux.Ay/|antonym-of=inexpensive|
+==inexpensive.Az//cheap.TAz/bargain.z/bon#AM marché#M.ßAy/
+==free.Az//gratuit.Ay/
+;_______________________________________________________________________________
+==famous.Az//fameux,célèbre,connu.Ay/
+;_______________________________________________________________________________
+==fanciful/thought-dimension/imaginary.¹Az/fanciful.Az/fanciful#A thought*.Îqz/
+imagined.Az/fancied.gAz/fake,false,unbelievable.Az/unreal.TAz/pseudo.«z/
+ette.»z/; todo
+imaginaire.¹Ay/abracadabrant,bizarre,chimérique.Ay/
+enchanteur,extraordinaire,extravagant,fantastique,féerique,fictif.Ay/
+invraisemblable,irréel,légendaire,magique,miraculeux.Ay/
+mythique,mythologique,prodigieux,surnaturel.Ay/
+fabuleux,merveilleux.tAy/fantastiquement.By/|antonym-of=realistic|
+;_______________________________________________________________________________
+==realistic//real,realistic.¹Az/actual,veritable.Az/;as#K such#B.tbAz/
+realistically.Bz/realistic#A thought*.Îqz/réel.Ay/
+;_______________________________________________________________________________
+==fashionable.Az//happening,in,trendy,fly.TAz/trend.Îz/thang.Îaz/branché.TAy/
+|antonym-of=unfashionable|
+==unfashionable.Az//old#-fashioned#.Az/out.TAz/ringard.Ay/zimoi.aAy/
+pourri.TAy/
+;_______________________________________________________________________________
+==available.Az//free.Az/disponible,libre.Ay/|antonym-of=busy|
+==busy.¹Az//overextended,overworked,all#B booked#V up#R.Az/occupé.Ay/
+surchargé.Ay/
+;_______________________________________________________________________________
+==frightening.Az//fearful.Az/effrayant.¹Ay/affreux,effroyable.Ay/
+épouvantable,redoutable,terrible,terrifiant,tragique.Ay/formidable.oAy/
+;_______________________________________________________________________________
+==full.Az//plein.Ay/|antonym-of=empty|
+==empty.Az//vide.Ay/
+;_______________________________________________________________________________
+==good//excellent,marvelous,sensational,wonderful.¹Az/
+incredible,magnificent,splendid,terrific,very#B good#,superb,tremendous.Az/
+exquisite,divine,first#-class#N,first#-rate#N,perfect,sound,glorious.Az/
+heavenly,peerless,quintessential,stellar,supreme.Az/
+best# of#R all#N.Az/
+as#K good# as#K goodÝgood#N can#V be#V.qAz/
+as#K good#A as#K they#HP come#V,in#R a#D class#N by#R itself#H.qAz/
+of#R the#D best#A sort#N,of#R the#D first#A water#N.qAz/
+of#R the#D highest#A type#N.qAz/
+commendable,golden,goodly,laudable,matchless.qAz/
+optimal,optimum,splendiferous,sterling,unexcelled,unmatched.qAz/
+unmatchable,unparalleled.qAz/
+fit# for#R a#D king#N,unsurpassed.qAz/noble,regal,royal.qAz/
+;_______________________________________________________________________________
+amazing,fabulous,fantastic,great.¹TAz/to#R die#V for#R.bTAz/grand.gTAz/
+elegant,famous,lovely,stunning,superexcellent,superfine,super.TAz/
+delicious,fantabulous,scrumptious,something#H else#B,super#-duper#.qTAz/
+tip#N-top#,top#-drawer#N,top#-notch#N,topflight,tops,topping,top#-hole#N.qTAz/
+brilliant,brill,smashing.gTAz/glitter.gaAz/capital,jolly# good#.ogAz/
+as#K good# as#K they#HP make#V 'em#HP.qTAz/
+gilt#N-edged#.qTAz/righteous.Tz/plum.qTAz/plum.qTz/
+;_______________________________________________________________________________
+awesome,happening,way#B happening#,hot,rockin,rocking,slammin,slamming.¹aAz/
+bad,cool,way#B cool#,huge,intense,killer,mean,sexy,strong,sweet.aAz/
+jamming,jammin,kicking,kickin,epic,dope,money,bully.aAz/shit.akz/
+out#R of#R this#D world#N,radical,rad,wow.aAz/coolo.aîAz/
+; "things that are wow"
+A1,A#N number#N 1#A,A#-OK#,boss,fab.oaAz/
+far#A out#R,gear,dynamite,groovy,heavy,marvy,neat,neato,nifty,outasight.qaAz/
+outasite,out#R of#R sight#N,smooth,tits.qaAz/
+ripping,rippin,screaming,screamin,smoking,smokin.qaAz/
+ace#N-high#,all#D wool#N and#K a#D yard#N wide#.oaAz/
+bang#V-up#R,bully,but#B good#,corking,crack,crackerjack,dandy,ducky.oaAz/
+fine# and#K dandy#,first# chop#N,hunky#-dory#,jam#V-up#R.oaAz/
+jimdandy,just#B dandy#.oaAz/
+keen,nobby,peachy,peachy#-keen#,peachy# keen#,slap#V-up#R,solid.oaAz/
+spiffing,spiffy,swell,tough.oaAz/rum,wizard.oaAz/bon,bueno,très#B bon#.jAz/
+bitchen,bitchin,bonzer,fat,gnarly,pisser,spectral,tubular,wicked# pisser#.aîAz/
+twitchin,bunk.@aîAz/bonny,braw.gîTAz/excellently,magnificently,marvelously.¹Bz/
+nicely,splendidly,superbly,wonderfully.¹Bz/
+divinely,exquisitely,finely,gloriously,terrifically,tremendously.Bz/
+famously,immensely,royally.qBz/capitally.ogBz/
+excellence,fineness,magnificence,quintessence,superbness,superexcellence.¹Îz/
+exquisiteness,first#A-rateness*,marvelousness,matchlessness,peerlessness.Îz/
+perfection,splendidness,superfineness,superlative,supremacy,unsurpassedness.Îz/
+paragon,nonpareil.tz/the#D best#,the#D greatest#,the#D very#B best#.TAz/
+the#D best# ever#B,the#D tops#.TAz/desert,dream,grace.qz/
+first#A-rater*,topnotcher.Tz/splendiferousness.ÎTNz/
+one#N in#R a#D thousand#N,one#N in#R a#D million#N.TAz/hot#A shit*.az/
+;_______________________________________________________________________________
+ace,beaut,corker,daisy,dandy,darb,dilly,honey,humdinger,jimdandy.oTz/
+killer#-diller*,lollapaloosa,lulu,peach,pip,pippin.oTz/
+cat#S's pajamas#.okTPïz/cat#'s meow#.okTz/gas.Tz/
+;_______________________________________________________________________________
+be* where#K itÝhe#H'sÝbe#V at#R.TVz/rule,rock.aVz/bravo.Uz/
+bonus,score.Uz/tastic,abulous,errific.»z/
+; todo: Actually, these derive adjectives, not nouns. "It's flavortastic!"
+;_______________________________________________________________________________
+bien.¹Ay/bon,estimable,excellent,exceptionnel,extraordinaire,fantastique.Ay/
+formidable,incroyable,louable,magnifique,merveilleux,sensationnel,sublime.Ay/
+superbe,sympathique.Ay/admirable,divin,élevé,éthéré,fabuleux,fameux.qAy/
+noble,parfait,réussi,transcendant.qAy/
+;_______________________________________________________________________________
+génial,sympa.¹TAy/chouette,épatant,fumant,géant,impeccable,super.TAy/
+béton,cool,époustouflant,extra,fun,impec,impecca.ßTAy/extrême,mortel.aAy/
+comme#R ça#H.·TAy/terrible,comme#R il#H faut#V.TAy/
+hyper#B-bien*,hyper#B-bon*,hyper#B-chouette*,hyper#B-génial*,hyper#B-sympa*.TAy/
+super#B-bien*,super#B-bon*,super#B-chouette*,super#B-génial*,super#B-sympa*.TAy/
+archi#B-bien*,archi#B-bon*,archi#B-chouette*,archi#B-génial*,archi#B-sympa*.TAy/
+ultra*-bien*,ultra*-bon*,ultra*-chouette*,ultra*-génial*,ultra*-sympa*.TAy/
+méga#B-génial*.aAy/réussi.qTñAy/
+fabule,forme,formi,formide,chic,coolos,nice.qTAy/
+bath.ßoTAy/sensass.oTAy/
+;_______________________________________________________________________________
+top,comme#R ac#H,comac,d#R'enfer#NM,méga,super# top#.ßaAy/
+;_______________________________________________________________________________
+exceptionnellement,extraordinairement,magnifiquement,superbement.By/
+formidablement,terrible,terriblement.TBy/nec#B plus#B ultra#A.ßMy/
+fin* du#R fin#.My/assurer.Vy/bouger.TVy/bien,très# bien#.By/
+à#R merveille#NF,à#R ravir#V.qBy/bravo.Uy/chic,chic# alors#B.Uy/
+|antonym-of=bad|
+;_______________________________________________________________________________
+===OK//good,fair,not#B bad#,pretty#B good#.¹Az/favorable,estimable,fine.Az/
+decent,nice,not#B half#B bad#,not#B so#B bad#,not#B too#B shabby#.Az/
+respectable,superior.Az/not#B amiss#.qAz/OK.aAz/
+well.¹Bz/all#B right#,decently,fairly,moderately,presentably,respectably.Bz/
+aright,fairishly,fairly# well#,pretty# well#,well# enough#.qBz/fine,OK,okay.TBz/
+makes#V sense#N,sounds#V good#N.Uz/
+goodness,merit,quality,soundness,superiority,value,worth.¹Îz/
+fairishness,favorableness,goodishness,goodliness.Îz/good#A thing*.z/
+have* things#NP going#V for#R it#H.Vz/
+pas#B mal#.¹·Ay/pas# mal#.·By/pas#B cochon#,pas#B dégueulasse#.Ay/
+;_______________________________________________________________________________
+==adequate.Az//acceptable,satisfactory.Az/
+passable,admissible,better# than#K nothing#N.Az/
+nothing#H to#R write#V home#N about#R.Az/
+sufficient,unexceptionable,unobjectionable.qAz/
+acceptably,adequately,passably,satisfactorily,tolerably.¹Bz/unexceptionably.qBz/
+acceptability,adequateness,satisfactoriness,tolerableness.¹Îz/
+admissibility,passableness,tolerability.Îz/sufficiency.qÎz/
+will* do#V.Vz/
+assez# bien#.By/
+acceptable,admissable,passable,présentable,recevable,sortable,supportable.Ay/
+tolérable.Ay/comme#R ci#H comme#R ça#H.TAy/
+;_______________________________________________________________________________
+==innocuous.Az//inoffensive.Az/benign,harmless,undamaging,uninjurious.Az/
+hurtless,innocent,innoxious,nonmalignant,nonpoisonous,nontoxic,nonvenomous.qAz/
+nonvirulent,unobnoxious,unhurtful.qAz/mixed#A bag*.z/
+harmlessness,innocuousness,inoffensiveness.¹Îz/benignity,benignancy.Îz/
+hurtlessness,innocence,uninjuriousness,unobnoxiousness.qÎz/
+;_______________________________________________________________________________
+==bad.Az//awful,terrible,atrocious.Az/
+garbagy,barfy,lame,feeble,weak,harsh,wicked.TAz/
+shitty.aAz/messed#Vd up#R.aAz/stink.TVz/suck.¹aVz/
+blow,blow* chow#N,blow* wind#N,suck* mud#N.aVz/
+pisser.aîz/brain#N damaged#.TAz/garbage.Tz/shit.az/
+tsk,tsk# tsk# tsk#.Uz/tut,tut#-tut#.gUz/tut* at+.gVy/
+ahem.Uz/good# for#R nothing#H.TAz/
+mal.¹Ay/détestable,mauvais.Ay/nul.Ay/craindre.TVy/
+exécrable,infect,haïsable,odieux.@Ay/dégueulasse,dégueu.TAy/horrible.Ay/
+abominable,affreux,atroce,effrayant,effroyable,épouvantable,exécrable.@Ay/
+hideux,horrifiant,vilain.@Ay/craignos,craigneux,glauque,minable.TAy/
+;_______________________________________________________________________________
+==grammatical.Az//grammaticality.z/grammatical.Ay/grammaticalité.Fy/
+|antonym-of=ungrammatical|
+==ungrammatical.Az//ungrammaticality.z/agrammatical.Ay/
+agrammaticalité.Fy/*.tÉz/*.Éy/
+;_______________________________________________________________________________
+==habitual.Az//usual.Az/usually.Bz/habitually.Bz/
+as#B usual#N,as#B always#B,once#B again#B.Bz/
+habituel.Ay/invétéré.hAy/habituellement.Bz/
+comme#R d#R'habitude#N.¹Bz/comme#R toujours#.¹Bz/
+;_______________________________________________________________________________
+==dense.Az//dense.Ay/
+|[attr-rel-proportional dense atomic-weight-of]|
+;_______________________________________________________________________________
+==heavy.Az//lourd.Ay/|antonym-of=weight-light|
+[attr-rel-proportional heavy weight-of]|
+==weight-light//léger.Ay/
+===light-LIGHT//light.¹Az/|r1=[not color]|
+;_______________________________________________________________________________
+; behavior when dropped
+==heavier#A than#K air#N.Az//; falls like a brick
+==lighter#A than#K air#N.Az//; goes up like a balloon
+; todo: falls like a feather
+;_______________________________________________________________________________
+==bouncy.Az//bounce.Vz/rebondir,rebondir* bien#B.Vy/
+;_______________________________________________________________________________
+==humorous.Az/F150/funny,amusing,hilarious,risible.Az/ha,haha,ha# ha#.Uz/
+amusant,drôle,humoristique,plein#A d#R'humour#NM.Ay/marrant.TAy/
+divertissant.qAy/ah# ah#,ha,ha# ha#.Uy/hi# hi#.Uy/
+;_______________________________________________________________________________
+==imaginative.Az//imaginatif.¹Ay/plein* d#R'imagination#NF.Ay/
+==important.Az//marquant,notable,remarquable.Ay/
+==indecent.Az//indécent.¹Ay/inconvenant.Ay/
+;_______________________________________________________________________________
+==innate.Az//inborn,genetic.Az/nature.Îz/inné.Ay/nature.ÎFy/
+|antonym-of=acquired|
+==acquired.Az//learned.Az/experience.z/nurture.Îz/acquis.My/culture.ÎFy/
+;_______________________________________________________________________________
+==insolent.Az//brazen,cheeky.Az/have* a#D nerve#N.gTVz/have* some#D nerve#N.TVz/
+effronté.Ay/gonflé.¹TAy/culotté.Ay/gonflé* à#R bloc#NM.TAy/
+;_______________________________________________________________________________
+==interesting.Az//intéressant.¹Ay/|antonym-of=boring|
+==boring.Az//dull,tedious,tiresome.Az/old.TAz/dullsville.Tz/
+ennuyeux.¹Ay/emmerdant.TAy/chiant.aAy/
+;_______________________________________________________________________________
+==just.Az//fair,right.Az/justice,fairness.Îz/juste.¹Ay/équitable.Ay/
+justice.ÎFy/|antonym-of=unjust|
+==unjust.¹Az//unfair,wrong.Az/injustice.Îz/injuste.Ay/injustice.ÎFy/
+;_______________________________________________________________________________
+==legal.Az//licite.Ay/légalité,légitimité,justice.Îy/legally.Bz/légalement.By/
+|antonym-of=illegal|
+==illegal.Az//illégal,défendu,illicite.Ay/
+;_______________________________________________________________________________
+==spatially-long//long.Az/long.Ay/|antonym-of=spatially-short|
+==spatially-short//court.Ay/
+===spatially-short-SHORT//short.Az/|r1=[not human]|
+;_______________________________________________________________________________
+==love-evaluation//love.z/amour.My/
+;_______________________________________________________________________________
+==lucky.Az//fortunate.Az/avoir* de#R la#D chance#NF.Vy/chanceux.Ay/fortuné.Ay/
+luckily,fortunately.Bz/heureusement.By/|antonym-of=unlucky|
+==unlucky.Az//unfortunate,luckless.Az/hapless.tAz/unfortunately.Bz/
+I#H'm#V afraid#A that#H.Bz/alas.Uz/that#H's#V life#N.Uz/
+malchanceux.Ay/pauvre.qAy/infortuné.tAy/malheureusement.By/hélas.Uy/
+c#H'est#V la#D vie#NF.Uy/
+;_______________________________________________________________________________
+==humanmade.Az//man#N-made#V,manmade.Az/personmade,artificial,synthetic.Az/
+made#V by#R people#NP.Az/artefact.z/artifact.z/fabriqué* par#R l#D'homme#NM.¹Ay/
+artificiel,synthétique.Ay/objet* fabriqué*A.My/
+;_______________________________________________________________________________
+==meaningful.Az//meaning.Îz/significatif.Ay/sens.ÎMy/signification.ÎFy/
+|antonym-of=nonsensical|
+==nonsensical.Az//meaningless.Az/nonsense.¹z/rubbish.z/
+baloney,boloney,crap,pile* of#R crap#.Tz/bullshit,bull.az/
+jive.aÀz/non#B-sens#.¹ßMy/absurdités,idioties.FPïy/balivernes,conneries.TFPïy/
+n#B'importe#V quoi#H.·My/
+;_______________________________________________________________________________
+==new-previously-unknown//new.¹Az/nouveau.¹bAy/
+==new-harvested-early//new.¹Az/nouveau.¹Ay/
+==newly-manufactured//new.¹Az/brand# new*.Az/in#R mint#A condition#N.Az/
+mint.Az/neuf.¹Ay/tout* neuf*.¹Ay/|antonym-of=used|
+==used.Az//second#A-hand#NF.Az/d#R'occasion#NF.Ay/
+===used-OLD//old.Az/|r1=[not animate-object]|
+;_______________________________________________________________________________
+==attribute-novel//novel.¹Az/original.Az/original.¹Ay/|antonym-of=unoriginal|
+==unoriginal.Az//derivative,cliched,cliche#N-ridden#.Az/
+clichéd,cliché#N-ridden#.Az/sans#R originalité#NF.Ay/
+;_______________________________________________________________________________
+==normal.Az//normal.¹Ay/|antonym-of=strange|
+==strange.Az//weird,odd,curious.Az/
+outlandish.Az/strangely,weirdly,oddly,curiously.Bz/bizarre.¹Ay/étrange.Ay/
+étrangement.By/
+;_______________________________________________________________________________
+==nude.Az//nudity.z/nu.Ay/nudité.Fy/
+===topless.Az//
+;_______________________________________________________________________________
+; todo
+==ordinary.Az//conventional,normal,traditional,standard.Az/square.hAz/
+vanilla#N-flavored#.Az/ordinaire.¹Ay/
+normal.Ay/straight.aAz/vieux#AM jeu#NM.hAy/rétro.hAy/retarder.hVy/
+|antonym-of=extraordinary|
+==extraordinary.Az//abnormal.Az/extraordinaire.¹Ay/
+anormal,exceptionnel,inhabituel,inusité.Ay/singulier.tAy/
+bizarre,curieux,drôle,étrange,fou.qAy/extraordinairement.qBy/
+exquis.oAy/
+;_______________________________________________________________________________
+==organized.Az//organisé.Ay/|antonym-of=disorganized|
+===structured.Az//structuré.Ay/
+==disorganized.Az//désorganisé.Ay/
+;_______________________________________________________________________________
+==orthodox.Az//orthodox.Ay/|antonym-of=unorthodox|
+==unorthodox.Az//peu#B orthodoxe*.Ay/
+;_______________________________________________________________________________
+==physically#B hard#.qAz//dur.Ay/|antonym-of=soft|
+===physically-hard-HARD//hard.¹Az/|r1=[and physical-object [not list]]|
+==soft.Az//doux,mou.Ay/soft.ajAy/
+;_______________________________________________________________________________
+==physically#B strong#.qAz//strong.¹Az/hard.Az/|r1=physical-object|
+antonym-of=weak|
+==weak.Az//
+;_______________________________________________________________________________
+==pleasant.Az//agréable.¹Ay/divin.Ay/beau.Ay/exquis.Ay/gentil,sympathique.Ay/
+sympa.TAy/sympathoche.aAy/être* le#D pied#NM,être* le#D panard#NM.aVy/
+;_______________________________________________________________________________
+==predictable.Az//formula#N-ridden#.Az/
+;_______________________________________________________________________________
+==professional.Az//professionnel.Ay/|antonym-of=unprofessional|
+==unprofessional.Az//not#B ready#A for#R prime#A time#N.TAz/
+amateur#A hour*.kz/
+;_______________________________________________________________________________
+==profound.Az//deep.TAz/profond.Ay/|antonym-of=shallow|
+==shallow.Az//superficial.Az/superficiel.Ay/
+;_______________________________________________________________________________
+==safe.Az//safety.z/en#R sécurité#NF.¹Ay/hors#R de#R danger#NM.Ay/sûr.Ay/
+à#R l#D'abri#NM.Ay/sécurité.Fy/
+;_______________________________________________________________________________
+==sentient.Az//doué* de#R sensations#FP.Ay/
+;_______________________________________________________________________________
+==sentimental.Az//schmaltzy,schmalzy.Az/schmaltz,schmalz.Îz/sentimental.Ay/
+===sentimental-film//larmoyant.Ay/mélo.TAy/|r1=film|
+===sentimental-novel//larmoyant.Ay/mélo.TAy/|r1=fiction-novel|
+===sentimental-lovesong//larmoyant.Ay/|r1=lovesong|
+===sentimental-music//sirupeux.Ay/|r1=music|
+;_______________________________________________________________________________
+==serious.Az//seriously.Bz/sérieux.Ay/sérieusement.Bz/|antonym-of=joking|
+==joking.Az//joke.z/blague,plaisanterie.Fy/pipeau.TMy/
+blabla,blablabla,flan.TMy/
+;_______________________________________________________________________________
+==strong-feeling//passionate.¹Az/intense,strong,deep,powerful,fervent,ardent.Az/
+|antonym-of=apathy|
+==apathy.z//apathetic.Az/indifferent,blasé,unconcerned,unmoved.Az/
+;_______________________________________________________________________________
+==superfluous.Az//supererogatory.Az/superflu.Ay/
+;_______________________________________________________________________________
+==surprising.Az//admirable.otAy/exceptionnel.qAy/
+extraordinaire,curieux,fabuleux,fantastique,étonnant,incroyable,inouï.Ay/
+insolite,prodigieux,singulier.Ay/fabuleusement.By/
+;_______________________________________________________________________________
+==skinny.Az//maigre,maigrichon.Ay/|antonym-of=overweight|
+===slender.Az//thin.Az/mince,svelte.Ay/
+==overweight.Az//obese,fat.Az/gros,obèse.Ay/
+;_______________________________________________________________________________
+==human-average-height//of#R average#A height*.Az/
+|[attr-rel-range human-average-height height-of 0.0u +Inf 1.6m 1.8m]|
+;_______________________________________________________________________________
+==human-tall//tall.Az/
+|[attr-rel-range human-tall height-of 0.0u +Inf 2.0m +Inf]|
+antonym-of=human-short|
+===human-tall-FRENCH//grand.Ay/|r1=human|
+===nonhuman-tall-FRENCH//haut.Ay/|r1=nonhuman|
+;_______________________________________________________________________________
+==human-short//
+|[attr-rel-range human-short height-of 0.0u +Inf 0.0m 1.6m]|
+===human-short-ENGLISH//short.Az/
+|r1=[and physical-object [not part-of-human] [not clothing-part]
+         [not media-object]]|
+===human-short-FRENCH//petit.Ay/|r1=human|
+===nonhuman-short-FRENCH//court.Ay/|r1=nonhuman|
+;_______________________________________________________________________________
+==old-in-age//vieux.Ay/|antonym-of=young|
+[attr-rel-range old-in-age age-of 0.0u +Inf 30yrs +Inf]|
+===old-OLD//old.Az/museum# piece*.hz/|r1=animate-object|
+;_______________________________________________________________________________
+==young.Az//jeune.Ay/|[attr-rel-range young age-of 0.0u +Inf -Inf 25yrs]|
+;_______________________________________________________________________________
+==tiring.Az//exhausting,wearing.Az/fatigant.Ay/
+;_______________________________________________________________________________
+==useful.Az//utile.¹Ay/|antonym-of=useless|
+==useless.Az//inutile.¹Ay/otiose.Az/
+;_______________________________________________________________________________
+==rare.Az//rare.Ay/
+;_______________________________________________________________________________
+==valuable.Az//inappréciable,inestimable,précieux.Ay/|antonym-of=worthless|
+[attr-rel-range valuable value-of 0.0u +Inf  100,000$ +Inf]|
+==worthless.Az//nul.TAy/
+|[attr-rel-range worthless value-of 0.0u +Inf  -Inf 0$]|
+;_______________________________________________________________________________
+==violent.Az//violence.z/violent.Ay/violence.Fy/|antonym-of=pacifist|
+==pacifist.Az//pacifiste.Ay/
+;_______________________________________________________________________________
+==visual.Az//visuel.¹Ay/
+==visible.Az//visible.Ay/
+;_______________________________________________________________________________
+==well#B crafted#.Az//
+;_______________________________________________________________________________
+=attribute-taste/attribute/taste.z/goût.My/|r1=food|
+==bitter.Az//bitterness.z/amer.Ay/
+==delicious.Az//deliciousness.z/scrumptious.Az/yummy.TAz/
+elicious,ilicious,rumptious.»Tz/yum,yum# yum#.Uz/délicieux.Ay/
+==sweet.Az//sweetness.z/sugary.Az/doux.¹Ay/sucré.Ay/
+==salty.Az//saltiness.z/salé.Ay/
+;_______________________________________________________________________________
+=number-trait/attribute/number# trait*.z/|r1=number|
+==exact.Az//exact.Ay/
+==approximate.Az//approximately.¹Bz/about,around,roughly.Bz/
+broadly# speaking#V.Bz/approximation.¹z/rough#A approximation*.z/
+vague#A approximation*.z/rough#A guess*.z/guess.z/approximatif.¹Ay/
+approximativement.¹By/environ.By/approximation* grossière*A.¹Fy/
+à#R-peu#B-près#B.·ßMy/à#R peu#B près#B.·oMy/grosso#j modo#j.By/
+===ballpark# figure*.z//chiffre* approximatif*A.My/
+;_______________________________________________________________________________
+=sensation.z/attribute/|r1=animal|
+==hunger.Îz//hungry.Az/have* the#D munchies#NP.aVz/avoir* faim#NF.Vy/faim.ÎFy/
+==thirst.Îz//thirsty.Az/avoir* soif#NF.¹Vy/assoiffé.Ay/soif.ÎFy/
+==satiation.Îz//satiated.Az/full.Az/rassasié.Ay/
+==pain.Îz/negative-emotion/in#R pain#N.Az/hurt.@Vz/ouch.Uz/douleur.Fy/
+aïe.¹Uy/ha.Uy/ouf.oUy/faire* mal#B.@Vy/
+==suffering.Îz/negative-emotion/suffer.Vz/souffrances.FPïy/souffrir.Vy/
+==suffocation.Îz/negative-emotion/suffocate.¹Vz/suffoquer,étouffer.¹Vy/
+;_______________________________________________________________________________
+=mental#A state*.z/attribute/state* of#R consciousness#.z/
+==common# sense*.Éz//sens* commun*A,bon*A sens*,bon*A sens* populaire*A.kMy/
+==alert.Az//alerte,vif,vigilant.Ay/
+==human-confused//confused.Az/dérouté,désorienté.Ay/|r2=human|
+;_______________________________________________________________________________
+==energy.z//energetic.Ay/énergique.Ay/énergie.Fy/dynamique.Ay/
+|antonym-of=exhaustion|
+==exhaustion.z//exhausted.Az/tired,fatigued.Az/completely#B exhausted#.Az/
+absolutely#B exhausted#.Az/drained,tired# out#R,worn# out#R,weary.Az/
+shattered.qAz/beat.TAz/dead# beat#.qTAz/ready# to#R drop#V.TAz/
+bushed,pooped.ÀAz/tuckered# out#R.qÀAz/
+burnt#-out#R.Az/burned# out#R.Az/knackered.gTAz/bleary#-eyed#,drawn,haggard.qAz/
+washed#-out#R.qAz/tiredness,exhaustion,fatigue,weariness.Îz/épuisé,fatigué.Ay/
+crevé.TAy/
+;_______________________________________________________________________________
+==restedness.z//well#B rested#.Az/|antonym-of=sleepiness|
+==sleepiness.z//sleepy.Az/tired,drowsy.Az/
+dead#A tired#.TAz/sleepiness.Îz/yawn.qVz/avoir* sommeil#NM.Vy/
+avoir* envie#NF de#R dormir#V.Vy/
+;_______________________________________________________________________________
+==state* of#R consciousness#.Îz//état* de#R conscience#F.ÎMy/
+;_______________________________________________________________________________
+===normal#A state* of#R consciousness#.Îz//|waveform-of=beta-wave|
+;_______________________________________________________________________________
+====daydream/cognitive-process/daydream* about_,fantasize* about_.Vz/
+day#N-dream* about_.oVz/in#R a#D daydream#N.Az/daydream,fantasy,reverie.Îz/
+autistic#A thinking*.Îqz/rêver.¹Vy/rêvasser.hVy/rêves.MPïy/
+|duration-of=2min|
+;_______________________________________________________________________________
+=====anticipation.z/prospect-based-emotion/anticipate.Véz/excitation.Fy/
+plaisir* anticipé*A.My/s'attendre* à+.Vy/
+======look-forward//look* forward#B to+.Vz/attendre* ø avec#R impatience#NF.Véy/
+======cannot-wait//not can* wait# to_.Vz/can* hardly#B wait# to_.Vz/
+avoir* hâte#NF de_.Vy/mourir* d#R'impatience#NF de_.Vy/
+;_______________________________________________________________________________
+====inspiration.Îz//sudden#A inspiration*.Îz/brainstorm.ÎTÀz/brainwave.ÎTgz/
+idée* géniale*A.ÎFy/illumination.ÎFy/|waveform-of=theta-wave|
+;_______________________________________________________________________________
+====relaxed.Az//relaxation.Îz/relaxed#A wakefulness*.Îz/
+cool# as#K a#D cucumber#N.Az/détente.Fy/détendu,calme.Ay/cool.ßTAy/
+relax.TAy/|waveform-of=alpha-wave|
+=====biofeedback.Îz//bio#A-feedback*.ÎMy/
+;_______________________________________________________________________________
+====think/cognitive-process/think* about_.Vz/stream* of#R consciousness#.Îz/
+stream* of#R thought#.Îz/réfléchir* à_,réfléchir* sur+.Vy/penser* à+.Vy/
+;_______________________________________________________________________________
+====imagine.Véz//imagination.z/imaginer,s'imaginer*.Véy/se représenter*.Véy/
+imagination.Fy/
+=====visualize.Véz//picture.Véz/visualization.z/s'imaginer*,se représenter*.Véy/
+;_______________________________________________________________________________
+====thought* dimension*.Îz//dimension* of#R thought#.Îz/
+=====undirected#A thought*.Îz//undirected.ÎAz/unguided#A thought*.Îz/
+unguided.ÎAz/involuntary#A thought*.Îz/|antonym-of=directed-thought|
+=====directed#A thought*.Îz//directed.ÎAz/
+guided#A thought*,guided#A imagery*.Îz/guided.ÎAz/voluntary#A thought*.Îz/
+=====stimulus#-independent#A thought*.Îz//stimulus#N-independent#.ÎAz/
+|antonym-of=stimulus-dependent-thought|
+=====stimulus#-dependent#A thought*.Îz//stimulus#N-dependent#.ÎAz/
+=====integrated#A thought*.Îz//integrated.ÎAz/|antonym-of=degenerate-thought|
+=====degenerate#A thought*.Îz//degenerate.ÎAz/regressive#A thought*.Îz/
+regressive.ÎAz/
+;_______________________________________________________________________________
+===altered#A state* of#R consciousness#.Îz//ASC.ÎtAz/altered#A state*.ÎTz/
+;_______________________________________________________________________________
+====astral#A projection*.Îz//out#R-of#R-the#D-body# experience*.Îz/
+;_______________________________________________________________________________
+====catatonia.Îz//catatonic.Az/catatonie.ÎFy/catatonique.Ay/
+;_______________________________________________________________________________
+====coma.Îz//in#R a#D coma#N.Az/coma.ÎMy/dans#R le#D coma#NM.Ay/
+;_______________________________________________________________________________
+====drug-high//high* on_.Az/as#K high# as#K a#D kite#N.TAz/wired.ÀTAz/
+défoncé* à_.TAy/
+=====good-high/positive-emotion/planer.TVy/stoned.TAz/
+dans#R un#D état#NM euphorique#M.Ay/
+=====bad-high/negative-emotion/bad#A trip*.Îz/flipper.TVy/
+;_______________________________________________________________________________
+====drunkenness.Îz//drunk.Az/intoxicated.Az/boozy,drunken.qAz/pissed.gAz/
+have* had#V one#N too#B many#A.ñVz/have* had#V too#B much#A to#R drink#V.Vz/
+have* been#V drinking#V.Vz/alcoholic#A intoxication*,intoxication.Îz/
+ivre,soûl.Ay/|antonym-of=sobriety|
+=====extreme#A drunkenness*.Îz//blind# drunk#,roaring# drunk#.Az/
+smashed,plastered.TAz/bombed,loaded.TÀAz/shit#N faced#V.aÀAz/
+paralytic,legless.gAy/
+=====slight#A drunkenness*.Îz//mellow,tipsy.Az/merry.gAz/
+;_______________________________________________________________________________
+====sobriety.Îz//sober.Az/stone#N cold# sober#.TAz/
+;_______________________________________________________________________________
+====hangover.Îz//hung#V over#R.Az/gueule* de#R bois#M.ÎFy/
+avoir* la#D gueule#NF de#R bois#M.Vy/
+;_______________________________________________________________________________
+====hypnotized.Az//hypnotic.ÎAz/hypnotism.Îz/hypnotisé.Ay/hypnotique.ÎAy/
+hypnotisme.ÎMy/
+;_______________________________________________________________________________
+====meditation.Îz//in#R a#D meditative#A state#N.Az/contemplation.Îqz/
+méditation.Fy/|waveform-of=alpha-wave,theta-wave|
+=====yoga# meditation*.Îz//yoga.Îz/yogic.Az/yoga.ÎMy/
+======Hatha# yoga*.Îz//
+======transcendental#A meditation*.Îz//TM,T\.M\..ÎTz/
+méditation* transcendantale*A.ÎFy/
+=====Zen# meditation*.Îz//
+;_______________________________________________________________________________
+====mental#A activity# during#R sleep#.Îz/asleep/
+=====thinking* while#K asleep#A.Îmz/think/think* while#K asleep#A.Vz/think.qVz/
+thought# activity* during#R sleep#.Îmz/NREM#A mentation*.Îqmz/
+=====dream/cognitive-process/dream.z/dream* about_,dream* of+.Vz/
+dreamy,dream#N-like#.Az/in#R a#D dream#N.Az/rêve.My/réver* de_.Vy/onirique.Ay/
+|duration-of=6hrs|
+======lucid#A dream*.Îz//lucid#A dreaming*.Îz/have* a#D lucid#A dream#N.Vz/
+======vivid#A dream*.Îz//have* a#D vivid#A dream#N.Vz/
+======hypnagogic#A dream*.Îz//hypnagogic#A reverie*.Îz/
+hypnagogic#A hallucination*.Îz/
+hypnagogic#A dreaming*.Îz/pre#A-sleep# dreaming*,sleep#-onset# dreaming*.Îz/
+pre#A-sleep# dream*,sleep#-onset# dream*.Îz/autosymbolic#A phenomenon*.Îqz/
+have* a#D hypnagogic#A dream#N,have* a#D hypnagogic#A reverie#N.Vz/
+hypnagogique.ÎAy/rêve* hypnagogique*A.ÎMy/hallucination* hypnagogique*A.ÎFy/
+======hypnopompic#A dream*.Îz//hypnopompic#A dreaming*.Îqz/morning# dream*.Îqz/
+have* a#D hypnopompic#A dream#N,have* a#D hypnopompic#A reverie#N.Vz/
+;_______________________________________________________________________________
+====theta# biofeedback*.Îz//theta# biofeedback# training*.Îz/theta# state*.Îz/
+|waveform-of=theta-wave|
+;_______________________________________________________________________________
+====trance.Îz//in#R a#D trance#N.Az/in#R a#D trance#N-like# state#N.Az/
+transe.Fy/état* second*A.My/en#R transe#F.tAy/
+dans#R un#D état#NM second#AM.Ay/
+=====mediumistic#A trance*.Îz//
+;_______________________________________________________________________________
+====unconscious.Az//unconsciousness.Îz/sans#R connaissance#F.Ay/
+inconscience.ÎFy/
+;_______________________________________________________________________________
+==state* of#R wakefulness#.Îz//
+;_______________________________________________________________________________
+===awake.AÚz//éveillé,réveillé.¹Ay/état* de#R veille#F.ÎMy/
+|waveform-of=beta-wave|
+====wide#B-awake#.Az//bien#B réveillé#.Ay/
+;_______________________________________________________________________________
+===half#B-awake#.Az//mal#B réveillé#.Ay/
+===half#B-asleep#.Az//sleepyheaded.TAz/à#R moitié#F endormi#.Ay/
+===groggy.Az//
+===dormir* debout#B.Vy//
+===lethargic.Az//lethargy.Îz/out#R of#R itÝhim#H.Az/torpeur.ÎFy/léthargique.Ay/
+engourdi.Ay/
+===jet#-lag*.mz//jet#N-lagged#.Az/souffrir* du#R décalage#NM horaire#AM.Vy/
+;_______________________________________________________________________________
+===asleep.AÚz//sleep.Vz/get* some#D shut#A eye#N.ñTVz/
+zzz,zzzz,zzzzz,zzzzzz.Uz/endormi.Ay/dormir.Vy/
+;_______________________________________________________________________________
+====sleep# stage*.Îz//sleep# level*,stage* of#R sleep#,level* of#R sleep#.Îz/
+stade* du#R sommeil#M.ÎMy/phase* du#R sommeil#M.ÎFy/
+;_______________________________________________________________________________
+=====sleep# onset*.Îz//onset* of#R sleep#.Îz/drifting* off#R to#R sleep#N.Az/
+about#B to#R fall#V asleep#,just#B about#B to#R fall#V asleep#.Az/
+almost#B asleep#.Az/on#R the#D verge#N of#R falling#V asleep#.Az/
+dormir* à#R moitié#F.Vy/somnolence.ÎFy/demi#A-sommeil*.ÎMy/
+|waveform-of=alpha-wave|
+======hypnagogic.Az//hypnagogic#A state*.Îz/in#R a#D hypnagogic#A state#N.Az/
+;_______________________________________________________________________________
+=====NREM#A sleep*.Îz//NREM.ÎAz/non#B-REM#A sleep*.Îz/
+non#B rapid#A eye# movement# sleep*.Îz/quiet#A sleep*.Îz/QS.Îz/
+synchronized#A sleep*.Îz/
+in#R NREM#A sleep#N,in#R non#B-REM#A sleep#N,in#R quiet#A sleep#N.Az/
+sommeil* lent*A.ÎMy/
+======NREM#A stage# 1# sleep*.Îz//descending# stage# 1# sleep*.Îz/
+in#R a#D very#B light#A sleep#N.Az/
+drifting# on#R the#D edge#N of#R consciousness#N.Az/
+sommeil* léger*A.ÎMy/sommeil* stade#M I#.ÎMy/
+|waveform-of=theta-wave|
+======NREM#A stage# 2# sleep*.Îz//light#A sleep*,spindle# sleep*.z/
+in#R a#D light#A sleep#N.Az/sommeil* stade#M II#.ÎMy/
+|waveform-of=K-complex,sleep-spindle|
+======NREM#A stage# 3# sleep*.Îz//sommeil* stade#M III#.ÎMy/
+|waveform-of=delta-wave,sleep-spindle|
+======NREM#A stage# 4# sleep*.Îz//deep#A sleep*.Îz/in#R a#D deep#A sleep#N.Az/
+sound# asleep#,fast# asleep#.Az/dormir* à#R poings#NMP fermés#AMP.Vy/
+sommeil* profond*A,sommeil* lent*A profond*A.ÎMy/sommeil* stade#M IV#.ÎMy/
+dormir* d#R'un#D sommeil#NM de#R plomb#NM.Vy/
+|waveform-of=delta-wave|
+;_______________________________________________________________________________
+=====REM#A sleep*.Îz//rapid#A eye# movement# sleep*.Îz/active#A sleep*.z/AS.z/
+desynchronized#A sleep*.Îz/paradoxical#A sleep*.Îz/REM#A stage# 1# sleep*.Îz/
+ascending# stage# 1# sleep*.Îz/light#A sleep*.z/in#R a#D light#A sleep#N.Az/
+in#R REM#A sleep#N.Az/sommeil* paradoxal*A.ÎMy/
+======theta# REM#A sleep*.Îz//|waveform-of=theta-wave|
+======alpha# REM#A sleep*.Îz//|waveform-of=alpha-wave|
+;_______________________________________________________________________________
+=====awakening* from#R sleep#.Îz//awakening.Îz/awakening#A state*.Îz/réveil.My/
+======hypnopompic.Az//hypnopompic#A state*.Îz/in#R a#D hypnopompic#A state#N.Az/
+;_______________________________________________________________________________
+=mood.z/attribute/|r1=animal|
+==good#A mood*.z/positive-emotion/in#R a#D good#A mood#N.Az/
+==depression.z/negative-emotion/depressed.Az/
+==loneliness.z/negative-emotion/lonely.Az/
+==boredom.z/negative-emotion/bored.Az/ennui.My/s'ennuyer*.Vy/
+==entertainment.z/positive-emotion/entertained.Az/amusé.Ay/
+;_______________________________________________________________________________
+=emotion.z/attribute/emotional#A state*.z/affect.z/emotional,affective.Az/
+émotion.Fy/sentiment.My/émotionnel,affectif.Ay/émotif.qAy/
+|r1=animal|
+; emotion slots:
+; 1=human, 2=directed-toward-human, 3=cause, (2,3,)4=value
+; todo: Use cause in UAs, infer missing 2 for gloating.
+; Fill in "about"s for all emotions.
+;_______________________________________________________________________________
+=-unsigned#A emotions*.Pïz//
+===emotionless.Az//impassible.¹Ay/
+===shock.Éz//shocked.Az/choc.¹My/consterné.Ay/choqué.¹Ay/
+===surprise.Éz//surprised.¹Az/startled.Az/aha.Uz/hello.gUz/ha.Uy/tiens.Uy/
+surprise.Fy/étonnement.My/surpris,étonné.¹Ay/|antonym-of=unastonishment|
+===unastonishment.z//
+;_______________________________________________________________________________
+=-Ortony# Clore# and#K Collins# emotion# class*.z/ontology/
+===well#B-being#A emotion*.z//
+===fortunes#P-of#R-others#HP emotion*.z//
+===prospect#-based#A emotion*.z//
+===attribution# emotion*.z//; need to do causal attribution
+===attraction# emotion*.z//
+===WBA-emotion//well#B-being#A\/attribution# emotion*.¹z/
+;_______________________________________________________________________________
+=-emotion# sign*.z//
+;_______________________________________________________________________________
+===positive#A emotion*.z//émotion* positive*A.Fy/
+====amusement.mz//amused* at_,amused* by+.Aöz/amusement.My/
+amusement,divertissement.My/amusé.Ay/s'amuser* de_.Vöy/
+====contentment.mz//content.Az/content,satisfait.Ay/
+====ecstasy.mz//ecstatic.Az/extase.Fy/extasié.Ay/
+====enjoyment.mz//delight.z/enjoy,delight.Vz/plaisir.My/jouissance.Fy/
+jouir.Vy/
+====gloating.mz/fortunes-of-others-emotion/gloat* at_.¹Vöz/gloat* over+.Vöz/
+jubiler,triompher.¹Vy/jubiler* à#R l#D'idée#NF de+.Vöy/triomphant.Ay/
+|r2=human|
+====gratitude.mz/WBA-emotion/grateful# to_ for_.Az/gratitude.Fy/
+reconnaissant* à_ de_.Ay/|antonym-of=ingratitude|
+====ingratitude.z//
+====gratification.mz/WBA-emotion/gratified.Az/
+====happiness.mz/well-being-emotion/rejoicing.z/happy.¹Az/content,merry.Az/
+on#R cloud#N nine#N.ÀAz/bonheur.My/heureux.¹Ay/
+====bittersweet.Az/negative-emotion/doux*-amer*.Ay/
+====happy//happy.Az/heureux.Ay/
+====happy-for/fortunes-of-others-emotion/happy* for+.Az/glad* for+.AÚz/
+heureux* pour+.Ay/|r2=human|
+====hope.mz/prospect-based-emotion/hopeful.Az/hope.Vz/espoir.My/espérer.Vy/
+====interest#-excitement*.mz//intérêt*-excitation#F ½.My/
+=====interest.mz//interested.Az/intérêt.My/s'intéresser* à_.Vy/
+=====excitement.mz//excited.Az/psyched.Az/wired.ÀAz/
+excitation,exaltation,agitation.Fy/excité,agité.Ay/
+====joy.mz/well-being-emotion/joyful.¹Az/yay,yippee.Uz/joie.Fy/joyeux.¹Ay/
+youpi.Uy/
+====happy#A surprise*.z/surprise/happily#B surprised#.Az/wow,oh# boy#N.Uz/
+oh# là#B là#B.Uy/
+====horny.ÀTAz//randy.gTAz/de#R humeur#F érotique#AF.Ay/
+excité,tout#B excité*.TAy/
+====motivation.mz//motivated.Az/motivation.Fy/motivé.Ay/
+====orgasm.z//climax.z/orgasmic.Az/have* an#D orgasm#N.¹Vz/climax.Vz/come.aVz/
+jouissance.Fy/jouir.¹Vy/s'envoyer*,s'envoyer* en#R l#DM'air#NM.VTy/
+====pleasure.mz/well-being-emotion/pleased.¹Az/plaisir.My/jouissance.Fy/
+planer.TVy/content.¹Ay/
+====pride.mz/attribution-emotion/proud.Az/orgueil.My/fierté.Fy/
+fier,orgueilleux.Ay/superbe.oAy/
+====refreshment.mz//refreshed.Az/rafraîchi.Ay/
+====relief.mz/prospect-based-emotion/phew,whew.Uz/relieved.Az/soulagement.My/
+soulagé.Ay/ouf.Uy/ouf.ßqMy/
+====satisfaction.mz/prospect-based-emotion/satisfied.Az/satisfaction.Fy/
+satisfait.Ay/
+;_______________________________________________________________________________
+===negative#A emotion*.z//émotion* négative*A.Fy/
+====aggravation.mz//exasperation.mz/aggravated.Az/
+aggravation,exaspération,irritation.Fy/
+agacement,enveniment.My/exaspéré,agacé.Ay/
+====agitation.mz//agitated.Az/émotion,agitation.Fy/trouble.My/inquiet,agité.Ay/
+darn,drat,drats.Uz/oh# no#B.Uz/bummer.TUz/
+damn,damn#V itÝhim#H,God#N damn#V itÝhim#H,goddam#V itÝhim#H.TUz/
+fuck,fuck#V me#H,fuck#V itÝhim#H,hell,shit.aUz/fuckin#A-A#.aÀUz/
+bloody#A hell#,fucking#A hell#.agUz/
+aargh,aaargh,aaaargh,aaaaargh,aaaaaargh.TUz/
+aarrgh,aaarrgh,aaaarrgh,aaaaarrgh,aaaaaarrgh.TUz/
+aarrghh,aaarrghh,aaaarrghh,aaaaarrghh,aaaaaarrghh.TUz/
+dern,dang,dash,blast,doggone.oUz/
+goldarn,goldang,golding,gosh#-darn#,heck.oUz/
+confound#V itÝhim#H,hang#V itÝhim#H,devil#N take#V.oUz/
+a#D plague#N upon#R,a#D pox#N upon#R.oUz/
+mince,zut.TUy/flûte.oTUy/merde.aUy/
+putain,putain* de#R bordel#M,putain* de#R merde#.aUFy/
+====anger.mz/WBA-emotion/angry# with_ about_,annoyed# with_ about_.Az/
+mad# at_ about_.TAz/furious# with_ about_,upset# with_ about_.Az/
+angry# at_ about_,annoyed# at_ about_,furious# at_ about_.ÀAz/
+pissed# at_ about_.aAz/red# with#R anger#N about_.Aöz/colère.Fy/
+en#R colère#NF contre+ à#R cause#NF de+.Ay/
+en#R colère#NF contre+ à#R propos#NM de+.Ay/
+en#R colère#NF à#R cause#NF de+,en#R colère#NF à#R propos#NM de+.Aöy/
+; This is noneconomical because phrasal prepositions are not allowed.
+; The "à cause de" should also be handled separately anyway.
+en#R colère#NF contre_,fâché* contre_,irrité* contre_.Ay/furieux* contre_.Ay/
+contrarié,ennuyé.Ay/se fâcher* contre+.Vy/|r2=human|
+; annoy.Véz/bug.TVéz/défriser.TVéy/
+=====irritation.mz//irritated.¹Az/
+=====get-lost//get#VI lost#A.Uz/beat#VI itÝhim#H.ÀTUz/shove#VI off#R.ÀTUz/
+push#VI off#R.gTUz/piss#VI off#R.gaUz/
+fuck#VI off#R,bugger#VI off#R,sod#VI off#R.gaUz/
+tire#VI-toiÝsoi#H.²TUy/fiche#VI-moiÝsoi#H le#D camp#NM.²TUy/
+====disgust.mz//disgusted.Az/aversion.z/yuck.aUz/dégoût.My/dégoûté.Ay/
+aversion.Fy/
+====distress.mz/well-being-emotion/distressed.¹Az/peiné.¹Ay/bouleversé.Ay/
+====displeasure.mz/well-being-emotion/discontentment.mz/displeased.¹Az/
+oh,ugh.Uz/oy.îUz/oh# god#N.qTUz/oh# dear#N,oh# dear#N me#H.qUz/mécontent.¹Ay/
+mécontentement.My/aïe,aïe# aïe# aïe#.Uy/ouille,ouille# ouille# ouille#.Uy/
+Dieu,mon#D Dieu#NM,ah# mon#D Dieu#NM.qUy/
+====despair.mz//despair.Vz/lose* hope#N.Vz/désespoir.My/désespérer* de+.Vy/
+====disappointment.mz/prospect-based-emotion/letdown.Tz/disappointed.¹Az/
+déçu.¹Ay/déception.Fy/
+====fear.mz/prospect-based-emotion,modal-relation,negative-attitude/
+fearful,frightened,scared.Az/afraid.AÚz/petrified.TAz/fear.Vz/
+crainte,peur.Fy/craindre.Vy/
+=====nervousness.mz//nervous,anxious.Az/anxiousness.z/nervosity.z/
+nerveux,inquiet.Ay/plein* d#R'appréhension#NF.Ay/
+=====terror.mz//terrified.Az/terreur.Fy/terrifié.Ay/
+=====terrorization.mz//terrorized.Az/terrorisé.Ay/
+=====worry.mz//worried.Az/worry.Vz/souci.My/inquiéter.Vy/
+====fears-confirmed/prospect-based-emotion/
+====grief.mz//upset.Az/chagrin.My/douleur.Fy/peiné,attristé,triste.Ay/
+=====lamentation.mz//
+====guilt.mz//guilty.Az/culpabilité.Fy/coupable.Ay/
+====heartbreak.mz//heartbroken.¹Az/
+====humiliation.mz//humiliated.¹Az/humiliation.Fy/humilié.¹Ay/
+====jealousy.mz/negative-attitude/envy.Véz/envy.z/jealous,envious.Az/
+green# with#R envy#N.Az/jaloux,envieux.Ay/jalousie.Fy/envier.Véy/; todo: of
+====emotion-miss/positive-attitude/miss.¹Véz/manquer* à+.¹Vúy/
+====offended.Az//hurt,upset.Az/vexé.Ay/
+====unhappy#A surprise*.z/surprise/unhappily#B surprised#.Az/ah# ah#,mince.Uy/
+hein.TUQy/
+====regret.mz/negative-attitude/regretful.Az/regret.My/regretter.Vy/
+=====repentance.mz//repent.Vz/repentir.My/se repentir*.Vy/
+====rejection.mz//rejected.Az/rejet,refus.My/rejeté,refu.Ay/
+====remorse.mz/WBA-emotion/remorseful.¹Az/plein* de#R remords#NM.¹Ay/remords.My/
+====sadness.mz/well-being-emotion/sad.Az/sob,sob# sob#.Uz/cry.qVz/
+tristesse.Fy/triste.Ay/hi# hi#.Uy/pleurer.qVy/
+====sorry-for/fortunes-of-others-emotion/sorry* for+.¹AÚz/sad* for+.Az/
+feel* for+.Vz/feel* sorry#A for+.Vz/feel* sorry#A for+.ñVz/pity.Véz/pity.ñVéz/
+pity.mz/plaindre.¹Véy/plaindre.ñVéy/pitié.Fy/|r2=human|
+====resentment.mz/fortunes-of-others-emotion,negative-attitude/resent.¹Vz/
+resentful# toward_.Az/resentful# at+,resentful# of+.Aöz/en vouloir* à+.¹Vy/
+plein* de#R ressentiment#NM à_.Aöy/
+plein* de#R ressentiment#NM à#R l#D'égard#NM de+.Aöy/
+ressentiment.My/|r2=human|
+====shame#-embarrassment*.mz/attribution-emotion/
+=====shame.mz//ashamed.¹Az/shameful.Az/be* ashamed#A.¹Vz/honte.Fy/
+avoir* honte#A.¹Vy/honteux.Ay/
+=====embarrassment.mz//embarrassed.¹Az/embarras.My/gêne.Fy/gené.¹Ay/
+embarrassé.Ay/
+;_______________________________________________________________________________
+=skin# color*.z/attribute/race.z/race.Fy/|r1=human|
+==Asian.Az//Asiatique.Ay/d#R'origine#NF asiatique#AF.Ay/
+==Caucasian.Az//white.Az/Blanc.Ay/
+==Hispanic.Az//d#R'origine#NF hispanique#AF.Ay/
+==Black//black.Az/African#A-American*.qAz/Noir.Ay/de#R couleur#NF.Ay/
+;_______________________________________________________________________________
+=directional#A pattern*.z/attribute/pickup# pattern*.z/|r1=microphone|
+==cardioid.Az//cardioïde.Ay/
+==hypercardioid.Az//hypercardioïde.Ay/
+==supercardioid.Az//supercardioïde.Ay/
+==wide#A-angle#N cardioid*.Az//
+==omnidirectional.Az//omnidirectionnel.Ay/
+==figure#N-8#N.Az//
+;_______________________________________________________________________________
+=weather.kz/attribute/weather# condition*,weather# forecast*.kz/
+weather# report*.kz/
+National#A Weather# Service# forecast*.qkÀz/Met# Office# forecast*.qkgz/
+meteorology.tz/meteorological,meteorologic.Az/meteorologically.Bz/
+present#A state* of#R weather#.kz/temps.¹kMy/météo.¹kFy/météorologie.tFy/
+météorologique.Ay/état* présent*A du#R temps#.kMy/
+;_______________________________________________________________________________
+==weather-evaluation//
+===good#A weather*.z//nice#A weather*.z/faire* beau#A.Vy/beau*A temps*.My/
+beaux*A jours*.Pïy/
+====beautiful#A day*.z//be* a#D beautiful#A day*.Vz/
+belle*A journée*.Fy/être* une#D belle#AF journée#NF.Vy/
+|r1=pronoun-ce-expletive|
+===bad#A weather*.z//awful#A weather*.z/mauvais*A temps*.My/
+;_______________________________________________________________________________
+==dew.z//rosée.Fy/
+==frost.z//glazed#A frost*.gz/verglas.My/
+==rainbow.z//arc*-en#R-ciel#.My/
+;_______________________________________________________________________________
+==front.z//front.My/
+===cold#A front*.z//front* froid*A.My/
+====surface# cold#A front*.z//front* froid*A en#R surface#F.My/
+====upper#A cold#A front*.z//front* froid*A en#R altitude#F.My/
+===warm#A front*.z//front* chaud*A.My/
+====surface# warm#A front*.z//front* chaud*A en#R surface#F.My/
+====upper#A warm#A front*.z//front* chaud*A en#R altitude#F.My/
+===occluded#A front*.z//front* occlus*A.My/
+===stationary#A front*.z//front* stationnaire*A.My/
+;_______________________________________________________________________________
+==sky# coverage*.z//cloud# amount*.gz/nébulosité.Fy/
+;|r1=[or sky pronoun-it-expletive]|
+;_______________________________________________________________________________
+===clear#A sky*.z//clear.Az/clair.Ay/ciel* clair*A.My/
+====sunny#A sky*.z/good-weather/sunny.Az/ensoleillé.Ay/faire* soleil#NM.Vy/
+faire* du#R soleil#NM.Vy/
+;_______________________________________________________________________________
+===cloudy#A sky*.z//cloudy.Az/cloudy#A sky*.z/nuageux.Ay/ciel* nuageux*A.My/
+====obscured#A sky*.z//ciel* noir*A.My/
+====overcast#A sky*.z//overcast.Az/couvert.Ay/ciel* couvert*A.My/
+====scattered# sky*.z//ciel* à#R nébulosité#F dispersée#AF.My/
+;_______________________________________________________________________________
+====slightly#B covered#A sky*.z//partly#B cloudy#.Az/peu#B nuageux*.Ay/
+ciel* peu#B nuageux*A.My/
+=====sunny#A spell*.z//bright#A interval*.z/éclaircie.Fy/
+;_______________________________________________________________________________
+====very#B cloudy#A sky*.z//very#B cloudy#.Az/très#B nuageux*.Ay/
+ciel* très#B nuageux*A.My/
+;_______________________________________________________________________________
+====cloud.z//nuage.My/
+=====alto#-cumulus*.z//Ac.tz/altocumulus.ßMy/Ac.tMy/
+=====alto#-stratus*.z//As.tz/altostratus.ßMy/As.tMy/
+=====cirro#-cumulus*.z//Cc.tz/cirrocumulus.ßMy/Cc.tMy/
+=====cirro#-stratus*.z//Cs.tz/cirrostratus.ßMy/Cs.tMy/
+=====cirrus.z//Ci.tz/cirrus.ßMy/Ci.tMy/
+=====cumulo#-nimbus*.z//Cb.tz/cumulonimbus.ßMy/cumulo#-nimbus#.ßMy/Cb.tMy/
+=====cumulus.z//Cu.tz/cumulus.ßMy/Cu.tMy/
+=====nimbo#-stratus*.z//Ns.tz/nimbostratus.ßMy/nimbo#-stratus#.ßMy/Ns.tMy/
+=====strato#-cumulus*.z//Sc.tz/stratocumulus.ßMy/Sc.tMy/
+=====stratus.z//St.tz/stratus.ßMy/St.tMy/
+;_______________________________________________________________________________
+==meteors.Pïz//météores.MPïy/
+;_______________________________________________________________________________
+===fog.z//foggy.Az/brouillard.My/brumeux.Ay/faire* du#R brouillard#NM.Vy/
+===meteors-hail//hail.z/hail# shower*.z/grêlon.My/averse* de#R grêle#.Fy/
+===mist.z//misty.Az/brume.Fy/brumeux.Ay/
+===sleet.z//sleet.Vz/grésil.My/neige* fondue*A.Fy/
+tomber* de#R la#D neige#NF fondue#AF.Vy/
+===meteors smoke//smoke.z/smoky.z/fumée.Fy/fumeux.Ay/
+===squall.z//grain.My/
+;_______________________________________________________________________________
+===storm.z//stormy.Az/tempête,violente*A tempête*.Fy/orage.My/orageux.Ay/
+====cyclone.z//cyclone.My/
+====dust# storm*.z//tempête* de#R poussière#.Fy/
+====hurricane.z//ouragan.My/
+====rainstorm.z/rain/storm* of#R rain#.gz/tempête* de#R pluie#.Fy/
+====sandstorm.z//tempête* de#R sable#M.Fy/
+====snowstorm.z/snow/blizzard.z/storm* of#R snow#.gz/tempête* de#R neige#.Fy/
+blizzard.qMy/
+====tornado.z//tornade.Fy/
+====tropical#A storm*.z//tempête* tropicale*A.Fy/
+;_______________________________________________________________________________
+===rain.mz//rainy.Az/rain.Vz/precipitation.tz/pluvieux.Ay/pluie.¹mFy/
+précipitation.Fy/pleuvoir.Vy/
+;_______________________________________________________________________________
+====continuous#A rain*.z//pluie* continue*A.Fy/
+====drizzle.z//drizzle.Vz/bruine.Fy/crachin.My/bruiner,crachiner.Vy/
+pleuvasser.TVy/gouttes.qFPïy/
+=====intermittent#A drizzle*.z//bruine* intermittente*A.Fy/
+=====continuous#A drizzle*.z//bruine* continue*A.Fy/
+====freezing# rain*.z//pluie* verglaçante*A.Fy/
+====intermittent#A rain*.z//pluie* intermittente*A.Fy/
+====raindrop.z//goutte* de#R pluie#.Fy/
+;_______________________________________________________________________________
+====rain# shower*.z//monsoon.Tz/pour.¹Vz/pour* with#R rain#N.Vz/
+rain* cats#NP and#K dogs#NP,rain* buckets#NP.TVz/
+averse* de#R pluie#.Fy/pleuvoir* à#R verse#NF.Vy/
+pleuvoir* à#R seaux#NMP,pleuvoir* à#R torrents#NMP.TVy/
+tomber* des#RP cordes#NFP.TVy/
+pleuvoir* des#RP cordes#NFP.TVy/tomber* des#RP hallebardes#NFP.TVy/
+pleuvoir* des#RP hallebardes#NFP.TVy/pleuvoir* des#RP balles#NFP.TVy/
+pleuvoir* à#R ne#B pas#B mettre#V un#D chat#NM dehors#NM.TVy/
+pleuvoir* à#R grosses#AFP gouttes#NFP.qTVy/
+pleuvoir* de#R grosses#AFP gouttes#NFP.qTVy/
+|r1=pronoun-it-expletive|
+;_______________________________________________________________________________
+====thunderstorm.z/storm/magnetic#A storm*,electrical# storm*.z/orage.My/
+orage* magnétique*A.My/
+=====heavy# thunderstorm*.z//orage* violent*A.My/
+=====lightning.z//éclair.My/
+=====thunder.z//tonnerre.My/
+;_______________________________________________________________________________
+===snow.z//snowy.Az/snow#-covered#.qAz/snow.Vz/neigeux.Ay/neige.Fy/neiger.Vy/
+|r1=pronoun-it-expletive|
+====intermittent#A snow*.z//neige* intermittente*A.Fy/
+====snow# flurry*.z//rafale.Fy/
+====continuous#A snow*.z//neige* continue*A.Fy/
+====snow# shower*.z//snow* heavily#B.Vz/averse* de#R neige#.Fy/
+neiger* de#R gros#AMP flocons#NMP.Vy/
+====slight#A drifting#A snow# low*.z//chasse#V-neige* faible*A basse*A.Fy/
+====heavy#A drifting#A snow# low*.z//chasse#V-neige* forte*A basse*A.Fy/
+====snowflake.z//snow# crystal*.z/flocon* de#R neige#F.My/
+=====plate# crystal*.z//plaquette.Fy/
+=====stellar# crystal*.z//étoile.Fy/
+=====snowflake column//column.z/colonne.Fy/
+=====snowflake needle//needle.z/aiguille.Fy/
+=====spatial#A dendrite*.z//dendrite* spatiale*A.Fy/
+=====capped#A column*.z//colonne* avec#R capuchon#M.Fy/
+=====irregular#A crystal*.z//cristaux* irréguliers*A.MPïy/
+=====snow# pellet*.z//neige* roulée*A.Fy/
+;_______________________________________________________________________________
+=itn-continuation/attribute/
+==itn-continuation-attr//
+==itn-continuation-isa//
+;_______________________________________________________________________________
+=NA# attribute*.z/attribute/name# agent# attribute*.z/|r1=NA|
+==trigger-on-change//trigger* on#R change#N.Vz/
+;_______________________________________________________________________________
+=economic# attribute*.z/attribute/
+==overvalued.Az//
+==undervalued.Az//
+==inflationary.Az//
+==deflationary.Az//
+;_______________________________________________________________________________

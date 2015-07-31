@@ -1,0 +1,316 @@
+WordFormFillin
+--------------
+19960205142749: 27 t.þNz -> t.þAz
+19960205142749: ====variant-of//variant.þAz/
+19960205142749: 22 e.Ay -> e.Az
+19960205142749: ====similar//similaire.Az/
+19960205142749: 21 e.Vz -> e.Nz
+19960205142749: ====advise//urge.Nz/
+19960205142749: 51 .Az -> ly.Bz
+19960205142749: ====love//madly.Bz/
+19960205142749: 21 e.Vz -> e.Nz
+19960205142749: ====mate//mate.Nz/
+19960205142749: 27 t.þNz -> t.þAz
+19960205142749: ====Internet//Internet.þAz/
+19960205142749: 24 r.Nz -> r.MNy
+19960205142749: ====Sennheiser//Sennheiser.MNy/
+19960205142749: 80 e.Nz -> e.MNy
+19960205142749: ====Shure-545-microphone//Unidyne.MNy/
+19960205142749: 80 e.Nz -> e.MNy
+19960205142749: ====Shure//Shure.MNy/
+19960205142749: 50 i.Nz -> i.MNy
+19960205142749: ====Neumann-U89i-microphone//U89i.MNy/
+19960205142749: 50 i.Nz -> i.MNy
+19960205142749: ====Neumann-U87Ai-microphone//U87Ai.MNy/
+19960205142749: 44 t.Nz -> t.MNy
+19960205142749: ====Neumann-U47fet-microphone//U47fet.MNy/
+19960205142749: 52 n.Nz -> n.MNy
+19960205142749: ====Neumann//Neumann.MNy/
+19960205142749: 52 n.Nz -> n.MNy
+19960205142749: ====Telefunken//Telefunken.MNy/
+19960205142749: 24 r.Nz -> r.MNy
+19960205142749: ====Beyer//Beyer.MNy/
+19960205142749: 53 e.Nz -> e.Az
+19960205142749: ====variable//variable.Az/
+19960205142749: 23 h.Nz -> h.Az
+19960205142749: ====inch//inch.Az/
+19960205142749: 67 n.Nz -> n.FNy
+19960205142749: ====Sarkes-Tarzian-3000-L-TV-camera//Tarzian.FNy/
+19960205142749: 53 e.Nz -> e.Az
+19960205142749: ====France//France.Az/
+19960205142749: 53 e.Nz -> e.Az
+19960205142749: ====rose//rose.Az/
+19960205142749: 80 e.Nz -> e.MNy
+19960205142749: ====phone//telephone.MNy/
+19960205142749: 53 e.Nz -> e.Az
+19960205142749: ====beep//tone.Az/
+19960205142749: 53 e.Az -> e.Nz
+19960205142749: ====DTMF-phone//touchtone.Nz/
+19960205142749: 53 e.Az -> e.Nz
+19960205142749: ====multiline-phone//multiline.Nz/
+19960205142749: 59 m.MNy -> m.Nz
+19960205142749: ====twin-set//tandem.Nz/
+19960205142749: 51 .Az -> ly.Bz
+19960205142749: ====publicly-held-company//publicly.Bz/
+19960205142750: 24 r.Nz -> r.MNy
+19960205142750: ====door//door.MNy/
+19960205142750: 44 t.MNy -> t.Nz
+19960205142750: ====accent-mark//accent.Nz/
+19960205142750: 52 n.Nz -> n.MNy
+19960205142750: ====WE//western.MNy/
+19960205142750: 45 n.Nz -> n.Az
+19960205142750: ====WE//western.Az/
+19960205142750: 32 m.Nz -> t.þNz
+19960205142750: ====beam//beat.þNz/
+19960205142750: 151 e.FNy -> e.Nz
+19960205142750: ====music//musique.Nz/
+19960205142750: 27 t.þNz -> t.þAz
+19960205142750: ====consequent-phrase//consequent.þAz/
+19960205142750: 27 t.þNz -> t.þAz
+19960205142750: ====antecedent-phrase//antecedent.þAz/
+19960205142750: 54 tion.FNy -> tion.Nz
+19960205142750: ====decrease//diminution.Nz/
+19960205142750: 31 ation.FNy -> ation.Nz
+19960205142750: ====increase//augmentation.Nz/
+19960205142750: 53 e.Nz -> e.Az
+19960205142750: ====flute//flute.Az/
+19960205142750: 53 e.Nz -> e.Az
+19960205142750: ====linguistic-voice//voice.Az/
+19960205142750: 80 e.MNy -> e.Nz
+19960205142750: ====news-magazine//magazine.Nz/
+19960205142750: 31 ation.FNy -> ation.Nz
+19960205142750: ====categorize//classification.Nz/
+19960205142750: 53 e.Nz -> e.Az
+19960205142750: ====scientist//science.Az/
+19960205142750: 21 al.Az -> al.Ay
+19960205142750: ====computer-program//procédural.Ay/
+19960205142750: 32 m.Nz -> t.þNz
+19960205142750: ====charm-of//chart.þNz/
+19960205142750: 21 e.Nz -> e.Vz
+19960205142750: ====lace//lace.Vz/
+19960205142750: 44 t.MNy -> t.Nz
+19960205142750: ====battle//combat.Nz/
+19960205142750: 21 e.Vz -> e.Nz
+19960205142750: ====fear//fore.Nz/
+19960205142750: 27 t.þNz -> t.þAz
+19960205142750: ====felt//felt.þAz/
+19960205142750: 22 tte.FNy -> tte.Nz
+19960205142750: ====cap//casquette.Nz/
+19960205142750: 27 t.þNz -> t.þAz
+19960205142750: ====ascot-tie//ascot.þAz/
+19960205142750: 34 on.Nz -> on.MNy
+19960205142750: ====nylons//nylon.MNy/
+19960205142750: 44 t.Nz -> t.MNy
+19960205142750: ====corset//corselet.MNy/
+19960205142750: 36 .þNz -> e.þNy
+19960205142750: ====aasn-Simon//Simone.þNy/
+19960205142750: 80 e.Nz -> e.MNy
+19960205142750: ====other-uniform//blue.MNy/
+19960205142750: 22 e.Az -> e.Ay
+19960205142750: ====blue//blue.Ay/
+19960205142750: 44 t.Nz -> t.MNy
+19960205142750: ====baby-s-shirt//shirt.MNy/
+19960205142750: 45 n.Nz -> n.Az
+19960205142750: ====loden//loden.Az/
+19960205142750: 80 e.Nz -> e.MNy
+19960205142750: ====duffel-coat//duffle.MNy/
+19960205142750: 44 t.Nz -> t.MNy
+19960205142750: ====coat//coat.MNy/
+19960205142750: 36 .þNz -> e.þNy
+19960205142750: ====Ferrari//Ferre.þNy/
+19960205142750: 80 e.Nz -> e.MNy
+19960205142750: ====sphere//globe.MNy/
+19960205142750: 24 r.MNy -> r.Nz
+19960205142750: ====cocker//cocker.Nz/
+19960205142750: 151 e.Nz -> e.FNy
+19960205142750: ====verse//verse.FNy/
+19960205142750: 31 ation.Nz -> ation.FNy
+19960205142750: ====approximate//approximation.FNy/
+19960205142750: 27 t.þNz -> t.þAz
+19960205142750: ====height-of//height.þAz/
+19960205142750: 32 ne.Nz -> ne.FNy
+19960205142750: ====panne//panne.FNy/
+19960205142750: 51 .Az -> ly.Bz
+19960205142750: ====correct//incorrectly.Bz/
+19960205142751: 23 h.Az -> h.Nz
+19960205142751: ====drug-high//high.Nz/
+19960205142751: 32 ist.þNz -> ism.Nz
+19960205142751: ====male-chauvinist//chauvinism.Nz/
+19960205142751: 22 e.Az -> e.Ay
+19960205142751: ====big//large.Ay/
+19960205142751: 22 e.Ay -> e.Az
+19960205142751: ====good//mauvaise.Az/
+19960205142751: 44 t.MNy -> t.Nz
+19960205142751: ====personality-trait//trait.Nz/
+19960205142751: 21 al.Az -> al.Ay
+19960205142751: ====floral//floral.Ay/
+19960205142751: 54 tion.Nz -> tion.FNy
+19960205142751: ====section//section.FNy/
+19960205142751: 24 ique.Ay -> ic.Az
+19960205142751: ====cone//conic.Az/
+19960205142751: 151 e.Nz -> e.FNy
+19960205142751: ====turquoise//turquoise.FNy/
+19960205142751: 21 e.Vz -> e.Nz
+19960205142751: ====divorce//divorce.Nz/
+19960205142751: 47 .Nz -> e.FNy
+19960205142751: ====imperative-sentence//commande.FNy/
+19960205142751: 45 n.Az -> n.Nz
+19960205142751: ====clean//clean.Nz/
+19960205142751: 54 tion.Nz -> tion.FNy
+19960205142751: ====s-possessions//acquisition.FNy/
+19960205142751: 21 e.Nz -> e.Vz
+19960205142751: ====face//face.Vz/
+19960205142751: 21 e.Vz -> e.Nz
+19960205142751: ====explain//clue.Nz/
+19960205142751: 27 t.þNz -> t.þAz
+19960205142751: ====night//night.þAz/
+19960205142751: 31 on.Nz -> on.Az
+19960205142751: ====afternoon//afternoon.Az/
+19960205142751: 53 e.Nz -> e.Az
+19960205142751: ====phone//telephone.Az/
+19960205142751: 52 n.Nz -> n.MNy
+19960205142751: ====musical-ornament-turn//turn.MNy/
+19960205142751: 80 e.Nz -> e.MNy
+19960205142751: ====courageous//courage.MNy/
+19960205142751: 21 al.Ay -> al.Az
+19960205142751: ====titular//nominal.Az/
+19960205142751: 22 ve.Nz -> ve.Az
+19960205142751: ====Searle-ill-s-a-representative//representative.Az/
+19960205142751: 53 e.Az -> e.Nz
+19960205142751: ====adjective-of-highest-degree//absolute.Nz/
+19960205142751: 21 e.Vz -> e.Nz
+19960205142751: ====glance//glance.Nz/
+19960205142751: 51 .Az -> ly.Bz
+19960205142751: ====correct//correctly.Bz/
+19960205142751: 31 ation.FNy -> ation.Nz
+19960205142751: ====assert//affirmation.Nz/
+19960205142751: 21 e.Nz -> e.Vz
+19960205142751: ====state//state.Vz/
+19960205142751: 51 .Az -> ly.Bz
+19960205142751: ====different//differently.Bz/
+19960205142751: 51 .Az -> ly.Bz
+19960205142751: ====important//importantly.Bz/
+19960205142751: 151 e.FNy -> e.Nz
+19960205142751: ====battery//pile.Nz/
+19960205142751: 51 .Az -> ly.Bz
+19960205142751: ====F196//frequently.Bz/
+19960205142751: 31 ation.Nz -> ation.FNy
+19960205142751: ====observe//observation.FNy/
+19960205142751: 54 tion.Nz -> tion.FNy
+19960205142751: ====opposition//opposition.FNy/
+19960205142751: 26 ist.þNz -> ist.þAz
+19960205142751: ====aspect-aorist//aorist.þAz/
+19960205142751: 45 n.Nz -> n.Az
+19960205142751: ====Australian//Australian.Az/
+19960205142751: 45 n.Nz -> n.Az
+19960205142751: ====langue-germanique-du-nord//Scandinavian.Az/
+19960205142751: 22 ve.Nz -> ve.Az
+19960205142751: ====ergative//ergative.Az/
+19960205142751: 22 ve.Nz -> ve.Az
+19960205142751: ====F48//expletive.Az/
+19960205142751: 27 t.þNz -> t.þAz
+19960205142751: ====argument//argument.þAz/
+19960205142751: 29 a.Nz -> a.MNy
+19960205142751: ====theta//theta.MNy/
+19960205142751: 54 tion.Nz -> tion.FNy
+19960205142751: ====location-of//position.FNy/
+19960205142751: 22 ve.Az -> ve.Nz
+19960205142751: ====case-relation-agent//agentive.Nz/
+19960205142751: 24 ique.Ay -> ic.Az
+19960205142751: ====fanciful//magic.Az/
+19960205142751: 21 e.Nz -> e.Vz
+19960205142751: ====verse//verse.Vz/
+19960205142751: 45 n.Nz -> n.Az
+19960205142751: ====latin//Latin.Az/
+19960205142751: 27 t.þNz -> t.þAz
+19960205142751: ====pocket//pocket.þAz/
+19960205142752: 151 e.FNy -> e.Nz
+19960205142752: ====duck//cane.Nz/
+19960205142752: 22 ve.Nz -> ve.Az
+19960205142752: ====birth-control-device//contraceptive.Az/
+19960205142752: 50 i.MNy -> i.Nz
+19960205142752: ====men-s-bikini-briefs//mini.Nz/
+19960205142752: 53 e.Nz -> e.Az
+19960205142752: ====Vietnamese//Vietnamese.Az/
+19960205142752: 21 al.Az -> al.Ay
+19960205142752: ====good//spectral.Ay/
+19960205142752: 24 r.Nz -> r.MNy
+19960205142752: ====Lockheed-L1011-1//TriStar.MNy/
+19960205142752: 151 e.FNy -> e.Nz
+19960205142752: ====option-tp//prime.Nz/
+19960205142752: 21 al.Ay -> al.Az
+19960205142752: ====attribute-novel//original.Az/
+19960205142752: 24 ique.Ay -> ic.Az
+19960205142752: ====energy-level//dynamic.Az/
+19960205142752: 31 ation.Nz -> ation.FNy
+19960205142752: ====sensation//sensation.FNy/
+19960205142752: 47 .Nz -> e.FNy
+19960205142752: ====imperial-pint//pinte.FNy/
+19960205142752: 34 on.Nz -> on.MNy
+19960205142752: ====imperial-gallon//gallon.MNy/
+19960205142752: 44 t.MNy -> t.Nz
+19960205142752: ====beginning//début.Nz/
+19960205142752: 22 ve.Az -> ve.Nz
+19960205142752: ====emotion//affective.Nz/
+19960205142752: 22 ve.Az -> ve.Nz
+19960205142752: ====descriptive-function-of-language//cognitive.Nz/
+19960205142752: 21 th.Nz -> th.Az
+19960205142752: ====true//truth.Az/
+19960205142752: 67 ion.Nz -> ion.FNy
+19960205142752: ====logical-extension//extension.FNy/
+19960205142752: 44 t.Nz -> t.MNy
+19960205142752: ====ako//sort.MNy/
+19960205142752: 23 ine.Nz -> ine.FNy
+19960205142752: ====political-party//machine.FNy/
+19960205142752: 44 t.MNy -> t.Nz
+19960205142752: ====arrondissement//arrondissement.Nz/
+19960205142752: 27 t.þNz -> t.þAz
+19960205142752: ====aasn-Saint//Saint.þAz/
+19960205142752: 52 n.MNy -> n.Nz
+19960205142752: ====Vatican-City//Vatican.Nz/
+19960205142752: 47 .Nz -> e.FNy
+19960205142752: ====aamgn-Leon//Leone.FNy/
+19960205142752: 32 ne.FNy -> ne.Nz
+19960205142752: ====aamgn-Leon//Leone.Nz/
+19960205142752: 29 a.MNy -> a.Nz
+19960205142752: ====Burkina-Faso//Burkina.Nz/
+19960205142752: 45 n.Nz -> n.Az
+19960205142752: ====hongrois//Hungarian.Az/
+19960205142752: 47 .Nz -> e.FNy
+19960205142752: ====herb//herbe.FNy/
+19960205142752: 51 .Az -> ly.Bz
+19960205142752: ====heavy-LIGHT//lightly.Bz/
+19960205142752: 45 n.Nz -> n.Az
+19960205142752: ====mountain//mountain.Az/
+19960205142752: 21 e.Nz -> e.Vz
+19960205142752: ====cube//cube.Vz/
+19960205142752: 51 .Az -> ly.Bz
+19960205142752: ====cold//crisply.Bz/
+19960205142752: 27 t.þNz -> t.þAz
+19960205142752: ====fruit//fruit.þAz/
+19960205142752: 44 t.MNy -> t.Nz
+19960205142752: ====bean//haricot.Nz/
+19960205142752: 47 .Nz -> e.FNy
+19960205142752: ====credit-card//carde.FNy/
+19960205142752: 151 e.Nz -> e.FNy
+19960205142752: ====chanterelle-commune//chanterelle.FNy/
+19960205142752: 47 .Nz -> e.FNy
+19960205142752: ====melon//melone.FNy/
+19960205142752: 47 .Nz -> e.FNy
+19960205142752: ====plant-small-seed//pipe.FNy/
+19960205142752: 80 e.MNy -> e.Nz
+19960205142752: ====angel//ange.Nz/
+19960205142752: 45 n.Nz -> n.Az
+19960205142752: ====Japan//Japan.Az/
+19960205142752: 23 ine.Nz -> ine.FNy
+19960205142752: ====grenadine//grenadine.FNy/
+19960205142752: 53 e.Nz -> e.Az
+19960205142752: ====chocolate//chocolate.Az/
+19960205142752: 45 n.Nz -> n.Az
+19960205142752: ====theme-of//given.Az/
+19960205142752: 24 ic.Az -> ique.Ay
+19960205142752: ====surname//patronymique.Ay/
+19960205142752: 27 t.þNz -> t.þAz
+19960205142752: ====mail//post.þAz/
+19960205142753: WordFormFillin done
+19960205142753: Time spent on command = 12 seconds (including training)

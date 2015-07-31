@@ -1,0 +1,108 @@
+19960319195147: ThoughtTreasure shell interpreting line <testgentemp>
+19960319195147: created Context 4
+19960319195147: ****put-on during take-shower:
+[superset-simultaneity @19940606080000:19940606081000|[take-shower Jim] @19940606080500:19940606080502|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <superset-simultaneity>
+ASPECT focus @19940606080500:19940606080502 obj @19940606080000:19940606081000 [take-shower Jim] nonsituational: <aspect-inaccomplished-situational>
+ASPECT focus @19940606080000:19940606081000 obj @19940606080500:19940606080502 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-inaccomplished-situational> tensestep -4 literary 0 => TENSE <imperfect-indicative>
+Jim Garnier a mis un chapeau, pendant que Jim Garnier prenait une douche.
+[superset-simultaneity @19940606080000:19940606081000|[take-shower Jim] @19940606080500:19940606080502|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <superset-simultaneity>
+ASPECT focus @19940606080500:19940606080502 obj @19940606080000:19940606081000 [take-shower Jim] nonsituational: <aspect-inaccomplished-situational>
+ASPECT focus @19940606080000:19940606081000 obj @19940606080500:19940606080502 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 0 literary 0 => TENSE <present-indicative>
+ASPECT <aspect-inaccomplished-situational> tensestep 0 literary 0 => TENSE <present-indicative>
+Il met le chapeau, pendant que il prend une douche.
+[superset-simultaneity @19940606080000:19940606081000|[take-shower Jim] @19940606080500:19940606080502|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <superset-simultaneity>
+ASPECT focus @19940606080500:19940606080502 obj @19940606080000:19940606081000 [take-shower Jim] nonsituational: <aspect-inaccomplished-situational>
+ASPECT focus @19940606080000:19940606081000 obj @19940606080500:19940606080502 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+ASPECT <aspect-inaccomplished-situational> tensestep 3 literary 0 => TENSE <future>
+Il mettra le chapeau, pendant que il prendra une douche.
+19960319195147: ****put-on right before take-shower:
+[adjacent-priority @19940606080000:19940606081000|[take-shower Jim] @19940606075500:19940606080000|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <adjacent-priority>
+ASPECT focus @19940606075500:19940606080000 obj @19940606080000:19940606081000 [take-shower Jim] nonsituational: <aspect-unknown>
+ASPECT focus @19940606080000:19940606081000 obj @19940606075500:19940606080000 [put-on Jim hat] nonsituational: <aspect-unknown>
+ASPECT <aspect-unknown> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-unknown> tensestep -4 literary 0 => TENSE <perfect-indicative>
+Il l'a mis jusqu'à ce que il ait pris une douche.
+[adjacent-priority @19940606080000:19940606081000|[take-shower Jim] @19940606075500:19940606080000|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <adjacent-priority>
+ASPECT focus @19940606075500:19940606080000 obj @19940606080000:19940606081000 [take-shower Jim] nonsituational: <aspect-unknown>
+ASPECT focus @19940606080000:19940606081000 obj @19940606075500:19940606080000 [put-on Jim hat] nonsituational: <aspect-unknown>
+ASPECT <aspect-unknown> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-unknown> tensestep -4 literary 0 => TENSE <perfect-indicative>
+Il l'a mis jusqu'à ce que il ait pris une douche.
+[adjacent-priority @19940606080000:19940606081000|[take-shower Jim] @19940606075500:19940606080000|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <adjacent-priority>
+ASPECT focus @19940606075500:19940606080000 obj @19940606080000:19940606081000 [take-shower Jim] nonsituational: <aspect-unknown>
+ASPECT focus @19940606080000:19940606081000 obj @19940606075500:19940606080000 [put-on Jim hat] nonsituational: <aspect-unknown>
+ASPECT <aspect-unknown> tensestep 3 literary 0 => TENSE <future>
+ASPECT <aspect-unknown> tensestep 3 literary 0 => TENSE <future>
+Il le mettra jusqu'à ce que il prenne une douche.
+19960319195147: ****take-shower right before put-on:
+[disjoint-posteriority @19940606080005:19940606081000|[take-shower Jim] @19940606081010:19940606081012|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <disjoint-posteriority>
+ASPECT focus @19940606081010:19940606081012 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940606081010:19940606081012 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+Il l'a mis après qu'il a pris une douche.
+[disjoint-posteriority @19940606080005:19940606081000|[take-shower Jim] @19940606081010:19940606081012|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <disjoint-posteriority>
+ASPECT focus @19940606081010:19940606081012 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940606081010:19940606081012 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+ASPECT <aspect-accomplished-aorist> tensestep 1 literary 0 => TENSE <future-near>
+Jim Garnier le mettra après que Jim Garnier va prendre une douche.
+[disjoint-posteriority @19940606080005:19940606081000|[take-shower Jim] @19940606081010:19940606081012|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <disjoint-posteriority>
+ASPECT focus @19940606081010:19940606081012 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940606081010:19940606081012 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+Il mettra le chapeau, après qu'il prendra une douche.
+19960319195147: ****put-on an hour before take-shower:
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940606070000:19940606070003|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940606070000:19940606070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940606070000:19940606070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-accomplished-aorist> tensestep -3 literary 0 => TENSE <past-future-near>
+Il a mis le chapeau, lorsqu'il allait prendre une douche.
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940606070000:19940606070003|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940606070000:19940606070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940606070000:19940606070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-accomplished-aorist> tensestep -2 literary 0 => TENSE <conditional>
+Il a mis le chapeau, lorsqu'il prendrait une douche.
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940606070000:19940606070003|[put-on Jim hat]]19960319195147: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940606070000:19940606070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940606070000:19940606070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+ASPECT <aspect-accomplished-aorist> tensestep 4 literary 0 => TENSE <>
+ASPECT focus @19940606080005:19940606081000 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+Il le mettra lorsqu'il prendra une douche.
+19960319195148: ****put-on a day before take-shower:
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940605070000:19940605070003|[put-on Jim hat]]19960319195148: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940605070000:19940605070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940605070000:19940605070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-accomplished-aorist> tensestep -2 literary 0 => TENSE <conditional>
+Il l'a mis lorsqu'il prendrait une douche.
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940605070000:19940605070003|[put-on Jim hat]]19960319195148: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940605070000:19940605070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940605070000:19940605070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep -4 literary 0 => TENSE <perfect-indicative>
+ASPECT <aspect-accomplished-aorist> tensestep -2 literary 0 => TENSE <conditional>
+Il l'a mis lorsqu'il prendrait une douche.
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940605070000:19940605070003|[put-on Jim hat]]19960319195148: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940605070000:19940605070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940605070000:19940605070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 0 literary 0 => TENSE <present-indicative>
+ASPECT <aspect-accomplished-aorist> tensestep 2 literary 0 => TENSE <future-perfect>
+Jim Garnier le met lorsque Jim Garnier aura pris une douche.
+[disjoint-priority @19940606080005:19940606081000|[take-shower Jim] @19940605070000:19940605070003|[put-on Jim hat]]19960319195148: ASPECT RELATED PAIR <disjoint-priority>
+ASPECT focus @19940605070000:19940605070003 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT focus @19940606080005:19940606081000 obj @19940605070000:19940605070003 [put-on Jim hat] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+ASPECT <aspect-accomplished-aorist> tensestep 5 literary 0 => TENSE <>
+ASPECT focus @19940606080005:19940606081000 obj @19940606080005:19940606081000 [take-shower Jim] nonsituational: <aspect-accomplished-aorist>
+ASPECT <aspect-accomplished-aorist> tensestep 3 literary 0 => TENSE <future>
+Il mettra le chapeau, lorsqu'il prendra une douche.
+Time spent on command = 1 seconds

@@ -1,0 +1,1411 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=hole.z/physical-object/trou.My/
+==cavity.z//cavité.Fy/
+==hole-slot//slot.z/
+===coin-slot//slot.z/fente.Fy/
+====bus-coin-slot//
+====card-slot//
+====token-slot//
+====ticket-slot//
+===letter-slot//slot.z/ouverture.Fy/
+;_______________________________________________________________________________
+=rock.z/physical-object/roche.Fy/
+==pebble.z//caillou,galet.My/
+==stone.z//pierre.Fy/
+;_______________________________________________________________________________
+=mineral.z/physical-object/minéral.My/
+;_______________________________________________________________________________
+=topographic#A feature*.z/physical-object/|fixed-object|
+;_______________________________________________________________________________
+==landmass.z//land.z/terre.Fy/
+===farmland.z//land.z/terre.Fy/
+===field.z//champ.My/
+===forest.z//woods.Pïz/bois.My/
+====bois* de#R Boulogne#.My//
+===island.z//isle.qz/île.¹Fy/
+===marsh.z//swamp.z/marais,marécage.My/
+===mountain.z//montagne.Fy/
+====hill.z//montagne.Fy/
+===plain.z//plaine.Fy/
+===small#A hill*.z//hill.z/colline.Fy/
+===shallow#A water*.z//
+;_______________________________________________________________________________
+==watermass.z//
+===bay.z//baie.Fy/
+===*Bay# of#R Biscay*.z//golfe* de#R Gascogne#F.My/
+===lake.z//lac.¹My/
+===pond.z//étang.My/mare.Fy/
+===channel.z//chenal.¹My/
+===*English#A Channel*.kz//Channel.kz/Manche.¹kFy/
+===river.z//fleuve.¹My/rivière.Fy/
+====Tet//Têt.Fy/|polity-of=Pyrenees-Orientales|length-of=120km|
+coordinates-of=42.44N3.02Ecoor|
+====brook.z//creek,stream.z/ruisseau,courant,flot.My/
+petit*A cours* d#R'eau#F.My/
+===ocean.z//sea.z/océan.My/mer.Fy/
+===*Arctic#A Ocean*.kz//
+===*Atlantic#A Ocean*.kz//pond.Tgz/océan* Atlantique*A.kMy/
+===*Indian#A Ocean*.kz//océan* Indien*A.kMy/
+===*Pacific#A Ocean*.kz//océan* Pacifique*A.kMy/
+===sea.z//mer.Fy/
+===*Celtic#A Sea*.kz//
+;_______________________________________________________________________________
+=monument.z/physical-object/monument.My/|fixed-object|humanmade|
+;_______________________________________________________________________________
+==landmark.z//repère.My/
+==fountain.z//fontaine.Fy/
+;_______________________________________________________________________________
+==tower.z//tour.Fy/
+==*tour* Eiffel#C.Fy//Eiffel# tower*.z/|@18870128:18890331|
+create¤MALE:Gustave Eiffel|@18890331:na|street-of=quai-Branly|
+polity-of=7arr|postal-code-of=STRING:zip:"75007"|
+;_______________________________________________________________________________
+=underground-area/physical-object/
+==cave.z//caverne.Fy/grotte.Fy/
+==excavation.z//
+===excavation-mine//mine.z/mine.Fy/
+==well.z//puits.My/
+;_______________________________________________________________________________
+=building.z/physical-object/construction.Fy/bâtiment.¹My/
+|fixed-object|humanmade|
+;_______________________________________________________________________________
+==apartment# building*.Àz//apartment# house*.Àz/immeuble.My/
+===high#A rise*.Àz//block* of#R flats#P.gz/
+==*20#A\, rue#F Drouot#.y//
+|street-number-of=STRING:sn:"20"|street-of=rue-Drouot|polity-of=9arr|
+postal-code-of=STRING:zip:"75009"|
+==*19#A\, rue#F Sedaine#.y//|street-number-of=STRING:sn:"19"|
+street-of=rue-Sedaine|polity-of=11arr|
+postal-code-of=STRING:zip:"75011"|
+==*residence-des-sapins//résidence* des#RP sapins#MP.Fy/
+|fanciful|street-number-of=STRING:sn:"1"|
+street-of=rue-de-Bagatelle|polity-of=Neuilly-sur-Seine|
+postal-code-of=STRING:zip:"92522"|
+;_______________________________________________________________________________
+==barn.z//grange.Fy/
+==bus# shelter*.z//abribus.My/aubette.Fy/
+;_______________________________________________________________________________
+==church.z//église.Fy/
+|part-of¤altar,choir-stall,church-central-passage,pew,pulpit|
+===chapel.z//chapelle.Fy/
+====wedding# chapel*.z//
+;_______________________________________________________________________________
+==courthouse.z//palais* de#R justice#NF.My/
+;_______________________________________________________________________________
+==factory.z//usine.Fy/
+==hospital.Àz//hospital.gÉz/hôpital.My/; not exactly
+==mill.z//moulin.My/
+;_______________________________________________________________________________
+==motel.z//motel.¹My/
+==beauty# salon*.z//salon* de#R beauté#NF.My/
+==hair# salon*.z//hairdressing# salon*,salon.z/
+salon* de#R coiffure#NF,salon.My/
+===barbershop.Àz//barber#'s shop*.gz/
+;_______________________________________________________________________________
+==hotel.z//hôtel.¹My/
+==*Best#A Western*.®z//
+==*Crillon.®y//
+==*Crowne#A Plaza*.®z//
+==*Dorchester.®kz//
+==*Helmsley# Palace*.®kz//
+==*Hilton.®z//
+==*Holiday# Inn*.®z//
+==*Hyatt.®z//
+==*Marriott.®z//
+==*Meridien.®z//
+==*Omni# Hotel*.®z//Omni.®z/
+==*Park# Plaza# Hotel*.®kz//Plaza# Hotel*.®kz/Park# Plaza*.®kz/Plaza.®Tkz/
+==*Quality# Inn*.®z//
+==*Ramada.®z//
+==*Renaissance# Hotel*.®z//Renaissance.®z/
+==*Royal#A Sonesta*.®z//
+==*Sheraton.®z//
+==*Susse# Chalet*.®z//
+==*Westin.®z//
+;_______________________________________________________________________________
+==home.z//foyer.My/maison.Fy/
+;_______________________________________________________________________________
+==house.z//maison.Fy/
+; cf Bob Vila _Guide to buying your dream house_
+===A#-Frame*.z//
+===brownstone.z//
+===bungalow.z//
+====California# bungalow*.z//
+===Catslide.z//
+===Colonial.z//
+====Cape# Cod# Colonial*.z//Cape# Cod*.z/Cape.z/
+====Garrison# Colonial*.z//
+====Dutch#A Colonial*.z//
+====Salt# Box# Colonial*.z//
+====Classic#A Colonial*.z//
+====Southern#A Colonial*.z//
+===cottage.z//petite*A maison*.Fy/cottage.My/
+===Elizabethan.z//
+===farmhouse.z//
+====New#A England# farmhouse*.z//
+===Federal.z//
+===French#A Provincial*.z//
+===Georgian.z//
+====Williamsburg# Georgian*.z//
+====Early#A Georgian*.z//
+===HalfTimber.z//
+===house-Contemporary//Contemporary.z/
+===house-Mission//Mission.z/
+===house-Modern//Modern.z/
+===house-Monterey//Monterey.z/
+===house-Northwestern//Northwestern.z/
+===Puget# Sound*.z//
+===ranch# house*.z//ranch.z/
+====California# ranch*.z//
+===Regency.z//
+===row# house*.Àz//terraced#A house*.gz/
+====brick#A row# house*.z//
+====Western#A row# house*.z//
+===semi#B-detached#A house*.gz//duplex.Àz/
+===townhouse.z//
+====Eastern#A townhouse*.z//
+====Western#A townhouse*.z//
+===Tudor.z//
+;_______________________________________________________________________________
+==*maison* de#R Lucie#.kFy//Lucie#'s house*.Éz/|fanciful|owner-of=Lucie|
+==*White#A House*.kz//
+;_______________________________________________________________________________
+==shed.z//remise.Fy/
+==soundstage.z//
+;_______________________________________________________________________________
+==nightclub.z//boîte* de#R nuit#.Fy/boîte.Fy/
+===dance# club*.z//disco.oz/discothèque.oz/discothèque.¹Fy/disco.My/
+;_______________________________________________________________________________
+==library.z//bibliothèque.¹Fy/
+===record# library*.z//discothèque.¹Fy/
+;_______________________________________________________________________________
+==post# office*.z//poste.Fy/
+;_______________________________________________________________________________
+==shopping# center*.z//shopping# complex*.z/centre* commercial*A.My/
+;_______________________________________________________________________________
+===mall.Àz//shopping# mall*.Àz/
+;_______________________________________________________________________________
+====suburban#A shopping# mall*.z//
+=====Garden# State# Plaza*.®z//
+=====Quakerbridge# Mall*.®z//QBM.Tîz/
+;_______________________________________________________________________________
+====small#A city# shopping# mall*.Àz//shopping# arcade*.gz/
+galerie* marchande*A.Fy/
+=====Garage.®kz//
+=====Quincy# Market*.®z//
+=====Seaport# Market# Place*.®z//South#A Street# Seaport*.®z/
+;_______________________________________________________________________________
+====mini#A-mall*.Àz//strip# mall*.Àz/
+=====Little# Italy# Mini# Mall*.z//
+;_______________________________________________________________________________
+====large#A city# shopping# mall*.z//
+=====A-and-S-Plaza//A# &#K S# Plaza*.®z/
+=====Beverly# center*.®z//
+=====Fox# Hills#P mall*.®z//
+=====Herald# Center*.®z//
+=====Santa# Monica# mall*.®z//
+=====Westside# Pavilion# mall*.®z//Westside# Pavilion*.®z/
+;_______________________________________________________________________________
+==store.Àz//shop.¹gz/magasin.¹My/|walkable|
+;_______________________________________________________________________________
+===vending# stand*.z//
+;_______________________________________________________________________________
+===bookstore.Àz//bookshop.¹gz/librairie.¹Fy/
+;_______________________________________________________________________________
+===hardware# store*.Àz//hardware# shop*.gz/droguerie.Fy/
+;_______________________________________________________________________________
+===sporting# goods#P store*.z//sports#P store*.z/
+;_______________________________________________________________________________
+===clothing# store*.z//
+;_______________________________________________________________________________
+===department# store*.z/clothing-store/grand*A magasin*.My/
+====A-and-S//A# &#K S*.®z/
+====B# Altman*.®z//B# Altman* &#K Co\.#.®z/
+====Bergdorf# Goodman*.®z//
+====Bloomingdales.®z//
+====BHV.®My/French-SA/
+====department-store-Broadway//Broadway.®z/
+====Bullocks//Bullock#'s.@®z/
+====Filene#'s.®z//
+====Galeries#P Lafayette#M.®Fy/French-SA/Galeries#Pj Lafayette*.®z/
+====Jordan# Marsh*.®z//
+====Lord-and-Taylor//Lord# &#K Taylor*.®z/
+====Neiman#-Marcus*.®z//
+====Nordstrom.®z//
+====Printemps.®My/French-SA/
+====Saks//Saks# Fifth#A Avenue*.®z/Saks.®Tz/
+====Sears.®z//
+====Macys//Macy#'s.®z/R# H# Macy#'s.®z/
+====May# Company*.®z//
+;_______________________________________________________________________________
+===electronics# store*.z//
+====FNAC.®kFy//Fnac.®kFy/FNAC.®kz/Fnac.®kz/
+;_______________________________________________________________________________
+===five#-and#K-dime*.Àz//dime# store*.Àz/
+five#-and#K-ten*,five#-and#K-ten# store*.Àz/general#A store*,bazaar.gz/bazar.My/
+====Carrefour.®y//magasin* Carrefour#®C.My/
+====Federated.®z//
+====Grant#'s.®z//
+====J# C# Penney*.®z//Penney#'s.Tz/
+====K# Mart*.®z//K#-Mart*.®z/
+====Lechmere# Sales#P.®z//
+====Mays.®z//
+====Sherman#'s.®z//
+====Woolworth#'s.®z//F# W# Woolworth*.®z/Woolie#'s.gTz/
+;_______________________________________________________________________________
+===food# store*.z//
+;_______________________________________________________________________________
+====grocery# store*.Àz//grocer#'s.¹gz/grocer#'s shop*.gz/grocery,market.z/
+épicerie.¹Fy/alimentation* générale*A.ÎFy/
+;_______________________________________________________________________________
+====small#A food# store*.z//
+;_______________________________________________________________________________
+=====deli-store//delicatessen.z/deli.Tz/épicerie* fine*A.Fy/
+;_______________________________________________________________________________
+=====greengrocer#'s.z//magasin* de#R fruits#MP et#K légumes#MP.¹My/
+;_______________________________________________________________________________
+=====pork# butcher#'s.z//charcuterie.Fy/
+;_______________________________________________________________________________
+=====gourmet# shop*.z//épicerie* fine*A.Fy/
+======Balducci#'s.®z//
+======Comtesse* du#R Barry#M.®Fy//
+======Fauchon.®y//
+======Lafayette#M Gourmet#M.®y//
+======Poll# William*.®z//
+======Trader# Joe#'s.®z//
+======Zabar#'s.®z//
+;_______________________________________________________________________________
+=====health# food# store*.z//
+======Good#A Earth*.®z//
+;_______________________________________________________________________________
+=====small#A suburban#A food# store*.qz//convenience# food# store*.Àz/
+convenience# store*.Àz/spa.îz/corner# shop*.gz/petite*A épicerie*.¹Fy/
+======7#-Eleven*.®z//7#-11*.®z/
+======Wawa.®z//
+;_______________________________________________________________________________
+=====small#A city# food# store*.qz//corner# grocery*.Àz/corner# shop*.gz/
+petite*A épicerie*.¹Fy/
+=====*small-city-food-store1//
+;|owner-of=Florence-Bidault,Henri-Bidault|
+|owner-of=Henri-Bidault|
+======Felix-Potin//Félix#M Potin#M.®y/
+;_______________________________________________________________________________
+====large#A food# store*.z//
+=====supermarket.z//supermarché.¹My/
+======A-and-P//A&P.®z/
+======D#Rj'Agostino*.®z//
+======Ed-L'Epicier//Ed# L#D'Épicier#.®My/
+======First#A National*.®z//
+======Food# Emporium*.z//
+======Franprix.®y//
+======Gristede# Brothers#P.®z//
+======Hamon.®y//
+======Monoprix.®y//
+======Pathmark.®z//
+======Prisunic.®y/five-and-dime/
+======Pronto# Market*.z//
+======Purity# Supreme*.®z//
+======Ralphs.®z//
+======Safeway.®z//
+======Shop-Rite//Shop#V-Rite#B ½.®z/
+======Star# Market*.®z//
+======Stop-and-Shop//Stop#V and#K Shop#V ½.®z/
+======Sunny# Corner# Farms#P.®z//
+======Uniprix.®y//
+======Vons.®z//
+======Vicente# Foods#P.®z//
+======Westward# Ho*.®z//
+======Chinese#A market*.z//
+=======Tang-Freres//Tang# Frères#MP.®y/
+=====large#A supermarket*.z//hypermarket.gz/hypermarché.¹My/
+;_______________________________________________________________________________
+==eating#V place*.z//place* to#R eat#V.z/
+|part-of¤bar-service,ware-washing,food-preparation-area,restaurant-dining-area,
+restaurant-entrance,restaurant-storage-area,restaurant-receiving,wait-station|
+;_______________________________________________________________________________
+===bar.z//pub.z/bar.My/|serve-meal=alcoholic-beverage|
+===*Cave* Drouot#M.kFy//Cave# Drouot*.kz/
+;_______________________________________________________________________________
+===cafe//café.z/café.My/|serve-meal=coffee|
+===*Cafe-de-la-Paix/French-company/Café* de#R la#D Paix#F.My/
+|street-of=boulevard-des-Capucines|polity-of=9arr|
+postal-code-of=STRING:zip:"75009"|
+;_______________________________________________________________________________
+===brasserie.z//café#-restaurant*.z/brasserie.Fy/
+;_______________________________________________________________________________
+===tearoom.z//salon* de#R thé#.My/|serve-meal=food-tea|
+;_______________________________________________________________________________
+===restaurant.z//eatery.Àz/restaurant.My/resto.TMy/
+===*Aureole.Éz//
+===*Bouley.Éz//
+===*Four#A Seasons#P.kz//
+===*Rainbow# Room*.kz//
+===*Lutece//Lutèce.Éz/
+===*Sign# of#R the#D Dove*.Éz//
+;_______________________________________________________________________________
+====barbecue# restaurant*.z//barbecue,BBQ.z/barbecue.My/|serve-meal=beef|
+;_______________________________________________________________________________
+====Chinese#A restaurant*.z//restaurant* chinois*A.My/
+====*Plum# Tree# Inn*.kz//
+====*Silk# Road# Palace*.kz//
+====*Ollie#'s.Éz//
+;_______________________________________________________________________________
+====deli-restaurant//delicatessen.z/deli.Tz/restaurant*-traiteur*A.My/
+=====kosher#A delicatessen*.z/kosher-restaurant/kosher#A deli*.Tz/
+======Carnegie# Deli*.®z//
+======Stage# Deli*.®z//
+;_______________________________________________________________________________
+====restaurant-diner//diner.z/café*-restaurant*.My/
+;_______________________________________________________________________________
+====French#A restaurant*.z//restaurant* français*A.My/
+;_______________________________________________________________________________
+====Indian#A restaurant*.z//restaurant* indien*A.My/
+====*Bombay# Club*.z//
+;_______________________________________________________________________________
+====Italian#A restaurant*.z//restaurant* italien*A.My/
+====*Carmine#'s.Éz//
+;_______________________________________________________________________________
+====Japanese#A restaurant*.z//restaurant* japonais*A.My/
+;_______________________________________________________________________________
+====kosher#A restaurant*.z//restaurant* casher*A.My/|serve-meal=kosher-food|
+;_______________________________________________________________________________
+====Mexican#A restaurant*.z//restaurant* mexicain*A.My/
+;_______________________________________________________________________________
+====pizzeria.z//pizzeria.Fy/|serve-meal=pizza|
+=====Domino#S's.z/fast-food-restaurant/
+=====Papa# Gino#S's.z/fast-food-restaurant/
+=====Pizza# Hut*.z/fast-food-restaurant/
+=====Pizzeria# Uno*.z//
+;_______________________________________________________________________________
+====seafood# restaurant*.z//|serve-meal=fish,shellfish|
+=====Legal#A Sea#S Foods*.Pïz//
+;_______________________________________________________________________________
+====Spanish#A restaurant*.z//restaurant* espagnol*A.My/
+;_______________________________________________________________________________
+====steakhouse.z//steak# house*.z/grill.z/restaurant* grill*.My/grill.My/
+|serve-meal=beef|
+;_______________________________________________________________________________
+====Thai#A restaurant*.z//restaurant* thaïlandais*A.My/
+====*Rain.Éz//
+;_______________________________________________________________________________
+====vegetarian#A restaurant*.z//restaurant* végétarien*A.My/
+|serve-meal=vegetable|
+;_______________________________________________________________________________
+====Vietnamese#A restaurant*.z//restaurant* vietnamien*A.My/
+====*Monsoon.Éz//
+====*Pho# Pasteur*.Éz//
+;_______________________________________________________________________________
+====school#A cafeteria*.z//resto* universitaire*A.My/resto* U#C.TMy/
+;_______________________________________________________________________________
+====fast#A food# restaurant*.z//fast#A food# chain*.z/fast#A food*.Îz/
+fast#A-food#NF.Az/fast#Aj-food#NFj ½.¹My/
+chaîne* de#R restauration# rapide#A.Fy/restauration* rapide*A.ÎFy/
+prêt#A-à#R-manger#V.ÎMy/nourriture* de#R fast#Aj-food#Nj.ÎFy/
+de#R restauration#NF rapide#A.Ay/de#R fast#Aj-food#Nj.Ay/
+=====Dairy# Queen*.®z//DQ.Tz/
+=====McDonald#'s#9.®z//McDonald#M's#9.®y/Mickey# D#'s#9.Tz/
+chaîne* de#R restauration# rapide#A McDonald#M's#9.Fy/MacDo.Ty/
+=====Quick.®z//Quick.®y/
+;_______________________________________________________________________________
+==theater.z//théâtre.My/
+;_______________________________________________________________________________
+===movie# theater*.Àz//movie# house*.Àz/cinema.gz/cinéma.My/
+;_______________________________________________________________________________
+==*Opera-Comique//Opéra*-Comique*A.kMy/salle* Favart#.Fy/
+|@1783:na|number-of-seats=1330u|
+street-of=rue-de-Marivaux|polity-of=2arr|postal-code-of=STRING:zip:"75002"|
+@19930527:na|phone-number-of=STRING:pstn:"33142868883"|
+==*Opera-Garnier//Opéra* Garnier#.kMy/Opéra.kMy/Opera# Garnier*.Éz/
+|architect-of=MALE:Charles Garnier|
+@18620721:1875|create¤na|@1875:na|street-of=place-de-l-Opera|polity-of=9arr|
+postal-code-of=STRING:zip:"75009"|number-of-seats=1991u|
+@19930527:na|phone-number-of=STRING:pstn:"33147425371"|
+==*Opera-Bastille//Opéra* Bastille#F.kMy/Opéra* de#R la#D Bastille#F.kMy/
+Opera# Bastille*.Éz/
+|@1985:19890714|create¤na|@19890714:na|street-of=place-de-la-Bastille|
+polity-of=11arr|postal-code-of=STRING:zip:"75011"|number-of-seats=2700u|
+@19930527:na|
+phone-number-of=STRING:pstn:"33143439696",STRING:pstn:"33144731300"|
+;_______________________________________________________________________________
+==museum.z//musée.My/|part-of¤museum-wing|
+==*Museum* of#R Fine#A Arts#P.z//MFA.z/
+==*Museum* of#R Modern#A Art#.z//MOMA.z/
+;_______________________________________________________________________________
+==museum-wing//wing.z/aile.Fy/
+===American#A wing*.z//
+;_______________________________________________________________________________
+==office# building*.z//immeuble.My/
+;_______________________________________________________________________________
+===city# hall*.z//hôtel* de#R ville#NF.My/mairie.Fy/
+;_______________________________________________________________________________
+==*France#® 2#® building*.z//
+|street-number-of=STRING:sn:"22"|street-of=avenue-Montaigne|polity-of=8arr|
+postal-code-of=STRING:zip:"75387 CEDEX 08",STRING:zip:"75008"|
+==*maison* de#R Radio#® France#®.kFy//maison* de#R la#D radio#.kFy/
+Maison* ronde*A.kTFy/
+|architect-of=MALE:Henry Bernard|@1952:1963|create¤na|@1963:na|
+street-number-of=STRING:sn:"116"|
+street-of=avenue-du-President-Kennedy|polity-of=16arr|
+postal-code-of=STRING:zip:"75786 CEDEX 16",STRING:zip:"75116"|
+==*Hotel-des-ventes//Hôtel* des#RP ventes#FP.My/hôtel* Drouot#.kMy/|@1851:1980|
+@1980:na|architect-of=MALE:J\. J\. Ferniet|street-number-of=STRING:sn:"9"|
+street-of=rue-Drouot|polity-of=9arr|postal-code-of=STRING:zip:"75009"|
+==*524W57//|street-number-of=STRING:sn:"524"|street-of=West-57-Street|
+polity-of=mid-Manhattan|postal-code-of=STRING:zip:"10019"|
+==*WNYW-building//|street-number-of=STRING:sn:"205"|street-of=East-67-Street|
+polity-of=East-of-Eden|postal-code-of=STRING:zip:"10021"|
+==*7LincolnSquare//|street-number-of=STRING:sn:"7"|street-of=Lincoln-Square|
+polity-of=Upper-West-Side|postal-code-of=STRING:zip:"10023"|
+;_______________________________________________________________________________
+===skyscraper.z//gratte#V-ciel#.ßMy/
+===*Exxon#® building*.z//|@1971:na|street-number-of=STRING:sn:"1251"|
+street-of=Avenue-of-the-Americas|polity-of=Rockefeller-Center-Area|
+postal-code-of=STRING:zip:"10020"|
+===*McGraw#®-Hill#® building*.z//|@1972:na|street-number-of=STRING:sn:"1221"|
+street-of=Avenue-of-the-Americas|polity-of=Rockefeller-Center-Area|
+postal-code-of=STRING:zip:"10020"|
+===*Black# Rock*.z//CBS#® building*.z/|@1965:na|levels-of=38u|dark-gray|
+street-number-of=STRING:sn:"51"|street-of=West-52-Street|
+polity-of=Rockefeller-Center-Area|postal-code-of=STRING:zip:"10020"|
+===*Radio#® City#® Music#® Hall*®.z//
+|@1933:na|street-number-of=STRING:sn:"1260"|
+street-of=Avenue-of-the-Americas|polity-of=Rockefeller-Center-Area|
+postal-code-of=STRING:zip:"10112"|
+===*GE#® building*.z//30# Rock*.Tz/RCA#® building*.oz/|@1933:na|light-gray|
+street-number-of=STRING:sn:"30"|street-of=Rockefeller-Plaza|
+polity-of=Rockefeller-Center-Area|postal-code-of=STRING:zip:"10112"|
+===*Time-and-Life-Building//Time#® &#K Life#® Building*.z/
+|@1959:na|street-number-of=STRING:sn:"1271"|
+street-of=Avenue-of-the-Americas|polity-of=Rockefeller-Center-Area|
+postal-code-of=STRING:zip:"10112"|
+===*1# World# Trade# Center*.z//Twin#A Tower*.Tz/|levels-of=110u|
+height-of=1350ft|street-number-of=STRING:sn:"1"|street-of=World-Trade-Center|
+polity-of=Lower-West-Side|postal-code-of=STRING:zip:"10048"|
+===*2# World# Trade# Center*.z//Twin#A Tower*.Tz/|levels-of=110u|
+height-of=1350ft|street-number-of=STRING:sn:"2"|street-of=World-Trade-Center|
+polity-of=Lower-West-Side|postal-code-of=STRING:zip:"10048"|
+;_______________________________________________________________________________
+=apartment.Àz/physical-object/flat.gz/appartement.My/appart.TMy/
+|walkable|fixed-object|
+;_______________________________________________________________________________
+=*Bertie-Lin-apt//|owner-of=Bertie,Lin|
+;_______________________________________________________________________________
+==apt-no//Apt.¹z/No.z/no.My/; #12 in English
+;_______________________________________________________________________________
+==Classic#A 6*.z//Classic#A Six*.z/
+==Classic#A 7*.z//Classic#A Seven*.z/
+==duplex.z//
+==floor#-through#R.z//
+==loft.z//loft.My/
+==two#A-room# apartment*.Àz//two#A-room# flat*.gz/deux#A pièces#FP.ßMy/
+==three#A-room# apartment*.Àz//three#A-room# flat*.gz/trois#A pièces#FP.ßMy/
+;_______________________________________________________________________________
+=*apt4d20rd//20# rue#j Drouot# apartment# 4D*.Éz/
+=*apt4g20rd//
+;_______________________________________________________________________________
+==rented#A apartment*.Àz//rented#A flat*.gz/appartement* loué*A.My/
+==owned#A apartment*.Àz//owned#A apartment*.gz/
+appartement* dans#R une#D copropriété#NF.My/appartement* en#R copropriété#NF.My/
+===condominium.z//condo.TÀz/
+===*Martine-apt//|owner-of=Martine-Dad,Martine-Mom|
+===co#A-op# apartment*.z//co#A-op*.z/
+;_______________________________________________________________________________
+=exterior#A environment*.z/physical-object/
+==sky.kz//ciel.kMy/|sky-blue|
+;_______________________________________________________________________________
+=exterior#A area*.z/physical-object/|fixed-object|
+;_______________________________________________________________________________
+==aircraft# roadway*.z//
+===bypass# taxiway*.z//bretelle.Fy/
+===exit# taxiway*.z//taxiway# turn#V-off#R ½.z/sortie* de#R piste#.Fy/
+===high#A-speed# exit# taxiway*.z//sortie* de#R piste# à#R grande#A vitesse#.Fy/
+===holding# point*.z//holding# area*.z/point* d#R'attente#F.My/
+===holding# bay*.z//
+===runway.z//piste.Fy/
+===taxiway.z//voie* de#R circulation#.Fy/
+;_______________________________________________________________________________
+==launch# complex*.z//ensemble* de#R lancement#M.My/
+===Launch# Complex# 39*.z//
+==launch# pad*.z//launching# pad*.z/aire* de#R lancement#M.Fy/
+==launch# platform*.z//launching# platform*.z/rampe* de#R lancement#M.Fy/
+;_______________________________________________________________________________
+==courette.Fy//small#A courtyard*.z/mini#A courtyard*.z/
+small#A yard*,small#A court*.@gz/
+;_______________________________________________________________________________
+==cour.Fy//court.¹gz/yard.gz/courtyard.z/|walkable|; surrounded by buildings
+===back#A courtyard*.Àz//backyard.¹gz/back#A yard*.gz/arrière*A-cour*.Fy/
+cour* de#R derrière#M.Fy/
+===front#A courtyard*.Àz//front#A yard*.gz/
+===churchyard.z/graveyard/cimetière* autour#R d#R'une#D église#F.My/
+;_______________________________________________________________________________
+==graveyard.z//cemetery.z/cimetière.My/
+==driveway.z//allée.Fy/accès* au#R garage#.My/|drivable|walkable|
+;_______________________________________________________________________________
+==garden.z//jardin.My/|walkable|
+===pleasure# garden*.z//jardin* d#R'agrément#.My/
+===vegetable# garden*.z//jardin* potager*A.My/
+;_______________________________________________________________________________
+==lawn.z//pelouse.Fy/|walkable|green|
+==intersection.Àz//crossroads.gz/croisement,carrefour.My/|drivable|walkable|
+;_______________________________________________________________________________
+==exterior-area-station//station.z/
+;_______________________________________________________________________________
+===bus# station*.z//
+====bus# stop*.z//stop.z/arrêt* d#R'autobus#.¹My/arrêt.My/|walkable|
+====*rue-Scribe-bus-stop//
+====*CDG-2C-bus-stop//
+;_______________________________________________________________________________
+===train# station*.z//gare.Fy/
+====subway# station*.z//station.Fy/
+=====subway# stop*.z//
+;_______________________________________________________________________________
+==swimming# pool*.z//pool.z/piscine.Fy/
+;_______________________________________________________________________________
+==train#S tracks*.Pïz//track.z/voie.Fy/voie* ferrée*A.Fy/rails.MPïy/
+|rollable|
+==*metro-pont-de-Sevres-tracks//
+==*metro-mairie-de-Montreuil-tracks//
+==*metro-Balard-tracks//
+==*metro-Creteil-tracks//
+;_______________________________________________________________________________
+==parking//|drivable|walkable|
+===parking# area*.z//parking# zone*.z/parking.z/stationnement.My/
+===parking# lot*.Àz//parking# structure*.z/car# park*.gz/
+parc* de#R stationnement#.My/parc* à#R voitures#FP.My/parking.My/
+;_______________________________________________________________________________
+==patio.z//terrasse.Fy/|walkable|
+==curb.z//
+;_______________________________________________________________________________
+==sidewalk.Àz//pavement.gz/trottoir.My/|walkable|humanmade|
+===moving# sidewalk*.Àz//moving# walkway*.gz/travellator.gz/
+trottoir* roulant*A.My/
+;_______________________________________________________________________________
+==roadway.z//road,thoroughfare.z/chaussée.Fy/|drivable|walkable|humanmade|
+;_______________________________________________________________________________
+===bridge.z//pont.¹My/
+===*Queensboro# Bridge*.z//
+===circular#A route*.Àz//ring# road*.gz/boulevard* périphérique*A.My/
+===*Paris# circular#A route*.Àz//Paris# ring# road*.gz/
+boulevard* périphérique*A à#R Paris#.My/boulevard* périphérique*A.My/périf.TMy/
+===traffic# artery*.z//main#A artery*.z/main#A traffic# artery*.z/artery.z/
+grand*A axe* de#R circulation#F.My/
+===avenue.z//avenue.Fy/
+===boulevard.z//boulevard.My/
+===passage.z//alley,passageway.z/passage.My/
+===roadway-square//square.z/place.Fy/
+===street.z//drive,place,row,court,terrace.z/rue.Fy/
+====lane.z//
+;_______________________________________________________________________________
+===highway.Àz//freeway,expressway,superhighway.z/motorway.gz/autoroute.Fy/
+===*autoroute* A#M 1#.Fy//highway# A# 1*.z/
+===*autoroute* A#M 6a#.Fy//highway# A# 6a*.z/
+====belt# highway*.z//autoroute* de#R ceinture#.Fy/
+====toll# highway*.z//turnpike,parkway,pike,thruway.z/toll# road*.z/
+autoroute* à#R péage#M.Fy/
+====route* communale*A.Fy//
+====route* rurale*A.Fy//
+====route-forestiere//route* forestière*A.Fy/
+====international# highway*.z//route* internationale*A.Fy/
+=====European#A highway*.z//route* européenne*A.Fy/
+====national# highway*.z//route* nationale*A.Fy/nationale.Fy/grande*A route*.Fy/
+====*autoroute* N#M 6#.Fy//nationale* 6#.kTFy/N6.kTFy/highway# N# 6*.z/N6.Tz/
+====*autoroute* N#M 7#.Fy//nationale* 7#.kTFy/N7.kTFy/highway# N# 7*.z/N7.Tz/
+====*autoroute* N#M 12#.Fy//nationale* 12#.kTFy/N12.kTFy/highway# N# 12*.z/
+N12.Tz/
+====*autoroute* N#M 13#.Fy//nationale* 13#.kTFy/N13.kTFy/highway# N# 13*.z/
+N13.Tz/
+====*autoroute* N#M 20#.Fy//nationale* 20#.kTFy/N20.kTFy/highway# N# 20*.z/
+N20.Tz/
+====*autoroute* N#M 23#.Fy//nationale* 23#.kTFy/N23.kTFy/highway# N# 23*.z/
+N23.Tz/
+====*autoroute* N#M 157#.Fy//nationale* 157#.kTFy/N157.kTFy/highway# N# 157*.z/
+N157.Tz/
+=====United#A States#P highway*.z//route* nationale*A.Fy/
+=====*US1.z//route# 1*.z/
+=====*US9.z//highway# 9*.z/
+=====interstate# highway*.z//national#A interstate# highway*.z/
+=====*I95.z//I#-95*.z/
+====country subdivision highway//
+=====state# highway*.z//
+=====provincial#A highway*.z//
+====country subsubdivision highway//
+=====county# highway*.z//
+=====departmental# highway*.z//route* départementale*A.Fy/
+;_______________________________________________________________________________
+==exterior-area-sports//
+;_______________________________________________________________________________
+===tennis# court*.z//court* de#R tennis#,terrain* de#R tennis#.My/tennis.ßMy/
+===basketball# court*.z//terrain.My/
+===squash# court*.z//court.My/
+;_______________________________________________________________________________
+===baseball# field*.z/field/terrain.My/|part-of¤first-base,home-plate,infield,
+on-deck-circle,outfield,pitcher-mound,second-base,third-base,lawn|
+;_______________________________________________________________________________
+===football# field*.z/field/terrain.My/
+===soccer# field*.z/field/terrain.My/
+;_______________________________________________________________________________
+===first#A base*.z//
+===home#A plate*.z//home#A base*.z/home.z/
+===infield.z//diamond.z/
+===on#R-deck# circle*.z//
+===outfield.z//
+===pitcher-mound//mound,pitcher#'s mound*.z/
+===second#A base*.z//
+===third#A base*.z//
+;_______________________________________________________________________________
+==exterior-area-yard//yard.Àz/garden.gz/jardin.My/|walkable|; open area
+===front#A yard*.Àz//front#A garden*.gz/jardin* de#R derrière#.My/
+===back#A yard*.Àz//backyard.Àz/back#A garden*.gz/jardin* de#R derrière#.My/
+;_______________________________________________________________________________
+=architectural#A feature*.z/physical-object/|fixed-object|humanmade|
+==dome-arch//arch.¹z/voûte.¹Fy/
+==archway.z//arch.z/arche.¹Fy/
+==bridge-arch//arch.¹z/arche.¹Fy/
+==triumphal#A arch*.z//arch.¹z/arc.¹My/
+==column.z//colonne.Fy/
+==batten.z//herse.Fy/
+==theater-border//border.z/frise.Fy/
+==mast.z//mât.¹My/
+==beam.z//poutre.Fy/
+==theater-fly//flies.Pïz/cintres.MPïy/
+==grid object//grid.z/gril.My/
+==parterre.z//parquet# circle*.z/parterre.My/
+==backdrop.z//toile* de#R fond#M.Fy/
+==architectural-feature-hoist//hoist.z/monte#V-charge#F ½.My/
+==scenery# lift*.z//élévateur* de#R décors#P.My/
+==stage-slot//slot.z/trapillon.My/
+==membrane# structure*.z//|construction-membrane|
+===TMS//TMS.tz/tensile#A membrane# structure*.z/
+===compressive#A membrane# structure*.z//
+;_______________________________________________________________________________
+=boundary.z/physical-object/|fixed-object|
+;_______________________________________________________________________________
+==wall.z//mur.¹My/
+===monitor# wall*.z//baie* de#R contrôle#M.Fy/
+;_______________________________________________________________________________
+==partition.z//cloison* amovible*A.Fy/
+===scenery.z//set.z/décors.MPïy/
+;_______________________________________________________________________________
+==railing.z//
+===balcony# railing*.z//railing.z/balustrade.Fy/
+===terrace# railing*.z//railing.z/balustrade.Fy/
+===bridge# railing*.z//railing.z/garde#V-fou*.My/
+===platform# railing*.z//railing.z/garde#V-fou*.My/
+===stairs#P railing*.z//railing.z/rampe.Fy/
+====balustrade.z//balustrade.Fy/
+;_______________________________________________________________________________
+==curtain.z//rideau.My/
+===window# curtain*.z//
+===stage-border//border.z/frise.Fy/
+===stage# curtain*.z//rideau* de#R scène#F.My/
+===stage# iron#A curtain*.z//iron#A curtain*.z/rideau* de#R fer#.My/
+;_______________________________________________________________________________
+==window.z//fenêtre.Fy/
+===bay# window*.z//fenêtre* en#R baie#.Fy/
+===train# window*.z//
+;_______________________________________________________________________________
+==door.z//doorway.z/porte.Fy/|walkable|
+;_______________________________________________________________________________
+===door-with-lock//door* with#R a#D lock*.z/main#A entrance*.¹z/
+entrée* principale*A.¹Fy/
+===folding# door*.z//porte* pliante*A.Fy/
+;_______________________________________________________________________________
+===gate.z//barrière.Fy/
+====automatic#A gate*.z//portillon.My/portillon* automatique*A.My/
+;_______________________________________________________________________________
+===hinged#A door*.z//porte* à#R charnière#.Fy/
+===patio# door*.z//porte*-fenêtre*.Fy/
+;_______________________________________________________________________________
+===turnstile.z//tourniquet.My/
+====token# turnstile*.z//|part-of¤token-slot|
+====ticket# turnstile*.z//tourniquet* d#R'entrée#F,tourniquet* d#R'accès#.My/
+|part-of¤ticket-slot|
+====card# turnstile*.z//|part-of¤card-slot|
+;_______________________________________________________________________________
+===exit# turnstile*.z//turnstile.z/tourniquet,tourniquet* de#R sortie#F.My/
+;_______________________________________________________________________________
+==revolving#A door*.z//tambour.My/porte* à#R tambour#M.Fy/
+;_______________________________________________________________________________
+==staircase.z//stairway.z/stairwell.z/stairs.Pïz/escalier.My/
+cage* d#R'escalier#M.Fy/|walkable|
+===stairs* down#A.qPïz//
+===stairs* up#A.qPïz//
+===steps.qPïz//
+==escalator.z//escalier* mobile*A.My/
+;_______________________________________________________________________________
+=interior#A area*.z/physical-object/|fixed-object|humanmade|
+;_______________________________________________________________________________
+==ceiling.z//plafond.My/
+===acoustic#A ceiling*.z//plafond* acoustique*A.My/
+;_______________________________________________________________________________
+==roof.z//toit.My/
+===glassed#A roof*.z//verrière.Fy/
+===skylight.z//puits* de#R lumière#F.My/tabatière.Fy/lucarne.Fy/
+;_______________________________________________________________________________
+==floor.z//level,storey.z/étage.My/
+===ground# floor*.gz//first# floor*.Àz/ground# floor*.qÀz/
+rez#-de#R-chaussée#F.ßMy/
+===first# floor*.gz//second# floor*.Àz/premier*A étage*.My/
+===second# floor*.gz//third# floor*.Àz/deuxième*A étage*.My/
+===third# floor*.gz//fourth# floor*.Àz/troisième*A étage*.My/
+===top# floor*.z//dernier*A étage*.My/
+;_______________________________________________________________________________
+==subway# platform*.z//platform.¹z/quai.My/|walkable|
+==*metro-RD-pont-de-Sevres-platform//
+==*metro-RD-mairie-de-Montreuil-platform//
+==*metro-RD-Balard-platform//
+==*metro-RD-Creteil-platform//
+==*metro-Opera-platform//
+;_______________________________________________________________________________
+==lighting# grid*.z//grille* de#R éclairage#M.Fy/
+==catwalk.z//passerelle* de#R manÓuvre#.Fy/
+==porch.z//
+==open-floor//
+;_______________________________________________________________________________
+==flooring.z//floor.z/sol.My/|walkable|
+===parquet#A floor*.z//parquet.My/
+===proscenium.z//avant#R-scène*.Fy/
+===prompt# box*.z//trou* de#R souffleur#.My/
+;_______________________________________________________________________________
+==entrance.z//
+===stage# entrance*.z//stage# door*.z/
+===main#A entrance*.z//
+;_______________________________________________________________________________
+==hair#-washing#V station*.z//
+==haircutting# station*.z//hair# cutting#V station*.z/cutting# station*.z/
+station.z/
+==reception# desk*.z//reception.z/réception.Fy/
+;_______________________________________________________________________________
+==area-within-room//
+===customer-side-of-counter//
+===employee-side-of-counter//
+===entertainment-industry-set//set.z/plateau.My/
+====set* of#R television# show#.z//plateau* de#R télévision#F.My/
+===trading# pit*.z//pit.¹z/corbeille.Fy/parquet.My/
+;_______________________________________________________________________________
+==room.z//salle.Fy/|walkable|
+;_______________________________________________________________________________
+===accommodation.gz//accommodations.Pïz/
+====lodgings.gPïz//digs.gTPïz/somewhere* to#R stay#V,place* to#R stay#V.z/
+;_______________________________________________________________________________
+===hotel# room*.z//chambre* d#R'hôtel#M.@Fy/
+;_______________________________________________________________________________
+===air# terminal*.z//flight# terminal*,passenger# terminal*.z/aérogare.Fy/
+aérogare* de#R passagers#MP.Fy/
+===*CDG-1//Charles#M de#R Gaulle#C Aérogare* 1#.Fy/
+===*CDG-2A//Charles#M de#R Gaulle#C Aérogare* 2# A#M.Fy/
+===*CDG-2B//Charles#M de#R Gaulle#C Aérogare* 2# B#M.Fy/
+===*CDG-2C//Charles#M de#R Gaulle#C Aérogare* 2# C#M.Fy/
+===*CDG-2D//Charles#M de#R Gaulle#C Aérogare* 2# D#M.Fy/
+===*JFK//John# F\.# Kennedy# international#A terminal*.z/
+aérogare* internationale*A John#M F\.#M Kennedy#C.Fy/
+;_______________________________________________________________________________
+===auditorium.z//salle.Fy/
+====conference# auditorium*.qz//auditorium.z/salle* de#R conférences#P.Fy/
+====concert# hall*.z//symphony# hall*.z/salle* de#R concert#M.Fy/
+salle* de#R spectacle#M.Fy/
+====lecture# hall*.Àz//lecture# theatre*.¹gz/amphithéâtre.¹My/amphi.¹TMy/
+====theater# hall*.qz//hall.z/salle.Fy/
+=====Bartos# Theater*.z//Bartos.z/E15#-070*.z/
+=====10#-250*.z//
+;_______________________________________________________________________________
+===attic.z//grenier.My/combles.MPïy/
+;_______________________________________________________________________________
+===balcony.z//balcon.My/
+====amphitheatre//amphithéâtre.My/
+====dress# circle*.z//corbeille.Fy/
+====gallery.z//galerie.Fy/
+;_______________________________________________________________________________
+===bathroom.z//salle* de#R bains#MP.Fy/
+===*Jim-bathroom//|owner-of=Jim|
+===bathroom* with#R toilet*.z//salle* de#R bains#MP et#K toilettes#FP.Fy/
+;_______________________________________________________________________________
+===basement.z//sous#R-sol*.My/
+====cellar.z//cave.Fy/
+=====wine# cellar*.z//cave.Fy/
+;_______________________________________________________________________________
+===bedroom.z//chambre.Fy/
+====master# bedroom*.z//chambre* principale*A.Fy/
+===*Jim-bedroom//|owner-of=Jim|
+===*Bertie-bedroom//|owner-of=Bertie|
+===*Lin-bedroom//|owner-of=Lin|
+;_______________________________________________________________________________
+===boarding# room*.z//gate.z/salle* d#R'embarquement#M.Fy/porte.Fy/
+===*CDG-gate-6//
+===*JFK-gate-26//
+;_______________________________________________________________________________
+===changing# room*.z//changing# cubicle*.z/fitting# room*.gz/
+====clothing-store-changing-room//cabine* d#R'essayage#NM.Fy/
+salon* d#R'essayage#NM.My/
+===locker# room*.Àz//changing# room*.gz/vestiaire.My/
+;_______________________________________________________________________________
+===closet.z//placard.My/|part-of¤door|
+====bicycle# storage# area*.z//garage* à#R vélos#P.My/
+====closet-for-clothes//closet.¹z/clothes#P closet*.z/clothing# closet*.z/
+penderie.¹Fy/
+=====walk#V-in#R closet*.Àz//walk#V-in#R ½.Àz/wardrobe.gz/garde#V-robe*.Fy/
+vestiaire.My/dressing#Aj-room*.My/dressing.My/
+====linen# closet*.z//placard* à#R linge#.¹My/
+====pantry.z//cupboard.z/garde#V-manger#V ½.My/armoire* de#R cuisine#.Fy/
+armoire.Fy/
+=====glass#-fronted#V cupboard*.z//armoire* vitrée*A.Fy/
+;_______________________________________________________________________________
+===broadcast# studio*.z//studio.My/
+;_______________________________________________________________________________
+====mock#A broadcast# studio*.z//
+=====WBIB# Space# Center*.z//
+;_______________________________________________________________________________
+====radio# studio*.z//studio* de#R radio#F.My/
+====*Studio# 105*.kMy/auditorium/|part-of=maison-de-Radio-France|
+====*Studio# 106*.kMy/concert-hall/|part-of=maison-de-Radio-France|
+====*Studio# 135*.My//|part-of=maison-de-Radio-France|
+;_______________________________________________________________________________
+====television# studio*.z//studio* de#R télévision#F.My/
+====*Studio# 1A*.z//; Today Show studio across from GE-building
+====*Studio# 3B*.z//|part-of=GE-building|
+====*Studio# 3K*.z//|part-of=GE-building|
+====*Studio# 101*.kMy//|part-of=maison-de-Radio-France|
+====*Studio# 102*.kMy//|part-of=maison-de-Radio-France|
+====*Studio# 109*.kMy//|part-of=maison-de-Radio-France|
+====*Studio# Bonaparte#.kMy//
+|part-of=BUILDING::76:rue#NF Bonaparte#N:75006:Paris::country-FRA|
+====*Studio# Pierre# Desgraupes#.kMy//|part-of=France-2-building|
+====*Studio# 20#.kMy//|part-of=France-2-building|; le journal de 20 heures
+;_______________________________________________________________________________
+===classroom.z//salle* de#R classe#.¹Fy/classe.Fy/
+===courtroom.z//salle* d#R'audience#NF.Fy/
+===gymnasium.z//gymnase.¹My/
+;_______________________________________________________________________________
+===control# room*.z//régie.Fy/
+====lighting# control# area*.z//régie* éclairage#M.Fy/
+====camera# control# area*.z//régie* image#.Fy/
+====audio# control# room*.Àz//sound# control# room*.gz/régie* du#R son#M.Fy/
+====production# control# room*.z//control# room*.z/studio# control# room*.z/
+programÝprogramme# control# center*.z/régie* de#R production#.Fy/
+====master# control*.z//régie* finale*A.Fy/
+====tape# machine# room*.z//
+;_______________________________________________________________________________
+===den.z//tanière.Fy/
+;_______________________________________________________________________________
+===dining# room*.z//salle* à#R manger#V.Fy/
+;_______________________________________________________________________________
+===dressing# room*.z//loge* d#R'artiste#M.Fy/
+;_______________________________________________________________________________
+===entrance# hall*.z//lobby.z/hall.¹My/
+antichambre,salle,salle* d#R'attente#,entrée.Fy/vestibule.qMy/
+;_______________________________________________________________________________
+===fireplace.z//cheminée.Fy/
+;_______________________________________________________________________________
+===foyer.z//entrée.Fy/vestibule.My/hall.Mqy/foyer,vestibule,entryway.z/
+entry,entrance# hall*,entranceway.qz/foyer.My/
+===*Jim-foyer//|owner-of=Jim|
+;_______________________________________________________________________________
+===garage.z//garage.My/
+===ground# floor# box*.z//baignoire.z/baignoire.Fy/
+===aisle.z//allée.Fy/
+====church-side-passage//bascôté.My/
+====church-central-passage//aisle,central#A passage*,center# passage*.z/
+allée* centrale*A.Fy/
+====transportation-aisle//couloir.My/
+===hallway.z//hall.z/couloir.My/
+===heating# room*.z//
+;_______________________________________________________________________________
+===kitchen.z//cuisine.Fy/
+====kitchenette.z//dînette.Fy/
+;_______________________________________________________________________________
+===landing.z//palier.My/
+===laundry# room*.z//buanderie.Fy/
+;_______________________________________________________________________________
+===living# room*.z//séjour,living#-room*,living,salon.My/
+salle* de#R séjour#M.Fy/vivoir.qîMy/
+sitting# room*,front#A room*,salon,saloon.qz/parlor,drawing# room*.oz/
+best#A room*.qTz/foreroom.îz/
+;_______________________________________________________________________________
+===family# room*.z//
+;_______________________________________________________________________________
+===office.z//bureau.My/
+====cubicle.z//box.My/
+====registry# office*.z//register# office*.z/|uk|
+====dental#A office*.Àz//dentist#'s office*.Àz/dentist#'s.Tz/
+cabinet* dentaire*A.My/
+====doctor-office//doctor#'s office*.Àz/cabinet* médical*A.My/
+;_______________________________________________________________________________
+===playroom.z//salle* de#R jeux#MP.Fy/
+===*Bertie-Lin-playroom//|owner-of=Bertie,Lin|
+;_______________________________________________________________________________
+===mezzanine.z//mezzanine.Fy/
+===pit.z//fosse.Fy/
+====orchestra# pit*.z//fosse* d#R'orchestre#M.Fy/
+===rehearsing# room*.z//salle* de#R répétition#.Fy/
+;_______________________________________________________________________________
+===area* of#R restaurant#.z//
+====bar# service*.z//
+====ware# washing*.z//bus# station*.z/
+====food# preparation# area*.z//preparation# area*.z/prep# area*.z/
+=====fryer# station*.z//
+=====grill# station*.z//
+=====griddle# station*.z//
+====food# production# line*.z//
+====restaurant-dining-area//dining# area*.z/
+====restaurant-entrance/entrance-hall/entrance,lobby.z/
+====restaurant# storage# area*.z//storage.z/
+=====cold#A storage*.z//
+=====dry#A storage*.z//
+=====meat# storage*.z//
+=====ice# storage*.z//ice# transport*.z/
+====restaurant-receiving//receiving.z/
+====wait# station*.z//
+=====beverage# service*.z//
+;_______________________________________________________________________________
+===scenery# storage*.z//dépôt* des#RP décors#P.My/
+;_______________________________________________________________________________
+===service# counter*.z//counter.z/window.z/guichet.My/
+====check-in-counter//check#V-in#R counter*.z/check#V-in#R desk*.z/
+check#V-in#R ½.z/enregistrement.My/
+====ticket# booth*.z//guichet.My/
+====*metro-RD-ticket-booth//
+====box# office*.z//ticket# office*.z/guichet.My/guichet* de#R location#F.My/
+|walkable|
+====*Opera-Comique-box-office//
+====booking# office*.gz//ticket# office*.z/
+====payment# counter*.z//
+====postal#A counter*.z//
+====fast-food-restaurant-counter//
+;_______________________________________________________________________________
+===showroom.z//
+===*RCA#® Exhibition# Hall*.z//|@1950:1965|part-of=GE-building|
+===stage.z//scène.Fy/
+===room-study//study.z/bureau.My/cabinet* de#R travail#NM.My/
+===telephone# room*.Nz//pièce* de#R téléphones#MP.NFy/
+===theater-box//box.z/loge.Fy/
+===stadium.z//stade.My/|part-of¤stadium-stand,scoreboard|
+====baseball# stadium*.z//
+===theater-wing//wings.Pïz/coulisses.FPïy/
+===toilet# room*.z//toilettes.FPïy/cabinets,waters.MPïy/chiottes.TFPïy/
+w\.c\..MPy/pipi#-room*.TMy/
+===dental#A operatory*.z//operatory.z/
+===doctor-examination-room//doctor#'s examination# room*.z/
+examination# room*.z/
+===waiting# room*.z//reception# area*,reception.z/salle* d#R'attente#F.Fy/
+;_______________________________________________________________________________
+=physical-object-stick/physical-object/stick.z/baton.¹My/morceau.My/
+=physical-object-rod/physical-object/rod.z/
+==wooden#A rod*.z//baguette.Fy/
+==metal#A rod*.z//tringle.Fy/
+;_______________________________________________________________________________
+=arms.Pïz/physical-object/armes.FPïz/; cf MUC-3
+==explosive.z//explosif.My/
+===arms-bomb//bomb.z/bombe.Fy/
+====aerial#A bomb*.z//
+====dynamite.z//dynamite.tFy/
+====firebomb.z//bombe* incendiaire*A.Fy/
+====grenade.z//grenade.Fy/
+====arms-mine//mine.z/mine.Fy/
+====Molotov# cocktail*.z//cocktail* Molotov#.My/
+====vehicle# bomb*.z//
+==bullet.z//balle.Fy/
+==arms-projectile//projectile.z/projectile.My/
+===projectile-ball//ball.z/balle.Fy/
+====musket# ball*.z//
+====cannonball.z//boulet* de#R canon#.My/
+;_______________________________________________________________________________
+=weapon.z/physical-object/arme.Fy/|humanmade|
+==gun.z//
+===machine# gun*.z//mitrailleuse.Fy/
+===rifle.z//fusil.My/carabine.My/
+===handgun.z//arme* de#R poing#M.Fy/
+====pistol.z//pistolet.My/
+====revolver.z//revolver.My/
+==cannon.z//canon.My/
+===cannon-mortar//mortar.z/mortier.My/
+;_______________________________________________________________________________
+=outdoor#A object*.z/physical-object/|humanmade|
+==ladder.z//échelle.Fy/
+===stepladder.z//escabeau.My/
+==mailbox.z/small-container/boîte* aux#RP lettres#NFP.Fy/
+|blue|part-of¤handle,letter-slot|
+==telephone# booth*.Àz//telephone# kiosk*,telephone# box*.gz/
+cabine* téléphonique*A.Fy/
+;_______________________________________________________________________________
+=indoor#A object*.z/physical-object/|humanmade|
+==ticket# box*.z/small-container/
+==*Opera-Comique-ticket-box//
+;_______________________________________________________________________________
+=various#A objects*.Pïz/physical-object/|humanmade|
+==garbage-waste//waste.mz/déchets.MPïy/
+===garbage.mÀz//rubbish.¹mgz/refuse.mz/ordures.¹FPïy/
+====trash.mÀz//
+====sweepings.Pïz//balayures.FPïy/
+==cargo.z//chargement.My/
+==grasper.qz//manipulator.¹z/
+==container.z//
+;|[if-constraint [inside ?o ?c] [lt [length-of ?o *] [length-of ?c *]]]
+;[if-constraint [inside ?o ?c] [lt [width-of ?o *] [width-of ?c *]]]
+;[if-constraint [inside ?o ?c] [lt [height-of ?o *] [height-of ?c *]]]
+;todo: need to add lt and * to prover
+===small#A container*.z//
+===large#A container*.z//
+==basket-with-handle//basket.z/panier.My/|part-of¤handle|
+===shopping# basket*.z//panier* à#R provisions#FP.My/
+==box.z/small-container/boîte.Fy/
+===cardboard# box*.z//carton.My/
+==chain.z//chaîne.Fy/
+==cover.z//couverture.Fy/
+==handle.z//poignée.Fy/
+==lock.z//serrure.Fy/
+;_______________________________________________________________________________
+=sports#P equipment*.z/physical-object/|humanmade|sold-at=sporting-goods-store|
+stored-in=closet,garage,basement|
+==hockey# puck*.z//puck.z/rondelle.Fy/|topological-genus-of=0u|
+==sports-bat//bat.z/bâton.My/|topological-genus-of=0u|
+==sports-ball//ball.z/|topological-genus-of=0u|
+===sports-large-ball//ballon.My/
+====netball.z//ballon* de#R netball#.My/
+====basketball.z//ballon* de#R basket#.My/
+===sports-small-ball//balle.Fy/
+====tennis# ball*.z//balle* de#R tennis#M.Fy/|yellow|bouncy|rubber|can-hold|
+smooth=-0.5u|used-at=tennis-court|used-for=tennis-class,tennis-game,play-tennis|
+====baseball.z//balle* de#R baseball#M.Fy/
+;_______________________________________________________________________________
+=material.z/attribute,physical-object/|free-object|
+;_______________________________________________________________________________
+==skin# material*.z//skin.z/
+===leather.@z//cuir.My/
+====glove# leather*.z//
+====calfskin.z//veau.My/cuir* veau#.My/
+====nubuck.My//
+====fur.z//fourrure.Fy/
+==other material//
+===acrylic.z//
+===preshrunk.Az//
+====Sanforized.Az//
+===skin-material-resin//resin.z/resine.Fy/
+===Teflon.®z//PTFE.tz/polytetraflouroethylene.@z/
+===silicone.z//
+===elastomer.z//élastomère.My/
+===plastic.z//plastique.My/
+===rubber.z//caoutchouc.My/
+===polyurethane.z//polyuréthanne.¹My/
+===viscose.z//viscose.Fy/
+===construction-membrane//membrane.¹z/membrane.¹Fy/membrane* d#R'étanchéité#.Fy/
+===construction-cable//cable.¹z/câble.¹My/
+====anchor# cable*.z//câble* d#R'ancre#F.¹My/
+====steel# cable*.z//câble* d#R'acier#.¹My/|steel|
+====suspension# cable*.z//câble* de#R suspension#F.¹My/
+;_______________________________________________________________________________
+==fabric.mz//textile.z/
+===acetate.mz//acetate#A rayon*.mz/
+===Acrilan.mz//
+===fabric-alpaca//alpaca.mz/
+===Aralac.mz//
+===arras.mz//
+===Avisco.mz//
+===awning# cloth*.mz//
+===Axminster.mz//
+===baize.mz//
+===balbriggan.mz//
+===Banlon.mz//
+===batik.mz//
+===batiste.mz//
+===blanketing.mz//
+===boucle//bouclé.jz/
+===broadcloth.mz//
+===broadloom.mz//
+===brocade.mz//
+===brocatel.mz//
+===buckram.mz//
+===bunting.mz//
+===burlap.mz//
+===byssus.mz//
+===calico.mz//
+===calfskin# velvet*.mz/skin/veau* velours#.My/
+===cambric.mz//
+===cambric#A muslin*.mz//
+===camel#'s hair#.mz//
+===Canton# flannel*.mz//
+===canvas.mz//
+===carpeting.mz//
+===casheen.mz//
+===cashmere.mz//
+===cassimere.mz//
+===Celanese.mz//
+===Celanese# acetate*.mz//
+===challis.mz//
+===chambray.mz//
+===cheesecloth.mz//
+===chenille.mz//
+===chenille# Axminster*.mz//
+===cheviot.mz//
+===chiffon.mz//
+===China# silk*.mz//
+===chinchilla.mz//
+===chine-cotton//chiné# cotton*.mz/coton* chiné*A.My/
+===chino.mz//
+===chintz.mz//
+===coating.mz//
+===cord.mz//
+===corduroy.mz//velours* côtelé*A.My/
+===corseting.mz//
+===cotton.mz//coton.My/
+====combed#A cotton*.mz//
+====cotton# ducking*.mz//
+===cotton#A cambric*.mz//
+===covert#A cloth*.mz//
+===crash.mz//
+===crepe.mz//
+===crepe* de#jR Chine#j.mz//
+===cretonne.mz//
+===crinoline#A cloth*.mz//crinoline.¹z/
+===damask.mz//
+===denim.mz//coton* émerisé*A.qMy/denim.My/
+===dimity.mz//
+===doeskin.mz//
+===Donegal#A tweed*.mz//
+===double#A-knit*.Az//
+===drap* d#Rj'or#.jz//
+===drill# fabric*.qz//drill.¹z/
+===drilling.mz//
+===drugget.mz//
+===duck# fabric*.qmz//duck.¹mz/
+===duffel.mz//duffle.mz/
+===dungaree.mz//
+===duvetyn.mz//
+===Dynel.mz//
+===elasthanne//élasthanne.y/
+===fabric-astrakhan//astrakhan.mz/
+===fabric-castor//castor.mz/
+===fabric-lawn//lawn.mz/
+====black#A leather*.mz//|black|
+===fabric-linen//linen.mz/
+===fabric-list//list.mz/
+===fabric-mat//mat.mz/
+===fabric-radium//radium.mz/
+===fabric-tabby//tabby.mz/
+===fabric-vicuna//vicuña.mz/
+===faille.mz//
+===felt.mz//
+===fiberglass.mz//
+====coated#A fiberglass*.mz//
+===fine#A linen*.mz//
+===flannel.mz//
+===flannelette.mz//
+===fleece.mz//
+===foulard# material*.mz//foulard.¹z/
+===frieze.mz//
+===fustian.mz//
+===gabardine# cloth*.mz//gabardine.¹mz/gaberdine.gmz/
+===gauze.mz//
+===Georgette.mz//
+===Georgette# crepe*.mz//
+===gingham.mz//
+===gossamer.mz//
+===grenadine.mz//
+===grogram.mz//
+===grosgrain.mz//
+===gunny.mz//
+===haircloth.mz//
+===Harris# Tweed*.mz//
+===herringbone.z/visual-pattern/chevrons.MPïy/
+===hessian.mz//
+===homespun.mz//
+===hop# sacking*.mz//
+===horsehair.mz//
+===huck.mz//
+===huckaback.mz//
+===Jacquard.mz//
+===jean.mz//
+===jersey.mz//
+===knitwear.mz//
+===lame//lamé.mz/
+===Lastex.mz//
+===lace.mz//dentelle.Fy/
+====Alencon-lace//Alençon# lace*.mz/
+====bobbinet.mz//
+====bobbin# lace*.mz//
+====bobbin# net*.mz//
+====Brussels# point*.mz//
+====Carrickmacross# lace*.mz//
+====Chantilly# lace*.mz//
+====Dieppe# lace*.mz//
+====duchesse# lace*.mz//
+====filet# lace*.mz//fillet# lace*.mz/
+====Greek#A lace*.mz//Greek#A point*.mz/
+====guipure.mz//
+====Leavers#P lace*.mz//dentelle* Leavers#.Fy/
+====Mechlin# lace*.mz//Mechlin.mz/malines.mz/
+====mignonette# lace*.mz//
+====Milan# point*.mz//
+====needlepoint.mz//
+====pillow# lace*.mz//
+====point# lace*.mz//point.mz/
+====reticella.mz//
+====Roman#A lace*.mz//Roman#A point*.mz/
+====Shetland# lace*.mz//
+====tambour# lace*.mz//
+====tatting.mz//
+====Teneriffe# lace*.mz//
+====Valenciennes.mz//Valenciennes# lace*.mz/Val# lace*.mz/
+====Venetian#A point*.mz//
+===Leatherette.®mz//
+===Linene.mz//
+===linenette.mz//
+===linoleum.mz//
+===linsey#-woolsey*.mz//
+===lisle# thread*.mz//
+===lisle.mz//
+===loden.mz//
+===longcloth.mz//
+===luster.mz//
+===mackinaw.mz//
+===mackintosh.mz//
+===madras.mz//
+===malines.mz//maline.mz/
+===manta.mz//
+===mantua.mz//
+===marquisette.mz//
+===Marseilles.mz//
+===matting.mz//
+===melton.mz//
+===messaline.mz//
+===mohair.mz//
+===moire//moiré.mz/
+===moleskin.mz//
+===monk#'s cloth*.mz//
+===mousseline.jmz//
+===mousseline* de#jR soie#j.jmz//
+===murrey.mz//
+===muslin.mz//
+===nainsook.mz//
+===nankeen.mz//
+===near#A-silk*.mz//
+===net.mz//
+===netting.mz//
+===nylon.mz//
+===oilcloth.mz//
+===oil# silk*.mz//
+===organdy.mz//
+===organza.mz//
+===Orlon.mz//
+===panne.mz//
+===panne# velvet*.mz//
+===pepper*-and#K-salt*.mz//
+===percale.mz//
+===permanent#A-press#-fabric*.mz//
+===pique//piqué.mz/
+===plaid.mz//
+===plush.mz//
+===polyamide.mz//polyamide.My/
+===polyester.mz//
+====Dacron.®mz//
+===pongee.mz//
+===poplin.mz//
+===Qiana.mz//
+===quilting.mz//
+===rayon.mz//rayonne.Fy/soie* artificielle*A.oFy/
+===rayon#A casheen*.mz//
+===rep.mz//
+===Revolite.mz//
+===rugging.mz//
+===russet.mz//
+===sackcloth.mz//
+===sacking.mz//
+===sailcloth.mz//
+===samite.mz//
+===sarcenet.mz//
+===Sarelon.mz//
+===sateen.mz//
+===satin.mz//
+===say.mz//
+===scrim.mz//
+===seersucker.mz//
+===serge.mz//
+===shallon.mz//
+===shantung.mz//
+===sharkskin.mz//
+===sheer.mz//
+===sheeting.mz//
+===Shetland# wool*.mz//shetland.My/
+===shirting.mz//
+===shoddy.mz//
+===shot# silk*.mz//
+===silk.mz//soie.Fy/
+===spandex.mz//fibre* élastique#A.Fy/fibre* synthétique#A élastique#A.Fy/
+===spun#A rayon*.mz//
+===stamin.mz//
+===stammel.mz//
+===stockinette.mz//
+===stuff.mz//
+===suede//suède.mz/suède#A cloth*.mz/
+===super-100-S//super*A 100#'S#.My/
+===super-100-S-special//super*A 100#'S# spécial*A.My/
+===super-150-S//super*A 150#'S#.My/
+===swansdown.mz//
+===tabaret.mz//
+===taffeta.mz//taffety.mz/
+===tapestry.mz//
+===tarpaulin.mz//
+===tartan.mz//
+===terry# cloth*.mz//terry.mz/terrycloth.mz/
+===Terylene.mz//
+===ticking.mz//tick.mz/
+===toile.jmz//
+===toweling.mz//
+===tricot.mz//
+===tricotine.mz//
+===tulle.mz//
+===tussah.mz//tussah# silk*.mz/
+===tussore.mz//
+===twill.mz//
+===Ultrasuede.mz//
+===veiling.mz//
+===Velon.mz//
+===velours.mz//
+===velure.mz//
+===velvet.mz//velours.ßMy/
+===velveteen.mz//
+===Vicara.mz//
+===Vinyon.mz//
+===vinyl.mz//
+====PVC#-coated#A vinyl*.mz//
+===voile.mz//
+===wash#V-and#K-wear#V fabric*.mz//
+===watered#A fabric*.mz//
+===webbing.mz//
+===wool.NAmz//woolen.Az/woollen.gAz/laine.Fy/
+====tweed.mz//tweed.My/
+====drap.My//woolen#A fabric*.mz/
+===worsted.NAmz//
+;_______________________________________________________________________________
+===ticket.z//billet.My/
+;_______________________________________________________________________________
+====museum# ticket*.z//
+;_______________________________________________________________________________
+====baseball# ticket*.z//
+;_______________________________________________________________________________
+====movie# ticket*.z//
+====theater# ticket*.z//
+====opera# ticket*.z//
+=====Don-Pasquale-run1-tickets//|performance-ts-of=19940526T193000|
+=====*DP-ticket-A01//|seat-of="A01"|ap=490F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-A02//|seat-of="A02"|ap=490F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-A03//|seat-of="A03"|ap=490F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-A04//|seat-of="A04"|ap=490F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-A05//|seat-of="A05"|ap=490F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-J01//|seat-of="J01"|ap=400F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-K08//|seat-of="K08"|ap=400F|inside=Opera-Comique-ticket-box|
+=====*DP-ticket-K10//|seat-of="K10"|ap=400F|inside=Opera-Comique-ticket-box|
+;_______________________________________________________________________________
+====passenger# ticket*.z//
+=====train# ticket*.z//
+=====air# ticket*.z//plane# ticket*.z/
+======boarding# pass*.z//
+;_______________________________________________________________________________
+====round#A-trip# ticket*.Àz//return# ticket*.gz/billet* aller#-retour#.My/
+;_______________________________________________________________________________
+=physical#A object# role*.z/physical-object,role/
+==transporter//transportation# device*.z/transporter.z/
+;_______________________________________________________________________________

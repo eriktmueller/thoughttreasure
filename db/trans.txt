@@ -1,0 +1,680 @@
+;_______________________________________________________________________________
+; ThoughtTreasure
+; Copyright 1996, 1997, 1998, 1999, 2015 Erik Thomas Mueller.
+; All Rights Reserved.
+;_______________________________________________________________________________
+=part* of#R transportation# vehicle#.z/physical-object/|free-object|humanmade|
+;_______________________________________________________________________________
+; exterior
+==bumper.z//pare#V-chocs#MP.My/
+==car-antenna/antenna/antenna.Àz/aerial.gz/antenne.Fy/
+==car-door/door/car# door*.z/door.z/porte.Fy/
+==car-door-handle//handle,door# handle*.z/poignée.Fy/
+==car-blinker//blinker.Àz/turn# signal*.Àz/indicator.gz/clignotant.My/
+==car-hood//hood.Àz/bonnet.gz/capote.Fy/
+==car-mirror/mirror/car# mirror*.z/
+===rear#-view# mirror*.z//rétroviseur.My/
+===side# mirror*.Àz//wing# mirror*.gz/rétroviseur* extérieur*A.My/
+==car-roof/roof/car# roof*.z/
+===sunroof.z//sun# roof*.z/toit* ouvrant*A.My/
+==roof# rack*.z//galerie.Fy/
+==car-trunk//trunk.Àz/boot.gz/coffre.My/
+==car-window/window/car# window*.z/
+===car-rear-window//rear# window*.z/vitre* arrière*A.Fy/
+==exhaust# pipe*.z//exhaust.z/pot* d#R'échappement#M.My/
+tuyau* d#R'échappement#M.My/
+==fender.Àz//wing.gz/garde#V-boue#F.My/
+==gas# tank# door*.Àz//petrol# cap*.gz/
+bouchon* de#R réservoir#M.My/bouchon* de#R réservoir#M d#R'essence#F.My/
+==headlight.z//phare.My/
+==hubcap.z//hub# cap*.z/enjoliveur.My/
+==inspection# sticker*.z//
+==license# plate*.Àz//numberplate,number#-plate*,number# plate*.gz/
+plaque* minéralogique*A.Fy/plaque* d#R'immatriculation#F.Fy/
+==parking# light*.Àz//sidelight.gz/veilleuse.Fy/
+==splash# guard*.Àz//mudflap.gz/
+==tail# light*.z//tail#-light*.z/taillight.z/tailight.z/tail# lamp*.z/
+rear# light*.z/feu* arrière*A.My/
+==tax# disc*.gz//
+==trim# line*.z//
+==wheel.z//roue.Fy/
+===tire.Àz//tyre.gz/pneu.¹My/pneumatique.My/
+====snow# tire*.z//snows.TPïz/
+====all#-terrain# tire*.z//
+==windshield.Àz//windscreen.gz/
+==windshield# wiper*.Àz//windscreen# wiper*.gz/
+;_______________________________________________________________________________
+; interior
+==accelerator# pedal*.z//accelerator.z/gas# pedal*.Àz/gas.TÀz/
+accélérateur.My/
+==brake# pedal*.z//brake.z/frein.My/
+==car-AC/air-conditioner/
+==car-armrest//armrest.z/arm# rest*.z/accoudoir.My/
+==car-air-vent//air# vent*.z/prise* d#R'air#M.Fy/
+==car-choke//choke.z/starter.My/
+==car-headrest//headrest.z/head# rest*.z/repose#V-tête#F.My/
+==car-heater/heater/heater.z/radiateur.My/
+==car-horn//horn.z/klaxon.My/
+==car-lock/lock/lock.z/serrure.Fy/
+==car-seat/seat/seat.z/siège.My/place.Fy/
+===front# seat*.z//
+====driving# seat*.z//driver#'s seat*.z/place* du#R conducteur#M.Fy/
+====passenger# seat*.z//place* du#R passager#M.Fy/
+===back# seat*.z//siège* arrière*A.My/
+==car-shift//shift.Àz/gear# shift*,gearshift.Àz/stick.Àz/gear# lever*.gz/
+levier* de#R vitesses#FP.My/
+==clutch# pedal*.z//clutch.z/pédale* d#R'embrayage#M.Fy/embrayage.My/
+==dashboard.z//tableau* de#R bord#M.My/
+==emergency# brake*.z//
+===handbrake.gz//frein* à#R main#F.My/
+==gas# gauge*.Àz//fuel# gauge*.Àz/petrol# gauge*.gz/jauge* d#R'essence#F.Fy/
+==glove# compartment*.z//boîte* à#R gants#MP.Fy/
+==ignition# switch*.z/lock,power-switch/ignition,starter.z/
+démarreur* électrique*A.My/contact.My/
+==*Martine-Mercedes-ignition-switch//|key-of=Martine-Mercedes-key|
+==*Martine-BMW-ignition-switch//|key-of=Martine-BMW-key|
+==*Lucie-2CV-ignition-switch//|key-of=Lucie-2CV-key|
+==seatbelt.z//seat# belt*.z/ceinture* de#R sécurité#F.Fy/
+==speedometer.z//compteur.My/compteur* de#R vitesse#F.My/
+==steering# wheel*.z//wheel.z/volant.My/
+==turn# signal# lever*.Àz//indicator# switch*.gz/
+==window# roller*.Àz//window# winder*.gz/lève#V-glace#F.My/
+;_______________________________________________________________________________
+; engine/chassis
+==car-air-filter//air# filter*.z/
+==car-axle//axle.z/essieu.My/
+===car-front-axle//front#A axle*.z/essieu* avant*A.My/
+===car-rear-axle//rear#A axle*.z/essieu* arrière*A.My/
+==car-battery/battery/car# battery*.z/battery.z/batterie.Fy/
+==car-chassis//chassis.z/châssis.My/
+==car-clutch//clutch.z/embrayage.My/
+==car-differential-gear//differential#A gear*.z/engrenage* différentiel*A.My/
+==car-dynamo//dynamo.z/dynamo.Fy/
+==car-engine//engine.z/moteur.My/
+==car-fan/electric-fan/fan.z/ventilateur.My/
+==car-ignition//ignition.z/allumage.My/
+==car-radiator/radiator/radiator.z/radiateur.My/
+==car-suspension//suspension.z/suspension.Fy/
+==brake# disc*.z//disque* de#R frein#M.My/
+==brake# drum*.z//tambour* de#R frein#M.My/
+==carburetor.Àz//carburettor.gz/carburateur.My/
+==dipstick.z//jauge* de#R niveau#M d#R'huile#F.Fy/
+==drive# shaft*.Àz//transmission# shaft*.gz/arbre* de#R transmission#F.My/
+==exhaust# manifold*.z//
+==fan# belt*.z//courroie* de#R ventilateur#M.Fy/
+==gearbox.z//boîte* de#R vitesses#FP.Fy/
+==gas# tank*.Àz//petrol# tank*.gz/réservoir* d#R'essence#F.My/
+==muffler.Àz//silencer.gz/silencieux.My/
+==shock# absorber*.z//shock.z/amortisseur.My/
+==spark# plug*.Àz//sparking#-plug*.gz/plug.z/bougie.Fy/
+;_______________________________________________________________________________
+=transportation# vehicle*.z/physical-object/|free-object|humanmade|
+;_______________________________________________________________________________
+==skates.Pïz//patins.MPïy/
+===ice#S skates*.Pïz//patins* à#R glace#FS.MPïy/
+===roller#S skates*.Pïz//patins* à#R roulettes#F.MPïy/rollers.MPïy/
+paire* de#R rollers#MP.Fy/
+===rollerblades.Pïz//roller#S blades*.Pïz/blades.Pïz/roller#S blades*.MPïy/
+inline#A skates*.Pïz/in#R-line#NS skates*.Pïz/
+in#R-line#NS roller#NS skates*.Pïz/
+patins* à#R roues#FP alignées#AFP.tçMPïy/
+====Bauer#S® rollerblades*.Pïz//|product-of¤Bauer|
+====CCM#S® rollerblades*.Pïz//|product-of¤CCM|
+====K2#S® Exotech#S® rollerblades*.Pïz//|product-of¤K2-Exotech|
+====Oxygen#S® rollerblades*.Pïz//|product-of¤company-Oxygen|
+====RollerBlade#S® rollerblades*.Pïz//|product-of¤RollerBlade|
+;_______________________________________________________________________________
+==sled.Àz//sledge.gz/luge.Fy/
+===sleigh.z//traîneau.My/
+;_______________________________________________________________________________
+==skis.Pïz//skis.MPïy/
+===cross#R-country#S skis*.Pïz//skis* de#R fond#MS.MPïy/
+===downhill#A skis*.Pïz//skis* alpins*A.MPïy/
+===water#S skis*.Pïz//skis* nautiques*A.MPïy/
+;_______________________________________________________________________________
+==bicycle.z//bike.¹Tz/cycle.Tz/vélo.¹My/bécane.TFy/bicyclette.Fy/
+|travel-max-speed-of=4.0mps|
+;_______________________________________________________________________________
+==elevator.Àz//lift.gz/ascenseur.My/
+;_______________________________________________________________________________
+==train.z/large-container/railroad.z/train.My/|travel-max-speed-of=20.0mps|
+;_______________________________________________________________________________
+===high#A-speed# train*.z//TGV.My/train* à#R grande#AF vitesse#F.My/
+|travel-max-speed-of=35.0mps|
+;_______________________________________________________________________________
+===commuter# rail*.z//commuter# train*.z/|travel-max-speed-of=10.0mps|
+====Paris-commuter-rail//RER.My/réseau* express*A régional*A.oMy/
+====Boston-commuter-rail//Purple#A Line*.kz/
+;_______________________________________________________________________________
+===subway.Àz//underground.gz/tube.gTz/métro.My/|travel-max-speed-of=10.0mps|
+;_______________________________________________________________________________
+====subway-car//subway# car*.Àz/
+;_______________________________________________________________________________
+====Bay-Area-subway//BART.Éz/
+;_______________________________________________________________________________
+====Boston-subway//T.kz/
+=====Boston-Red-Line//Red#A Line*.kz/
+=====Boston-Green-Line//Green#A Line*.kz/
+=====Boston-Blue-Line//Blue#A Line*.kz/
+=====Boston-Orange-Line//Orange#A Line*.kz/
+;_______________________________________________________________________________
+====DC-subway//Metro.Éz/
+====Paris-subway//metro.kz/métro.kMy/
+;_______________________________________________________________________________
+==cart.z//charrette.¹Fy/carriole.Fy/
+===shopping# cart*.z//
+;_______________________________________________________________________________
+==kiddy# wagon*.z/large-container/|travel-max-speed-of=1.0mps|
+;_______________________________________________________________________________
+==horse* and#K buggy*.z/large-container/|travel-max-speed-of=3.0mps|
+;_______________________________________________________________________________
+==boat.z/large-container/bateau.My/|travel-max-speed-of=20.0mps|
+===windsurfer.z//windsurfing# board*.z/planche* à#R voile#.Fy/
+===small#A boat*.z//barque.Fy/
+====raft.z//life# raft*.z/radeau.My/
+====dinghy.z//canot.My/
+=====inflatable# dinghy*.z//canot* pneumatique*A.My/
+=====lifeboat.z//canot* de#R sauvetage#.My/
+===powerboat.z//
+====cabin# cruiser*.z//cruiser.z/
+===ship.z//vessel.z/navire.¹My/vaisseau.My/
+===*Her#H Majesty#'s ship# Victory#.z//HMS# Victory*.z/Victory.kMy/
+====passenger# ship*.z//paquebot.My/
+====warship.z//
+=====battleship.z//
+=====warship-cruiser//cruiser.z/
+;_______________________________________________________________________________
+==motor# vehicle*.z/large-container/|travel-max-speed-of=20.0mps|
+part-of¤accelerator-pedal,back-seat,brake-disc,brake-drum,brake-pedal,
+bumper,car-AC,car-air-filter,car-air-vent,car-antenna,car-armrest,
+car-battery,car-blinker,car-chassis,car-clutch,car-differential-gear,
+car-door,car-door-handle,car-dynamo,car-engine,car-fan,car-front-axle,
+car-headrest,car-heater,car-hood,car-horn,car-ignition,car-lock,
+car-radiator,car-rear-axle,car-rear-window,car-roof,car-shift,
+car-suspension,car-trunk,car-window,carburetor,clutch-pedal,dashboard,
+dipstick,drive-shaft,driving-seat,emergency-brake,exhaust-manifold,
+exhaust-pipe,fan-belt,fender,gas-gauge,gas-tank,gas-tank-door,gearbox,
+glove-compartment,headlight,hubcap,ignition-switch,license-plate,
+muffler,parking-light,passenger-seat,rear-view-mirror,seatbelt,
+shock-absorber,side-mirror,spark-plug,speedometer,splash-guard,
+steering-wheel,sunroof,tail-light,tire,trim-line,turn-signal-lever,
+window-roller,windshield,windshield-wiper|
+;_______________________________________________________________________________
+===truck.z//lorry.gz/camion.My/
+====articulated#A lorry*.gz//semitrailer.Àz/semi.TÀz/
+====tow# truck*.Àz//breakdown# truck*.gz/
+====forklift# truck*.z//
+;_______________________________________________________________________________
+===bus.z//autobus.My/bus.TMy/
+====minibus.z//minibus.My/
+=====Volkswagen#® Bus*®.z//VW#® Bus*®.z/Bus.¹®z/|product-of¤Volkswagen|
+======1971# Volkswagen#® Bus*®.z//1971# VW#® Bus*®.z/|@1971|create¤Volkswagen|
+;_______________________________________________________________________________
+===car.z//automobile.z/motor# vehicle*.tz/motor# car*.oz/jalopy.hTz/voiture.Fy/
+automobile.Fy/bagnole,caisse.TFy/chiotte.TFSïy/tire.aFy/
+carriole,chignole,charrette.hTFy/|travel-crew-of=1u|
+;_______________________________________________________________________________
+===-car-purpose//
+=====race# car*.z//racing# car*.z/racecar.z/
+=====road# car*.z//street# car*.z/
+;_______________________________________________________________________________
+===-car-drive//
+=====2WD.z//two#A-wheel# drive*.z/
+=====4WD.z//four#A-wheel# drive*.z/
+;_______________________________________________________________________________
+===-car-body-type//body# type*.z/
+=====Convertible.z//Convertable.qz/; yes we store a few spelling errors
+=====Coupe.z//Coupé.z/
+======Acura#® CL*.z//CL.®z/|product-of¤Acura|
+======Cadillac#® Eldorado*.®z//Eldorado.®z/|product-of¤Cadillac|
+=====Pickup.z//
+=====Sedan.Àz//Saloon.gz/saloon# car*.gz/
+;_______________________________________________________________________________
+===-car-injection//
+=====Biturbo.z//
+=====fuel# injection*.z//
+=====GTI.z//grand#A tourer# injection*.z/
+=====Turbo.z//turbocharger.z/
+=====Turbodiesel.z//
+;_______________________________________________________________________________
+===-car-misc//
+=====Beta.z//
+=====Custom.z//
+=====car-GT//GT.z/
+=====Junior.z//
+=====Limited.z//
+=====Omni.z//
+=====Sport.z//
+=====Super.z//
+;_______________________________________________________________________________
+===-car-type//
+;_______________________________________________________________________________
+=====hatchback.z//
+;_______________________________________________________________________________
+=====station# wagon*.z//wagon.z/
+;_______________________________________________________________________________
+=====small# car*.z//trottinette.TFy/
+======Acura#® Integra*.z//Integra.®z/|product-of¤Acura|
+======Ford#® Escort*®.z//Escort.®z/|product-of¤Ford|
+======Honda#® Civic*®.z//Civic.®z/|product-of¤Honda|
+======Subaru#® Impreza*®.z//Impreza.®z/|product-of¤Subaru|
+======Toyota#® Corolla*®.z//Corolla.®z/|product-of¤Toyota|
+;_______________________________________________________________________________
+=====economy# car*.z//
+======2CV.¹®z//deux#A-chevaux#MP Citroën*C®.Fy/deux#A chevaux#MP Citroën*C.®Fy/
+2CV,2#A CV#M ½.®Fy/deuch.TFy/|product-of¤Citroen|
+======*Lucie-2CV//|owner-of=Lucie|part-of¤Lucie-2CV-ignition-switch|
+======Volkswagen#® Beetle*®.z//Beetle.¹®z/|product-of¤Volkswagen|
+;_______________________________________________________________________________
+=====sports#P car*.z//sporty#A car*.z/
+;_______________________________________________________________________________
+======Alfa#® Romeo#® Spyder*®.z/Convertible/Spyder#® Veloce*®.z/Spyder.¹®z/
+Spider,Spider#® Veloce*®.qz/|product-of¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======Alfa#® Romeo#® Giulietta#® Spider*®.z//Giulietta.®z/
+Giulietta#® Spyder*®.z/Giulietta#® Spider*®.¹z/
+========1955# Alfa#® Romeo#® Giulietta#® Sprint*®.z//Sprint.¹®z/
+|@1955|create¤Alfa-Romeo|
+========1956# Alfa#® Romeo#® Giulietta#® Spider*®.z//|@1956|create¤Alfa-Romeo|
+========1957# Alfa#® Romeo#® Giulietta#® Spider*®.z//|@1957|create¤Alfa-Romeo|
+========1960# Alfa#® Romeo#® Giulietta#® Spider*®.z//|@1960|create¤Alfa-Romeo|
+========1961# Alfa#® Romeo#® Giulietta#® Spider*®.z//|@1961|create¤Alfa-Romeo|
+========1962# Alfa#® Romeo#® Giulietta#® Spider*®.z//|@1962|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======Alfa#® Romeo#® Giulia#® Spider*®.z//Giulia.®z/Giulia#® Spider*®.¹z/
+========1965# Alfa#® Romeo#® Giulia#® Spider*®.z//|@1965|create¤Alfa-Romeo|
+========1967# Alfa#® Romeo#® Giulia#® Super*®.z//|@1967|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======1969# Alfa#® Romeo#® Spyder*®.z//|@1969|create¤Alfa-Romeo|
+========1969# Alfa#® Romeo#® Spyder#® 1300*.z//1300.¹®z/
+=======1970# Alfa#® Romeo#® Spyder*®.z//|@1970|create¤Alfa-Romeo|
+=======1971# Alfa#® Romeo#® Spyder*®.z//|@1971|create¤Alfa-Romeo|
+=======1972# Alfa#® Romeo#® Spyder*®.z//|@1972|create¤Alfa-Romeo|
+=======1973# Alfa#® Romeo#® Spyder*®.z//|@1973|create¤Alfa-Romeo|
+=======1974# Alfa#® Romeo#® Spyder*®.z//|@1974|create¤Alfa-Romeo|
+=======1975# Alfa#® Romeo#® Spyder*®.z//|@1975|create¤Alfa-Romeo|
+=======1976# Alfa#® Romeo#® Spyder*®.z//|@1976|create¤Alfa-Romeo|
+=======1977# Alfa#® Romeo#® Spyder*®.z//|@1977|create¤Alfa-Romeo|
+=======1978# Alfa#® Romeo#® Spyder*®.z//|@1978|create¤Alfa-Romeo|
+=======1980# Alfa#® Romeo#® Spyder*®.z//|@1980|create¤Alfa-Romeo|
+=======1981# Alfa#® Romeo#® Spyder*®.z//|@1981|create¤Alfa-Romeo|
+=======1982# Alfa#® Romeo#® Spyder*®.z//|@1982|create¤Alfa-Romeo|
+=======1983# Alfa#® Romeo#® Spyder*®.z//|@1983|create¤Alfa-Romeo|
+=======1984# Alfa#® Romeo#® Spyder*®.z//|@1984|create¤Alfa-Romeo|
+=======1985# Alfa#® Romeo#® Spyder*®.z//|@1985|create¤Alfa-Romeo|
+=======1986# Alfa#® Romeo#® Spyder*®.z//|@1986|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+======Audi#® TT*.®z//TT.®z/|product-of¤Audi|
+;_______________________________________________________________________________
+======BMW#® Z3*®.z//Z3.¹®z/|product-of¤BMW|
+======BMW#® 318Ti*®.z//318Ti.¹®z/|product-of¤BMW|
+;_______________________________________________________________________________
+======Fiat#® X1#\/9*.®z//X1#\/9*.®z/X# 1#\/9*.¹®z/|product-of¤Fiat|
+=======1976# Fiat#® X1#\/9*.z//|@1976|create¤Fiat|
+=======1979# Fiat#® X1#\/9*.z//|@1979|create¤Fiat|
+=======1981# Fiat#® X1#\/9*.z//|@1981|create¤Fiat|
+=======1982# Fiat#® X1#\/9*.z//|@1982|create¤Fiat|
+;_______________________________________________________________________________
+======Bertone#® X1#\/9*.®z//X1#\/9*.¹®z/X# 1#\/9*.¹®z/
+|product-of¤Bertone|
+=======1984# Bertone#® X1#\/9*.z//|@1984|create¤Fiat|
+=======1986# Bertone#® X1#\/9*.z//|@1986|create¤Fiat|
+=======1987# Bertone#® X1#\/9*.z//|@1987|create¤Fiat|
+;_______________________________________________________________________________
+======Fiat#® 850*®.z/Sport,Coupe/Sport# Coupe*.z/850.¹®z/|product-of¤Fiat|
+=======1969# Fiat#® 850*®.z//Spider.¹®z/|@1969|create¤Fiat|
+=======1971# Fiat#® 850*®.z//|@1971|create¤Fiat|
+;_______________________________________________________________________________
+======Fiat#® Spider*®.z/Convertible/Spider.¹®z/Spyder.¹z/
+|product-of¤Fiat|
+;_______________________________________________________________________________
+=======Fiat#® 124#® Spider*®.z//124.¹®z/
+========1969# Fiat#® 124#® Spider*®.z//|@1969|create¤Fiat|
+========1970# Fiat#® 124#® Spider*®.z//|@1970|create¤Fiat|
+========1971# Fiat#® 124#® Spider*®.z//|@1971|create¤Fiat|
+========1972# Fiat#® 124#® Spider*®.z//|@1972|create¤Fiat|
+========1973# Fiat#® 124#® Spider*®.z//|@1973|create¤Fiat|
+========1974# Fiat#® 124#® Spider*®.z//|@1974|create¤Fiat|
+========1975# Fiat#® 124#® Spider*®.z//|@1975|create¤Fiat|
+;_______________________________________________________________________________
+=======Fiat#® 1800#® Spider*®.z//1800.¹®z/
+========1976# Fiat#® 1800#® Spider*®.z//|@1976|create¤Fiat|
+========1977# Fiat#® 1800#® Spider*®.z//|@1977|create¤Fiat|
+========1978# Fiat#® 1800#® Spider*®.z//|@1978|create¤Fiat|
+=========red#A 1978# Fiat#® 1800#® Spider*®.z//|red|
+=========white#A 1978# Fiat#® 1800#® Spider*®.z//|white|
+;_______________________________________________________________________________
+=======Fiat#® 2000#® Spider*®.z//2000.¹®z/
+========1979# Fiat#® 2000#® Spider*®.z//|@1979|create¤Fiat|
+========1980# Fiat#® 2000#® Spider*®.z//|@1980|create¤Fiat|
+========1981# Fiat#® 2000#® Spider*®.z//|@1981|create¤Fiat|
+========1982# Fiat#® 2000#® Spider*®.z//|@1982|create¤Fiat|
+;_______________________________________________________________________________
+======Honda#® Prelude*®.z//Prelude.¹®z/|product-of¤Honda|
+;_______________________________________________________________________________
+======Mazda#® MX#-5# Miata*.®z//MX#-5# Miata*.®z/Miata.®z/|product-of¤Mazda|
+;_______________________________________________________________________________
+======Porsche#® 911*®.z//911.¹®z/|product-of¤Porsche|
+=======1970# Porsche#® 911*®.®z//|@1970|create¤Porsche|
+;_______________________________________________________________________________
+======Porsche#® 924*®.z//924.¹®z/|product-of¤Porsche|
+;_______________________________________________________________________________
+======Porsche#® 944*®.z//944.¹®z/|product-of¤Porsche|
+=======Porsche#® 944#® Turbo*.®z/Turbo/
+;_______________________________________________________________________________
+======Saturn#® SC# Coupe*®.z//SC# Coupe*.¹®z/|product-of¤company-Saturn|
+;_______________________________________________________________________________
+======Toyota#® Celica*®.z//Celica.®z/|product-of¤Toyota|
+;_______________________________________________________________________________
+======Triumph#® TR6*®.z//TR6.¹®z/|product-of¤Triumph|
+=======1971# Triumph#® TR6*®.z//|@1971|create¤Triumph|
+;_______________________________________________________________________________
+=====upscale#A car*.z//upscale#A sedan*.z/
+;_______________________________________________________________________________
+======Audi#® A4*.®z//A4.®z/|product-of¤Audi|
+;_______________________________________________________________________________
+======BMW#® 3#-Series#P®.z//3#-Series#P®.z/|product-of¤BMW|
+=======BMW#® 323Ci*®.z//323Ci.¹®z/
+=======BMW#® 328Ci*®.z//328Ci.¹®z/
+=======BMW#® 323i*®.z//323i.¹®z/
+=======BMW#® 328i*®.z//328i.¹®z/
+=======BMW#® 323iC*®.z//323iC.¹®z/
+=======BMW#® 328iC*®.z//328iC.¹®z/
+=======BMW#® M3*®.z//M3.¹®z/
+;_______________________________________________________________________________
+======BMW#® 316*®.z//316.¹®z/|product-of¤BMW|
+======BMW#® 325i*®.z//325i.¹®z/|product-of¤BMW|
+======*Martine-BMW//|owner-of=Martine-Dad,Martine-Mom,Martine|
+part-of¤Martine-BMW-ignition-switch|
+;_______________________________________________________________________________
+======Infiniti#® I30*.®z//I30.®z/|product-of¤Infiniti|
+======Lexus#® ES300*.®z//ES300.®z/|product-of¤Lexus|
+======Mazda#® Millenia*.®z//Millenia.®z/|product-of¤Mazda|
+;_______________________________________________________________________________
+======Mercedes#® C#-Class*.®z//C#-Class*.®z/|product-of¤Mercedes|
+=======Mercedes#® C230*®.®z//C230.®z/
+=======Mercedes#® C280*®.®z//C280.®z/
+=======Mercedes#® C43*®.®z//C43.®z/
+;_______________________________________________________________________________
+======Saab#® 9#-3*.®z//9#-3*.®z/|product-of¤Saab|
+======Volvo#® S70# 2WD*.®z/2WD/S70# 2WD*.®z/S70.®z/|product-of¤Volvo|
+======Volvo#® V70# 2WD*.®z/2WD/V70# 2WD*.®z/V70.®z/|product-of¤Volvo|
+;_______________________________________________________________________________
+=====large#A car*.z//large#A sedan*.z/
+======Chrysler#® Concorde*®.z//Concorde.®z/|product-of¤Chrysler|
+======Dodge#® Intrepid*®.z//Intrepid.®z/|product-of¤Dodge|
+======Lincoln#® Continental*®.z//Continental.®z/|product-of¤company-Lincoln|
+======Toyota#® Avalon*®.z//Avalon.®z/|product-of¤Toyota|
+;_______________________________________________________________________________
+=====family# car*.z//family# sedan*.z/
+======Honda#® Accord*®.z//Accord.¹®z/|product-of¤Honda|
+=======1988# Honda#® Accord#® LXi*.z//LXi.¹®z/|@1988|create¤Honda|
+======Nissan#® Altima*®.z//Altima.®z/|product-of¤Nissan|
+======Nissan#® Maxima*®.z//Maxima.®z/|product-of¤Nissan|
+======Subaru#® Legacy*®.z//Legacy.®z/|product-of¤Subaru|
+======Toyota#® Camry*®.z//Camry.®z/|product-of¤Toyota|
+======Volkswagen#® Passat# 4*®.z//Passat# 4*®.z/Passat.¹®z/
+|product-of¤Volkswagen|
+;_______________________________________________________________________________
+=====sport#-utility# vehicle*.z//SUV.z/
+======Dodge#® Durango*®.z//Durango.®z/|product-of¤Dodge|
+======Ford#® Explorer*®.z//Explorer.®z/|product-of¤Ford|
+======Honda#® CR#-V*.®z//CR#-V*.¹®z/|product-of¤Honda|
+======Infiniti#® QX4*.®z//QX4.®z/|product-of¤Infiniti|
+======Subaru#® Forester*®.z//Forester.®z/|product-of¤Subaru|
+======Toyota#® RAV4*®.z//RAV4.®z/|product-of¤Toyota|
+======Toyota#® 4Runner*®.z//4Runner.®z/|product-of¤Toyota|
+;_______________________________________________________________________________
+=====luxury# car*.z//luxury# sedan*.z/|travel-cargo-capacity-of=100lbs|
+travel-max-distance-of=2000mi|
+travel-passengers-of=1¯5u|weight-of=2000lbs|travel-max-speed-of=100mph|
+length-of=6ft|width-of=20ft|height-of=5ft|
+;_______________________________________________________________________________
+======Acura#® RL*.z//RL.®z/|product-of¤Acura|
+;_______________________________________________________________________________
+======Audi#® 200# Turbo# Quattro#.z/Turbo/Quattro.¹®z/|product-of¤Audi|
+=======1991# Audi#® 200# Turbo# Quattro#.z//|@1991|create¤Audi|
+;_______________________________________________________________________________
+======BMW#® 5#-Series#P®.z//5#-Series#P®.z/|product-of¤BMW|
+=======BMW#® 528i*®.z//528i.¹®z/
+=======BMW#® 540i*®.z//540i.¹®z/
+=======BMW#® M5*®.z//M5.¹®z/
+;_______________________________________________________________________________
+======BMW#® 740i*®.z//740i.¹®z/|product-of¤BMW|
+======BMW#® 740iL*®.z//740iL.¹®z/|product-of¤BMW|
+;_______________________________________________________________________________
+======Cadillac#® DeVille*.®z//DeVille.®z/|product-of¤Cadillac|
+;_______________________________________________________________________________
+======Infiniti#® Q45*.®z//Q45.®z/|product-of¤Infiniti|
+;_______________________________________________________________________________
+======Lexus#® GS300*.®z//GS300.®z/|product-of¤Lexus|
+======Lexus#® LS400*.®z//LS400.®z/|product-of¤Lexus|
+;_______________________________________________________________________________
+======Lincoln#® Town# Car*.z//Town# Car*.®z/|product-of¤company-Lincoln|
+;_______________________________________________________________________________
+======Mercedes#® E#-Class*.®z//E#-Class*.®z/|product-of¤Mercedes|
+=======Mercedes#® E300#® Turbodiesel*.®z//E300.®z/
+=======Mercedes#® E320*®.®z//E320.®z/
+=======Mercedes#® E320#® AWD*.®z//E320# AWD*.®z/
+=======Mercedes#® E430*®.®z//E430.®z/
+;_______________________________________________________________________________
+======Mercedes#® Unimog*®.z//Unimog.¹®z/|product-of¤Mercedes|
+=======1961# Mercedes#® Unimog*®.z//|@1961|create¤Mercedes|
+======Mercedes#® 250*®.z//250.¹®z/|product-of¤Mercedes|
+=======1975# Mercedes#® 250*®.z//|@1975|create¤Mercedes|
+======Mercedes#® 300*®.z//300.¹®z/|product-of¤Mercedes|
+=======1992# Mercedes#® 300*®.z//|@1992|create¤Mercedes|
+======Mercedes#® 560SL*®.z//560SL.¹®z/|product-of¤Mercedes|
+=======1989# Mercedes#® 560SL*®.z//1989# 560SL*.®z/|@1989|create¤Mercedes|
+======Mercedes#® 500SEL*®.z//500# SEL*.®z/500SEL.¹®z/
+Mercedes#®ß 500SEL#®ß.ß@Fy/|product-of¤Mercedes|
+======*Martine Mercedes//|owner-of=Martine-Mom|
+part-of¤Martine-Mercedes-ignition-switch|
+;_______________________________________________________________________________
+=====exotic# car*.z//
+======Ferrari#® 250# GTE*®.z//250,GTE.®z/250# GTE*®.¹z/|product-of¤Ferrari|
+=======1962# Ferrari#® 250# GTE*®.z//|@1962|create¤Ferrari|
+======Ferrari#® 246GT*®.z//246GT.¹®z/|product-of¤Ferrari|
+=======1972# Ferrari#® 246GT*®.z//|@1972|create¤Ferrari|
+=======1975# Ferrari#® 246GT*®.z//|@1975|create¤Ferrari|
+=======1977# Ferrari#® 246GT*®.z//|@1977|create¤Ferrari|
+======Ferrari#® 308GT4*®.z//308GT4.¹®z/|product-of¤Ferrari|
+=======1984# Ferrari#® 308GTSiqv*®.z//308GTSiqv.¹®z/|@1984|create¤Ferrari|
+;=====Ferrari#® 330GT2\+2*®.z//330GT2\+2*®,330# GT# 2\+2*®.¹z/|
+;product-of¤Ferrari|
+;======1964# Ferrari#® 330GT2\+2*®.z//
+;======1966# Ferrari#® 330GT2\+2*®.z//
+;======1967# Ferrari# 330GTC*®.z//
+======Ferrari#® 348ts*®.z//348ts.¹®z/|product-of¤Ferrari|
+=======1989# Ferrari#® 348ts*®.z//|@1989|create¤Ferrari|
+======Ferrari#® Testarossa*®.z//Testarossa.¹®z/|product-of¤Ferrari|
+=======1987# Ferrari#® Testarossa*®.z//|@1987|create¤Ferrari|
+;_______________________________________________________________________________
+=====pickup# truck*.z/truck/pick#V-up#R truck*.z/Pickup.z/Pick#V Up#R ½.z/
+======Toyota#® Pick#V Up#R.z//|product-of¤Toyota|
+=======1989# Toyota#® Pick#V Up#R.z//|@1989|create¤Toyota|
+;_______________________________________________________________________________
+=====van.z//camionnette.Fy/
+======delivery# van*.z//
+======police# van*.z//
+======minivan.z//
+=======Dodge#® Caravan#® V6*.®z//Caravan#® V6*®.®z/Caravan.®z/|product-of¤Dodge|
+=======Isuzu#® Oasis*.®z//Oasis.®z/|product-of¤Isuzu|
+=======Toyota#® Sienna*®.z//Sienna.®z/|product-of¤Toyota|
+;_______________________________________________________________________________
+=====unknown-car-type//; todo: move these up into appropriate categories
+;_______________________________________________________________________________
+======Alfa#® Romeo#® Alfetta*®.z//Alfetta.¹®z/|product-of¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======Alfa#® Romeo#® Alfetta#® GT*®.z/car-GT/Alfetta#® GT*®.¹®z/
+========1975# Alfa#® Romeo#® Alfetta#® GT*®.z//|@1975|create¤Alfa-Romeo|
+========1976# Alfa#® Romeo#® Alfetta#® GT*®.z//|@1976|create¤Alfa-Romeo|
+========1977# Alfa#® Romeo#® Alfetta#® GT*®.z//|@1977|create¤Alfa-Romeo|
+========1978# Alfa#® Romeo#® Alfetta#® GT*®.z//|@1978|create¤Alfa-Romeo|
+========1979# Alfa#® Romeo#® Alfetta#® GT*®.z//|@1979|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======Alfa#® Romeo#® Alfetta#® Sedan*®.z//Alfetta#® Sedan*®.¹®z/
+========1976# Alfa#® Romeo#® Alfetta#® Sedan*®.z//|@1976|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+======Alfa#® Romeo#® GT#® Junior*.z//GT#® Junior*.®z/|product-of¤Alfa-Romeo|
+=======1967# Alfa#® Romeo#® GT#® Junior*.z//|@1967|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+======Alfa#® Romeo#® GTV*®.z//GTV.¹®z/|product-of¤Alfa-Romeo|
+=======1968# Alfa#® Romeo#® GTV#® 1300*®.z//1300.¹®z/|@1968|create¤Alfa-Romeo|
+=======1968# Alfa#® Romeo#® GTV#® 1750*®.z//1750.¹®z/|@1968|create¤Alfa-Romeo|
+=======1969# Alfa#® Romeo#® GTV*®.z//|@1969|create¤Alfa-Romeo|
+=======1973# Alfa#® Romeo#® GTV#® 2000*®.z//2000.¹®z/|@1973|create¤Alfa-Romeo|
+=======1974# Alfa#® Romeo#® GTV*®.z//|@1974|create¤Alfa-Romeo|
+=======1976# Alfa#® Romeo#® GTV*®.z//|@1976|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======Alfa#® Romeo#® GTV#®-6*®.z//GTV#®-6*,GTV6.¹®z/
+========1982# Alfa#® Romeo#® GTV#®-6*®.z//|@1982|create¤Alfa-Romeo|
+========1983# Alfa#® Romeo#® GTV#®-6*®.z//|@1983|create¤Alfa-Romeo|
+========1984# Alfa#® Romeo#® GTV#®-6*®.z//|@1984|create¤Alfa-Romeo|
+========1985# Alfa#® Romeo#® GTV#®-6*®.z//|@1985|create¤Alfa-Romeo|
+========1986# Alfa#® Romeo#® GTV#®-6*®.z//|@1986|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+======Alfa#® Romeo#® 33*.z//33.®¹z/|product-of¤Alfa-Romeo|
+=======1983# Alfa#® Romeo#® 33*.z//Goldcloverleaf.¹®z/|@1983|create¤Alfa-Romeo|
+=======1990# Alfa#® Romeo#® 33*.z//Boxer.¹®z/|@1990|create¤Alfa-Romeo|
+=======1991# Alfa#® Romeo#® 33*.z//|@1991|create¤Alfa-Romeo|
+;_______________________________________________________________________________
+======Alfa#® Romeo#® Milano*®.z//Milano.¹®z/|product-of¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======1987# Alfa#® Romeo#® Milano#® Silver*.z//Silver,2\.5L,2\.5.¹®z/
+|@1987|create¤Alfa-Romeo|
+=======1987# Alfa#® Romeo#® Milano#® Verde*.z//Verde,3L,3\.0L,3\.0.¹®z/
+|@1987|create¤Alfa-Romeo|
+=======1987# Alfa#® Romeo#® Milano#® Gold*.z//Gold,2\.5L,2\.5.¹®z/|@1987|
+create¤Alfa-Romeo|
+=======1987# Alfa#® Romeo#® Milano#® Platinum*.z//Platinum.¹®z/|@1987|
+create¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======1988# Alfa#® Romeo#® Milano#® Verde*.z//Verde.¹®z/|@1988|
+create¤Alfa-Romeo|
+=======1988# Alfa#® Romeo#® Milano#® Gold*.z//Gold.¹®z/|@1988|
+create¤Alfa-Romeo|
+=======1988# Alfa#® Romeo#® Milano*®.z//3L,3\.0L,3\.0.¹®z/|@1988|
+create¤Alfa-Romeo|
+;_______________________________________________________________________________
+=======1989# Alfa#® Romeo#® Milano#® Gold*.z//Gold.¹®z/|@1989|create¤Alfa-Romeo|
+=======1989# Alfa#® Romeo#® Milano*®.z//3L,3\.0L,3\.0.¹®z/|@1989|
+create¤Alfa-Romeo|
+;_______________________________________________________________________________
+======Dodge#® Caravan*®.z//Caravan.¹®z/|product-of¤Dodge|
+======Dodge#® Viper*®.z//Viper.¹®z/|product-of¤Dodge|
+=======1994# Dodge#® Viper*®.z//|@1989|create¤Dodge|
+======Dodge#® Omni#® GLH#® Turbo*.z/Turbo/Omni,GLH.¹®z/|product-of¤Dodge|
+=======1986# Dodge#® Omni# GLH#® Turbo*.z//
+;_______________________________________________________________________________
+======Fiat#® Mirafiori#® Panorama*®.z//131.¹z/Mirafiori#® Panorama*®.¹z/
+|product-of¤Fiat|
+=======1983# Fiat#® Mirafiori#® Panorama*®.z//|@1983|create¤Fiat|
+;_______________________________________________________________________________
+======Ford#® Mustang*®.z//Mustang.¹®z/|product-of¤Ford|
+=======Ford#® Mustang#® Convertible*.z/Convertible/
+=======1967# Ford#® Mustang#® Convertible*.z//|@1967|create¤Ford|
+======Ford#® Custom*®.z//Custom.¹®z/|product-of¤Ford|; 4x4
+=======1977# Ford#® F#-150# Custom*.®z//F#-150*.¹z/|@1977|create¤Ford|
+;_______________________________________________________________________________
+======Ford#® Thunderbird*®.z//Thunderbird.¹®z/|product-of¤Ford|
+=======1970# Ford#® Thunderbird*®.z//|@1970|create¤Ford|
+;_______________________________________________________________________________
+======Jeep#® Wrangler*®.z//Wrangler.¹®z/|product-of¤Jeep|
+;_______________________________________________________________________________
+======Lancia#® Scorpion*®.z//Scorpion.¹®z/|product-of¤Lancia|
+=======1976# Lancia#® Scorpion*®.z//|@1976|create¤Lancia|
+======Lancia#® Beta# Coupe*.z/Coupe/|product-of¤Lancia|
+=======1979# Lancia#® Beta# Coupe*.z//|@1979|create¤Lancia|
+;_______________________________________________________________________________
+======Maser#® Biturbo*.z/Biturbo/|product-of¤Maser|
+=======1984# Maser#® Biturbo# Coupe*.z/Coupe/|@1984|create¤Maser|
+=======1985# Maser#® Biturbo*.z//|@1985|create¤Maser|
+=======1987# Maser#® Biturbo# Si*.z//|@1987|create¤Maser|
+=======1987# Maser#® Biturbo# Spyder*.z//Spider.®z/Spyder.¹®z/|@1987|
+create¤Maser|
+;_______________________________________________________________________________
+======Mazda#® RX#-7*.®z//RX#-7*®.¹®z/|product-of¤Mazda|
+=======1984# Mazda#® RX#-7# GSL#-SE*.z//GSL#-SE*.¹®z/|@1984|create¤Maser|
+======Mazda#® MPV*.®z//MPV.z/|product-of¤Mazda|
+=======1994# Mazda#® MPV*.®z//MPV.¹®z/|@1994|create¤Maser|
+;_______________________________________________________________________________
+======Mercury#® Topaz*®.z//Topaz.¹®z/|product-of¤company-Mercury|
+;_______________________________________________________________________________
+======Nissan#® 4WD*®.z/4WD/|product-of¤Nissan|
+;_______________________________________________________________________________
+======Oldsmobile#® 88*.z//88.¹®z/|product-of¤Oldsmobile|
+=======1986# Oldsmobile#® 88*.z//|@1986|create¤Oldsmobile|
+;_______________________________________________________________________________
+======Opel#® Corsa*®.z//Corsa.¹®z/|product-of¤Opel|
+=======1987# Opel#® Corsa*®.z//|@1987|create¤Opel|
+;_______________________________________________________________________________
+======Saab#® 900*®.z//900.¹®z/|product-of¤Saab|
+=======1984# Saab#® 900*®.z//|@1984|create¤Saab|
+======Saab#® 9000# S*®.z//9000# S*.®z/9000S.¹®z/|product-of¤Saab|
+;_______________________________________________________________________________
+======Volkswagen#® Jetta*®.z//Jetta.¹®z/|product-of¤Volkswagen|
+=======Volkswagen#® Jetta#® GL*®.z//GL.¹®z/
+;_______________________________________________________________________________
+======Volvo#® 245*®.z//245.¹®z/|product-of¤Volvo|
+=======1978# Volvo#® 245*®.z//|@1978|create¤Volvo|
+;_______________________________________________________________________________
+==flying#A machine*.z/large-container/
+;_______________________________________________________________________________
+===spaceship.z//space# ship*.z/vaisseau* spatial*A.My/
+====rocket.z//fusée.¹Fy/roquette.Fy/
+=====missile.z//missile.My/
+=====launch# vehicle*.z//fusée* de#R lancement#M.Fy/
+====space# shuttle*.z//navette* spatiale*A.Fy/
+=====United# States#P space# shuttle*.z//shuttle.kTz/navette* américaine*A.Fy/
+======space-shuttle-Atlantis//Atlantis.kz/Atlantis.Éy/
+======space-shuttle-Columbia//Columbia.kz/Columbia.Éy/
+======space-shuttle-Discovery//Discovery.kz/Discovery.Éy/
+======space-shuttle-Endeavor//Endeavor.kz/Endeavor.Éy/
+======space-shuttle-Enterprise//Enterprise.kz/Enterprise.Éy/
+====starship.z//
+====*starship-Enterprise//Enterprise.kz/Entreprise.ky/|fanciful|
+;_______________________________________________________________________________
+===hot#A-air# balloon*.z//balloon.z/
+;_______________________________________________________________________________
+===helicopter.z//hélicoptère.My/
+;_______________________________________________________________________________
+===airplane.z//plane.z/avion.My/
+;_______________________________________________________________________________
+===-airplane-technology//
+=====steam# gauge# airplane*.z//
+=====glass#A cockpit# airplane*.z//
+=====fly#V-by#R-wire# airplane*.z//
+;_______________________________________________________________________________
+====prop# plane*.z//propeller# plane*.z/
+====turboprop# plane*.z//
+;_______________________________________________________________________________
+====jet.z//jet.My/avion* à#R réaction#F.My/
+;_______________________________________________________________________________
+=====727#® jet*.z//727.¹®z/|product-of¤Boeing|
+;_______________________________________________________________________________
+=====737#® jet*.z//737.¹®z/|product-of¤Boeing|
+;_______________________________________________________________________________
+=====747#® jet*.z//747.¹®z/747.@®My/|product-of¤Boeing|
+======747#®-400#® jet*.z//747#®-400#®.®z/|travel-crew-of=2u|
+travel-passengers-of=412¯509u|
+travel-cargo-capacity-of=6030lbs|length-of=211ft|width-of=231.9ft|
+height-of=63.5ft|
+weight-of=870000lbs|travel-max-speed-of=630mph|travel-max-distance-of=8380mi|
+product-of¤Boeing|@198805|create¤Boeing|
+;_______________________________________________________________________________
+=====Lockheed#® L1011#®-1*®.z//L1011.®z/TriStar.¹®z/
+avion* L1011#®-1#® de#R Lockheed#®.My/avion* TriStar#® de#R Lockheed#®.My/
+|travel-crew-of=3u|travel-passengers-of=250¯400u|
+travel-cargo-capacity-of=45750lbs|
+length-of=155.3ft|width-of=177.7ft|height-of=55.3ft|weight-of=430000lbs|
+travel-max-speed-of=620mph|travel-max-distance-of=3390mi|product-of¤Lockheed|
+@1972|create¤Lockheed|
+;_______________________________________________________________________________
+=====DC10.®z//DC#®-10*®.¹z/DC10,DC#®-10*®.®y/
+|travel-crew-of=3u|travel-passengers-of=250¯380u|
+travel-cargo-capacity-of=4618lbs|length-of=155.3ft|width-of=182.3ft|
+height-of=58.1ft|weight-of=440000lbs|travel-max-speed-of=593mph|
+travel-max-distance-of=4123mi|product-of¤McDonnell-Douglas|
+@1970|create¤McDonnell-Douglas|
+;_______________________________________________________________________________

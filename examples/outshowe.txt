@@ -1,0 +1,646 @@
+& Jim Garnier is in Jim Garnier's bedroom.
+& He is dressed in a pajama top.
+& He is dressed in a pajama bottom.
+& He wants to take a shower.
+& Jim Garnier is motivated.
+& He is motivated, since he wants to take a shower.
+& He wants to strip.
+& He wants to take off a pajama top.
+& Jim Garnier consists of Jim Garnier's muscle.
+& He consists of his bone.
+& He consists of his sense organ.
+& He consists of his organ of nervous system.
+& Jim Garnier consists of Jim Garnier's organ of digestive system.
+& He consists of his organ of respiratory system.
+& He consists of his organ of urinary system.
+& He consists of his organ of circulatory system.
+& Jim Garnier consists of Jim Garnier's head.
+& He consists of his neck.
+& He consists of his left arm.
+& He consists of his right arm.
+& Jim Garnier consists of Jim Garnier's left hand.
+& He consists of his right hand.
+& He wants to take a pajama top off oneself.
+& He wants for his right hand to be near a pajama top.
+& Jim Garnier wants to be near a pajama top.
+& He succeeds at being near a pajama top.
+& He wants for his right hand to move to a pajama top.
+& He wants to be near a pajama top.
+& Jim Garnier succeeds at being near a pajama top.
+& His right hand is going to move to a pajama top.
+& His right hand is going to be near a pajama top.
+& He is going to succeed at his right hand moving to a pajama top.
+& Jim Garnier is going to succeed at being near a pajama top.
+& He is going to take a pajama top off oneself.
+& He will hold a pajama top.
+& A pajama top will be in his bedroom.
+& Jim Garnier will succeed at taking a pajama top off Jim Garnier.
+& He will want to be near the clothing shelf.
+& He will want to walk from his bedroom to the closet of 20 rue Drouot
+& apartment 4D.
+& He will want to be standing.
+& Jim Garnier will want to stand up.
+& He will stand up.
+& He will be standing.
+& He will succeed at standing up.
+& Jim Garnier will succeed at being standing.
+& He will walk from his bedroom to the closet of 20 rue Drouot apartment 4D.
+& A pajama top will be in the closet of 20 rue Drouot apartment 4D.
+& He will be in the closet of 20 rue Drouot apartment 4D.
+& Jim Garnier will succeed at walking from Jim Garnier's bedroom to the closet
+& of 20 rue Drouot apartment 4D.
+& He will succeed at being near the clothing shelf.
+& He will want to let go of a pajama top.
+& He will let go of a pajama top.
+& Jim Garnier will succeed at letting go of a pajama top.
+& He takes off a pajama top.
+& He will succeed at taking off a pajama top.
+& He will want to take off a pajama bottom.
+& Jim Garnier will want to take a pajama bottom off Jim Garnier.
+& He will want for his right hand to be near a pajama bottom.
+& He will want to be near a pajama bottom.
+& He will succeed at being near a pajama bottom.
+& Jim Garnier will want to move to a pajama bottom.
+& He will want to be near a pajama bottom.
+& He will succeed at being near a pajama bottom.
+& His right hand will move to a pajama bottom.
+& Jim Garnier's right hand will be near a pajama bottom.
+& He will succeed at his right hand moving to a pajama bottom.
+& Jim Garnier will succeed at being near a pajama bottom.
+& He will take a pajama bottom off oneself.
+& He will hold a pajama bottom.
+& A pajama bottom will be in the closet of 20 rue Drouot apartment 4D.
+& Jim Garnier will succeed at taking a pajama bottom off Jim Garnier.
+& He will want to be near the clothing shelf.
+& He will succeed at being near the clothing shelf.
+& He will want to let go of a pajama bottom.
+& Jim Garnier will let go of a pajama bottom.
+& He will succeed at letting go of a pajama bottom.
+& He will take off a pajama bottom.
+& He will succeed at taking off a pajama bottom.
+& Jim Garnier will succeed at @striping.
+& He will want for the bath shower to be on.
+& The bath shower consists of the bath of the bath shower.
+& The bath shower consists of the shower curtain of the bath shower.
+& The bath shower consists of the shower head of the bath shower.
+& The bath shower consists of the shower switch of the bath shower.
+& The bath of the bath shower consists of the hot faucet of the bath of the
+& bath shower.
+& The bath of the bath shower consists of the cold faucet of the bath of the
+& bath shower.
+& The bath shower is off.
+& Jim Garnier will want for the cold faucet of the bath of the bath shower to
+& be set to 5.
+& He will want to flip to a knob position 5 the bath of the bath shower.
+& He will want for his right hand to be near the cold faucet of the bath of the
+& bath shower.
+& He will want to be near the cold faucet of the bath of the bath shower.
+& Jim Garnier will want to walk to Jim Garnier's bathroom from the closet of 20
+& rue Drouot apartment 4D.
+& He will succeed at being standing.
+& He will walk to his bathroom from the closet of 20 rue Drouot apartment 4D.
+& He will be in his bathroom.
+& Jim Garnier will succeed at walking to Jim Garnier's bathroom from the closet
+& of 20 rue Drouot apartment 4D.
+& He will succeed at being near the cold faucet of the bath of the bath shower.
+& He will want for his right hand to move to the cold faucet of the bath of the
+& bath shower.
+& He will want to be near the cold faucet of the bath of the bath shower.
+& Jim Garnier will succeed at being near the cold faucet of the bath of the
+& bath shower.
+& His right hand will move to the cold faucet of the bath of the bath shower.
+& His right hand will be near the cold faucet of the bath of the bath shower.
+& He will succeed at his right hand moving to the cold faucet of the bath of
+& the bath shower.
+& Jim Garnier will succeed at being near the cold faucet of the bath of the
+& bath shower.
+& He will flip to a knob position 5 the bath of the bath shower.
+& The cold faucet of the bath of the bath shower will be set to 5.
+& He will succeed at flipping to a knob position 5 the bath of the bath shower.
+& Jim Garnier will succeed at the cold faucet of the bath of the bath shower
+& being set to 5.
+& He will want for the hot faucet of the bath of the bath shower to be set to 5.
+& He will want to flip to a knob position 5 the bath of the bath shower.
+& He will want for his right hand to be near the hot faucet of the bath of the
+& bath shower.
+& Jim Garnier will want to be near the hot faucet of the bath of the bath
+& shower.
+& He will succeed at being near the hot faucet of the bath of the bath shower.
+& He will want for his right hand to move to the hot faucet of the bath of the
+& bath shower.
+& He will want to be near the hot faucet of the bath of the bath shower.
+& Jim Garnier will succeed at being near the hot faucet of the bath of the bath
+& shower.
+& His right hand will move to the hot faucet of the bath of the bath shower.
+& His right hand will be near the hot faucet of the bath of the bath shower.
+& He will succeed at his right hand moving to the hot faucet of the bath of the
+& bath shower.
+& Jim Garnier will succeed at being near the hot faucet of the bath of the bath
+& shower.
+& He will flip to a knob position 5 the bath of the bath shower.
+& The hot faucet of the bath of the bath shower will be set to 5.
+& He will succeed at flipping to a knob position 5 the bath of the bath shower.
+& Jim Garnier will succeed at the hot faucet of the bath of the bath shower
+& being set to 5.
+& He will want for the shower switch of the bath shower to be on.
+& He will want to flip on the bath shower.
+& He will want for his right hand to be near the shower switch of the bath
+& shower.
+& Jim Garnier will want to be near the shower switch of the bath shower.
+& He will succeed at being near the shower switch of the bath shower.
+& He will want for his right hand to move to the shower switch of the bath
+& shower.
+& He will want to be near the shower switch of the bath shower.
+& Jim Garnier will succeed at being near the shower switch of the bath shower.
+& His right hand will move to the shower switch of the bath shower.
+& His right hand will be near the shower switch of the bath shower.
+& He will succeed at his right hand moving to the shower switch of the bath
+& shower.
+& Jim Garnier will succeed at being near the shower switch of the bath shower.
+& He will flip on the bath shower.
+& The shower switch of the bath shower will be on.
+& The bath shower will be on.
+& Jim Garnier will succeed at flipping on the bath shower.
+& He will succeed at the shower switch of the bath shower being on.
+& He will succeed at the bath shower being on.
+& He consists of his trunk.
+& Jim Garnier consists of Jim Garnier's left leg.
+& He consists of his right leg.
+& He consists of his left foot.
+& He consists of his right foot.
+& Jim Garnier's head consists of the skull of Jim Garnier's head.
+& His head consists of hair of his head.
+& The bath of the bath shower consists of the water spout of the bath of the
+& bath shower.
+& The bath of the bath shower consists of plumbing of the bath of the bath
+& shower.
+& The bath of the bath shower consists of the soap dish of the bath of the bath
+& shower.
+& Jim Garnier will want to grasp the Aquavital.
+& He will want for his right hand to be near the Aquavital.
+& He will want to be near the Aquavital.
+& He will want to walk to the Aquavital from the bath shower.
+& Jim Garnier will succeed at being standing.
+& He will walk to the Aquavital from the bath shower.
+& He will be in his bathroom.
+& He will succeed at walking to the Aquavital from the bath shower.
+& Jim Garnier will succeed at being near the Aquavital.
+& He will want for his right hand to move to the Aquavital.
+& He will want to be near the Aquavital.
+& He will succeed at being near the Aquavital.
+& Jim Garnier's right hand will move to the Aquavital.
+& His right hand will be near the Aquavital.
+& Jim Garnier will succeed at moving to the Aquavital.
+& He will succeed at his right hand being near the Aquavital.
+& He will grasp the Aquavital.
+& He will hold the Aquavital.
+& Jim Garnier will succeed at grasping the Aquavital.
+& He will want to open the Aquavital.
+& He will want for his left hand to be near the Aquavital.
+& He will want to be near the Aquavital.
+& Jim Garnier will succeed at being near the Aquavital.
+& He will want for his left hand to move to the Aquavital.
+& He will want to be near the Aquavital.
+& He will succeed at being near the Aquavital.
+& Jim Garnier's left hand will move to the Aquavital.
+& His left hand will be near the Aquavital.
+& Jim Garnier will succeed at moving to the Aquavital.
+& He will succeed at his left hand being near the Aquavital.
+& He will open the Aquavital.
+& The Aquavital will be open.
+& Jim Garnier will succeed at opening the Aquavital.
+& He will want to pour the Aquavital onto the hair of his head.
+& He will succeed at holding the Aquavital.
+& He will want for his right hand to be near the hair of his head.
+& Jim Garnier will want to be near the hair of Jim Garnier's head.
+& He will succeed at being near the hair of his head.
+& He will want for his right hand to move to the hair of his head.
+& He will want to be near the hair of his head.
+& Jim Garnier will succeed at being near the hair of Jim Garnier's head.
+& His right hand will move to the hair of his head.
+& His right hand will be near the hair of his head.
+& He will succeed at his right hand moving to the hair of his head.
+& Jim Garnier will succeed at being near the hair of Jim Garnier's head.
+& He will pour the Aquavital onto the hair of his head.
+& He will succeed at pouring the Aquavital onto the hair of his head.
+& He will want to close the Aquavital.
+& Jim Garnier will succeed at being near the Aquavital.
+& He will close the Aquavital.
+& The Aquavital will be closed.
+& He will succeed at closing the Aquavital.
+& Jim Garnier will want to move to the soap dish of the bath of the bath shower.
+& He will want to be near the soap dish of the bath of the bath shower.
+& He will want to walk from the Aquavital to the bath shower.
+& He will succeed at being standing.
+& Jim Garnier will walk from the Aquavital to the bath shower.
+& The Aquavital will be in his bathroom.
+& He will be in his bathroom.
+& He will succeed at walking from the Aquavital to the bath shower.
+& Jim Garnier will succeed at being near the soap dish of the bath of the bath
+& shower.
+& His right hand will move to the soap dish of the bath of the bath shower.
+& His right hand will be near the soap dish of the bath of the bath shower.
+& He will succeed at his right hand moving to the soap dish of the bath of the
+& bath shower.
+& Jim Garnier will want to let go of the Aquavital.
+& He will let go of the Aquavital.
+& He will succeed at letting go of the Aquavital.
+& He will want to rub the hair of his head.
+& Jim Garnier will want to be near the hair of Jim Garnier's head.
+& He will want to be near the hair of his head.
+& He will succeed at being near the hair of his head.
+& He will want for his right hand to move to the hair of his head.
+& Jim Garnier will want to be near the hair of Jim Garnier's head.
+& He will succeed at being near the hair of his head.
+& His right hand will move to the hair of his head.
+& His right hand will be near the hair of his head.
+& Jim Garnier will succeed at moving to the hair of Jim Garnier's head.
+& He will succeed at his right hand being near the hair of his head.
+& He will rub the hair of his head.
+& He will succeed at rubbing the hair of his head.
+& Jim Garnier will want for the hair of Jim Garnier's head to move to the
+& shower head of the bath shower.
+& He will want to be near the shower head of the bath shower.
+& He will succeed at being near the shower head of the bath shower.
+& The hair of his head will move to the shower head of the bath shower.
+& The hair of Jim Garnier's head will be near the shower head of the bath
+& shower.
+& He will succeed at the hair of his head moving to the shower head of the bath
+& shower.
+& Jim Garnier will want to rub the hair of Jim Garnier's head.
+& He will succeed at his right hand being near the hair of his head.
+& He will rub the hair of his head.
+& He will succeed at rubbing the hair of his head.
+& Jim Garnier will want to grasp the soap.
+& He will want for his right hand to be near the soap.
+& He will want to be near the soap.
+& He will want to walk to the soap from the bath shower.
+& Jim Garnier will succeed at being standing.
+& He will walk to the soap from the bath shower.
+& He will be in his bathroom.
+& He will succeed at walking to the soap from the bath shower.
+& Jim Garnier will succeed at being near the soap.
+& He will want for his right hand to move to the soap.
+& He will want to be near the soap.
+& He will succeed at being near the soap.
+& Jim Garnier's right hand will move to the soap.
+& His right hand will be near the soap.
+& Jim Garnier will succeed at moving to the soap.
+& He will succeed at his right hand being near the soap.
+& He will grasp the soap.
+& He will hold the soap.
+& Jim Garnier will succeed at grasping the soap.
+& His head consists of the forehead of his head.
+& His head consists of the left temple of his head.
+& His head consists of the right temple of his head.
+& Jim Garnier's head consists of the face of Jim Garnier's head.
+& He will want for the face of his head to move to the shower head of the bath
+& shower.
+& He will want to be near the shower head of the bath shower.
+& Jim Garnier will want to walk from the soap to the bath shower.
+& He will succeed at being standing.
+& He will walk from the soap to the bath shower.
+& The soap will be in his bathroom.
+& Jim Garnier will be in Jim Garnier's bathroom.
+& He will succeed at walking from the soap to the bath shower.
+& He will succeed at being near the shower head of the bath shower.
+& The face of his head will move to the shower head of the bath shower.
+& The face of Jim Garnier's head will be near the shower head of the bath
+& shower.
+& He will succeed at the face of his head moving to the shower head of the bath
+& shower.
+& Jim Garnier will want to rub the face of Jim Garnier's head.
+& He will want for his right hand to be near the face of his head.
+& He will want to be near the face of his head.
+& He will succeed at being near the face of his head.
+& Jim Garnier will want to move to the face of Jim Garnier's head.
+& He will want to be near the face of his head.
+& He will succeed at being near the face of his head.
+& His right hand will move to the face of his head.
+& Jim Garnier's right hand will be near the face of Jim Garnier's head.
+& He will succeed at his right hand moving to the face of his head.
+& He will succeed at his right hand being near the face of his head.
+& Jim Garnier will rub the face of Jim Garnier's head.
+& He will succeed at rubbing the face of his head.
+& He will want to rub his left arm.
+& He will want for his right hand to be near his left arm.
+& Jim Garnier will want to be near Jim Garnier's left arm.
+& He will succeed at being near his left arm.
+& He will want for his right hand to move to his left arm.
+& He will want to be near his left arm.
+& Jim Garnier will succeed at being near Jim Garnier's left arm.
+& His right hand will move to his left arm.
+& His right hand will be near his left arm.
+& He will succeed at his right hand moving to his left arm.
+& Jim Garnier will succeed at being near Jim Garnier's left arm.
+& He will rub his left arm.
+& He will succeed at rubbing his left arm.
+& He will want to rub his right arm.
+& Jim Garnier will want to be near Jim Garnier's right arm.
+& He will want to be near his right arm.
+& He will succeed at being near his right arm.
+& He will want for his right hand to move to his right arm.
+& Jim Garnier will want to be near Jim Garnier's right arm.
+& He will succeed at being near his right arm.
+& His right hand will move to his right arm.
+& His right hand will be near his right arm.
+& Jim Garnier will succeed at moving to Jim Garnier's right arm.
+& He will succeed at his right hand being near his right arm.
+& He will rub his right arm.
+& He will succeed at rubbing his right arm.
+& Jim Garnier will want to rub Jim Garnier's trunk.
+& He will want for his right hand to be near his trunk.
+& He will want to be near his trunk.
+& He will succeed at being near his trunk.
+& Jim Garnier will want to move to Jim Garnier's trunk.
+& He will want to be near his trunk.
+& He will succeed at being near his trunk.
+& His right hand will move to his trunk.
+& Jim Garnier's right hand will be near Jim Garnier's trunk.
+& He will succeed at his right hand moving to his trunk.
+& He will succeed at his right hand being near his trunk.
+& Jim Garnier will rub Jim Garnier's trunk.
+& He will succeed at rubbing his trunk.
+& He will want to rub his left leg.
+& He will want for his right hand to be near his left leg.
+& Jim Garnier will want to be near Jim Garnier's left leg.
+& He will succeed at being near his left leg.
+& He will want for his right hand to move to his left leg.
+& He will want to be near his left leg.
+& Jim Garnier will succeed at being near Jim Garnier's left leg.
+& His right hand will move to his left leg.
+& His right hand will be near his left leg.
+& He will succeed at his right hand moving to his left leg.
+& Jim Garnier will succeed at being near Jim Garnier's left leg.
+& He will rub his left leg.
+& He will succeed at rubbing his left leg.
+& He will want to rub his right leg.
+& Jim Garnier will want to be near Jim Garnier's right leg.
+& He will want to be near his right leg.
+& He will succeed at being near his right leg.
+& He will want for his right hand to move to his right leg.
+& Jim Garnier will want to be near Jim Garnier's right leg.
+& He will succeed at being near his right leg.
+& His right hand will move to his right leg.
+& His right hand will be near his right leg.
+& Jim Garnier will succeed at moving to Jim Garnier's right leg.
+& He will succeed at his right hand being near his right leg.
+& He will rub his right leg.
+& He will succeed at rubbing his right leg.
+& Jim Garnier will want to move to the soap dish of the bath of the bath shower.
+& He will want to be near the soap dish of the bath of the bath shower.
+& He will succeed at being near the soap dish of the bath of the bath shower.
+& His right hand will move to the soap dish of the bath of the bath shower.
+& Jim Garnier's right hand will be near the soap dish of the bath of the bath
+& shower.
+& He will succeed at his right hand moving to the soap dish of the bath of the
+& bath shower.
+& Jim Garnier will want to let go of the soap.
+& He will let go of the soap.
+& He will succeed at letting go of the soap.
+& He will want to rub the face of his head.
+& Jim Garnier will want to be near the face of Jim Garnier's head.
+& He will want to be near the face of his head.
+& He will succeed at being near the face of his head.
+& He will want for his right hand to move to the face of his head.
+& Jim Garnier will want to be near the face of Jim Garnier's head.
+& He will succeed at being near the face of his head.
+& His right hand will move to the face of his head.
+& His right hand will be near the face of his head.
+& Jim Garnier will succeed at moving to the face of Jim Garnier's head.
+& He will succeed at his right hand being near the face of his head.
+& He will rub the face of his head.
+& He will succeed at rubbing the face of his head.
+& Jim Garnier will want to rub Jim Garnier's left arm.
+& He will want for his right hand to be near his left arm.
+& He will want to be near his left arm.
+& He will succeed at being near his left arm.
+& Jim Garnier will want to move to Jim Garnier's left arm.
+& He will want to be near his left arm.
+& He will succeed at being near his left arm.
+& His right hand will move to his left arm.
+& Jim Garnier's right hand will be near Jim Garnier's left arm.
+& He will succeed at his right hand moving to his left arm.
+& He will succeed at his right hand being near his left arm.
+& Jim Garnier will rub Jim Garnier's left arm.
+& He will succeed at rubbing his left arm.
+& He will want to rub his right arm.
+& He will want for his right hand to be near his right arm.
+& Jim Garnier will want to be near Jim Garnier's right arm.
+& He will succeed at being near his right arm.
+& He will want for his right hand to move to his right arm.
+& He will want to be near his right arm.
+& Jim Garnier will succeed at being near Jim Garnier's right arm.
+& His right hand will move to his right arm.
+& His right hand will be near his right arm.
+& He will succeed at his right hand moving to his right arm.
+& Jim Garnier will succeed at being near Jim Garnier's right arm.
+& He will rub his right arm.
+& He will succeed at rubbing his right arm.
+& He will want to rub his trunk.
+& Jim Garnier will want to be near Jim Garnier's trunk.
+& He will want to be near his trunk.
+& He will succeed at being near his trunk.
+& He will want for his right hand to move to his trunk.
+& Jim Garnier will want to be near Jim Garnier's trunk.
+& He will succeed at being near his trunk.
+& His right hand will move to his trunk.
+& His right hand will be near his trunk.
+& Jim Garnier will succeed at moving to Jim Garnier's trunk.
+& He will succeed at his right hand being near his trunk.
+& He will rub his trunk.
+& He will succeed at rubbing his trunk.
+& Jim Garnier will want to rub Jim Garnier's left leg.
+& He will want for his right hand to be near his left leg.
+& He will want to be near his left leg.
+& He will succeed at being near his left leg.
+& Jim Garnier will want to move to Jim Garnier's left leg.
+& He will want to be near his left leg.
+& He will succeed at being near his left leg.
+& His right hand will move to his left leg.
+& Jim Garnier's right hand will be near Jim Garnier's left leg.
+& He will succeed at his right hand moving to his left leg.
+& He will succeed at his right hand being near his left leg.
+& Jim Garnier will rub Jim Garnier's left leg.
+& He will succeed at rubbing his left leg.
+& He will want to rub his right leg.
+& He will want for his right hand to be near his right leg.
+& Jim Garnier will want to be near Jim Garnier's right leg.
+& He will succeed at being near his right leg.
+& He will want for his right hand to move to his right leg.
+& He will want to be near his right leg.
+& Jim Garnier will succeed at being near Jim Garnier's right leg.
+& His right hand will move to his right leg.
+& His right hand will be near his right leg.
+& He will succeed at his right hand moving to his right leg.
+& Jim Garnier will succeed at being near Jim Garnier's right leg.
+& He will rub his right leg.
+& He will succeed at rubbing his right leg.
+& He will want for the bath shower to be off.
+& Jim Garnier will want for the cold faucet of the bath of the bath shower to
+& be set to 0.
+& He will want to flip to a knob position 0 the bath of the bath shower.
+& He will want for his right hand to be near the cold faucet of the bath of the
+& bath shower.
+& He will want to be near the cold faucet of the bath of the bath shower.
+& Jim Garnier will succeed at being near the cold faucet of the bath of the
+& bath shower.
+& He will want for his right hand to move to the cold faucet of the bath of the
+& bath shower.
+& He will want to be near the cold faucet of the bath of the bath shower.
+& He will succeed at being near the cold faucet of the bath of the bath shower.
+& Jim Garnier's right hand will move to the cold faucet of the bath of the bath
+& shower.
+& His right hand will be near the cold faucet of the bath of the bath shower.
+& Jim Garnier will succeed at moving to the cold faucet of the bath of the bath
+& shower.
+& He will succeed at his right hand being near the cold faucet of the bath of
+& the bath shower.
+& He will flip to a knob position 0 the bath of the bath shower.
+& The cold faucet of the bath of the bath shower will be set to 0.
+& Jim Garnier will succeed at flipping to a knob position 0 the bath of the
+& bath shower.
+& He will succeed at the cold faucet of the bath of the bath shower being set
+& to 0.
+& He will want for the hot faucet of the bath of the bath shower to be set to 0.
+& He will want to flip to a knob position 0 the bath of the bath shower.
+& Jim Garnier will want to be near the hot faucet of the bath of the bath
+& shower.
+& He will want to be near the hot faucet of the bath of the bath shower.
+& He will succeed at being near the hot faucet of the bath of the bath shower.
+& He will want for his right hand to move to the hot faucet of the bath of the
+& bath shower.
+& Jim Garnier will want to be near the hot faucet of the bath of the bath
+& shower.
+& He will succeed at being near the hot faucet of the bath of the bath shower.
+& His right hand will move to the hot faucet of the bath of the bath shower.
+& His right hand will be near the hot faucet of the bath of the bath shower.
+& Jim Garnier will succeed at moving to the hot faucet of the bath of the bath
+& shower.
+& He will succeed at his right hand being near the hot faucet of the bath of
+& the bath shower.
+& He will flip to a knob position 0 the bath of the bath shower.
+& The hot faucet of the bath of the bath shower will be set to 0.
+& The bath shower will be off.
+& Jim Garnier will succeed at flipping to a knob position 0 the bath of the
+& bath shower.
+& He will succeed at the hot faucet of the bath of the bath shower being set to
+& 0.
+& He will succeed at the bath shower being off.
+& He will want to grasp the towel.
+& Jim Garnier will want to be near the towel.
+& He will want to be near the towel.
+& He will want to walk to the towel from the bath shower.
+& He will succeed at being standing.
+& Jim Garnier will walk to the towel from the bath shower.
+& He will be in his bathroom.
+& He will succeed at walking to the towel from the bath shower.
+& He will succeed at being near the towel.
+& Jim Garnier will want to move to the towel.
+& He will want to be near the towel.
+& He will succeed at being near the towel.
+& His right hand will move to the towel.
+& Jim Garnier's right hand will be near the towel.
+& He will succeed at his right hand moving to the towel.
+& Jim Garnier will succeed at being near the towel.
+& He will grasp the towel.
+& He will hold the towel.
+& He will succeed at grasping the towel.
+& Jim Garnier will want to rub the hair of Jim Garnier's head.
+& He will want for his right hand to be near the hair of his head.
+& He will want to be near the hair of his head.
+& He will succeed at being near the hair of his head.
+& Jim Garnier will want to move to the hair of Jim Garnier's head.
+& He will want to be near the hair of his head.
+& He will succeed at being near the hair of his head.
+& His right hand will move to the hair of his head.
+& Jim Garnier's right hand will be near the hair of Jim Garnier's head.
+& He will succeed at his right hand moving to the hair of his head.
+& He will succeed at his right hand being near the hair of his head.
+& Jim Garnier will rub the hair of Jim Garnier's head.
+& He will succeed at rubbing the hair of his head.
+& He will want to rub the face of his head.
+& He will want for his right hand to be near the face of his head.
+& Jim Garnier will want to be near the face of Jim Garnier's head.
+& He will succeed at being near the face of his head.
+& He will succeed at his right hand being near the face of his head.
+& He will rub the face of his head.
+& Jim Garnier will succeed at rubbing the face of Jim Garnier's head.
+& He will want to rub his left arm.
+& He will want for his right hand to be near his left arm.
+& He will want to be near his left arm.
+& Jim Garnier will succeed at being near Jim Garnier's left arm.
+& He will want for his right hand to move to his left arm.
+& He will want to be near his left arm.
+& He will succeed at being near his left arm.
+& Jim Garnier's right hand will move to Jim Garnier's left arm.
+& His right hand will be near his left arm.
+& He will succeed at his right hand moving to his left arm.
+& Jim Garnier will succeed at being near Jim Garnier's left arm.
+& He will rub his left arm.
+& He will succeed at rubbing his left arm.
+& He will want to rub his right arm.
+& Jim Garnier will want to be near Jim Garnier's right arm.
+& He will want to be near his right arm.
+& He will succeed at being near his right arm.
+& He will want for his right hand to move to his right arm.
+& Jim Garnier will want to be near Jim Garnier's right arm.
+& He will succeed at being near his right arm.
+& His right hand will move to his right arm.
+& His right hand will be near his right arm.
+& Jim Garnier will succeed at moving to Jim Garnier's right arm.
+& He will succeed at his right hand being near his right arm.
+& He will rub his right arm.
+& He will succeed at rubbing his right arm.
+& Jim Garnier will want to rub Jim Garnier's trunk.
+& He will want for his right hand to be near his trunk.
+& He will want to be near his trunk.
+& He will succeed at being near his trunk.
+& Jim Garnier will want to move to Jim Garnier's trunk.
+& He will want to be near his trunk.
+& He will succeed at being near his trunk.
+& His right hand will move to his trunk.
+& Jim Garnier's right hand will be near Jim Garnier's trunk.
+& He will succeed at his right hand moving to his trunk.
+& He will succeed at his right hand being near his trunk.
+& Jim Garnier will rub Jim Garnier's trunk.
+& He will succeed at rubbing his trunk.
+& He will want to rub his left leg.
+& He will want for his right hand to be near his left leg.
+& Jim Garnier will want to be near Jim Garnier's left leg.
+& He will succeed at being near his left leg.
+& He will want for his right hand to move to his left leg.
+& He will want to be near his left leg.
+& Jim Garnier will succeed at being near Jim Garnier's left leg.
+& His right hand will move to his left leg.
+& His right hand will be near his left leg.
+& He will succeed at his right hand moving to his left leg.
+& Jim Garnier will succeed at being near Jim Garnier's left leg.
+& He will rub his left leg.
+& He will succeed at rubbing his left leg.
+& He will want to rub his right leg.
+& Jim Garnier will want to be near Jim Garnier's right leg.
+& He will want to be near his right leg.
+& He will succeed at being near his right leg.
+& He will want for his right hand to move to his right leg.
+& Jim Garnier will want to be near Jim Garnier's right leg.
+& He will succeed at being near his right leg.
+& His right hand will move to his right leg.
+& His right hand will be near his right leg.
+& Jim Garnier will succeed at moving to Jim Garnier's right leg.
+& He will succeed at his right hand being near his right leg.
+& He will rub his right leg.
+& He will succeed at rubbing his right leg.
+& Jim Garnier will want to move to the heated towel rack.
+& He will want to be near the heated towel rack.
+& He will succeed at being near the heated towel rack.
+& His right hand will move to the heated towel rack.
+& Jim Garnier's right hand will be near the heated towel rack.
+& He will succeed at his right hand moving to the heated towel rack.
+& Jim Garnier will want to let go of the towel.
+& He will let go of the towel.
+& He will succeed at letting go of the towel.
+& He takes a shower.
+& Jim Garnier will succeed at taking a shower.
+& He will be happy.
+& He will be happy, since he will succeed at taking a shower.

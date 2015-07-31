@@ -1,0 +1,105 @@
+<html>
+<head><title>ThoughtTreasure knowledge base query</title></head>
+<body bgcolor="#ffffff">
+<center>
+<hr noshade size=5>
+<font size=6 color="#ff0000">ThoughtTreasure</font>
+<font size=5>query</font><br>
+<hr noshade size=5>
+<form method=get action="query.cgi">
+Query ThoughtTreasure for
+<select name=qtype><option>word<option>obj<option>le<option>grep</select><br>
+<input type=text name="qword" size=40>
+<input type=submit value="Submit"><br>
+<input type=checkbox name=-anc value="1">Ancestors</input>
+<input type=checkbox name=-desc value="1">Descendants</input>
+<input type=checkbox name=-parent value="1">Parents</input>
+<input type=checkbox name=-child value="1">Children</input><br>
+<input type=checkbox name=-assert value="1">Assertions</input>
+<input type=checkbox name=-frame value="1">Argument structure</input><br>
+</form>
+</center>
+Examples:<br>
+word; <em>eat</em>; Assertions - View eating scripts.<br>
+word; <em>put</em>; Argument structure - View frames of <em>put</em> verbs.<br>
+word; <em>food</em>; Descendants - Show food hierarchy.<br>
+obj; <em>tennis-ball</em>; Assertions - Show assertions on <tt>tennis-ball</tt>
+object.<br>
+le; <em>green-Az</em> - Show lexical entry. (A = adjective, z = English)
+<hr noshade size=5>
+<center>
+<font size=5>Human and physical object queries</font><br>
+Examples: <em>medical doctor</em>, <em>teacher</em>, <em>spaceship</em>,
+<em>shampoo</em>.
+<form method=get action="query.cgi">
+What (does/do) (a/an) <input type=text name="qword" size=20> do?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="hrole2event"></input>
+</form>
+<form method=get action="query.cgi">
+What (is/are) (a/an) <input type=text name="qword" size=20> used for?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="prole2event"></input>
+</form>
+<form method=get action="query.cgi">
+Where (is/are) (a/an) <input type=text name="qword" size=20> found?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="role2loc"></input>
+</form>
+</center>
+<hr noshade size=5>
+<center>
+<font size=5>Action queries</font><br>
+Examples: <em>sleep</em>,
+<em>eat in a restaurant</em>,
+<em>attend a play</em>,<br>
+<em>sleeping</em>,
+<em>eating in a restaurant</em>,
+<em>visiting a museum</em>,<br>
+<em>restaurant meal</em>,
+<em>museum visit</em>.
+<form method=get action="query.cgi">
+What (does/do) (a/an) <input type=text name="qword" size=20> consist of?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="action2event"></input>
+</form>
+<form method=get action="query.cgi">
+What is the result of <input type=text name="qword" size=20>?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="action2result"></input>
+</form>
+<form method=get action="query.cgi">
+Where does one <input type=text name="qword" size=20>?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="action2loc"></input>
+</form>
+<form method=get action="query.cgi">
+How long (does/do) (a/an) <input type=text name="qword" size=20> take?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="action2dur"></input>
+</form>
+<form method=get action="query.cgi">
+How often does one <input type=text name="qword" size=20>?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="action2period"></input>
+</form>
+<form method=get action="query.cgi">
+How much (does/do) (a/an) <input type=text name="qword" size=20> cost?
+<input type=submit value="Submit">
+<input type=hidden name=qtype value="action2cost"></input>
+</form>
+</center>
+<hr noshade size=5>
+<center>
+<font size=5>Script recognition</font><br>
+(Simplified demo with shallow search.)
+<form method=post action="query.cgi">
+Enter English text here:<br>
+<textarea wrap=virtual name=text rows=5 cols=50>
+</textarea>
+<br>
+<input type=submit name="text2script" value="Submit">
+</form>
+</center>
+</body>
+</html>

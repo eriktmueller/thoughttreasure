@@ -1,0 +1,6 @@
+#corpusload -lang z -dir /home/corpus/english/books
+corpusload -lang z -dir /home/corpus/english/faq
+corpusload -lang z -dir /home/corpus/english/minsky
+corpusload -lang z -dir /home/corpus/english/usenet199509
+corpusload -lang z -dir /home/corpus/english/usenet199510
+corpusload -lang z -dir /home/corpus/english/usenet199511

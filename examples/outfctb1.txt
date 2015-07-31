@@ -1,0 +1,576 @@
+> Hi there.
+UNDERSTANDING TREE:
+[Z [U <Hi there.Uz:hi there>]]
+UNDERSTANDING CONCEPT:
+@na:na#-536870900|[interjection-of-greeting Jim TT]
+Hello.
+> How are you?
+UNDERSTANDING TREE:
+[Z [x <How are you.xzQ:how are you>]]
+UNDERSTANDING CONCEPT:
+@na:na#111|[how-are-you Jim TT]
+Very well, thank you.
+> What is your name?
+UNDERSTANDING TREE:
+[Z [x <What is your name.xzQ:what is your name>]]
+UNDERSTANDING CONCEPT:
+@na:na#1111|[name-request Jim TT]
+Thomas.
+> What is your address?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <your.2·Dz¸:his>]
+   [X [N <address.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#11119|[present-indicative
+ [email-address-of TT object-interrogative-pronoun]]
+"Thomas_Tiberius@email.francenet.fr" was my email address between April 1994
+and Monday October 23, 1995. "tt@signiform.com" is my email address since Monday
+October 23, 1995.
+> How big are you?
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <big.Az¸>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [H <you.2Hz¸:he>]]]
+UNDERSTANDING CONCEPT:
+@na:na#111191|[degree-interrogative-adverb
+ [big TT]]
+4738120 bytes is my storage size. 0.1 meters is the width of a human. 0.3
+meters is the length of a human. 1.7 meters is the height of a human.
+> What is my name?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <my.1S·Dz¸:his>]
+   [X [N <name.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1111920|[present-indicative
+ [first-name-of Jim object-interrogative-pronoun]]
+Jim is your first name.
+> What is my first surname?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <my.1S·Dz¸:his>]
+   [X [N <first surname.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#11119203|[present-indicative
+ [first-surname-of Jim object-interrogative-pronoun]]
+Garnier is your first family name.
+> How tall am I?
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <tall.Az>]]]
+ [W
+  [W [V <am.p1SVz¸:be>]]
+  [H <I.1SHz¸:he>]]]
+UNDERSTANDING CONCEPT:
+@na:na#111192031|[degree-interrogative-adverb
+ [tall Jim]]
+You are of average height.
+> Why?
+UNDERSTANDING TREE:
+[Z [U <Why.·Uz¸:why>]]
+UNDERSTANDING CONCEPT:
+@na:na#1111920312|[explanation-request Jim TT]
+You are of average height, because 1.7 meters is the height of a human.
+> Exactly how tall am I?
+UNDERSTANDING TREE:
+[Z
+ [B <Exactly.Bz:exactly>]
+ [Z
+  [E
+   [B <how.·Bz¸>]
+   [E [A <tall.Az>]]]
+  [W
+   [W [V <am.p1SVz¸:be>]]
+   [H <I.1SHz¸:he>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1765698767|[adverb-exactly
+ [degree-interrogative-adverb
+  [tall Jim]]]
+1.7 meters is the height of a human.
+> What is my height?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <my.1S·Dz¸:his>]
+   [X [N <height.SNz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-477118480|[present-indicative
+ [altitude-of Jim object-interrogative-pronoun]]
+An object is your altitude.
+> What is today's date?
+UNDERSTANDING TREE:
+[Z [x <What is today s date.xzQ:what is today s date>]]
+UNDERSTANDING CONCEPT:
+@na:na#-476217503|[current-date-request Jim TT]
+It is Thursday February 15, 1996.
+> What time is it?
+UNDERSTANDING TREE:
+[Z [x <What time is it.xzQ:what time is it>]]
+UNDERSTANDING CONCEPT:
+@na:na#-467207733|[current-time-request Jim TT]
+It is quarter to one pm.
+> Exactly what time is it?
+UNDERSTANDING TREE:
+[Z
+ [B <Exactly.Bz:exactly>]
+ [Z [x <what time is it.xzQ>]]]
+UNDERSTANDING CONCEPT:
+@na:na#-377110032|[adverb-of-agreement
+ [current-time-request Jim TT]]
+It is quarter to one pm.
+> Is Irish soda bread a drink?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W [V <Is.p3SVz¸:be>]]
+  [X
+   [X [N <Irish soda bread.SNz>]]
+   [X
+    [D <a.S·Dz¸>]
+    [X [N <drink.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#523866982|[isa na Irish-soda-bread2377]
+> Is bread food?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Is.p3SVz¸:be>]]
+   [X [N <bread.SNz¸>]]]
+  [X [N <food.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#943702526|[isa bread food]
+Yes, bread is in fact a type of food.
+> Is food bread?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Is.p3SVz¸:be>]]
+   [X [N <food.SNz¸>]]]
+  [X [N <bread.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#847090670|[isa food bread]
+Bread is a type of food.
+> What is bread?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [N <bread.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-119027890|[present-indicative
+ [standard-copula object-interrogative-pronoun bread]]
+ENG bread U; FR pain M;
+
+Bread is a type of food. Types of bread: challah, corn bread, matzo, soda
+bread, the "pain de fantaisie", the biscuit, the English muffin, the long loaf
+of bread, the pita, the pretzel, the round loaf of bread, the slice of bread,
+and the small bread. Other types of food: cereal, fruit, meat, pastries,
+seafood, the beverage, the condiment, the confection, the dairy product, the
+egg, the sandwich, the spice, and the vegetable.
+
+Bread. A long loaf of bread.
+
+> Are elephants purple?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <elephants.PNz:elephant>]]]
+  [E [A <purple.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1190278899|[purple elephant]
+No, they are not purple. Elephants are grey.
+> Are elephants grey?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <elephants.PNz:elephant>]]]
+  [E [A <grey.6Az¸:gray>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#982112899|[gray elephant]
+Yes, they are in fact grey.
+> What color are elephants?
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <What.·Dz¸:what>]
+  [X [N <color.ÀSNz¸>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <elephants.PNz:elephant>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1231194401|[present-indicative
+ [standard-copula
+  [question-element color interrogative-identification-determiner]
+  elephant]]
+They are grey.
+> Are elephants dumb?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <elephants.PNz:elephant>]]]
+  [E [A <dumb.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-572957877|[intelligent elephant NUMBER:u:-0.55]
+No, they are not stupid. Elephants are grey.
+> How tall are elephants?
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <tall.Az>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <elephants.PNz:elephant>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1434611473|[degree-interrogative-adverb
+ [tall elephant]]
+They are tall.
+> Why?
+UNDERSTANDING TREE:
+[Z [U <Why.·Uz¸:why>]]
+UNDERSTANDING CONCEPT:
+@na:na#-1461212840|[explanation-request Jim TT]
+An elephant is tall, because 3 meters is the height of an elephant.
+> How big are elephants?
+UNDERSTANDING TREE:
+[Z
+ [E
+  [B <How.·Bz¸:how>]
+  [E [A <big.Az¸>]]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <elephants.PNz:elephant>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1727226511|[degree-interrogative-adverb
+ [big elephant]]
+3 meters is the height of an elephant.
+> Are ants intelligent?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <ants.PNz:ant>]]]
+  [E [A <intelligent.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-92395925|[intelligent ant]
+No, they are not intelligent.
+> Are human beings intelligent?
+UNDERSTANDING TREE:
+[Z
+ [W
+  [W
+   [W [V <Are.pPVz¸:be>]]
+   [X [N <human beings.PNz:human being>]]]
+  [E [A <intelligent.Az¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-923959249|[intelligent human]
+Yes, humans are in fact intelligent.
+> What is the most dense atom?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X
+   [D <the.Dz¸>]
+   [X
+    [E
+     [B <most.8·Bz¸:much>]
+     [E [A <dense.6Az¸>]]]
+    [X [N <atom.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-649657895|[present-indicative
+ [standard-copula
+  object-interrogative-pronoun
+  [such-that
+   atom
+   [dense atom maximal]]]]
+Lawrencium.
+> What is the least dense atom?
+UNDERSTANDING TREE:
+[X
+ [E [A <dense.6Az¸>]]
+ [X [N <atom.SNz¸>]]]
+UNDERSTANDING CONCEPT:
+@na:na#2093355644|[dense atom]
+No, atoms are not dense.
+> What is the circumference of the Earth?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W
+   [W [V <is.p3SVz¸:be>]]
+   [X
+    [D <the.Dz¸>]
+    [X [N <circumference.SNz>]]]]
+  [Y
+   [R <of.Rz¸>]
+   [X
+    [D <the.Dz¸>]
+    [X [N <Earth.SNz¸:earth>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-541280039|[present-indicative
+ [circumference-of Earth object-interrogative-pronoun]]
+40003236 meters is its circumference.
+> What is the capital of New Jersey?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W
+   [W [V <is.p3SVz¸:be>]]
+   [X
+    [D <the.Dz¸>]
+    [X [N <capital.SNz>]]]]
+  [Y
+   [R <of.Rz¸>]
+   [X [N <New Jersey.SNz>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1117833093|[present-indicative
+ [capital-of New-Jersey object-interrogative-pronoun]]
+Trenton is its capital.
+> Who assassinated Henri IV?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <assassinated.iVz:assassinate>]]
+  [X [N <Henri IV.Nz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1706570961|[preterit-indicative
+ [assassinate human-interrogative-pronoun Henry-IV-France]]
+François Ravaillac assassinated him.
+> Who created Bugs Bunny?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <created.iVz:create>]]
+  [X [N <Bugs Bunny.SMNz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-114159573|[preterit-indicative
+ [create human-interrogative-pronoun Bugs-Bunny]]
+Tex Avery created Bugs Bunny.
+> Who painted _Le Déjeuner sur l'herbe_?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <painted.iVz:paint>]]
+  [X [MEDIA_OBJ Le-Dejeuner-sur-l-herbe]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-1141595729|[preterit-indicative
+ [create human-interrogative-pronoun Le-Dejeuner-sur-l-herbe]]
+Édouard Manet painted "Le Déjeuner sur l'herbe".
+> Who is the President of the United States?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W
+   [W [V <is.p3SVz¸:be>]]
+   [X
+    [D <the.Dz¸>]
+    [X [N <President.SNz¸:president>]]]]
+  [Y
+   [R <of.Rz¸>]
+   [X
+    [D <the.Dz¸>]
+    [X [N <United States.Nz>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1468944599|[present-indicative
+ [President-of United-States human-interrogative-pronoun]]
+John Fitzgerald Kennedy and Lyndon Baines Johnson were its presidents. Richard
+Milhous Nixon was its president. Gerald Ford was its president between 1974 and
+Thursday January 20, 1977. Jimmy Carter was the president of the United States
+between Thursday January 20, 1977 and Tuesday January 20, 1981. Ronald Reagan
+was its president between Tuesday January 20, 1981 and Friday January 20, 1989.
+George Bush was the president of the United States between Friday January 20,
+1989 and Wednesday January 20, 1993. Bill Clinton is its president since
+Wednesday January 20, 1993.
+> Who is the President of France?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W
+   [W [V <is.p3SVz¸:be>]]
+   [X
+    [D <the.Dz¸>]
+    [X [N <President.SNz¸:president>]]]]
+  [Y
+   [R <of.Rz¸>]
+   [X [N <France.S·Nz¸>]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1804544103|[present-indicative
+ [President-of France human-interrogative-pronoun]]
+De Gaulle, Félix Gouin, Georges Bidault, Léon Blum, Vincent Auriol, and René
+Coty were its presidents. Georges Pompidou was its president. Giscard d'Estaing
+was its president between 1974 and 1981. François Mitterrand was the president
+of France between 1981 and May 1995. Jacques Chirac is its president since May
+1995.
+> What is the country code of the UK?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W
+   [W [V <is.p3SVz¸:be>]]
+   [X
+    [D <the.Dz¸>]
+    [X [N <country code.SNz>]]]]
+  [Y
+   [R <of.Rz¸>]
+   [X
+    [D <the.Dz¸>]
+    [X [N <UK.Nz>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#865571847|[present-indicative
+ [phone-prefix-of United-Kingdom object-interrogative-pronoun]]
+Country code "44" is its dialing prefix.
+> What are jeans?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <are.pPVz¸:be>]]
+  [X [N <jeans.PNz¸:jean>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#65783881|[present-indicative
+ [standard-copula object-interrogative-pronoun jean]]
+ENG jean U;
+
+Jean is a type of fabric. Other types of fabric: tarpaulin, tartan, terry
+cloth, Terylene, ticking, toile, towelling, tricot, tricotine, tulle, tussah,
+tussore, twill, Ultrasuede, veiling, Velon, velours, velure, velvet, velveteen,
+Vicara, vicuña, vinyl, Vinyon, voile, wash-and-wear fabric, watered fabric,
+webbing, wool, worsted, and others.
+
+Jean. Fabric. Gabardine.
+
+> What is amaretto?
+UNDERSTANDING TREE:
+[Z
+ [X [H <What.·Hz¸:what>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [N <amaretto.SNz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#657838812|[present-indicative
+ [standard-copula object-interrogative-pronoun amaretto]]
+ENG amaretto U; FR amaretto;
+
+Amaretto is a type of liqueur. Types of amaretto: the Amaretto di Saronno.
+Other types of liqueurs: anisette, banana liqueur, Benedictine, blackcurrant
+liqueur, Calvados, chartreuse, Cointreau, curaçao, fruit brandy, kümmel, lemon
+liqueur, maraschino, raspberry liqueur, the "anis", the peppermint cordial, the
+rakee, the ratafia, and Triple Sec.
+
+Amaretto. Frank McGee. A NBC Nightly News. John Chancellor. A today. Lew Wood.
+Lew. Lewis. Lewis Charle. A Fine Feathered Fink. Dan Tobin. Tobin.
+Anglo-American surname. Gene Roddenberry. A Star Trek: The Original Series. A
+Star Trek. WPIX-TV. A Wonder Years. The French TV channel M6. The Saint. Roger
+Moore. Moore. Mary Tyler Moore. A The Mary Tyler Moore Show. Nickelodeon.
+Superman. An adventure series. TNT. A Charlie's Angels.
+
+> Who is Noam Chomsky?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [NAME Noam Chomsky]]]]
+UNDERSTANDING CONCEPT:
+@na:na#-2011546470|[present-indicative
+ [standard-copula human-interrogative-pronoun Noam-Chomsky]]
+ENG Noam Chomsky M GENONLY; FR Noam Chomsky M GENONLY;
+
+
+Noam Chomsky is the author of Syntactic Structures, "Structures syntaxiques",
+Aspects of the Theory of Syntax, "Aspects de la théorie syntaxique", Lectures
+on Government and Binding, Some Concepts and Consequences of the Theory of
+Government and Binding, and "La nouvelle syntaxe". Noam is his first name.
+Chomsky is his first family name. He is male. Noam Chomsky invented generative
+grammar, an early transformational theory, and the standard theory. He invented
+government-binding theory in 1981. He invented X-bar theory in 1970.
+
+                              creation                                          
+______________ ______________ __________________________________________________
+               19691231190002 the standard theory early transformational theory 
+19700101000000 19700101000001 X-bar theory                                      
+19810101000000 19810101000001 government-binding theory                         
+
+Noam is his first name.
+
+
+Noam Chomsky. Syntactic Structures. Mouton. Publisher. A book. MIT Press.
+Semantic Interpretation in Generative Grammar. Ray Jackendoff. A lexical
+conceptual structure. A semantic representation. Bertrand Arthur William
+Russell. An A History of Western Philosophy. A Characteristica Universali.
+Wilhelm Gottfried Leibnitz. Germany. "Rostock". The city. A residence. An area.
+Georgia. "Atlanta". A building. WTBS-TV. Bewitched. A sitcom. The Fox East
+Coast feed. A Married With Children. The Fox West Coast feed. Fox. WNYW-TV. A
+MASH. "Canal Jimmy". A cable channel. Anne Coudenhove. A France 3 news. The
+French public TV channel France 3. "Carnaval". Jacqueline Pagnol. Pagnol.
+Marking of name. "Trésors des noms de familles". Me. Erik Thomas Mueller.
+Daydreamer. A story generation system. 2DWORLD.
+
+> Who is Jacques Chirac?
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [X [NAME Jacques Chirac]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1359371782|[present-indicative
+ [standard-copula human-interrogative-pronoun Jacques-Chirac]]
+ENG Jacques Chirac M GENONLY; FR Jacques Chirac M GENONLY;
+
+A Jacques Chirac is a human.
+
+Jacques Chirac is the president of France since May 1995. Jacque is his first
+name. Chirac is his first family name. He is male. Jacques Chirac is French. He
+holds a "promotion Vauban" from the "École nationale d'administration".
+
+Jacque is the first name of him and Jacques Attali. Attali is the first family
+name of Jacques Attali.
+
+
+Jacques Chirac. France. Ségolène Royal. Royal. Marking of name. "Trésors des
+noms de familles". Me. Erik Thomas Mueller. The United States. Washington State.
+"Olympia". The city. A location. An island.
+

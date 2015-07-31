@@ -1,0 +1,22 @@
+/* lexwf1.c */
+void WordFormInit(void);
+void WordFormRuleAdd(char *suffix1, char *lefeat1, char *linkfeat1, char *suffix2, char *lefeat2, char *linkfeat2, LexEntry *le1, LexEntry *le2);
+WordFormRule *WordFormGetRules(char *suffix1, char *lefeat1);
+Bool WordFormSkipLe(char *lefeat);
+Bool WordFormSkipLink(char *linkfeat);
+void WordFormBuildLeFeat(char *in, char *out);
+void WordFormBuildLinkFeat(char *in, char *out);
+Bool WordFormLinkIsCompat(char *f1, char *f2);
+void WordFormTrain3(char *suffix1, char *lefeat1, char *linkfeat1, char *suffix2, char *lefeat2, char *linkfeat2, LexEntry *le1, LexEntry *le2);
+void WordFormTrain2(char *word1, char *lefeat1, char *linkfeat1, char *word2, char *lefeat2, char *linkfeat2, LexEntry *le1, LexEntry *le2);
+void WordFormTrain1(ObjToLexEntry *ole1, ObjToLexEntry *ole2);
+void WordFormTrain(void);
+Bool WordFormUnderstand1(LexEntry *le, char *suffix, int stemlen);
+Bool WordFormUnderstand(LexEntry *le);
+ObjToLexEntry *WordFormGenerate1(LexEntry *le, char *suffix1, char *linkfeat1, char *lefeat2, char *linkfeat2, int stemlen, Obj *con);
+ObjToLexEntry *WordFormGenerate(Obj *con, char *lefeat2, char *linkfeat2);
+void WordFormFillin(void);
+void ReportWordFormHeader(Rpt *rpt, Discourse *dc);
+void ReportWordFormLine1(char *index, WordFormRule *wfr);
+void ReportWordFormLine(char *index, WordFormRule *wfr);
+void ReportWordForm(Text *text, Discourse *dc);

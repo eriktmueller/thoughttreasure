@@ -1,0 +1,211 @@
+SEMANTIC PARSE CONCEPTS:
+0.900:[past-participle
+ [director-of
+  Emma
+  [such-that
+   human
+   [NAME-of human NAME:"Douglas McGrath"]]]]
+0.900:[preterit-indicative
+ [director-of
+  Emma
+  [such-that
+   human
+   [NAME-of human NAME:"Douglas McGrath"]]]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of Emma Douglas-McGrath]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of Emma Douglas-McGrath]]
+UNDERSTANDING TREE:
+[Z
+ [X [NAME Douglas McGrath]]
+ [W
+  [W [V <directed.iVz:direct>]]
+  [X [MEDIA_OBJ Emma]]]]
+UNDERSTANDING CONCEPT:
+@na:na#14|[preterit-indicative
+ [director-of Emma Douglas-McGrath]]
+> The film is passionate.
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [strong-feeling
+  [definite-article film]]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [strong-feeling Emma]]
+UNDERSTANDING TREE:
+[Z
+ [X
+  [D <The.Dz¸:the>]
+  [X [N <film.SNz¸>]]]
+ [W
+  [W [V <is.p3SVz¸:be>]]
+  [E [A <passionate.Az>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#142|[present-indicative
+ [strong-feeling Emma]]
+> It's rated PG.
+SEMANTIC PARSE CONCEPTS:
+[present-indicative
+ [MPAA-rating-of subject-pronoun MPAA-PG]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [MPAA-rating-of Emma MPAA-PG]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <It.3SCHz¸:he>]]
+ [W
+  [W
+   [W [V <s.Íp3SVz¸:be>]]
+   [0 <rated.0z>]]
+  [X [N <PG.Nz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1422|[present-indicative
+ [MPAA-rating-of Emma MPAA-PG]]
+> Emma stars Gwyneth Paltrow as Emma Woodhouse.
+SEMANTIC PARSE CONCEPTS:
+0.810:[present-indicative
+ [actor-of
+  Emma
+  [such-that
+   human
+   [NAME-of human NAME:"Gwyneth Paltrow"]]
+  [such-that
+   human
+   [NAME-of human NAME:"Emma Woodhouse."]]]]
+0.810:[present-indicative
+ [actor-of
+  Emma
+  [such-that
+   human
+   [NAME-of human NAME:"Gwyneth Paltrow"]]
+  na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [actor-of Emma Gwyneth-Paltrow Emma-Woodhouse-]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [actor-of Emma Gwyneth-Paltrow na]]
+UNDERSTANDING TREE:
+[Z
+ [X [N <Emma.SNz>]]
+ [W
+  [W [V <stars.p3SVz:star>]]
+  [X
+   [X [NAME Gwyneth Paltrow]]
+   [Y
+    [R <as.·Rz¸>]
+    [X [NAME Emma Woodhouse.]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#14224|[present-indicative
+ [actor-of Emma Gwyneth-Paltrow na]]
+> She's lovely.
+SEMANTIC PARSE CONCEPTS:
+0.750:[present-indicative
+ [good subject-pronoun NUMBER:u:0.9]]
+0.900:[present-indicative
+ [beautiful subject-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [good Gwyneth-Paltrow NUMBER:u:0.9]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [beautiful Gwyneth-Paltrow]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <She.3SFHz¸:he>]]
+ [W
+  [W [V <s.Íp3SVz¸:be>]]
+  [E [A <lovely.Az>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#142244|[present-indicative
+ [beautiful Gwyneth-Paltrow]]
+> Who directed Emma?
+SEMANTIC PARSE CONCEPTS:
+0.810:[past-participle
+ [director-of Emma human-interrogative-pronoun]]
+0.810:[preterit-indicative
+ [director-of Emma human-interrogative-pronoun]]
+0.510:[past-participle
+ [director-of Emma rock-group-the-Who]]
+0.510:[preterit-indicative
+ [director-of Emma rock-group-the-Who]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of Emma human-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of Emma human-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[past-participle
+ [director-of Emma rock-group-the-Who]]
+ANAPHORIC PARSE CONCEPT:
+[preterit-indicative
+ [director-of Emma rock-group-the-Who]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <directed.iVz:direct>]]
+  [X [N <Emma.SNz>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#1422442|[preterit-indicative
+ [director-of Emma human-interrogative-pronoun]]
+Douglas McGrath directs Emma.
+> Emma is rated what?
+SEMANTIC PARSE CONCEPTS:
+0.900:[present-indicative
+ [MPAA-rating-of Emma determining-interrogative-pronoun]]
+0.900:[present-indicative
+ [MPAA-rating-of Emma object-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [MPAA-rating-of Emma determining-interrogative-pronoun]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [MPAA-rating-of Emma object-interrogative-pronoun]]
+UNDERSTANDING TREE:
+[Z
+ [X [N <Emma.SNz>]]
+ [W
+  [W
+   [W [V <is.p3SVz¸:be>]]
+   [0 <rated.0z>]]
+  [X [H <what.·Hz¸>]]]]
+UNDERSTANDING CONCEPT:
+@na:na#14224422|[present-indicative
+ [MPAA-rating-of Emma object-interrogative-pronoun]]
+Emma is rated PG.
+> Who stars in the film?
+SEMANTIC PARSE CONCEPTS:
+0.900:[present-indicative
+ [actor-of
+  [definite-article film]
+  human-interrogative-pronoun
+  na]]
+0.567:[present-indicative
+ [actor-of
+  [definite-article film]
+  rock-group-the-Who
+  na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [actor-of Emma human-interrogative-pronoun na]]
+ANAPHORIC PARSE CONCEPT:
+[present-indicative
+ [actor-of Emma rock-group-the-Who na]]
+UNDERSTANDING TREE:
+[Z
+ [X [H <Who.Hz:who>]]
+ [W
+  [W [V <stars.p3SVz:star>]]
+  [Y
+   [R <in.·Rz¸>]
+   [X
+    [D <the.Dz¸>]
+    [X [N <film.SNz¸>]]]]]]
+UNDERSTANDING CONCEPT:
+@na:na#142244221|[present-indicative
+ [actor-of Emma human-interrogative-pronoun na]]
+Gwyneth Paltrow stars in Emma.
